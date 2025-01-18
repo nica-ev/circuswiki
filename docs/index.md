@@ -13,5 +13,18 @@
 - [github-for-users](github-for-users.md)
 - [doc-sys](doc-sys.md)
 
+# Tags
+
+#tag1
+#tag2
+
+Lets see what these do...
+
+# Codeblocks
+
+```
+Und hier mal ein Codeblock
+mal sehen obs geht
+```
 # Bilder direkt eingebunden
 ![](abhuva_infographic_Question_marks_or_thought_bubbles_to_represe_ee08441e-b399-4128-8eb1-672be50574ef.png)
