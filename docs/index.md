@@ -1,17 +1,15 @@
 # Dokumentation NICA e.V.
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+**Diese Seite befindet sich im Moment im Testmodus! Dinge können kaputt sein, Informationen fehlerhaft.**
 
-## Commands
+>[!info]- Eine klappbare Infobox
+>check if this works
+>
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+# Direkte Verlinkung
 
-## Project layout
+[index](index.md)
+[wordpress-pages](wordpress-pages.md)
+[github-for-users](github-for-users.md)
+[doc-sys](doc-sys.md)
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
