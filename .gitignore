@@ -1,5 +1,6 @@
 ## Ignore MkDocs output
 site
+.obsidian
 
 
 ## Ignore Visual Studio temporary files, build results, and
