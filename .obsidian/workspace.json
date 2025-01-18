@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "docs/github-for-users.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "github-for-users"
             }
           }
         ],
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "docs/github-for-users.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Rückverweise für README"
+              "title": "Rückverweise für github-for-users"
             }
           },
           {
@@ -127,12 +127,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "docs/github-for-users.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Ausgehende Links von README öffnen"
+              "title": "Ausgehende Links von github-for-users öffnen"
             }
           },
           {
@@ -154,10 +154,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "docs/github-for-users.md"
               },
               "icon": "lucide-list",
-              "title": "Gliederung von README"
+              "title": "Gliederung von github-for-users"
             }
           }
         ]
@@ -179,7 +179,10 @@
   },
   "active": "1ca2cb36e494c230",
   "lastOpenFiles": [
-    "docs/Github for Users.md",
+    "README.md",
+    "site/Github for Users/index.html",
+    "site/Github for Users",
+    "docs/github-for-users.md",
     "docs/wordpress-pages.md",
     "docs/index.md",
     "docs/doc-sys.md"
