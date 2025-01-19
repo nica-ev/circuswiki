@@ -1,23 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>None</loc>
-         <lastmod>2025-01-18</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://nica-ev.github.io/docs/</loc>
+         <lastmod>2025-01-19</lastmod>
     </url>
     <url>
-         <loc>None</loc>
-         <lastmod>2025-01-18</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://nica-ev.github.io/docs/Testing%20Place/</loc>
+         <lastmod>2025-01-19</lastmod>
     </url>
     <url>
-         <loc>None</loc>
-         <lastmod>2025-01-18</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://nica-ev.github.io/docs/doc-sys/</loc>
+         <lastmod>2025-01-19</lastmod>
     </url>
     <url>
-         <loc>None</loc>
-         <lastmod>2025-01-18</lastmod>
-         <changefreq>daily</changefreq>
+         <loc>https://nica-ev.github.io/docs/github-for-users/</loc>
+         <lastmod>2025-01-19</lastmod>
+    </url>
+    <url>
+         <loc>https://nica-ev.github.io/docs/wordpress-pages/</loc>
+         <lastmod>2025-01-19</lastmod>
+    </url>
+    <url>
+         <loc>https://nica-ev.github.io/docs/tags/</loc>
+         <lastmod>2025-01-19</lastmod>
     </url>
 </urlset>
