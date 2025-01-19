@@ -1,3 +1,8 @@
+---
+tags:
+  - wordpress
+---
+
 # Kurzanleitung:
 
 ## - Neue Seite aufbauen -

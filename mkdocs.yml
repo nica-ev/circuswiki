@@ -1,6 +1,36 @@
-site_name: My Docs
+site_name: NICA e.V. Documentation
+site_url: https://nica-ev.github.io/docs/
+
 theme:
-  name: windmill
+  name: material
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.top
+    - navigation.tracking
+    - navigation.path
+    - navigation.prune
+    - toc.follow
+
+markdown_extensions:
+  - nl2br
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+plugins:
+  - search
+  - callouts
+  - tags:
+      tags_file: tags.md
+
 nav:
   - Home: index.md
   - Wordpress:
@@ -8,3 +38,9 @@ nav:
   - Stuff:
     - Dokumentations System: doc-sys.md
     - Github: github-for-users.md
+
+extra:
+  version: v0.01
+  article_nav_top: false
+  article_nav_bottom: false
+  history_buttons: true
