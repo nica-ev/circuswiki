@@ -2,12 +2,11 @@
 tags:
   - wordpress
 ---
+# Eine neue Page (Seite) in Wordpress bauen
 
-# Kurzanleitung:
+Am besten schaust du dir dieses Tutorial direkt in Wordpress an (dazu brauchst Du natürlich einen Zugang - solltest Du keinen haben kannst Du das Tutorial hier lesen)
 
-## - Neue Seite aufbauen -
-
-Am besten schaust du dir diese Seite im Bearbeitungsmodus an. Dann kannst du gleich nachvollziehen, was gemeint ist. Zum Ausprobieren kann es sich lohnen, eine **Testseite** zu **erstellen** und diese im Anschluss einfach wieder zu löschen.
+[Direkt in Wordpress ansehen](https://nica.network/kurzanleitung){ .md-button }
 
 ---
 

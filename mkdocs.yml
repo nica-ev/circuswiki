@@ -33,14 +33,9 @@ plugins:
 
 nav:
   - Home: index.md
-  - Wordpress:
-    - Neue Seite erstellen: wordpress-pages.md
-  - Stuff:
-    - Dokumentations System: doc-sys.md
-    - Github: github-for-users.md
-
-extra:
-  version: v0.01
-  article_nav_top: false
-  article_nav_bottom: false
-  history_buttons: true
+  - Themen:
+    - Digitale Infrastruktur: digital-infrastruktur.md
+    - Wordpress: wordpress.md
+    - Buchhaltung: buchhaltung.md
+    - Nextcloud: nextcloud.md
+  - Mitmachen: github-for-users.md
