@@ -1,6 +1,14 @@
 ## Ignore MkDocs output
 site
 .obsidian
+.trash
+_dataview
+_canvas
+_attachments
+_templates
+_inbox
+_sonstiges
+.pub_min_cache
 
 
 ## Ignore Visual Studio temporary files, build results, and

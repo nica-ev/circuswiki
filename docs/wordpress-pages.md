@@ -1,7 +1,15 @@
 ---
+publish: true
 tags:
   - wordpress
+  - tutorial
+created: 2025-01-18 21:15:11
+update: 2025-01-23 05:46:07
+title: Eine neue Seite in Wordpress bauen
+authors:
+  - Piiit
 ---
+
 # Eine neue Page (Seite) in Wordpress bauen
 
 Am besten schaust du dir dieses Tutorial direkt in Wordpress an (dazu brauchst Du natürlich einen Zugang - solltest Du keinen haben kannst Du das Tutorial hier lesen)

@@ -1,5 +1,12 @@
 ---
-tags: []
+publish: true
+tags:
+  - "#moc"
+created: 2025-01-21 20:42:26
+update: 2025-01-24 04:02:23
+title: Home
+authors:
+  - Marc Bielert
 ---
 
 # Dokumentation NICA e.V.
@@ -13,8 +20,7 @@ tags: []
 >- Die Seitenleiste rechts ist wie ein Inhaltsverzeichniss für die aktuelle Seite, hilfreich bei langen Dokumenten
 >
 >> [!DANGER] TESTMODUS
-> **Diese Seite befindet sich im Moment im Testmodus! Dinge können kaputt sein, 
-> Informationen fehlerhaft.**
+> **Diese Seite befindet sich im Moment im Testmodus! Dinge können kaputt sein, Informationen fehlerhaft.**
 
 ---
 
@@ -26,7 +32,7 @@ tags: []
 
     Wie unsere Buchhaltung funktioniert und welche Systeme wir dafür nutzen
 
-    [:octicons-arrow-right-24: Buchhaltung](buchhaltung.md){  .md-button }
+    [[buchhaltung|:octicons-arrow-right-24: Buchhaltung]]{  .md-button }
 
 -   :fontawesome-brands-markdown:{ .lg .middle } __Digitale Infrastruktur__
 
@@ -34,7 +40,7 @@ tags: []
 
     Eine Übersicht über die verschiedenen System und Dienste die wir digital nutzen und wie diese interagieren
 
-    [:octicons-arrow-right-24: Digitale Infrastruktur](digital-infrastruktur.md){  .md-button }
+    [[digital-infrastruktur|:octicons-arrow-right-24: Digitale Infrastruktur]]{  .md-button }
 
 -   :material-format-font:{ .lg .middle } __Wordpress__
 
@@ -42,7 +48,7 @@ tags: []
 
     Ein genauerer Blick auf unsere Wordpress Nutzung
 
-    [:octicons-arrow-right-24: Wordpress](wordpress.md){  .md-button }
+    [[wordpress|:octicons-arrow-right-24: Wordpress]]{  .md-button }
 
 -   :material-scale-balance:{ .lg .middle } __Nextcloud__
 
@@ -50,8 +56,31 @@ tags: []
 
 	 Wie wir im Team digital zusammen arbeiten und welche Tools uns dabei helfen
 
-    [:octicons-arrow-right-24: Nextcloud](nextcloud.md){  .md-button }
+    [[nextcloud|:octicons-arrow-right-24: Nextcloud]]{  .md-button }
 
+-   :material-scale-balance:{ .lg .middle } __Dokumentation__
+
+    ---
+
+	 Wie diese Dokumentation aufgebaut ist, welche Software und Tools wir nutzen
+
+    [[doc-sys-2|:octicons-arrow-right-24: Dokumentation]]{  .md-button }
+
+-   :material-scale-balance:{ .lg .middle } __Bewegungs - Spiele__
+
+    ---
+
+	 Beschreibungen von Gruppenspielen aus dem sportlich - pädadischem Bereich
+
+    [[Bewegungs-Spiele|:octicons-arrow-right-24: Spiele]]{  .md-button }
+
+-   :material-scale-balance:{ .lg .middle } __Mitmachen__
+
+    ---
+
+	 Wie ihr euch beteiligen könnt.
+
+    [[mitmachen|:octicons-arrow-right-24: Mitmachen]]{  .md-button }
+    
 </div>
-
 

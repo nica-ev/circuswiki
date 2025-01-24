@@ -1,0 +1,27 @@
+---
+uid: 20210602182009
+date:  02 June 2021, 18:20:09
+publish: true
+tags:
+- "#Status/Seed"
+- "#Thema/Spiele"
+date updated: 24 August 2021, 23:13:02
+---
+
+# Klammern haschen
+
+**Gruppengröße**: Ab 5 Mitspieler
+**Schwierigkeit**: einfach
+**Material**: Wäscheklammern
+**Spieldauer**: 4 bis 6 Minuten
+
+## **Spielbeschreibung**:
+
+Alle Teilnehmer des Spiels befestigen sich eine bestimmte Anzahl an Wäscheklammern an der Kleidung, am besten am T-Shirt bzw. Oberteil. Nun versucht jeder, bei den anderen Klammern zu erhaschen. Dabei darf jedoch niemand festgehalten werden! Schafft man es eine Klammer zu schnappen, darf man sie zu den eigenen klemmen. Wenn das Spiel beendet wird, zählt jeder seine Klammern und es gewinnt derjenige, der die Meisten hat.
+
+**Alternative**:
+Alternativ ist das Spiel auch als Gruppenspiel spielbar. Alle Spieler werden in zwei oder mehr gleichgroße Teams eingeteilt. Jede Gruppe bekommt eine bestimmte Anzahl an Klammern der gleichen Farbe, mindestens jedoch so viele wie Spieler im Team. Nun hat jedes Team eine andere Farbe an Klammern. Nach Spielbeginn versuchen die Teams die Klammern der anderen Teams zu haschen und bei sich im Lager zu sammeln. Wer zuerst keine Klammern mehr hat, verliert. Wer zuletzt noch eigene hat gewinnt dementsprechend.
+
+## **Quelle**:
+
+Tasifan Spielebuch
