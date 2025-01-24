@@ -1,0 +1,25 @@
+---
+uid: 20210523203351
+date:  23 May 2021, 20:33:51
+publish: true
+tags:
+- "#Status/Seed"
+- "#Thema/Spiele"
+date updated: 24 August 2021, 23:28:40
+---
+
+# Niemand ist gern allein
+
+**Gruppengröße**: ab 8 Mitspieler
+**Schwierigkeit**: simpel
+**Material**: keins
+**Spieldauer**: solange es Spaß macht
+
+**Spielbeschreibung**:
+Alle Spieler stehen paarweise in einem Kreis, ausgenommen einem, der alleinsteht. Der Spieler, der alleinsteht, kann nun einen Namen sagen. Der Gerufene versucht ganz schnell zu dem Einzelnen zu laufen. Doch niemand ist gern allein: Deswegen versucht der Partner, von dem der gerufen wurde, ihn an den Schultern festzuhalten oder ihn schnell zu umarmen, bevor er wegrennen kann. Er darf ihm dabei nicht hinterherlaufen! Wenn es schon zu spät ist, kann er einen anderen Namen sagen und so einen neuen Partner an seine Seite bekommen.
+
+**Spielvariante für Fortgeschrittene**:
+Wem das zu leicht ist, der kann das Spiel auch so spielen, dass jeder den Namen seines aktuellen Partners annimmt. Das heißt die Pärchen tauschen die Namen. Tauscht sich während des Spiels der Nachbar, tauschen sich auch wieder die Namen.
+
+**Quelle**:
+Tasifan Spielebuch

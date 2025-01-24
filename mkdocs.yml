@@ -1,8 +1,30 @@
+# Project information
 site_name: NICA e.V. Documentation
 site_url: https://nica-ev.github.io/docs/
+site_author: Marc Bielert
+site_description: Dokumentationen über Prozesse und Abläufe des Vereines NICA e.V.
 
+# Repository
+repo_name: nica-ev/docs
+repo_url: https://github.com/nica-ev/docs
+
+# Copyright
+copyright: MIT 3.0
+
+# Theme
 theme:
   name: material
+  palette: 
+    # Palette toggle for light mode
+    - scheme: primary
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mod
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
   features:
     - navigation.instant
     - navigation.instant.progress
@@ -11,12 +33,19 @@ theme:
     - navigation.path
     - navigation.prune
     - toc.follow
+    - header.autohide
 
 markdown_extensions:
-  - nl2br
-  - admonition
+  - nl2br # treats markdown linebreaks as hard breaks
+  - admonition # enables the use of callouts
+  - toc:
+      permalink: true  
   - pymdownx.details
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.tabbed:
       alternate_style: true
   - attr_list
@@ -26,16 +55,17 @@ markdown_extensions:
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 plugins:
-  - search
-  - callouts
+  - search    # enables search bar
+  - pub-obsidian:
+      backlinks:
+        enabled: false  # currently disabled because of a bug with wikilinks and attributes
   - tags:
       tags_file: tags.md
 
 nav:
-  - Home: index.md
-  - Themen:
-    - Digitale Infrastruktur: digital-infrastruktur.md
-    - Wordpress: wordpress.md
-    - Buchhaltung: buchhaltung.md
-    - Nextcloud: nextcloud.md
-  - Mitmachen: github-for-users.md
+  - Home: 'index.md'
+  - Buchhaltung: 'buchhaltung.md'
+  - Digitale Infrastruktur: 'digital-infrastruktur.md'
+  - Wordpress: 'wordpress.md'
+  - Nextcloud: 'nextcloud.md'
+  - Dokumentations-System: 'doc-sys-2.md'

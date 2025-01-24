@@ -1,3 +1,15 @@
+---
+publish: true
+tags:
+  - github
+  - tutorial
+created: 2025-01-18 23:14:04
+update: 2025-01-23 05:45:14
+title: Github - Einführung
+authors:
+  - Marc Bielert
+---
+
 # Mitmachen bei der Doku – So geht's ganz einfach!
 
 Hallo zusammen! Wir freuen uns, dass ihr bei unserer Dokumentation mithelfen wollt. 😊 Hier ist eine einfache Anleitung, wie ihr das machen könnt:

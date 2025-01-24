@@ -1,0 +1,33 @@
+---
+uid: 20140129114300
+date: 29. Januar 2014, 11:43:00
+publish: true
+tags:
+- "#Status/InProgress"
+- "#Thema/Spiele"
+- "#Tags/Fangen"
+- "#Tags/Kinder"
+- "#Tags/Kompetitiv"
+date updated: 05 September 2021, 17:47:54
+---
+
+# Popcorn
+
+Fangespiel für alle Gruppengrößen, gut geeignet für Kinder und als Aufwärmspiel.
+
+Zu Beginn des Spieles sind alle Maiskörner, der Fußboden ist die heiße Herdplatte.
+Alle laufen herum als ob der Boden extrem heiß ist (Füße werden immer sehr schnell gesetzt und wieder weggenommen). Es wird nicht gerannt.
+
+Dabei rufen alle die ganze Zeit "heiß, heiß, heiß, heiß"
+
+Zu Beginn wird ein oder mehrere Personen (je nach Gruppengröße) als erstes Popcorn ausgewählt. Diese hüpft mit großen Sprüngen durch die Gegend und ruft immer "Pop, Pop, Pop, Pop"
+
+Stößt dieses Popcorn mit einem Maiskorn zusammen verwandelt sich das Maiskorn ebenfalls in ein Popcorn und fängt an herumzuhüpfen.
+
+Das Spiel endet sobald alle Maiskörner zu Popcorn geworden sind.
+
+## Querverweise
+
+[[Zombie - Hasche]]
+[[Pinguine und Killer-Flamingos]]
+
