@@ -1,17 +1,13 @@
 ---
-uid: 20190120173044
-date: 20. Januar 2019, 17:30:44
 publish: true
 tags:
-- "#Status/Seed"
-- "#Thema/Spiele"
-- "#Tags/Aufmerksamkeit"
-- "#Tags/Eigenschaften"
-- "#Tags/Fangen"
-- "#Tags/Kompetitiv"
-- "#Tags/Reaktion"
-- "#Tags/Rennen"
-date updated: 05 September 2021, 17:27:18
+  - spiele
+created: 2025-01-24 03:50:51
+update: 2025-01-25 01:59:37
+title: Mittelalter Schnick Schnack Schnuck
+description: 
+authors:
+  - Marc Bielert
 ---
 
 # Mittelalter Schnick Schnack Schnuck

@@ -1,18 +1,13 @@
 ---
-uid: 20190120180014
-date: 20. Januar 2019, 18:00:14
 publish: true
 tags:
-- "#Status/InProgress"
-- "#Thema/Spiele"
-- "#Tags/Aufmerksamkeit" 
-- "#Tags/Bewegung" 
-- "#Tags/Kooperativ" 
-- "#Tags/Kreis" 
-- "#Tags/Reaktion" 
-- "#Tags/Wahrnehmung" 
-date created: Thursday, May 7th 2020, 11:17:09 pm
-date modified: Friday, November 12th 2021, 11:37:02 am
+  - spiele
+created: 2025-01-24 03:50:51
+update: 2025-01-25 01:21:32
+title: Verheiratet, Geschieden
+description: 
+authors:
+  - Marc Bielert
 ---
 
 #  Verheiratet, Geschieden

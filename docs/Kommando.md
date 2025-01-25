@@ -1,11 +1,13 @@
 ---
-uid: 20210526155552
-date:  26 May 2021, 15:55:52
 publish: true
 tags:
-- "#Status/Seed"
-- "#Thema/Spiele"
-date updated: 24 August 2021, 23:13:53
+  - spiele
+created: 2025-01-24 03:50:50
+update: 2025-01-24 23:16:10
+title: Kommando
+description: 
+authors:
+  - Marc Bielert
 ---
 
 # Kommando

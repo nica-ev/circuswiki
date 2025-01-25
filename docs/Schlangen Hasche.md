@@ -1,17 +1,13 @@
 ---
-uid: 20190120174848
-date: 20. Januar 2019, 17:48:48
 publish: true
 tags:
-- "#Status/Seed"
-- "#Thema/Spiele"
-- "#Tags/Aufmerksamkeit"
-- "#Tags/Aufwärmen"
-- "#Tags/Bewegung"
-- "#Tags/Fangen"
-- "#Tags/Kompetitiv"
-- "#Tags/Rennen"
-date updated: 05 September 2021, 18:08:28
+  - spiele
+created: 2025-01-24 03:50:51
+update: 2025-01-25 00:59:23
+title: Schlangen Hasche
+description: 
+authors:
+  - Marc Bielert
 ---
 
 #  Schlangen Hasche

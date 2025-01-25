@@ -1,12 +1,14 @@
 ---
-uid: 20210202233406
-date: 02 February 2021, 23:34:06
 publish: true
 tags:
-- "#Status/Seed"
-- "#Type/MOC"
-- "#Thema/Spiele"
-date updated: 24 August 2021, 23:15:42
+  - spiele
+  - moc
+created: 2025-01-24 03:50:50
+update: 2025-01-24 23:19:15
+title: Kreisspiele
+description: 
+authors:
+  - Marc Bielert
 ---
 
 # Kreisspiele MOC

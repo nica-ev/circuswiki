@@ -1,13 +1,16 @@
 ---
-uid: 20210218233451
-date: 18 Februar 2021, 23:34:51
 publish: true
 tags:
-- "#Status/Seed"
-- "#Thema/Spiele"
-- "#Thema/Beigoma"
-date updated: 25 August 2021, 00:06:14
+  - spiele
+  - beigoma
+created: 2025-01-24 03:50:51
+update: 2025-01-25 01:13:07
+title: Tag Match Tournament
+description: 
+authors:
+  - Marc Bielert
 ---
+
 Einführung in das Spiel "Tag Match Tournament
 Dieses Spiel ist genau das Richtige für eine Gruppe von Teilnehmern mit einem großen Erfahrungsunterschied. Indem Sie sich mit erfahrenen Spielern zusammentun, ist es für Anfänger weniger wahrscheinlich, besiegt zu werden. Vor allem, da Sie gemeinsam kämpfen, werden Sie viel glücklicher sein, wenn Sie gewinnen!
 

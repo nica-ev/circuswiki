@@ -1,13 +1,13 @@
 ---
-uid: 20140626202600
-date: 26. Juni 2014, 20:26:00
 publish: true
 tags:
-- "#Status/InProgress"
-- "#Thema/Spiele"
-- "#Tags/Balancieren"
-- "#Tags/Grundlagen"
-date updated: 05 September 2021, 17:11:40
+  - spiele
+created: 2025-01-24 03:50:51
+update: 2025-01-24 23:23:24
+title: Luftballons Balancieren
+description: 
+authors:
+  - Marc Bielert
 ---
 
 # Luftballons Balancieren

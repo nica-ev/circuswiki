@@ -1,11 +1,13 @@
 ---
-uid: 20210602192019
-date:  02 June 2021, 19:20:19
 publish: true
 tags:
-- "#Status/Seed"
-- "#Thema/Spiele"
-date updated: 25 August 2021, 00:10:56
+  - spiele
+created: 2025-01-24 03:50:51
+update: 2025-01-25 01:22:10
+title: Vierfarbenfangen
+description: 
+authors:
+  - Marc Bielert
 ---
 
 # Vierfarbenfangen

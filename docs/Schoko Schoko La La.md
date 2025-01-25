@@ -1,17 +1,13 @@
 ---
-uid: 20140605214900
-date: 5. Juni 2014, 21:49:00
 publish: true
 tags:
-- "#Status/Seed"
-- "#Thema/Spiele"
-- "#Tags/Kinder"
-- "#Tags/Kompetitiv"
-- "#Tags/Kooperativ"
-- "#Tags/Koordination"
-- "#Tags/Reaktion"
-- "#Tags/Klatschspiel"
-date updated: 05 September 2021, 18:10:28
+  - spiele
+created: 2025-01-24 03:50:51
+update: 2025-01-25 01:04:19
+title: Schoko Schoko La La
+description: 
+authors:
+  - Marc Bielert
 ---
 
 # Schoko Schoko La La

@@ -1,14 +1,13 @@
 ---
-uid: 20140202100700
-date: 2. Februar 2014, 10:07:00
 publish: true
 tags:
-- "#Status/Seed"
-- "#Thema/Spiele"
-- "#Tags/Aufmerksamkeit"
-- "#Tags/Kompetitiv"
-- "#Tags/Kooperativ"
-date updated: 05 September 2021, 18:08:58
+  - spiele
+created: 2025-01-24 03:50:51
+update: 2025-01-25 01:00:12
+title: Schnell, schnell - an Ort und Stell
+description: 
+authors:
+  - Marc Bielert
 ---
 
 # Schnell, schnell - an Ort und Stell

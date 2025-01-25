@@ -1,16 +1,13 @@
 ---
-uid: 20190120174119
-date: 20. Januar 2019, 17:41:19
 publish: true
 tags:
-- "#Status/InProgress"
-- "#Thema/Spiele"
-- "#Tags/Aufwärmen"
-- "#Tags/Bewegung"
-- "#Tags/Kompetitiv"
-- "#Tags/Reaktion"
-- "#Tags/Wahrnehmung"
-date updated: 05 September 2021, 18:04:17
+  - spiele
+created: 2025-01-24 03:50:51
+update: 2025-01-25 00:56:05
+title: Ritter und Zwerge
+description: 
+authors:
+  - Marc Bielert
 ---
 
 # Ritter und Zwerge

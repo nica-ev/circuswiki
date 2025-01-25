@@ -1,16 +1,14 @@
 ---
-uid: 20210524201542
-date:  24 May 2021, 20:15:42
 publish: true
 tags:
-- "#Status/Seed"
-- "#Thema/Spiele"
-- "#Tags/Definition"
-- "#Tags/Bewegung"
-- "#Genre/Sport"
-- "#Tags/Grundlagen" 
-date created: Monday, May 24th 2021, 8:15:31 pm
-date modified: Monday, November 15th 2021, 1:16:49 am
+  - spiele
+  - info
+created: 2025-01-24 03:50:51
+update: 2025-01-25 00:45:33
+title: Merkmale der Bewegungsspiele
+description: 
+authors:
+  - Marc Bielert
 ---
 
 # Merkmale der Bewegungsspiele

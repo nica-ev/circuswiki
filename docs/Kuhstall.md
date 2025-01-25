@@ -1,15 +1,13 @@
 ---
-uid: 20190120172307
-date: 20. Januar 2019, 17:23:07
 publish: true
 tags:
-- "#Status/InProgress"
-- "#Thema/Spiele"
-- "#Tags/Aufmerksamkeit"
-- "#Tags/Reaktion"
-- "#Tags/Rennen"
-- "#Tags/Wahrnehmung"
-date updated: 05 September 2021, 17:05:29
+  - spiele
+created: 2025-01-24 03:50:50
+update: 2025-01-24 23:19:53
+title: Kuhstall
+description: 
+authors:
+  - Marc Bielert
 ---
 
 # Kuhstall

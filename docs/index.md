@@ -1,10 +1,11 @@
 ---
+created: 2025-01-21 20:42:26
+update: 2025-01-25 02:20:26
 publish: true
 tags:
-  - "#moc"
-created: 2025-01-21 20:42:26
-update: 2025-01-24 04:02:23
+  - moc
 title: Home
+description: 
 authors:
   - Marc Bielert
 ---

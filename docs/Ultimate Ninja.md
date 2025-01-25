@@ -1,11 +1,13 @@
 ---
-uid: 20210601155207
-date:  01 June 2021, 15:52:07
 publish: true
 tags:
-- "#Status/Seed"
-- "#Thema/Spiele"
-date updated: 25 August 2021, 00:09:49
+  - spiele
+created: 2025-01-24 03:50:51
+update: 2025-01-25 01:18:54
+title: Ultimate Ninja
+description: 
+authors:
+  - Marc Bielert
 ---
 
 # Ultimate Ninja

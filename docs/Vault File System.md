@@ -1,10 +1,12 @@
 ---
-publish: false
-tags: 
-title: 
 created: 2025-01-21 18:09:55
-update: 2025-01-23 05:40:08
+update: 2025-01-25 02:06:00
+publish: true
+tags: 
+title: Vault File System
+description: 
 authors:
+  - Marc Bielert
 ---
 
 ```code

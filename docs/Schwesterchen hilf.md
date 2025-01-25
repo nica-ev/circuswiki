@@ -1,11 +1,13 @@
 ---
-uid: 20210602182228
-date:  02 June 2021, 18:22:28
 publish: true
 tags:
-- "#Status/Seed"
-- "#Thema/Spiele"
-date updated: 25 August 2021, 00:02:12
+  - spiele
+created: 2025-01-24 03:50:51
+update: 2025-01-25 01:05:02
+title: Schwesterchen hilf
+description: 
+authors:
+  - Marc Bielert
 ---
 
 # **Schwesterchen hilf**

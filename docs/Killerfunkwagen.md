@@ -15,5 +15,5 @@ authors:
 Killerfunkwagen
 ähnlich Avatar
 
-#Status/ToDo mit Inhalt füllen oder löschen
+#todo mit Inhalt füllen oder löschen
 

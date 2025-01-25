@@ -1,11 +1,13 @@
 ---
-uid: 20210601200951
-date:  01 June 2021, 20:09:51
 publish: true
 tags:
-- "#Status/Seed"
-- "#Thema/Spiele"
-date updated: 24 August 2021, 23:30:34
+  - spiele
+created: 2025-01-24 03:50:51
+update: 2025-01-25 00:49:30
+title: Paar haschen & Kettenhaschen
+description: 
+authors:
+  - Marc Bielert
 ---
 
 # Paar haschen & Kettenhaschen

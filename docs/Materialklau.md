@@ -1,16 +1,13 @@
 ---
-uid: 20190120172908
-date: 20. Januar 2019, 17:29:08
 publish: true
 tags:
-- "#Status/InProgress"
-- "#Thema/Spiele"
-- "#Tags/Aufwärmen"
-- "#Tags/Bewegung"
-- "#Tags/Rennen"
-- "#Tags/Strategie"
-- "#Tags/Wahrnehmung"
-date updated: 05 September 2021, 17:17:15
+  - spiele
+created: 2025-01-24 03:50:51
+update: 2025-01-24 23:25:37
+title: Materialklau
+description: 
+authors:
+  - Marc Bielert
 ---
 
 # Materialklau

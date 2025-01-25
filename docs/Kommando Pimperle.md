@@ -1,16 +1,13 @@
 ---
-uid: 20190117224641
-date: 17. Januar 2019, 22:46:41
 publish: true
 tags:
-- "#Status/InProgress"
-- "#Thema/Spiele"
-- "#Tags/Aufmerksamkeit" 
-- "#Tags/Aufwärmen" 
-- "#Tags/Bewegung" 
-- "#Tags/Reaktion" 
-- "#Tags/Rennen" 
-date updated: 24 August 2021, 23:14:04
+  - spiele
+created: 2025-01-24 03:50:50
+update: 2025-01-24 23:16:59
+title: Kommando Pimperle
+description: 
+authors:
+  - Marc Bielert
 ---
 
 # Kommando Pimperle

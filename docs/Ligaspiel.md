@@ -1,14 +1,14 @@
 ---
-uid: 20210219001416
-date: 19 Februar 2021, 00:14:16
 publish: true
 tags:
-- "#Status/Seed"
-- "#Thema/Spiele"
-- "#Thema/Beigoma"
-date updated: 24 August 2021, 23:17:21
-date created: Freitag, Februar 19. 2021, 12:14:06 am
-date modified: Mittwoch, April 17. 2024, 2:21:21 am
+  - spiele
+  - beigoma
+created: 2025-01-24 03:50:50
+update: 2025-01-24 23:21:13
+title: Ligaspiel
+description: 
+authors:
+  - Marc Bielert
 ---
 
 # Spieleinführung "Ligaspiel"

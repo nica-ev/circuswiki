@@ -1,11 +1,13 @@
 ---
-uid: 20210602181210
-date:  02 June 2021, 18:12:10
 publish: true
 tags:
-- "#Status/Seed"
-- "#Thema/Spiele"
-date updated: 24 August 2021, 23:33:16
+  - spiele
+created: 2025-01-24 03:50:51
+update: 2025-01-25 00:52:14
+title: Pitbull
+description: 
+authors:
+  - Marc Bielert
 ---
 
 # Pitbull

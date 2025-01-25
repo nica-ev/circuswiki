@@ -1,12 +1,14 @@
 ---
-uid: 20210217013041
-date: 17 Februar 2021, 01:30:41
 publish: true
 tags:
-- "#Status/Seed"
-- "#Type/MOC"
-- "#Thema/Spiele"
-date updated: 24 August 2021, 23:26:53
+  - spiele
+  - moc
+created: 2025-01-24 03:50:51
+update: 2025-01-25 00:47:16
+title: Restliche Spiele
+description: 
+authors:
+  - Marc Bielert
 ---
 
 [[Speed Dating]]

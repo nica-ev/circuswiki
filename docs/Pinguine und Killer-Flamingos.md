@@ -1,14 +1,13 @@
 ---
-uid: 20140129112600
-date: 29. Januar 2014, 11:26:00
 publish: true
 tags:
-- "#Status/InProgress"
-- "#Thema/Spiele"
-- "#Tags/Fangen"
-- "#Tags/Imitation"
-- "#Tags/Kinder"
-date updated: 05 September 2021, 17:41:07
+  - spiele
+created: 2025-01-24 03:50:51
+update: 2025-01-25 00:51:36
+title: Pinguine und Killer-Flamingos
+description: 
+authors:
+  - Marc Bielert
 ---
 
 # Pinguine und Killer-Flamingos

@@ -1,15 +1,13 @@
 ---
-uid: 20140226105000
-date: 26. Februar 2014, 10:50:00
 publish: true
 tags:
-- "#Status/InProgress"
-- "#Thema/Spiele"
-- "#Tags/Aufmerksamkeit"
-- "#Tags/Bewegung"
-- "#Tags/Kooperativ"
-- "#Tags/Reaktion"
-date updated: 05 September 2021, 17:07:00
+  - spiele
+created: 2025-01-24 03:50:50
+update: 2025-01-24 23:20:29
+title: Laserschwert
+description: 
+authors:
+  - Marc Bielert
 ---
 
 # Laserschwert

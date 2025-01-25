@@ -1,11 +1,13 @@
 ---
-uid: 20210523203351
-date:  23 May 2021, 20:33:51
 publish: true
 tags:
-- "#Status/Seed"
-- "#Thema/Spiele"
-date updated: 24 August 2021, 23:28:40
+  - spiele
+created: 2025-01-24 03:50:51
+update: 2025-01-25 00:48:54
+title: Niemand ist gern allein
+description: 
+authors:
+  - Marc Bielert
 ---
 
 # Niemand ist gern allein

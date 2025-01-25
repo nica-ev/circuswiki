@@ -1,12 +1,14 @@
 ---
-uid: 20210219001706
-date: 19 Februar 2021, 00:17:06
 publish: true
 tags:
-- "#Status/Seed"
-- "#Thema/Spiele"
-- "#Thema/Beigoma"
-date updated: 25 August 2021, 00:04:36
+  - spiele
+  - beigoma
+created: 2025-01-24 03:50:51
+update: 2025-01-25 01:08:46
+title: Geschwindigkeit
+description: 
+authors:
+  - Marc Bielert
 ---
 
 # Spieleinführung "Geschwindigkeit"

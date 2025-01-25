@@ -1,15 +1,13 @@
 ---
-uid: 20190120175808
-date: 20. Januar 2019, 17:58:08
 publish: true
 tags:
-- "#Status/Seed"
-- "#Thema/Spiele"
-- "#Tags/Aufmerksamkeit" 
-- "#Tags/Kompetitiv" 
-- "#Tags/Mörder" 
-date created: Thursday, May 7th 2020, 11:18:35 pm
-date modified: Friday, November 12th 2021, 11:33:27 am
+  - spiele
+created: 2025-01-24 03:50:51
+update: 2025-01-25 01:19:43
+title: Vampir
+description: 
+authors:
+  - Marc Bielert
 ---
 
 #  Vampir

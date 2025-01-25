@@ -1,16 +1,13 @@
 ---
-uid: 20140615094600
-date: 15. Juni 2014, 09:46:00
 publish: true
 tags:
-- "#Status/InProgress"
-- "#Thema/Spiele"
-- "#Tags/Kommunikation"
-- "#Tags/Kooperativ"
-- "#Tags/Kreativität"
-- "#Tags/Kreis"
-- "#Tags/Vorstellen"
-date updated: 05 September 2021, 18:13:13
+  - spiele
+created: 2025-01-24 03:50:51
+update: 2025-01-25 01:06:00
+title: Sich gegenseitig vorstellen
+description: 
+authors:
+  - Marc Bielert
 ---
 
 # Sich gegenseitig "vorstellen"

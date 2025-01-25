@@ -1,20 +1,13 @@
 ---
-uid: 20190120185845
-date: 20. Januar 2019, 18:58:45
 publish: true
 tags:
-  - "#Status/InProgress"
-  - "#Genre/🎪Zirkus"
-  - "#Thema/Spiele"
-  - "#Tags/Kinder"
-  - "#Tags/Aufwärmen"
-  - "#Tags/Bewegung"
-  - "#Tags/Imitation"
-  - "#Tags/Kompetitiv"
-  - "#Tags/Kooperativ"
-  - "#Tags/Rennen"
-date created: Thursday, May 7th 2020, 11:18:34 pm
-date modified: Sunday, November 14th 2021, 11:57:39 pm
+  - spiele
+created: 2025-01-24 03:50:51
+update: 2025-01-25 01:28:20
+title: Zirkusfangen
+description: 
+authors:
+  - Marc Bielert
 ---
 
 # Zirkusfangen

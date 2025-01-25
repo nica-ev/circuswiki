@@ -1,10 +1,10 @@
 ---
+created: 2025-01-24 03:50:50
+update: 2025-01-25 02:19:28
 publish: true
 tags:
   - spiele
-created: 2025-01-24 03:50:50
-update: 2025-01-24 05:24:39
-title: 
+title: Kartenfinder
 description: 
 authors:
   - Marc Bielert

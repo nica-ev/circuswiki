@@ -1,14 +1,13 @@
 ---
-uid: 20140621121400
-date: 21. Juni 2014, 12:14:00
 publish: true
 tags:
-- "#Status/InProgress"
-- "#Thema/Spiele"
-- "#Tags/Aufwärmen"
-- "#Tags/Partnerübung"
-- "#Tags/Variationen"
-date updated: 05 September 2021, 18:13:43
+  - spiele
+created: 2025-01-24 03:50:51
+update: 2025-01-25 01:06:35
+title: Slalom in Reihe
+description: 
+authors:
+  - Marc Bielert
 ---
 
 # Slalom in Reihe

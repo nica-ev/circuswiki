@@ -1,15 +1,13 @@
 ---
-uid: 20190120174749
-date: 20. Januar 2019, 17:47:49
 publish: true
 tags:
-- "#Status/Seed"
-- "#Thema/Spiele"
-- "#Tags/Bewegung"
-- "#Tags/Imitation"
-- "#Tags/Kooperativ"
-- "#Tags/Wahrnehmung"
-date updated: 05 September 2021, 18:07:23
+  - spiele
+created: 2025-01-24 03:50:51
+update: 2025-01-25 00:58:42
+title: Schattenlauf
+description: 
+authors:
+  - Marc Bielert
 ---
 
 #  Schattenlauf

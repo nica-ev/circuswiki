@@ -1,16 +1,13 @@
 ---
-uid: 20131124171800
-date: 24. November 2013, 17:18:00
 publish: true
 tags:
-- "#Status/InProgress"
-- "#Thema/Spiele"
-- "#Tags/Aufmerksamkeit"
-- "#Tags/Bewegung"
-- "#Tags/Kommunikation"
-- "#Tags/Kooperativ"
-- "#Tags/Kreis"
-date updated: 05 September 2021, 17:45:04
+  - spiele
+created: 2025-01-24 03:50:51
+update: 2025-01-25 00:53:03
+title: Platztausch durch Augenkontakt
+description: 
+authors:
+  - Marc Bielert
 ---
 
 # Platztausch durch Augenkontakt

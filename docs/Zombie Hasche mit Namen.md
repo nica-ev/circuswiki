@@ -1,18 +1,13 @@
 ---
-uid: 20190120190130
-date: 2019 01 20 19:01:30
 publish: true
 tags:
-- "#Status/InProgress"
-- "#Thema/Spiele"
-- "#Tags/Aufmerksamkeit"
-- "#Tags/Bewegung"
-- "#Tags/Erinnerung"
-- "#Tags/Fangen"
-- "#Tags/Kennenlernen"
-- "#Tags/Namen"
-date created: Thursday, May 7th 2020, 11:16:52 pm
-date modified: Monday, November 15th 2021, 12:00:54 am
+  - spiele
+created: 2025-01-24 03:50:51
+update: 2025-01-25 01:30:23
+title: Zombie Hasche mit Namen
+description: 
+authors:
+  - Marc Bielert
 ---
 
 # Zombie Hasche mit Namen
