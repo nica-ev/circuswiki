@@ -56,6 +56,20 @@ markdown_extensions:
 
 plugins:
   - search    # enables search bar
+#  - pub-meta
+  - pub-minifier:
+      jpeg:
+        enabled: true
+      png:
+        enabled: true
+      svg:
+        enabled: false
+      html:
+        enabled: false
+      css:
+        enabled: false
+      js:
+        enabled: false
   - pub-obsidian:
       backlinks:
         enabled: false  # currently disabled because of a bug with wikilinks and attributes
