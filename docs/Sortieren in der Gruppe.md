@@ -1,15 +1,13 @@
 ---
-uid: 20140704064300
-date: 4. Juli 2014, 06:43:00
 publish: true
 tags:
-- "#Status/InProgress"
-- "#Thema/Spiele"
-- "#Tags/Kommunikation"
-- "#Tags/Kooperativ"
-- "#Tags/Kreis"
-- "#Tags/Teamfähigkeit"
-date updated: 05 September 2021, 18:16:22
+  - spiele
+created: 2025-01-24 03:50:51
+update: 2025-01-25 01:07:17
+title: Sortieren in der Gruppe
+description: 
+authors:
+  - Marc Bielert
 ---
 
 # Sortieren in der Gruppe

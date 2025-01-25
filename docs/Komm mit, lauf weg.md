@@ -1,11 +1,13 @@
 ---
-uid: 20210601155022
-date:  01 June 2021, 15:50:22
 publish: true
 tags:
-- "#Status/Seed"
-- "#Thema/Spiele"
-date updated: 24 August 2021, 23:13:42
+  - spiele
+created: 2025-01-24 03:50:50
+update: 2025-01-24 23:15:23
+title: Komm mit, lauf weg
+description: 
+authors:
+  - Marc Bielert
 ---
 
 # **Komm mit, lauf weg**

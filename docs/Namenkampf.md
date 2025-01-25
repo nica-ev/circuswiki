@@ -1,16 +1,13 @@
 ---
-uid: 20190120173211
-date: 20. Januar 2019, 17:32:11
 publish: true
 tags:
-- "#Status/Seed"
-- "#Thema/Spiele"
-- "#Tags/Aufmerksamkeit"
-- "#Tags/Erinnerung"
-- "#Tags/Kennenlernen"
-- "#Tags/Namen"
-- "#Tags/Reaktion"
-date updated: 05 September 2021, 17:30:10
+  - spiele
+created: 2025-01-24 03:50:51
+update: 2025-01-25 00:48:08
+title: Namenkampf
+description: 
+authors:
+  - Marc Bielert
 ---
 
 # Namenkampf

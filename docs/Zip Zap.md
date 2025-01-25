@@ -1,16 +1,13 @@
 ---
-uid: 20190120180246
-date: 20. Januar 2019, 18:02:46
 publish: true
 tags:
-- "#Status/InProgress"
-- "#Thema/Spiele"
-- "#Tags/Aufmerksamkeit"
-- "#Tags/Cooldown"
-- "#Tags/Reaktion"
-- "#Tags/Wahrnehmung"
-date created: Thursday, May 7th 2020, 11:18:35 pm
-date modified: Sunday, November 14th 2021, 11:55:53 pm
+  - spiele
+created: 2025-01-24 03:50:51
+update: 2025-01-25 01:27:30
+title: " Zip Zap"
+description: 
+authors:
+  - Marc Bielert
 ---
 
 #  Zip Zap

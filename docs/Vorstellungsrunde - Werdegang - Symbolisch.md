@@ -1,19 +1,13 @@
 ---
-uid: 201311241810
-date: 24. November 2013, 18:10
 publish: true
-tags: 
-- "#Status/Seed"
-- "#Tags/Kooperativ" 
-- "#Tags/Kreativität" 
-- "#Tags/Kreis" 
-- "#Tags/Objekte" 
-- "#Thema/Spiele" 
-- "#Tags/Vorstellen" 
-- "#Tags/Werdegang" 
-- "#Tags/Zeitlinie" 
-date created: Thursday, May 7th 2020, 11:19:31 pm
-date modified: Friday, November 12th 2021, 11:41:21 am
+tags:
+  - spiele
+created: 2025-01-24 03:50:51
+update: 2025-01-25 01:23:44
+title: Vorstellungsrunde - Werdegang - Symbolisch
+description: 
+authors:
+  - Marc Bielert
 ---
 
 # Vorstellungsrunde - Werdegang - Symbolisch

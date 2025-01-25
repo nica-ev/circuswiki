@@ -1,10 +1,10 @@
 ---
-publish: false
+created: 2025-01-21 18:09:55
+update: 2025-01-25 02:07:04
+publish: true
 tags: 
 title: Frontmatter Properties
 description: Wie nutzen wir Frontmatter in den Markdown Dateien
-created: 2025-01-21 18:09:55
-update: 2025-01-23 22:02:43
 authors:
   - Marc Bielert
 ---

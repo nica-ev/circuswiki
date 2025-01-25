@@ -1,11 +1,13 @@
 ---
-uid: 20190120180107
-date: 20. Januar 2019, 18:01:07
 publish: true
 tags:
-- "#Status/Seed"
-- "#Thema/Spiele"
-date updated: 25 August 2021, 00:11:03
+  - spiele
+created: 2025-01-24 03:50:51
+update: 2025-01-25 01:22:54
+title: Virus
+description: 
+authors:
+  - Marc Bielert
 ---
 
 # Virus
@@ -15,4 +17,4 @@ Fange spiel,
 muss noch beschrieben werden
 —> janett hucke fragen notfalls
 
-#Status/ToDo Inhalt einfügen oder löschen
+#todo Inhalt einfügen oder löschen

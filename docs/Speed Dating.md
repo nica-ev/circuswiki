@@ -1,16 +1,13 @@
 ---
-uid: 20190116213407
-date: 16. Januar 2019, 21:34:07
 publish: true
 tags:
-- "#Status/Seed"
-- "#Thema/Spiele"
-- "#Tags/Eigenschaften"
-- "#Tags/Erinnerung"
-- "#Tags/Kennenlernen"
-- "#Tags/Methode"
-- "#Tags/Namen"
-date updated: 05 September 2021, 18:17:02
+  - spiele
+created: 2025-01-24 03:50:51
+update: 2025-01-25 01:07:57
+title: Speed Dating
+description: 
+authors:
+  - Marc Bielert
 ---
 
 #  Speed Dating

@@ -1,15 +1,13 @@
 ---
-uid: 20131123224900
-date: 23. November 2013, 22:49:00
 publish: true
 tags:
-- "#Status/InProgress"
-- "#Thema/Spiele"
-- "#Tags/Kommunikation" 
-- "#Tags/Kooperativ" 
-- "#Tags/Vorstellen" 
-date created: Thursday, May 7th 2020, 11:19:32 pm
-date modified: Friday, November 12th 2021, 11:19:22 am
+  - spiele
+created: 2025-01-24 03:50:51
+update: 2025-01-25 01:18:16
+title: Tratschen in Anwesenheit
+description: 
+authors:
+  - Marc Bielert
 ---
 
 # Tratschen in Anwesenheit

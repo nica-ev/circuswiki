@@ -1,12 +1,14 @@
 ---
-uid: 20210614212237
-date:  14 June 2021, 21:22:37
 publish: true
 tags:
-- "#Status/Seed"
-- "#Thema/Spiele"
-- "#Type/MOC"
-date updated: 25 August 2021, 00:01:00
+  - spiele
+  - moc
+created: 2025-01-24 03:50:51
+update: 2025-01-25 01:01:04
+title: Schnelligkeit+Reaktionsspiele
+description: 
+authors:
+  - Marc Bielert
 ---
 
 # Schnelligkeit+Reaktionsspiele

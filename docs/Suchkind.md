@@ -1,17 +1,13 @@
 ---
-uid: 20140707171400
-date: 7. Juli 2014, 17:14:00
 publish: true
 tags:
-- "#Status/Seed"
-- "#Thema/Spiele"
-- "#Tags/Eigenschaften" 
-- "#Tags/Fähigkeiten" 
-- "#Tags/Kennenlernen" 
-- "#Tags/Kinder" 
-- "#Tags/Vorstellen" 
-date created: Thursday, May 7th 2020, 11:19:05 pm
-date modified: Friday, November 12th 2021, 11:13:32 am
+  - spiele
+created: 2025-01-24 03:50:51
+update: 2025-01-25 01:11:49
+title: Suchkind
+description: 
+authors:
+  - Marc Bielert
 ---
 
 # Suchkind

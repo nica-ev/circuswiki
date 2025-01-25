@@ -1,15 +1,13 @@
 ---
-uid: 20210614210026
-date:  14 June 2021, 21:00:26
 publish: true
 tags:
-- "#Status/Seed"
-- "#Thema/Spiele"
-- "#Tags/Rennen"
-- "#Tags/Kooperativ"
-- "#Tags/Kompetitiv"
-date created: Monday, June 14th 2021, 9:00:19 pm
-date modified: Monday, November 15th 2021, 1:22:17 am
+  - spiele
+created: 2025-01-24 03:50:50
+update: 2025-01-24 23:18:19
+title: Krankenhaus
+description: 
+authors:
+  - Marc Bielert
 ---
 
 # Krankenhaus

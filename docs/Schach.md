@@ -1,15 +1,13 @@
 ---
-uid: 20131123181400
-date: 23. November 2013, 18:14:00
 publish: true
 tags:
-- "#Status/InProgress"
-- "#Thema/Spiele"
-- "#Tags/Kinder"
-- "#Tags/Kommunikation"
-- "#Tags/Kompetitiv"
-- "#Tags/Teamfähigkeit"
-date updated: 05 September 2021, 18:06:45
+  - spiele
+created: 2025-01-24 03:50:51
+update: 2025-01-25 00:58:03
+title: Schach
+description: 
+authors:
+  - Marc Bielert
 ---
 
 # Schach

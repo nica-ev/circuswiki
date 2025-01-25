@@ -1,17 +1,13 @@
 ---
-uid: 20140608133200
-date: 8. Juni 2014, 13:32:00
 publish: true
 tags:
-  - "#Status/InProgress"
-  - "#Thema/Spiele"
-  - "#Genre/🤡Theater"
-  - "#Tags/Ideen" 
-  - "#Tags/Kooperativ" 
-  - "#Tags/Kreativität" 
-  - "#Tags/Partnerübung" 
-date created: Thursday, May 7th 2020, 11:19:22 pm
-date modified: Friday, November 12th 2021, 11:46:35 am
+  - spiele
+created: 2025-01-24 03:50:51
+update: 2025-01-25 01:24:26
+title: Was tust Du da?
+description: 
+authors:
+  - Marc Bielert
 ---
 
 # Was tust Du da?

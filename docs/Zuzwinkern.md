@@ -1,14 +1,13 @@
 ---
-uid: 20210531175926
-date: 31 May 2021, 17:59:26
 publish: true
 tags:
-  - "#Thema/Spiele"
-  - Tags/Kompetitiv
-  - Status/InProgress
-date updated: 25 August 2021, 00:18:29
-date created: Montag, Mai 31. 2021, 5:59:24 pm
-date modified: Mittwoch, April 17. 2024, 2:21:12 am
+  - spiele
+created: 2025-01-24 03:50:51
+update: 2025-01-25 01:31:59
+title: Zuzwinkern
+description: 
+authors:
+  - Marc Bielert
 ---
 
 >[!info]

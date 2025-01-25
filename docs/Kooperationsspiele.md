@@ -1,12 +1,14 @@
 ---
-uid: 20210111001300
-date: 11. Januar 2021, 00:13:00
 publish: true
 tags:
-- "#Status/Seed"
-- "#Type/MOC"
-- "#Thema/Spiele"
-date updated: 24 August 2021, 23:14:37
+  - spiele
+  - moc
+created: 2025-01-24 03:50:50
+update: 2025-01-25 01:50:24
+title: Kooperationsspiele
+description: 
+authors:
+  - Marc Bielert
 ---
 
 # Kooperationsspiele

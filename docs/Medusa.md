@@ -1,13 +1,13 @@
 ---
-uid: 20140123142800
-date: 23. Januar 2014, 14:28:00
 publish: true
 tags:
-- "#Status/Seed"
-- "#Thema/Spiele"
-- "#Tags/Kompetitiv"
-- "#Tags/Kreis"
-date updated: 05 September 2021, 17:17:38
+  - spiele
+created: 2025-01-24 03:50:51
+update: 2025-01-24 23:26:19
+title: Medusa
+description: 
+authors:
+  - Marc Bielert
 ---
 
 # Medusa

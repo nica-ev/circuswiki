@@ -1,13 +1,14 @@
 ---
-uid: 20210202230859
-date: 02 February 2021, 23:08:59
 publish: true
 tags:
-- "#Status/Seed"
-- "#Type/MOC"
-- "#Thema/Spiele"
-date created: Tuesday, February 2nd 2021, 11:08:57 pm
-date modified: Wednesday, August 25th 2021, 12:18:20 am
+  - spiele
+  - moc
+created: 2025-01-24 03:50:51
+update: 2025-01-25 01:09:26
+title: Spiele zum Kennenlernen / Vorstellen
+description: 
+authors:
+  - Marc Bielert
 ---
 
 # Spiele zum Kennenlernen / Vorstellen

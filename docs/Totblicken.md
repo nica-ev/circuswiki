@@ -1,11 +1,13 @@
 ---
-uid: 20210524200250
-date:  24 May 2021, 20:02:50
 publish: true
 tags:
-- "#Status/Seed"
-- "#Thema/Spiele"
-date updated: 25 August 2021, 00:07:12
+  - spiele
+created: 2025-01-24 03:50:51
+update: 2025-01-25 01:17:19
+title: Totblicken
+description: 
+authors:
+  - Marc Bielert
 ---
 
 # Totblicken

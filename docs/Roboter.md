@@ -1,14 +1,13 @@
 ---
-uid: 20190120174255
-date: 20. Januar 2019, 17:42:55
 publish: true
 tags:
-- "#Status/Seed"
-- "#Thema/Spiele"
-- "#Tags/Aufmerksamkeit"
-- "#Tags/Cooldown"
-- "#Tags/Vertrauen"
-date updated: 05 September 2021, 18:06:11
+  - spiele
+created: 2025-01-24 03:50:51
+update: 2025-01-25 00:57:20
+title: Roboter
+description: 
+authors:
+  - Marc Bielert
 ---
 
 # Roboter

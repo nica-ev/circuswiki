@@ -1,11 +1,13 @@
 ---
-uid: 20210602180917
-date:  02 June 2021, 18:09:17
 publish: true
 tags:
-- "#Status/Seed"
-- "#Thema/Spiele"
-date updated: 25 August 2021, 00:18:11
+  - spiele
+created: 2025-01-24 03:50:51
+update: 2025-01-25 01:30:53
+title: Zombieball
+description: 
+authors:
+  - Marc Bielert
 ---
 
 # **Zombieball**

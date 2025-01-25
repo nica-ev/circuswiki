@@ -1,12 +1,14 @@
 ---
-uid: 20210204194218
-date: 04 February 2021, 19:42:18
 publish: true
 tags:
-- "#Status/InProgress"
-- "#Type/MOC"
-- "#Thema/Spiele"
-date updated: 29 August 2021, 20:10:42
+  - spiele
+  - moc
+created: 2025-01-24 03:50:50
+update: 2025-01-24 23:14:35
+title: Klatschpiele
+description: 
+authors:
+  - Marc Bielert
 ---
 
 # Klatschpiele

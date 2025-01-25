@@ -1,11 +1,13 @@
 ---
-uid: 20210523204502
-date:  23 May 2021, 20:45:02
 publish: true
 tags:
-- "#Status/Seed"
-- "#Thema/Spiele"
-date updated: 25 August 2021, 00:17:54
+  - spiele
+created: 2025-01-24 03:50:51
+update: 2025-01-25 01:28:56
+title: Zombie
+description: 
+authors:
+  - Marc Bielert
 ---
 
 # Zombie

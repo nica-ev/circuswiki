@@ -1,11 +1,13 @@
 ---
-uid: 20210601200406
-date:  01 June 2021, 20:04:06
 publish: true
 tags:
-- "#Status/Seed"
-- "#Thema/Spiele"
-date updated: 25 August 2021, 00:05:24
+  - spiele
+created: 2025-01-24 03:50:51
+update: 2025-01-25 01:10:31
+title: Stehbock-Laufbock
+description: 
+authors:
+  - Marc Bielert
 ---
 
 # **Stehbock-Laufbock**

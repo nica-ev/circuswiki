@@ -1,11 +1,13 @@
 ---
-uid: 20210524195119
-date:  24 May 2021, 19:51:19
 publish: true
 tags:
-- "#Status/Seed"
-- "#Thema/Spiele"
-date updated: 24 August 2021, 23:13:22
+  - spiele
+created: 2025-01-24 03:50:50
+update: 2025-01-24 23:13:32
+title: Klatsch Theater
+description: 
+authors:
+  - Marc Bielert
 ---
 
 # Klatsch Theater

@@ -1,14 +1,13 @@
 ---
-uid: 20140608115600
-date: 8. Juni 2014, 11:56:00
 publish: true
 tags:
-- "#Status/InProgress"
-- "#Thema/Spiele"
-- "#Tags/Kompetitiv"
-- "#Tags/Kontaktaufnahme"
-- "#Tags/Namen"
-date updated: 05 September 2021, 18:09:25
+  - spiele
+created: 2025-01-24 03:50:51
+update: 2025-01-25 01:01:53
+title: Schnick Schnack Schnuck
+description: 
+authors:
+  - Marc Bielert
 ---
 
 # Schnick Schnack Schnuck

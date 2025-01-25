@@ -1,11 +1,13 @@
 ---
-uid: 20210601154638
-date:  01 June 2021, 15:46:38
 publish: true
 tags:
-- "#Status/Seed"
-- "#Thema/Spiele"
-date updated: 25 August 2021, 00:16:27
+  - spiele
+created: 2025-01-24 03:50:51
+update: 2025-01-25 01:35:06
+title: Zah
+description: 
+authors:
+  - Marc Bielert
 ---
 
 # Zah

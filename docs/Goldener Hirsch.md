@@ -3,8 +3,8 @@ publish: true
 tags:
   - spiele
 created: 2025-01-24 03:50:50
-update: 2025-01-24 05:18:21
-title: "# Goldener Hirsch"
+update: 2025-01-25 02:00:19
+title: Goldener Hirsch
 description: 
 authors:
   - Marc Bielert

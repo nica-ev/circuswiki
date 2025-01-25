@@ -1,11 +1,13 @@
 ---
-uid: 20210601195929
-date:  01 June 2021, 19:59:29
 publish: true
 tags:
-- "#Status/Seed"
-- "#Thema/Spiele"
-date updated: 25 August 2021, 00:06:47
+  - spiele
+created: 2025-01-24 03:50:51
+update: 2025-01-25 01:16:39
+title: Team Schnick-Schnack-Schnuck
+description: 
+authors:
+  - Marc Bielert
 ---
 
 # **Team Schnick-Schnack-Schnuck**

@@ -1,11 +1,13 @@
 ---
-uid: 20210524222035
-date: 24 May 2021, 22:20:35
+created: 2025-01-24 03:50:51
+update: 2025-01-25 02:18:30
 publish: true
 tags:
-  - "#Thema/Spiele"
-  - Status/InProgress
-date updated: 25 August 2021, 00:13:38
+  - spiele
+title: Whiskeymixer
+description: 
+authors:
+  - Marc Bielert
 ---
 
 # Whiskeymixer
