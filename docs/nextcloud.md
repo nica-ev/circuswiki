@@ -1,9 +1,10 @@
 ---
+created: 2025-01-21 21:57:43
+update: 2025-01-25 18:53:58
 publish: true
 tags: 
-created: 2025-01-21 21:57:43
-update: 2025-01-24 23:09:55
 title: Nextcloud
+description: 
 authors:
   - Marc Bielert
 ---

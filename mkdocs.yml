@@ -32,6 +32,8 @@ theme:
     - navigation.tracking
     - navigation.path
     - navigation.prune
+    - navigation.tabs
+    - navigation.tabs.sticky
     - toc.follow
     - header.autohide
 
@@ -70,9 +72,7 @@ plugins:
         enabled: false
       js:
         enabled: false
-  - pub-obsidian:
-      backlinks:
-        enabled: false  # currently disabled because of a bug with wikilinks and attributes
+  - pub-obsidian
   - tags:
       tags_file: tags.md
 
@@ -83,3 +83,13 @@ nav:
   - Wordpress: 'wordpress.md'
   - Nextcloud: 'nextcloud.md'
   - Dokumentations-System: 'doc-sys-2.md'
+  - Bewegungs-Spiele: 'Bewegungs-Spiele.md'
+
+extra:
+  alternate:
+    - name: English
+      link: /docs/en/
+      lang: en
+    - name: Deutsch
+      link: /
+      lang: de
