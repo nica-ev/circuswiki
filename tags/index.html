@@ -92,7 +92,7 @@
 
   
 
-<header class="md-header md-header--shadow" data-md-component="header">
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
     <a href=".." title="NICA e.V. Documentation" class="md-header__button md-logo" aria-label="NICA e.V. Documentation" data-md-component="logo">
       
@@ -151,6 +151,32 @@
       <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
     
     
+      <div class="md-header__option">
+  <div class="md-select">
+    
+    <button class="md-header__button md-icon" aria-label="Select language">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.5 17.5 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2zm-2.62 7 1.62-4.33L19.12 17z"/></svg>
+    </button>
+    <div class="md-select__inner">
+      <ul class="md-select__list">
+        
+          <li class="md-select__item">
+            <a href="/docs/en/" hreflang="en" class="md-select__link">
+              English
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="/" hreflang="de" class="md-select__link">
+              Deutsch
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+    
     
       <label class="md-header__button md-icon" for="__search">
         
@@ -204,13 +230,141 @@
     
   </nav>
   
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../buchhaltung/" class="md-tabs__link">
+        
+  
+    
+  
+  Buchhaltung
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../digital-infrastruktur/" class="md-tabs__link">
+        
+  
+    
+  
+  Digitale Infrastruktur
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../wordpress/" class="md-tabs__link">
+        
+  
+    
+  
+  Wordpress
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../nextcloud/" class="md-tabs__link">
+        
+  
+    
+  
+  Nextcloud
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../doc-sys-2/" class="md-tabs__link">
+        
+  
+    
+  
+  Dokumentations-System
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../Bewegungs-Spiele/" class="md-tabs__link">
+        
+  
+    
+  
+  Bewegungs-Spiele
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
 </header>
     
     <div class="md-container" data-md-component="container">
       
       
-        
-          
         
       
       <main class="md-main" data-md-component="main">
@@ -224,8 +378,10 @@
                     
 
 
+  
 
-<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
     <a href=".." title="NICA e.V. Documentation" class="md-nav__button md-logo" aria-label="NICA e.V. Documentation" data-md-component="logo">
       
@@ -370,6 +526,26 @@
   
 
     
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Bewegungs-Spiele/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Bewegungs-Spiele
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
   </ul>
 </nav>
                   </div>
@@ -478,8 +654,42 @@
   <h1>Tag Übersicht</h1>
 
 <p>Eine Übersicht über alle, auf dieser Seite verwendeten Tags und die Seiten die mit ihnen verknüpft sind.</p>
+<!--
+  ~ MIT License
+  ~
+  ~ Copyright (c) 2023-2025 Maciej 'maQ' Kusz <maciej.kusz@gmail.com>
+  ~
+  ~ Permission is hereby granted, free of charge, to any person obtaining a copy
+  ~ of this software and associated documentation files (the "Software"), to deal
+  ~ in the Software without restriction, including without limitation the rights
+  ~ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  ~ copies of the Software, and to permit persons to whom the Software is
+  ~ furnished to do so, subject to the following conditions:
+  ~
+  ~ The above copyright notice and this permission notice shall be included in all
+  ~ copies or substantial portions of the Software.
+  ~
+  ~ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  ~ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  ~ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  ~ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  ~ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  ~ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+  ~ SOFTWARE.
+  -->
+
+<hr />
+<!--suppress HtmlUnknownAttribute -->
+<p class="obsidian_backlink_title">Backlinks:</p>
+<div class="obsidian_backlink">
+<details class="backlink">
+<summary>None</summary>
+<p><p class="obsidian_backlink">| <a href="https://nica-ev.github.io/docs/sitemap/#97f061f6e721d99ff473e04294bd8fcf">tags</a>                                                                             | <ul><li>Marc Bielert</li></ul> | -                                                   | 2025-01-23 05:25:16 |</p></p>
+</details>
+</div>
 <h2 id="beigoma"><span class="md-tag">beigoma</span><a class="headerlink" href="#beigoma" title="Permanent link">&para;</a></h2>
 <ul>
+<li><a href="../Beigoma%20Terminologie/">Einführung der Beigoma-Terminologie</a></li>
 <li><a href="../Beigoma-Spiel-Speed/">Speed</a></li>
 <li><a href="../Beigoma/">Beigoma</a></li>
 <li><a href="../Blockspiel/">Blockspiel</a></li>
@@ -487,6 +697,7 @@
 <li><a href="../Ligaspiel/">Ligaspiel</a></li>
 <li><a href="../Spiel%20Geschwindigkeit/">Geschwindigkeit</a></li>
 <li><a href="../Tag%20Match%20Tournament/">Tag Match Tournament</a></li>
+<li><a href="../Wie%20spielt%20man%20Beigoma/">Wie wird Beigoma gespielt</a></li>
 </ul>
 <h2 id="github"><span class="md-tag">github</span><a class="headerlink" href="#github" title="Permanent link">&para;</a></h2>
 <ul>
@@ -505,7 +716,10 @@
 <li><a href="../Bewegungs-Spiele/">Bewegungsspiele</a></li>
 <li><a href="../Bewegungsspiele/">Bewegungsspiele</a></li>
 <li><a href="../Cooldown%20Spiele%20MOC/">Cooldown Spiele</a></li>
+<li><a href="../Dokumentation%20Nica%20eV/">Dokumentation Nica e.V.</a></li>
 <li><a href="../Fangspiele/">Fangspiele</a></li>
+<li><a href="../Jonglage/">Jonglage</a></li>
+<li><a href="../Kaskade%20Workspace/">Transkripte des Kaskade Magazines</a></li>
 <li><a href="../Klatschspiele%20MOC/">Klatschpiele</a></li>
 <li><a href="../Kooperationsspiele/">Kooperationsspiele</a></li>
 <li><a href="../Kreisspiele%20MOC/">Kreisspiele</a></li>
@@ -543,6 +757,7 @@
 <li><a href="../Cooldown%20Spiele%20MOC/">Cooldown Spiele</a></li>
 <li><a href="../Crossed%20Hands/">Crossed Hands</a></li>
 <li><a href="../Das%20Ja%20Spiel/">Das Ja Spiel</a></li>
+<li><a href="../Der%20Hund%20im%20gro%C3%9Fen%20Haus/">Der Hund im großen Haus</a></li>
 <li><a href="../Der%20Photograph/">Der Photograph</a></li>
 <li><a href="../Der%20Zirkus%20ist%20in%20der%20Stadt/">Der Zirkus ist in der Stadt</a></li>
 <li><a href="../Der%20Zirkus%20kommt%20in%20die%20Stadt/">Der Zirkus kommt in die Stadt</a></li>
@@ -552,6 +767,8 @@
 <li><a href="../Die%20Quadratur%20des%20Kreises/">Die Quadratur des Kreises</a></li>
 <li><a href="../Die%20stampfende%20Bank/">Die stampfende Bank</a></li>
 <li><a href="../Ding%20Dang%20Dong/">Ding Dang Dong</a></li>
+<li><a href="../Dreil%C3%A4nderkampf/">Dreiländerkampf</a></li>
+<li><a href="../Eisb%C3%A4r%20auf%20der%20Scholle/">Eisbär auf der Scholle</a></li>
 <li><a href="../Energie%20Klatschkreis/">Energie Klatschkreis</a></li>
 <li><a href="../Evolution/">Evolution</a></li>
 <li><a href="../Fan%20Schnick-Schnack-Schnuck/"> Fan Schnick-Schnack-Schnuck</a></li>
@@ -564,6 +781,7 @@
 <li><a href="../Fliegender%20Teppich/">Fliegender Teppich</a></li>
 <li><a href="../Fordere%20den%20Meister%20heraus/">Fordere den Meister heraus</a></li>
 <li><a href="../Freund%20und%20Feind/">Freund und Feind</a></li>
+<li><a href="../Frutti%20del%20Mare%20-%20Aufw%C3%A4rmspiel/"># Frutti del Mare</a></li>
 <li><a href="../Fuchs%20und%20Hase/">Fuchs und Hase</a></li>
 <li><a href="../Fuchsjagd/">Fuchsjagd</a></li>
 <li><a href="../F%C3%BC%C3%9Fenageln/">Füßenageln</a></li>
@@ -631,6 +849,8 @@
 <li><a href="../Schnick_Schnack_Schnuck/">Schnick Schnack Schnuck</a></li>
 <li><a href="../Schoko%20Schoko%20La%20La/">Schoko Schoko La La</a></li>
 <li><a href="../Schwesterchen%20hilf/">Schwesterchen hilf</a></li>
+<li><a href="../Schw%C3%A4nzchen-Hasche/">Schwänzchen-Hasche</a></li>
+<li><a href="../Sch%C3%BCttelspiel/">Schüttelspiel</a></li>
 <li><a href="../Sich%20gegenseitig%20vorstellen/">Sich gegenseitig vorstellen</a></li>
 <li><a href="../Slalom%20in%20Reihe/">Slalom in Reihe</a></li>
 <li><a href="../Sortieren%20in%20der%20Gruppe/">Sortieren in der Gruppe</a></li>
@@ -646,6 +866,7 @@
 <li><a href="../Tag%20Match%20Tournament/">Tag Match Tournament</a></li>
 <li><a href="../Taktik%20und%20Konzentrationsspiele/">Taktik und Konzentrationsspiele</a></li>
 <li><a href="../Team%20Schnick-Schnack-Schnuck/">Team Schnick-Schnack-Schnuck</a></li>
+<li><a href="../Tellerf%C3%A4nger/">Tellerfänger</a></li>
 <li><a href="../Totblicken/">Totblicken</a></li>
 <li><a href="../Tratschen%20in%20Anwesenheit/">Tratschen in Anwesenheit</a></li>
 <li><a href="../Ultimate%20Ninja/">Ultimate Ninja</a></li>
@@ -739,7 +960,7 @@
       <div class="md-progress" data-md-component="progress" role="progressbar"></div>
     
     
-    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.instant", "navigation.instant.progress", "navigation.top", "navigation.tracking", "navigation.path", "navigation.prune", "toc.follow", "header.autohide"], "search": "../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.instant", "navigation.instant.progress", "navigation.top", "navigation.tracking", "navigation.path", "navigation.prune", "navigation.tabs", "navigation.tabs.sticky", "toc.follow", "header.autohide"], "search": "../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
       <script src="../assets/javascripts/bundle.60a45f97.min.js"></script>

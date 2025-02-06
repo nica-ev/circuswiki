@@ -92,7 +92,7 @@
 
   
 
-<header class="md-header md-header--shadow" data-md-component="header">
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
     <a href=".." title="NICA e.V. Documentation" class="md-header__button md-logo" aria-label="NICA e.V. Documentation" data-md-component="logo">
       
@@ -151,6 +151,32 @@
       <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
     
     
+      <div class="md-header__option">
+  <div class="md-select">
+    
+    <button class="md-header__button md-icon" aria-label="Select language">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.5 17.5 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2zm-2.62 7 1.62-4.33L19.12 17z"/></svg>
+    </button>
+    <div class="md-select__inner">
+      <ul class="md-select__list">
+        
+          <li class="md-select__item">
+            <a href="/docs/en/" hreflang="en" class="md-select__link">
+              English
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="/" hreflang="de" class="md-select__link">
+              Deutsch
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+    
     
       <label class="md-header__button md-icon" for="__search">
         
@@ -204,13 +230,141 @@
     
   </nav>
   
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../buchhaltung/" class="md-tabs__link">
+        
+  
+    
+  
+  Buchhaltung
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../digital-infrastruktur/" class="md-tabs__link">
+        
+  
+    
+  
+  Digitale Infrastruktur
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../wordpress/" class="md-tabs__link">
+        
+  
+    
+  
+  Wordpress
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../nextcloud/" class="md-tabs__link">
+        
+  
+    
+  
+  Nextcloud
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../doc-sys-2/" class="md-tabs__link">
+        
+  
+    
+  
+  Dokumentations-System
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../Bewegungs-Spiele/" class="md-tabs__link">
+        
+  
+    
+  
+  Bewegungs-Spiele
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
 </header>
     
     <div class="md-container" data-md-component="container">
       
       
-        
-          
         
       
       <main class="md-main" data-md-component="main">
@@ -224,8 +378,10 @@
                     
 
 
+  
 
-<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
     <a href=".." title="NICA e.V. Documentation" class="md-nav__button md-logo" aria-label="NICA e.V. Documentation" data-md-component="logo">
       
@@ -370,6 +526,26 @@
   
 
     
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Bewegungs-Spiele/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Bewegungs-Spiele
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
   </ul>
 </nav>
                   </div>
@@ -423,44 +599,81 @@
   
 
 
-<p><a href="../Speed%20Dating/">Speed Dating</a><br />
-<a href="../Gleich%20und%20gleich/">Gleich und gleich</a><br />
-<a href="../Massaker/">Massaker</a><br />
-<a href="../Schnell%20schnell%20-%20an%20Ort%20und%20Stell/">Schnell schnell - an Ort und Stell</a><br />
-<a href="../Avatar/">Avatar</a><br />
-<a href="../Schattenlauf/">Schattenlauf</a><br />
-<a href="../Luftballons%20Balancieren/">Luftballons Balancieren</a><br />
-<a href="König der Lüfte.md">König der Lüfte</a><br />
-<a href="../Der%20Zirkus%20kommt%20in%20die%20Stadt/">Der Zirkus kommt in die Stadt</a><br />
-<a href="../Kuhstall/">Kuhstall</a><br />
-<a href="../Was%20tust%20Du%20da/">Was tust Du da</a><br />
-<a href="../Human%20Memory/">Human Memory</a><br />
-<a href="../Schnick_Schnack_Schnuck/">Schnick_Schnack_Schnuck</a><br />
-<a href="../Aufgaben%20Spiel/">Aufgaben Spiel</a><br />
-<a href="../Namenkampf/">Namenkampf</a><br />
-<a href="../Laserschwert/">Laserschwert</a><br />
-<a href="Krankenhaus Hasche.md">Krankenhaus Hasche</a><br />
-<a href="../Schach/">Schach</a><br />
-<a href="../Finger-Fechten/">Finger-Fechten</a><br />
-<a href="Piraten Kapitän.md">Piraten Kapitän</a><br />
-<a href="Piraten Begrüßungsspiel.md">Piraten Begrüßungsspiel</a><br />
-<a href="../Das%20Ja%20Spiel/">Das Ja Spiel</a><br />
-<a href="Wenn ich König wär....md">Wenn ich König wär...</a><br />
-<a href="../Peng%21/">Peng!</a><br />
-<a href="../1%2C2%2C3/">1,2,3</a><br />
-<a href="Ägyptisches Wurfspiel.md">Ägyptisches Wurfspiel</a><br />
-<a href="../Virus/">Virus</a><br />
-<a href="../Der%20Photograph/">Der Photograph</a><br />
-<a href="../Killerfunkwagen/">Killerfunkwagen</a><br />
-- <a href="../Kartoffel%20Kartoffel/">Kartoffel Kartoffel</a><br />
-- <a href="../Reifen%20durchgeben%20im%20Kreis/">Reifen durchgeben im Kreis</a><br />
-- <a href="../Vampir/">Vampir</a></p>
+<p><a href="../Speed%20Dating/" id="bab81be09de04964da43cf32c4261717">Speed Dating</a><br />
+<a href="../Gleich%20und%20gleich/" id="1894a2e2eae41982a4e4e3e479cc9a8f">Gleich und gleich</a><br />
+<a href="../Massaker/" id="e4e010408214f4a916c40b1507f7b1a6">Massaker</a><br />
+<a href="../Schnell%20schnell%20-%20an%20Ort%20und%20Stell/" id="8b25cc55ab7c4f509ddd61e017b0a7ff">Schnell schnell - an Ort und Stell</a><br />
+<a href="../Avatar/" id="04f20de91ad3654d78ecc90626cc13ba">Avatar</a><br />
+<a href="../Schattenlauf/" id="8a22afed291ff1dc45769dce6bdb2a5f">Schattenlauf</a><br />
+<a href="../Luftballons%20Balancieren/" id="ec738ac27bafd35ce72b40e4997cdf71">Luftballons Balancieren</a><br />
+<a href="König der Lüfte.md" id="767cf44cf8a148b467f5c853ae0310f8">König der Lüfte</a><br />
+<a href="../Der%20Zirkus%20kommt%20in%20die%20Stadt/" id="8311f1e747931fdadb5701d0dabf98e0">Der Zirkus kommt in die Stadt</a><br />
+<a href="../Kuhstall/" id="8d6dbf80c59b30bb7f57355ad441691c">Kuhstall</a><br />
+<a href="../Was%20tust%20Du%20da/" id="6c5ce33f5b88a536f282b6f39b8bbe0a">Was tust Du da</a><br />
+<a href="../Human%20Memory/" id="bd560b969e2b43de0b770df947dab81f">Human Memory</a><br />
+<a href="../Schnick_Schnack_Schnuck/" id="9ecabe345cb6cdc8a01e384f328d4e31">Schnick_Schnack_Schnuck</a><br />
+<a href="../Aufgaben%20Spiel/" id="ef03acb2a2a2b68d7995d2e21f8418a0">Aufgaben Spiel</a><br />
+<a href="../Namenkampf/" id="226e2a5b8f653f713570c82fe6ab2fee">Namenkampf</a><br />
+<a href="../Laserschwert/" id="b5f5e1498043591083f757813c7b3806">Laserschwert</a><br />
+<a href="Krankenhaus Hasche.md" id="cb3a7b6c76dc83a18452dc3ecfb5ce01">Krankenhaus Hasche</a><br />
+<a href="../Schach/" id="8c628de6a83ee8c610452b727068098a">Schach</a><br />
+<a href="../Finger-Fechten/" id="93457e8fc69e96bbcd9d471cc2aa6b69">Finger-Fechten</a><br />
+<a href="Piraten Kapitän.md" id="4c152e4977d8189873a0eaf30472dfc9">Piraten Kapitän</a><br />
+<a href="Piraten Begrüßungsspiel.md" id="404c45f2ded7473861a3305bec5c62ff">Piraten Begrüßungsspiel</a><br />
+<a href="../Das%20Ja%20Spiel/" id="9b9ed62fb8f03223f8e17a4ed1173be1">Das Ja Spiel</a><br />
+<a href="Wenn ich König wär....md" id="1bbf655995643a10518438dfe702487a">Wenn ich König wär...</a><br />
+<a href="../Peng%21/" id="82da438b234f7bf5a43b33c21bc36557">Peng!</a><br />
+<a href="../1%2C2%2C3/" id="cc6932a9b25e90a2c0c1d4f08515a6bd">1,2,3</a><br />
+<a href="Ägyptisches Wurfspiel.md" id="296d690eba86477c42b181fc5c4f6b4b">Ägyptisches Wurfspiel</a><br />
+<a href="../Virus/" id="d32e1869a58b1a972e44d24c40ced070">Virus</a><br />
+<a href="../Der%20Photograph/" id="76e47763e9fbfcd335c8f93fc1910c42">Der Photograph</a><br />
+<a href="../Killerfunkwagen/" id="4d9beb3ab60bb0f5985fb083c8a45d10">Killerfunkwagen</a><br />
+- <a href="../Kartoffel%20Kartoffel/" id="f3cb206bcbd7b1e5a7d47b7dd5535a1e">Kartoffel Kartoffel</a><br />
+- <a href="../Reifen%20durchgeben%20im%20Kreis/" id="8abf7760a3828e95574fda2e53ef6cb2">Reifen durchgeben im Kreis</a><br />
+- <a href="../Vampir/" id="577616695aa2ec983f7b81f0dbe1a777">Vampir</a></p>
 <h1 id="call-and-response">Call and Response<a class="headerlink" href="#call-and-response" title="Permanent link">&para;</a></h1>
 <ul>
-<li><a href="Löwenjagd.md">Löwenjagd</a></li>
-<li><a href="../Die%20Geschichte%20der%20Banane/">Die Geschichte der Banane</a></li>
+<li><a href="Löwenjagd.md" id="8a437c65a6bceaf7bb394d902f093e91">Löwenjagd</a></li>
+<li><a href="../Die%20Geschichte%20der%20Banane/" id="ef5c6fc6a1e06dc893f5b7b3a0b5bc64">Die Geschichte der Banane</a></li>
 </ul>
 <hr />
+<!--
+  ~ MIT License
+  ~
+  ~ Copyright (c) 2023-2025 Maciej 'maQ' Kusz <maciej.kusz@gmail.com>
+  ~
+  ~ Permission is hereby granted, free of charge, to any person obtaining a copy
+  ~ of this software and associated documentation files (the "Software"), to deal
+  ~ in the Software without restriction, including without limitation the rights
+  ~ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  ~ copies of the Software, and to permit persons to whom the Software is
+  ~ furnished to do so, subject to the following conditions:
+  ~
+  ~ The above copyright notice and this permission notice shall be included in all
+  ~ copies or substantial portions of the Software.
+  ~
+  ~ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  ~ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  ~ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  ~ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  ~ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  ~ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+  ~ SOFTWARE.
+  -->
+
+<hr />
+<!--suppress HtmlUnknownAttribute -->
+<p class="obsidian_backlink_title">Backlinks:</p>
+<div class="obsidian_backlink">
+<details class="backlink">
+<summary>Bewegungs-Spiele</summary>
+<p><p class="obsidian_backlink">- <a href="https://nica-ev.github.io/docs/Bewegungs-Spiele/#275944bab0d5492cabbfc13866308301">Spiele unsortiert</a></p></p>
+</details>
+<details class="backlink">
+<summary>None</summary>
+<p><p class="obsidian_backlink">| <a href="https://nica-ev.github.io/docs/sitemap/#275944bab0d5492cabbfc13866308301">MOC Spiele rest</a>                                                       | <ul><li>Marc Bielert</li></ul> | <ul><li>spiele</li><li>moc</li></ul>                 | 2025-01-25 00:47:16 |</p></p>
+</details>
+</div>
 
 
 
@@ -522,7 +735,7 @@
       <div class="md-progress" data-md-component="progress" role="progressbar"></div>
     
     
-    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.instant", "navigation.instant.progress", "navigation.top", "navigation.tracking", "navigation.path", "navigation.prune", "toc.follow", "header.autohide"], "search": "../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.instant", "navigation.instant.progress", "navigation.top", "navigation.tracking", "navigation.path", "navigation.prune", "navigation.tabs", "navigation.tabs.sticky", "toc.follow", "header.autohide"], "search": "../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
       <script src="../assets/javascripts/bundle.60a45f97.min.js"></script>

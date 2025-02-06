@@ -92,7 +92,7 @@
 
   
 
-<header class="md-header md-header--shadow" data-md-component="header">
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
     <a href=".." title="NICA e.V. Documentation" class="md-header__button md-logo" aria-label="NICA e.V. Documentation" data-md-component="logo">
       
@@ -151,6 +151,32 @@
       <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
     
     
+      <div class="md-header__option">
+  <div class="md-select">
+    
+    <button class="md-header__button md-icon" aria-label="Select language">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.5 17.5 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2zm-2.62 7 1.62-4.33L19.12 17z"/></svg>
+    </button>
+    <div class="md-select__inner">
+      <ul class="md-select__list">
+        
+          <li class="md-select__item">
+            <a href="/docs/en/" hreflang="en" class="md-select__link">
+              English
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="/" hreflang="de" class="md-select__link">
+              Deutsch
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+    
     
       <label class="md-header__button md-icon" for="__search">
         
@@ -204,13 +230,141 @@
     
   </nav>
   
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../buchhaltung/" class="md-tabs__link">
+        
+  
+    
+  
+  Buchhaltung
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../digital-infrastruktur/" class="md-tabs__link">
+        
+  
+    
+  
+  Digitale Infrastruktur
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../wordpress/" class="md-tabs__link">
+        
+  
+    
+  
+  Wordpress
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../nextcloud/" class="md-tabs__link">
+        
+  
+    
+  
+  Nextcloud
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../doc-sys-2/" class="md-tabs__link">
+        
+  
+    
+  
+  Dokumentations-System
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../Bewegungs-Spiele/" class="md-tabs__link">
+        
+  
+    
+  
+  Bewegungs-Spiele
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
 </header>
     
     <div class="md-container" data-md-component="container">
       
       
-        
-          
         
       
       <main class="md-main" data-md-component="main">
@@ -224,8 +378,10 @@
                     
 
 
+  
 
-<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
     <a href=".." title="NICA e.V. Documentation" class="md-nav__button md-logo" aria-label="NICA e.V. Documentation" data-md-component="logo">
       
@@ -370,6 +526,26 @@
   
 
     
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Bewegungs-Spiele/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Bewegungs-Spiele
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
   </ul>
 </nav>
                   </div>
@@ -424,30 +600,67 @@
 
 
 <h1 id="fangspiele">Fangspiele<a class="headerlink" href="#fangspiele" title="Permanent link">&para;</a></h1>
-<p><a href="../Zombie%20-%20Hasche/">Zombie - Hasche</a><br />
-<a href="../Farbenhasche/">Farbenhasche</a><br />
-<a href="../Luftballon%20Spiel/">Luftballon Spiel</a><br />
-<a href="../Bombenspiel/">Bombenspiel</a><br />
-<a href="../Zeithasche/">Zeithasche</a><br />
-<a href="Pinguine und Eisbären.md">Pinguine und Eisbären</a><br />
-<a href="../Pinguine%20und%20Killer-Flamingos/">Pinguine und Killer-Flamingos</a><br />
-<a href="../Popcorn/">Popcorn</a><br />
-<a href="../Fuchsjagd/">Fuchsjagd</a><br />
-<a href="Schwänzchen-Hasche.md">Schwänzchen-Hasche</a><br />
-<a href="../5%20Drachen%20und%20Zwerge/">5 Drachen und Zwerge</a><br />
-<a href="../Festnageln/">Festnageln</a><br />
-<a href="Fuchs, Hase, Möhre.md">Fuchs, Hase, Möhre</a><br />
-<a href="../Fuchs%20und%20Hase/">Fuchs und Hase</a><br />
-<a href="Ich habe Glück.md">Ich habe Glück</a><br />
-<a href="../Komm%20mit%2C%20lauf%20weg/">Komm mit, lauf weg</a><br />
-<a href="../Luftballon%20Hasche/">Luftballon Hasche</a><br />
-<a href="../Mittelalter%20Schnick%20Schnack%20Schnuck/">Mittelalter Schnick Schnack Schnuck</a><br />
-<a href="Robbe und Eisbären.md">Robbe und Eisbären</a><br />
-<a href="../Schlangen%20Hasche/">Schlangen Hasche</a><br />
-<a href="Tellerfänger.md">Tellerfänger</a><br />
-<a href="../Zombie%20Hasche%20mit%20Namen/">Zombie Hasche mit Namen</a><br />
-<a href="../M%C3%B6hre%20Hase%20Fuchs/">Möhre Hase Fuchs</a><br />
-<a href="../Goldener%20Hirsch/">Goldener Hirsch</a></p>
+<p><a href="../Zombie%20-%20Hasche/" id="ffafcf071d7f3d6fcee85e9afbe83b6b">Zombie - Hasche</a><br />
+<a href="../Farbenhasche/" id="330104465b149311315e000aad6919df">Farbenhasche</a><br />
+<a href="../Luftballon%20Spiel/" id="fc193cf1b619e39f786ef20eb4d9fbff">Luftballon Spiel</a><br />
+<a href="../Bombenspiel/" id="5a0a1b69ff7d2e03e2ecf1201f08ac7a">Bombenspiel</a><br />
+<a href="../Zeithasche/" id="ab725614a215623074e193e9ec26f891">Zeithasche</a><br />
+<a href="Pinguine und Eisbären.md" id="bd8c8cfaca1f3b858b3ae5c0f57cd260">Pinguine und Eisbären</a><br />
+<a href="../Pinguine%20und%20Killer-Flamingos/" id="62abf5ffa96e62be1eb42b486a6ab179">Pinguine und Killer-Flamingos</a><br />
+<a href="../Popcorn/" id="357e84281f3929c9d67b5629e008681b">Popcorn</a><br />
+<a href="../Fuchsjagd/" id="c6451c4d78fe1ed57c8c2fef772af975">Fuchsjagd</a><br />
+<a href="../Schw%C3%A4nzchen-Hasche/" id="c0e85838bdee2b5a32a026254743dc85">Schwänzchen-Hasche</a><br />
+<a href="../5%20Drachen%20und%20Zwerge/" id="9019c3c2a5ad53666cee7027bdd54058">5 Drachen und Zwerge</a><br />
+<a href="../Festnageln/" id="be26f86e228e973c91539c6e6019f9e3">Festnageln</a><br />
+<a href="Fuchs, Hase, Möhre.md" id="155e83be24befb4a0087aa99b09f7e60">Fuchs, Hase, Möhre</a><br />
+<a href="../Fuchs%20und%20Hase/" id="a9e6dc48c0775b9586871e1dfdd5f7cf">Fuchs und Hase</a><br />
+<a href="Ich habe Glück.md" id="554dc142d27baf7d4b6b804feea6c567">Ich habe Glück</a><br />
+<a href="../Komm%20mit%2C%20lauf%20weg/" id="74fe766140050cd8f103025a1fd1dda9">Komm mit, lauf weg</a><br />
+<a href="../Luftballon%20Hasche/" id="7050db37234f1d8f59ea9f9a507dfcb4">Luftballon Hasche</a><br />
+<a href="../Mittelalter%20Schnick%20Schnack%20Schnuck/" id="4d5f49a2dc56ddc4ca5f42f8aa736035">Mittelalter Schnick Schnack Schnuck</a><br />
+<a href="Robbe und Eisbären.md" id="a9343ba90ebaafbb02fe9bc59b56f455">Robbe und Eisbären</a><br />
+<a href="../Schlangen%20Hasche/" id="ade646a3fb975971d86a2133d712c466">Schlangen Hasche</a><br />
+<a href="../Tellerf%C3%A4nger/" id="51570a4f86d03a8756b2b4a44a3a6fb9">Tellerfänger</a><br />
+<a href="../Zombie%20Hasche%20mit%20Namen/" id="5234ff9669cbabea39ae2557a3ad35cc">Zombie Hasche mit Namen</a><br />
+<a href="../M%C3%B6hre%20Hase%20Fuchs/" id="84278b0fce0ae34e530591db8eb7ae43">Möhre Hase Fuchs</a><br />
+<a href="../Goldener%20Hirsch/" id="ce2c7f65d59c467795aab35fa3c255dc">Goldener Hirsch</a></p>
+<!--
+  ~ MIT License
+  ~
+  ~ Copyright (c) 2023-2025 Maciej 'maQ' Kusz <maciej.kusz@gmail.com>
+  ~
+  ~ Permission is hereby granted, free of charge, to any person obtaining a copy
+  ~ of this software and associated documentation files (the "Software"), to deal
+  ~ in the Software without restriction, including without limitation the rights
+  ~ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  ~ copies of the Software, and to permit persons to whom the Software is
+  ~ furnished to do so, subject to the following conditions:
+  ~
+  ~ The above copyright notice and this permission notice shall be included in all
+  ~ copies or substantial portions of the Software.
+  ~
+  ~ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  ~ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  ~ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  ~ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  ~ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  ~ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+  ~ SOFTWARE.
+  -->
+
+<hr />
+<!--suppress HtmlUnknownAttribute -->
+<p class="obsidian_backlink_title">Backlinks:</p>
+<div class="obsidian_backlink">
+<details class="backlink">
+<summary>Bewegungs-Spiele</summary>
+<p><p class="obsidian_backlink">- <a href="https://nica-ev.github.io/docs/Bewegungs-Spiele/#6b2fb4c88876345a787900c8caaa4d98">Fangspiele</a></p></p>
+</details>
+<details class="backlink">
+<summary>None</summary>
+<p><p class="obsidian_backlink">| <a href="https://nica-ev.github.io/docs/sitemap/#6b2fb4c88876345a787900c8caaa4d98">Fangspiele</a>                                                                 | <ul><li>Marc Bielert</li></ul> | <ul><li>spiele</li><li>moc</li></ul>                 | 2025-01-25 01:50:08 |</p></p>
+</details>
+</div>
 
 
 
@@ -509,7 +722,7 @@
       <div class="md-progress" data-md-component="progress" role="progressbar"></div>
     
     
-    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.instant", "navigation.instant.progress", "navigation.top", "navigation.tracking", "navigation.path", "navigation.prune", "toc.follow", "header.autohide"], "search": "../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.instant", "navigation.instant.progress", "navigation.top", "navigation.tracking", "navigation.path", "navigation.prune", "navigation.tabs", "navigation.tabs.sticky", "toc.follow", "header.autohide"], "search": "../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
       <script src="../assets/javascripts/bundle.60a45f97.min.js"></script>

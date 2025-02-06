@@ -92,7 +92,7 @@
 
   
 
-<header class="md-header md-header--shadow" data-md-component="header">
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
     <a href=".." title="NICA e.V. Documentation" class="md-header__button md-logo" aria-label="NICA e.V. Documentation" data-md-component="logo">
       
@@ -151,6 +151,32 @@
       <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
     
     
+      <div class="md-header__option">
+  <div class="md-select">
+    
+    <button class="md-header__button md-icon" aria-label="Select language">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.5 17.5 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2zm-2.62 7 1.62-4.33L19.12 17z"/></svg>
+    </button>
+    <div class="md-select__inner">
+      <ul class="md-select__list">
+        
+          <li class="md-select__item">
+            <a href="/docs/en/" hreflang="en" class="md-select__link">
+              English
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="/" hreflang="de" class="md-select__link">
+              Deutsch
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+    
     
       <label class="md-header__button md-icon" for="__search">
         
@@ -204,13 +230,141 @@
     
   </nav>
   
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../buchhaltung/" class="md-tabs__link">
+        
+  
+    
+  
+  Buchhaltung
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../digital-infrastruktur/" class="md-tabs__link">
+        
+  
+    
+  
+  Digitale Infrastruktur
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../wordpress/" class="md-tabs__link">
+        
+  
+    
+  
+  Wordpress
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../nextcloud/" class="md-tabs__link">
+        
+  
+    
+  
+  Nextcloud
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../doc-sys-2/" class="md-tabs__link">
+        
+  
+    
+  
+  Dokumentations-System
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../Bewegungs-Spiele/" class="md-tabs__link">
+        
+  
+    
+  
+  Bewegungs-Spiele
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
 </header>
     
     <div class="md-container" data-md-component="container">
       
       
-        
-          
         
       
       <main class="md-main" data-md-component="main">
@@ -224,8 +378,10 @@
                     
 
 
+  
 
-<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
     <a href=".." title="NICA e.V. Documentation" class="md-nav__button md-logo" aria-label="NICA e.V. Documentation" data-md-component="logo">
       
@@ -370,6 +526,26 @@
   
 
     
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Bewegungs-Spiele/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Bewegungs-Spiele
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
   </ul>
 </nav>
                   </div>
@@ -443,7 +619,7 @@
 Ein tolles Spiel für kreative Spielleiter, denn „Der Zirkus ist in der Stadt“ ist bei jedem Spielleiter anders, da er sich eine interaktive Geschichte ausdenkt. Die dazugehörigen Interaktionen erklärt man am besten in der Geschichte. Wie der Name des Spiels verrät, erzählt der Spielleiter eine Geschichte vom Zirkus der in der Stadt ist. Einen kleinen Leitfaden gibt es für die Geschichte: Immer, wenn der Erzähler „der Zirkus ist in der Stadt“ sagt, müssen alle Zuhörer ganz euphorisch „Au Ja“ rufen. Während der Geschichte erzählt der Spielleiter, was es alles im Zirkus zu sehen gibt (z.B. Jongleure, Clowns, Artisten, Seiltänzer, etc.) und immer, wenn eine der Attraktionen genannt wird, machen alle Zuhörer dazu eine bestimmte Bewegung (Der Jongleur jongliert, der Clown macht eine Grimasse, usw.). Nun wird in der Geschichte die Kasse für die Zirkusshow geöffnet. Das ist das Signal, dass sich alle in einer Reihe auf- und an der Kasse anstellen. Der Spielleiter verkauft nun fleißig Tickets an die wartenden Gäste. Der Letzte bekommt nichts, denn da sind die Tickets alle. Dieser letzte Gast wird deshalb zum Löwen, der in den Käfig muss (festgelegter Platz). Nun beginnt die Show und der Erzähler kann von all den Nummern berichten, wobei die Zuhörer dann wieder die Bewegungen aufs Stichwort machen müssen. Zudem gibt es neben dem Käfig zwei weitere festgelegte Plätze oder Ecken. In der Einen gibt es Popcorn und in der Anderen Zuckerwatte. Fällt nun in der Geschichte das Wort ,Popcorn" müssen alle in die Popcorn-Ecke rennen und „pop pop pop“ machen, als seien sie Popcorn. Der Letzte der in der Popcorn Ecke ankommt, wird auch zum Löwen und kommt mit in den Käfig. Ähnlich funktioniert es mit der Zuckerwatte-Ecke: Fällt das Wort „Zuckerwatte rennen alle in die Zuckerwatte-Ecke, drehen sich im Kreis und sagen "Zucker Zucker". Wer dies als letztes tut, wird zum Löwen. Der Spielleiter kann zwischen diesen Sachen in seiner Geschichte immer und her wechseln. Kommandos, Kasse und die Zuckerwatte- und Popcorn Ecke. Wenn es schon einige Löwen geworden sind, kann der Spielleiter letzten Option übergehen: die Tierführung für die Zuschauer. Dabei dürfen die Löwen erstmal nur bis zu einer bestimmten Linie und die Zuschauer können ganz nah ran, um die Löwen zu bestaunen. Den Zuschauern muss allerdings auch die Rettungslinie gezeigt werden, wo sie vor ausgebrochenen Löwen sicher sind. Denn der Erzähler kann jeder Zeit rufen "die Löwen sind los“. Auf dieses Kommando sprinten die Löwen los und versuchen die Zuschauer zu fangen. Die Zuschauer versuchen wiederum natürlich sich schnellstmöglich hinter die Rettungslinie zu begeben. Wer gefangen wird, wird auch zum Löwen. Gibt es niemanden mehr zum Fangen, weil alle sicher hinter der Linie sind, bringt der Spielleiter die Löwen wieder in den Käfig und startet eine neue Tierführung. Sind schließlich keine Zuschauer mehr übrig, gibt es nur noch glückliche Löwen und die Geschichte findet ein Ende.</p>
 <p><strong>Quelle</strong>:<br />
 Tasifan Spielebuch</p>
-<p><strong>Alternative / Siehe auch</strong>: <a href="../Der%20Zirkus%20kommt%20in%20die%20Stadt/">Der Zirkus kommt in die Stadt</a></p>
+<p><strong>Alternative / Siehe auch</strong>: <a href="../Der%20Zirkus%20kommt%20in%20die%20Stadt/" id="8311f1e747931fdadb5701d0dabf98e0">Der Zirkus kommt in die Stadt</a></p>
 <h2 id="inklusiv">Inklusiv<a class="headerlink" href="#inklusiv" title="Permanent link">&para;</a></h2>
 <ul>
 <li>Popcorn (hüpfen + poppop rufen)</li>
@@ -452,6 +628,39 @@ Tasifan Spielebuch</p>
 <li>Tiger (fauchen, schleichen, buckel machen)</li>
 <li></li>
 </ul>
+<!--
+  ~ MIT License
+  ~
+  ~ Copyright (c) 2023-2025 Maciej 'maQ' Kusz <maciej.kusz@gmail.com>
+  ~
+  ~ Permission is hereby granted, free of charge, to any person obtaining a copy
+  ~ of this software and associated documentation files (the "Software"), to deal
+  ~ in the Software without restriction, including without limitation the rights
+  ~ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  ~ copies of the Software, and to permit persons to whom the Software is
+  ~ furnished to do so, subject to the following conditions:
+  ~
+  ~ The above copyright notice and this permission notice shall be included in all
+  ~ copies or substantial portions of the Software.
+  ~
+  ~ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  ~ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  ~ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  ~ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  ~ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  ~ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+  ~ SOFTWARE.
+  -->
+
+<hr />
+<!--suppress HtmlUnknownAttribute -->
+<p class="obsidian_backlink_title">Backlinks:</p>
+<div class="obsidian_backlink">
+<details class="backlink">
+<summary>None</summary>
+<p><p class="obsidian_backlink"><a href="https://nica-ev.github.io/docs/Spiele%20f%C3%BCr%20Zwischendurch/#d93b812b78f583cf4b29fd9c65132f36">Der Zirkus ist in der Stadt</a></p><hr><p class="obsidian_backlink">| <a href="https://nica-ev.github.io/docs/sitemap/#d93b812b78f583cf4b29fd9c65132f36">Der Zirkus ist in der Stadt</a>                               | <ul><li>Marc Bielert</li></ul> | <ul><li>spiele</li></ul>                             | 2025-01-24 04:48:29 |</p></p>
+</details>
+</div>
 
 
 
@@ -513,7 +722,7 @@ Tasifan Spielebuch</p>
       <div class="md-progress" data-md-component="progress" role="progressbar"></div>
     
     
-    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.instant", "navigation.instant.progress", "navigation.top", "navigation.tracking", "navigation.path", "navigation.prune", "toc.follow", "header.autohide"], "search": "../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.instant", "navigation.instant.progress", "navigation.top", "navigation.tracking", "navigation.path", "navigation.prune", "navigation.tabs", "navigation.tabs.sticky", "toc.follow", "header.autohide"], "search": "../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
       <script src="../assets/javascripts/bundle.60a45f97.min.js"></script>

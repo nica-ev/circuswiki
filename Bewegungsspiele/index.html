@@ -92,7 +92,7 @@
 
   
 
-<header class="md-header md-header--shadow" data-md-component="header">
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
     <a href=".." title="NICA e.V. Documentation" class="md-header__button md-logo" aria-label="NICA e.V. Documentation" data-md-component="logo">
       
@@ -151,6 +151,32 @@
       <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
     
     
+      <div class="md-header__option">
+  <div class="md-select">
+    
+    <button class="md-header__button md-icon" aria-label="Select language">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.5 17.5 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2zm-2.62 7 1.62-4.33L19.12 17z"/></svg>
+    </button>
+    <div class="md-select__inner">
+      <ul class="md-select__list">
+        
+          <li class="md-select__item">
+            <a href="/docs/en/" hreflang="en" class="md-select__link">
+              English
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="/" hreflang="de" class="md-select__link">
+              Deutsch
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+    
     
       <label class="md-header__button md-icon" for="__search">
         
@@ -204,13 +230,141 @@
     
   </nav>
   
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../buchhaltung/" class="md-tabs__link">
+        
+  
+    
+  
+  Buchhaltung
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../digital-infrastruktur/" class="md-tabs__link">
+        
+  
+    
+  
+  Digitale Infrastruktur
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../wordpress/" class="md-tabs__link">
+        
+  
+    
+  
+  Wordpress
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../nextcloud/" class="md-tabs__link">
+        
+  
+    
+  
+  Nextcloud
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../doc-sys-2/" class="md-tabs__link">
+        
+  
+    
+  
+  Dokumentations-System
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../Bewegungs-Spiele/" class="md-tabs__link">
+        
+  
+    
+  
+  Bewegungs-Spiele
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
 </header>
     
     <div class="md-container" data-md-component="container">
       
       
-        
-          
         
       
       <main class="md-main" data-md-component="main">
@@ -224,8 +378,10 @@
                     
 
 
+  
 
-<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
     <a href=".." title="NICA e.V. Documentation" class="md-nav__button md-logo" aria-label="NICA e.V. Documentation" data-md-component="logo">
       
@@ -370,6 +526,26 @@
   
 
     
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Bewegungs-Spiele/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Bewegungs-Spiele
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
   </ul>
 </nav>
                   </div>
@@ -424,26 +600,63 @@
 
 
 <h1 id="bewegungsspiele">Bewegungsspiele<a class="headerlink" href="#bewegungsspiele" title="Permanent link">&para;</a></h1>
-<p><a href="../F%C3%BC%C3%9Fenageln/">Füßenageln</a><br />
-<a href="../Adler%20Hase%20Kohlkopf/">Adler Hase Kohlkopf</a><br />
-<a href="../T-Shirt%20in%20der%20Hose/">T-Shirt in der Hose</a><br />
-<a href="../Feuer%20Wasser%20Sand/">Feuer Wasser Sand</a><br />
-<a href="../Krankenhaus/">Krankenhaus</a><br />
-<a href="../Haifisch/">Haifisch</a><br />
-<a href="../Zeitbombe/">Zeitbombe</a><br />
-<a href="Jeder fängt Jeden.md">Jeder fängt Jeden</a><br />
-<a href="../Figurenfangen/">Figurenfangen</a><br />
-<a href="../Vierfarbenfangen/">Vierfarbenfangen</a><br />
-<a href="../Schafe%20rei%C3%9Fen/">Schafe reißen</a><br />
-<a href="../Schwesterchen%20hilf/">Schwesterchen hilf</a><br />
-<a href="../Klammern%20haschen/">Klammern haschen</a><br />
-<a href="../M%C3%B6hre%20Hase%20Fuchs/">Möhre Hase Fuchs</a><br />
-<a href="../Pitbull/">Pitbull</a><br />
-<a href="../Zombieball/">Zombieball</a><br />
-<a href="../Katz%20und%20Maus/">Katz und Maus</a><br />
-<a href="../Paar%20haschen%20%26%20Kettenhaschen/">Paar haschen &amp; Kettenhaschen</a><br />
-<a href="../3%20gewinnt/">3 gewinnt</a><br />
-<a href="Mensch ärgere dich nicht.md">Mensch ärgere dich nicht</a></p>
+<p><a href="../F%C3%BC%C3%9Fenageln/" id="c2e18db736b5bf74022e4461bba4826a">Füßenageln</a><br />
+<a href="../Adler%20Hase%20Kohlkopf/" id="49e3876ed1de4724444e918dd857ab61">Adler Hase Kohlkopf</a><br />
+<a href="../T-Shirt%20in%20der%20Hose/" id="784f153312c5bbe293ef3426ad2c3e5f">T-Shirt in der Hose</a><br />
+<a href="../Feuer%20Wasser%20Sand/" id="5cfdb2e0647f12a819ca0c61651d7018">Feuer Wasser Sand</a><br />
+<a href="../Krankenhaus/" id="568b5fe3a441fb6502dc490b130bebbd">Krankenhaus</a><br />
+<a href="../Haifisch/" id="8381eb1193f20dd1c2fb3931f9e4607d">Haifisch</a><br />
+<a href="../Zeitbombe/" id="0a5a97055f1a04a0a41722d8f6f1babe">Zeitbombe</a><br />
+<a href="Jeder fängt Jeden.md" id="1c2256bfb7a01dbb21eb393f66292d83">Jeder fängt Jeden</a><br />
+<a href="../Figurenfangen/" id="4eb0f79be929b534a863dfbe7f094599">Figurenfangen</a><br />
+<a href="../Vierfarbenfangen/" id="c47352176cfddb1533dd1e22dd20e58a">Vierfarbenfangen</a><br />
+<a href="../Schafe%20rei%C3%9Fen/" id="1f54b6982e42cef07a5268cee8499ac6">Schafe reißen</a><br />
+<a href="../Schwesterchen%20hilf/" id="1ec980bbb23abe5a9d0fcb0f92a461c0">Schwesterchen hilf</a><br />
+<a href="../Klammern%20haschen/" id="ded86c425cacc18dca72fd33362598bf">Klammern haschen</a><br />
+<a href="../M%C3%B6hre%20Hase%20Fuchs/" id="84278b0fce0ae34e530591db8eb7ae43">Möhre Hase Fuchs</a><br />
+<a href="../Pitbull/" id="46ff94d148fc24598a54b766e2b5405f">Pitbull</a><br />
+<a href="../Zombieball/" id="f8fe3d72fe6143cc99d753793f8bc269">Zombieball</a><br />
+<a href="../Katz%20und%20Maus/" id="3e9e7713f86824b1eebf4e0df5022949">Katz und Maus</a><br />
+<a href="../Paar%20haschen%20%26%20Kettenhaschen/" id="ac044ed2b8feaf37e5c812f64d88d125">Paar haschen &amp; Kettenhaschen</a><br />
+<a href="../3%20gewinnt/" id="d820e1a121f1841abfdddc1926b6e60d">3 gewinnt</a><br />
+<a href="Mensch ärgere dich nicht.md" id="ed1bfe98127fe4b8c4cb1bb40b4c3f15">Mensch ärgere dich nicht</a></p>
+<!--
+  ~ MIT License
+  ~
+  ~ Copyright (c) 2023-2025 Maciej 'maQ' Kusz <maciej.kusz@gmail.com>
+  ~
+  ~ Permission is hereby granted, free of charge, to any person obtaining a copy
+  ~ of this software and associated documentation files (the "Software"), to deal
+  ~ in the Software without restriction, including without limitation the rights
+  ~ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  ~ copies of the Software, and to permit persons to whom the Software is
+  ~ furnished to do so, subject to the following conditions:
+  ~
+  ~ The above copyright notice and this permission notice shall be included in all
+  ~ copies or substantial portions of the Software.
+  ~
+  ~ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  ~ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  ~ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  ~ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  ~ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  ~ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+  ~ SOFTWARE.
+  -->
+
+<hr />
+<!--suppress HtmlUnknownAttribute -->
+<p class="obsidian_backlink_title">Backlinks:</p>
+<div class="obsidian_backlink">
+<details class="backlink">
+<summary>Bewegungs-Spiele</summary>
+<p><p class="obsidian_backlink">- <a href="https://nica-ev.github.io/docs/Bewegungs-Spiele/#9aff54ca06e87a3ce1a6a05598cd80eb">Bewegungsspiele</a></p></p>
+</details>
+<details class="backlink">
+<summary>None</summary>
+<p><p class="obsidian_backlink">| <a href="https://nica-ev.github.io/docs/sitemap/#9aff54ca06e87a3ce1a6a05598cd80eb">Bewegungsspiele</a>                                                       | <ul><li>Marc Bielert</li></ul> | <ul><li>spiele</li><li>moc</li></ul>                 | 2025-01-24 04:22:34 |</p></p>
+</details>
+</div>
 
 
 
@@ -505,7 +718,7 @@
       <div class="md-progress" data-md-component="progress" role="progressbar"></div>
     
     
-    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.instant", "navigation.instant.progress", "navigation.top", "navigation.tracking", "navigation.path", "navigation.prune", "toc.follow", "header.autohide"], "search": "../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.instant", "navigation.instant.progress", "navigation.top", "navigation.tracking", "navigation.path", "navigation.prune", "navigation.tabs", "navigation.tabs.sticky", "toc.follow", "header.autohide"], "search": "../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
       <script src="../assets/javascripts/bundle.60a45f97.min.js"></script>
