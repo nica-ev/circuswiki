@@ -2,13 +2,14 @@
 publish: true
 tags: 
 created: 2025-01-20 02:58:43
-update: 2025-01-24 03:16:31
+update: 2025-02-06 07:28:12
 title: Dokumentations-System
 authors:
   - Marc Bielert
 ---
 
-[[doc-sys-manifest|Manifest]]{ .md-button } | [[Obsidian Setup]]{ .md-button }
+[[doc-sys-manifest|Manifest]]{ .md-button }
+[[Obsidian Setup]]{ .md-button }
 ## Systemarchitektur
 
 Die allgemeine Idee

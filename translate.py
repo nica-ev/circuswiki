@@ -2,345 +2,162 @@ import os
 import shutil
 import argparse
 import logging
-import time
 import re
 from dotenv import load_dotenv
-
 from markdown_it import MarkdownIt
-from markdown_it.rules_inline import StateInline
-from markdown_it.rules_block import StateBlock
-from deepl import Translator
 
-# Load environment variables from .env file
 load_dotenv()
 
-# Configure logging
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+logging.basicConfig(level=logging.DEBUG, format="%(asctime)s - %(levelname)s - %(message)s")
 
-def extract_translatable_text(markdown_text):
-    """
-    Extracts translatable text from markdown, preserving structure.
+class MarkdownTranslator:
+    def __init__(self, input_dir, output_dir, target_lang, api_key):
+        self.input_dir = input_dir
+        self.output_dir = output_dir
+        self.target_lang = target_lang.upper()
+        self.api_key = api_key
+        self.translated_files = 0
+        self.skipped_files = 0
+        self.testing_mode = not api_key
+        self.text_log = open("translation_log.txt", "w", encoding="utf-8") if self.testing_mode else None
+        self.wikilink_pattern = re.compile(r'\[\[(.*?)\]\]')
 
-    Returns:
-        A tuple: (list of text chunks, list of markdown tokens, list of text types, list of original text)
-    """
-    md = MarkdownIt()
-    tokens = md.parse(markdown_text)
-    translatable_texts = []
-    translatable_tokens = []
-    translatable_types = []
-    original_texts = []
+    def extract_translatable_text(self, markdown_text):
+        md = MarkdownIt()
+        tokens = md.parse(markdown_text)
+        translatable = []
+        in_code = False
 
-    for token in tokens:
-        if token.type == 'text' and token.content.strip():
-            # Check if the text is inside a code block
-            if any(t.type == 'code_block' for t in tokens if t.level < token.level):
+        for token in tokens:
+            if token.type in ["code_block", "fence"]:
+                in_code = not in_code
+                continue
+            if in_code:
                 continue
 
-            # Check if the text is inside an inline code block
-            if any(t.type == 'code_inline' for t in tokens if t.level < token.level):
-                continue
-            
-             # Check if the text is within an HTML tag.
-            if any(t.type == 'html_block' or t.type == 'html_inline' for t in tokens if t.level < token.level):
-                continue
-            
-            # Check if the text is within a blockquote
-            if any(t.type == 'blockquote_open' for t in tokens if t.level < token.level):
-                translatable_texts.append(token.content)
-                translatable_tokens.append(token)
-                translatable_types.append('blockquote')
-                original_texts.append(token.content)
-                continue
-            
-            # Check if the text is within an image alt text
-            if token.type == 'text' and any(t.type == 'image' for t in tokens if t.level < token.level):
-                translatable_texts.append(token.content)
-                translatable_tokens.append(token)
-                translatable_types.append('image_alt')
-                original_texts.append(token.content)
-                continue
+            # Process inline tokens and their children
+            if token.type == "inline" and token.children:
+                for child in token.children:
+                    if child.type == "text":
+                        # Extract wikilinks from text content
+                        wikilinks = self.wikilink_pattern.findall(child.content)
+                        for link in wikilinks:
+                            title = link.split("|")[0] if "|" in link else link
+                            translatable.append(('link_title', title.strip()))
+                        
+                        # Handle remaining text after removing wikilinks
+                        remaining_text = self.wikilink_pattern.sub('', child.content).strip()
+                        if remaining_text:
+                            translatable.append(('text', remaining_text))
 
-            # Check if the text is within a link text
-            if any(t.type == 'link_open' for t in tokens if t.level < token.level):
-                 translatable_texts.append(token.content)
-                 translatable_tokens.append(token)
-                 translatable_types.append('link_text')
-                 original_texts.append(token.content)
-                 continue
-            
-            #Check if text is within a button
-            if any(t.type == 'text' and t.content.endswith('{.md-button}') for t in tokens if t.level < token.level):
-                 translatable_texts.append(token.content.replace('{.md-button}', ''))
-                 translatable_tokens.append(token)
-                 translatable_types.append('button_text')
-                 original_texts.append(token.content)
-                 continue
-            
-            #Check if text is within a table cell
-            if any(t.type == 'td_open' for t in tokens if t.level < token.level):
-                 translatable_texts.append(token.content)
-                 translatable_tokens.append(token)
-                 translatable_types.append('table_cell')
-                 original_texts.append(token.content)
-                 continue
+            # Handle standard markdown links
+            elif token.type == "link_open" and "title" in token.attrs:
+                translatable.append(('link_title', token.attrs["title"]))
 
-            #Check if text is within a table header cell
-            if any(t.type == 'th_open' for t in tokens if t.level < token.level):
-                 translatable_texts.append(token.content)
-                 translatable_tokens.append(token)
-                 translatable_types.append('table_header_cell')
-                 original_texts.append(token.content)
-                 continue
+            # Handle standalone text tokens
+            elif token.type == "text" and token.content.strip():
+                translatable.append(('text', token.content.strip()))
 
-            #Otherwise it is a paragraph or heading
-            translatable_texts.append(token.content)
-            translatable_tokens.append(token)
-            translatable_types.append('paragraph_heading')
-            original_texts.append(token.content)
+        logging.debug(f"Found {len(translatable)} translatable segments")
+        return translatable
 
-        #Handle button syntax
-        if token.type == 'text' and token.content.endswith('{.md-button}'):
-            translatable_texts.append(token.content.replace('{.md-button}', ''))
-            translatable_tokens.append(token)
-            translatable_types.append('button_text')
-            original_texts.append(token.content)
+    def translate_text(self, text_blocks):
+        if self.testing_mode:
+            for ttype, text in text_blocks:
+                self.text_log.write(f"{ttype.upper()}: {text}\n")
+            return [(ttype, text) for ttype, text in text_blocks]
+        return text_blocks
+
+    def replace_translated_text(self, original, translations):
+        translated = original
+        translation_iter = iter(translations)
         
-        #Handle link titles (wikilinks, and normal links)
-        if token.type == 'link_open' and token.content:
-             # Handle link titles in the format [[link|title]]
-            match = re.match(r'\[\[[^|]+\|([^\]]+)\]\]', token.content)
-            if match:
-                translatable_texts.append(match.group(1))
-                translatable_tokens.append(token)
-                translatable_types.append('link_title')
-                original_texts.append(match.group(1))
-                continue
-
-            # Handle link titles in the format [text](url "title")
-            match = re.search(r'"([^"]+)"\)$', token.content)
-            if match:
-                translatable_texts.append(match.group(1))
-                translatable_tokens.append(token)
-                translatable_types.append('link_title')
-                original_texts.append(match.group(1))
-                continue
-    return translatable_texts, translatable_tokens, translatable_types, original_texts
-
-def replace_translated_text(markdown_text, translated_texts, translatable_tokens, translatable_types, original_texts):
-    """Replaces original text with translated text, preserving markdown structure."""
-    md = MarkdownIt()
-    tokens = md.parse(markdown_text)
-    translated_markdown = ""
-    original_text_index = 0 # Track the index of the original text being translated
-
-    for token in tokens:
-        if token.type == 'text' and token.content.strip():
-            #Check if the text is inside a code block
-            if any(t.type == 'code_block' for t in tokens if t.level < token.level):
-                translated_markdown += token.content
-                continue
-            # Check if the text is inside an inline code block
-            if any(t.type == 'code_inline' for t in tokens if t.level < token.level):
-                translated_markdown += token.content
-                continue
-            
-            # Check if the text is within an HTML tag.
-            if any(t.type == 'html_block' or t.type == 'html_inline' for t in tokens if t.level < token.level):
-                translated_markdown += token.content
-                continue
-
-            # Check if the text is within a blockquote
-            if any(t.type == 'blockquote_open' for t in tokens if t.level < token.level):
-                if translatable_types[original_text_index] == 'blockquote':
-                    translated_markdown += translated_texts[original_text_index]
-                    original_text_index += 1
-                    continue
+        def replace_wikilink(match):
+            try:
+                original_content = match.group(1)
+                if "|" in original_content:
+                    title_part, rest = original_content.split("|", 1)
+                    translated_title = next(t for t in translation_iter if t[0] == 'link_title')[1]
+                    return f"[[{translated_title}|{rest}]]"
                 else:
-                   translated_markdown += token.content
-                   continue
-            
-            # Check if the text is within an image alt text
-            if token.type == 'text' and any(t.type == 'image' for t in tokens if t.level < token.level):
-                if translatable_types[original_text_index] == 'image_alt':
-                    translated_markdown += translated_texts[original_text_index]
-                    original_text_index += 1
-                    continue
-                else:
-                    translated_markdown += token.content
-                    continue
+                    translated_title = next(t for t in translation_iter if t[0] == 'link_title')[1]
+                    return f"[[{translated_title}]]"
+            except (StopIteration, IndexError):
+                return match.group(0)
 
-            # Check if the text is within a link text
-            if any(t.type == 'link_open' for t in tokens if t.level < token.level):
-                if translatable_types[original_text_index] == 'link_text':
-                    translated_markdown += translated_texts[original_text_index]
-                    original_text_index += 1
-                    continue
-                else:
-                   translated_markdown += token.content
-                   continue
-
-            #Check if text is within a button
-            if any(t.type == 'text' and t.content.endswith('{.md-button}') for t in tokens if t.level < token.level):
-                if translatable_types[original_text_index] == 'button_text':
-                    translated_markdown += translated_texts[original_text_index]
-                    original_text_index += 1
-                    continue
-                else:
-                    translated_markdown += token.content
-                    continue
-
-            #Check if text is within a table cell
-            if any(t.type == 'td_open' for t in tokens if t.level < token.level):
-                if translatable_types[original_text_index] == 'table_cell':
-                    translated_markdown += translated_texts[original_text_index]
-                    original_text_index += 1
-                    continue
-                else:
-                    translated_markdown += token.content
-                    continue
-            
-            #Check if text is within a table header cell
-            if any(t.type == 'th_open' for t in tokens if t.level < token.level):
-                if translatable_types[original_text_index] == 'table_header_cell':
-                    translated_markdown += translated_texts[original_text_index]
-                    original_text_index += 1
-                    continue
-                else:
-                    translated_markdown += token.content
-                    continue
-            
-            #Otherwise it is a paragraph or heading
-            if translatable_types[original_text_index] == 'paragraph_heading':
-                translated_markdown += translated_texts[original_text_index]
-                original_text_index += 1
-                continue
-            else:
-                 translated_markdown += token.content
-                 continue
-
-        #Handle button syntax
-        if token.type == 'text' and token.content.endswith('{.md-button}'):
-             if translatable_types[original_text_index] == 'button_text':
-                translated_markdown += translated_texts[original_text_index] + '{.md-button}'
-                original_text_index += 1
-                continue
-             else:
-                 translated_markdown += token.content
-                 continue
+        # Replace wikilinks first
+        translated = self.wikilink_pattern.sub(replace_wikilink, translated)
         
-        #Handle link titles
-        if token.type == 'link_open' and token.content:
-             # Handle link titles in the format [[link|title]]
-            match = re.match(r'\[\[[^|]+\|([^\]]+)\]\]', token.content)
-            if match:
-                if translatable_types[original_text_index] == 'link_title':
-                    translated_markdown += f'[[{token.content.split("|")[0].replace("[[","")}'+f'|{translated_texts[original_text_index]}]]'
-                    original_text_index += 1
-                    continue
-                else:
-                    translated_markdown += token.content
-                    continue
-
-            # Handle link titles in the format [text](url "title")
-            match = re.search(r'"([^"]+)"\)$', token.content)
-            if match:
-                 if translatable_types[original_text_index] == 'link_title':
-                     translated_markdown += token.content.replace(f'"{original_texts[original_text_index]}"', f'"{translated_texts[original_text_index]}"')
-                     original_text_index += 1
-                     continue
-                 else:
-                     translated_markdown += token.content
-                     continue
+        # Replace remaining text content
+        for (ttype, orig), (_, new) in zip(self.extract_translatable_text(original), translations):
+            if ttype == 'text':
+                translated = translated.replace(orig, new, 1)
         
-        translated_markdown += token.content
-    return translated_markdown
+        return translated
 
-def translate_text(text_chunks, target_lang, api_key):
-    """Translates text chunks using the Deepl API.
-       If no API key is provided, it returns the original text."""
-    if not api_key:
-        logging.warning("No Deepl API key provided. Returning original text for testing.")
-        return text_chunks  # Return original text if no API key
-    
-    translator = Translator(api_key)
-    try:
-        result = translator.translate_text(text_chunks, target_lang=target_lang)
-        translated_texts = [r.text for r in result]
-        return translated_texts
-    except Exception as e:
-        logging.error(f"Deepl API error: {e}")
-        return None
-
-def process_markdown_file(input_file, output_file, target_lang, api_key):
-    """Processes a single markdown file."""
-    try:
-        with open(input_file, 'r', encoding='utf-8') as f:
-            markdown_text = f.read()
-    except Exception as e:
-        logging.error(f"Error reading file {input_file}: {e}")
-        return
-
-    #Check if the file has YAML frontmatter
-    yaml_match = re.match(r'^---\n(.*?)\n---', markdown_text, re.DOTALL)
-    if yaml_match:
-        yaml_content = yaml_match.group(0)
-        markdown_text = markdown_text[len(yaml_content):] #remove the YAML frontmatter for processing
-    else:
-        yaml_content = ""
-
-    translatable_texts, translatable_tokens, translatable_types, original_texts = extract_translatable_text(markdown_text)
-
-    if not translatable_texts:
-        logging.info(f"No translatable text found in {input_file}")
-        # Copy file if no text to translate
-        if yaml_content:
-            with open(output_file, 'w', encoding='utf-8') as f:
-                f.write(yaml_content + markdown_text)
-        else:
-            shutil.copy2(input_file, output_file)
-        return
-
-    translated_texts = translate_text(translatable_texts, target_lang, api_key)
-
-    if translated_texts:
-        translated_markdown = replace_translated_text(markdown_text, translated_texts, translatable_tokens, translatable_types, original_texts)
-
-        # Add YAML frontmatter back if present
-        if yaml_content:
-            translated_markdown = yaml_content + translated_markdown
-
+    def process_markdown_file(self, input_path, output_path):
         try:
-            with open(output_file, 'w', encoding='utf-8') as f:
-                f.write(translated_markdown)
-            logging.info(f"Translated: {input_file} -> {output_file}")
-        except Exception as e:
-            logging.error(f"Error writing to file {output_file}: {e}")
-    else:
-        logging.error(f"Translation failed for {input_file}")
+            with open(input_path, 'r', encoding='utf-8') as f:
+                content = f.read()
 
+            yaml_front = re.match(r'^---\n.*?\n---\n', content, re.DOTALL)
+            body = content[len(yaml_front.group(0)):] if yaml_front else content
+
+            translatable = self.extract_translatable_text(body)
+            if not translatable:
+                shutil.copyfile(input_path, output_path)
+                self.skipped_files += 1
+                logging.debug(f"Skipped {input_path} - no translatable content")
+                return
+
+            translated = self.translate_text(translatable)
+            new_body = self.replace_translated_text(body, translated)
+
+            with open(output_path, 'w', encoding='utf-8') as f:
+                if yaml_front:
+                    f.write(yaml_front.group(0))
+                f.write(new_body)
+
+            self.translated_files += 1
+
+        except Exception as e:
+            logging.error(f"Error processing {input_path}: {str(e)}")
+            self.skipped_files += 1
+
+    def run(self):
+        if not os.path.exists(self.output_dir):
+            os.makedirs(self.output_dir)
+
+        for root, _, files in os.walk(self.input_dir):
+            for file in files:
+                if file.lower().endswith(('.md', '.markdown')):
+                    input_path = os.path.join(root, file)
+                    rel_path = os.path.relpath(input_path, self.input_dir)
+                    output_path = os.path.join(self.output_dir, rel_path)
+                    os.makedirs(os.path.dirname(output_path), exist_ok=True)
+                    self.process_markdown_file(input_path, output_path)
+
+        if self.text_log:
+            self.text_log.close()
+
+        logging.info(f"Processed {self.translated_files} files, skipped {self.skipped_files}")
 
 def main():
-    parser = argparse.ArgumentParser(description="Translate markdown files using the Deepl API.")
-    parser.add_argument("--input-dir", required=True, help="Path to the input directory containing markdown files.")
-    parser.add_argument("--output-dir", required=True, help="Path to the output directory for translated files.")
-    parser.add_argument("--target-lang", required=True, help="Target language code (e.g., en, fr, es).")
-    parser.add_argument("--deepl-api-key", default=os.getenv('DEEPL_API_KEY'), help="Your Deepl API key.")
-
+    parser = argparse.ArgumentParser(description="Markdown translation tool")
+    parser.add_argument("--input-dir", required=True)
+    parser.add_argument("--output-dir", required=True)
+    parser.add_argument("--target-lang", required=True)
+    parser.add_argument("--deepl-api-key", default=os.getenv("DEEPL_API_KEY"))
+    
     args = parser.parse_args()
+    
+    translator = MarkdownTranslator(
+        args.input_dir,
+        args.output_dir,
+        args.target_lang,
+        args.deepl_api_key
+    )
+    translator.run()
 
-    if not args.deepl_api_key:
-        logging.error("Deepl API key is missing. Please provide it as an argument or set the DEEPL_API_KEY environment variable.")
-        return
-
-    for root, _, files in os.walk(args.input_dir):
-        for file in files:
-            if file.lower().endswith(('.md', '.markdown')):
-                input_file = os.path.join(root, file)
-                relative_path = os.path.relpath(input_file, args.input_dir)
-                output_file = os.path.join(args.output_dir, relative_path)
-
-                # Create output directory if it doesn't exist
-                os.makedirs(os.path.dirname(output_file), exist_ok=True)
-
-                process_markdown_file(input_file, output_file, args.
+if __name__ == "__main__":
+    main()

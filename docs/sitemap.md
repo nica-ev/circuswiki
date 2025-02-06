@@ -73,7 +73,7 @@ authors:
 | [[Human Memory]]                                                             | <ul><li>Marc Bielert</li></ul> | <ul><li>spiele</li></ul>                             | 2025-01-24 05:23:32 |
 | [[Ich fahre Zug]]                                                           | <ul><li>Marc Bielert</li></ul> | <ul><li>spiele</li></ul>                             | 2025-01-24 05:24:06 |
 | [[Impressum]]                                                                   | <ul><li>Marc Bielert</li></ul> | \-                                                   | 2025-01-23 05:45:18 |
-| [[docs/index]]                                                                           | <ul><li>Marc Bielert</li></ul> | <ul><li>moc</li></ul>                                | 2025-01-25 02:20:26 |
+| [[Dokumentation Nica eV]]                                                                           | <ul><li>Marc Bielert</li></ul> | <ul><li>moc</li></ul>                                | 2025-01-25 02:20:26 |
 | [[Kartenfinder]]                                                             | <ul><li>Marc Bielert</li></ul> | <ul><li>spiele</li></ul>                             | 2025-01-25 02:19:28 |
 | [[Kartoffel Kartoffel]]                                               | <ul><li>Marc Bielert</li></ul> | <ul><li>spiele</li></ul>                             | 2025-01-24 05:25:23 |
 | [[Kataflasch]]                                                                 | <ul><li>Marc Bielert</li></ul> | <ul><li>spiele</li></ul>                             | 2025-01-24 05:26:02 |

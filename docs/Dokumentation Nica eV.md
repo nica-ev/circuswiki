@@ -1,10 +1,10 @@
 ---
 created: 2025-01-21 20:42:26
-update: 2025-01-25 16:22:12
+update: 2025-02-06 07:10:41
 publish: true
 tags:
   - moc
-title: Home
+title: Dokumentation Nica e.V.
 description: 
 authors:
   - Marc Bielert
@@ -67,21 +67,5 @@ authors:
 
     [[doc-sys-2|:octicons-arrow-right-24: Dokumentation]]{  .md-button }
 
--   :material-scale-balance:{ .lg .middle } __Bewegungs - Spiele__
-
-    ---
-
-	 Beschreibungen von Gruppenspielen aus dem sportlich - pädadischem Bereich
-
-    [[Bewegungs-Spiele|:octicons-arrow-right-24: Spiele]]{  .md-button }
-
--   :material-scale-balance:{ .lg .middle } __Mitmachen__
-
-    ---
-
-	 Wie ihr euch beteiligen könnt.
-
-    [[mitmachen|:octicons-arrow-right-24: Mitmachen]]{  .md-button }
-    
 </div>
 
