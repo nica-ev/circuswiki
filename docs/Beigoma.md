@@ -1,13 +1,13 @@
 ---
 created: 2025-01-25 02:09:19
-update: 2025-01-25 02:10:21
+update: 2025-02-06 21:40:14
 publish: true
 tags:
   - beigoma
   - spiele
   - moc
 title: Beigoma
-description: 
+description: Beigoma - Überblick
 authors:
   - Marc Bielert
 ---

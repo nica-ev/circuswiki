@@ -1,6 +1,6 @@
 ---
 created: 2025-01-21 18:09:55
-update: 2025-02-06 06:55:10
+update: 2025-02-07 04:12:04
 publish: true
 tags: 
 title: Kaskade 001 - 1984
@@ -31,6 +31,8 @@ Natürlich können und wollen wir diese Artikel nicht alle selber schreiben. Wir
 
 Deshalb bitten wir Euch, uns Artikel und gute Bilder zu schicken, über alle Ereignisse und Geschichten, die Ihr erlebt habt und uns alle Infos und Termine zukommen zu lassen, die entfernt und konkret etwas mit jonglieren zu tun haben. Wir würden uns wünschen, einen festen "Korrespondenten" und Ansprechpartner in jedem Land zu haben, damit es eine wirklich europäische Zeitschrift werden kann.
 
+![Kaskade00101](img/Kaskade-001-01.png){ align=left }
+
 ### **Jongleure**
 
 Mit diesen Ideen haben wir uns an einige Jongleure und Jongliergruppen gewandt, die uns daraufhin mit Artikeln, Infos, Ideen, Anzeigen und lieben Briefen geholfen haben, diese erst Ausgabe möglich zu machen. Vielen vielen Dank an alle.
@@ -45,12 +47,14 @@ Wir hoffen, Euch gefällt unsere Idee und freuen uns auf Eure Anregungen und Kri
 
 *Gabi & Paul*
 
-## **Von Streuselschnecke zu Pusteblume**
-
-**Zirkus gesucht!**
+## Zirkus gesucht!
 **Ein Bericht zweier Clowns, die keine Lust mehr hatten, in der DDR zu leben**
 
+### Von Streuselschnecke ...
+
 Wie der ganze Zirkus angefangen hat? Na, das ist fast eine unendliche Geschichte....
+
+![Kaskade00102](img/Kaskade-001-02.png){ align=left }
 
 Uli liebte den Geruch von frischem Holz, wurde Tischler, ging als Handwerker zum Zirkus und begann zu jonglieren. Kattrin wußte nichts besseres und studierte Schauspiel. Uli kam mach Berlin zurück und wollte auf einem Fest sein Können zeigen. Allerdings trank er vor Aufregung zuviel und die Bälle machten mit ihm, was sie wollten. So lernten wir uns kennen und Uli wurde Kattrins Jonglierlehrer.
 
@@ -74,7 +78,11 @@ Nun wollten wir für unser Programm Werbung machen. Dazu müßt Ihr wissen, daß
 
 Wir bekamen viele Angebote, da wir in unserer Art einzig in der DDR waren, und weil wir durch unsere Einfachheit, Lustigkeit und Spielfreude eine Alternative zum staatlich geförderten Angebot darstellten.
 
+### ... zu Pusteblume
+
 Als wir ein Jahr später unser Programm der staatliche Konzert- und Gastspieldirektion zeigten, um eine Gruppeneinstufung zu bekommen, damit Uli als Kattrins Partner anerkannt wird, sagte die Kommission, unser Programm enthalte keine pädagogischen Werte.
+
+![Kaskade00103](img/Kaskade-001-03.png){ align=right}
 
 Also erhielten wir nichts und schummelten uns weiter durch, immer wissend, daß entdeckt werden könnte, daß Uli gar nicht auftreten darf. (Zwei Wochen vor unserer Ausreise kam es heraus.)
 
@@ -108,6 +116,8 @@ Also auf bald oder auch nicht
 
 Seit zwei Jahren trage ich den Titel "Europäischer Direktor der International Jugglers Association" (IJA) Das ist ein Titel, den W.C.Fields geliebt hätte, da er so wichtig und mysteriös (lingt klingt und fast nichts bedeutet. Ich "dirigiere" niemanden und verbringe den Großteil meiner Zeit in England.
 
+![Kaskade00104](img/Kaskade-001-04.png){ align=left }
+
 Die IJA begann als eine kleine Gruppe von Freunden und ist jetzt eine große Organisation mit Hunderten von Mitgliedern in Amerika. Das erste europäische Jongleurtreffen bestand ebenfalls nur aus einer kleinen Gruppe von Freunden in England, aber es war der erste Schritt, das Wort "International" zu rechtfertigen. Heute zieht dieses Treffen Menschen aus mehr als zehn verschiedenen Ländern an.
 
 Die Treffen werden größer und es kommen auch viele Nicht-Mitglieder. Die meisten von ihnen sehen keinen Grund, der IJA beizutreten, wenn das einzige, was sie davon haben, ein amerikanisches Magazin und eine Adressenliste ist, die sie nie gebrauchen werden.
@@ -133,11 +143,13 @@ Ich schreibe dies als Brief, weil ich kein Journalist bin und ich mache meine Fe
 Übrigens, wenn Du denkst, daß ein richtiger Olympianer ein besserer Sprecher für Europa wäre, dann kannst Du selber kandidieren, oder finde einen jonglierenden Politiker, der unser Vertreter für 1985 sein soll.
 In der Zwischenzeit hoffe ich, Dich zu sehen, während unserer paar Tage zusammen. Und vergiß nicht: Lächeln überwindet Schwerkraft. (Das ist ein guter Slogan, um eine Wahl zu gewinnen, oder um unseren Übersetzern Kopfschmerzen zu bereiten.)
 
-## **Schwerkraft - na und!**
-**autonome jongliergruppe wiesbaden und die 7. europäische jonglierwoche**
+## Autonome Jongliergruppe Wiesbaden und die 7. Europäische Jonglierwoche
+**Schwerkraft - na und!**
 
 Erst seit relativ kurzer Zeit besteht die autonome Jongliergruppe SCHWERKRAFT NA UND! aus Wiesbaden oder besser noch aus der Rhein-Main-Gegend.
 Noch im August 1982 gab es in Wiesbaden nur wenige Jongleure, die kaum etwas voneinander wußten. Durch Zufall kamen die drei der ersten Stunde, Paul, Uli und Christoph zusammen, jonglierten dann in Wiesbadens Grünanlagen und beschlossen, wenige Wochen später zum 5. Europäischen Jongliertreffen nach Kopenhagen zu fahren.
+
+![Kaskade00105](img/Kaskade-001-05.png){ align=right}
 
 Fritz aus Frankfurt kam mit. Nach dem Motto: "Nur was man tut, wird getan" und unter dem Eindruck des Kopenhagener Treffens wollte Fritz das 6. Europäische Treffen in Frankfurt veranstalten. Er unterlag bei der Abstimmung in Kopenhagen mit seiner spontanen Idee den besser vorbereiteten Jongleuren aus Frankreich.
 
@@ -176,81 +188,106 @@ Alles in Allem hat uns die Organisation der 7. Europäischen Jonglierwoche Spaß
 
 Christoph Schmitt
 
-## **KASKADE workshop**
+## KASKADE workshop
+### Die Säulen-Seite
 
-**Die Säulen-Seite**
-
+![Kaskade00106](img/Kaskade-001-06.png){ align=left }
 Dr. P. Luftiko (siehe Bild)
-
-In den folgenden Beschreibungen beziehen sich die Begriffe "Einzel(ball)" und "Doppel(bälle)" auf die Flugbahnen und nicht auf die Anzahl der Bälle in jeder Hand. D.h. bei der Grundform, daß der Einzelball in der Mitte und die Doppelbälle außen springen.
 
 O.K. Du kannst jetzt 2 Bälle in einer Hand jonglieren, mit links genauso wie mit rechts. Du könntest es jetzt mit 4 versuchen. Aber warte noch ein bißchen! Es gibt Hunderte von Möglichkeiten, diese Fähigkeit mit 3 Bällen in der "Säulen"-Form zu gebrauchen, die Deine Freunde in Erstaunen versetzen würden und Dein Publikum zum Brüllen bringt.
 
-Die Grunform der "Säulen": 2 Bälle in der rechten Hand parallel zueinander geworfen (d.h. nicht im Kreis), während die linke Hand den 3. im gleichen Rhythmus hochwirft, wie die recht Hand den äußeren Ball wirft.
+Die Grundform der "Säulen": 2 Bälle in der rechten Hand parallel zueinander geworfen (d.h. nicht im Kreis), während die linke Hand den 3. im gleichen Rhythmus hochwirft, wie die recht Hand den äußeren Ball wirft.
 
-Tennis
+![Kaskade00107](img/Kaskade-001-07.png)
 
-Der Einzelball wird anfangs ganz rechts hochgeworfen, dann fliegt er im hohen Bogen nach links und wieder zurück, immer hin und her. Die Flugbahnen sehen so aus:
+Mit diesem Grundrhythmus kannst Du durch kleine Veränderungen dieses Thema unendlich variieren. Du kannst die Flugbahnen ändern und die Hand wechseln, mit der Du 2 jonglierst.
 
-Jeder der beiden Doppelbälle stellt ein Hürde dar. (Wenn Du bei jeder Landung des Einzelballs "boing" sagst, hat der Zuschauer den Eindruck, daß der Ball dotzt.)
+In den folgenden Beschreibungen beziehen sich die Begriffe "Einzel(ball)" und "Doppel(bälle)" auf die Flugbahnen und nicht auf die Anzahl der Bälle in jeder Hand. D.h. bei der Grundform, daß der Einzelball in der Mitte und die Doppelbälle außen springen.
 
-Kreuzung
+#### Tennis
 
-Natürlich kannst Du auch mit den Doppelbällen Tricks machen. Hier kreuzen sie sich.
+Der Einzelball wird anfangs ganz rechts hochgeworfen,
+
+![Kaskade00108](img/Kaskade-001-08.png)
+
+dann fliegt er im hohen Bogen nach links und wieder zurück, immer hin und her. Die Flugbahnen sehen so aus:
+
+![Kaskade00109](img/Kaskade-001-09.png)
 
 Die Doppelbälle bilden das "Netz" (Du könntest dabei vielleicht Tennisschlägergeräusche machen oder John McEnroe nachmachen!)
 
-Hürden
+#### Hürden
 
 Der Anfang ist ähnlich wie beim Tennis, bloß diesmal macht der Einzelball eine Zwischenlandung in der Mitte.
 
+![Kaskade00110](img/Kaskade-001-10.png)
+
+Jeder der beiden Doppelbälle stellt ein Hürde dar. (Wenn Du bei jeder Landung des Einzelballs "boing" sagst, hat der Zuschauer den Eindruck, daß der Ball dotzt.)
+
+#### Kreuzung
+
+Natürlich kannst Du auch mit den Doppelbällen Tricks machen. Hier kreuzen sie sich.
+
+![Kaskade00111](img/Kaskade-001-11.png)
+
 Obwohl Du die Vorsichtsmaßnahme getroffen hast, den einen Doppelball etwas höher als den anderen zu werfen, wirst Du leider allzuoft erleben, daß sie in der Mitte zusammenstoßen und unkontrollierbar wegfliegen. Keine Bange! Mit Übung wirst Du diesen Zusammenstoß absichtlich hinkriegen, ohne daß die 2 Bälle in unterschiedliche Richtungen außerhalb Deiner Reichweite entkommen.
+
+![Kaskade00112](img/Kaskade-001-12.png)
 
 Je höher der Zusammenstoß, desto begeisterter die Zuschauer.
 
-Gekreuzte Arme
+#### Gekreuzte Arme
 
 Versuche den rechten Doppelball mit der linken Hand und gleichzeitig den linken Doppelball mit Deiner rechten zu fangen. Das Fangen ist normalerweise nicht so arg schwierig, aber dann das senkrechte Hochwerfen...!! Übe nur mit den Doppelbällen, bis dies klappt, bevor Du wieder den Einzelball dazunimmst.
 
-Schulterwürfe
+#### Schulterwürfe
 (für Fortgeschrittene!)
 
 Anstatt die Doppelbälle einfach senkrecht hochzuwerfen, schmeiße sie von hinten über die Schultern, mit der rechten Hand über die rechte Schulter und links über links. Wenn Du Dich nicht richtig warm gemacht hast, wirst Du Dir die Schultern dabei verrenken. Wenn sich die Doppelbälle gegen Deinen Willen über Deinem Kopf kreuzen, dann hast Du anscheinend das gleiche Problem wie ich!
 
-## **Schummeln!**
+## Schummeln!
 
 Wenn Du phosphorisierende Bälle hast, die im Dunkeln leuchten, kannst Du beim Publikum den Eindruck erwecken, daß Du die Säulenform machst. Auf einmal bleibt einer der Doppelbälle (der, den Du festhälst) unglaublicherweise in der Luft stehen und weigert sich, runterzukommen. (Du hälst ihn einfach hoch, aber das sieht der Zuschauer nicht!) der abtrünnige Ball, der scheinbar die Gesetze der Schwerkraft überwunden hat, kann jetzt erstaunliche akrobatische Tricks vorführen, bevor er wieder seinen Platz im Muster einnimmt. Zum Beispiel:
 
-Das Yo-Yo
+### Das Yo-Yo
 
 Du hälst den "Schummelball" immer ein paar Zentimeter über einem der springenden Bälle. Bewege Deine Hand rauf und runter; so daß der Abstand zwischen gehaltenem und fliegendem Ball immer konstant bleibt. Es sieht aus, als wären die Bälle an einer Schnur zusammengebunden.
 
-Das Pendel
+### Das Pendel
 
 Dies ist auch ein Yo-Yo-Trick, wobei sich die Hände beim Festhalten eines Schummelballs abwechseln. Ein Einzelball springt senkrecht in der Mitte auf und ab, während sich die Schummelbälle scheinbar hin und her "ziehen", und Deine Arme schwingende Pendelbewegungen machen. (Dabei könntest Du auch abwechselnd die Beine schwingen oder "Ticktack" sagen.)
 
-A (I) A inder linken Hand halten
-B B aus der rechten werfen
+![Kaskade00113](img/Kaskade-001-13.png){ align=left }
+
+**Transkript des Bildes**
+
+(i) A in der linken Hand halten
+B aus der rechten werfen
 C mit der rechten fangen
 
-O C (ii) C aus der rechten werfen
+(ii) C aus der rechten werfen
 B mit der rechten fangen
-Aund B auf die rechte Seite tragen
+A und B auf die rechte Seite tragen
 
-B (iii) B in der rechten halten
-A aus der inken werfen
-O C C mit der linken fangen
+(iii) B in der rechten halten
+A aus der linken werfen
+C mit der linken fangen
 
-Hier einige noch rebellischere Tricks für einen Schummelball:
-
-Die Sense
+**Hier einige noch rebellischere Tricks für einen Schummelball:**
+### Die Sense
 
 Der Schummelball schießt waagerecht zwischen den beiden geworfenen hin und her, zuerst über den herunterkommenden, dann unter den aufsteigenden Ball. Die Hand, in der Du den Schummelball hälst, "schneidet" durch die 2-Ball-Jonglage wie eine Sense.
 
+![Kaskade00114](img/Kaskade-001-14.png)
+
 Eine graziöse (und leichtere) Variante ist das "unendliche Sensen". Der Schummelball beschreibt keine gerade, waagerechte Linie, sondern ein Unendlichkeitszeichen (oder liegende Acht).
 
-Orbit
+![Kaskade00115](img/Kaskade-001-15.png)
+
+### Orbit
 
 Ein besonders rebellischer Schummelball fängt vielleicht an, um Deinen Kopf zu kreisen wie eine lästige Fliege. (Summ,summ!)
+
+![Kaskade00116](img/Kaskade-001-16.png)
 
 Da Du eigentlich nur 2 Bälle jonglierst und den dritten nur festhälst, ist die Anzahl von Streichen, die dieser dritte Ball spielen kann, durch nichts begrenzt, außer Deiner Anatomie!

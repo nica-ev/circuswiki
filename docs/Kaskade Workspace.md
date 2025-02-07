@@ -1,6 +1,6 @@
 ---
 created: 2025-01-21 18:09:55
-update: 2025-02-06 06:54:15
+update: 2025-02-07 00:39:18
 publish: true
 tags:
   - moc
@@ -16,9 +16,10 @@ authors:
 >Für mehrere Jahre waren die Magazine als PDF noch zum Download erhältlich, seit ca. 2017 ist die Seite offline gegangen. 
 >Ich habe mich oft an kleine Workshops, Tutorials oder Artikel erinnert die mich damals inspiriert haben. Als ich nun Jahre später etwas nachlesen wollte - gab es keine Möglichkeit mehr.
 >
->Mithilfe der Wayback Machine (The Internet Archive) habe ich glücklicherweise noch einen Checkpunkt von 2017 mit den kompletten Downloads gefunden (das ist nicht immer der Fall, insbesondere es ca. 3 GB an PDFs waren) - komplett mit Deutscher, Englischer und Französischer Ausgabe.
+>Mithilfe der Wayback Machine (The Internet Archive) habe ich glücklicherweise noch einen Checkpunkt von 2017 mit den kompletten Downloads gefunden (das ist nicht immer der Fall, insbesondere da es ca. 3 GB an PDFs waren) - komplett mit Deutscher, Englischer und Französischer Ausgabe.
 >
->Beim durchsehen merkte ich, das zwar eine Menge toller Artikel und Tutorials in den Magazinen versteckt waren - aber in der heutigen Zeit wohl kaum noch jemand 112 Magazine, welche lediglich photokopiert sind - durchzusehen. Naja, ausser man hat nostalgisches Interesse =P
+>Beim durchsehen merkte ich, das zwar eine Menge toller Artikel und Tutorials in den Magazinen versteckt waren - aber in der heutigen Zeit wohl kaum noch jemand 112 Magazine, welche lediglich photokopiert sind, durchsehen würde. Naja, ausser man hat nostalgisches Interesse =P
+>
 >Da es aber schade um das Wissen ist, wollte ich versuchen mithilfe aktueller Technik das ganze so zu digitalisieren, das es auch heute noch sinnvoll nutzbar ist.
 
 >[!info]- Wie wurden die Magazine transkribiert
@@ -48,6 +49,9 @@ authors:
 
 [[Kaskade 001]]
 [[Kaskade 002]]
+[[Kaskade 003]]
+[[Kaskade 004]]
+[[Kaskade 005]]
 
 ---
 
