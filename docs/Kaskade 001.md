@@ -1,15 +1,18 @@
 ---
 created: 2025-01-21 18:09:55
-update: 2025-02-07 04:12:04
+update: 2025-02-07 05:24:42
 publish: true
-tags: 
+tags:
+  - kaskade
 title: Kaskade 001 - 1984
 description: Transkript der Artikel der Kaskade 001 von 1984
 authors:
   - Marc Bielert
+type: Magazin
 ---
 
-## **Eine neue Zeitschrift für Europas**
+## Eine neue Zeitschrift für Europas
+[[Eine neue Zeitschrift für Europa]]
 
 Wir sind total verrückt! Nicht nur daß wir seit einem Jahr die 7. Europäische Jonglierwoche mitorganisieren, nein, wir wollen uns auch noch die Arbeit machen, in Frankfurt eine europäische Jonglierzeitschrift herauszugeben.
 
@@ -49,7 +52,7 @@ Wir hoffen, Euch gefällt unsere Idee und freuen uns auf Eure Anregungen und Kri
 
 ## Zirkus gesucht!
 **Ein Bericht zweier Clowns, die keine Lust mehr hatten, in der DDR zu leben**
-
+[[Zirkus gesucht!]]
 ### Von Streuselschnecke ...
 
 Wie der ganze Zirkus angefangen hat? Na, das ist fast eine unendliche Geschichte....
@@ -111,8 +114,9 @@ Tel.:0209/27 16 42
 Also auf bald oder auch nicht
 *Kattrin & Uli*
 
-## **Lächeln überwindet Schwerkraft**
+## Lächeln überwindet Schwerkraft
 **Brief von Toby Philpott, Europäischer Direktor der IJA**
+[[Lächeln überwindet Schwerkraft]]
 
 Seit zwei Jahren trage ich den Titel "Europäischer Direktor der International Jugglers Association" (IJA) Das ist ein Titel, den W.C.Fields geliebt hätte, da er so wichtig und mysteriös (lingt klingt und fast nichts bedeutet. Ich "dirigiere" niemanden und verbringe den Großteil meiner Zeit in England.
 
@@ -145,6 +149,7 @@ In der Zwischenzeit hoffe ich, Dich zu sehen, während unserer paar Tage zusamme
 
 ## Autonome Jongliergruppe Wiesbaden und die 7. Europäische Jonglierwoche
 **Schwerkraft - na und!**
+[[Schwerkraft - na und!]]
 
 Erst seit relativ kurzer Zeit besteht die autonome Jongliergruppe SCHWERKRAFT NA UND! aus Wiesbaden oder besser noch aus der Rhein-Main-Gegend.
 Noch im August 1982 gab es in Wiesbaden nur wenige Jongleure, die kaum etwas voneinander wußten. Durch Zufall kamen die drei der ersten Stunde, Paul, Uli und Christoph zusammen, jonglierten dann in Wiesbadens Grünanlagen und beschlossen, wenige Wochen später zum 5. Europäischen Jongliertreffen nach Kopenhagen zu fahren.
@@ -190,6 +195,7 @@ Christoph Schmitt
 
 ## KASKADE workshop
 ### Die Säulen-Seite
+[[Die Säulen-Seite]]
 
 ![Kaskade00106](img/Kaskade-001-06.png){ align=left }
 Dr. P. Luftiko (siehe Bild)
@@ -245,15 +251,16 @@ Versuche den rechten Doppelball mit der linken Hand und gleichzeitig den linken 
 
 Anstatt die Doppelbälle einfach senkrecht hochzuwerfen, schmeiße sie von hinten über die Schultern, mit der rechten Hand über die rechte Schulter und links über links. Wenn Du Dich nicht richtig warm gemacht hast, wirst Du Dir die Schultern dabei verrenken. Wenn sich die Doppelbälle gegen Deinen Willen über Deinem Kopf kreuzen, dann hast Du anscheinend das gleiche Problem wie ich!
 
-## Schummeln!
+### Schummeln!
+[[Schummeln!]]
 
 Wenn Du phosphorisierende Bälle hast, die im Dunkeln leuchten, kannst Du beim Publikum den Eindruck erwecken, daß Du die Säulenform machst. Auf einmal bleibt einer der Doppelbälle (der, den Du festhälst) unglaublicherweise in der Luft stehen und weigert sich, runterzukommen. (Du hälst ihn einfach hoch, aber das sieht der Zuschauer nicht!) der abtrünnige Ball, der scheinbar die Gesetze der Schwerkraft überwunden hat, kann jetzt erstaunliche akrobatische Tricks vorführen, bevor er wieder seinen Platz im Muster einnimmt. Zum Beispiel:
 
-### Das Yo-Yo
+#### Das Yo-Yo
 
 Du hälst den "Schummelball" immer ein paar Zentimeter über einem der springenden Bälle. Bewege Deine Hand rauf und runter; so daß der Abstand zwischen gehaltenem und fliegendem Ball immer konstant bleibt. Es sieht aus, als wären die Bälle an einer Schnur zusammengebunden.
 
-### Das Pendel
+#### Das Pendel
 
 Dies ist auch ein Yo-Yo-Trick, wobei sich die Hände beim Festhalten eines Schummelballs abwechseln. Ein Einzelball springt senkrecht in der Mitte auf und ab, während sich die Schummelbälle scheinbar hin und her "ziehen", und Deine Arme schwingende Pendelbewegungen machen. (Dabei könntest Du auch abwechselnd die Beine schwingen oder "Ticktack" sagen.)
 
@@ -274,7 +281,7 @@ A aus der linken werfen
 C mit der linken fangen
 
 **Hier einige noch rebellischere Tricks für einen Schummelball:**
-### Die Sense
+#### Die Sense
 
 Der Schummelball schießt waagerecht zwischen den beiden geworfenen hin und her, zuerst über den herunterkommenden, dann unter den aufsteigenden Ball. Die Hand, in der Du den Schummelball hälst, "schneidet" durch die 2-Ball-Jonglage wie eine Sense.
 
@@ -284,7 +291,7 @@ Eine graziöse (und leichtere) Variante ist das "unendliche Sensen". Der Schumme
 
 ![Kaskade00115](img/Kaskade-001-15.png)
 
-### Orbit
+#### Orbit
 
 Ein besonders rebellischer Schummelball fängt vielleicht an, um Deinen Kopf zu kreisen wie eine lästige Fliege. (Summ,summ!)
 

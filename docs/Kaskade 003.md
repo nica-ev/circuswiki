@@ -1,12 +1,14 @@
 ---
 created: 2025-01-21 18:09:55
-update: 2025-02-06 22:43:07
+update: 2025-02-07 05:11:11
 publish: true
-tags: 
+tags:
+  - kaskade
 title: Kaskade 003
 description: Transkript des Magazines "Kaskade 003" von 1984
 authors:
   - Marc Bielert
+type: Magazin
 ---
 
 ## Jonglieren in China

@@ -1,12 +1,14 @@
 ---
 created: 2025-01-21 18:09:55
-update: 2025-02-06 06:58:31
+update: 2025-02-07 05:10:56
 publish: true
-tags: 
+tags:
+  - kaskade
 title: Kaskade 002 - 1984
 description: Transkript der Artikel der Kaskade 002 von 1984
 authors:
   - Marc Bielert
+type: Magazin
 ---
 
 ## JONGLIERWOCHE '84

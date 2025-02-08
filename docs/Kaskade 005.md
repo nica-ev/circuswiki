@@ -1,12 +1,14 @@
 ---
 created: 2025-01-21 18:09:55
-update: 2025-02-07 00:32:24
+update: 2025-02-07 05:11:41
 publish: true
-tags: 
+tags:
+  - kaskade
 title: Kaskade 005 - 1985
 description: Transkript des Magazines "Kaskade 005" von 1985
 authors:
   - Marc Bielert
+type: Magazin
 ---
 
 ## LOUVAIN LA NEUVE

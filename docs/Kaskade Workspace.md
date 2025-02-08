@@ -1,6 +1,6 @@
 ---
 created: 2025-01-21 18:09:55
-update: 2025-02-07 00:39:18
+update: 2025-02-07 05:34:48
 publish: true
 tags:
   - moc
@@ -47,27 +47,47 @@ authors:
 >>Beiträge wie z.B. Kleinanzeigen etc. habe ich verworfen.
 >>Das extrahieren und säubern der Texte wurde mit LLMs durchgeführt, somit besteht immer die Möglichkeit das Texte nicht 1:1 transkribiert wurden bzw. der Inhalt leicht vom Original abweicht. Ich habe versucht die Fehlerquote so gering wie möglich zu halten indem ich stichprobenartig Textstellen verglichen habe. 
 
-[[Kaskade 001]]
-[[Kaskade 002]]
-[[Kaskade 003]]
-[[Kaskade 004]]
-[[Kaskade 005]]
+<!-- QueryToSerialize: LIST FROM "docs" WHERE contains(file.tags, "kaskade") AND (type = "Magazin") -->
+<!-- SerializedQuery: LIST FROM "docs" WHERE contains(file.tags, "kaskade") AND (type = "Magazin") -->
+- [[Kaskade 001]]
+- [[Kaskade 002]]
+- [[Kaskade 003]]
+- [[Kaskade 004]]
+- [[Kaskade 005]]
+<!-- SerializedQuery END -->
 
 ---
 
-# Falsch benannte / zusammengefasste Ausgaben (002 - 004)
+# Artikel
 
-Kaskade 002:
-Im deutschen Original PDF sind die Ausgaben 2+3 zusammen. 
+<!-- QueryToSerialize: TABLE authors, type, sub-type, source FROM "docs" WHERE contains(file.tags, "kaskade") AND (type != "Magazin") -->
+<!-- SerializedQuery: TABLE authors, type, sub-type, source FROM "docs" WHERE contains(file.tags, "kaskade") AND (type != "Magazin") -->
 
-Kaskade 003: 
-Im deutschen Original PDF ist hier die Ausgabe 004 zu finden
+| File                                                                           | authors                                           | type     | sub-type | source      |
+| ------------------------------------------------------------------------------ | ------------------------------------------------- | -------- | -------- | ----------- |
+| [[Die Säulen-Seite]]                                 | <ul><li>Dr. P. Luftiko</li></ul>                  | Tutorial | Bälle    | Kaskade 001 |
+| [[Schummeln!]]                                             | <ul><li>Dr. P. Luftiko</li></ul>                  | Tutorial | Bälle    | Kaskade 001 |
+| [[Eine neue Zeitschrift für Europa]] | <ul><li>Gabi Keaton</li><li>Paul Keaton</li></ul> | Artikel  | \-       | Kaskade 001 |
+| [[Zirkus gesucht!]]                                   | <ul><li>Kattrin & Uli</li></ul>                   | Artikel  | \-       | Kaskade 001 |
+| [[Lächeln überwindet Schwerkraft]]     | <ul><li>Toby Philpott</li></ul>                   | Artikel  | \-       | Kaskade 001 |
+| [[Schwerkraft - na und!]]                       | <ul><li>Christoph Schmitt</li></ul>               | Artikel  | \-       | Kaskade 001 |
+<!-- SerializedQuery END -->
 
-Kaskade 004:
-Hier fehlt das Titelblatt, ich konnte noch nicht herausbekommen zu was das gehört...
-Es sieht aus wie eine Kopie von Ausgabe 009, ohne Titelblatt
+---
 
-Fix:
-Ich habe die PDF von Kaskade 002 (original) geteilt in 002 und 003.
-Kaskade 003 (original) in Kaskade 004 umbenannt.
-Sowie Kaskade 004(Original) gelöscht.
+>[!info]- Falsch benannte / zusammengefasste Ausgaben (002 - 004)
+>
+>Kaskade 002:
+>Im deutschen Original PDF sind die Ausgaben 2+3 zusammen. 
+>
+>Kaskade 003: 
+>Im deutschen Original PDF ist hier die Ausgabe 004 zu finden
+>
+>Kaskade 004:
+>Hier fehlt das Titelblatt, ich konnte noch nicht herausbekommen zu was das gehört...
+>Es sieht aus wie eine Kopie von Ausgabe 009, ohne Titelblatt
+>
+>Fix:
+>Ich habe die PDF von Kaskade 002 (original) geteilt in 002 und 003.
+>Kaskade 003 (original) in Kaskade 004 umbenannt.
+>Sowie Kaskade 004(Original) gelöscht.
