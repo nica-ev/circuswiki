@@ -1,6 +1,6 @@
 ---
 created: 2025-01-21 18:09:55
-update: 2025-02-08 20:41:51
+update: 2025-02-08 20:55:06
 publish: true
 tags: 
 title: Workflows Sprachmodelle
@@ -9,9 +9,8 @@ authors:
   - Marc Bielert
 ---
 
-Ok, ich versuch mal ein bissel zusammenzufassen:  
-
-Ich nutze als Frontend meistens https://msty.app  
+## Frontend Msty
+Ich nutze als Frontend meistens die App [Msty](https://msty.app)
 Kann man grundsätzlich komplett kostenfrei nutzen. Es gibt minimal Features die hinter einer Paywall sind. Das sind aber eher Quality of life sachen, keine grundlegenden Features.
 
 Das erlaubt mir verschiedenste kommerzielle APIs von irgendwelchen Anbietern (OpenAI, Gemini, Claude, etc...) einzubinden, und ebenfalls lokale Modelle zu nutzen.  
@@ -24,13 +23,13 @@ Dann ist es sehr einfach RAG - was einfach heisst ich habe verschiedene Quellen 
   
 Generell auch einfache Möglichkeit Prompts zu verwalten - was das arbeiten mit komplexeren Prompts (Systemprompts die z.b. immer mitgeschickt werden, unabhängig von deinem aktuellen Prompt) deutlich einfacher macht.  
   
----  
+## Workflows
   
 Zum arbeiten selber: ich habe mittlerweile verschiedenste Workflows, von super simpel bis zu relativ komplex. Prinzipiell ist das eher so - viel experimentieren und es gibt keine "one fits all" Lösung.  
   
 Als Beispiel mal ein paar Workflows die ich habe:
 
-# Allgemein Prompt-erstellung
+### Allgemein Prompt-erstellung
 
 Bei den meisten nicht trivialen Aufgaben macht ein guter System Prompt aus einem "geht so" Ergebniss ein "das ist gut bis sehr gut".
 
@@ -77,7 +76,7 @@ Oft wird das bei solchen Antworten auch zu "Nachfragen" führen, also das Modell
 
 Grundsätzlich mach ich das wenn ich öfter an etwas arbeite, also immer wieder ähnliche oder gleiche Aufgaben hab - dann baue ich mir so einen Systemprompt (oder auch Userprompt) - ist halt eher wie ein Template was ich dann einfach einfügen kann.
 
-# Antrag bewerten / verbessern
+### Antrag bewerten / verbessern
 
 1. relevante Dokumente  (also Förderbedingungen, Formate etc... meist so 3-4 Pdfs, je nach Förderung) sowie der fertige Antragstext.
 2. hierfür nutze ich zur Zeit ```gemini-2.0.-flash-exp``` da es 1 million token context erlaubt - mehr als genug um 100 Seiten pdfs mit ranzuhängen
@@ -107,12 +106,12 @@ By following these instructions, you will provide a comprehensive and insightful
 4. dann einfach die Pdfs an den Chat anhängen, reicht meist schon. 
 5. Das hilft unglaublich um die eigenen Anträge kritisch zu bewerten und zu sehen wo und wie man noch verbessern kann.
 
-# Sonstiges
+### Sonstiges
 
 Ich hab dann zig Workflows, vom erstellen der Anträge, schreiben der Sachberichte etc.
 Das Grundprinzip ist aber immer das gleiche: einen guten Systemprompt erstellen (am besten mithilfe des "Promptdesigner" Systemprompts) und dann normal wie mit nem Menschen reden - je besser man beschreiben und sich ausdrücken kann, je klarer und strukturierter die eigenen Fragen/Prompts sind - desto besser ist halt auch das Ergebniss... ist halt ein bissel Übungs/Erfahrungssache.
 
-# Modelle / API
+## Modelle / API
 
 Ich nutze mittlerweile nur noch eine API - https://openrouter.ai/
 Ist prinzipiell wie Netflix für Sprachmodelle.
@@ -131,7 +130,7 @@ Folgende nutze ich gerade viel:
 |          |                                |
 Das ändert sich aber auch immer wieder mal.
 
-# Lokale Modelle
+## Lokale Modelle
 
 Mit Msty als Frontend ist das rumprobieren mit lokalen Modellen super einfach. Ich habe selber zur Zeit einen 4 Jahre alten Gaming Laptop - also nicht gerade High-end.
 Ich habe eine ```NVidia Geforce GTX 1050 Ti``` - das ist nix wirklich tolles für heutige Maßstäbe.
@@ -155,7 +154,7 @@ sind halt krass schnell und laufen wahrscheinlich auch noch auf nem Toaster - ab
 
 Zum testen aber super, da die Modelle erstmal mehr Schrott als alles andere ausspucken (aber super schnell) - und man sehr deutlich sieht welchen Einfluss gute system prompts, einstellungen der Modell Parameter etc. haben.
 
-# Modell Parameter
+## Modell Parameter
 
 Wirklich wichtig sind
 - Context Size (wieviel Output maximal erzeugt werden kann bevor das Modell einfach stoppt)

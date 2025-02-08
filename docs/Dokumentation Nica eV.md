@@ -1,6 +1,6 @@
 ---
 created: 2025-01-21 20:42:26
-update: 2025-02-06 07:10:41
+update: 2025-02-08 20:52:15
 publish: true
 tags:
   - moc
@@ -66,6 +66,14 @@ authors:
 	 Wie diese Dokumentation aufgebaut ist, welche Software und Tools wir nutzen
 
     [[doc-sys-2|:octicons-arrow-right-24: Dokumentation]]{  .md-button }
+
+-   :material-scale-balance:{ .lg .middle } __Sprachmodelle__
+
+    ---
+
+	 Einführung in Workflows mit Sprachmodellen
+
+    [[Workflows Sprachmodelle|:octicons-arrow-right-24: Workflow LLMs]]{  .md-button }
 
 </div>
 
