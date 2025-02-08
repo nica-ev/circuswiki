@@ -12,7 +12,7 @@
         <meta name="author" content="Marc Bielert">
       
       
-        <link rel="canonical" href="https://nica-ev.github.io/docs/Kaskade%20Workspace/">
+        <link rel="canonical" href="https://nica-ev.github.io/docs/Schummeln%21/">
       
       
       
@@ -22,7 +22,7 @@
     
     
       
-        <title>Transkripte des Kaskade Magazines - NICA e.V. Documentation</title>
+        <title>Kaskade Workshop - Schummeln! - NICA e.V. Documentation</title>
       
     
     
@@ -78,7 +78,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#artikel" class="md-skip">
+        <a href="#schummeln" class="md-skip">
           Skip to content
         </a>
       
@@ -114,7 +114,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Transkripte des Kaskade Magazines
+              Kaskade Workshop - Schummeln!
             
           </span>
         </div>
@@ -563,8 +563,65 @@
   
   
   
-    
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#schummeln" class="md-nav__link">
+    <span class="md-ellipsis">
+      Schummeln!
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Schummeln!">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#das-yo-yo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Das Yo-Yo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#das-pendel" class="md-nav__link">
+    <span class="md-ellipsis">
+      Das Pendel
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#die-sense" class="md-nav__link">
+    <span class="md-ellipsis">
+      Die Sense
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#orbit" class="md-nav__link">
+    <span class="md-ellipsis">
+      Orbit
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -583,7 +640,13 @@
     
     
     
-      <a href="../tags/#moc" class="md-tag">moc</a>
+      <a href="../tags/#tutorial" class="md-tag">tutorial</a>
+    
+  
+    
+    
+    
+      <a href="../tags/#kaskade" class="md-tag">kaskade</a>
     
   
 </nav>
@@ -593,128 +656,36 @@
   
 
 
-<details class="info">
-<summary>Einleitung</summary>
-<p>Ich bin mit der Kaskade aufgewachsen. Bevor es Youtube gab, bevor wir im Internet alles finden konnten - war dieses Magazin eines der ersten regelmäßigen Informationen die ich zum Thema Jonglieren, Zirkus, Shows in die Finger bekam.</p>
-<p>Als das Magazin 2013 eingestellt wurde, fühlte sich das nach dem Ende einer Era an - zumindest für mich.</p>
-<p>Für mehrere Jahre waren die Magazine als PDF noch zum Download erhältlich, seit ca. 2017 ist die Seite offline gegangen. </p>
-<p>Ich habe mich oft an kleine Workshops, Tutorials oder Artikel erinnert die mich damals inspiriert haben. Als ich nun Jahre später etwas nachlesen wollte - gab es keine Möglichkeit mehr.</p>
-<p>Mithilfe der Wayback Machine (The Internet Archive) habe ich glücklicherweise noch einen Checkpunkt von 2017 mit den kompletten Downloads gefunden (das ist nicht immer der Fall, insbesondere da es ca. 3 GB an PDFs waren) - komplett mit Deutscher, Englischer und Französischer Ausgabe.</p>
-<p>Beim durchsehen merkte ich, das zwar eine Menge toller Artikel und Tutorials in den Magazinen versteckt waren - aber in der heutigen Zeit wohl kaum noch jemand 112 Magazine, welche lediglich photokopiert sind, durchsehen würde. Naja, ausser man hat nostalgisches Interesse =P</p>
-<p>Da es aber schade um das Wissen ist, wollte ich versuchen mithilfe aktueller Technik das ganze so zu digitalisieren, das es auch heute noch sinnvoll nutzbar ist.</p>
-</details>
-<details class="info">
-<summary>Wie wurden die Magazine transkribiert</summary>
-<p>Zuerst habe ich alle Seiten aus der PDF entfernt, welche keine relevanten Texte enthielten.</p>
-<p>Zum eigentlichen transkribieren (oder OCR) habe ich ein multimodales Sprachmodell von Google verwendet.</p>
-<p>Ich nutze <code>Gemini 2.0 Pro Experimental 02-05</code> mit dem Prompt </p>
-<div class="highlight"><pre><span></span><code>The attached PDF is a photocopy of a magazine. Extract all text, keep the document structure intact as much as possible, also extract single images and have them correctly in context.
-</code></pre></div>
-<p>sowie der PDF mit dem gescanntem Magazin.</p>
-<p>Settings: Temperature 0.1  (Wichtig um Halluzinationen zu vermeiden)</p>
-<p>Der Output wird bereinigt mit <code>gemini-2.0-flash-exp</code> und folgendem Prompt (sowie dem angehängten Text den wir extrahiert haben):</p>
-<div class="highlight"><pre><span></span><code>The following text is extracted with OCR from an old magazin. Your task is to clean this up. Remove artifacts (like page-numbering, unneccessary linebreaks) or unneeded parts but keep the structure, articles etc. intact. Use a proper Markdown formatting to structure the text correctly.
+  <h1>Kaskade Workshop - Schummeln!</h1>
 
-
-
-Text:
-</code></pre></div>
-<p>Das Ergebniss wird dann nochmal manuell durchgesehen und korrigiert.</p>
-<details class="danger" open="open">
-<summary>Wichtig: </summary>
-<p>Der Fokus war auf dem extrahieren von Artikeln, Workshops, Interviews etc. </p>
-<p>Beiträge wie z.B. Kleinanzeigen etc. habe ich verworfen.</p>
-<p>Das extrahieren und säubern der Texte wurde mit LLMs durchgeführt, somit besteht immer die Möglichkeit das Texte nicht 1:1 transkribiert wurden bzw. der Inhalt leicht vom Original abweicht. Ich habe versucht die Fehlerquote so gering wie möglich zu halten indem ich stichprobenartig Textstellen verglichen habe. </p>
-</details>
-</details>
-<!-- QueryToSerialize: LIST FROM "docs" WHERE contains(file.tags, "kaskade") AND (type = "Magazin") -->
-<!-- SerializedQuery: LIST FROM "docs" WHERE contains(file.tags, "kaskade") AND (type = "Magazin") -->
-<ul>
-<li><a href="../Kaskade%20001/" id="1a92f25d0cab021025889498022ca0ae">Kaskade 001</a></li>
-<li><a href="../Kaskade%20002/" id="6457937bae34073dc30fa02e98894306">Kaskade 002</a></li>
-<li><a href="../Kaskade%20003/" id="5fbc196e3d2688d9ebd76308c8c75a3a">Kaskade 003</a></li>
-<li><a href="../Kaskade%20004/" id="6f32f74c91c9a40ab9be0a5dc5eaa6b6">Kaskade 004</a></li>
-<li><a href="../Kaskade%20005/" id="794c48697edb33919576a6fc6e53c5c1">Kaskade 005</a></li>
-</ul>
-<!-- SerializedQuery END -->
-
-<hr />
-<h1 id="artikel">Artikel<a class="headerlink" href="#artikel" title="Permanent link">&para;</a></h1>
-<!-- QueryToSerialize: TABLE authors, type, sub-type, source FROM "docs" WHERE contains(file.tags, "kaskade") AND (type != "Magazin") -->
-<!-- SerializedQuery: TABLE authors, type, sub-type, source FROM "docs" WHERE contains(file.tags, "kaskade") AND (type != "Magazin") -->
-
-<table>
-<thead>
-<tr>
-<th>File</th>
-<th>authors</th>
-<th>type</th>
-<th>sub-type</th>
-<th>source</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><a href="../Die%20S%C3%A4ulen-Seite/" id="923d8ae7a6e72d5db25001ec1ab3989f">Die Säulen-Seite</a></td>
-<td><ul><li>Dr. P. Luftiko</li></ul></td>
-<td>Tutorial</td>
-<td>Bälle</td>
-<td>Kaskade 001</td>
-</tr>
-<tr>
-<td><a href="../Schummeln%21/" id="39459484b2396e03ecc36ba127bb9483">Schummeln!</a></td>
-<td><ul><li>Dr. P. Luftiko</li></ul></td>
-<td>Tutorial</td>
-<td>Bälle</td>
-<td>Kaskade 001</td>
-</tr>
-<tr>
-<td><a href="../Eine%20neue%20Zeitschrift%20f%C3%BCr%20Europa/" id="c3e2d7de5746a837a0e0cb770bbf08fd">Eine neue Zeitschrift für Europa</a></td>
-<td><ul><li>Gabi Keaton</li><li>Paul Keaton</li></ul></td>
-<td>Artikel</td>
-<td>-</td>
-<td>Kaskade 001</td>
-</tr>
-<tr>
-<td><a href="../Zirkus%20gesucht%21/" id="2918ee28c0c9f1461dd3dc8a35b7d4c9">Zirkus gesucht!</a></td>
-<td><ul><li>Kattrin &amp; Uli</li></ul></td>
-<td>Artikel</td>
-<td>-</td>
-<td>Kaskade 001</td>
-</tr>
-<tr>
-<td><a href="../L%C3%A4cheln%20%C3%BCberwindet%20Schwerkraft/" id="dd764102c04e3c002ee2a6bc15d1a26f">Lächeln überwindet Schwerkraft</a></td>
-<td><ul><li>Toby Philpott</li></ul></td>
-<td>Artikel</td>
-<td>-</td>
-<td>Kaskade 001</td>
-</tr>
-<tr>
-<td><a href="../Schwerkraft%20-%20na%20und%21/" id="52a6109c8d8d4c705d2603a0f722d66b">Schwerkraft - na und!</a></td>
-<td><ul><li>Christoph Schmitt</li></ul></td>
-<td>Artikel</td>
-<td>-</td>
-<td>Kaskade 001</td>
-</tr>
-</tbody>
-</table>
-<!-- SerializedQuery END -->
-
-<hr />
-<details class="info">
-<summary>Falsch benannte / zusammengefasste Ausgaben (002 - 004)</summary>
-<p>Kaskade 002:</p>
-<p>Im deutschen Original PDF sind die Ausgaben 2+3 zusammen. </p>
-<p>Kaskade 003: </p>
-<p>Im deutschen Original PDF ist hier die Ausgabe 004 zu finden</p>
-<p>Kaskade 004:</p>
-<p>Hier fehlt das Titelblatt, ich konnte noch nicht herausbekommen zu was das gehört...</p>
-<p>Es sieht aus wie eine Kopie von Ausgabe 009, ohne Titelblatt</p>
-<p>Fix:</p>
-<p>Ich habe die PDF von Kaskade 002 (original) geteilt in 002 und 003.</p>
-<p>Kaskade 003 (original) in Kaskade 004 umbenannt.</p>
-<p>Sowie Kaskade 004(Original) gelöscht.</p>
-</details>
+<h3 id="schummeln">Schummeln!<a class="headerlink" href="#schummeln" title="Permanent link">&para;</a></h3>
+<p>Quelle: <a href="../Kaskade%20001/#schummeln" id="1a92f25d0cab021025889498022ca0ae">Kaskade 001 &gt; Schummeln!</a></p>
+<p>Wenn Du phosphorisierende Bälle hast, die im Dunkeln leuchten, kannst Du beim Publikum den Eindruck erwecken, daß Du die Säulenform machst. Auf einmal bleibt einer der Doppelbälle (der, den Du festhälst) unglaublicherweise in der Luft stehen und weigert sich, runterzukommen. (Du hälst ihn einfach hoch, aber das sieht der Zuschauer nicht!) der abtrünnige Ball, der scheinbar die Gesetze der Schwerkraft überwunden hat, kann jetzt erstaunliche akrobatische Tricks vorführen, bevor er wieder seinen Platz im Muster einnimmt. Zum Beispiel:</p>
+<h4 id="das-yo-yo">Das Yo-Yo<a class="headerlink" href="#das-yo-yo" title="Permanent link">&para;</a></h4>
+<p>Du hälst den "Schummelball" immer ein paar Zentimeter über einem der springenden Bälle. Bewege Deine Hand rauf und runter; so daß der Abstand zwischen gehaltenem und fliegendem Ball immer konstant bleibt. Es sieht aus, als wären die Bälle an einer Schnur zusammengebunden.</p>
+<h4 id="das-pendel">Das Pendel<a class="headerlink" href="#das-pendel" title="Permanent link">&para;</a></h4>
+<p>Dies ist auch ein Yo-Yo-Trick, wobei sich die Hände beim Festhalten eines Schummelballs abwechseln. Ein Einzelball springt senkrecht in der Mitte auf und ab, während sich die Schummelbälle scheinbar hin und her "ziehen", und Deine Arme schwingende Pendelbewegungen machen. (Dabei könntest Du auch abwechselnd die Beine schwingen oder "Ticktack" sagen.)</p>
+<p><img align="left" alt="Kaskade00113" loading="lazy" src="../img/Kaskade-001-13.png" /></p>
+<p><strong>Transkript des Bildes</strong></p>
+<p>(i) A in der linken Hand halten<br />
+B aus der rechten werfen<br />
+C mit der rechten fangen</p>
+<p>(ii) C aus der rechten werfen<br />
+B mit der rechten fangen<br />
+A und B auf die rechte Seite tragen</p>
+<p>(iii) B in der rechten halten<br />
+A aus der linken werfen<br />
+C mit der linken fangen</p>
+<p><strong>Hier einige noch rebellischere Tricks für einen Schummelball:</strong></p>
+<h4 id="die-sense">Die Sense<a class="headerlink" href="#die-sense" title="Permanent link">&para;</a></h4>
+<p>Der Schummelball schießt waagerecht zwischen den beiden geworfenen hin und her, zuerst über den herunterkommenden, dann unter den aufsteigenden Ball. Die Hand, in der Du den Schummelball hälst, "schneidet" durch die 2-Ball-Jonglage wie eine Sense.</p>
+<p><img alt="Kaskade00114" loading="lazy" src="../img/Kaskade-001-14.png" /></p>
+<p>Eine graziöse (und leichtere) Variante ist das "unendliche Sensen". Der Schummelball beschreibt keine gerade, waagerechte Linie, sondern ein Unendlichkeitszeichen (oder liegende Acht).</p>
+<p><img alt="Kaskade00115" loading="lazy" src="../img/Kaskade-001-15.png" /></p>
+<h4 id="orbit">Orbit<a class="headerlink" href="#orbit" title="Permanent link">&para;</a></h4>
+<p>Ein besonders rebellischer Schummelball fängt vielleicht an, um Deinen Kopf zu kreisen wie eine lästige Fliege. (Summ,summ!)</p>
+<p><img alt="Kaskade00116" loading="lazy" src="../img/Kaskade-001-16.png" /></p>
+<p>Da Du eigentlich nur 2 Bälle jonglierst und den dritten nur festhälst, ist die Anzahl von Streichen, die dieser dritte Ball spielen kann, durch nichts begrenzt, außer Deiner Anatomie!</p>
 <!--
   ~ MIT License
   ~
@@ -744,12 +715,8 @@ Text:
 <p class="obsidian_backlink_title">Backlinks:</p>
 <div class="obsidian_backlink">
 <details class="backlink">
-<summary>Home</summary>
-<p><p class="obsidian_backlink"><a href="https://nica-ev.github.io/docs/#4c8983c2787941cbe6b6e6e18d087c36">Kaskade Workspace</a></p></p>
-</details>
-<details class="backlink">
 <summary>None</summary>
-<p><p class="obsidian_backlink">| <a href="https://nica-ev.github.io/docs/sitemap/#4c8983c2787941cbe6b6e6e18d087c36">Kaskade Workspace</a>                                                                     | <ul><li>Marc Bielert</li></ul> | <ul><li>moc</li></ul>                                | 2025-02-06 06:54:15 |</p></p>
+<p><p class="obsidian_backlink"><a href="https://nica-ev.github.io/docs/Kaskade%20001/#39459484b2396e03ecc36ba127bb9483">Schummeln!</a></p><hr><p class="obsidian_backlink">| <a href="https://nica-ev.github.io/docs/Kaskade%20Workspace/#39459484b2396e03ecc36ba127bb9483">Schummeln!</a>                                             | <ul><li>Dr. P. Luftiko</li></ul>                  | Tutorial | Bälle    | Kaskade 001 |</p></p>
 </details>
 </div>
 
