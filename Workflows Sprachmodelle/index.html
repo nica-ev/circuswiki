@@ -78,7 +78,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#allgemein-prompt-erstellung" class="md-skip">
+        <a href="#frontend-msty" class="md-skip">
           Skip to content
         </a>
       
@@ -563,8 +563,92 @@
   
   
   
-    
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#frontend-msty" class="md-nav__link">
+    <span class="md-ellipsis">
+      Frontend Msty
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#workflows" class="md-nav__link">
+    <span class="md-ellipsis">
+      Workflows
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Workflows">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#allgemein-prompt-erstellung" class="md-nav__link">
+    <span class="md-ellipsis">
+      Allgemein Prompt-erstellung
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#antrag-bewerten-verbessern" class="md-nav__link">
+    <span class="md-ellipsis">
+      Antrag bewerten / verbessern
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sonstiges" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sonstiges
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#modelle-api" class="md-nav__link">
+    <span class="md-ellipsis">
+      Modelle / API
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lokale-modelle" class="md-nav__link">
+    <span class="md-ellipsis">
+      Lokale Modelle
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#modell-parameter" class="md-nav__link">
+    <span class="md-ellipsis">
+      Modell Parameter
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -582,8 +666,10 @@
   
 
 
-<p>Ok, ich versuch mal ein bissel zusammenzufassen:  </p>
-<p>Ich nutze als Frontend meistens https://msty.app<br />
+  <h1>Workflows Sprachmodelle</h1>
+
+<h2 id="frontend-msty">Frontend Msty<a class="headerlink" href="#frontend-msty" title="Permanent link">&para;</a></h2>
+<p>Ich nutze als Frontend meistens die App <a href="https://msty.app">Msty</a><br />
 Kann man grundsätzlich komplett kostenfrei nutzen. Es gibt minimal Features die hinter einer Paywall sind. Das sind aber eher Quality of life sachen, keine grundlegenden Features.</p>
 <p>Das erlaubt mir verschiedenste kommerzielle APIs von irgendwelchen Anbietern (OpenAI, Gemini, Claude, etc...) einzubinden, und ebenfalls lokale Modelle zu nutzen.<br />
 Dabei übernimmt die App eigentlich alles zum Thema Installation, es ist wirklich nur Modell raussuchen aus einer riesigen Datenbank (Ollama und Huggingface), ein Klick auf installieren - das wars. Bei den kommerziellen APIs ist es halt nur den API key eintragen...  </p>
@@ -591,10 +677,10 @@ Dabei übernimmt die App eigentlich alles zum Thema Installation, es ist wirklic
 Es erlaubt verzweigte Chats (also z.b. ich generiere eine Antwort neu mit geänderten Parametern, oder einem anderen Modell und habe dann praktisch mehrere Verläufe die ich fortführen kann) und synchronisierte Chats (automatisch den gleichen Prompt an mehrere Modelle versenden).  </p>
 <p>Dann ist es sehr einfach RAG - was einfach heisst ich habe verschiedene Quellen z.b. verschiedene Dokumente, Webseiten, Youtube Links) und dann wird meinem Prompt automatisch relevanter Context aus diesen Quellen hinzugefügt. Ist z.b. cool wenn man mit kleinen, lokalen Modellen arbeitet - die bestimmte Themen einfach nicht kennen und dann lustig vor sich hin halluzinieren. Nutzt man RAG in diesem Fall, kann das kleine Modell auf einmal doch relevante und faktisch korrekte Antworten zu diesen Themen liefern. (Ist aber kein Allheilsmittel - bisher hatte ich immer bessere Ergebnisse mit großen, kommerziellen Modellen die ein so großen Context Fenster haben das ich die Dokumente einfach komplett mitsenden kann).  </p>
 <p>Generell auch einfache Möglichkeit Prompts zu verwalten - was das arbeiten mit komplexeren Prompts (Systemprompts die z.b. immer mitgeschickt werden, unabhängig von deinem aktuellen Prompt) deutlich einfacher macht.  </p>
-<hr />
+<h2 id="workflows">Workflows<a class="headerlink" href="#workflows" title="Permanent link">&para;</a></h2>
 <p>Zum arbeiten selber: ich habe mittlerweile verschiedenste Workflows, von super simpel bis zu relativ komplex. Prinzipiell ist das eher so - viel experimentieren und es gibt keine "one fits all" Lösung.  </p>
 <p>Als Beispiel mal ein paar Workflows die ich habe:</p>
-<h1 id="allgemein-prompt-erstellung">Allgemein Prompt-erstellung<a class="headerlink" href="#allgemein-prompt-erstellung" title="Permanent link">&para;</a></h1>
+<h3 id="allgemein-prompt-erstellung">Allgemein Prompt-erstellung<a class="headerlink" href="#allgemein-prompt-erstellung" title="Permanent link">&para;</a></h3>
 <p>Bei den meisten nicht trivialen Aufgaben macht ein guter System Prompt aus einem "geht so" Ergebniss ein "das ist gut bis sehr gut".</p>
 <p>Mein aktueller Systemprompt für das erstellen von neuen Prompts:<br />
 <div class="highlight"><pre><span></span><code>You are an expert Prompt Engineer, specializing in crafting highly effective system and user prompts for Large Language Models (LLMs). Your expertise lies in understanding the nuances of LLM behavior and designing prompts that elicit desired outputs with precision and consistency. You possess a deep understanding of prompt engineering techniques, including but not limited to: role assignment, persona creation, instruction clarity, constraint setting, example-based learning (few-shot prompting), and iterative refinement. You are also deeply familiar with the key characteristics of well-designed prompts: **clarity, specificity, conciseness, effectiveness, and robustness.**
@@ -631,7 +717,7 @@ Grundsätzlich ist die Qualität des Outputs immer ein kleines bißchen besser w
 </code></pre></div></p>
 <p>Oft wird das bei solchen Antworten auch zu "Nachfragen" führen, also das Modell fragt dann durchaus noch nach zusätzlichen Infos. Je nachdem wie genau man das vorher so beschrieben hat. Will damit nur sagen - wenn man große Modelle wie von OpenAI, Google etc. nimmt - dann kann das jeder Anfänger nutzen, es braucht keine besondere Form oder Syntax.</p>
 <p>Grundsätzlich mach ich das wenn ich öfter an etwas arbeite, also immer wieder ähnliche oder gleiche Aufgaben hab - dann baue ich mir so einen Systemprompt (oder auch Userprompt) - ist halt eher wie ein Template was ich dann einfach einfügen kann.</p>
-<h1 id="antrag-bewerten-verbessern">Antrag bewerten / verbessern<a class="headerlink" href="#antrag-bewerten-verbessern" title="Permanent link">&para;</a></h1>
+<h3 id="antrag-bewerten-verbessern">Antrag bewerten / verbessern<a class="headerlink" href="#antrag-bewerten-verbessern" title="Permanent link">&para;</a></h3>
 <ol>
 <li>relevante Dokumente  (also Förderbedingungen, Formate etc... meist so 3-4 Pdfs, je nach Förderung) sowie der fertige Antragstext.</li>
 <li>hierfür nutze ich zur Zeit <code>gemini-2.0.-flash-exp</code> da es 1 million token context erlaubt - mehr als genug um 100 Seiten pdfs mit ranzuhängen</li>
@@ -663,10 +749,10 @@ By following these instructions, you will provide a comprehensive and insightful
 </li>
 <li>Das hilft unglaublich um die eigenen Anträge kritisch zu bewerten und zu sehen wo und wie man noch verbessern kann.</li>
 </ol>
-<h1 id="sonstiges">Sonstiges<a class="headerlink" href="#sonstiges" title="Permanent link">&para;</a></h1>
+<h3 id="sonstiges">Sonstiges<a class="headerlink" href="#sonstiges" title="Permanent link">&para;</a></h3>
 <p>Ich hab dann zig Workflows, vom erstellen der Anträge, schreiben der Sachberichte etc.<br />
 Das Grundprinzip ist aber immer das gleiche: einen guten Systemprompt erstellen (am besten mithilfe des "Promptdesigner" Systemprompts) und dann normal wie mit nem Menschen reden - je besser man beschreiben und sich ausdrücken kann, je klarer und strukturierter die eigenen Fragen/Prompts sind - desto besser ist halt auch das Ergebniss... ist halt ein bissel Übungs/Erfahrungssache.</p>
-<h1 id="modelle-api">Modelle / API<a class="headerlink" href="#modelle-api" title="Permanent link">&para;</a></h1>
+<h2 id="modelle-api">Modelle / API<a class="headerlink" href="#modelle-api" title="Permanent link">&para;</a></h2>
 <p>Ich nutze mittlerweile nur noch eine API - https://openrouter.ai/<br />
 Ist prinzipiell wie Netflix für Sprachmodelle.</p>
 <p>Meint, ich kann alle anderen Anbieter über diese API nutzen ohne mir bei jedem einzelnen ne API zu holen (und meist mindestens 5-10 Euro zu hinterlegen) - so habe ich Zugang zu allen und es läuft über genau einen Anbieter bei dem ich bezahle.<br />
@@ -703,7 +789,7 @@ Folgende nutze ich gerade viel:</p>
 </tr>
 </tbody>
 </table>
-<h1 id="lokale-modelle">Lokale Modelle<a class="headerlink" href="#lokale-modelle" title="Permanent link">&para;</a></h1>
+<h2 id="lokale-modelle">Lokale Modelle<a class="headerlink" href="#lokale-modelle" title="Permanent link">&para;</a></h2>
 <p>Mit Msty als Frontend ist das rumprobieren mit lokalen Modellen super einfach. Ich habe selber zur Zeit einen 4 Jahre alten Gaming Laptop - also nicht gerade High-end.<br />
 Ich habe eine <code>NVidia Geforce GTX 1050 Ti</code> - das ist nix wirklich tolles für heutige Maßstäbe.<br />
 Kleine Modelle (1B - 2B) laufen superschnell, <br />
@@ -719,7 +805,7 @@ deepseek-r1:1.5b  (1.12 GB)
 </code></pre></div><br />
 sind halt krass schnell und laufen wahrscheinlich auch noch auf nem Toaster - aber sind halt auch Lichtjahre von der Qualität größerer Modelle entfernt.</p>
 <p>Zum testen aber super, da die Modelle erstmal mehr Schrott als alles andere ausspucken (aber super schnell) - und man sehr deutlich sieht welchen Einfluss gute system prompts, einstellungen der Modell Parameter etc. haben.</p>
-<h1 id="modell-parameter">Modell Parameter<a class="headerlink" href="#modell-parameter" title="Permanent link">&para;</a></h1>
+<h2 id="modell-parameter">Modell Parameter<a class="headerlink" href="#modell-parameter" title="Permanent link">&para;</a></h2>
 <p>Wirklich wichtig sind<br />
 - Context Size (wieviel Output maximal erzeugt werden kann bevor das Modell einfach stoppt)<br />
 - Temperatur ( simpel gesagt: für Fakten eher niedrig, für mehr "Kreativität" eher mittel bis hoch )</p>
