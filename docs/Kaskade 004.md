@@ -1,12 +1,14 @@
 ---
 created: 2025-01-21 18:09:55
-update: 2025-02-07 00:38:08
+update: 2025-02-07 05:11:26
 publish: true
-tags: 
+tags:
+  - kaskade
 title: Kaskade 004 - 1985
 description: Transkript des Magazines "Kaskade 004" von 1985
 authors:
   - Marc Bielert
+type: Magazin
 ---
 
 ## There's Something In The Air
