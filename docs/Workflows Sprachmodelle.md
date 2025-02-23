@@ -1,6 +1,6 @@
 ---
 created: 2025-01-21 18:09:55
-update: 2025-02-08 20:55:06
+update: 2025-02-08 22:30:10
 publish: true
 tags: 
 title: Workflows Sprachmodelle
@@ -9,31 +9,36 @@ authors:
   - Marc Bielert
 ---
 
-## Frontend Msty
-Ich nutze als Frontend meistens die App [Msty](https://msty.app)
-Kann man grundsätzlich komplett kostenfrei nutzen. Es gibt minimal Features die hinter einer Paywall sind. Das sind aber eher Quality of life sachen, keine grundlegenden Features.
+Okay, hier ist der überarbeitete Text auf Deutsch, im Stil des Originals, mit korrigierter Grammatik und verbesserter Struktur. Die Codeblöcke bleiben unverändert.
 
-Das erlaubt mir verschiedenste kommerzielle APIs von irgendwelchen Anbietern (OpenAI, Gemini, Claude, etc...) einzubinden, und ebenfalls lokale Modelle zu nutzen.  
-Dabei übernimmt die App eigentlich alles zum Thema Installation, es ist wirklich nur Modell raussuchen aus einer riesigen Datenbank (Ollama und Huggingface), ein Klick auf installieren - das wars. Bei den kommerziellen APIs ist es halt nur den API key eintragen...  
-  
-Die Chats sind alle lokal gespeichert und können problemlos als JSON oder Markdown exportiert werden.  
-Es erlaubt verzweigte Chats (also z.b. ich generiere eine Antwort neu mit geänderten Parametern, oder einem anderen Modell und habe dann praktisch mehrere Verläufe die ich fortführen kann) und synchronisierte Chats (automatisch den gleichen Prompt an mehrere Modelle versenden).  
-  
-Dann ist es sehr einfach RAG - was einfach heisst ich habe verschiedene Quellen z.b. verschiedene Dokumente, Webseiten, Youtube Links) und dann wird meinem Prompt automatisch relevanter Context aus diesen Quellen hinzugefügt. Ist z.b. cool wenn man mit kleinen, lokalen Modellen arbeitet - die bestimmte Themen einfach nicht kennen und dann lustig vor sich hin halluzinieren. Nutzt man RAG in diesem Fall, kann das kleine Modell auf einmal doch relevante und faktisch korrekte Antworten zu diesen Themen liefern. (Ist aber kein Allheilsmittel - bisher hatte ich immer bessere Ergebnisse mit großen, kommerziellen Modellen die ein so großen Context Fenster haben das ich die Dokumente einfach komplett mitsenden kann).  
-  
-Generell auch einfache Möglichkeit Prompts zu verwalten - was das arbeiten mit komplexeren Prompts (Systemprompts die z.b. immer mitgeschickt werden, unabhängig von deinem aktuellen Prompt) deutlich einfacher macht.  
-  
+# Überarbeiteter Inhalt
+
+## Frontend: Msty
+Als Frontend nutze ich meistens die App [Msty](https://msty.app).
+
+Die ist grundsätzlich komplett kostenlos nutzbar. Es gibt ein paar wenige Features, die hinter einer Paywall liegen, aber das sind eher so Komfort-Sachen, keine grundlegenden Funktionen.
+
+Msty erlaubt es mir, verschiedenste kommerzielle APIs von unterschiedlichen Anbietern (OpenAI, Gemini, Claude, usw.) einzubinden und auch lokale Modelle zu nutzen.
+Dabei übernimmt die App eigentlich alles zum Thema Installation. Es ist wirklich nur ein Modell aus einer riesigen Datenbank (Ollama und Huggingface) aussuchen, auf "Installieren" klicken – das war's. Bei den kommerziellen APIs muss man halt nur den API-Key eintragen.
+
+Alle Chats werden lokal gespeichert und können problemlos als JSON oder Markdown exportiert werden.
+Msty unterstützt verzweigte Chats (also z.B. wenn ich eine Antwort mit geänderten Parametern oder einem anderen Modell neu generiere, dann habe ich praktisch mehrere Gesprächsstränge, die ich weiterführen kann) und synchronisierte Chats (automatisches Senden des gleichen Prompts an mehrere Modelle).
+
+Außerdem macht es RAG super einfach. RAG bedeutet einfach, dass ich verschiedene Quellen nutzen kann (wie verschiedene Dokumente, Webseiten, YouTube-Links), und dann wird automatisch relevanter Kontext aus diesen Quellen zu meinem Prompt hinzugefügt. Das ist besonders nützlich, wenn man mit kleineren, lokalen Modellen arbeitet, die bestimmte Themen einfach nicht kennen und dann lustig vor sich hin halluzinieren. Nutzt man in solchen Fällen RAG, kann das kleine Modell plötzlich doch relevante und faktisch korrekte Antworten zu diesen Themen liefern. (Ist aber kein Allheilmittel – ich hatte bisher immer bessere Ergebnisse mit großen, kommerziellen Modellen, die so ein großes Kontextfenster haben, dass ich die ganzen Dokumente einfach mitschicken kann).
+
+Generell bietet Msty auch eine einfache Möglichkeit, Prompts zu verwalten. Das vereinfacht die Arbeit mit komplexeren Prompts deutlich, wie z.B. Systemprompts, die immer mitgeschickt werden, egal was dein aktueller Prompt ist.
+
 ## Workflows
-  
-Zum arbeiten selber: ich habe mittlerweile verschiedenste Workflows, von super simpel bis zu relativ komplex. Prinzipiell ist das eher so - viel experimentieren und es gibt keine "one fits all" Lösung.  
-  
-Als Beispiel mal ein paar Workflows die ich habe:
 
-### Allgemein Prompt-erstellung
+Für die eigentliche Arbeit habe ich mittlerweile verschiedene Workflows entwickelt, von super simpel bis relativ komplex. Prinzipiell ist es aber eher so: viel experimentieren, und es gibt keine "One-fits-all"-Lösung.
 
-Bei den meisten nicht trivialen Aufgaben macht ein guter System Prompt aus einem "geht so" Ergebniss ein "das ist gut bis sehr gut".
+Hier sind ein paar Beispiele für Workflows, die ich nutze:
 
-Mein aktueller Systemprompt für das erstellen von neuen Prompts:
+### Allgemein Prompt-Erstellung
+
+Bei den meisten nicht trivialen Aufgaben macht ein guter Systemprompt aus einem "geht so" Ergebnis ein "gut bis sehr gut".
+
+Mein aktueller Systemprompt für das Erstellen von neuen Prompts ist:
 ```
 You are an expert Prompt Engineer, specializing in crafting highly effective system and user prompts for Large Language Models (LLMs). Your expertise lies in understanding the nuances of LLM behavior and designing prompts that elicit desired outputs with precision and consistency. You possess a deep understanding of prompt engineering techniques, including but not limited to: role assignment, persona creation, instruction clarity, constraint setting, example-based learning (few-shot prompting), and iterative refinement. You are also deeply familiar with the key characteristics of well-designed prompts: **clarity, specificity, conciseness, effectiveness, and robustness.**
 
@@ -62,24 +67,24 @@ Your responses should be structured to clearly address the user's request, provi
 You are now ready to assist users in their prompt engineering journey. Please wait for a user prompt.
 ```
 
-Am besten natürlich mit einem großen Modell nutzen (siehe [[Seedbox/Workflows Sprachmodelle#Modelle|Modelle]])
-Grundsätzlich ist die Qualität des Outputs immer ein kleines bißchen besser wenn man alles in Englisch macht, die meisten großen Modelle sind aber auch mittlerweile recht gut mit Deutsch. Es ist egal wenn man Sprachen mixt solange es klar verständlich bleibt - ich kann also erstmal alles in Englisch machen und dann am Ende einfach um einen Output in Deutsch bitten. Ist aber eher schon so min-maxing...
+Am besten nutzt man den natürlich mit einem großen Modell (siehe [[Seedbox/Workflows Sprachmodelle#Modelle|Modelle]]).
+Grundsätzlich ist die Qualität des Outputs immer ein kleines bisschen besser, wenn man alles auf Englisch macht. Die meisten großen Modelle sind aber mittlerweile auch recht gut mit Deutsch. Es macht auch nichts, wenn man Sprachen mischt, solange es klar verständlich bleibt. Ich kann also erstmal alles auf Englisch machen und dann am Ende einfach um eine Ausgabe auf Deutsch bitten. Aber das ist eher schon so Feintuning…
 
-Grundsätzlich funktioniert das dann wie als normaler chatbot, man kann also durchaus "normal" reden.
+Im Prinzip funktioniert das dann wie ein normaler Chatbot, man kann also durchaus "normal" reden.
 
 ""
 ```
 Ich brauche so einen Prompt glaub ich, also ich will halt nen Chatbot der mit mir meine Hausaufgaben macht und mir da so hilft.
 ```
 
-Oft wird das bei solchen Antworten auch zu "Nachfragen" führen, also das Modell fragt dann durchaus noch nach zusätzlichen Infos. Je nachdem wie genau man das vorher so beschrieben hat. Will damit nur sagen - wenn man große Modelle wie von OpenAI, Google etc. nimmt - dann kann das jeder Anfänger nutzen, es braucht keine besondere Form oder Syntax.
+Oft führt das bei solchen Antworten auch zu "Nachfragen", also das Modell fragt dann durchaus noch nach zusätzlichen Infos, je nachdem, wie genau man das vorher beschrieben hat.  Ich will damit nur sagen: Wenn man große Modelle wie von OpenAI, Google usw. nimmt, dann kann das jeder Anfänger nutzen, da braucht es keine besondere Form oder Syntax.
 
-Grundsätzlich mach ich das wenn ich öfter an etwas arbeite, also immer wieder ähnliche oder gleiche Aufgaben hab - dann baue ich mir so einen Systemprompt (oder auch Userprompt) - ist halt eher wie ein Template was ich dann einfach einfügen kann.
+Generell mache ich das, wenn ich öfter an etwas arbeite, also immer wieder ähnliche oder gleiche Aufgaben habe. Dann baue ich mir so einen Systemprompt (oder auch Userprompt) – das ist halt eher wie eine Vorlage, die ich dann einfach einfügen kann.
 
 ### Antrag bewerten / verbessern
 
-1. relevante Dokumente  (also Förderbedingungen, Formate etc... meist so 3-4 Pdfs, je nach Förderung) sowie der fertige Antragstext.
-2. hierfür nutze ich zur Zeit ```gemini-2.0.-flash-exp``` da es 1 million token context erlaubt - mehr als genug um 100 Seiten pdfs mit ranzuhängen
+1. Relevante Dokumente (also Förderbedingungen, Formate etc... meist so 3-4 PDFs, je nach Förderung) sowie der fertige Antragstext.
+2. Hierfür nutze ich zur Zeit ```gemini-2.0.-flash-exp```, da es 1 Million Token Kontext erlaubt – mehr als genug, um 100 Seiten PDFs mit dranzuhängen.
 3. Systemprompt:
 ```
 You are an expert funding proposal analyst. Your primary task is to meticulously analyze a provided funding proposal against a set of provided funding rules and guidelines.
@@ -103,59 +108,59 @@ If the user provides PDFs in English, you will respond in English. If a specific
 By following these instructions, you will provide a comprehensive and insightful analysis of the funding proposal, directly informed by the relevant funding rules and guidelines.
 ```
 
-4. dann einfach die Pdfs an den Chat anhängen, reicht meist schon. 
-5. Das hilft unglaublich um die eigenen Anträge kritisch zu bewerten und zu sehen wo und wie man noch verbessern kann.
+4. Dann einfach die PDFs an den Chat anhängen, das reicht meistens schon.
+5. Das hilft unglaublich, um die eigenen Anträge kritisch zu bewerten und zu sehen, wo und wie man sie noch verbessern kann.
 
-### Sonstiges
+### Sonstige Workflows
 
-Ich hab dann zig Workflows, vom erstellen der Anträge, schreiben der Sachberichte etc.
-Das Grundprinzip ist aber immer das gleiche: einen guten Systemprompt erstellen (am besten mithilfe des "Promptdesigner" Systemprompts) und dann normal wie mit nem Menschen reden - je besser man beschreiben und sich ausdrücken kann, je klarer und strukturierter die eigenen Fragen/Prompts sind - desto besser ist halt auch das Ergebniss... ist halt ein bissel Übungs/Erfahrungssache.
+Ich habe dann noch zig andere Workflows, vom Erstellen der Anträge bis zum Schreiben der Sachberichte usw.
+Das Grundprinzip ist aber immer das gleiche: einen guten Systemprompt erstellen (am besten mithilfe des "Promptdesigner"-Systemprompts) und dann normal wie mit einem Menschen reden. Je besser man sich ausdrücken und beschreiben kann, und je klarer und strukturierter die eigenen Fragen/Prompts sind, desto besser ist halt auch das Ergebnis… ist halt ein bisschen Übungs- und Erfahrungssache.
 
 ## Modelle / API
 
-Ich nutze mittlerweile nur noch eine API - https://openrouter.ai/
-Ist prinzipiell wie Netflix für Sprachmodelle.
+Ich nutze mittlerweile nur noch eine API: https://openrouter.ai/
+Das ist im Prinzip wie Netflix für Sprachmodelle.
 
-Meint, ich kann alle anderen Anbieter über diese API nutzen ohne mir bei jedem einzelnen ne API zu holen (und meist mindestens 5-10 Euro zu hinterlegen) - so habe ich Zugang zu allen und es läuft über genau einen Anbieter bei dem ich bezahle.
-Viele Modelle bei OpenRouter sind auch kostenfrei - d.h. ich kann den Service grundsätzlich auch kostenlos nutzen. 
+Das heißt, ich kann alle anderen Anbieter über diese API nutzen, ohne mir bei jedem einzelnen eine API holen zu müssen (und meistens mindestens 5-10 Euro hinterlegen zu müssen). So habe ich Zugang zu allen und die Abrechnung läuft über einen einzigen Anbieter, bei dem ich bezahle.
+Viele Modelle bei OpenRouter sind auch kostenlos, d.h. man kann den Service grundsätzlich auch kostenlos nutzen.
 
-Dann gibt es immer wieder wechselnde "kostenlose" Modelle weil sie gerade neu sind etc. (die Bezahlung sind dann halt deine Daten, wie bei allen kommerziellen Modellen).
+Dann gibt es immer wieder wechselnde "kostenlose" Modelle, weil sie gerade neu sind usw. (die Bezahlung sind dann halt deine Daten, wie bei allen kommerziellen Modellen).
 Folgende nutze ich gerade viel:
 
-| Anbieter | Modell Name                    |
+| Anbieter | Modell Name                     |
 | -------- | ------------------------------ |
 | Deepseek | Deepseek R1 (free)             |
 | Gemini   | gemini-2.0.-flash-exp          |
 | Gemini   | gemini-2.0.-flash-thinking-exp |
 |          |                                |
-Das ändert sich aber auch immer wieder mal.
+
+Das ändert sich aber auch immer mal wieder.
 
 ## Lokale Modelle
 
-Mit Msty als Frontend ist das rumprobieren mit lokalen Modellen super einfach. Ich habe selber zur Zeit einen 4 Jahre alten Gaming Laptop - also nicht gerade High-end.
-Ich habe eine ```NVidia Geforce GTX 1050 Ti``` - das ist nix wirklich tolles für heutige Maßstäbe.
-Kleine Modelle (1B - 2B) laufen superschnell, 
-bis zu 4B kann ich die noch benutzen. Zum experimentieren reicht das aber schon allemal, und manche kleinen Modelle sind mittlerweile erstaunlich gut, deutlich besser als GPT3 oder 3.5 am Anfang war.
+Mit Msty als Frontend ist das Rumprobieren mit lokalen Modellen super einfach. Ich selbst habe zur Zeit einen 4 Jahre alten Gaming Laptop, also nicht gerade High-End.
+Ich habe eine ```NVidia Geforce GTX 1050 Ti``` – das ist jetzt nichts wirklich Tolles nach heutigen Maßstäben.
+Kleine Modelle (1B - 2B) laufen superschnell, und bis zu 4B kann ich die noch benutzen. Zum Experimentieren reicht das aber schon allemal, und manche kleinen Modelle sind mittlerweile erstaunlich gut, deutlich besser als GPT3 oder 3.5 am Anfang waren.
 
-z.b.
+z.B.
 ```
 qwen2.5:7b  ( 4.5 GB )
 llama 3.2 (2 GB)
 deepseek-r1:1.5b  (1.12 GB)
 ```
 
-sind wirklich schon recht gut, wenn man bedenkt mit wenig Hardware man das lokal ausführen kann.
+sind wirklich schon recht gut, wenn man bedenkt, mit wie wenig Hardware man das lokal ausführen kann.
 
-Modelle wie 
+Modelle wie
 ```
 Tiny Llama ( 600 mb )
 ```
-sind halt krass schnell und laufen wahrscheinlich auch noch auf nem Toaster - aber sind halt auch Lichtjahre von der Qualität größerer Modelle entfernt.
+sind halt krass schnell und laufen wahrscheinlich auch noch auf einem Toaster, aber die Qualität ist Lichtjahre von größeren Modellen entfernt.
 
-Zum testen aber super, da die Modelle erstmal mehr Schrott als alles andere ausspucken (aber super schnell) - und man sehr deutlich sieht welchen Einfluss gute system prompts, einstellungen der Modell Parameter etc. haben.
+Zum Testen aber super, da die Modelle erstmal mehr Schrott als alles andere ausspucken (aber super schnell), und man sehr deutlich sieht, welchen Einfluss gute Systemprompts, Einstellungen der Modellparameter usw. haben.
 
-## Modell Parameter
+## Modellparameter
 
-Wirklich wichtig sind
-- Context Size (wieviel Output maximal erzeugt werden kann bevor das Modell einfach stoppt)
-- Temperatur ( simpel gesagt: für Fakten eher niedrig, für mehr "Kreativität" eher mittel bis hoch )
+Wirklich wichtig sind:
+- Context Size (wieviel Output maximal erzeugt werden kann, bevor das Modell einfach stoppt)
+- Temperatur (simpel gesagt: für Fakten eher niedrig, für mehr "Kreativität" eher mittel bis hoch)
