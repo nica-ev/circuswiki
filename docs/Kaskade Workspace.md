@@ -1,7 +1,7 @@
 ---
 created: 2025-01-21 18:09:55
-update: 2025-02-07 05:34:48
-publish: true
+update: 2025-02-09 20:56:36
+publish: draft
 tags:
   - moc
 title: Transkripte des Kaskade Magazines
@@ -49,11 +49,11 @@ authors:
 
 <!-- QueryToSerialize: LIST FROM "docs" WHERE contains(file.tags, "kaskade") AND (type = "Magazin") -->
 <!-- SerializedQuery: LIST FROM "docs" WHERE contains(file.tags, "kaskade") AND (type = "Magazin") -->
-- [[Kaskade 001]]
-- [[Kaskade 002]]
 - [[Kaskade 003]]
-- [[Kaskade 004]]
+- [[Kaskade 002]]
+- [[Kaskade 001]]
 - [[Kaskade 005]]
+- [[Kaskade 004]]
 <!-- SerializedQuery END -->
 
 ---
@@ -66,11 +66,11 @@ authors:
 | File                                                                           | authors                                           | type     | sub-type | source      |
 | ------------------------------------------------------------------------------ | ------------------------------------------------- | -------- | -------- | ----------- |
 | [[Die Säulen-Seite]]                                 | <ul><li>Dr. P. Luftiko</li></ul>                  | Tutorial | Bälle    | Kaskade 001 |
-| [[Schummeln!]]                                             | <ul><li>Dr. P. Luftiko</li></ul>                  | Tutorial | Bälle    | Kaskade 001 |
 | [[Eine neue Zeitschrift für Europa]] | <ul><li>Gabi Keaton</li><li>Paul Keaton</li></ul> | Artikel  | \-       | Kaskade 001 |
-| [[Zirkus gesucht!]]                                   | <ul><li>Kattrin & Uli</li></ul>                   | Artikel  | \-       | Kaskade 001 |
 | [[Lächeln überwindet Schwerkraft]]     | <ul><li>Toby Philpott</li></ul>                   | Artikel  | \-       | Kaskade 001 |
 | [[Schwerkraft - na und!]]                       | <ul><li>Christoph Schmitt</li></ul>               | Artikel  | \-       | Kaskade 001 |
+| [[Schummeln!]]                                             | <ul><li>Dr. P. Luftiko</li></ul>                  | Tutorial | Bälle    | Kaskade 001 |
+| [[Zirkus gesucht!]]                                   | <ul><li>Kattrin & Uli</li></ul>                   | Artikel  | \-       | Kaskade 001 |
 <!-- SerializedQuery END -->
 
 ---

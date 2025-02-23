@@ -1,7 +1,7 @@
 ---
 created: 2025-01-21 18:09:55
-update: 2025-02-07 05:10:56
-publish: true
+update: 2025-02-23 20:04:49
+publish: draft
 tags:
   - kaskade
 title: Kaskade 002 - 1984
@@ -31,6 +31,8 @@ Todd Strongs und Andrew Allens Talent mit Diabolos und Devil Sticks waren der Be
 
 Tim Batślustige YoYo-Nummer hat dazu geführt, daß alle, die am Sonntag noch ein Duncan kaufen wollten, enttäuscht wurden, alle YoYos waren ausverkauft.
 Gérard Estrem mit seinem Devil Stick, Klapp's Kallis Keulen Kompany's Hutnummer, die Liste könnte lange fortgeführt werden und ich entschuldige mich bei allen 390 Leuten, die ich nicht erwähnte. Es sei genug zu sagen, daß jede anwesende Person etwas Neues zu lernen zeigte und daß das Treffen selber eine Quelle von Informationen für jeden war, der eine Stunde auf dem Balkon, der die Halle überblickte, verbringen wollte.
+
+![Kaskade00201](img/Kaskade-002-01.png){ align=left }
 
 Und die öffentliche Show?
 
@@ -64,6 +66,8 @@ Falls Du es nicht gesehen hast, die Gewinner der Wettbewerbe bekamen ein Taschen
 
 ### Gala
 
+![Kaskade00202](img/Kaskade-002-02.png){ align=left }
+
 Falls Du nicht mehr genau weißt, was an der öffentlichen Show sooo gut war, hier noch einmal kurz der Programablauf:
 STEVE MOCK aus Amsterdam begann das Program mit einer klassischen 3-Ballnummer. Die 2 FRÈRES PAMPELMOUSE aus Frankreich zeigten sehr lustige, akrobatische Jonglage.
 TIM BAT aus London yoyote in und um seine Melone, obwohl er seine Hose vergessen hatte. WERNER SCHREINER aus Wiesbaden versuchte die kleinsten Bälle der Welt zu jonglieren und verlor sie. ACHIM SCHLOTFELDT aus Bremen rock'n rolled 3Keulen. Werner versuchte sich mit der größten Keule der Welt. J.J.(Gérard Estrem) aus Frankreich war der Clown, der zeigte, wie der Steinzeitmensch das Jongliern entdeckte, ALEX DANDRIDGE und MICK NOAKES aus England schmissen sich Keulen auf Giraffen zu. NEIL ROBINSON (z.Z. in Deutschland) mit seiner Tuch- und chinesichen-Ringe-Zauberei war faszinierend und lustig gleichzeitig.
@@ -78,10 +82,14 @@ MARCELINE KAHN aus Barcelona zeigte sehr beeindruckendes Feuerkeulenschwingen. M
 
 ## Manuel Alvarez bei Circus Roncalli
 
+![Kaskade00203](img/Kaskade-002-03.png){ align=left }
+
 Alvarez bei Roncalli — das ist perfekte Fußarbeit mit Keulen, rasant dargeboten zu spanischen Klängen. Dynamisch stürmt er mit einem über 6 kg schweren Torero-kostüm in die Manege und beginnt eine flotte Jonglage mit 7 Ringen.
 Nach kurzem Requisitenwechsel folgt der Höhepunkt seiner Nummer — eine fußbetonte 3 Keulen-jonglage. Mit tänzerischem Können zeigt Manuel Alvarez leichtfüßige, rechts wie links gleichermaßen präzis ausgeführte kick-ups, wobei er eine runde Holzplatte von 2 m Durchmesser nicht verläßt!
 Mehrmals fängt er hinter dem Rücken geworfene Keulen in der Kniekehle auf, läßt sie zum Fuß gleiten, um sie sodann übergangslos wieder in die Jonglage einzugliedern. In atemberaubendem Tempo wirbeln die Keulen mit einfacher Drehung gewandt von Hand zu Fuß, Fuß zu Fuß, Fuß zu Hand.
 Seine Spezialität ist der einfüßige kick-up mit 3 Keulen gleichzeitig, wobei er 2 fängt, während die dritte mit dem gleichen Fuß nochmals hochgekickt und sofort weiterjongliert wird.
+
+![Kaskade00204](img/Kaskade-002-04.png){ align=left }
 
 Acht Plastikteller mit boomerang-ähnlichen Flugeigenschaften läßt er zum Ende seiner Darbietung bis dicht unter die Zeltkuppel schnellen. Die Höhe des Zirkuszeltes reicht jedoch kaum für diese Nummer, erklärt uns Alvarez.
 Wir haben ihn vor der Vorstellung in seinem Wohnwagen besucht und dabei auch seine Frau und die beiden kleinen Töchter kennengelernt. Bei einer Tasse Kaffee erzählt uns der 27jährige, in Sevilla geborene Sohn der berühmten spanischen Artistenfamilie Alvarez daß er 8 Jahre bei verschiedenen Zirkusunternehmen in Afrika engagiert war, später in Spanien und Frankreich gastierte und seit Anfang dieses Jahres bei Roncalli verpflichtet ist. Auch seine Frau entstammt einer alten Zirkusfamilie und beiden gefällt die Atmosphäre im Roncallizirkus sehr.
@@ -98,10 +106,8 @@ Astrid und Jojo
 
 Für Neulinge bei Straßenauftritten und für stadtfremde Akteure soll diese Kolumne einige Informationen über die Auftrittsscene in Europa geben, so daß Ihr wißt, welche Probleme und Möglichkeiten es in einer Stadt gibt, bevor Ihr dort ankommt.
 
-**(Image: A black and white photo of a street performer doing a "leg-behind-the-head" trick.)** #todo 
-
+![Kaskade00205](img/Kaskade-002-05.png){ align = right}
 Der berühmte Unter-dem-Bein-Trick
-
 Foto: Fiona Freund
 
 In London ist das anerkannte Zentrum für Straßenshows Covent Garden. Es ist nicht nur eine der geschäftigsten Touristengegenden, sondern Straßenkünstler sind auch willkommen (solange sie konform gehen!). Auf den ersten Blick kann das Niveau der Konkurrenz von Magiern, Musikern, Akrobaten und natürlich anderen Jongleuren recht abschreckend erscheinen. Aber eigentlich ist es fast unmöglich, bei nur zwei legalisierten Auftrittsplätzen und tausenden von Besuchern keine Zuschauermenge für Deine Show anzuziehen.
