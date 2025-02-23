@@ -3,7 +3,7 @@ publish: true
 tags:
   - spiele
 created: 2025-01-24 03:50:50
-update: 2025-01-24 05:17:36
+update: 2025-02-23 20:25:49
 title: Gleich und gleich
 description: 
 authors:
@@ -27,5 +27,5 @@ Die Anweisungen müssen dem Alter und der Zusammensetzung der Gruppe entsprechen
 
 ## Literatur
 
-[[@Portmann2009]]
+@Portmann2009
 
