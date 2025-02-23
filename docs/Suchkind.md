@@ -3,7 +3,7 @@ publish: true
 tags:
   - spiele
 created: 2025-01-24 03:50:51
-update: 2025-01-25 01:11:49
+update: 2025-02-23 20:26:05
 title: Suchkind
 description: 
 authors:
@@ -26,5 +26,5 @@ Mit zunehmender Bekanntheit der Kinder untereinander sollte bei den Suchaufgaben
 
 ## Literatur
 
-[[@Portmann2009]]
+@Portmann2009
 

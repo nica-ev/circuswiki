@@ -3,7 +3,7 @@ publish: true
 tags:
   - spiele
 created: 2025-01-24 03:50:50
-update: 2025-01-24 05:19:17
+update: 2025-02-23 20:25:54
 title: Gute Seiten
 description: 
 authors:
@@ -22,5 +22,5 @@ Durch diese Übung erfahren die Kinder etwas über ihre positiven Seiten und dar
 
 ## Literatur
 
-[[@Portmann2009]]
+@Portmann2009
 

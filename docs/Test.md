@@ -1,6 +1,6 @@
 ---
 created: 2025-01-19 04:14:36
-update: 2025-01-29 12:52:59
+update: 2025-02-23 20:27:32
 ---
 
 # Grids & Tabs
@@ -107,10 +107,6 @@ mal sehen obs geht
 
 # test pdf 
 
-[pdf link](https://cloud.nica.network/s/jqceAm8dSqW89n3)
-
-![[Functional Juggling - The Book - EN.pdf]]
-
 <!--- file: docs/howto/embedding_pdf.md --->
 {% with pdf_file = "_attachements/Functional%20Juggling%20-%20The%20Book%20-%20EN.pdf" %}
 
@@ -124,5 +120,3 @@ mal sehen obs geht
 </object>
 
 obsidian://open?vault=docs&file=_attachements%2FFunctional%20Juggling%20-%20The%20Book%20-%20EN.pdf
-
-![[1.jpg]]
