@@ -3,7 +3,7 @@ publish: true
 tags:
   - spiele
 created: 2025-01-24 03:50:51
-update: 2025-01-25 01:01:53
+update: 2025-02-24 04:51:50
 title: Schnick Schnack Schnuck
 description: 
 authors:
@@ -20,6 +20,3 @@ Alle laufen durch den Raum, wenn sich 2 Personen treffen spielen sie Schnick, Sc
 
 Am Ende des Spieles bleibt nur eine einzige Schlange übrig an dessen Spitze der Gewinner läuft und alle anderen dessen Namen rufen.
 
-## Querverweise
-
-[[Projekt/Workshop_3_Stunden_Crashkurs_Zirkuspädagogik]]

@@ -33,7 +33,7 @@ authors:
 [[Piraten Kapitän]]
 [[Piraten Begrüßungsspiel]]
 [[Das Ja Spiel]]
-[[Wenn ich König wär...]]
+[[Wenn ich König wär]]
 [[Peng!]]
 [[1,2,3]]
 [[Ägyptisches Wurfspiel]]

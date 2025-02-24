@@ -4,7 +4,7 @@ tags:
   - spiele
   - moc
 created: 2025-01-24 03:50:50
-update: 2025-01-25 18:57:49
+update: 2025-02-25 00:31:54
 title: Bewegungsspiele
 description: 
 authors:
@@ -30,8 +30,10 @@ authors:
 - [[Taktik und Konzentrationsspiele|Taktik und Konzentrationsspiele]]
 - [[MOC Spiele rest|Spiele unsortiert]]
 
+[[Liste aller Spiele]]{ .md-button }
+
 Digitale / Online machbare Spiele
 
 ## Quellen
 
-🌲 siehe: https://www.gesundundmunter.at/fileadmin/materialien/Bewegungsspiele.pdf
+🌲 siehe: [](https://www.gesundundmunter.at/fileadmin/materialien/Bewegungsspiele.pdf)

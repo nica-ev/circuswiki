@@ -3,7 +3,7 @@ publish: true
 tags:
   - spiele
 created: 2025-02-01 02:20:18
-update: 2025-02-01 02:21:11
+update: 2025-02-24 04:50:23
 title: "# Frutti del Mare"
 description: 
 authors:
@@ -32,4 +32,5 @@ Der Kreis geht von vorne los.
 
 ## Querverweise
 
-[[Projekt/Workshop_3_Stunden_Crashkurs_Zirkuspädagogik]]
+[[Sonnengruß Kinder]]
+
