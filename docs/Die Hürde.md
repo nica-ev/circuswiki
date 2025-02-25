@@ -1,6 +1,6 @@
 ---
 created: 2025-01-21 18:09:55
-update: 2025-02-23 22:39:13
+update: 2025-02-25 00:20:52
 publish: true
 tags:
   - spiele
@@ -22,3 +22,4 @@ Zwischen zwei festen Balken, Pfosten, Bäumen oder etwas Ähnlichem, wird ein Se
 
 Quelle:
 Tasifan Spielebuch
+

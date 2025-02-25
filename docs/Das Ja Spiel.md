@@ -20,4 +20,4 @@ Die Gruppe ruft gemeinsam "JA!!!!" und fängt an diese Tätigkeit zu machen. Die
 
 ## Querverweise
 
-[[Wenn ich König wär...]]
+[[Wenn ich König wär]]

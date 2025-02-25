@@ -1,0 +1,16 @@
+.md-typeset h1, .md-typeset h2 {
+    color: red !important;
+  }
+
+.md-typeset a {
+    text-decoration: underline;
+  }
+
+  .md-sidebar__inner { 
+    background-color: #bcbaba55;
+  }
+
+.md-nav__title {
+    
+  }
+
