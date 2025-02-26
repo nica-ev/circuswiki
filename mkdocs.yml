@@ -97,7 +97,8 @@ not_in_nav: |
 
 extra_javascript:
   - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
-  - javascripts/tablesort.js
+  - javascripts/tablesort.js      # enables sorting of markdown tables (by clicking on the headers)
+  - javascripts/feedback.js       # implements a feedback form
 
 extra_css:
   - stylesheets/custom_style.css
