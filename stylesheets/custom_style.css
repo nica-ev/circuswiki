@@ -1,16 +1,28 @@
 .md-typeset h1, .md-typeset h2 {
-    color: red !important;
+    color: black !important;
   }
 
 .md-typeset a {
     text-decoration: underline;
   }
 
-  .md-sidebar__inner { 
-    background-color: #bcbaba55;
-  }
+.md-sidebar__inner { 
+    background-color: #ffffffdd;
+}
 
-.md-nav__title {
-    
-  }
+/*
+.md-container {
+  background-image: url("nica-background.jpg");
+}
+*/
 
+.md-main {
+  background-color: #ffffffdd;
+}
+
+.md-content {
+  background-color: #ffffff;
+}
+
+.md-nav__link {
+}
