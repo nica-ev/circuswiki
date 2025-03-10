@@ -1,0 +1,1 @@
+python translate.py --input-dir translation_test --output-dir translation_test/en --target-lang EN --exclude-dirs en

@@ -1,6 +1,6 @@
 ---
 created: 2025-01-21 18:09:55
-update: 2025-02-08 22:30:10
+update: 2025-03-10 23:07:38
 publish: true
 tags: 
 title: Workflows Sprachmodelle
@@ -9,12 +9,8 @@ authors:
   - Marc Bielert
 ---
 
-Okay, hier ist der überarbeitete Text auf Deutsch, im Stil des Originals, mit korrigierter Grammatik und verbesserter Struktur. Die Codeblöcke bleiben unverändert.
-
-# Überarbeiteter Inhalt
-
 ## Frontend: Msty
-Als Frontend nutze ich meistens die App [Msty](https://msty.app).
+Als Frontend nutze ich die App [Msty](https://msty.app).
 
 Die ist grundsätzlich komplett kostenlos nutzbar. Es gibt ein paar wenige Features, die hinter einer Paywall liegen, aber das sind eher so Komfort-Sachen, keine grundlegenden Funktionen.
 

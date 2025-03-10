@@ -32,7 +32,7 @@ theme:
     - navigation.tracking
     - navigation.path
     - navigation.prune
-#    - navigation.tabs
+    - navigation.tabs
 #    - navigation.tabs.sticky
     - toc.follow
     - header.autohide
@@ -79,14 +79,19 @@ plugins:
    #   tags_file: tags.md
 
 nav:
-  - Home: 'index.md'
+  - Home: 
+    - Home: 'index.md'
+    - NICA e.V.: 'Dokumentation Nica eV.md' 
+    - Mitmachen: 'mitmachen.md'
   - NICA:
+    - NICA e.V.: 'Dokumentation Nica eV.md' 
     - Buchhaltung: 'buchhaltung.md'
     - Digitale Infrastruktur: 'digital-infrastruktur.md'
     - Wordpress: 'wordpress.md'
     - Nextcloud: 'nextcloud.md'
     - Dokumentations-System: 'doc-sys-2.md'
-  - Bewegungs-Spiele: 'Bewegungs-Spiele.md'
+  - Bewegungs-Spiele: 
+    - Uebersicht: 'Bewegungs-Spiele.md'
   - Blog: 
     - 'blog/index.md'
 
@@ -129,9 +134,6 @@ extra:
       find what they're searching for. With your consent, you're helping us to
       make our documentation better.
   alternate:
-    - name: English
-      link: /docs/en/
-      lang: en
     - name: Deutsch
       link: /
       lang: de

@@ -1,163 +1,233 @@
 import os
-import shutil
-import argparse
-import logging
 import re
-from dotenv import load_dotenv
-from markdown_it import MarkdownIt
+import logging
+import argparse
+from datetime import datetime
+import yaml
 
-load_dotenv()
+# Configure logging
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s'
+)
+logger = logging.getLogger(__name__)
 
-logging.basicConfig(level=logging.DEBUG, format="%(asctime)s - %(levelname)s - %(message)s")
+def setup_argparse():
+    parser = argparse.ArgumentParser(description='Process markdown files for translation.')
+    parser.add_argument('--input-dir', default='translation_test', help='Directory containing markdown files')
+    parser.add_argument('--output-dir', default='output', help='Directory to save processed files')
+    parser.add_argument('--target-lang', default='EN', help='Target language for translation')
+    parser.add_argument('--exclude-dirs', nargs='+', default=[], help='Directories to exclude from processing')
+    parser.add_argument('--verbose', action='store_true', help='Enable verbose output')
+    return parser.parse_args()
 
-class MarkdownTranslator:
-    def __init__(self, input_dir, output_dir, target_lang, api_key):
-        self.input_dir = input_dir
-        self.output_dir = output_dir
-        self.target_lang = target_lang.upper()
-        self.api_key = api_key
-        self.translated_files = 0
-        self.skipped_files = 0
-        self.testing_mode = not api_key
-        self.text_log = open("translation_log.txt", "w", encoding="utf-8") if self.testing_mode else None
-        self.wikilink_pattern = re.compile(r'\[\[(.*?)\]\]')
-
-    def extract_translatable_text(self, markdown_text):
-        md = MarkdownIt()
-        tokens = md.parse(markdown_text)
-        translatable = []
-        in_code = False
-
-        for token in tokens:
-            if token.type in ["code_block", "fence"]:
-                in_code = not in_code
-                continue
-            if in_code:
-                continue
-
-            # Process inline tokens and their children
-            if token.type == "inline" and token.children:
-                for child in token.children:
-                    if child.type == "text":
-                        # Extract wikilinks from text content
-                        wikilinks = self.wikilink_pattern.findall(child.content)
-                        for link in wikilinks:
-                            title = link.split("|")[0] if "|" in link else link
-                            translatable.append(('link_title', title.strip()))
-                        
-                        # Handle remaining text after removing wikilinks
-                        remaining_text = self.wikilink_pattern.sub('', child.content).strip()
-                        if remaining_text:
-                            translatable.append(('text', remaining_text))
-
-            # Handle standard markdown links
-            elif token.type == "link_open" and "title" in token.attrs:
-                translatable.append(('link_title', token.attrs["title"]))
-
-            # Handle standalone text tokens
-            elif token.type == "text" and token.content.strip():
-                translatable.append(('text', token.content.strip()))
-
-        logging.debug(f"Found {len(translatable)} translatable segments")
-        return translatable
-
-    def translate_text(self, text_blocks):
-        if self.testing_mode:
-            for ttype, text in text_blocks:
-                self.text_log.write(f"{ttype.upper()}: {text}\n")
-            return [(ttype, text) for ttype, text in text_blocks]
-        return text_blocks
-
-    def replace_translated_text(self, original, translations):
-        translated = original
-        translation_iter = iter(translations)
-        
-        def replace_wikilink(match):
-            try:
-                original_content = match.group(1)
-                if "|" in original_content:
-                    title_part, rest = original_content.split("|", 1)
-                    translated_title = next(t for t in translation_iter if t[0] == 'link_title')[1]
-                    return f"[[{translated_title}|{rest}]]"
-                else:
-                    translated_title = next(t for t in translation_iter if t[0] == 'link_title')[1]
-                    return f"[[{translated_title}]]"
-            except (StopIteration, IndexError):
-                return match.group(0)
-
-        # Replace wikilinks first
-        translated = self.wikilink_pattern.sub(replace_wikilink, translated)
-        
-        # Replace remaining text content
-        for (ttype, orig), (_, new) in zip(self.extract_translatable_text(original), translations):
-            if ttype == 'text':
-                translated = translated.replace(orig, new, 1)
-        
-        return translated
-
-    def process_markdown_file(self, input_path, output_path):
+def extract_frontmatter(content):
+    """Extract frontmatter from markdown content."""
+    frontmatter_match = re.match(r'^---\s+(.*?)\s+---\s*', content, re.DOTALL)
+    
+    if frontmatter_match:
+        frontmatter_text = frontmatter_match.group(1)
         try:
-            with open(input_path, 'r', encoding='utf-8') as f:
-                content = f.read()
-
-            yaml_front = re.match(r'^---\n.*?\n---\n', content, re.DOTALL)
-            body = content[len(yaml_front.group(0)):] if yaml_front else content
-
-            translatable = self.extract_translatable_text(body)
-            if not translatable:
-                shutil.copyfile(input_path, output_path)
-                self.skipped_files += 1
-                logging.debug(f"Skipped {input_path} - no translatable content")
-                return
-
-            translated = self.translate_text(translatable)
-            new_body = self.replace_translated_text(body, translated)
-
-            with open(output_path, 'w', encoding='utf-8') as f:
-                if yaml_front:
-                    f.write(yaml_front.group(0))
-                f.write(new_body)
-
-            self.translated_files += 1
-
+            # Use PyYAML to parse the frontmatter properly
+            frontmatter = yaml.safe_load(frontmatter_text)
+            if frontmatter is None:
+                frontmatter = {}
         except Exception as e:
-            logging.error(f"Error processing {input_path}: {str(e)}")
-            self.skipped_files += 1
-
-    def run(self):
-        if not os.path.exists(self.output_dir):
-            os.makedirs(self.output_dir)
-
-        for root, _, files in os.walk(self.input_dir):
-            for file in files:
-                if file.lower().endswith(('.md', '.markdown')):
-                    input_path = os.path.join(root, file)
-                    rel_path = os.path.relpath(input_path, self.input_dir)
-                    output_path = os.path.join(self.output_dir, rel_path)
-                    os.makedirs(os.path.dirname(output_path), exist_ok=True)
-                    self.process_markdown_file(input_path, output_path)
-
-        if self.text_log:
-            self.text_log.close()
-
-        logging.info(f"Processed {self.translated_files} files, skipped {self.skipped_files}")
-
-def main():
-    parser = argparse.ArgumentParser(description="Markdown translation tool")
-    parser.add_argument("--input-dir", required=True)
-    parser.add_argument("--output-dir", required=True)
-    parser.add_argument("--target-lang", required=True)
-    parser.add_argument("--deepl-api-key", default=os.getenv("DEEPL_API_KEY"))
+            logger.warning(f"Error parsing frontmatter: {str(e)}")
+            frontmatter = {}
+        
+        # Remove frontmatter from content
+        content = content[frontmatter_match.end():]
+    else:
+        frontmatter = {}
     
-    args = parser.parse_args()
+    return frontmatter, content
+
+def extract_wikilink_titles(line):
+    """Extract only the display titles from wikilinks in a line."""
+    titles = []
     
-    translator = MarkdownTranslator(
-        args.input_dir,
-        args.output_dir,
-        args.target_lang,
-        args.deepl_api_key
-    )
-    translator.run()
+    # First, remove all attributes to simplify parsing
+    clean_line = re.sub(r'{\s*\..*?\s*}', '', line)
+    
+    # Find all wikilinks with titles: [[link|title]]
+    for match in re.finditer(r'$$\[(.*?)\|(.*?)$$\]', clean_line):
+        titles.append(match.group(2).strip())
+    
+    # Find all regular wikilinks: [[link]]
+    for match in re.finditer(r'$$\[(.*?)$$\]', clean_line):
+        # Make sure this isn't part of a wikilink with title
+        full_match = match.group(0)
+        if '|' not in full_match:
+            titles.append(match.group(1).strip())
+    
+    return titles
+
+def process_line_for_translation(line):
+    """Process a line to extract translatable content."""
+    # Check if line is a heading
+    heading_match = re.match(r'^(#{1,6})\s+(.*)$', line)
+    if heading_match:
+        # For headings, extract the text part and process it
+        heading_text = heading_match.group(2)
+        # Extract wikilink titles from the heading text
+        wikilink_titles = extract_wikilink_titles(heading_text)
+        if wikilink_titles:
+            return wikilink_titles
+        else:
+            # If no wikilinks, return the heading text
+            return [heading_text.strip()]
+    
+    # Remove attributes first to simplify parsing
+    clean_line = re.sub(r'{\s*\..*?\s*}', '', line)
+    
+    # Extract wikilink titles from the line
+    wikilink_titles = extract_wikilink_titles(clean_line)
+    if wikilink_titles:
+        return wikilink_titles
+    
+    # If no wikilinks, return the line text (excluding non-translatable elements)
+    # Remove wikilinks, embeds, attributes, and HTML tags
+    clean_text = re.sub(r'$$\[.*?$$\]', '', clean_line)
+    clean_text = re.sub(r'!$$\[.*?$$\]', '', clean_text)
+    clean_text = re.sub(r'<.*?>', '', clean_text)
+    
+    # Clean up whitespace
+    clean_text = re.sub(r'\s+', ' ', clean_text).strip()
+    
+    if clean_text:
+        return [clean_text]
+    else:
+        return []
+
+def extract_translatable_text(content):
+    """Extract translatable text from markdown content."""
+    translatable_parts = []
+    
+    # Split content into lines
+    lines = content.split('\n')
+    in_code_block = False
+    
+    for line in lines:
+        # Check for code block markers
+        if line.strip().startswith('```'):
+            in_code_block = not in_code_block
+            continue
+        
+        # Skip code blocks and empty lines
+        if in_code_block or not line.strip():
+            continue
+        
+        # Process the line to extract translatable parts
+        parts = process_line_for_translation(line)
+        translatable_parts.extend(parts)
+    
+    return translatable_parts
+
+def process_markdown(content, file_path, target_lang):
+    """Process markdown content."""
+    try:
+        # Extract frontmatter
+        frontmatter, content_without_frontmatter = extract_frontmatter(content)
+        
+        # Extract translatable content
+        translatable_parts = extract_translatable_text(content_without_frontmatter)
+        
+        # Add processed frontmatter
+        processed_frontmatter = frontmatter.copy() if frontmatter else {}  # Create a copy to preserve structure
+        processed_frontmatter['lang'] = target_lang
+        processed_frontmatter['processed_date'] = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+        
+        # Handle empty values in frontmatter
+        for key, value in processed_frontmatter.items():
+            if value is None:
+                processed_frontmatter[key] = ''
+        
+        # Format frontmatter for output
+        frontmatter_str = '---\n'
+        frontmatter_yaml = yaml.dump(processed_frontmatter, default_flow_style=False, sort_keys=False)
+        # Remove quotes around the date
+        frontmatter_yaml = re.sub(r"'(\d{4}-\d{2}-\d{2} \d{2}:\d{2}:\d{2})'", r'\1', frontmatter_yaml)
+        frontmatter_str += frontmatter_yaml
+        frontmatter_str += '---\n\n'
+        
+        # Return processed content and translatable parts
+        return frontmatter_str + content_without_frontmatter, translatable_parts
+        
+    except Exception as e:
+        logger.error(f"Error processing markdown in {file_path}: {str(e)}")
+        raise
+
+def process_file(file_path, output_dir, target_lang, translation_log_file):
+    """Process a single markdown file."""
+    try:
+        with open(file_path, 'r', encoding='utf-8') as f:
+            content = f.read()
+        
+        processed_content, translatable_parts = process_markdown(content, file_path, target_lang)
+        
+        # Create output file path
+        rel_path = os.path.relpath(file_path, args.input_dir)
+        output_path = os.path.join(output_dir, rel_path)
+        
+        # Create directory if it doesn't exist
+        os.makedirs(os.path.dirname(output_path), exist_ok=True)
+        
+        # Write processed content to output file
+        with open(output_path, 'w', encoding='utf-8') as f:
+            f.write(processed_content)
+        
+        # Write translatable content to translation log
+        if translatable_parts and translation_log_file:
+            with open(translation_log_file, 'a', encoding='utf-8') as log:
+                log.write(f"\n\n--- File: {rel_path} ---\n\n")
+                for part in translatable_parts:
+                    log.write(f"{part}\n\n")
+        
+        return True
+    except Exception as e:
+        logger.error(f"General error processing {file_path}: {str(e)}")
+        return False
+
+def process_directory(input_dir, output_dir, target_lang, exclude_dirs):
+    """Process all markdown files in a directory."""
+    processed_count = 0
+    skipped_count = 0
+    
+    # Create translation log file
+    translation_log_file = os.path.join(output_dir, 'translation_log.txt')
+    
+    # Initialize translation log
+    with open(translation_log_file, 'w', encoding='utf-8') as log:
+        log.write(f"Translation Log - Target Language: {target_lang}\n")
+        log.write(f"Generated on: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
+        log.write("="*50 + "\n\n")
+    
+    for root, dirs, files in os.walk(input_dir):
+        # Skip excluded directories
+        dirs[:] = [d for d in dirs if d not in exclude_dirs]
+        
+        for file in files:
+            if file.endswith('.md'):
+                file_path = os.path.join(root, file)
+                
+                if args.verbose:
+                    logger.info(f"Processing {file_path}")
+                
+                success = process_file(file_path, output_dir, target_lang, translation_log_file)
+                
+                if success:
+                    processed_count += 1
+                else:
+                    skipped_count += 1
+    
+    logger.info(f"Processed {processed_count} files, skipped {skipped_count}")
+    logger.info(f"Translation log saved to {translation_log_file}")
 
 if __name__ == "__main__":
-    main()
+    args = setup_argparse()
+    
+    if args.verbose:
+        logger.setLevel(logging.DEBUG)
+    
+    process_directory(args.input_dir, args.output_dir, args.target_lang, args.exclude_dirs)

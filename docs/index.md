@@ -1,6 +1,6 @@
 ---
 created: 2025-01-21 18:09:55
-update: 2025-02-06 22:13:25
+update: 2025-03-10 23:01:08
 publish: true
 tags:
   - moc
@@ -10,11 +10,8 @@ authors:
   - Marc Bielert
 ---
 
-# Ein Wiki für Zirkus, Bewegung, Pädagogik, Sport und Kultur
+# Willkommen
+**Ein Wiki für Zirkus, Bewegung, Pädagogik, Sport und Kultur**
 
-[[Dokumentation Nica eV]]{ .md-button }
-[[Bewegungs-Spiele|Bewegungs-Spiele]]{ .md-button }
-[[mitmachen|mitmachen]]{ .md-button }
-[[Beigoma|Beigoma]]{ .md-button }
-[[Kaskade Workspace]]{ .md-button }
-[[Jonglage|Jonglage]]{ .md-button }
+[[Dokumentation Nica eV]] | [[Bewegungs-Spiele|Bewegungs-Spiele]] | [[mitmachen|mitmachen]] | [[Beigoma|Beigoma]] | [[Kaskade Workspace]] | [[Jonglage|Jonglage]]
+

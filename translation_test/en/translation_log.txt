@@ -1,0 +1,220 @@
+Translation Log - Target Language: EN
+Generated on: 2025-03-10 02:42:12
+==================================================
+
+
+
+--- File: 1,2,3.md ---
+
+1,2,3
+
+Spiel für jede Gruppengröße:
+
+Es werden Paare gebildet.
+
+**1. Runde:** Die Partner stellen sich gegenüber und zählen abwechselnd 1,2,3 (Max: 1, Linda: 2, Max: 3, Linda: 1, Max: 2 …).
+
+**2. Runde:** Anstatt die 1 zu sagen wird nun geklatscht (Max: klatscht, Linda: 2, Max: 3, Linda: klatscht, Max: 2 …)
+
+**3. Runde:** Anstelle der 2 wird nun auf der Stelle gesprungen (Max: klatscht, Linda: springt, Max: 3, Linda: klatscht, Max: springt, Linda:3 …)
+
+**4. Runde:** Anstelle der 3 wird sich einmal um die eigene Achse gedreht (Max: klatscht, Linda: springt, Max: dreht sich, Linda: klatscht …)
+
+Die Runden können anschließend wieder von hinten nach vorn abgebaut werden, bis man wieder bei dem anfänglichen Zählen angekommen ist.
+
+---
+
+Eine gute Grundübung für Zählrhytmen beim [[Jonglage|Jonglieren]] - siehe z.b. [[Gandini - Patterns from Hell]]
+
+
+
+--- File: 3 gewinnt.md ---
+
+**Gruppengröße**: Ab ca 4-6 Mitspieler
+
+**Schwierigkeit**: mittel
+
+**Material**: 9 Ringe, 6 farbige Gegenstände (Tuch, Teller etc.) davon jeweils 3 in der gleichen Farbe, Seil o.ä. als Startmarkierung
+
+**Spieldauer**: 5-20 Minuten
+
+**Quelle** : Facebook
+
+**Spielbeschreibung**:
+
+Die 9 Ringe werden zu einem Quadrat (3x3 Felder) zusammengelegt.
+
+Es macht sich gut diese zu verbinden so das sie nicht auseinanderrutschen können.
+
+Die Teilnehmer bilden 2 Gruppen und stellen sich jeweils in einer Reihe an der Startlinie auf.
+
+Der Abstand von Startlinie zu
+
+Jede Gruppe erhält 3 gleichfarbige Gegenstände.
+
+Wenn das Spiel startet rennen jeweils die ersten Kinder los und legen ihren Gegenstand in eines der 9 Felder. Dann rennen sie zurück und klatschen den nächsten ab, der erst dann losrennen darf.
+
+Sobald alle 3 Gegenstände einer Gruppe in den Feldern liegen, kann der nächste jeweils einen Gegenstand verschieben.
+
+Gewonnen hat die Gruppe deren Gegenstände zuerst 3 in einer Reihe oder diagonal liegen.
+
+Dann erhält diese Gruppe einen Punkt.
+
+Es ist gut mehrere Spieldurchläufe zu machen, da die einzelnen Spiele recht kurz sind. Zum Beispiel 5 Durchläufe und gewonnen hat die Gruppe die die meisten Punkte hat.
+
+Es empfiehlt sich 2-3 Testspiele zu machen und darauf aufmerksam zu machen das es nicht nur um Schnelligkeit, sondern auch um Taktik / Strategie geht.
+
+
+
+--- File: 5 Drachen und Zwerge.md ---
+
+Drachen und Zwerge
+
+Fangespiel für mittlere Gruppen:
+
+Die Gruppe bestimmt einen Drachen, der das Spiel über versucht, seinen Schatz zu beschützen (Kiste mit Tüchern).
+
+Die Anderen sind Zwerge. Sie stehen auf der anderen Seite des Raumes und wollen den Schatz des Drachen klauen. Sie können sich jedoch nur mit kleinen Tippelschritten fortbewegen. Jeder Zwerg darf, wenn er bei dem Schatz angekommen ist, nur ein Tuch aus der Kiste nehmen und in den "sicheren Zwergenbereich" zurück bringen. Der Drache kann sich verteidigen, indem er die Zwerge antippt und somit versteinert. Diese stellen sich mit gegrätschten Beinen hin und können von den anderen Zwergen wieder befreit werden, indem diese durch seine Beine krabbeln. Es dürfen nur die Zwerge die anderen befreien, die gerade kein Tuch in der Hand halten.
+
+Das Spiel ist gewonnen, wenn der gesamte Schatz auf der Seite der Zwergen ist.
+
+Variation: Der Drache kann einen "unsichtbaren" Helfer bekommen, der ebenfalls mit Tippelschritten hin- und herläuft und die geklauten Tücher wieder zu dem Drachen zurück bringt. Dabei darf er jedoch auch immer nur ein Tuch in die Hand nehmen.
+
+
+
+--- File: 5-Step Methode.md ---
+
+5-Step Methode
+
+Funktionaler Ansatz ![[5-Step.png#side_right|200]]
+
+1) **Konzepte vor Komponenten**
+
+[[Tisch bzw. Körperjonglage]]-Aktivitäten zur Entwicklung des Verständnisses und Erfahrung mit der Aufgabe. Hierzu kann auch die Nutzung des [[Juggleboard]]s oder ähnlicher Geräte zählen.
+
+2) **Sequenzierfähigkeit**
+
+[[Cow jumps over the moon]] Sequenz zur Entwicklung der bi-lateralen Sequenzierungskapazität, die für das Timing der 3-Ball-Kaskade erforderlich ist.
+
+Klassischer Ansatz ![[Classical 3-Step.png#side_left|200]]
+
+3) **Klassische Fortsetzung**
+
+Üben von Würfen mit einem, zwei, drei Bällen. Siehe auch klassische Modelle des Jonglierenlernens (lineares Lernen).
+
+---
+
+Der Hauptunterschied zum klassischen Modell ist also die Einführung zwei neuer Schritte. Das Nutzen von Geräten wie dem Juggleboard oder [[Tisch/Körperjonglage]] um das Konzept einfacher zu verstehen, sowie der klar definierten Übungsabfolge ("[[Cow jumps over the moon]]") von Craig.
+
+> *Meinung*: Ich finde es nicht revolutionär anders, es ist schlicht eine Erweiterung des klassischen Modelles
+
+---
+
+%%
+
+Prompts + Fragen
+
+Fakten
+
+**Eine einfache Definition von [[5-Step Methode]]:**
+
+5 Schritte zum jonglieren lernen für jeden
+
+**[[5-Step Methode]] ist ein Teil von...**
+
+Theorie of Functional Juggling
+
+**[[5-Step Methode]] besteht aus folgenden Teilen...**
+
+**[[5-Step Methode]] hat Ähnlichkeiten zu ... durch ...**
+
+[[Atomisieren von Bewegungen]] von IN.ZIRQUE
+
+es versucht Bewegungslernen zu analysieren, zu vereinfachen und zugänglicher zu machen
+
+**[[5-Step Methode]] unterscheidet sich zu ... durch ...**
+
+im Gegensatz zum [[Atomisieren von Bewegungen]] werden nicht bewegungen immer weiter heruntergebrochen / auseindandergenommen, stattdessen werden konzepte abgeändert..
+
+**[[5-Step Methode]] kann ... verursachen:**
+
+einen zugang zum jonglieren zu finden, für Personen denen es mit den klassischen Ansätzen nicht gelungen ist
+
+**[[5-Step Methode]] resultiert aus...**
+
+man kann es als ein resultat sehen, von der überlegung wie jonglieren inklusiver gestaltet werden kann.
+
+Es ist auch ein resultat von der konsequenten befolgung, [[methodische reihen]] zu konstruieren.
+
+**In welchen anderen Bereichen gilt [[5-Step Methode]]**
+
+the base idea, using help, breaking down stuff even more - applies to all fields of learning
+
+Metaphern, etc...
+
+**Was würde [[5-Step Methode]] ausrufen, wenn es könnte**
+
+i am inclusive
+
+**[[5-Step Methode]] ist ungefähr wie...**
+
+Stützräder, Schwimmhilfen haben zu lernen
+
+**[[5-Step Methode]] erinnert mich an...**
+
+[[Atomisieren von Bewegungen]] von IN.ZIRQUE
+
+aber anstatt
+
+Meinung und Erfahrung
+
+**Ich habe [[5-Step Methode]] erlebt als...**
+
+**[[5-Step Methode]] ist gut, weil...**
+
+**[[5-Step Methode]] ist schlecht, weil...**
+
+**[[5-Step Methode]] ist wichtig, weil...**
+
+it makes juggling more accessible, it focus on the aspect of breaking things down even more and apply helping mechanics
+
+its also important because: es werden nicht einfach die anzahl von objekten reduziert, im gegenteil - am anfang startet man mit 3, aber es werden andere Aspekte die Schwierigkeiten bereitet angepasst.
+
+**Eine Frage die ich an/über [[5-Step Methode]] habe...**
+
+kann man es so verallgemeinern das es nicht nur für "lernen der kaskade" stimmt, sondern acuh für andere dinge
+
+Organisatorisch
+
+**Welche Tags passen hierzu**
+
+da ich der meinung bin das functional-juggling nicht nur auf das jonglieren bezogen sein sollte, und somit in anderen, nicht zirkus bereichen auftaucht, sollte es eine eigenen tag bekommen zb
+
+"(#)Genre/Functional Juggling"
+
+**Welches MOC sollte hierher linken**
+
+its bereits zu [[Functional Juggling]] verlinkt
+
+**Wenn ich weiter an dieser Notiz arbeite sollte ich an folgendes denken**
+
+relation to atomic movements by in.zirque
+
+
+
+--- File: index.md ---
+
+Ein Wiki für Zirkus, Bewegung, Pädagogik, Sport und Kultur
+
+[[Dokumentation Nica eV]]
+
+[[Bewegungs-Spiele|Bewegungs-Spiele]]
+
+[[mitmachen|mitmachen]]
+
+[[Beigoma|Beigoma]]
+
+[[Kaskade Workspace]]
+
+[[Jonglage|Jonglage]]
+

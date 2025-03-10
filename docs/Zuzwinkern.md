@@ -3,14 +3,14 @@ publish: true
 tags:
   - spiele
 created: 2025-01-24 03:50:51
-update: 2025-01-25 01:31:59
+update: 2025-03-10 23:12:46
 title: Zuzwinkern
 description: 
 authors:
   - Marc Bielert
 ---
 
->[!info]
+>[!info] Kurzbeschreibung
 >In dem Spiel "Zuzwinkern" versucht ein Spieler durch Zuzwinkern einen Partner zu finden, während die anderen versuchen, diesen davon abzuhalten. Das Ziel ist es, möglichst lange nicht alleine im Kreis zu stehen.
 
 **Gruppengröße**: Ab 9 Mitspieler, möglichst eine ungerade Anzahl
