@@ -1,6 +1,6 @@
 ---
 created: 2025-01-21 18:09:55
-update: 2025-02-25 00:40:02
+update: 2025-03-11 00:02:21
 publish: true
 tags:
   - spiele
@@ -92,7 +92,7 @@ authors:
 | [[Krankenhaus]]                                                               | 2025-01-24 23:18:19 |
 | [[Kuhstall]]                                                                     | 2025-01-24 23:19:53 |
 | [[Laserschwert]]                                                             | 2025-01-24 23:20:29 |
-| [[Liste aller Spiele]]                                                 | 2025-02-25 00:40:02 |
+| [[Liste aller Spiele]]                                                 | 2025-03-11 00:02:21 |
 | [[Luftballon Hasche]]                                                   | 2025-01-24 23:21:58 |
 | [[Luftballon Spiel]]                                                     | 2025-01-24 23:22:42 |
 | [[Luftballons Balancieren]]                                       | 2025-01-24 23:23:24 |

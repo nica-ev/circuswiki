@@ -3,7 +3,7 @@ publish: true
 tags: 
 title: Obsidian Setup
 created: 2025-01-23 01:38:52
-update: 2025-01-24 03:24:50
+update: 2025-03-11 02:05:46
 authors:
   - Marc Bielert
 ---

@@ -83,6 +83,7 @@ nav:
     - Home: 'index.md'
     - NICA e.V.: 'Dokumentation Nica eV.md' 
     - Mitmachen: 'mitmachen.md'
+    - Release Notes: 'release notes.md'
   - NICA:
     - NICA e.V.: 'Dokumentation Nica eV.md' 
     - Buchhaltung: 'buchhaltung.md'
