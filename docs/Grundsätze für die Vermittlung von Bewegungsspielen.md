@@ -2,7 +2,7 @@
 publish: true
 tags: 
 created: 2025-01-25 18:59:24
-update: 2025-03-11 00:53:00
+update: 2025-03-11 02:29:22
 title: Grundsätze für die Vermittlung von Bewegungsspielen
 description: 
 authors:

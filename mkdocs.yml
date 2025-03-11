@@ -14,6 +14,8 @@ copyright: CC-BY-SA 4.0 <a href="#__consent">Change cookie settings</a>
 # Theme
 theme:
   name: material
+  favicon: img/nica-logo-simple-small-150x150.png
+  logo: img/nica-logo-simple-small-150x150.png
   palette: 
     # Palette toggle for light mode
     - scheme: primary
@@ -76,7 +78,6 @@ plugins:
         enabled: false
   - pub-obsidian
   - tags
-   #   tags_file: tags.md
 
 nav:
   - Home: 
