@@ -15,6 +15,10 @@
         <link rel="canonical" href="https://nica-ev.github.io/docs/release%20notes/">
       
       
+        <link rel="prev" href="../mitmachen/">
+      
+      
+        <link rel="next" href="../Dokumentation%20Nica%20eV/">
       
       
       <link rel="icon" href="../assets/images/favicon.png">
@@ -88,11 +92,6 @@
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
-      
-        
-        <a href="#v002" class="md-skip">
-          Skip to content
-        </a>
       
     </div>
     <div data-md-component="announce">
@@ -249,10 +248,12 @@
         
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
+      <li class="md-tabs__item md-tabs__item--active">
         <a href=".." class="md-tabs__link">
           
   
@@ -367,27 +368,31 @@
       
   
   
+    
   
   
+  
     
-    
-    
-      
-      
     
     
       
         
         
       
+      
     
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
         
-  
-  
-    <a href=".." class="md-nav__link">
-      
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_1" id="__nav_1_label" tabindex="">
+            
   
   <span class="md-ellipsis">
     Home
@@ -395,12 +400,114 @@
   </span>
   
 
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_1">
+            <span class="md-nav__icon md-icon"></span>
+            Home
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
   
 
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Dokumentation%20Nica%20eV/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    NICA e.V.
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mitmachen/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Mitmachen
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Release Notes
+    
+  </span>
+  
+
+      </a>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
       
     </li>
   
@@ -552,8 +659,6 @@
   
   
   
-    
-  
   
 </nav>
                   </div>
@@ -572,14 +677,14 @@
   
 
 
+  <h1>Release Notes</h1>
+
 <div class="admonition info">
 <p class="admonition-title">Info</p>
 <p>Diese Release Notes geben nur einen groben Überblick, kleine Änderungen (wie z.b. einzelne neue Seiten, Änderungen an bestehendem Content) werden nicht alle aufgeführt. Diese können aber in der Historie des Repositories genau nachvollzogen werden.</p>
 </div>
-<h1 id="v002">v0.02<a class="headerlink" href="#v002" title="Permanent link">&para;</a></h1>
-<p><strong>Release Datum</strong>: 26. Februar 2025</p>
 <details class="info">
-<summary>v0.02</summary>
+<summary><strong>Version:</strong> v0.02 - <strong>Release Datum</strong>: 26. Februar 2025</summary>
 <p>## Technical</p>
 <ul>
 <li>
@@ -596,11 +701,9 @@
 </li>
 </ul>
 </details>
-<h1 id="v001">v0.01<a class="headerlink" href="#v001" title="Permanent link">&para;</a></h1>
-<p><strong>Release Datum</strong> 15. Januar 2025</p>
-<details class="info" open="open">
-<summary>Release notes v0.01</summary>
-<p>## Content</p>
+<details class="info">
+<summary><strong>Version:</strong> v0.01 - <strong>Release Datum</strong> 15. Januar 2025</summary>
+<p><strong>Content</strong></p>
 <ul>
 <li>
 <p>150 Spielebeschreibungen hinzugefügt</p>
@@ -609,7 +712,7 @@
 <p>Grundbeschreibung der Dokumentation</p>
 </li>
 </ul>
-<p>## Technical</p>
+<p><strong>Technical</strong></p>
 <ul>
 <li>
 <p>Basis Setup für Mkdocs and Mkdocs-materials</p>
@@ -619,6 +722,39 @@
 </li>
 </ul>
 </details>
+<!--
+  ~ MIT License
+  ~
+  ~ Copyright (c) 2023-2025 Maciej 'maQ' Kusz <maciej.kusz@gmail.com>
+  ~
+  ~ Permission is hereby granted, free of charge, to any person obtaining a copy
+  ~ of this software and associated documentation files (the "Software"), to deal
+  ~ in the Software without restriction, including without limitation the rights
+  ~ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+  ~ copies of the Software, and to permit persons to whom the Software is
+  ~ furnished to do so, subject to the following conditions:
+  ~
+  ~ The above copyright notice and this permission notice shall be included in all
+  ~ copies or substantial portions of the Software.
+  ~
+  ~ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  ~ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  ~ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+  ~ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  ~ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+  ~ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+  ~ SOFTWARE.
+  -->
+
+<hr />
+<!--suppress HtmlUnknownAttribute -->
+<p class="obsidian_backlink_title">Backlinks:</p>
+<div class="obsidian_backlink">
+<details class="backlink">
+<summary>Home</summary>
+<p><p class="obsidian_backlink"><a href="https://nica-ev.github.io/docs/#5ecf75946500852f72551df95791e3a5">Release Notes</a></p><hr><p class="obsidian_backlink">| <a href="https://nica-ev.github.io/docs/#5ecf75946500852f72551df95791e3a5">release notes</a>                                                     | <ul><li>Marc Bielert</li></ul> | -                       | 2025-01-21 18:09:55 |</p></p>
+</details>
+</div>
 
 
 
