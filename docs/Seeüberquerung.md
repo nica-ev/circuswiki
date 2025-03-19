@@ -1,6 +1,6 @@
 ---
 created: 2025-01-21 18:09:55
-update: 2025-02-23 22:42:33
+update: 2025-03-17 01:57:33
 publish: true
 tags:
   - spiele
@@ -8,6 +8,8 @@ title: Seeüberquerung
 description: 
 authors:
   - Marc Bielert
+category:
+  - Kooperation
 ---
 
 Gruppen a 5 Teilnehmer

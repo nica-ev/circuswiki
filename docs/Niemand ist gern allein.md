@@ -3,11 +3,20 @@ publish: true
 tags:
   - spiele
 created: 2025-01-24 03:50:51
-update: 2025-01-25 00:48:54
+update: 2025-03-17 05:43:49
 title: Niemand ist gern allein
 description: 
 authors:
   - Marc Bielert
+category:
+  - kennenlernen
+source:
+  - Tasifan Spielebuch
+Schwierigkeit: einfach
+Material: keines
+Spieldauer: beliebig
+group-min: 8
+group-max: 99
 ---
 
 # Niemand ist gern allein

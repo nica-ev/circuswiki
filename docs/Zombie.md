@@ -3,11 +3,20 @@ publish: true
 tags:
   - spiele
 created: 2025-01-24 03:50:51
-update: 2025-01-25 01:28:56
+update: 2025-03-17 05:43:26
 title: Zombie
 description: 
 authors:
   - Marc Bielert
+category:
+  - kennenlernen
+Schwierigkeit: mittel
+Material: keines
+Spieldauer: 5-10
+source:
+  - Tasifan Spielebuch
+group-min: 6
+group-max: 18
 ---
 
 # Zombie

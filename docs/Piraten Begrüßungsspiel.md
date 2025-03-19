@@ -1,6 +1,6 @@
 ---
 created: 2025-03-11 00:14:29
-update: 2025-03-11 00:15:14
+update: 2025-03-17 02:29:27
 publish: true
 tags:
   - spiele
@@ -8,6 +8,8 @@ title: Piraten Begrüßungsspiel
 description: 
 authors:
   - Marc Bielert
+category:
+  - sonstiges
 ---
 
 # Piraten Begrüßungsspiel

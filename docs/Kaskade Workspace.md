@@ -1,9 +1,10 @@
 ---
 created: 2025-01-21 18:09:55
-update: 2025-02-09 20:56:36
+update: 2025-03-17 00:24:39
 publish: draft
 tags:
   - moc
+  - dynamic
 title: Transkripte des Kaskade Magazines
 description: 
 authors:
@@ -49,11 +50,11 @@ authors:
 
 <!-- QueryToSerialize: LIST FROM "docs" WHERE contains(file.tags, "kaskade") AND (type = "Magazin") -->
 <!-- SerializedQuery: LIST FROM "docs" WHERE contains(file.tags, "kaskade") AND (type = "Magazin") -->
-- [[Kaskade 003]]
-- [[Kaskade 002]]
 - [[Kaskade 001]]
-- [[Kaskade 005]]
+- [[Kaskade 002]]
+- [[Kaskade 003]]
 - [[Kaskade 004]]
+- [[Kaskade 005]]
 <!-- SerializedQuery END -->
 
 ---

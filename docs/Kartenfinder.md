@@ -1,6 +1,6 @@
 ---
 created: 2025-01-24 03:50:50
-update: 2025-01-25 02:19:28
+update: 2025-03-17 01:40:15
 publish: true
 tags:
   - spiele
@@ -8,6 +8,8 @@ title: Kartenfinder
 description: 
 authors:
   - Marc Bielert
+category:
+  - warm-up
 ---
 
 # Kartenfinder

@@ -3,11 +3,13 @@ publish: true
 tags:
   - spiele
 created: 2025-01-24 03:50:51
-update: 2025-01-25 01:27:30
+update: 2025-03-17 01:49:26
 title: " Zip Zap"
 description: 
 authors:
   - Marc Bielert
+category:
+  - cool-down
 ---
 
 #  Zip Zap

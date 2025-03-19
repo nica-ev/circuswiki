@@ -1,6 +1,6 @@
 ---
 created: 2025-01-21 18:09:55
-update: 2025-02-23 20:20:24
+update: 2025-03-17 01:28:50
 publish: true
 tags:
   - spiele
@@ -8,6 +8,8 @@ title: Pinguine und Eisbären
 description: 
 authors:
   - Marc Bielert
+category:
+  - fangen
 ---
 
 # Pinguine und Eisbären

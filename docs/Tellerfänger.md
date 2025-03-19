@@ -3,11 +3,14 @@ publish: true
 tags:
   - spiele
 created: 2025-02-01 02:26:31
-update: 2025-02-01 02:27:28
+update: 2025-03-17 01:39:59
 title: Tellerfänger
 description: 
 authors:
   - Marc Bielert
+category:
+  - fangen
+  - warm-up
 ---
 
 # Tellerfänger

@@ -3,26 +3,51 @@ publish: true
 tags:
   - spiele
 created: 2025-01-24 03:50:51
-update: 2025-01-25 01:59:37
+update: 2025-03-18 03:09:21
 title: Mittelalter Schnick Schnack Schnuck
 description: 
 authors:
   - Marc Bielert
+category:
+  - fangen
+Schwierigkeit: einfach
+Material: keines
+Spieldauer: 5 - 15
+source: unbekannt
+group-min: 6
+group-max: 20
+todo: text inklusion
 ---
 
 # Mittelalter Schnick Schnack Schnuck
 
-Fangespiel für kleinere bis mittlere Größen:
+> [!info] Kurzbeschreibung
+> "Mittelalter Schnick Schnack Schnuck" ist ein aktives Fangespiel für kleinere bis mittlere Gruppen, das das bekannte "Schere, Stein, Papier"-Prinzip mit Bewegung und Rollenspiel verbindet.
 
-3 Figuren: Drache, Ritter, Prinzessin
-- Drache frisst Prinzessin
-- Ritter tötet Drache
-- Prinzessin wickelt den Prinzen um den Finger
-Jede Figur besitzt eine bestimmte Pose und Geräusch (kann vorher überlegt werden).
+**Gruppengröße**: Klein bis mittel (in zwei gleich große Teams aufgeteilt)
+**Schwierigkeit**: Leicht
+**Material**: Keins
+**Spieldauer**: Ca. 5-15 Minuten
 
-2 Teams mit gleicher Personenanzahl stellen sich an den Raumseiten gegenüber.
-Jede Mannschaft überlegt sich gemeinsam eine Figur, dann treffen sich beide in der Mitte.
-Gleichzeitig wird gesagt: "Schnick Schnack Schnuck" und die Teams präsentieren sich ihre Figuren (zur selben Zeit).
-Die "Verlierer-Figur" muss so schnell wie möglich zu ihrer Raumseite zurück rennen, die "Gewinner-Figur" versucht die andere Mannschaft zu fangen.
-Die gefangenen Personen müssen nun zu der anderen Mannschaft wechseln.
+## **Spielbeschreibung**:
 
+Es gibt drei Figuren: Drache, Ritter, Prinzessin
+
+*   Drache frisst Prinzessin
+*   Ritter tötet Drache
+*   Prinzessin wickelt den Ritter um den Finger
+
+Jede Figur besitzt eine bestimmte Pose und ein Geräusch (die vorher überlegt werden können).
+
+Zwei Teams mit gleicher Personenanzahl stellen sich an den Raumseiten gegenüber.
+Jede Mannschaft überlegt sich gemeinsam eine Figur. Dann treffen sich beide Teams in der Mitte des Raumes.
+
+Gleichzeitig wird gesagt: "Schnick Schnack Schnuck", und die Teams präsentieren sich ihre Figuren (zur selben Zeit).
+
+Die Mannschaft mit der "Verlierer-Figur" muss so schnell wie möglich zu ihrer Raumseite zurückrennen. Die Mannschaft mit der "Gewinner-Figur" versucht, die andere Mannschaft zu fangen.
+
+Die gefangenen Personen müssen nun zur anderen Mannschaft wechseln.
+
+## **Quelle**:
+
+Unbekannt

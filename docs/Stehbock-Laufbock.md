@@ -3,11 +3,13 @@ publish: true
 tags:
   - spiele
 created: 2025-01-24 03:50:51
-update: 2025-01-25 01:10:31
+update: 2025-03-17 02:20:19
 title: Stehbock-Laufbock
 description: 
 authors:
   - Marc Bielert
+category:
+  - action
 ---
 
 # **Stehbock-Laufbock**

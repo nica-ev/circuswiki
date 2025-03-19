@@ -3,11 +3,13 @@ publish: true
 tags:
   - spiele
 created: 2025-01-24 03:50:51
-update: 2025-01-25 01:05:02
+update: 2025-03-17 02:15:16
 title: Schwesterchen hilf
 description: 
 authors:
   - Marc Bielert
+category:
+  - bewegung
 ---
 
 # **Schwesterchen hilf**

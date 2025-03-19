@@ -3,11 +3,13 @@ publish: true
 tags:
   - spiele
 created: 2025-01-24 03:50:51
-update: 2025-01-25 01:22:10
+update: 2025-03-17 02:15:01
 title: Vierfarbenfangen
 description: 
 authors:
   - Marc Bielert
+category:
+  - bewegung
 ---
 
 # Vierfarbenfangen

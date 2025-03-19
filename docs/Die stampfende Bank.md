@@ -3,11 +3,13 @@ publish: true
 tags:
   - spiele
 created: 2025-01-24 03:50:50
-update: 2025-01-24 04:59:45
+update: 2025-03-17 02:22:11
 title: Die stampfende Bank
 description: 
 authors:
   - Marc Bielert
+category:
+  - action
 ---
 
 # Die stampfende Bank

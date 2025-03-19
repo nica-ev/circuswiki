@@ -1,6 +1,6 @@
 ---
 created: 2025-01-21 18:09:55
-update: 2025-02-23 22:41:08
+update: 2025-03-17 01:57:24
 publish: true
 tags:
   - spiele
@@ -8,6 +8,8 @@ title: Neun Menschen – 8 Beine - 4 Hände
 description: 
 authors:
   - Marc Bielert
+category:
+  - Kooperation
 ---
 
 # Neun Menschen – 8 Beine - 4 Hände

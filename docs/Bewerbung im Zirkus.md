@@ -1,13 +1,16 @@
 ---
+created: 2025-01-24 03:50:50
+update: 2025-03-17 02:06:13
 publish: true
 tags:
   - spiele
+category:
+  - cool-down
+  - kreisspiel
 title: Bewerbung im Zirkus
 description: 
 authors:
   - Marc Bielert
-created: 2025-01-24 03:50:50
-update: 2025-01-25 02:00:00
 ---
 
 # Bewerbung im Zirkus

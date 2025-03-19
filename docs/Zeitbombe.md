@@ -3,11 +3,13 @@ publish: true
 tags:
   - spiele
 created: 2025-01-24 03:50:51
-update: 2025-01-25 01:26:14
+update: 2025-03-17 02:14:36
 title: Zeitbombe
 description: 
 authors:
   - Marc Bielert
+category:
+  - bewegung
 ---
 
 # Zeitbombe

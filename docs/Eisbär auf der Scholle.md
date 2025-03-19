@@ -3,11 +3,13 @@ publish: true
 tags:
   - spiele
 created: 2025-02-01 02:29:50
-update: 2025-02-01 02:30:43
+update: 2025-03-17 01:40:40
 title: Eisbär auf der Scholle
 description: 
 authors:
   - Marc Bielert
+category:
+  - warm-up
 ---
 
 # Eisbär auf der Scholle

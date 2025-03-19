@@ -3,14 +3,24 @@ publish: true
 tags:
   - spiele
 created: 2025-01-24 03:50:51
-update: 2025-01-25 01:30:53
+update: 2025-03-18 01:03:08
 title: Zombieball
 description: 
 authors:
   - Marc Bielert
+category:
+  - bewegung
+Schwierigkeit: mittel
+Material: Bälle
+Spieldauer: "10"
+group-min: 5
+group-max: 30
+source: Tasifan Spielebuch
+todo: Text überarbeiten
 ---
 
-# **Zombieball**
+>[!info] Kurzbeschreibung 
+>"Zombieball" ist ein Abwurfspiel, bei dem Spieler sich gegenseitig mit einem Ball abwerfen. Abgeworfene Spieler können wieder ins Spiel zurückkehren, indem der Spieler, der sie abgeworfen hat, selbst abgeworfen wird.
 
 **Gruppengröße**: Ab 5 Mitspieler
 **Schwierigkeit**: mittel

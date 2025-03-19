@@ -3,11 +3,14 @@ publish: true
 tags:
   - spiele
 created: 2025-02-01 02:21:45
-update: 2025-02-01 02:22:40
+update: 2025-03-17 01:37:49
 title: Schwänzchen-Hasche
 description: 
 authors:
   - Marc Bielert
+category:
+  - fangen
+  - warm-up
 ---
 
 # Schwänzchen-Hasche

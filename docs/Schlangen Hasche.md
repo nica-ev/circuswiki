@@ -3,11 +3,21 @@ publish: true
 tags:
   - spiele
 created: 2025-01-24 03:50:51
-update: 2025-01-25 00:59:23
+update: 2025-03-17 05:39:47
 title: Schlangen Hasche
 description: 
 authors:
   - Marc Bielert
+category:
+  - fangen
+  - warm-up
+Schwierigkeit: einfach
+Material: keines
+Spieldauer: 5-10
+source:
+  - unbekannt
+group-min: "6"
+group-max: "99"
 ---
 
 #  Schlangen Hasche

@@ -3,11 +3,13 @@ publish: true
 tags:
   - spiele
 created: 2025-01-24 03:50:50
-update: 2025-01-24 05:26:43
+update: 2025-03-17 02:15:56
 title: Katz und Maus
 description: 
 authors:
   - Marc Bielert
+category:
+  - bewegung
 ---
 
 # Katz und Maus

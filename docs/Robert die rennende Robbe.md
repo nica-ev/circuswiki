@@ -3,11 +3,20 @@ publish: true
 tags:
   - spiele
 created: 2025-01-24 03:50:51
-update: 2025-01-25 00:56:42
+update: 2025-03-17 05:43:02
 title: Robert die rennende Robbe
 description: 
 authors:
   - Marc Bielert
+category:
+  - kennenlernen
+Schwierigkeit: einfach
+Material: keines
+Spieldauer: 3 - 10
+source:
+  - Tasifan Spielebuch
+group-min: 4
+group-max: 12
 ---
 
 # Robert die rennende Robbe

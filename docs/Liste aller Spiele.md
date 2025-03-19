@@ -1,6 +1,6 @@
 ---
 created: 2025-01-21 18:09:55
-update: 2025-03-11 00:02:21
+update: 2025-03-18 00:31:44
 publish: true
 tags:
   - spiele
@@ -11,163 +11,179 @@ authors:
   - Marc Bielert
 ---
 
-<!-- QueryToSerialize: TABLE update FROM "docs" WHERE contains(file.tags, "spiele") AND !contains(file.tags, "beigoma") AND !contains(file.tags, "moc") -->
-<!-- SerializedQuery: TABLE update FROM "docs" WHERE contains(file.tags, "spiele") AND !contains(file.tags, "beigoma") AND !contains(file.tags, "moc") -->
+<!-- QueryToSerialize: TABLE group-min, group-max, Schwierigkeit, Material, Spieldauer, category FROM "docs" WHERE contains(file.tags, "spiele") AND !contains(file.tags, "beigoma") AND !contains(file.tags, "moc") -->
+<!-- SerializedQuery: TABLE group-min, group-max, Schwierigkeit, Material, Spieldauer, category FROM "docs" WHERE contains(file.tags, "spiele") AND !contains(file.tags, "beigoma") AND !contains(file.tags, "moc") -->
 
-| File                                                                                               | update              |
-| -------------------------------------------------------------------------------------------------- | ------------------- |
-| [[docs/1,2,3.md\|1,2,3]]                                                                           | 2025-01-25 01:33:54 |
-| [[docs/3 gewinnt.md\|3 gewinnt]]                                                                   | 2025-01-24 04:07:12 |
-| [[docs/5 Drachen und Zwerge.md\|5 Drachen und Zwerge]]                                             | 2025-01-24 04:08:44 |
-| [[Adler Hase Kohlkopf]]                                               | 2025-01-24 04:10:14 |
-| [[Alaska Baseball]]                                                       | 2025-01-24 04:11:04 |
-| [[Alle_gegen_einen]]                                                     | 2025-01-24 04:12:15 |
-| [[Ass Zwei Drei - Kartenfangen]]                             | 2025-01-24 04:13:20 |
-| [[Aufgaben Spiel]]                                                         | 2025-01-24 04:14:12 |
-| [[Avatar]]                                                                         | 2025-01-24 04:15:24 |
-| [[Ball werfen im Stern]]                                             | 2025-01-24 04:16:31 |
-| [[Bewerbung im Zirkus]]                                               | 2025-01-25 02:00:00 |
-| [[Bibbel Di Babbel Di Buh]]                                       | 2025-01-24 04:24:47 |
-| [[Bille Bille Bob]]                                                       | 2025-01-24 04:25:50 |
-| [[Bombe]]                                                                           | 2025-01-24 04:27:43 |
-| [[Bombenspiel]]                                                               | 2025-01-24 04:28:38 |
-| [[Bücherbalance]]                                                           | 2025-02-23 20:15:06 |
-| [[Crossed Hands]]                                                           | 2025-01-24 04:30:13 |
-| [[Das Ja Spiel]]                                                             | 2025-01-24 04:45:29 |
-| [[Der Hund im großen Haus]]                                       | 2025-02-01 02:24:28 |
-| [[Der heikle Wassertransport]]                                 | 2025-01-24 04:46:26 |
-| [[Der Photograph]]                                                         | 2025-01-24 04:47:24 |
-| [[Der Zirkus ist in der Stadt]]                               | 2025-01-24 04:48:29 |
-| [[Der Zirkus kommt in die Stadt]]                           | 2025-01-24 04:49:55 |
-| [[Die Bombe]]                                                                   | 2025-01-24 04:51:00 |
-| [[Die Geschichte der Banane]]                                   | 2025-01-24 04:52:03 |
-| [[Die Hürde]]                                                                   | 2025-02-25 00:20:52 |
-| [[Die Quadratur des Kreises]]                                   | 2025-01-24 04:53:10 |
-| [[Die Schlange häuten]]                                               | 2025-02-23 22:45:45 |
-| [[Die stampfende Bank]]                                               | 2025-01-24 04:59:45 |
-| [[Ding Dang Dong]]                                                         | 2025-01-24 05:00:53 |
-| [[Dreiländerkampf]]                                                       | 2025-02-01 02:25:56 |
-| [[Eisbär auf der Scholle]]                                         | 2025-02-01 02:30:43 |
-| [[Eiskönigin - Riese und Zwerge]]                           | 2025-02-23 21:59:45 |
-| [[Energie Klatschkreis]]                                             | 2025-01-24 05:01:45 |
-| [[Fan Schnick-Schnack-Schnuck]]                               | 2025-01-24 05:03:13 |
-| [[Evolution]]                                                                   | 2025-01-24 05:02:26 |
-| [[Farbenhasche]]                                                             | 2025-01-24 05:07:53 |
-| [[Festnageln]]                                                                 | 2025-01-24 05:08:46 |
-| [[Feuer Wasser Sand]]                                                   | 2025-01-24 05:09:40 |
-| [[Figurenfangen]]                                                           | 2025-01-24 05:10:34 |
-| [[Finger-Fechten]]                                                         | 2025-01-24 05:11:26 |
-| [[Fliegender Teppich]]                                                 | 2025-01-24 05:12:15 |
-| [[Freund und Feind]]                                                     | 2025-01-24 05:13:58 |
-| [[Frutti del Mare - Aufwärmspiel]]                         | 2025-02-24 04:50:23 |
-| [[Fuchs und Hase]]                                                         | 2025-01-24 05:15:05 |
-| [[Fuchsjagd]]                                                                   | 2025-01-24 05:15:59 |
-| [[Füßenageln]]                                                                 | 2025-01-25 01:57:53 |
-| [[Gemeinsamkeit und Unterschied]]                           | 2025-01-24 05:16:53 |
-| [[Gleich und gleich]]                                                   | 2025-02-23 20:25:49 |
-| [[Goldener Hirsch]]                                                       | 2025-01-25 02:00:19 |
-| [[Gute Seiten]]                                                               | 2025-02-23 20:25:54 |
-| [[Guten Tag Herr Nachbar]]                                         | 2025-01-24 05:19:57 |
-| [[Haifisch]]                                                                     | 2025-01-24 05:20:55 |
-| [[Hallo ich bin - mit Bällen]]                                 | 2025-02-23 21:49:01 |
-| [[Hallo ich bin]]                                                           | 2025-01-24 05:21:48 |
-| [[Human Memory]]                                                             | 2025-01-24 05:23:32 |
-| [[Hände spüren]]                                                             | 2025-02-23 20:17:00 |
-| [[Ich fahre Zug]]                                                           | 2025-01-24 05:24:06 |
-| [[Ich habe Glück]]                                                         | 2025-02-23 20:23:23 |
-| [[Jeder fängt Jeden]]                                                   | 2025-02-23 20:08:07 |
-| [[Kartenfinder]]                                                             | 2025-01-25 02:19:28 |
-| [[Kartoffel Kartoffel]]                                               | 2025-01-24 05:25:23 |
-| [[Kataflasch]]                                                                 | 2025-01-24 05:26:02 |
-| [[Katz und Maus]]                                                           | 2025-01-24 05:26:43 |
-| [[Kennenlernen mit Bällen]]                                       | 2025-02-23 22:44:07 |
-| [[Killerfunkwagen]]                                                       | 2025-01-24 05:27:25 |
-| [[Kissenrennen]]                                                             | 2025-01-24 05:28:00 |
-| [[Klammern haschen]]                                                     | 2025-01-24 23:12:06 |
-| [[Klatsch mit Augenkontakt]]                                     | 2025-01-24 23:12:53 |
-| [[Klatsch Theater]]                                                       | 2025-01-24 23:13:32 |
-| [[Komm mit, lauf weg]]                                                 | 2025-01-24 23:15:23 |
-| [[Kommando Pimperle]]                                                   | 2025-01-24 23:16:59 |
-| [[Kommando]]                                                                     | 2025-01-24 23:16:10 |
-| [[Krankenhaus]]                                                               | 2025-01-24 23:18:19 |
-| [[Kuhstall]]                                                                     | 2025-01-24 23:19:53 |
-| [[Laserschwert]]                                                             | 2025-01-24 23:20:29 |
-| [[Liste aller Spiele]]                                                 | 2025-03-11 00:02:21 |
-| [[Luftballon Hasche]]                                                   | 2025-01-24 23:21:58 |
-| [[Luftballon Spiel]]                                                     | 2025-01-24 23:22:42 |
-| [[Luftballons Balancieren]]                                       | 2025-01-24 23:23:24 |
-| [[Massagespiel - Bauer und Kartoffelfeld]]         | 2025-01-24 23:24:22 |
-| [[Massaker]]                                                                     | 2025-01-24 23:24:57 |
-| [[Materialklau]]                                                             | 2025-01-24 23:25:37 |
-| [[Medusa]]                                                                         | 2025-01-24 23:26:19 |
-| [[Mensch ärgere dich nicht]]                                     | 2025-02-23 20:17:16 |
-| [[Menschenhalma]]                                                           | 2025-01-24 23:26:49 |
-| [[Menschenziehen]]                                                         | 2025-01-25 00:44:07 |
-| [[Merkmale der Bewegungsspiele]]                             | 2025-01-25 00:45:33 |
-| [[Mittelalter Schnick Schnack Schnuck]]               | 2025-01-25 01:59:37 |
-| [[Möhre Hase Fuchs]]                                                     | 2025-01-25 01:44:35 |
-| [[Namenkampf]]                                                                 | 2025-01-25 00:48:08 |
-| [[Nadelöhr]]                                                                     | 2025-02-23 21:55:03 |
-| [[Niemand ist gern allein]]                                       | 2025-01-25 00:48:54 |
-| [[Neun Menschen – 8 Beine - 4 Hände]]                   | 2025-02-23 22:41:08 |
-| [[Paar haschen & Kettenhaschen]]                             | 2025-01-25 00:49:30 |
-| [[Peng!]]                                                                           | 2025-01-25 00:51:00 |
-| [[Peng, Peng, Knall - Wir fliegen in das All]] | 2025-01-25 00:50:16 |
-| [[Pinguine und Killer-Flamingos]]                           | 2025-01-25 00:51:36 |
-| [[Pinguine und Eisbären]]                                           | 2025-02-23 20:20:24 |
-| [[Pitbull]]                                                                       | 2025-01-25 00:52:14 |
-| [[Platztausch durch Augenkontakt]]                         | 2025-01-25 00:53:03 |
-| [[Popcorn]]                                                                       | 2025-01-25 00:53:43 |
-| [[Raumstation]]                                                               | 2025-01-25 00:54:24 |
-| [[Reifen durchgeben im Kreis]]                                 | 2025-01-25 00:55:21 |
-| [[Ritter und Zwerge]]                                                   | 2025-01-25 00:56:05 |
-| [[Robbe und Eisbären]]                                                 | 2025-02-23 20:24:44 |
-| [[Robert die rennende Robbe]]                                   | 2025-01-25 00:56:42 |
-| [[Roboter]]                                                                       | 2025-01-25 00:57:20 |
-| [[Schach]]                                                                         | 2025-01-25 00:58:03 |
-| [[Schafe reißen]]                                                           | 2025-01-25 01:48:05 |
-| [[Schattenlauf]]                                                             | 2025-01-25 00:58:42 |
-| [[Schlangen Hasche]]                                                     | 2025-01-25 00:59:23 |
-| [[Schnell schnell - an Ort und Stell]]                 | 2025-01-25 01:00:12 |
-| [[Schnick_Schnack_Schnuck]]                                       | 2025-02-24 04:51:50 |
-| [[Schoko Schoko La La]]                                               | 2025-01-25 01:04:19 |
-| [[Schwesterchen hilf]]                                                 | 2025-01-25 01:05:02 |
-| [[Schwänzchen-Hasche]]                                                 | 2025-02-01 02:22:40 |
-| [[Schüttelspiel]]                                                           | 2025-02-01 02:29:05 |
-| [[Seeüberquerung]]                                                         | 2025-02-23 22:42:33 |
-| [[Sich gegenseitig vorstellen]]                               | 2025-01-25 01:06:00 |
-| [[Slalom in Reihe]]                                                       | 2025-01-25 01:06:35 |
-| [[Sortieren in der Gruppe]]                                       | 2025-01-25 01:07:17 |
-| [[Speed Dating]]                                                             | 2025-01-25 01:07:57 |
-| [[Spinnennetz]]                                                               | 2025-01-25 01:09:58 |
-| [[Stehbock-Laufbock]]                                                   | 2025-01-25 01:10:31 |
-| [[Stierkampf - Tatonga]]                                             | 2025-01-25 01:11:07 |
-| [[Suchkind]]                                                                     | 2025-02-23 20:26:05 |
-| [[T-Shirt in der Hose]]                                               | 2025-01-25 01:12:22 |
-| [[Team Schnick-Schnack-Schnuck]]                             | 2025-01-25 01:16:39 |
-| [[Tellerfänger]]                                                             | 2025-02-01 02:27:28 |
-| [[Totblicken]]                                                                 | 2025-01-25 01:17:19 |
-| [[Tratschen in Anwesenheit]]                                     | 2025-01-25 01:18:16 |
-| [[Ultimate Ninja]]                                                         | 2025-01-25 01:18:54 |
-| [[Vampir]]                                                                         | 2025-01-25 01:19:43 |
-| [[Variationen des Themas]]                                         | 2025-01-25 01:20:40 |
-| [[Verheiratet, Geschieden]]                                       | 2025-01-25 01:21:32 |
-| [[Virus]]                                                                           | 2025-01-25 01:22:54 |
-| [[Vierfarbenfangen]]                                                     | 2025-01-25 01:22:10 |
-| [[Was tust Du da]]                                                         | 2025-01-25 01:24:26 |
-| [[Vorstellungsrunde - Werdegang - Symbolisch]] | 2025-01-25 01:23:44 |
-| [[Wenn ich König wär]]                                                 | 2025-02-25 15:21:39 |
-| [[Whiskeymixer]]                                                             | 2025-01-25 02:18:30 |
-| [[Zah]]                                                                               | 2025-01-25 01:35:06 |
-| [[Zeitbombe]]                                                                   | 2025-01-25 01:26:14 |
-| [[Zeithasche]]                                                                 | 2025-01-25 01:26:49 |
-| [[Zip Zap]]                                                                       | 2025-01-25 01:27:30 |
-| [[Zirkusfangen]]                                                             | 2025-01-25 01:28:20 |
-| [[Zombie - Hasche]]                                                       | 2025-01-25 01:29:41 |
-| [[Zombie Hasche mit Namen]]                                       | 2025-01-25 01:30:23 |
-| [[Zombie]]                                                                         | 2025-01-25 01:28:56 |
-| [[Zombieball]]                                                                 | 2025-01-25 01:30:53 |
-| [[Zuzwinkern]]                                                                 | 2025-03-10 23:12:46 |
-| [[Zungenmörder]]                                                             | 2025-02-23 20:11:47 |
+| File                                                                                               | group-min | group-max | Schwierigkeit    | Material   | Spieldauer | category                                                  |
+| -------------------------------------------------------------------------------------------------- | --------- | --------- | ---------------- | ---------- | ---------- | --------------------------------------------------------- |
+| [[docs/1,2,3.md\|1,2,3]]                                                                           | \-        | \-        | \-               | \-         | \-         | <ul><li>sonstiges</li></ul>                               |
+| [[docs/3 gewinnt.md\|3 gewinnt]]                                                                   | \-        | \-        | \-               | \-         | \-         | <ul><li>bewegung</li></ul>                                |
+| [[docs/5 Drachen und Zwerge.md\|5 Drachen und Zwerge]]                                             | \-        | \-        | \-               | \-         | \-         | <ul><li>fangen</li></ul>                                  |
+| [[Adler Hase Kohlkopf]]                                               | \-        | \-        | \-               | \-         | \-         | <ul><li>bewegung</li></ul>                                |
+| [[Alaska Baseball]]                                                       | 30        | 100       | einfach          | keines     | 5          | <ul><li>warm-up</li></ul>                                 |
+| [[Ass Zwei Drei - Kartenfangen]]                             | \-        | \-        | \-               | \-         | \-         | <ul><li>Taktik</li></ul>                                  |
+| [[Aufgaben Spiel]]                                                         | \-        | \-        | \-               | \-         | \-         | <ul><li>sonstiges</li></ul>                               |
+| [[Aufmerksamkeits-Spiel mit Bällen]]                     | \-        | \-        | \-               | \-         | \-         | <ul><li>sonstiges</li></ul>                               |
+| [[Alle_gegen_einen]]                                                     | \-        | \-        | \-               | \-         | \-         | <ul><li>Kooperation</li></ul>                             |
+| [[Avatar]]                                                                         | \-        | \-        | \-               | \-         | \-         | <ul><li>sonstiges</li></ul>                               |
+| [[Beschütze deinen Freund]]                                       | \-        | \-        | \-               | \-         | \-         | <ul><li>action</li><li>kreisspiel</li></ul>               |
+| [[Bibbel Di Babbel Di Buh]]                                       | \-        | \-        | \-               | \-         | \-         | <ul><li>kreisspiel</li></ul>                              |
+| [[Bewerbung im Zirkus]]                                               | \-        | \-        | \-               | \-         | \-         | <ul><li>cool-down</li><li>kreisspiel</li></ul>            |
+| [[Ball werfen im Stern]]                                             | \-        | \-        | \-               | \-         | \-         | <ul><li>kreisspiel</li></ul>                              |
+| [[Bille Bille Bob]]                                                       | \-        | \-        | \-               | \-         | \-         | <ul><li>action</li></ul>                                  |
+| [[Bombenspiel]]                                                               | \-        | \-        | \-               | \-         | \-         | <ul><li>fangen</li></ul>                                  |
+| [[Bücherbalance]]                                                           | \-        | \-        | \-               | \-         | \-         | <ul><li>cool-down</li></ul>                               |
+| [[Bällewirrwarr]]                                                           | 5         | 15        | einfach - schwer | Bälle      | 10         | <ul><li>kennenlernen</li></ul>                            |
+| [[Bombe]]                                                                           | \-        | \-        | \-               | \-         | \-         | <ul><li>action</li><li>kreisspiel</li></ul>               |
+| [[Das Ja Spiel]]                                                             | \-        | \-        | \-               | \-         | \-         | <ul><li>sonstiges</li></ul>                               |
+| [[Crossed Hands]]                                                           | \-        | \-        | \-               | \-         | \-         | <ul><li>kreisspiel</li></ul>                              |
+| [[Der Photograph]]                                                         | \-        | \-        | \-               | \-         | \-         | <ul><li>sonstiges</li></ul>                               |
+| [[Der Zirkus ist in der Stadt]]                               | \-        | \-        | \-               | \-         | \-         | <ul><li>sonstiges</li></ul>                               |
+| [[Der Zirkus kommt in die Stadt]]                           | \-        | \-        | \-               | \-         | \-         | <ul><li>sonstiges</li></ul>                               |
+| [[Der heikle Wassertransport]]                                 | \-        | \-        | \-               | \-         | \-         | <ul><li>Kooperation</li></ul>                             |
+| [[Der Hund im großen Haus]]                                       | \-        | \-        | \-               | \-         | \-         | <ul><li>warm-up</li></ul>                                 |
+| [[Die Bombe]]                                                                   | \-        | \-        | \-               | \-         | \-         | <ul><li>kreisspiel</li></ul>                              |
+| [[Die Geschichte der Banane]]                                   | \-        | \-        | \-               | \-         | \-         | <ul><li>call-response</li></ul>                           |
+| [[Die Hürde]]                                                                   | \-        | \-        | \-               | \-         | \-         | <ul><li>Kooperation</li></ul>                             |
+| [[Die Schlange häuten]]                                               | \-        | \-        | \-               | \-         | \-         | <ul><li>kreisspiel</li></ul>                              |
+| [[Die Quadratur des Kreises]]                                   | \-        | \-        | \-               | \-         | \-         | <ul><li>Kooperation</li></ul>                             |
+| [[Die stampfende Bank]]                                               | \-        | \-        | \-               | \-         | \-         | <ul><li>action</li></ul>                                  |
+| [[Ding Dang Dong]]                                                         | \-        | \-        | \-               | \-         | \-         | <ul><li>klatschspiel</li></ul>                            |
+| [[Dreiländerkampf]]                                                       | \-        | \-        | \-               | \-         | \-         | <ul><li>warm-up</li></ul>                                 |
+| [[Eisbär auf der Scholle]]                                         | \-        | \-        | \-               | \-         | \-         | <ul><li>warm-up</li></ul>                                 |
+| [[Eiskönigin - Riese und Zwerge]]                           | \-        | \-        | \-               | \-         | \-         | <ul><li>Kooperation</li></ul>                             |
+| [[Drunter und Drüber]]                                                 | \-        | \-        | \-               | \-         | \-         | <ul><li>kreisspiel</li></ul>                              |
+| [[Evolution]]                                                                   | \-        | \-        | \-               | \-         | \-         | <ul><li>sonstiges</li></ul>                               |
+| [[Fan Schnick-Schnack-Schnuck]]                               | \-        | \-        | \-               | \-         | \-         | <ul><li>sonstiges</li></ul>                               |
+| [[Farbenhasche]]                                                             | \-        | \-        | \-               | \-         | \-         | <ul><li>fangen</li></ul>                                  |
+| [[Festnageln]]                                                                 | \-        | \-        | \-               | \-         | \-         | <ul><li>fangen</li><li>warm-up</li></ul>                  |
+| [[Feuer Wasser Sand]]                                                   | \-        | \-        | \-               | \-         | \-         | <ul><li>warm-up</li><li>bewegung</li></ul>                |
+| [[Finger-Fechten]]                                                         | \-        | \-        | \-               | \-         | \-         | <ul><li>sonstiges</li></ul>                               |
+| [[Figurenfangen]]                                                           | \-        | \-        | \-               | \-         | \-         | <ul><li>bewegung</li></ul>                                |
+| [[Fliegender Teppich]]                                                 | \-        | \-        | \-               | \-         | \-         | <ul><li>Kooperation</li></ul>                             |
+| [[Energie Klatschkreis]]                                             | \-        | \-        | \-               | \-         | \-         | <ul><li>kreisspiel</li></ul>                              |
+| [[Freund und Feind]]                                                     | \-        | \-        | \-               | \-         | \-         | <ul><li>sonstiges</li></ul>                               |
+| [[Fuchs und Hase]]                                                         | \-        | \-        | \-               | \-         | \-         | <ul><li>fangen</li><li>warm-up</li></ul>                  |
+| [[Fuchsjagd]]                                                                   | \-        | \-        | \-               | \-         | \-         | <ul><li>fangen</li></ul>                                  |
+| [[Frutti del Mare - Aufwärmspiel]]                         | \-        | \-        | \-               | \-         | \-         | <ul><li>warm-up</li></ul>                                 |
+| [[Füßenageln]]                                                                 | \-        | \-        | \-               | \-         | \-         | <ul><li>bewegung</li></ul>                                |
+| [[Gemeinsamkeit und Unterschied]]                           | \-        | \-        | \-               | \-         | \-         | <ul><li>inklusion</li></ul>                               |
+| [[Goldener Hirsch]]                                                       | 10        | 99        | einfach          | keines     | 5 - 15     | <ul><li>fangen</li></ul>                                  |
+| [[Groß gegen Klein]]                                                     | \-        | \-        | \-               | \-         | \-         | <ul><li>sonstiges</li></ul>                               |
+| [[Guten Tag Herr Nachbar]]                                         | \-        | \-        | \-               | \-         | \-         | <ul><li>sonstiges</li></ul>                               |
+| [[Haifisch]]                                                                     | \-        | \-        | \-               | \-         | \-         | <ul><li>bewegung</li></ul>                                |
+| [[Gleich und gleich]]                                                   | \-        | \-        | \-               | \-         | \-         | <ul><li>sonstiges</li></ul>                               |
+| [[Hallo ich bin - mit Bällen]]                                 | \-        | \-        | \-               | \-         | \-         | <ul><li>kennenlernen</li><li>kreisspiel</li></ul>         |
+| [[Gute Seiten]]                                                               | \-        | \-        | \-               | \-         | \-         | <ul><li>kennenlernen</li></ul>                            |
+| [[Hallo ich bin]]                                                           | \-        | \-        | \-               | \-         | \-         | <ul><li>kennenlernen</li><li>kreisspiel</li></ul>         |
+| [[Hände abklatschen]]                                                   | \-        | \-        | \-               | \-         | \-         | <ul><li>action</li></ul>                                  |
+| [[Human Memory]]                                                             | \-        | \-        | \-               | \-         | \-         | <ul><li>sonstiges</li></ul>                               |
+| [[Ich habe Glück]]                                                         | \-        | \-        | \-               | \-         | \-         | <ul><li>fangen</li></ul>                                  |
+| [[Ich fahre Zug]]                                                           | 10        | 30        | mittel           | Stühle     | beliebig   | <ul><li>kennenlernen</li></ul>                            |
+| [[Hände spüren]]                                                             | \-        | \-        | \-               | \-         | \-         | <ul><li>cool-down</li></ul>                               |
+| [[Jeder fängt Jeden]]                                                   | \-        | \-        | \-               | \-         | \-         | <ul><li>bewegung</li></ul>                                |
+| [[Kartenfinder]]                                                             | \-        | \-        | \-               | \-         | \-         | <ul><li>warm-up</li></ul>                                 |
+| [[Kartoffel Kartoffel]]                                               | \-        | \-        | \-               | \-         | \-         | <ul><li>cool-down</li></ul>                               |
+| [[Katz und Maus]]                                                           | \-        | \-        | \-               | \-         | \-         | <ul><li>bewegung</li></ul>                                |
+| [[Kennenlernen mit Bällen hinterherlaufen]]       | \-        | \-        | \-               | \-         | \-         | <ul><li>kennenlernen</li><li>kreisspiel</li></ul>         |
+| [[Killerfunkwagen]]                                                       | \-        | \-        | \-               | \-         | \-         | <ul><li>sonstiges</li></ul>                               |
+| [[Kataflasch]]                                                                 | 10        | 99        | einfach          | keines     | 5          | <ul><li>warm-up</li></ul>                                 |
+| [[Kissenrennen]]                                                             | \-        | \-        | \-               | \-         | \-         | <ul><li>action</li></ul>                                  |
+| [[Klammern haschen]]                                                     | \-        | \-        | \-               | \-         | \-         | <ul><li>bewegung</li></ul>                                |
+| [[Klatsch Theater]]                                                       | \-        | \-        | \-               | \-         | \-         | <ul><li>sonstiges</li></ul>                               |
+| [[Komm mit, lauf weg]]                                                 | \-        | \-        | \-               | \-         | \-         | <ul><li>fangen</li><li>warm-up</li><li>action</li></ul>   |
+| [[Kennenlernen mit Bällen]]                                       | \-        | \-        | \-               | \-         | \-         | <ul><li>kennenlernen</li><li>kreisspiel</li></ul>         |
+| [[Kommando Pimperle]]                                                   | \-        | \-        | \-               | \-         | \-         | <ul><li>warm-up</li></ul>                                 |
+| [[Krankenhaus]]                                                               | \-        | \-        | \-               | \-         | \-         | <ul><li>bewegung</li></ul>                                |
+| [[König der Lüfte]]                                                       | \-        | \-        | \-               | \-         | \-         | <ul><li>sonstiges</li></ul>                               |
+| [[Kuhstall]]                                                                     | \-        | \-        | \-               | \-         | \-         | <ul><li>sonstiges</li></ul>                               |
+| [[Lachbär]]                                                                       | \-        | \-        | \-               | \-         | \-         | <ul><li>sonstiges</li></ul>                               |
+| [[Laserschwert]]                                                             | \-        | \-        | \-               | \-         | \-         | <ul><li>sonstiges</li></ul>                               |
+| [[Klatsch mit Augenkontakt]]                                     | \-        | \-        | \-               | \-         | \-         | <ul><li>cool-down</li><li>kreisspiel</li></ul>            |
+| [[Liste aller Spiele]]                                                 | \-        | \-        | \-               | \-         | \-         | \-                                                        |
+| [[Luftballon Hasche]]                                                   | \-        | \-        | \-               | \-         | \-         | <ul><li>fangen</li></ul>                                  |
+| [[Luftballons Balancieren]]                                       | \-        | \-        | \-               | \-         | \-         | <ul><li>sonstiges</li></ul>                               |
+| [[Kommando]]                                                                     | \-        | \-        | \-               | \-         | \-         | <ul><li>action</li></ul>                                  |
+| [[Löwenjagd]]                                                                   | \-        | \-        | \-               | \-         | \-         | <ul><li>call-response</li></ul>                           |
+| [[Massagespiel - Bauer und Kartoffelfeld]]         | \-        | \-        | \-               | \-         | \-         | <ul><li>kreisspiel</li><li>cool-down</li></ul>            |
+| [[Massaker]]                                                                     | \-        | \-        | \-               | \-         | \-         | <ul><li>sonstiges</li></ul>                               |
+| [[Materialklau]]                                                             | \-        | \-        | \-               | \-         | \-         | <ul><li>warm-up</li></ul>                                 |
+| [[Medusa]]                                                                         | \-        | \-        | \-               | \-         | \-         | <ul><li>kreisspiel</li><li>cool-down</li></ul>            |
+| [[Menschenhalma]]                                                           | \-        | \-        | \-               | \-         | \-         | <ul><li>Taktik</li><li>cool-down</li></ul>                |
+| [[Mensch ärgere dich nicht]]                                     | \-        | \-        | \-               | \-         | \-         | <ul><li>bewegung</li></ul>                                |
+| [[Luftballon Spiel]]                                                     | \-        | \-        | \-               | \-         | \-         | <ul><li>fangen</li></ul>                                  |
+| [[Menschenziehen]]                                                         | \-        | \-        | \-               | \-         | \-         | <ul><li>Taktik</li></ul>                                  |
+| [[Merkmale der Bewegungsspiele]]                             | \-        | \-        | \-               | \-         | \-         | \-                                                        |
+| [[Mittelalter Schnick Schnack Schnuck]]               | \-        | \-        | \-               | \-         | \-         | <ul><li>fangen</li></ul>                                  |
+| [[Mörderspiel]]                                                               | \-        | \-        | \-               | \-         | \-         | <ul><li>Taktik</li><li>cool-down</li></ul>                |
+| [[Möhre Hase Fuchs]]                                                     | \-        | \-        | \-               | \-         | \-         | <ul><li>fangen</li><li>warm-up</li><li>bewegung</li></ul> |
+| [[Nadelöhr]]                                                                     | \-        | \-        | \-               | \-         | \-         | <ul><li>kreisspiel</li><li>cool-down</li></ul>            |
+| [[Namenkampf]]                                                                 | \-        | \-        | \-               | \-         | \-         | <ul><li>sonstiges</li></ul>                               |
+| [[Niemand ist gern allein]]                                       | 8         | 99        | einfach          | keines     | beliebig   | <ul><li>kennenlernen</li></ul>                            |
+| [[Paar haschen & Kettenhaschen]]                             | \-        | \-        | \-               | \-         | \-         | <ul><li>bewegung</li></ul>                                |
+| [[Ohrfeigen und Küsse]]                                               | \-        | \-        | \-               | \-         | \-         | <ul><li>kennenlernen</li></ul>                            |
+| [[Peng!]]                                                                           | \-        | \-        | \-               | \-         | \-         | <ul><li>kreisspiel</li></ul>                              |
+| [[Neun Menschen – 8 Beine - 4 Hände]]                   | \-        | \-        | \-               | \-         | \-         | <ul><li>Kooperation</li></ul>                             |
+| [[Peng, Peng, Knall - Wir fliegen in das All]] | \-        | \-        | \-               | \-         | \-         | <ul><li>kreisspiel</li></ul>                              |
+| [[Pinguine und Eisbären]]                                           | \-        | \-        | \-               | \-         | \-         | <ul><li>fangen</li></ul>                                  |
+| [[Piraten Begrüßungsspiel]]                                       | \-        | \-        | \-               | \-         | \-         | <ul><li>sonstiges</li></ul>                               |
+| [[Piraten Kapitän]]                                                       | \-        | \-        | \-               | \-         | \-         | <ul><li>sonstiges</li></ul>                               |
+| [[Pitbull]]                                                                       | \-        | \-        | \-               | \-         | \-         | <ul><li>bewegung</li></ul>                                |
+| [[Platztausch durch Augenkontakt]]                         | \-        | \-        | \-               | \-         | \-         | <ul><li>kreisspiel</li></ul>                              |
+| [[Pinguine und Killer-Flamingos]]                           | \-        | \-        | \-               | \-         | \-         | <ul><li>fangen</li></ul>                                  |
+| [[Popcorn]]                                                                       | \-        | \-        | \-               | \-         | \-         | <ul><li>fangen</li></ul>                                  |
+| [[Ritter und Zwerge]]                                                   | 8         | 20        | einfach          | Besenstiel | 5-10       | <ul><li>warm-up</li></ul>                                 |
+| [[Reifen durchgeben im Kreis]]                                 | \-        | \-        | \-               | \-         | \-         | <ul><li>sonstiges</li></ul>                               |
+| [[Raumstation]]                                                               | \-        | \-        | \-               | \-         | \-         | <ul><li>Kooperation</li></ul>                             |
+| [[Schach]]                                                                         | \-        | \-        | \-               | \-         | \-         | <ul><li>Taktik</li><li>cool-down</li></ul>                |
+| [[Robbe und Eisbären]]                                                 | \-        | \-        | \-               | \-         | \-         | <ul><li>fangen</li></ul>                                  |
+| [[Schafe reißen]]                                                           | \-        | \-        | \-               | \-         | \-         | <ul><li>bewegung</li></ul>                                |
+| [[Schattenlauf]]                                                             | \-        | \-        | \-               | \-         | \-         | <ul><li>sonstiges</li></ul>                               |
+| [[Schildkröten umdrehen]]                                           | 6         | 30        | mittel           | keines     | 5 - 10     | <ul><li>sonstiges</li></ul>                               |
+| [[Schlangen Hasche]]                                                     | 6         | 99        | einfach          | keines     | 5-10       | <ul><li>fangen</li><li>warm-up</li></ul>                  |
+| [[Schnell schnell - an Ort und Stell]]                 | \-        | \-        | \-               | \-         | \-         | <ul><li>sonstiges</li></ul>                               |
+| [[Schnick_Schnack_Schnuck]]                                       | \-        | \-        | \-               | \-         | \-         | <ul><li>sonstiges</li></ul>                               |
+| [[Schoko Schoko La La]]                                               | 2         | 2         | einfach          | keines     | 2-5        | <ul><li>klatschspiel</li></ul>                            |
+| [[Schwänzchen-Hasche]]                                                 | \-        | \-        | \-               | \-         | \-         | <ul><li>fangen</li><li>warm-up</li></ul>                  |
+| [[Schwesterchen hilf]]                                                 | \-        | \-        | \-               | \-         | \-         | <ul><li>bewegung</li></ul>                                |
+| [[Schüttelspiel]]                                                           | \-        | \-        | \-               | \-         | \-         | <ul><li>warm-up</li></ul>                                 |
+| [[Seeüberquerung]]                                                         | \-        | \-        | \-               | \-         | \-         | <ul><li>Kooperation</li></ul>                             |
+| [[Sich gegenseitig vorstellen]]                               | \-        | \-        | \-               | \-         | \-         | <ul><li>kennenlernen</li><li>kreisspiel</li></ul>         |
+| [[Slalom in Reihe]]                                                       | \-        | \-        | \-               | \-         | \-         | <ul><li>warm-up</li></ul>                                 |
+| [[Sortieren in der Gruppe]]                                       | \-        | \-        | \-               | \-         | \-         | <ul><li>Kooperation</li><li>kreisspiel</li></ul>          |
+| [[Speed Dating]]                                                             | \-        | \-        | \-               | \-         | \-         | <ul><li>sonstiges</li></ul>                               |
+| [[Spinnennetz]]                                                               | 6         | 14        | einfach - schwer | Seile      | 5 - 15     | <ul><li>Kooperation</li></ul>                             |
+| [[Stierkampf - Tatonga]]                                             | \-        | \-        | \-               | \-         | \-         | <ul><li>action</li><li>kreisspiel</li></ul>               |
+| [[Suchkind]]                                                                     | \-        | \-        | \-               | \-         | \-         | <ul><li>kennenlernen</li></ul>                            |
+| [[Stehbock-Laufbock]]                                                   | \-        | \-        | \-               | \-         | \-         | <ul><li>action</li></ul>                                  |
+| [[Roboter]]                                                                       | \-        | \-        | \-               | \-         | \-         | <ul><li>cool-down</li></ul>                               |
+| [[T-Shirt in der Hose]]                                               | \-        | \-        | \-               | \-         | \-         | <ul><li>bewegung</li></ul>                                |
+| [[Team Schnick-Schnack-Schnuck]]                             | \-        | \-        | \-               | \-         | \-         | <ul><li>action</li></ul>                                  |
+| [[Totblicken]]                                                                 | \-        | \-        | \-               | \-         | \-         | <ul><li>sonstiges</li></ul>                               |
+| [[Tratschen in Anwesenheit]]                                     | 3         | 6         | einfach          | keines     | \-         | <ul><li>kennenlernen</li></ul>                            |
+| [[Tellerfänger]]                                                             | \-        | \-        | \-               | \-         | \-         | <ul><li>fangen</li><li>warm-up</li></ul>                  |
+| [[Ultimate Ninja]]                                                         | \-        | \-        | \-               | \-         | \-         | <ul><li>action</li></ul>                                  |
+| [[Vampir]]                                                                         | \-        | \-        | \-               | \-         | \-         | <ul><li>sonstiges</li></ul>                               |
+| [[Verheiratet, Geschieden]]                                       | \-        | \-        | \-               | \-         | \-         | <ul><li>kreisspiel</li></ul>                              |
+| [[Vierfarbenfangen]]                                                     | \-        | \-        | \-               | \-         | \-         | <ul><li>bewegung</li></ul>                                |
+| [[Virus]]                                                                           | \-        | \-        | \-               | \-         | \-         | <ul><li>sonstiges</li></ul>                               |
+| [[Was tust Du da]]                                                         | \-        | \-        | \-               | \-         | \-         | <ul><li>sonstiges</li></ul>                               |
+| [[Wenn ich König wär]]                                                 | \-        | \-        | \-               | \-         | \-         | <ul><li>sonstiges</li></ul>                               |
+| [[Vorstellungsrunde - Werdegang - Symbolisch]] | \-        | \-        | \-               | \-         | \-         | <ul><li>kennenlernen</li><li>kreisspiel</li></ul>         |
+| [[Whiskeymixer]]                                                             | \-        | \-        | \-               | \-         | \-         | <ul><li>sonstiges</li></ul>                               |
+| [[Zah]]                                                                               | \-        | \-        | \-               | \-         | \-         | <ul><li>action</li><li>kreisspiel</li></ul>               |
+| [[Zeitbombe]]                                                                   | \-        | \-        | \-               | \-         | \-         | <ul><li>bewegung</li></ul>                                |
+| [[Zeithasche]]                                                                 | \-        | \-        | \-               | \-         | \-         | <ul><li>fangen</li></ul>                                  |
+| [[Zip Zap]]                                                                       | \-        | \-        | \-               | \-         | \-         | <ul><li>cool-down</li></ul>                               |
+| [[Zirkusfangen]]                                                             | 6         | 99        | einfach          | keines     | 10 -  15   | <ul><li>warm-up</li></ul>                                 |
+| [[Zombie Hasche mit Namen]]                                       | \-        | \-        | \-               | \-         | \-         | <ul><li>fangen</li></ul>                                  |
+| [[Zombie - Hasche]]                                                       | \-        | \-        | \-               | \-         | \-         | <ul><li>fangen</li></ul>                                  |
+| [[Zuckerwasserschießen]]                                             | 6         | 20        | etwas schwerer   | keines     | 7          | <ul><li>kennenlernen</li></ul>                            |
+| [[Zombie]]                                                                         | 6         | 18        | mittel           | keines     | 5-10       | <ul><li>kennenlernen</li></ul>                            |
+| [[Zuzwinkern]]                                                                 | 9         | 99        | mittel           | keines     | 7          | <ul><li>action</li><li>kreisspiel</li></ul>               |
+| [[Robert die rennende Robbe]]                                   | 4         | 12        | einfach          | keines     | 3 - 10     | <ul><li>kennenlernen</li></ul>                            |
+| [[Zungenmörder]]                                                             | \-        | \-        | \-               | \-         | \-         | <ul><li>cool-down</li><li>kreisspiel</li></ul>            |
+| [[Ägyptisches Wurfspiel]]                                           | \-        | \-        | \-               | \-         | \-         | <ul><li>sonstiges</li></ul>                               |
+| [[Zombieball]]                                                                 | \-        | \-        | \-               | \-         | \-         | <ul><li>bewegung</li></ul>                                |
 <!-- SerializedQuery END -->
 

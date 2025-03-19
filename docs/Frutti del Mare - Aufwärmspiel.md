@@ -3,11 +3,13 @@ publish: true
 tags:
   - spiele
 created: 2025-02-01 02:20:18
-update: 2025-02-24 04:50:23
+update: 2025-03-17 01:37:20
 title: "# Frutti del Mare"
 description: 
 authors:
   - Marc Bielert
+category:
+  - warm-up
 ---
 
 # Frutti del Mare (Aufwärmspiel)

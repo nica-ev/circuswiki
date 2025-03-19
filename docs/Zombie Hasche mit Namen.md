@@ -3,11 +3,13 @@ publish: true
 tags:
   - spiele
 created: 2025-01-24 03:50:51
-update: 2025-01-25 01:30:23
+update: 2025-03-17 01:33:08
 title: Zombie Hasche mit Namen
 description: 
 authors:
   - Marc Bielert
+category:
+  - fangen
 ---
 
 # Zombie Hasche mit Namen

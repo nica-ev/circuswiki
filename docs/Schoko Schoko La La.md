@@ -3,11 +3,20 @@ publish: true
 tags:
   - spiele
 created: 2025-01-24 03:50:51
-update: 2025-01-25 01:04:19
+update: 2025-03-17 05:40:45
 title: Schoko Schoko La La
 description: 
 authors:
   - Marc Bielert
+category:
+  - klatschspiel
+Schwierigkeit: einfach
+Material: keines
+Spieldauer: 2-5
+source:
+  - unbekannt
+group-min: "2"
+group-max: "2"
 ---
 
 # Schoko Schoko La La

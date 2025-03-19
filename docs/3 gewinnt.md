@@ -3,11 +3,13 @@ publish: true
 tags:
   - spiele
 created: 2025-01-24 03:50:50
-update: 2025-01-24 04:07:12
+update: 2025-03-17 03:01:43
 title: Drei gewinnt
 description: 
 authors:
   - Marc Bielert
+category:
+  - bewegung
 ---
 
 **Gruppengröße**: Ab ca 4-6 Mitspieler

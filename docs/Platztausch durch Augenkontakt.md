@@ -3,11 +3,13 @@ publish: true
 tags:
   - spiele
 created: 2025-01-24 03:50:51
-update: 2025-01-25 00:53:03
+update: 2025-03-17 02:03:14
 title: Platztausch durch Augenkontakt
 description: 
 authors:
   - Marc Bielert
+category:
+  - kreisspiel
 ---
 
 # Platztausch durch Augenkontakt
@@ -19,7 +21,7 @@ Alle spielen gleichzeitig - somit werden Aufmerksamkeit und Kommunikation geschu
 
 Als Erweiterung kann man den erforderlichen Kontakt immer weiter einschränken - am Anfang ist noch ein Kopfnicken nötig, dies verfeinert sich zunehmend bis nur noch der Augenkontakt entscheidet ob man die Plätze tauscht oder nicht.
 
-## Folgezettel
+# Variation
 
-[[Platztausch durch Augenkontakt Variation]]
-
+Die Variation besteht darin die erforderlichen Signale für eine erfolgreiche Kontaktaufnahme zu verringern.
+Am Ende reicht ein einfaches ansehen ohne weitere körperliche Signale um den Kontakt herzustellen und zu bestätigen.

@@ -3,11 +3,13 @@ publish: true
 tags:
   - spiele
 created: 2025-01-24 03:50:51
-update: 2025-01-25 00:53:43
+update: 2025-03-17 01:29:17
 title: Popcorn
 description: 
 authors:
   - Marc Bielert
+category:
+  - fangen
 ---
 
 # Popcorn

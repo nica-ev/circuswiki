@@ -3,11 +3,13 @@ publish: true
 tags:
   - spiele
 created: 2025-01-24 03:50:50
-update: 2025-01-24 04:14:12
+update: 2025-03-17 02:27:39
 title: Aufgaben Spiel
 description: 
 authors:
   - Marc Bielert
+category:
+  - sonstiges
 ---
 
 #  Aufgaben Spiel

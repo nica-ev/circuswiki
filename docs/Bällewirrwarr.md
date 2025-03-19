@@ -1,6 +1,6 @@
 ---
 created: 2025-03-11 00:20:04
-update: 2025-03-11 00:20:38
+update: 2025-03-17 05:42:24
 publish: true
 tags:
   - spiele
@@ -8,6 +8,15 @@ title: Bällewirrwarr
 description: 
 authors:
   - Marc Bielert
+category:
+  - kennenlernen
+Schwierigkeit: einfach - schwer
+Material: Bälle
+Spieldauer: "10"
+source:
+  - Tasifan Spielebuch
+group-min: "5"
+group-max: "15"
 ---
 
 # Bällewirrwarr

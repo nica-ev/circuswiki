@@ -1,6 +1,6 @@
 ---
 created: 2025-03-11 00:17:56
-update: 2025-03-11 00:18:51
+update: 2025-03-17 05:45:49
 publish: true
 tags:
   - spiele
@@ -8,6 +8,15 @@ title: Zuckerwasserschießen
 description: 
 authors:
   - Marc Bielert
+category:
+  - kennenlernen
+Schwierigkeit: etwas schwerer
+Material: keines
+Spieldauer: "7"
+source:
+  - Tasifan Spielebuch
+group-min: "6"
+group-max: "20"
 ---
 
 # Zuckerwasserschießen

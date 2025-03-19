@@ -3,11 +3,13 @@ publish: true
 tags:
   - spiele
 created: 2025-01-25 01:57:09
-update: 2025-01-25 01:57:53
+update: 2025-03-17 02:13:46
 title: Füßenageln
 description: 
 authors:
   - Marc Bielert
+category:
+  - bewegung
 ---
 
 # Füßenageln

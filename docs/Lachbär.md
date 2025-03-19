@@ -1,6 +1,6 @@
 ---
 created: 2025-03-11 00:07:37
-update: 2025-03-11 00:10:47
+update: 2025-03-17 02:11:23
 publish: true
 tags:
   - spiele
@@ -8,6 +8,8 @@ title: Lachbär
 description: 
 authors:
   - Marc Bielert
+category:
+  - sonstiges
 ---
 
 # Lachbär

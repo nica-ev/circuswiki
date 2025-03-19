@@ -1,6 +1,6 @@
 ---
 created: 2025-01-21 18:09:55
-update: 2025-02-25 00:20:52
+update: 2025-03-17 01:57:05
 publish: true
 tags:
   - spiele
@@ -8,6 +8,8 @@ title: Die Hürde
 description: 
 authors:
   - Marc Bielert
+category:
+  - Kooperation
 ---
 
 # Die Hürde

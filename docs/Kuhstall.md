@@ -3,11 +3,13 @@ publish: true
 tags:
   - spiele
 created: 2025-01-24 03:50:50
-update: 2025-01-24 23:19:53
+update: 2025-03-17 02:27:03
 title: Kuhstall
 description: 
 authors:
   - Marc Bielert
+category:
+  - sonstiges
 ---
 
 # Kuhstall

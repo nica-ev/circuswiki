@@ -1,6 +1,6 @@
 ---
 created: 2025-03-11 00:21:40
-update: 2025-03-11 00:22:26
+update: 2025-03-17 02:23:47
 publish: true
 tags:
   - spiele
@@ -8,6 +8,9 @@ title: Mörderspiel
 description: 
 authors:
   - Marc Bielert
+category:
+  - Taktik
+  - cool-down
 ---
 
 # Mörderspiel

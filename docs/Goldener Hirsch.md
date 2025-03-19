@@ -3,11 +3,20 @@ publish: true
 tags:
   - spiele
 created: 2025-01-24 03:50:50
-update: 2025-01-25 02:00:19
+update: 2025-03-17 05:44:16
 title: Goldener Hirsch
 description: 
 authors:
   - Marc Bielert
+category:
+  - fangen
+source:
+  - Kinder der 5.ten Klasse Friesenschule (Halle)
+Schwierigkeit: einfach
+Material: keines
+Spieldauer: 5 - 15
+group-min: 10
+group-max: 99
 ---
 
 # Goldener Hirsch

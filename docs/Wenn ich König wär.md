@@ -1,6 +1,6 @@
 ---
 created: 2025-01-21 18:09:55
-update: 2025-02-25 15:21:39
+update: 2025-03-17 02:29:42
 publish: true
 tags:
   - spiele
@@ -8,6 +8,8 @@ title: Wenn ich König wär...
 description: 
 authors:
   - Marc Bielert
+category:
+  - sonstiges
 ---
 
 # Wenn ich König wär...

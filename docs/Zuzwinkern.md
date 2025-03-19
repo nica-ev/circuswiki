@@ -3,11 +3,22 @@ publish: true
 tags:
   - spiele
 created: 2025-01-24 03:50:51
-update: 2025-03-10 23:12:46
+update: 2025-03-18 00:58:34
 title: Zuzwinkern
 description: 
 authors:
   - Marc Bielert
+category:
+  - action
+  - kreisspiel
+Schwierigkeit: mittel
+Material: keines
+Spieldauer: "7"
+source:
+  - Tasifan Spielebuch
+group-min: "9"
+group-max: "99"
+todo: Text überarbeiten
 ---
 
 >[!info] Kurzbeschreibung
@@ -18,8 +29,8 @@ authors:
 **Material**: keins
 **Spieldauer**: ca. 7 Minuten
 
-**Spielbeschreibung**:
+## **Spielbeschreibung**:
 Alle Mitspieler stehen im Kreis, wobei immer zwei Personen hintereinander. stehen. Ausgenommen Einer, der allein im Kreis steht. Jedoch möchte auch er einen Partner haben. Er kann einem Mitspieler, der vorne steht, zuzwinkern, um diesen so zu sich zu holen. Die Person der zugezwinkert wurde, versucht zu der Einzelperson zu laufen. Aber der Mitspieler dahinter will natürlich nicht allein stehen bleiben, er versucht daher die weglaufende Person festzuhalten ohne dabei mitlaufen zu müssen. Gelingt ihm das, bleibt der Vordermann bei demjenigen. Schafft es der Vordermann zum „Zwinkerer“ zu laufen, stellt er sich hinter ihn und in den Kreis. Der ehemalige Hintermann ist nun allein und probiert es auch mit dem Zuzwinkern.
 
-**Quelle**:
+## **Quelle**:
 Tasifan Spielebuch

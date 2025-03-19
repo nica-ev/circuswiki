@@ -3,11 +3,13 @@ publish: true
 tags:
   - spiele
 created: 2025-01-24 03:50:51
-update: 2025-01-25 00:49:30
+update: 2025-03-17 02:16:04
 title: Paar haschen & Kettenhaschen
 description: 
 authors:
   - Marc Bielert
+category:
+  - bewegung
 ---
 
 # Paar haschen & Kettenhaschen

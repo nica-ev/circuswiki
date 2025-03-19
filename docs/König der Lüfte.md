@@ -1,6 +1,6 @@
 ---
 created: 2025-03-11 00:04:21
-update: 2025-03-11 00:06:22
+update: 2025-03-17 02:26:44
 publish: true
 tags:
   - spiele
@@ -8,6 +8,8 @@ title: König der Lüfte
 description: 
 authors:
   - Marc Bielert
+category:
+  - sonstiges
 ---
 
 #  König der Lüfte

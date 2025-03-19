@@ -3,11 +3,20 @@ publish: true
 tags:
   - spiele
 created: 2025-01-24 03:50:51
-update: 2025-01-25 01:28:20
+update: 2025-03-17 05:48:09
 title: Zirkusfangen
 description: 
 authors:
   - Marc Bielert
+category:
+  - warm-up
+source:
+  - unbekannt
+Schwierigkeit: einfach
+Material: keines
+Spieldauer: 10 -  15
+group-min: 6
+group-max: 99
 ---
 
 # Zirkusfangen

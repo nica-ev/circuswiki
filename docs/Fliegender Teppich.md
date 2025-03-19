@@ -3,11 +3,13 @@ publish: true
 tags:
   - spiele
 created: 2025-01-24 03:50:50
-update: 2025-01-24 05:12:15
+update: 2025-03-17 01:57:15
 title: Fliegender Teppich
 description: 
 authors:
   - Marc Bielert
+category:
+  - Kooperation
 ---
 
 # Fliegender Teppich

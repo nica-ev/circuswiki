@@ -3,11 +3,13 @@ publish: true
 tags:
   - spiele
 created: 2025-01-24 03:50:50
-update: 2025-01-24 23:16:59
+update: 2025-03-17 01:39:12
 title: Kommando Pimperle
 description: 
 authors:
   - Marc Bielert
+category:
+  - warm-up
 ---
 
 # Kommando Pimperle

@@ -3,11 +3,15 @@ publish: true
 tags:
   - spiele
 created: 2025-01-25 01:38:42
-update: 2025-01-25 01:44:35
+update: 2025-03-17 02:15:31
 title: Möhre Hase Fuchs
 description: 
 authors:
   - Marc Bielert
+category:
+  - fangen
+  - warm-up
+  - bewegung
 ---
 
 # Möhre Hase Fuchs

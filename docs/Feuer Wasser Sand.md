@@ -3,11 +3,14 @@ publish: true
 tags:
   - spiele
 created: 2025-01-24 03:50:50
-update: 2025-01-24 05:09:40
+update: 2025-03-17 02:14:11
 title: Feuer Wasser Sand
 description: 
 authors:
   - Marc Bielert
+category:
+  - warm-up
+  - bewegung
 ---
 
 # Feuer Wasser Sand

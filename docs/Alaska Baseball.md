@@ -3,11 +3,20 @@ publish: true
 tags:
   - spiele
 created: 2025-01-24 03:50:50
-update: 2025-01-24 04:11:04
+update: 2025-03-17 05:40:21
 title: Alaska Baseball
 description: 
 authors:
   - Marc Bielert
+category:
+  - warm-up
+Schwierigkeit: einfach
+Material: keines
+Spieldauer: "5"
+source:
+  - Tasifan Spielebuch
+group-min: "30"
+group-max: "100"
 ---
 
 # Alaska Baseball

@@ -1,6 +1,6 @@
 ---
 created: 2025-03-11 00:15:49
-update: 2025-03-11 00:16:50
+update: 2025-03-17 02:31:30
 publish: true
 tags:
   - spiele
@@ -8,6 +8,8 @@ title: Löwenjagd
 description: 
 authors:
   - Marc Bielert
+category:
+  - call-response
 ---
 
 # Löwenjagd

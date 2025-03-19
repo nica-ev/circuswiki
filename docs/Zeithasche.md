@@ -3,11 +3,13 @@ publish: true
 tags:
   - spiele
 created: 2025-01-24 03:50:51
-update: 2025-01-25 01:26:49
+update: 2025-03-17 01:28:40
 title: Zeithasche
 description: 
 authors:
   - Marc Bielert
+category:
+  - fangen
 ---
 
 # Zeithasche

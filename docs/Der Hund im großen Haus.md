@@ -3,11 +3,13 @@ publish: true
 tags:
   - spiele
 created: 2025-02-01 02:23:23
-update: 2025-02-01 02:24:28
+update: 2025-03-17 01:38:00
 title: Der Hund im großen Haus
 description: 
 authors:
   - Marc Bielert
+category:
+  - warm-up
 ---
 
 #  Der Hund im großen Haus

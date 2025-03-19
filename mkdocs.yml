@@ -35,9 +35,13 @@ theme:
     - navigation.path
     - navigation.prune
     - navigation.tabs
-#    - navigation.tabs.sticky
+    - navigation.tabs.sticky
+    - navigation.sections
     - toc.follow
     - header.autohide
+    - search.suggest
+    - search.highlight
+    - search.share
 
 markdown_extensions:
   - nl2br # treats markdown linebreaks as hard breaks
@@ -94,6 +98,20 @@ nav:
     - Dokumentations-System: 'doc-sys-2.md'
   - Bewegungs-Spiele: 
     - Uebersicht: 'Bewegungs-Spiele.md'
+    - Liste aller Spiele: 'Liste aller Spiele.md'
+    - Kategorien:
+      - Kennenlernen: 'Spiele zum Kennenlernen.md'
+      - Fangen: 'Fangspiele.md'
+      - Warm-Up: 'Aufwärmspiele MOC.md'
+      - Cool-Down: 'Cooldown Spiele MOC.md'
+      - Kooperation: 'Kooperationsspiele.md'
+      - Kreisspiele: 'Kreisspiele MOC.md'
+      - Bewegung: 'Bewegungsspiele.md'
+      - Action: 'Schnelligkeit+Reaktionsspiele.md'
+      - Taktik: 'Taktik und Konzentrationsspiele.md'
+      - Call & Response: 'MOC Call & Response Spiele.md'
+      - Inklusion: 'Inklusion-Spiele.md'
+      - Sonstiges: 'Spiele für Zwischendurch.md'
   - Blog: 
     - 'blog/index.md'
 
@@ -125,9 +143,13 @@ extra:
         - icon: material/emoticon-sad-outline
           name: This page could be improved
           data: 0
-          note: >- 
+          note: >-
             Thanks for your feedback! Help us improve this page by
-            using our <a href="..." target="_blank" rel="noopener">feedback form</a>.
+            using our <a href="https://github.com/nica-ev/docs/discussions/new?category=feedback&title=__PAGE_TITLE__%20Feedback" target="_blank" rel="noopener">feedback form</a>.
+
+
+
+
   consent:
     title: Cookie consent
     description: >- 

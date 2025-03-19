@@ -3,11 +3,20 @@ publish: true
 tags:
   - spiele
 created: 2025-01-24 03:50:50
-update: 2025-01-24 05:24:06
+update: 2025-03-17 05:36:43
 title: Ich fahre Zug
 description: 
 authors:
   - Marc Bielert
+category:
+  - kennenlernen
+source:
+  - Tasifan Spielebuch
+group-min: "10"
+group-max: "30"
+Schwierigkeit: mittel
+Material: Stühle
+Spieldauer: beliebig
 ---
 
 # Ich fahre Zug

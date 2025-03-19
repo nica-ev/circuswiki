@@ -1,6 +1,6 @@
 ---
 created: 2025-03-11 00:12:59
-update: 2025-03-11 00:13:42
+update: 2025-03-17 02:29:19
 publish: true
 tags:
   - spiele
@@ -8,6 +8,8 @@ title: Piraten Kapitän
 description: 
 authors:
   - Marc Bielert
+category:
+  - sonstiges
 ---
 
 # Piraten Kapitän

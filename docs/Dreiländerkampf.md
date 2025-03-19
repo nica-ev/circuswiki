@@ -3,11 +3,13 @@ publish: true
 tags:
   - spiele
 created: 2025-02-01 02:25:08
-update: 2025-02-01 02:25:56
+update: 2025-03-17 01:38:12
 title: Dreiländerkampf
 description: 
 authors:
   - Marc Bielert
+category:
+  - warm-up
 ---
 
 #  Dreiländerkampf

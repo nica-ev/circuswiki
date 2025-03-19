@@ -3,11 +3,14 @@ publish: true
 tags:
   - spiele
 created: 2025-01-24 03:50:50
-update: 2025-01-24 04:27:43
+update: 2025-03-17 02:22:02
 title: Bombe
 description: 
 authors:
   - Marc Bielert
+category:
+  - action
+  - kreisspiel
 ---
 
 # Bombe

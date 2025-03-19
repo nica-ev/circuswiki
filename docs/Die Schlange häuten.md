@@ -1,6 +1,6 @@
 ---
 created: 2025-01-21 18:09:55
-update: 2025-02-23 22:45:45
+update: 2025-03-17 02:05:41
 publish: true
 tags:
   - spiele
@@ -8,6 +8,8 @@ title: Die Schlange häuten
 description: 
 authors:
   - Marc Bielert
+category:
+  - kreisspiel
 ---
 
 # Die Schlange häuten

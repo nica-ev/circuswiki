@@ -3,11 +3,13 @@ publish: true
 tags:
   - spiele
 created: 2025-01-24 03:50:50
-update: 2025-01-24 04:49:55
+update: 2025-03-17 02:47:46
 title: Der Zirkus kommt in die Stadt
 description: 
 authors:
   - Marc Bielert
+category:
+  - sonstiges
 ---
 
 # Der Zirkus kommt in die Stadt
@@ -32,6 +34,9 @@ Zu Anfang werden schon ein oder mehrere Löwen bestimmt (vorzugsweise Erwachsene
 
 Das Spiel eignet sich durchaus für große Gruppen wenn der Platz vorhanden ist.
 
-## Folgezettel
+# Variationen des Themas
 
-[[Variationen des Themas]]
+Das Grundprinzip eignet sich auch gut um Themen-Variationen zu machen.
+
+Statt einem Zirkus mit verschiedenen Stationen nimmt man z.B. eine Piratencrew, ein Indianerdorf etc...
+

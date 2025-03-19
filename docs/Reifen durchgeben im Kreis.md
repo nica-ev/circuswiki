@@ -3,11 +3,13 @@ publish: true
 tags:
   - spiele
 created: 2025-01-24 03:50:51
-update: 2025-01-25 00:55:21
+update: 2025-03-17 02:31:06
 title: Reifen durchgeben im Kreis
 description: 
 authors:
   - Marc Bielert
+category:
+  - sonstiges
 ---
 
 alle Kinder stehen im Kreis und halten sich an den Händen.

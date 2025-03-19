@@ -3,11 +3,13 @@ publish: true
 tags:
   - spiele
 created: 2025-01-24 03:50:50
-update: 2025-01-24 04:45:29
+update: 2025-03-17 02:29:35
 title: Das Ja Spiel
 description: 
 authors:
   - Marc Bielert
+category:
+  - sonstiges
 ---
 
 # Das Ja Spiel

@@ -1,6 +1,6 @@
 ---
 created: 2025-01-21 18:09:55
-update: 2025-02-23 20:08:07
+update: 2025-03-17 02:14:46
 publish: true
 tags:
   - spiele
@@ -8,6 +8,8 @@ title: Jeder fängt Jeden
 description: 
 authors:
   - Marc Bielert
+category:
+  - bewegung
 ---
 
 # Jeder fängt Jeden

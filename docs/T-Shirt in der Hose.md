@@ -3,11 +3,13 @@ publish: true
 tags:
   - spiele
 created: 2025-01-24 03:50:51
-update: 2025-01-25 01:12:22
+update: 2025-03-17 02:14:03
 title: T-Shirt in der Hose
 description: 
 authors:
   - Marc Bielert
+category:
+  - bewegung
 ---
 
 # T-Shirt in der Hose

@@ -3,11 +3,13 @@ publish: true
 tags:
   - spiele
 created: 2025-01-24 03:50:50
-update: 2025-01-24 23:13:32
+update: 2025-03-17 02:11:06
 title: Klatsch Theater
 description: 
 authors:
   - Marc Bielert
+category:
+  - sonstiges
 ---
 
 # Klatsch Theater

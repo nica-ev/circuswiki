@@ -3,11 +3,13 @@ publish: true
 tags:
   - spiele
 created: 2025-01-24 03:50:51
-update: 2025-02-24 04:51:50
+update: 2025-03-17 02:27:30
 title: Schnick Schnack Schnuck
 description: 
 authors:
   - Marc Bielert
+category:
+  - sonstiges
 ---
 
 # Schnick Schnack Schnuck

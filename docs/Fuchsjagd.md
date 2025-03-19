@@ -3,17 +3,38 @@ publish: true
 tags:
   - spiele
 created: 2025-01-24 03:50:50
-update: 2025-01-24 05:15:59
+update: 2025-03-18 02:40:53
 title: Fuchsjagd
 description: 
 authors:
   - Marc Bielert
+category:
+  - fangen
+Schwierigkeit: einfach
+Material: Tücher
+Spieldauer: 10 -  15
+source: unbekannt
+group-min: 5
+group-max: 25
+todo: text inklusion
 ---
 
 # Fuchsjagd
 
-Ein Fange/Hasche - Spiel für kleine und mittlere Gruppengrößen.
+> [!info] Kurzbeschreibung
+> Ein einfaches und dynamisches Fange-Spiel für kleine bis mittelgroße Gruppen, bei dem es darum geht, den Fuchsschwanz der anderen zu erbeuten und selbst nicht gefangen zu werden.
 
-Jeder hat ein Tuch (als Fuchschwanz) hinten in der Hose stecken. Nur der Fänger hat keins.
-Der Fänger versucht nun sich ein Tuch zu schnappen. Gelingt ihm dies so ist derjenige dem das Tuch weggeschnappt wurde der neue Fänger.
+**Gruppengröße**: Klein bis Mittel
+**Schwierigkeit**: Leicht
+**Material**: Für jeden Teilnehmer ein Tuch (als "Fuchsschwanz")
+**Spieldauer**: Ca. 10-15 Minuten
 
+## **Spielbeschreibung**:
+
+Jeder Teilnehmer steckt ein Tuch (als "Fuchsschwanz") hinten in die Hose. Nur der Fänger hat keinen Fuchsschwanz.
+
+Der Fänger versucht nun, sich einen Fuchsschwanz zu schnappen. Gelingt ihm dies, so ist derjenige, dem der Fuchsschwanz weggeschnappt wurde, der neue Fänger.
+
+## **Quelle**:
+
+Unbekannt

@@ -3,11 +3,13 @@ publish: true
 tags:
   - spiele
 created: 2025-01-24 03:50:50
-update: 2025-01-24 04:52:03
+update: 2025-03-17 02:31:40
 title: Die Geschichte der Banane
 description: 
 authors:
   - Marc Bielert
+category:
+  - call-response
 ---
 
 # Die Geschichte der Banane

@@ -1,6 +1,6 @@
 ---
 created: 2025-01-24 03:50:51
-update: 2025-01-25 02:18:30
+update: 2025-03-17 02:12:05
 publish: true
 tags:
   - spiele
@@ -8,6 +8,8 @@ title: Whiskeymixer
 description: 
 authors:
   - Marc Bielert
+category:
+  - sonstiges
 ---
 
 # Whiskeymixer

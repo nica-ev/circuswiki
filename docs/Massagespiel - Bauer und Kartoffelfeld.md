@@ -3,11 +3,14 @@ publish: true
 tags:
   - spiele
 created: 2025-01-24 03:50:51
-update: 2025-01-24 23:24:22
+update: 2025-03-17 02:05:08
 title: Massagespiel - Bauer und Kartoffelfeld
 description: 
 authors:
   - Marc Bielert
+category:
+  - kreisspiel
+  - cool-down
 ---
 
 # Massagespiel - Bauer und Kartoffelfeld

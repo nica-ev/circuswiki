@@ -3,11 +3,20 @@ publish: true
 tags:
   - spiele
 created: 2025-01-24 03:50:51
-update: 2025-01-25 01:18:16
+update: 2025-03-17 05:38:59
 title: Tratschen in Anwesenheit
 description: 
 authors:
   - Marc Bielert
+category:
+  - kennenlernen
+Schwierigkeit: einfach
+Material: keines
+Spieldauer: 
+source:
+  - unbekannt
+group-min: "3"
+group-max: "6"
 ---
 
 # Tratschen in Anwesenheit

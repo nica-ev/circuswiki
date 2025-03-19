@@ -3,11 +3,13 @@ publish: true
 tags:
   - spiele
 created: 2025-01-24 03:50:51
-update: 2025-01-25 00:44:07
+update: 2025-03-17 02:24:27
 title: Menschenziehen
 description: 
 authors:
   - Marc Bielert
+category:
+  - Taktik
 ---
 
 # Menschenziehen

@@ -3,11 +3,13 @@ publish: true
 tags:
   - spiele
 created: 2025-01-24 03:50:51
-update: 2025-01-25 00:52:14
+update: 2025-03-17 02:15:41
 title: Pitbull
 description: 
 authors:
   - Marc Bielert
+category:
+  - bewegung
 ---
 
 # Pitbull

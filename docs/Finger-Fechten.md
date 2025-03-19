@@ -3,11 +3,13 @@ publish: true
 tags:
   - spiele
 created: 2025-01-24 03:50:50
-update: 2025-01-24 05:11:26
+update: 2025-03-17 02:29:11
 title: " Finger-Fechten"
 description: 
 authors:
   - Marc Bielert
+category:
+  - sonstiges
 ---
 
 #  Finger-Fechten

@@ -1,6 +1,6 @@
 ---
 created: 2025-01-21 18:09:55
-update: 2025-02-23 20:17:16
+update: 2025-03-17 03:02:10
 publish: true
 tags:
   - spiele
@@ -8,6 +8,8 @@ title: Mensch ärgere dich nicht
 description: 
 authors:
   - Marc Bielert
+category:
+  - bewegung
 ---
 
 # Mensch ärgere dich nicht

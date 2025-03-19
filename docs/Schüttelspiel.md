@@ -3,11 +3,13 @@ publish: true
 tags:
   - spiele
 created: 2025-02-01 02:28:21
-update: 2025-02-01 02:29:05
+update: 2025-03-17 01:40:32
 title: Schüttelspiel
 description: 
 authors:
   - Marc Bielert
+category:
+  - warm-up
 ---
 
 # Schüttelspiel

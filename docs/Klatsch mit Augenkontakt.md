@@ -3,11 +3,14 @@ publish: true
 tags:
   - spiele
 created: 2025-01-24 03:50:50
-update: 2025-01-24 23:12:53
+update: 2025-03-17 02:06:31
 title: Klatsch mit Augenkontakt
 description: 
 authors:
   - Marc Bielert
+category:
+  - cool-down
+  - kreisspiel
 ---
 
 #  Klatsch mit Augenkontakt

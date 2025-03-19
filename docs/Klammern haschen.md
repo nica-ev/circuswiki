@@ -3,11 +3,13 @@ publish: true
 tags:
   - spiele
 created: 2025-01-24 03:50:50
-update: 2025-01-24 23:12:06
+update: 2025-03-17 02:15:23
 title: Klammern haschen
 description: 
 authors:
   - Marc Bielert
+category:
+  - bewegung
 ---
 
 # Klammern haschen

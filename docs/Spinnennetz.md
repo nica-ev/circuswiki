@@ -3,11 +3,20 @@ publish: true
 tags:
   - spiele
 created: 2025-01-24 03:50:51
-update: 2025-01-25 01:09:58
+update: 2025-03-17 05:46:58
 title: Spinnennetz
 description: 
 authors:
   - Marc Bielert
+category:
+  - Kooperation
+source:
+  - Tasifan Spielebuch
+Schwierigkeit: einfach - schwer
+Material: Seile
+Spieldauer: 5 - 15
+group-min: 6
+group-max: 14
 ---
 
 # Spinnennetz

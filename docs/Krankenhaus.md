@@ -3,11 +3,13 @@ publish: true
 tags:
   - spiele
 created: 2025-01-24 03:50:50
-update: 2025-01-24 23:18:19
+update: 2025-03-17 02:14:20
 title: Krankenhaus
 description: 
 authors:
   - Marc Bielert
+category:
+  - bewegung
 ---
 
 # Krankenhaus

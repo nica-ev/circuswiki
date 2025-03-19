@@ -3,11 +3,13 @@ publish: true
 tags:
   - spiele
 created: 2025-01-24 03:50:51
-update: 2025-01-25 01:00:12
+update: 2025-03-17 02:26:12
 title: Schnell, schnell - an Ort und Stell
 description: 
 authors:
   - Marc Bielert
+category:
+  - sonstiges
 ---
 
 # Schnell, schnell - an Ort und Stell

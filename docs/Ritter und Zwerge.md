@@ -3,11 +3,20 @@ publish: true
 tags:
   - spiele
 created: 2025-01-24 03:50:51
-update: 2025-01-25 00:56:05
+update: 2025-03-17 05:47:46
 title: Ritter und Zwerge
 description: 
 authors:
   - Marc Bielert
+category:
+  - warm-up
+source:
+  - unbekannt
+Schwierigkeit: einfach
+Material: Besenstiel
+Spieldauer: 5-10
+group-min: 8
+group-max: 20
 ---
 
 # Ritter und Zwerge

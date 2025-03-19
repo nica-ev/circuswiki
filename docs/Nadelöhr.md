@@ -1,6 +1,6 @@
 ---
 created: 2025-01-21 18:09:55
-update: 2025-02-23 21:55:03
+update: 2025-03-17 02:05:30
 publish: true
 tags:
   - spiele
@@ -8,6 +8,9 @@ title: Nadelöhr
 description: 
 authors:
   - Marc Bielert
+category:
+  - kreisspiel
+  - cool-down
 ---
 
 # Nadelöhr

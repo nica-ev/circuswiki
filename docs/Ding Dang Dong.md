@@ -3,11 +3,13 @@ publish: true
 tags:
   - spiele
 created: 2025-01-24 03:50:50
-update: 2025-01-24 05:00:53
+update: 2025-03-17 01:44:14
 title: Ding Dang Dong
 description: 
 authors:
   - Marc Bielert
+category:
+  - klatschspiel
 ---
 
 # Ding Dang Dong

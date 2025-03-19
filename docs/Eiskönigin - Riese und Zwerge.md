@@ -1,6 +1,6 @@
 ---
 created: 2025-01-21 18:09:55
-update: 2025-02-23 21:59:45
+update: 2025-03-17 01:56:36
 publish: true
 tags:
   - spiele
@@ -8,6 +8,8 @@ title: Eiskönigin - Riese und Zwerge
 description: 
 authors:
   - Marc Bielert
+category:
+  - Kooperation
 ---
 
 Eine Person steht mit dem Rücken zu den anderen da, hinter ihr liegt ein kleiner Gegenstand (z.b. ein Ball)
