@@ -1,6 +1,6 @@
 ---
 created: 2025-01-21 18:09:55
-update: 2025-03-17 00:24:30
+update: 2025-03-25 22:24:56
 publish: true
 tags:
   - moc
@@ -20,12 +20,11 @@ authors:
 [[release notes|Release Notes]]
 
 **Liste der zuletzt hinzugefügten Seiten**
-<!-- QueryToSerialize: Table authors, tags, created FROM "docs" SORT file.ctime DESC LIMIT 10 -->
-<!-- SerializedQuery: Table authors, tags, created FROM "docs" SORT file.ctime DESC LIMIT 10 -->
+<!-- QueryToSerialize: Table authors, tags, created FROM "docs" AND -"docs/blog" SORT file.ctime DESC LIMIT 10 -->
+<!-- SerializedQuery: Table authors, tags, created FROM "docs" AND -"docs/blog" SORT file.ctime DESC LIMIT 10 -->
 
 | File                                                                             | authors                        | tags                                 | created             |
 | -------------------------------------------------------------------------------- | ------------------------------ | ------------------------------------ | ------------------- |
-| [[Spiele - Datenkram]]                    | <ul><li>Marc Bielert</li></ul> | \-                                   | 2025-01-21 18:09:55 |
 | [[Inklusion-Spiele]]                                   | <ul><li>Marc Bielert</li></ul> | <ul><li>spiele</li><li>moc</li></ul> | 2025-03-17 03:04:12 |
 | [[Ohrfeigen und Küsse]]                             | <ul><li>Marc Bielert</li></ul> | <ul><li>spiele</li></ul>             | 2025-03-17 01:06:12 |
 | [[Schildkröten umdrehen]]                         | <ul><li>Marc Bielert</li></ul> | <ul><li>spiele</li></ul>             | 2025-03-17 01:02:50 |
@@ -35,4 +34,5 @@ authors:
 | [[Workshop Thema Piraten]]                       | <ul><li>Marc Bielert</li></ul> | \-                                   | 2025-03-17 00:18:32 |
 | [[Partnerübung Wurfjonglage Passing]] | <ul><li>Marc Bielert</li></ul> | <ul><li>jonglage</li></ul>           | 2025-03-17 00:16:06 |
 | [[Ägyptisches Wurfspiel]]                         | <ul><li>Marc Bielert</li></ul> | <ul><li>spiele</li></ul>             | 2025-03-17 00:14:12 |
+| [[Drunter und Drüber]]                               | <ul><li>Marc Bielert</li></ul> | <ul><li>spiele</li></ul>             | 2025-03-17 00:11:12 |
 <!-- SerializedQuery END -->

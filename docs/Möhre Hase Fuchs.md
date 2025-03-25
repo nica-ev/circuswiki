@@ -3,7 +3,7 @@ publish: true
 tags:
   - spiele
 created: 2025-01-25 01:38:42
-update: 2025-03-17 02:15:31
+update: 2025-03-25 20:34:19
 title: Möhre Hase Fuchs
 description: 
 authors:
@@ -12,35 +12,43 @@ category:
   - fangen
   - warm-up
   - bewegung
+Schwierigkeit: einfach
+Material: keines
+Spieldauer: "10"
+source: Tasifan Spielebuch
+group-min: 15
+group-max: 99
+todo: text inklusion
 ---
 
 # Möhre Hase Fuchs
 
-**Gruppengröße**: Ab 15 Mitspieler
-**Schwierigkeit**: recht einfach
-**Material**: keins
+> [!info]+ Kurzbeschreibung 
+> Ein bewegungsreiches Fangspiel für größere Gruppen, bei dem "Hasen" versuchen, "Möhren" in ihr Team zu holen, während "Füchse" dies durch Fangen verhindern.
+
+**Gruppengröße**: Ab 15 Mitspieler 
+**Schwierigkeit**: Recht einfach 
+**Material**: Keins 
 **Spieldauer**: 8 bis 12 Minuten
 
 ## **Spielbeschreibung**:
 
-Je nachdem wie viele mitspielen, werden ein, zwei oder drei Fänger - die Füchse - bestimmt. Der Rest wird in zwei gleichstarke Gruppen aufgeteilt, die sich zu zwei gegenüberliegenden Linien begeben. Die eine Gruppe wird zu Möhren und setzt sich mit nach vorne ausgestreckten Beinen hinter die Linie. Die andere Gruppe stellt die Hasen dar und warten hinter ihrer Linie auf das Startsignal. Startet das Spiel, versuchen die Hasen die Möhren an den Beinen über ihre Linie zu ziehen, denn dann wird eine Möhre auch zum Hasen. Die Füchse versuchen allerdings die Hasen zu fangen, wird ein Hase getippt, wird dieser zur Möhre und setzt sich wie die anderen Möhren hinter deren Linie. Hinter der Hasen- und hinter der Möhrenlinie sind die Hasen jedoch sicher und die Füchse können ihnen nichts anhaben.
+Zu Beginn werden ein bis drei Spieler als "Füchse" bestimmt. Die restlichen Spieler teilen sich in zwei Gruppen auf: "Hasen" und "Möhren." Die "Möhren" sitzen mit ausgestreckten Beinen hinter einer Linie. Die "Hasen" starten hinter einer gegenüberliegenden Linie.
+
+Das Ziel des Spiels ist es, dass die "Hasen" die "Möhren" in ihr Team holen. Dies kann auf zwei Arten geschehen:
+
+1. **Ziehen:** Die "Hasen" ziehen die "Möhren" an den Beinen über die Linie der "Hasen." Sobald eine "Möhre" über die Linie gezogen wurde, wird sie zu einem "Hasen."
+2. **Schubkarre:** Die "Hasen" transportieren die "Möhren" in einer umgedrehten Schubkarre über das Spielfeld zur gegenüberliegenden Seite. Wenn eine "Möhre" auf diese Weise die andere Seite erreicht, wird sie zu einem "Hasen."
+
+Die "Füchse" versuchen, die "Hasen" zu fangen. Wird ein "Hase" gefangen (auch während er eine "Möhre" zieht oder transportiert), verwandelt er sich in eine "Möhre" und muss sich hinter die Linie der "Möhren" setzen.
+
+Die "Hasen" sind sicher hinter ihrer eigenen Linie und hinter der Linie der "Möhren." Dort dürfen sie von den "Füchsen" nicht gefangen werden.
+
+Das Spiel endet, wenn:
+
+- Alle Spieler zu "Möhren" geworden sind (die "Füchse" haben gewonnen).
+- Alle Spieler zu "Hasen" geworden sind (die "Hasen" haben gewonnen).
 
 ## **Quelle**:
 
 Tasifan Spielebuch
-
-## Alternative Beschreibung
-
-1-2 Kinder sind Füchse
-ca. die Hälfte sind Hasen
-der Rest Möhren (sitzen auf dem Boden, Beine nach vorne)
-
-Die Hasen müssen die Möhren in einer umgedrehten Schubkarre über das Spielfeld auf die andere Seite befördern.
-Kommen sie dort an, verwandelt sich die Möhre in einen Hasen.
-
-Die Füchse versuchen die Hasen zu fangen. Das geht auch wenn die Hasen gerade eine Möhre ziehen.
-Erwischen die Füchse einen Hasen verwandelt sich der Hase in eine Möhre und muss zurück an den Anfang.
-
-sind keine Hasen mehr da haben die Füchse gewonnen,
-sind keine Möhren mehr da haben die Hasen gewonnen.
-

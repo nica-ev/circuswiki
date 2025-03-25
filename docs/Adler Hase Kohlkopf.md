@@ -3,7 +3,7 @@ publish: true
 tags:
   - spiele
 created: 2025-01-24 03:50:50
-update: 2025-03-17 02:13:54
+update: 2025-03-25 23:10:38
 title: Adler - Hase - Kohlkopf
 description: 
 authors:
@@ -29,7 +29,6 @@ Im Verlauf des Spieles können mehrere Adler-Hase Pärchen bestimmt werden, aber
 
 **Ähnliche Spiele**
 [[Möhre Hase Fuchs]]
-[[Fuchs, Hase, Möhre]]
 **Quelle**:
 
 Tasifan Spielebuch
