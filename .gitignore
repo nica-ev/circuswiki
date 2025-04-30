@@ -11,6 +11,7 @@ _sonstiges
 _system
 __project
 .pub_min_cache
+.cursor
 
 
 ## Ignore Visual Studio temporary files, build results, and
