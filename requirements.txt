@@ -1,0 +1,5 @@
+mkdocs
+mkdocs-material
+pymdown-extensions
+mkdocs-pub-minifier
+mkdocs-pub-obsidian

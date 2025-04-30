@@ -9,6 +9,7 @@ _templates
 _inbox
 _sonstiges
 _system
+__project
 .pub_min_cache
 
 
@@ -412,3 +413,26 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+# Added by Claude Task Master
+# Logs
+logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dev-debug.log
+# Dependency directories
+# Environment variables
+.env
+# Editor directories and files
+.idea
+.vscode
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+# OS specific
+.DS_Store
+# Task files
+tasks.json
+tasks/ 

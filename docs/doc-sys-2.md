@@ -2,10 +2,11 @@
 publish: true
 tags: 
 created: 2025-01-20 02:58:43
-update: 2025-02-06 07:28:12
+update: 2025-04-13 21:47:35
 title: Dokumentations-System
 authors:
   - Marc Bielert
+description:
 ---
 
 [[doc-sys-manifest|Manifest]]{ .md-button }
