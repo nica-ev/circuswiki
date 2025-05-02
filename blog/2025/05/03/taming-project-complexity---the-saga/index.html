@@ -6,19 +6,17 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Dokumentationen über Prozesse und Abläufe des Vereines NICA e.V.">
+        <meta name="description" content="The journey to effectively version a complex dev environment without polluting the main project repository.">
       
       
         <meta name="author" content="Marc Bielert">
       
       
-        <link rel="canonical" href="https://nica-ev.github.io/docs/blog/2025/03/18/spiele---datenkram/">
+        <link rel="canonical" href="https://nica-ev.github.io/docs/blog/2025/05/03/taming-project-complexity---the-saga/">
       
       
-        <link rel="prev" href="../../../02/25/zettelkasten-wiki-und-mehr---meine-motivation-f%C3%BCr-dieses-projekt/">
+        <link rel="prev" href="../../../03/18/spiele---datenkram/">
       
-      
-        <link rel="next" href="../../../05/03/taming-project-complexity---the-saga/">
       
       
       <link rel="icon" href="../../../../../img/nica-logo-simple-small-150x150.png">
@@ -26,7 +24,7 @@
     
     
       
-        <title>Spiele - Datenkram - NICA e.V. Documentation</title>
+        <title>Taming Project Complexity - The Saga - NICA e.V. Documentation</title>
       
     
     
@@ -94,7 +92,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#nicht-ganz-so-dynamische-tabellen" class="md-skip">
+        <a href="#taming-project-complexity-the-saga" class="md-skip">
           Skip to content
         </a>
       
@@ -129,7 +127,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Spiele - Datenkram
+              Taming Project Complexity - The Saga
             
           </span>
         </div>
@@ -694,6 +692,92 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#the-pain-point-when-gitignore-isnt-enough" class="md-nav__link">
+    <span class="md-ellipsis">
+      The Pain Point: When .gitignore Isn't Enough
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#searching-for-a-solution-the-failed-attempts" class="md-nav__link">
+    <span class="md-ellipsis">
+      Searching for a Solution: The Failed Attempts
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Searching for a Solution: The Failed Attempts">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#attempt-1-nested-repos-the-branch-switching-nightmare" class="md-nav__link">
+    <span class="md-ellipsis">
+      Attempt 1: Nested Repos - The Branch Switching Nightmare
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#attempt-2-separate-repos-git-hooks-the-copy-catastrophe" class="md-nav__link">
+    <span class="md-ellipsis">
+      Attempt 2: Separate Repos + Git Hooks - The Copy Catastrophe
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-breakthrough-separate-repos-file-synchronization" class="md-nav__link">
+    <span class="md-ellipsis">
+      The Breakthrough: Separate Repos + File Synchronization
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-remaining-catch-sync-vs-commit-timing" class="md-nav__link">
+    <span class="md-ellipsis">
+      The Remaining Catch: Sync vs. Commit Timing
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#who-is-this-for-important-clarification" class="md-nav__link">
+    <span class="md-ellipsis">
+      Who is This For? (Important Clarification)
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conclusion-a-hard-won-solution" class="md-nav__link">
+    <span class="md-ellipsis">
+      Conclusion: A Hard-Won Solution
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -748,7 +832,7 @@
                     <li class="md-nav__item">
                       <div class="md-nav__link">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 19H5V8h14m-3-7v2H8V1H6v2H5c-1.11 0-2 .89-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2h-1V1m-1 11h-5v5h5z"/></svg>
-                        <time datetime="2025-03-18 02:14:00+00:00" class="md-ellipsis">March 18, 2025</time>
+                        <time datetime="2025-05-03 11:00:00+00:00" class="md-ellipsis">May 3, 2025</time>
                       </div>
                     </li>
                     
@@ -760,7 +844,7 @@
                           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 20a8 8 0 0 0 8-8 8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8m0-18a10 10 0 0 1 10 10 10 10 0 0 1-10 10C6.47 22 2 17.5 2 12A10 10 0 0 1 12 2m.5 5v5.25l4.5 2.67-.75 1.23L11 13V7z"/></svg>
                           <span class="md-ellipsis">
                             
-                              4 min read
+                              6 min read
                             
                           </span>
                         </div>
@@ -787,42 +871,52 @@
   
 
 
-<p>Der erste große Content-Part sind die Spiele. Ich habe ca 170 Spielebeschreibungen welche in unterschiedlichster Art formatiert, geschrieben und zugänglich waren. Oft durch harte (statische) Links - welches das hinzufügen von neuen Spielen, oder auch das ändern der Struktur schwer machte.</p>
-<p>In einem ersten Schritt habe ich ein einheitliches Format gefunden, ...</p>
+<h1 id="taming-project-complexity-the-saga">Taming Project Complexity - The Saga<a class="headerlink" href="#taming-project-complexity-the-saga" title="Permanent link">&para;</a></h1>
+<p><strong>Versioning the Dev Environment Without Polluting Your Main Repo</strong></p>
+<p>As projects evolve, especially knowledge bases or documentation sites involving multiple tools like MkDocs, Obsidian, custom scripts, and specialized IDEs like Cursor, complexity naturally increases. Integrating these tools creates powerful workflows, but also introduces a new challenge: managing the growing number of configuration files, drafts, scripts, and planning documents that support the core project.</p>
+<h2 id="the-pain-point-when-gitignore-isnt-enough">The Pain Point: When <code>.gitignore</code> Isn't Enough<a class="headerlink" href="#the-pain-point-when-gitignore-isnt-enough" title="Permanent link">&para;</a></h2>
+<p>I recently hit a painful milestone many developers encounter: <strong>losing several hours of work</strong>. The culprit? Files crucial for my development workflow weren't under version control.</p>
 <!-- more -->
-<p>...in Anlehnung an Spielebeschreibungen aus dem  "Tasifan Spielebuch". Diese wurden ergänzt mit Kurzbeschreibungen, so das nun alle wichtigen Informationen schnell (und in einem Preview) sichtbar sind. </p>
-<p>Die wichtigste Neuerung kommt jedoch mit der Nutzung von Metadaten. "Gespeichert" sind diese am Anfang der Markdown Datei, in einem Format welches "YAML" oder Frontmatter genannt wird. <br />
-In diesem neuen Format werden nun alle wichtigen Informationen (z.B. Gruppengröße, Material, Zeit etc.) auch als Metadaten gespeichert und können an anderer Stelle genutzt werden.</p>
-<p>Um nun schnell ein Spiel zu finden, haben wir folgende Logik :<br />
-1. Als erstes entscheide ich mich für eine Kategorie, was für eine Art von Spiel soll es sein. Ist eis eher ein Cool-Down Spiel, ein Fangspiel, etwas zum kennenlernen und so weiter. Ich habe verschiedene Kategorien angelegt, diese können aber beliebig geändert oder erweitert werden - sie stellen im Moment nur einen Startpunkt dar.</p>
-<p>Als nächstes sehe ich eine Tabelle die alle Spiele die in diese Kategorie fallen, auflistet. Da diese Tabelle sehr lang werden kann, gibt es die Möglichkeit diese zu sortieren (durch Klicken auf die jeweiligen Kopfzeilen der Tabellen). In der Tabelle werden auch einige der Metadaten dargestellt, so das man auch z.B. nach der Spielzeit oder dem Schwierigkeitsgrad sortieren kann.</p>
-<p>Oft finden sich Spiele auch in mehreren Kategorien wieder.</p>
-<h1 id="nicht-ganz-so-dynamische-tabellen">Nicht ganz so dynamische Tabellen<a class="headerlink" href="#nicht-ganz-so-dynamische-tabellen" title="Permanent link">&para;</a></h1>
-<p>Wirklich nützlich wird das ganze im Zusammenspiel mit zwei Plugins die ich in Obsidian benutze. Diese sind "Dataview" und "Dataview Serializer".<br />
-Dataview erlaubt es dynamisch Listen oder Tabellen mit Datenbank ähnlichen Suchabfragen zu erstellen. Leider funktioniert dies nur innerhalb von Obisidan, da die zugrundeliegende Markdowndatei nicht genändert wird.</p>
-<p>Hier kommt das zweite Plugin ins Spiel. Es konvertiert eine solche, dynamisch erzeugte Tabelle in ein Makrdown Format und schreibt dies auch in die Datei.</p>
-<p>Wird nun die Webseite mittels MkDocs gebaut, sind es am Ende natürlich statische Tabellen, wurden aber sozusagen offline dynamisch erzeugt.</p>
-<p>Diese Suchabfragen können sehr komplex sein, und erlauben es mir Teile des Wikis gezielt zu durchsuchen bzw. anzuzeigen. Also z.b nur alle Spielebeschreibungen. Oder nur Artikel welche in der Vereinsdokumentation von einem bestimmten Autor geschrieben wurden.<br />
-Und da sie sich "updaten", macht es das einfügen neuer Information und das bauen einer Struktur die leicht zu navigieren ist, deutlich einfacher.</p>
-<p>Es hat jedoch auch einen Nachteil. Es ist leider nicht voll-automatisch. "Dataview Serializer" kann nur die Datei neu schreiben wenn diese in Obsidian gerade geöffnet ist. Im Moment geht das - um keine zu vergessen hat jede Seite die eine solche dynamische Tabelle oder Liste enthält, einen bestimmten Tag bekommen. Somit ist es einfach durch alle durchzugehen. Sollte die Zahl dieser Seiten jedoch deutlich steigen, müsste man schauen ob man das plugin umschreibt - es ist auf github verfügbar. Würde ich jedoch gerne vermeiden....</p>
-<h1 id="tools-und-sprachmodelle">Tools und Sprachmodelle<a class="headerlink" href="#tools-und-sprachmodelle" title="Permanent link">&para;</a></h1>
-<p>Da die originalen Spiele in unterschiedlichster Formatierung und Qualität vorlagen, habe ich Sprachmodelle genutzt um die Arbeit zu vereinfachen. Dazu habe ich gezielt einen Prompt geschrieben, inklusive Beispiel formatierungen. Dieser war darauf ausgelegt keine Änderungen an dem eigentlichen Inhalt vorzunehmen (auch keine Umformulierungen wenn möglich). Trotzdem habe ich natürlich die Ergebnisse einzeln geprüft und oft auch noch kleine Änderungen per Hand gemacht.</p>
-<p>Ich kann das nicht oft genug sagen - wenn man diese Tools auf die richtige Weise nutzt hilft das unglaublich. Man muss nur sehr genau und exakt sein, indem wie man seine Aufgaben formuliert.</p>
-<p>Die letztlichen Änderungen sind lediglich Formatierungen. Die Art wie die Informationen und Spielbeschreibungen dargestellt werden.</p>
-<p>Die Metadaten habe ich allerdings alle per Hand eingegeben. Da ich sowieso alles hätte doppelt checken müssen, ging das so schneller.</p>
-<p>Trotz alledem ein langsamer Prozess. So nebenbei komme ich vieleicht auf 10-15 Spiele pro Tag... Das dauert ein bissel.</p>
-<h2 id="probleme">Probleme<a class="headerlink" href="#probleme" title="Permanent link">&para;</a></h2>
-<p>Ich sehe ein mögliches Problem mit Übersetzungen. Insbesondere da die Suchanfragen ja angepasst werden müssten (da sie dann ja die sprach-spezifische Variante finden soll). Das kann man händisch lösen solange es eine überschaubare Anzahl an dynamischen Seiten gibt. <br />
-Auch hier gilt wieder - wächst das ganze muss man schauen wie man das automatisieren kann.</p>
-<p>Übersetzung ist technisch tatsächlich ein komplexes Thema, welches ich ein anderes Mal aufgreifen werde.</p>
-<h1 id="was-ist-nun-der-vorteil-warum-die-ganze-arbeit">Was ist nun der Vorteil ? Warum die ganze Arbeit ?<a class="headerlink" href="#was-ist-nun-der-vorteil-warum-die-ganze-arbeit" title="Permanent link">&para;</a></h1>
-<p>Das System kann besser skalieren.</p>
-<h1 id="was-ist-sonst-neu">Was ist sonst neu...<a class="headerlink" href="#was-ist-sonst-neu" title="Permanent link">&para;</a></h1>
-<p>Die Suchfunktion hat ein paar "Upgrades" bekommen.<br />
-Sie beherrscht nun Autovervollständigung - diese zeigt, abhängig von den bereits eingegenem Text die Suchanfrage die die häufigsten Treffer erhält. Dies ist nicht abhängig von Nutzereingaben - wir tracken keine Suchanfragen oder nutzen diese um die Suche zu beeinflussen.<br />
-Der Algorithmus basiert nur auf der statischen Suchdatenbank. Diese wird bei Erstellung der Seite mittels MkDocs automatisch erzeugt.</p>
-<p>Zudem kann man seine Anfrage (und somit die Ergebnisse) "speichern" indem man auf ein kleines Symbol auf der rechten Seite der Suchleiste klickt. Dies updated den Link im Browser. Speichert man diesen und ruft ihn erneut auf, bekommt man genau diese Suchanfrage.<br />
-Das ist eher ein kleines Gimmick - könnte aber interessant werden wenn das Wiki deutlich wächst und sehr unterschiedliche Themenbereiche abdeckt.</p>
+<p>Like many, I wanted to keep my public-facing GitHub repository clean. For my project "docs-nica", this meant committing only the core Markdown content and the essential MkDocs files needed to build the website. Everything else – my Obsidian vault configuration, Cursor settings, draft translation scripts, task planning notes – was diligently listed in <code>.gitignore</code>. This kept the main repo tidy, but it left my vital development scaffolding unprotected.</p>
+<p>This wake-up call happened relatively early, thankfully. While working on integrating translation tools and planning the workflow using notes within my project structure, a mishap overwrote significant planning work. Frustrating, yes, but a valuable lesson learned before the stakes got higher.</p>
+<h2 id="searching-for-a-solution-the-failed-attempts">Searching for a Solution: The Failed Attempts<a class="headerlink" href="#searching-for-a-solution-the-failed-attempts" title="Permanent link">&para;</a></h2>
+<p>My initial ideas revolved around using Git itself more cleverly, but I ran into roadblocks.</p>
+<h3 id="attempt-1-nested-repos-the-branch-switching-nightmare">Attempt 1: Nested Repos - The Branch Switching Nightmare<a class="headerlink" href="#attempt-1-nested-repos-the-branch-switching-nightmare" title="Permanent link">&para;</a></h3>
+<p>My first thought was to explore ways to have multiple Git histories within the same project directory, perhaps using nested repositories. The idea was to have a top-level "dev" repository tracking <em>everything</em> (IDE settings, drafts, the inner repo's files) while the inner "public" repository contained only the clean, deployable project files. The outer repo would ignore the inner repo's <code>.git</code> directory.</p>
+<p>In theory, this sounded like a neat layered approach. However, when I actually tried to set this up, I very soon realized this wasn't working. First off, Git doesn't really support nested repos, at least not the way I envisioned it. And it makes sense. There is a caveat that I hadn't thought about: Let's say I am working in the inner repo (<code>docs-nica</code>) and switch to a different branch. Now all the files in that folder change (to reflect the branch) - but the outer repo (<code>docs-nica-dev</code>) is still on its main branch. The outer repo now sees all these file changes and thinks <em>they</em> are changes to <em>its</em> main branch... It's clearly visible why this is an issue. Okay, so this approach wasn't working.</p>
+<h3 id="attempt-2-separate-repos-git-hooks-the-copy-catastrophe">Attempt 2: Separate Repos + Git Hooks - The Copy Catastrophe<a class="headerlink" href="#attempt-2-separate-repos-git-hooks-the-copy-catastrophe" title="Permanent link">&para;</a></h3>
+<p>Back to the drawing board. My next idea was having two repositories completely separate. A <code>dev</code> one that contains everything I need (scripts, notes, configs, <em>and</em> the core project files). And a <code>public</code> one that only contains the markdown content and the MkDocs setup – just the bare-bones, the way it's intended for deployment.</p>
+<p>But here comes the catch: if we change something in the <code>public</code> repo (maybe a quick fix directly there, or pulling collaborators' changes), how should the <code>dev</code> repo know about this? And more commonly, how do changes in <code>dev</code> get reflected in <code>public</code>? We need some way to link them.</p>
+<p>The first idea was to use GitHub hooks (or local Git hooks). These let you define commands to run after certain Git actions, like a commit. I set up a hook that, after a commit in the <code>dev</code> repo, would basically just copy the relevant files (the <code>docs/</code> folder, <code>mkdocs.yml</code>, etc.) over to the <code>public</code> repo directory.</p>
+<p>It seemed to work at first glance, but this approach had two main issues:</p>
+<ol>
+<li><strong>Noisy History:</strong> The hook copied <em>all</em> relevant files on <em>each</em> commit. This meant that the <code>public</code> repo always thought that <em>all</em> its content had changed. While technically not breaking anything, the commit history became less useful, showing hundreds (or thousands) of files changed in every single commit, making it impossible to instantly pinpoint which file <em>contents</em> really changed.</li>
+<li><strong>Deletion Blindness:</strong> The script just <em>copied</em> files. If I deleted a file or folder in the <code>dev</code> repo, this change wouldn't get reflected in the <code>public</code> repo. The old file would just linger there.</li>
+</ol>
+<p>Damn, already spent hours on this – and still no working solution.</p>
+<h2 id="the-breakthrough-separate-repos-file-synchronization">The Breakthrough: Separate Repos + File Synchronization<a class="headerlink" href="#the-breakthrough-separate-repos-file-synchronization" title="Permanent link">&para;</a></h2>
+<p>Then I remembered an open-source software that I'd tested a long time ago for syncing local folders: <strong>FreeFileSync</strong>. While it's unfortunate to add another set of tools/software to the stack that's needed, it actually accomplished exactly what I wanted.</p>
+<p>The setup now involves:</p>
+<ol>
+<li>Two separate Git repositories: <code>docs-nica-dev</code> (containing everything) and <code>docs-nica</code> (the clean, public version).</li>
+<li><strong>FreeFileSync:</strong> Used to define the rules for how to synchronize the specific folders (like <code>docs/</code>, theme files, <code>mkdocs.yml</code>) between the two repository locations. It can handle two-way syncs, mirroring, and crucially, propagating deletions correctly.</li>
+<li><strong>RealTimeSync (part of FreeFileSync):</strong> Used to monitor the defined folders for changes and trigger the synchronization automatically based on the FreeFileSync rules.</li>
+</ol>
+<p>This combination finally bridges the gap between the two repositories effectively. Changes made in the <code>dev</code> repo's core content folders are mirrored to the <code>public</code> repo, and vice-versa if needed (though my primary flow is dev -&gt; public). Deletions are handled correctly, and because it syncs only <em>changed</em> files, the commit history in the <code>public</code> repo accurately reflects actual modifications.</p>
+<h2 id="the-remaining-catch-sync-vs-commit-timing">The Remaining Catch: Sync vs. Commit Timing<a class="headerlink" href="#the-remaining-catch-sync-vs-commit-timing" title="Permanent link">&para;</a></h2>
+<p>There is still one downside, though. When I change a file in the <code>dev</code> repo, and RealTimeSync is running, those changes are synced to the <code>public</code> repo's directory <em>immediately</em>, even if not committed in the <code>dev</code> repo yet. The sync solution is decoupled from Git.</p>
+<p>It's not a super big deal, but it requires a bit more carefulness when actually committing and pushing changes. Basically, when I work on the <code>dev</code> repo, I need to make sure to commit everything there <em>before</em> I switch focus to the <code>public</code> repo to commit and push. Also, it reinforces the habit of <em>really reviewing the changes</em> staged for commit in the <code>public</code> repo before actually committing and pushing, just to ensure the state is exactly what I intend it to be.</p>
+<h2 id="who-is-this-for-important-clarification">Who is This For? (Important Clarification)<a class="headerlink" href="#who-is-this-for-important-clarification" title="Permanent link">&para;</a></h2>
+<p>Hold on, though – before you think this whole setup is mandatory just to use the wiki, let me clarify. <strong>All this complexity? It's <em>not</em> needed if you just want to work with the core content.</strong> The main entry point is still super simple: clone the public <code>docs-nica</code> repo (which just has the Markdown files and the MkDocs setup) and use whatever tools <em>you</em> prefer. That's it.</p>
+<p>So, why did I go through all this trouble? This rather complex dev setup serves two main purposes for <em>me</em>:</p>
+<ol>
+<li><strong>My Personal Safety Net:</strong> It's crucial version control for <em>all</em> my development bits and pieces – the configurations, the half-finished scripts, the planning notes – stuff I can't afford to lose again.</li>
+<li><strong>Sharing My Exact Workflow (Optionally):</strong> If someone <em>wants</em> to replicate my specific environment, they can clone the <code>docs-nica-dev</code> repo. They'll get my complete Obsidian setup (plugins, settings, bookmarks, searches, the works!), potentially Cursor settings, and any other integrated tools I've configured. It's a way to share a ready-to-go base setup.</li>
+</ol>
+<p>But the fundamental idea hasn't changed: you can absolutely grab just the public repo and build your own workflow around it with your favorite tools. This elaborate dance is about managing <em>my</em> development chaos and offering a blueprint for those who want it.</p>
+<h2 id="conclusion-a-hard-won-solution">Conclusion: A Hard-Won Solution<a class="headerlink" href="#conclusion-a-hard-won-solution" title="Permanent link">&para;</a></h2>
+<p>Overall, I am happy that I found a solution to the issue now – even though this did cost me like two days of trial, error, and frustration. But getting this workflow right was crucial to avoid further issues down the line, ensuring both a clean public repository and a fully version-controlled development environment.</p>
+<p>Is this setup perfect? It requires managing two repositories and an external synchronization tool, plus a conscious workflow for committing. However, it directly solves the critical problem of versioning <em>everything</em> necessary for a complex development process without compromising the cleanliness of the main project repository or fighting Git's limitations with nested structures. For projects that outgrow simple <code>.gitignore</code> strategies, this approach offers a pragmatic path forward, providing safety and structure for the inevitable, messy reality of development work.</p>
 
 
 
