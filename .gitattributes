@@ -1,0 +1,2 @@
+# Auto detect text files and ensure they use LF endings in the repo
+* text=auto eol=lf
