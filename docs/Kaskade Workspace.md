@@ -1,6 +1,6 @@
 ---
 created: 2025-01-21 18:09:55
-update: 2025-03-17 00:24:39
+update: 2025-05-03 23:22:16
 publish: draft
 tags:
   - moc
@@ -51,9 +51,9 @@ authors:
 <!-- QueryToSerialize: LIST FROM "docs" WHERE contains(file.tags, "kaskade") AND (type = "Magazin") -->
 <!-- SerializedQuery: LIST FROM "docs" WHERE contains(file.tags, "kaskade") AND (type = "Magazin") -->
 - [[Kaskade 001]]
+- [[Kaskade 004]]
 - [[Kaskade 002]]
 - [[Kaskade 003]]
-- [[Kaskade 004]]
 - [[Kaskade 005]]
 <!-- SerializedQuery END -->
 
@@ -69,8 +69,8 @@ authors:
 | [[Die Säulen-Seite]]                                 | <ul><li>Dr. P. Luftiko</li></ul>                  | Tutorial | Bälle    | Kaskade 001 |
 | [[Eine neue Zeitschrift für Europa]] | <ul><li>Gabi Keaton</li><li>Paul Keaton</li></ul> | Artikel  | \-       | Kaskade 001 |
 | [[Lächeln überwindet Schwerkraft]]     | <ul><li>Toby Philpott</li></ul>                   | Artikel  | \-       | Kaskade 001 |
-| [[Schwerkraft - na und!]]                       | <ul><li>Christoph Schmitt</li></ul>               | Artikel  | \-       | Kaskade 001 |
 | [[Schummeln!]]                                             | <ul><li>Dr. P. Luftiko</li></ul>                  | Tutorial | Bälle    | Kaskade 001 |
+| [[Schwerkraft - na und!]]                       | <ul><li>Christoph Schmitt</li></ul>               | Artikel  | \-       | Kaskade 001 |
 | [[Zirkus gesucht!]]                                   | <ul><li>Kattrin & Uli</li></ul>                   | Artikel  | \-       | Kaskade 001 |
 <!-- SerializedQuery END -->
 

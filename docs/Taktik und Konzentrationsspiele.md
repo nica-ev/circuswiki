@@ -1,6 +1,6 @@
 ---
 created: 2025-01-24 03:50:51
-update: 2025-03-17 05:55:38
+update: 2025-05-03 23:24:46
 publish: true
 tags:
   - spiele
@@ -20,8 +20,8 @@ authors:
 | File                                                                   | group-min | group-max | Schwierigkeit | Material | Spieldauer | category                                   |
 | ---------------------------------------------------------------------- | --------- | --------- | ------------- | -------- | ---------- | ------------------------------------------ |
 | [[Ass Zwei Drei - Kartenfangen]] | \-        | \-        | \-            | \-       | \-         | <ul><li>Taktik</li></ul>                   |
-| [[Menschenhalma]]                               | \-        | \-        | \-            | \-       | \-         | <ul><li>Taktik</li><li>cool-down</li></ul> |
 | [[Menschenziehen]]                             | \-        | \-        | \-            | \-       | \-         | <ul><li>Taktik</li></ul>                   |
+| [[Menschenhalma]]                               | \-        | \-        | \-            | \-       | \-         | <ul><li>Taktik</li><li>cool-down</li></ul> |
 | [[Mörderspiel]]                                   | \-        | \-        | \-            | \-       | \-         | <ul><li>Taktik</li><li>cool-down</li></ul> |
 | [[Schach]]                                             | \-        | \-        | \-            | \-       | \-         | <ul><li>Taktik</li><li>cool-down</li></ul> |
 <!-- SerializedQuery END -->

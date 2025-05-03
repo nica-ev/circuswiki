@@ -5,7 +5,7 @@ tags:
   - moc
   - dynamic
 created: 2025-01-24 03:50:50
-update: 2025-03-17 05:54:42
+update: 2025-05-03 23:21:38
 title: Cooldown Spiele
 description: 
 authors:
@@ -29,8 +29,8 @@ authors:
 | [[Menschenhalma]]                                                   | \-        | \-        | \-            | \-       | \-         | <ul><li>Taktik</li><li>cool-down</li></ul>     |
 | [[Mörderspiel]]                                                       | \-        | \-        | \-            | \-       | \-         | <ul><li>Taktik</li><li>cool-down</li></ul>     |
 | [[Nadelöhr]]                                                             | \-        | \-        | \-            | \-       | \-         | <ul><li>kreisspiel</li><li>cool-down</li></ul> |
-| [[Roboter]]                                                               | \-        | \-        | \-            | \-       | \-         | <ul><li>cool-down</li></ul>                    |
 | [[Schach]]                                                                 | \-        | \-        | \-            | \-       | \-         | <ul><li>Taktik</li><li>cool-down</li></ul>     |
+| [[Roboter]]                                                               | \-        | \-        | \-            | \-       | \-         | <ul><li>cool-down</li></ul>                    |
 | [[Zip Zap]]                                                               | \-        | \-        | \-            | \-       | \-         | <ul><li>cool-down</li></ul>                    |
-| [[Zungenmörder]]                                                     | \-        | \-        | \-            | \-       | \-         | <ul><li>cool-down</li><li>kreisspiel</li></ul> |
+| [[Zungenmörder]]                                                     | 10        | 30        | mittel        | keines   | 5 - 10     | <ul><li>cool-down</li><li>kreisspiel</li></ul> |
 <!-- SerializedQuery END -->

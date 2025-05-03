@@ -5,7 +5,7 @@ tags:
   - moc
   - dynamic
 created: 2025-01-24 03:50:51
-update: 2025-03-17 05:55:26
+update: 2025-05-03 23:23:05
 title: Schnelligkeit+Reaktionsspiele
 description: 
 authors:
@@ -25,8 +25,8 @@ authors:
 | [[Die stampfende Bank]]                   | \-        | \-        | \-            | \-       | \-         | <ul><li>action</li></ul>                                |
 | [[Hände abklatschen]]                       | \-        | \-        | \-            | \-       | \-         | <ul><li>action</li></ul>                                |
 | [[Kissenrennen]]                                 | \-        | \-        | \-            | \-       | \-         | <ul><li>action</li></ul>                                |
-| [[Komm mit, lauf weg]]                     | \-        | \-        | \-            | \-       | \-         | <ul><li>fangen</li><li>warm-up</li><li>action</li></ul> |
 | [[Kommando]]                                         | \-        | \-        | \-            | \-       | \-         | <ul><li>action</li></ul>                                |
+| [[Komm mit, lauf weg]]                     | 5         | 99        | einfach       | keines   | 5 - 15     | <ul><li>fangen</li><li>warm-up</li><li>action</li></ul> |
 | [[Stehbock-Laufbock]]                       | \-        | \-        | \-            | \-       | \-         | <ul><li>action</li></ul>                                |
 | [[Stierkampf - Tatonga]]                 | \-        | \-        | \-            | \-       | \-         | <ul><li>action</li><li>kreisspiel</li></ul>             |
 | [[Team Schnick-Schnack-Schnuck]] | \-        | \-        | \-            | \-       | \-         | <ul><li>action</li></ul>                                |
