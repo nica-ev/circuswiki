@@ -1,12 +1,12 @@
 # Project information
-site_name: NICA e.V. Documentation
-site_url: https://nica-ev.github.io/docs/
+site_name: CircusWiki
+site_url: https://nica-ev.github.io/circuswiki/
 site_author: Marc Bielert
-site_description: Dokumentationen über Prozesse und Abläufe des Vereines NICA e.V.
+site_description: A wiki, dedicated to circus pedagogy, arts, education and similar topics
 
 # Repository
 repo_name: nica-ev/circuswiki
-repo_url: https://github.com/nica-ev/docs
+repo_url: https://github.com/nica-ev/circuswiki
 
 # Copyright
 copyright: CC-BY-SA 4.0 <a href="#__consent">Change cookie settings</a>
