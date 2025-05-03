@@ -1,6 +1,6 @@
 ---
 created: 2025-05-02 04:37:37
-update: 2025-05-03 01:14:21
+update: 2025-05-03 02:42:15
 date: 2025-05-03T11:00:00
 publish: true
 tags: []
@@ -14,12 +14,12 @@ authors:
 **Versioning the Dev Environment Without Polluting Your Main Repo**
 
 As projects evolve, especially knowledge bases or documentation sites involving multiple tools like MkDocs, Obsidian, custom scripts, and specialized IDEs like Cursor, complexity naturally increases. Integrating these tools creates powerful workflows, but also introduces a new challenge: managing the growing number of configuration files, drafts, scripts, and planning documents that support the core project.
-
+<!-- more -->
 ## The Pain Point: When `.gitignore` Isn't Enough
 
 I recently hit a painful milestone many developers encounter: **losing several hours of work**. The culprit? Files crucial for my development workflow weren't under version control.
-<!-- more -->
-Like many, I wanted to keep my public-facing GitHub repository clean. For my project "docs-nica", this meant committing only the core Markdown content and the essential MkDocs files needed to build the website. Everything else – my Obsidian vault configuration, Cursor settings, draft translation scripts, task planning notes – was diligently listed in `.gitignore`. This kept the main repo tidy, but it left my vital development scaffolding unprotected.
+
+Like many, I wanted to keep my public-facing GitHub repository clean. For this project, this meant committing only the core Markdown content and the essential MkDocs files needed to build the website. Everything else – my Obsidian vault configuration, Cursor settings, draft translation scripts, task planning notes – was diligently listed in `.gitignore`. This kept the main repo tidy, but it left my vital development scaffolding unprotected.
 
 This wake-up call happened relatively early, thankfully. While working on integrating translation tools and planning the workflow using notes within my project structure, a mishap overwrote significant planning work. Frustrating, yes, but a valuable lesson learned before the stakes got higher.
 
