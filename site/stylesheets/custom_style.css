@@ -1,0 +1,53 @@
+:root {
+  --background-image: url("nica-background.jpg");
+  --background-color: rgb(0, 0, 0);
+  --background-size: cover;
+  --background-repeat: no-repeat;
+}
+
+.md-typeset h1, .md-typeset h2 {
+    color: black !important;
+  }
+
+.md-typeset a {
+    text-decoration: underline;
+  }
+
+.md-sidebar__inner { 
+    background-color: #ffffff;
+}
+
+
+.md-header {
+ /* background-image: var(--background-image);
+  background-color: var(--background-color);
+  background-size: var(--background-size);
+  background-repeat: var(--background-repeat);
+  mix-blend-mode: var(--mix-blend-mode);
+  background-position: 0 0;  */
+  background-color: rgba(0, 0, 0, 0);
+  background-size: var(--background-size);
+  background-repeat: var(--background-repeat);
+  background-image: var(--background-image);
+}
+
+
+/*
+.md-header__inner {
+  background-color: #000000dd;
+  margin: 0px;
+  margin-right: 0px;
+  padding: 0px;
+}
+*/
+
+.md-main, .md-content {
+  background-color: #ffffff11;
+}
+
+.md-container {
+
+}
+
+.md-nav__link {
+}
