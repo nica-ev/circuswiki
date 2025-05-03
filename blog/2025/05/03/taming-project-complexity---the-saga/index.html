@@ -15,7 +15,7 @@
         <link rel="canonical" href="https://nica-ev.github.io/docs/blog/2025/05/03/taming-project-complexity---the-saga/">
       
       
-        <link rel="prev" href="../../../03/18/spiele---datenkram/">
+        <link rel="prev" href="../../../03/18/games---the-data-side/">
       
       
       
@@ -874,10 +874,10 @@
 <h1 id="taming-project-complexity-the-saga">Taming Project Complexity - The Saga<a class="headerlink" href="#taming-project-complexity-the-saga" title="Permanent link">&para;</a></h1>
 <p><strong>Versioning the Dev Environment Without Polluting Your Main Repo</strong></p>
 <p>As projects evolve, especially knowledge bases or documentation sites involving multiple tools like MkDocs, Obsidian, custom scripts, and specialized IDEs like Cursor, complexity naturally increases. Integrating these tools creates powerful workflows, but also introduces a new challenge: managing the growing number of configuration files, drafts, scripts, and planning documents that support the core project.</p>
+<!-- more -->
 <h2 id="the-pain-point-when-gitignore-isnt-enough">The Pain Point: When <code>.gitignore</code> Isn't Enough<a class="headerlink" href="#the-pain-point-when-gitignore-isnt-enough" title="Permanent link">&para;</a></h2>
 <p>I recently hit a painful milestone many developers encounter: <strong>losing several hours of work</strong>. The culprit? Files crucial for my development workflow weren't under version control.</p>
-<!-- more -->
-<p>Like many, I wanted to keep my public-facing GitHub repository clean. For my project "docs-nica", this meant committing only the core Markdown content and the essential MkDocs files needed to build the website. Everything else – my Obsidian vault configuration, Cursor settings, draft translation scripts, task planning notes – was diligently listed in <code>.gitignore</code>. This kept the main repo tidy, but it left my vital development scaffolding unprotected.</p>
+<p>Like many, I wanted to keep my public-facing GitHub repository clean. For this project, this meant committing only the core Markdown content and the essential MkDocs files needed to build the website. Everything else – my Obsidian vault configuration, Cursor settings, draft translation scripts, task planning notes – was diligently listed in <code>.gitignore</code>. This kept the main repo tidy, but it left my vital development scaffolding unprotected.</p>
 <p>This wake-up call happened relatively early, thankfully. While working on integrating translation tools and planning the workflow using notes within my project structure, a mishap overwrote significant planning work. Frustrating, yes, but a valuable lesson learned before the stakes got higher.</p>
 <h2 id="searching-for-a-solution-the-failed-attempts">Searching for a Solution: The Failed Attempts<a class="headerlink" href="#searching-for-a-solution-the-failed-attempts" title="Permanent link">&para;</a></h2>
 <p>My initial ideas revolved around using Git itself more cleverly, but I ran into roadblocks.</p>

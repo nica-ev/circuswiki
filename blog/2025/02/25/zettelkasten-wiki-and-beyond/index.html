@@ -12,13 +12,11 @@
         <meta name="author" content="Marc Bielert">
       
       
-        <link rel="canonical" href="https://nica-ev.github.io/docs/blog/2025/03/18/spiele---datenkram/">
+        <link rel="canonical" href="https://nica-ev.github.io/docs/blog/2025/02/25/zettelkasten-wiki-and-beyond/">
       
       
-        <link rel="prev" href="../../../02/25/zettelkasten-wiki-und-mehr---meine-motivation-f%C3%BCr-dieses-projekt/">
       
-      
-        <link rel="next" href="../../../05/03/taming-project-complexity---the-saga/">
+        <link rel="next" href="../../../03/18/games---the-data-side/">
       
       
       <link rel="icon" href="../../../../../img/nica-logo-simple-small-150x150.png">
@@ -26,7 +24,7 @@
     
     
       
-        <title>Spiele - Datenkram - NICA e.V. Documentation</title>
+        <title>Zettelkasten, Wiki, and Beyond - NICA e.V. Documentation</title>
       
     
     
@@ -94,7 +92,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#nicht-ganz-so-dynamische-tabellen" class="md-skip">
+        <a href="#zettelkasten-wiki-and-beyond" class="md-skip">
           Skip to content
         </a>
       
@@ -129,7 +127,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Spiele - Datenkram
+              Zettelkasten, Wiki, and Beyond
             
           </span>
         </div>
@@ -694,6 +692,56 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#collaboration-and-sharing" class="md-nav__link">
+    <span class="md-ellipsis">
+      Collaboration and Sharing
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Collaboration and Sharing">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#key-considerations-and-questions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Key Considerations and Questions
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#my-current-solution-for-the-website" class="md-nav__link">
+    <span class="md-ellipsis">
+      My Current Solution for the Website
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#collaboration" class="md-nav__link">
+    <span class="md-ellipsis">
+      Collaboration
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -748,7 +796,7 @@
                     <li class="md-nav__item">
                       <div class="md-nav__link">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 19H5V8h14m-3-7v2H8V1H6v2H5c-1.11 0-2 .89-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2h-1V1m-1 11h-5v5h5z"/></svg>
-                        <time datetime="2025-03-18 02:14:00+00:00" class="md-ellipsis">March 18, 2025</time>
+                        <time datetime="2025-02-25 02:14:00+00:00" class="md-ellipsis">February 25, 2025</time>
                       </div>
                     </li>
                     
@@ -760,7 +808,7 @@
                           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 20a8 8 0 0 0 8-8 8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8m0-18a10 10 0 0 1 10 10 10 10 0 0 1-10 10C6.47 22 2 17.5 2 12A10 10 0 0 1 12 2m.5 5v5.25l4.5 2.67-.75 1.23L11 13V7z"/></svg>
                           <span class="md-ellipsis">
                             
-                              4 min read
+                              3 min read
                             
                           </span>
                         </div>
@@ -787,42 +835,38 @@
   
 
 
-<p>Der erste große Content-Part sind die Spiele. Ich habe ca 170 Spielebeschreibungen welche in unterschiedlichster Art formatiert, geschrieben und zugänglich waren. Oft durch harte (statische) Links - welches das hinzufügen von neuen Spielen, oder auch das ändern der Struktur schwer machte.</p>
-<p>In einem ersten Schritt habe ich ein einheitliches Format gefunden, ...</p>
+<h1 id="zettelkasten-wiki-and-beyond"><strong>Zettelkasten, Wiki, and Beyond</strong><a class="headerlink" href="#zettelkasten-wiki-and-beyond" title="Permanent link">&para;</a></h1>
+<p><strong>Why I started this project, the ideas behind it, and where it might lead.</strong></p>
+<p>In 2013, I worked as a project manager for a youth circus. Trainers often came to me asking if I knew other games, methods, or tricks. At the time, I had plenty of resources—books, magazines, notes from workshops—but everything was disorganized and barely digitized.  </p>
 <!-- more -->
-<p>...in Anlehnung an Spielebeschreibungen aus dem  "Tasifan Spielebuch". Diese wurden ergänzt mit Kurzbeschreibungen, so das nun alle wichtigen Informationen schnell (und in einem Preview) sichtbar sind. </p>
-<p>Die wichtigste Neuerung kommt jedoch mit der Nutzung von Metadaten. "Gespeichert" sind diese am Anfang der Markdown Datei, in einem Format welches "YAML" oder Frontmatter genannt wird. <br />
-In diesem neuen Format werden nun alle wichtigen Informationen (z.B. Gruppengröße, Material, Zeit etc.) auch als Metadaten gespeichert und können an anderer Stelle genutzt werden.</p>
-<p>Um nun schnell ein Spiel zu finden, haben wir folgende Logik :<br />
-1. Als erstes entscheide ich mich für eine Kategorie, was für eine Art von Spiel soll es sein. Ist eis eher ein Cool-Down Spiel, ein Fangspiel, etwas zum kennenlernen und so weiter. Ich habe verschiedene Kategorien angelegt, diese können aber beliebig geändert oder erweitert werden - sie stellen im Moment nur einen Startpunkt dar.</p>
-<p>Als nächstes sehe ich eine Tabelle die alle Spiele die in diese Kategorie fallen, auflistet. Da diese Tabelle sehr lang werden kann, gibt es die Möglichkeit diese zu sortieren (durch Klicken auf die jeweiligen Kopfzeilen der Tabellen). In der Tabelle werden auch einige der Metadaten dargestellt, so das man auch z.B. nach der Spielzeit oder dem Schwierigkeitsgrad sortieren kann.</p>
-<p>Oft finden sich Spiele auch in mehreren Kategorien wieder.</p>
-<h1 id="nicht-ganz-so-dynamische-tabellen">Nicht ganz so dynamische Tabellen<a class="headerlink" href="#nicht-ganz-so-dynamische-tabellen" title="Permanent link">&para;</a></h1>
-<p>Wirklich nützlich wird das ganze im Zusammenspiel mit zwei Plugins die ich in Obsidian benutze. Diese sind "Dataview" und "Dataview Serializer".<br />
-Dataview erlaubt es dynamisch Listen oder Tabellen mit Datenbank ähnlichen Suchabfragen zu erstellen. Leider funktioniert dies nur innerhalb von Obisidan, da die zugrundeliegende Markdowndatei nicht genändert wird.</p>
-<p>Hier kommt das zweite Plugin ins Spiel. Es konvertiert eine solche, dynamisch erzeugte Tabelle in ein Makrdown Format und schreibt dies auch in die Datei.</p>
-<p>Wird nun die Webseite mittels MkDocs gebaut, sind es am Ende natürlich statische Tabellen, wurden aber sozusagen offline dynamisch erzeugt.</p>
-<p>Diese Suchabfragen können sehr komplex sein, und erlauben es mir Teile des Wikis gezielt zu durchsuchen bzw. anzuzeigen. Also z.b nur alle Spielebeschreibungen. Oder nur Artikel welche in der Vereinsdokumentation von einem bestimmten Autor geschrieben wurden.<br />
-Und da sie sich "updaten", macht es das einfügen neuer Information und das bauen einer Struktur die leicht zu navigieren ist, deutlich einfacher.</p>
-<p>Es hat jedoch auch einen Nachteil. Es ist leider nicht voll-automatisch. "Dataview Serializer" kann nur die Datei neu schreiben wenn diese in Obsidian gerade geöffnet ist. Im Moment geht das - um keine zu vergessen hat jede Seite die eine solche dynamische Tabelle oder Liste enthält, einen bestimmten Tag bekommen. Somit ist es einfach durch alle durchzugehen. Sollte die Zahl dieser Seiten jedoch deutlich steigen, müsste man schauen ob man das plugin umschreibt - es ist auf github verfügbar. Würde ich jedoch gerne vermeiden....</p>
-<h1 id="tools-und-sprachmodelle">Tools und Sprachmodelle<a class="headerlink" href="#tools-und-sprachmodelle" title="Permanent link">&para;</a></h1>
-<p>Da die originalen Spiele in unterschiedlichster Formatierung und Qualität vorlagen, habe ich Sprachmodelle genutzt um die Arbeit zu vereinfachen. Dazu habe ich gezielt einen Prompt geschrieben, inklusive Beispiel formatierungen. Dieser war darauf ausgelegt keine Änderungen an dem eigentlichen Inhalt vorzunehmen (auch keine Umformulierungen wenn möglich). Trotzdem habe ich natürlich die Ergebnisse einzeln geprüft und oft auch noch kleine Änderungen per Hand gemacht.</p>
-<p>Ich kann das nicht oft genug sagen - wenn man diese Tools auf die richtige Weise nutzt hilft das unglaublich. Man muss nur sehr genau und exakt sein, indem wie man seine Aufgaben formuliert.</p>
-<p>Die letztlichen Änderungen sind lediglich Formatierungen. Die Art wie die Informationen und Spielbeschreibungen dargestellt werden.</p>
-<p>Die Metadaten habe ich allerdings alle per Hand eingegeben. Da ich sowieso alles hätte doppelt checken müssen, ging das so schneller.</p>
-<p>Trotz alledem ein langsamer Prozess. So nebenbei komme ich vieleicht auf 10-15 Spiele pro Tag... Das dauert ein bissel.</p>
-<h2 id="probleme">Probleme<a class="headerlink" href="#probleme" title="Permanent link">&para;</a></h2>
-<p>Ich sehe ein mögliches Problem mit Übersetzungen. Insbesondere da die Suchanfragen ja angepasst werden müssten (da sie dann ja die sprach-spezifische Variante finden soll). Das kann man händisch lösen solange es eine überschaubare Anzahl an dynamischen Seiten gibt. <br />
-Auch hier gilt wieder - wächst das ganze muss man schauen wie man das automatisieren kann.</p>
-<p>Übersetzung ist technisch tatsächlich ein komplexes Thema, welches ich ein anderes Mal aufgreifen werde.</p>
-<h1 id="was-ist-nun-der-vorteil-warum-die-ganze-arbeit">Was ist nun der Vorteil ? Warum die ganze Arbeit ?<a class="headerlink" href="#was-ist-nun-der-vorteil-warum-die-ganze-arbeit" title="Permanent link">&para;</a></h1>
-<p>Das System kann besser skalieren.</p>
-<h1 id="was-ist-sonst-neu">Was ist sonst neu...<a class="headerlink" href="#was-ist-sonst-neu" title="Permanent link">&para;</a></h1>
-<p>Die Suchfunktion hat ein paar "Upgrades" bekommen.<br />
-Sie beherrscht nun Autovervollständigung - diese zeigt, abhängig von den bereits eingegenem Text die Suchanfrage die die häufigsten Treffer erhält. Dies ist nicht abhängig von Nutzereingaben - wir tracken keine Suchanfragen oder nutzen diese um die Suche zu beeinflussen.<br />
-Der Algorithmus basiert nur auf der statischen Suchdatenbank. Diese wird bei Erstellung der Seite mittels MkDocs automatisch erzeugt.</p>
-<p>Zudem kann man seine Anfrage (und somit die Ergebnisse) "speichern" indem man auf ein kleines Symbol auf der rechten Seite der Suchleiste klickt. Dies updated den Link im Browser. Speichert man diesen und ruft ihn erneut auf, bekommt man genau diese Suchanfrage.<br />
-Das ist eher ein kleines Gimmick - könnte aber interessant werden wenn das Wiki deutlich wächst und sehr unterschiedliche Themenbereiche abdeckt.</p>
+<p>My first attempt to make these resources accessible to the trainers was a classic wiki. Many of the game descriptions you see today originated from that time. Simultaneously, I began digitizing my sources. I discovered Niklas Luhmann’s <em>Zettelkasten</em> (slip-box) method and started organizing my data using its principles.  </p>
+<p>The wiki was a failure. There was little interaction; the trainers used it a few times, and it was quickly forgotten. My personal Zettelkasten, however, began to grow. While I initially used specialized software, I soon started thinking about how to future-proof this increasingly valuable collection.  </p>
+<p>What does that mean? The first wake-up call came when I realized the software I was using was no longer being developed. I had to find new software—and figure out how to migrate my data into it. That’s when I discovered Markdown.  </p>
+<p>Markdown is a simple file format—essentially a plain text file—designed to work independently of any specific software. In other words, it’s a widely adopted standard that can be read and edited with the most basic tools.  </p>
+<p>The format supported everything I needed: basic text formatting, links, tags, and metadata (e.g., title, author, description, etc.). I found new software that used Markdown and continued building my Zettelkasten. At that point, I had about 600 notes (or files/pages). Later, I switched software again, and the transition was seamless.  </p>
+<div class="admonition info">
+<p class="admonition-title">Key Takeaway</p>
+<p>Future-proofing your data means using a simple, widely adopted format that’s independent of specific software.  </p>
+</div>
+<h2 id="collaboration-and-sharing">Collaboration and Sharing<a class="headerlink" href="#collaboration-and-sharing" title="Permanent link">&para;</a></h2>
+<p>My first attempt at a wiki didn’t work—partly because I failed to inspire others to contribute. Over the years, my personal Zettelkasten grew to over 3,000 notes, many of them on topics like circus pedagogy, games, juggling, and more.  </p>
+<p>For a while, I simply made it accessible online, but beyond a few people who knew about it and occasionally looked up game descriptions, there was no real collaboration or broader sharing.  </p>
+<p>Now, about 12 years after starting my Zettelkasten, I’m giving it another shot. The goal is to create a shared knowledge base for topics like circus and movement pedagogy, circus arts, and beyond.  </p>
+<h3 id="key-considerations-and-questions">Key Considerations and Questions<a class="headerlink" href="#key-considerations-and-questions" title="Permanent link">&para;</a></h3>
+<ul>
+<li><strong>Independence from specific systems</strong>  </li>
+<li><strong>Simple, easy-to-understand data format</strong>  </li>
+<li><strong>Utility and target audience</strong>  </li>
+<li><strong>Structured data</strong>  </li>
+</ul>
+<p>Traditional wiki software (or platforms like WordPress) were out of the question because they create dependency on a single system. While this might work in the short or medium term, it’s a clear weakness in the long run.  </p>
+<p>Instead, I’m managing the data (as Markdown and image files) independently of how it’s ultimately presented. This ensures that, even in 20 years, the data remains usable. The way it’s displayed or edited might change drastically, but the underlying data stays the same.  </p>
+<p>There are countless ways to present the data: as a website, an eBook, a PDF, or even an app. It can be zipped into a file and read or edited offline with a simple text editor. If you want to display it as a WordPress site or wiki, that’s just a matter of importing the data—since it’s structured and easy to read, it’s relatively straightforward to implement (with the right know-how).  </p>
+<h2 id="my-current-solution-for-the-website">My Current Solution for the Website<a class="headerlink" href="#my-current-solution-for-the-website" title="Permanent link">&para;</a></h2>
+<p>I’m using MkDocs and the MkDocs-Material theme to generate a static website. There are many programs that create static HTML files from Markdown, but MkDocs is specifically designed for documentation. Many of the features it generates—like full-text search and navigation—are incredibly helpful.  </p>
+<p>MkDocs is also a widely used, open-source solution supported by major companies, which ensures it will remain functional at least in the medium term.  </p>
+<h2 id="collaboration">Collaboration<a class="headerlink" href="#collaboration" title="Permanent link">&para;</a></h2>
+<p>The next step is to make this a collaborative effort. I’m exploring ways to invite others to contribute, whether by adding new content, refining existing entries, or suggesting improvements. The goal is to create a living, evolving resource that benefits from collective knowledge and expertise.  </p>
 
 
 
