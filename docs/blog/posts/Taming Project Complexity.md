@@ -1,13 +1,15 @@
 ---
 created: 2025-05-02 04:37:37
-update: 2025-05-03 21:32:11
+update: 2025-05-03 22:54:32
 date: 2025-05-03T11:00:00
 publish: true
-tags: []
+tags: 
 title: Taming Project Complexity - The Saga
 description: The journey to effectively version a complex dev environment without polluting the main project repository.
 authors:
   - Marc Bielert
+categories: 
+  - development
 ---
 
 # Taming Project Complexity - The Saga

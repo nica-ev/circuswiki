@@ -1,6 +1,6 @@
 ---
 created: 2025-01-21 18:09:55
-update: 2025-05-03 02:42:56
+update: 2025-05-03 22:54:41
 date: 2025-03-18T02:14:00
 publish: true
 tags: 
@@ -8,6 +8,8 @@ title: Games - The Data Side
 description: How game descriptions were standardized and made more dynamic using metadata and Obsidian plugins.
 authors:
   - Marc Bielert
+categories: 
+  - development
 ---
 
 # **Games - The Data Side**  

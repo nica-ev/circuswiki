@@ -1,6 +1,6 @@
 ---
 created: 2025-01-21 18:09:55
-update: 2025-05-03 02:43:08
+update: 2025-05-03 22:54:11
 date: 2025-02-25T02:14:00
 publish: true
 tags: 
@@ -8,6 +8,8 @@ title: Zettelkasten, Wiki, and Beyond
 description: 
 authors:
   - Marc Bielert
+categories: 
+  - development
 ---
 
 # **Zettelkasten, Wiki, and Beyond**  
