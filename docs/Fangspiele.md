@@ -5,7 +5,7 @@ tags:
   - moc
   - dynamic
 created: 2025-01-24 03:50:50
-update: 2025-05-03 23:21:52
+update: 2025-05-22 00:58:59
 title: Fangspiele
 description: 
 authors:
@@ -39,6 +39,6 @@ authors:
 | [[Schwänzchen-Hasche]]                                   | 5         | 30        | einfach          | Tücher                | 10 -  15   | <ul><li>fangen</li><li>warm-up</li></ul>                  |
 | [[Tellerfänger]]                                               | 6         | 30        | einfach          | Teller, Tuch, Diabolo | 5-10       | <ul><li>fangen</li><li>warm-up</li></ul>                  |
 | [[Zeithasche]]                                                   | 6         | 30        | mittel           | keines                | 15-20      | <ul><li>fangen</li></ul>                                  |
-| [[Zombie Hasche mit Namen]]                         | 6         | 30        | mittel           | keines                | 15-20      | <ul><li>fangen</li></ul>                                  |
 | [[Zombie - Hasche]]                                         | 10        | 98        | einfach          | keines                | 10 -  15   | <ul><li>fangen</li></ul>                                  |
+| [[Zombie Hasche mit Namen]]                         | 6         | 30        | mittel           | keines                | 15-20      | <ul><li>fangen</li></ul>                                  |
 <!-- SerializedQuery END -->

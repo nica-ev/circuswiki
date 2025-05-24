@@ -38,9 +38,9 @@ authors:
 | [[Killerfunkwagen]]                                       | \-        | \-        | \-            | \-          | \-         | <ul><li>sonstiges</li></ul>                      |
 | [[Klatsch Theater]]                                       | \-        | \-        | \-            | \-          | \-         | <ul><li>sonstiges</li></ul>                      |
 | [[Kuhstall]]                                                     | \-        | \-        | \-            | \-          | \-         | <ul><li>sonstiges</li></ul>                      |
-| [[Laserschwert]]                                             | \-        | \-        | \-            | \-          | \-         | <ul><li>sonstiges</li></ul>                      |
 | [[König der Lüfte]]                                       | \-        | \-        | \-            | \-          | \-         | <ul><li>sonstiges</li></ul>                      |
 | [[Lachbär]]                                                       | \-        | \-        | \-            | \-          | \-         | <ul><li>sonstiges</li></ul>                      |
+| [[Laserschwert]]                                             | \-        | \-        | \-            | \-          | \-         | <ul><li>sonstiges</li></ul>                      |
 | [[Luftballons Balancieren]]                       | \-        | \-        | \-            | \-          | \-         | <ul><li>sonstiges</li></ul>                      |
 | [[Massaker]]                                                     | \-        | \-        | \-            | \-          | \-         | <ul><li>sonstiges</li></ul>                      |
 | [[Namenkampf]]                                                 | 10        | 30        | einfach       | großes Tuch | 10 -  15   | <ul><li>sonstiges</li><li>kennenlernen</li></ul> |

@@ -51,9 +51,9 @@ authors:
 <!-- QueryToSerialize: LIST FROM "docs" WHERE contains(file.tags, "kaskade") AND (type = "Magazin") -->
 <!-- SerializedQuery: LIST FROM "docs" WHERE contains(file.tags, "kaskade") AND (type = "Magazin") -->
 - [[Kaskade 001]]
-- [[Kaskade 004]]
 - [[Kaskade 002]]
 - [[Kaskade 003]]
+- [[Kaskade 004]]
 - [[Kaskade 005]]
 <!-- SerializedQuery END -->
 

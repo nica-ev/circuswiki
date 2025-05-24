@@ -25,8 +25,8 @@ authors:
 | [[Die stampfende Bank]]                   | \-        | \-        | \-            | \-       | \-         | <ul><li>action</li></ul>                                |
 | [[Hände abklatschen]]                       | \-        | \-        | \-            | \-       | \-         | <ul><li>action</li></ul>                                |
 | [[Kissenrennen]]                                 | \-        | \-        | \-            | \-       | \-         | <ul><li>action</li></ul>                                |
-| [[Kommando]]                                         | \-        | \-        | \-            | \-       | \-         | <ul><li>action</li></ul>                                |
 | [[Komm mit, lauf weg]]                     | 5         | 99        | einfach       | keines   | 5 - 15     | <ul><li>fangen</li><li>warm-up</li><li>action</li></ul> |
+| [[Kommando]]                                         | \-        | \-        | \-            | \-       | \-         | <ul><li>action</li></ul>                                |
 | [[Stehbock-Laufbock]]                       | \-        | \-        | \-            | \-       | \-         | <ul><li>action</li></ul>                                |
 | [[Stierkampf - Tatonga]]                 | \-        | \-        | \-            | \-       | \-         | <ul><li>action</li><li>kreisspiel</li></ul>             |
 | [[Team Schnick-Schnack-Schnuck]] | \-        | \-        | \-            | \-       | \-         | <ul><li>action</li></ul>                                |

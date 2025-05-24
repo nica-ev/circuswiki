@@ -5,7 +5,7 @@ tags:
   - moc
   - dynamic
 created: 2025-01-24 03:50:51
-update: 2025-05-03 23:23:44
+update: 2025-05-22 00:58:46
 title: Spiele zum Kennenlernen / Vorstellen
 description: 
 authors:
@@ -23,8 +23,8 @@ Spiele zum gegenseitigen Kennenlernen in der Gruppe, enthält oft das Nennen von
 | -------------------------------------------------------------------------------------------------- | --------- | --------- | ---------------- | -------------- | ---------- | ------------------------------------------------- |
 | [[Bällewirrwarr]]                                                           | 5         | 15        | einfach - schwer | Bälle          | 10         | <ul><li>kennenlernen</li></ul>                    |
 | [[Gute Seiten]]                                                               | 6         | 30        | einfach          | Zettel, Stifte | 10 -  30   | <ul><li>kennenlernen</li></ul>                    |
-| [[Hallo ich bin]]                                                           | 4         | 25        | einfach          | keines         | 2-10       | <ul><li>kennenlernen</li><li>kreisspiel</li></ul> |
 | [[Hallo ich bin - mit Bällen]]                                 | 3         | 30        | einfach          | Bälle          | 10 -  15   | <ul><li>kennenlernen</li><li>kreisspiel</li></ul> |
+| [[Hallo ich bin]]                                                           | 4         | 25        | einfach          | keines         | 2-10       | <ul><li>kennenlernen</li><li>kreisspiel</li></ul> |
 | [[Ich fahre Zug]]                                                           | 10        | 30        | mittel           | Stühle         | beliebig   | <ul><li>kennenlernen</li></ul>                    |
 | [[Kennenlernen mit Bällen hinterherlaufen]]       | 5         | 25        | einfach - mittel | Bälle          | 10 -  15   | <ul><li>kennenlernen</li><li>kreisspiel</li></ul> |
 | [[Kennenlernen mit Bällen]]                                       | 4         | 20        | einfach          | Bälle          | 2-10       | <ul><li>kennenlernen</li><li>kreisspiel</li></ul> |
