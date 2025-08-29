@@ -5,7 +5,7 @@ tags:
   - moc
   - dynamic
 created: 2025-01-24 03:50:51
-update: 2025-05-22 00:58:46
+update: 2025-08-29 23:22:50
 title: Spiele zum Kennenlernen / Vorstellen
 description: 
 authors:
@@ -21,21 +21,21 @@ Spiele zum gegenseitigen Kennenlernen in der Gruppe, enthält oft das Nennen von
 
 | File                                                                                               | group-min | group-max | Schwierigkeit    | Material       | Spieldauer | category                                          |
 | -------------------------------------------------------------------------------------------------- | --------- | --------- | ---------------- | -------------- | ---------- | ------------------------------------------------- |
-| [[Bällewirrwarr]]                                                           | 5         | 15        | einfach - schwer | Bälle          | 10         | <ul><li>kennenlernen</li></ul>                    |
-| [[Gute Seiten]]                                                               | 6         | 30        | einfach          | Zettel, Stifte | 10 -  30   | <ul><li>kennenlernen</li></ul>                    |
-| [[Hallo ich bin - mit Bällen]]                                 | 3         | 30        | einfach          | Bälle          | 10 -  15   | <ul><li>kennenlernen</li><li>kreisspiel</li></ul> |
-| [[Hallo ich bin]]                                                           | 4         | 25        | einfach          | keines         | 2-10       | <ul><li>kennenlernen</li><li>kreisspiel</li></ul> |
-| [[Ich fahre Zug]]                                                           | 10        | 30        | mittel           | Stühle         | beliebig   | <ul><li>kennenlernen</li></ul>                    |
-| [[Kennenlernen mit Bällen hinterherlaufen]]       | 5         | 25        | einfach - mittel | Bälle          | 10 -  15   | <ul><li>kennenlernen</li><li>kreisspiel</li></ul> |
-| [[Kennenlernen mit Bällen]]                                       | 4         | 20        | einfach          | Bälle          | 2-10       | <ul><li>kennenlernen</li><li>kreisspiel</li></ul> |
-| [[Namenkampf]]                                                                 | 10        | 30        | einfach          | großes Tuch    | 10 -  15   | <ul><li>sonstiges</li><li>kennenlernen</li></ul>  |
-| [[Niemand ist gern allein]]                                       | 8         | 99        | einfach          | keines         | beliebig   | <ul><li>kennenlernen</li></ul>                    |
-| [[Ohrfeigen und Küsse]]                                               | 5         | 30        | mittel           | keines         | 10 -  15   | <ul><li>kennenlernen</li><li>theater</li></ul>    |
-| [[Robert die rennende Robbe]]                                   | 4         | 12        | einfach          | keines         | 3 - 10     | <ul><li>kennenlernen</li></ul>                    |
-| [[Sich gegenseitig vorstellen]]                               | 5         | 15        | mittel           | keines         | 10 -  15   | <ul><li>kennenlernen</li><li>kreisspiel</li></ul> |
-| [[Suchkind]]                                                                     | 5         | 20        | mittel           | keines         | 20 -  30   | <ul><li>kennenlernen</li></ul>                    |
-| [[Tratschen in Anwesenheit]]                                     | 3         | 6         | einfach          | keines         | \-         | <ul><li>kennenlernen</li></ul>                    |
-| [[Vorstellungsrunde - Werdegang - Symbolisch]] | 2         | 10        | mittel           | verschiedenes  | 30-45      | <ul><li>kennenlernen</li><li>kreisspiel</li></ul> |
-| [[Zombie]]                                                                         | 6         | 18        | mittel           | keines         | 5-10       | <ul><li>kennenlernen</li></ul>                    |
-| [[Zuckerwasserschießen]]                                             | 6         | 20        | etwas schwerer   | keines         | 7          | <ul><li>kennenlernen</li></ul>                    |
+| [[docs/Bällewirrwarr.md\|Bällewirrwarr]]                                                           | 5         | 15        | einfach - schwer | Bälle          | 10         | <ul><li>kennenlernen</li></ul>                    |
+| [[docs/Gute Seiten.md\|Gute Seiten]]                                                               | 6         | 30        | einfach          | Zettel, Stifte | 10 -  30   | <ul><li>kennenlernen</li></ul>                    |
+| [[docs/Hallo ich bin - mit Bällen.md\|Hallo ich bin - mit Bällen]]                                 | 3         | 30        | einfach          | Bälle          | 10 -  15   | <ul><li>kennenlernen</li><li>kreisspiel</li></ul> |
+| [[docs/Hallo ich bin.md\|Hallo ich bin]]                                                           | 4         | 25        | einfach          | keines         | 2-10       | <ul><li>kennenlernen</li><li>kreisspiel</li></ul> |
+| [[docs/Ich fahre Zug.md\|Ich fahre Zug]]                                                           | 10        | 30        | mittel           | Stühle         | beliebig   | <ul><li>kennenlernen</li></ul>                    |
+| [[docs/Kennenlernen mit Bällen hinterherlaufen.md\|Kennenlernen mit Bällen hinterherlaufen]]       | 5         | 25        | einfach - mittel | Bälle          | 10 -  15   | <ul><li>kennenlernen</li><li>kreisspiel</li></ul> |
+| [[docs/Kennenlernen mit Bällen.md\|Kennenlernen mit Bällen]]                                       | 4         | 20        | einfach          | Bälle          | 2-10       | <ul><li>kennenlernen</li><li>kreisspiel</li></ul> |
+| [[docs/Namenkampf.md\|Namenkampf]]                                                                 | 10        | 30        | einfach          | großes Tuch    | 10 -  15   | <ul><li>sonstiges</li><li>kennenlernen</li></ul>  |
+| [[docs/Niemand ist gern allein.md\|Niemand ist gern allein]]                                       | 8         | 99        | einfach          | keines         | beliebig   | <ul><li>kennenlernen</li></ul>                    |
+| [[docs/Ohrfeigen und Küsse.md\|Ohrfeigen und Küsse]]                                               | 5         | 30        | mittel           | keines         | 10 -  15   | <ul><li>kennenlernen</li><li>theater</li></ul>    |
+| [[docs/Robert die rennende Robbe.md\|Robert die rennende Robbe]]                                   | 4         | 12        | einfach          | keines         | 3 - 10     | <ul><li>kennenlernen</li></ul>                    |
+| [[docs/Sich gegenseitig vorstellen.md\|Sich gegenseitig vorstellen]]                               | 5         | 15        | mittel           | keines         | 10 -  15   | <ul><li>kennenlernen</li><li>kreisspiel</li></ul> |
+| [[docs/Suchkind.md\|Suchkind]]                                                                     | 5         | 20        | mittel           | keines         | 20 -  30   | <ul><li>kennenlernen</li></ul>                    |
+| [[docs/Tratschen in Anwesenheit.md\|Tratschen in Anwesenheit]]                                     | 3         | 6         | einfach          | keines         | \-         | <ul><li>kennenlernen</li></ul>                    |
+| [[docs/Vorstellungsrunde - Werdegang - Symbolisch.md\|Vorstellungsrunde - Werdegang - Symbolisch]] | 2         | 10        | mittel           | verschiedenes  | 30-45      | <ul><li>kennenlernen</li><li>kreisspiel</li></ul> |
+| [[docs/Zombie.md\|Zombie]]                                                                         | 6         | 18        | mittel           | keines         | 5-10       | <ul><li>kennenlernen</li></ul>                    |
+| [[docs/Zuckerwasserschießen.md\|Zuckerwasserschießen]]                                             | 6         | 20        | etwas schwerer   | keines         | 7          | <ul><li>kennenlernen</li></ul>                    |
 <!-- SerializedQuery END -->

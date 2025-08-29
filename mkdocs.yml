@@ -42,6 +42,7 @@ theme:
     - search.suggest
     - search.highlight
     - search.share
+    - navigation.instant.preview
 
 markdown_extensions:
   - nl2br # treats markdown linebreaks as hard breaks
@@ -96,6 +97,9 @@ nav:
     - Wordpress: 'wordpress.md'
     - Nextcloud: 'nextcloud.md'
     - Dokumentations-System: 'doc-sys-2.md'
+  - Erasmus+:
+    - Introduction: 'Introduction.md'
+    - Case Study 01: 'Bewegungs-Spiele.md'
   - Bewegungs-Spiele: 
     - Uebersicht: 'Bewegungs-Spiele.md'
     - Liste aller Spiele: 'Liste aller Spiele.md'
