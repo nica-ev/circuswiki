@@ -57,9 +57,6 @@ views:
         - '!file.hasTag("moc")'
     order:
       - file.name
-      - authors
-      - title
-      - land
     columnSize:
       note.authors: 177
       note.title: 388

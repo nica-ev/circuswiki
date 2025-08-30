@@ -99,7 +99,22 @@ nav:
     - Dokumentations-System: 'doc-sys-2.md'
   - Erasmus+:
     - Introduction: 'Introduction.md'
-    - Case Study 01: 'Bewegungs-Spiele.md'
+    - Case Studies:
+      - Case Study 01: 'Case Study 01 - Hungary.md'
+      - Case Study 02: 'Case Study 02 - Hungary.md'
+      - Case Study 03: 'Case Study 03 - Italy.md'
+      - Case Study 04: 'Case Study 04 - Italy.md'
+      - Case Study 05: 'Case Study 05 - Greece.md'
+      - Case Study 06: 'Case Study 06 - Greece.md'
+      - Case Study 07: 'Case Study 07 - Poland.md'
+      - Case Study 08: 'Case Study 08 - Poland.md'
+      - Case Study 09: 'Case Study 09 - Germany.md'
+      - Case Study 10: 'Case Study 10 - Germany.md'
+      - Case Study 11: 'Case Study 11 - Latin America.md'
+      - Case Study 12: 'Case Study 12 - Latin America.md'
+      - Case Study 13: 'Case Study 13 - United States.md'
+      - Case Study 14: 'Case Study 14 - United States.md'
+      - Case Study 15: 'Case Study 15 - Belgium.md'
   - Bewegungs-Spiele: 
     - Uebersicht: 'Bewegungs-Spiele.md'
     - Liste aller Spiele: 'Liste aller Spiele.md'
