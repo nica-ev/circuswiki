@@ -25,16 +25,16 @@ authors:
 <!-- QueryToSerialize: TABLE authors, tags, created FROM "docs" AND -"docs/blog" SORT created DESC LIMIT 10 -->
 <!-- SerializedQuery: TABLE authors, tags, created FROM "docs" AND -"docs/blog" SORT created DESC LIMIT 10 -->
 
-| File                                                             | authors                        | tags                                     | created             |
-| ---------------------------------------------------------------- | ------------------------------ | ---------------------------------------- | ------------------- |
-| [[docs/Case Study 02 - Germany.md\|Case Study 02 - Germany]]     | \-                             | <ul><li>case-study</li></ul>             | 2025-08-29 19:33:58 |
-| [[docs/Case Study 01 - Germany.md\|Case Study 01 - Germany]]     | \-                             | <ul><li>case-study</li></ul>             | 2025-08-29 19:27:16 |
-| [[docs/Introduction.md\|Introduction]]                           | \-                             | <ul><li>case-study</li><li>moc</li></ul> | 2025-08-29 19:12:50 |
-| [[docs/Translating PDF Documents.md\|Translating PDF Documents]] | <ul><li>Marc Bielert</li></ul> | <ul><li>tutorial</li></ul>               | 2025-05-03 21:32:10 |
-| [[docs/Inklusion-Spiele.md\|Inklusion-Spiele]]                   | <ul><li>Marc Bielert</li></ul> | <ul><li>spiele</li><li>moc</li></ul>     | 2025-03-17 03:04:12 |
-| [[docs/Ohrfeigen und Küsse.md\|Ohrfeigen und Küsse]]             | <ul><li>Marc Bielert</li></ul> | <ul><li>spiele</li></ul>                 | 2025-03-17 01:06:12 |
-| [[docs/Schildkröten umdrehen.md\|Schildkröten umdrehen]]         | <ul><li>Marc Bielert</li></ul> | <ul><li>spiele</li></ul>                 | 2025-03-17 01:02:50 |
-| [[docs/Groß gegen Klein.md\|Groß gegen Klein]]                   | <ul><li>Marc Bielert</li></ul> | <ul><li>spiele</li></ul>                 | 2025-03-17 01:01:31 |
-| [[docs/Beschütze deinen Freund.md\|Beschütze deinen Freund]]     | <ul><li>Marc Bielert</li></ul> | <ul><li>spiele</li></ul>                 | 2025-03-17 00:59:34 |
-| [[docs/Hände abklatschen.md\|Hände abklatschen]]                 | <ul><li>Marc Bielert</li></ul> | <ul><li>spiele</li></ul>                 | 2025-03-17 00:57:46 |
+| File                                                         | authors                               | tags                         | created             |
+| ------------------------------------------------------------ | ------------------------------------- | ---------------------------- | ------------------- |
+| [[docs/Case Study 08 - Poland.md\|Case Study 08 - Poland]]   | <ul><li>Wiktoria Witenberg*</li></ul> | <ul><li>case-study</li></ul> | 2025-08-30 20:51:10 |
+| [[docs/Case Study 07 - Poland.md\|Case Study 07 - Poland]]   | <ul><li>Paulina Chodnicka</li></ul>   | <ul><li>case-study</li></ul> | 2025-08-30 20:42:55 |
+| [[docs/Case Study 04 - Italy.md\|Case Study 04 - Italy]]     | <ul><li>Lapo Botteri</li></ul>        | <ul><li>case-study</li></ul> | 2025-08-30 20:20:11 |
+| [[docs/Case Study 03 - Italy.md\|Case Study 03 - Italy]]     | <ul><li>Sara Papadato*</li></ul>      | <ul><li>case-study</li></ul> | 2025-08-30 20:14:34 |
+| [[docs/Case Study 02 - Hungary.md\|Case Study 02 - Hungary]] | <ul><li>Zsuzsa Székely</li></ul>      | <ul><li>case-study</li></ul> | 2025-08-30 19:07:41 |
+| [[docs/Case Study 01 - Hungary.md\|Case Study 01 - Hungary]] | <ul><li>Gallyas Veronika</li></ul>    | <ul><li>case-study</li></ul> | 2025-08-30 18:53:22 |
+| [[docs/Monokyklo.md\|Monokyklo]]                             | \-                                    | <ul><li>case-study</li></ul> | 2025-08-29 22:03:01 |
+| [[docs/Case Study 05 - Greece.md\|Case Study 05 - Greece]]   | <ul><li>Monokyklo team</li></ul>      | <ul><li>case-study</li></ul> | 2025-08-29 21:14:58 |
+| [[docs/Case Study 06 - Greece.md\|Case Study 06 - Greece]]   | <ul><li>Eva Parlani</li></ul>         | <ul><li>case-study</li></ul> | 2025-08-29 21:05:48 |
+| [[docs/NICA-EV.md\|NICA-EV]]                                 | <ul><li>Marc Bielert</li></ul>        | \-                           | 2025-08-29 20:36:43 |
 <!-- SerializedQuery END -->
