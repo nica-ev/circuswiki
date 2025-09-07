@@ -1493,7 +1493,7 @@ SELF A.P.S. (Italy)</p>
 </tr>
 <tr>
 <td><a href="../Case%20Study%2003%20-%20Italy/" id="b1b3cd83c1390bfc42fafa2ecab8109b">Case Study 03 - Italy</a></td>
-<td>Sara Papadato*</td>
+<td>Sara Papadato</td>
 <td>More Than Movement</td>
 <td>Italy</td>
 </tr>
@@ -1523,7 +1523,7 @@ SELF A.P.S. (Italy)</p>
 </tr>
 <tr>
 <td><a href="../Case%20Study%2008%20-%20Poland/" id="402afe8297344267005dadcca39062d5">Case Study 08 - Poland</a></td>
-<td>Wiktoria Witenberg*</td>
+<td>Wiktoria Witenberg</td>
 <td>No Age Limit</td>
 <td>Poland</td>
 </tr>
@@ -1568,18 +1568,6 @@ SELF A.P.S. (Italy)</p>
 <td>Craig Quat</td>
 <td>Social Integration in a Job Training Context</td>
 <td>United States</td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
 </tr>
 </tbody>
 </table>
@@ -1680,51 +1668,6 @@ SELF A.P.S. (Italy)</p>
 </tr>
 </tbody>
 </table>
-<hr />
-<h1 id="technical-stuff">Technical Stuff<a class="headerlink" href="#technical-stuff" title="Permanent link">&para;</a></h1>
-<div class="highlight"><pre><span></span><code>views:
-  - type: table
-    name: Table
-    filters:
-      and:
-        - file.hasTag(&quot;case-study&quot;)
-        - &#39;!file.hasTag(&quot;moc&quot;)&#39;
-        - &#39;!file.hasTag(&quot;Kontakte&quot;)&#39;
-    order:
-      - file.name
-      - title
-      - authors
-      - land
-    columnSize:
-      note.authors: 177
-      note.title: 388
-</code></pre></div>
-<h1 id="kontakte_1">Kontakte<a class="headerlink" href="#kontakte_1" title="Permanent link">&para;</a></h1>
-<div class="highlight"><pre><span></span><code>views:
-  - type: table
-    name: Table
-    filters:
-      and:
-        - file.hasTag(&quot;case-study&quot;)
-        - file.hasTag(&quot;Kontakte&quot;)
-    order:
-      - file.name
-      - title
-      - land
-      - website
-      - email
-      - youtube
-      - instagram
-      - facebook
-    columnSize:
-      file.name: 90
-      note.title: 182
-      note.land: 89
-      note.website: 168
-      note.youtube: 196
-      note.instagram: 170
-      note.facebook: 204
-</code></pre></div>
 <!--
   ~ MIT License
   ~
