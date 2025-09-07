@@ -1,6 +1,6 @@
 ---
 created: 2025-08-29 19:12:50
-update: 2025-08-31 20:54:38
+update: 2025-09-07 18:45:35
 publish: false
 tags:
   - case-study
@@ -14,7 +14,7 @@ authors:
 
 # Erasmus+ Project: Case Studies
 
->[!info]- Disclaimer
+>[!info]- Disclaimer (click here to reveal the content)
 >Funded by the European Union. The information and views set out in this publication are those of the authors and do not necessarily reflect the official opinion of the European Union or the Tempus Public Foundation. Neither the European Union nor the granting authority can be held responsible for them.  
 >
 >Project number: 2024-1-HU01-KA210-VET-000251194
