@@ -1,73 +1,93 @@
 ---
-created: 2025-08-30 21:24:58
-update: 2025-08-30 21:28:05
+created: 2025-08-30 21:19:33
+update: 2025-08-31 21:07:12
 publish: false
 tags:
   - case-study
-title: Weaving Routines in Confinement
+title: Where Movement Finds Us
 description:
 authors:
   - Jael Rodriguez
 type: Artikel
-land: Latin America
+land: Argentina
 ---
 
-# **Weaving Routines in Confinement – An Online Hula Hoop Workshop (2021)**
+#  Where Movement Finds Us - Inclusive circus in a Therapeutic Group Context
 
-## **Participant Profile**  
- This experience took place during the global lockdown of 2021\. The workshop was delivered online and aimed at a group of ten self-identified women between the ages of 20 and 46\. Some were independent practitioners, while others belonged to educational or artistic institutions. The common thread was the shared need to reconnect with movement, play, and creation in a time marked by isolation.
+Written by Jael Rodriguez, [[Hula Hoop Integral]] fundator. 
 
-## **Context and Intent**  
- The classes were facilitated by Jael Rodríguez within the framework of the **Hula Hoop Integral** and **Functional Juggling** methodologies. At the time, these practices were already being shared and explored in different territories, and their adaptability to digital contexts was part of the learning process.
+**Hula Hoop Integral** is a pedagogical and artistic project born in Latin America that explores the hoop as a tool for learning, expression, and social transformation. Its approach combines play, movement, and inclusion, offering accessible experiences for people of all ages and backgrounds. Through trainings, workshops, and community-based actions, the project fosters collaborative networks and sensitive methodologies centered on the body, creativity, and diversity.
 
-The intention was not only to learn new skills but to approach technical language through **body awareness**, **accessibility**, and **experimentation**. The process invited each participant to explore composition from a space of autonomy and collective sensitivity - reconnecting with the body through play during lockdown.
+## Eastern Europe, 2023
+ **Inclusive circus in a Therapeutic Group Context**
 
-## **Objectives**
+During the second half of 2023, as part of a pedagogical tour across Europe, I was invited by colleagues from the field of social circus to participate in a therapeutic space for neurodivergent youth between the ages of 8 and 15\. The center, located in Eastern Europe, was made up of an interdisciplinary team of educators, psychologists, and movement therapists who carried out individual and group sessions for children and adolescents with varying support needs.
 
-* To offer playful and pedagogical tools for composing movement with hula hoops
-* To share the conceptual and practical foundations of Functional Juggling adapted for the digital context
-* To build a shared time and space for movement, imagination, and creation from home
+At that time, I had been facilitating workshops across several European countries, including in schools, day centers, and creative settings, with a focus on *Juggling* and *Inclusive Hoop Practice*. This methodology promotes motor, sensory, and social development through a playful, expressive, and accessible approach. It provides tools and object manipulation techniques that are adapted to the individual and the context.
 
-## **Structure and Tools**  
- Sessions were held via videoconference. The diversity of domestic spaces and internet conditions required a flexible approach and great creativity. Participants used the materials they had on hand: **hula hoops, balls, scarves, rings, socks, or fruit**.
+In this case, I joined as an external facilitator to support an ongoing process, offering a series of weekly sessions co-led with the local team. 
 
-The virtual space itself became part of the process, with **pauses, improvisations, and adaptations** that enriched the dynamic. There was no assistant in the sessions, but ongoing support was offered via **group chat and email**. The group was closely accompanied in their processes, encouraging **peer exchange and feedback**.
+---
 
-Each session followed a consistent structure:
-* Warm-up and regulation using breath, rhythm, and body mapping
-* Sensory and technical exploration with hula hoops and/or household objects
-* Creative task or compositional challenge
-* Group sharing and reflection (when bandwidth and time allowed)
+## Framework of the Process
 
-## **Pedagogical Adaptations**  
- Some of the **Functional Juggling** principles adapted to the online and hula hoop format included:
+The sessions were held in a spacious room with padded flooring and access to materials such as mats, ropes, balls, scarves, and hoops. Each session lasted one hour, and the group was composed of five young participants and three adult facilitators. Some of the youth also attended individual sessions before or after the group activity.
 
-* The **Five Step Learning Model**, beginning with three elements simultaneously rather than adding one by one
-* The replacement of toss juggling with **contact-based variations**, such as rolling or gliding across the body or floor
-* The **use of the floor** as a key platform for developing pattern consistency
-* The **design of spatial sequencing maps**, allowing participants to interact with fixed structures similar to the Juggle Board using multiple hoops instead of balls
-* Awareness of **camera framing** as part of composition, encouraging spatial perception and orientation
+The space was thoughtfully prepared to support sensory regulation, respectful interaction, and the autonomy of each participant. The proposed dynamics included movement circuits, coordination games, object-based exercises, and moments of shared observation, all driven by exploration rather than performance.
 
-## **Outcomes and Impact**  
- The initial goal of facilitating an enjoyable and expressive learning space was achieved. Beyond that, several participants who had never used more than one or two objects at once reported breakthroughs with multi-object patterns. Many managed to replicate elements of the methodology in their own teaching or artistic practices.
+---
 
-The creative capacity of the group turned **limitations into possibilities**. This revealed not only the flexibility of Functional Juggling but also the richness of hula hoop as a **vehicle for inclusion and bodily composition**.
+## Objectives and Methodology
 
-Participants developed:
-* Increased capacity to explore **multi-object compositions**
-* A sense of connection and **collective creativity**, even in a virtual format
-* Confidence to integrate new approaches into their own educational or performative work
+The overall aim of the process was to support motor, cognitive, and social development through play with circus elements. More specifically, we aimed to:
 
-## **Challenges and Creative Deviations**  
- Unstable internet connections, limited physical space, and improvisation with non-traditional objects were common. But these deviations, far from being a problem, **strengthened collective trust and flexibility**—turning each obstacle into part of the path.
+* Stimulate visual-motor coordination and body awareness.
+* Encourage interaction among peers in a safe, supportive environment.
+* Promote positive, joyful experiences of movement and self-expression.
 
-Sometimes a lack of materials led to improvisation. A piece of fruit or a pillow could replace a hoop. A toddler interrupting class became an opportunity for laughter and group bonding. These moments of **relational presence and spontaneity** helped deepen the process.
+The *Hula hoop Integral* allowed each activity to be adapted to the group’s rhythms and needs, blending structure with flexibility. The goal was not to perform a “correct technique” but to offer meaningful experiences through repetition, spatial perception, rhythmic flow, and creative interaction.
 
-## **Final Reflection**  
- One of the most meaningful aspects of this experience was the **possibility of building shared time**, where the body - even at a distance - became a bridge of connection. The screen was not just a limitation; it was also a stage for **mutual listening and observation**.
+---
 
-*“I never thought I could juggle with more than two hoops. Now not only do I do it—I teach it to my students.”*  
- — Participant feedback
+## Session Dynamics and Structure
 
-This case study affirms the capacity of inclusive circus pedagogy to adapt to new formats while maintaining its core intention: to create **sensitive, joyful, and meaningful learning environments**, even under constraint.
+Each session followed a consistent three-part structure:
+1. **Welcome and sensory warm-up**: breathing, gentle activation, and simple rhythmic games.
+2. **Guided exploration with objects**: movement circuits, pair games, exchanges, or tossing activities depending on the day.
+3. **Closing and farewell**: relaxation, observation, or free expression.
 
+Some examples of activities included:
+* Passing scarves in pairs.
+* Synchronized walking with hoops placed on different body parts.
+* Movement circuits involving balance, jumping, and object manipulation.
+* Group improvisations in which each person proposed a movement to be replicated or transformed.
+
+Each session was supported by at least two other adults in addition to myself, ensuring personalized attention and emotional grounding for the group.
+
+---
+
+## Observed Changes
+
+Over the course of the process, we observed significant progress in several areas:
+
+* **Motor skills**: improved balance, bilateral coordination, and manipulation confidence.
+* **Social engagement**: increased spontaneous interactions, shared attention, and cooperative actions that were initially rare or absent.
+* **Expressive capacity**: visible enjoyment, independent play proposals, and growing openness to shared activities.
+
+One of the most valuable aspects of the experience was sustaining a group environment in which every participant could feel included—without pressure, without judgment, and with enough emotional support to explore from a place of curiosity and pleasure.
+
+---
+
+## Challenges and Learning
+
+The process was not without its challenges. Some sessions were affected by fatigue or emotional dysregulation among participants, requiring on-the-spot adjustments to reduce stimulation or simplify the activity. Communication among facilitators also presented obstacles due to language differences, which encouraged us to rely more on visual cues, gestures, and relational presence.
+
+One of the most meaningful lessons was recognizing the importance of the group’s inner rhythm and how each person contributes something essential through their own unique way of being. I also reaffirmed the value of facilitating without imposing—allowing responses to arise from the relationship itself rather than from instruction.
+
+---
+
+## Conclusion
+
+This experience confirmed the potential of  Inclusive Circus Spaces as a tool for bridging body, emotion, and connection. Without the need for constant verbalization or standardized goals, the group experienced genuine moments of discovery, coordination, expression, and belonging.
+
+By cultivating a shared movement language and inviting participation without pressure or hierarchy, the group became a space where joy, focus, and connection could take root—offering meaningful support for both individual development and collective well-being.

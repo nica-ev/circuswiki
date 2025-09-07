@@ -1,6 +1,6 @@
 ---
 created: 2025-08-30 18:53:22
-update: 2025-08-30 19:29:43
+update: 2025-08-31 20:32:34
 publish: false
 tags:
   - case-study
@@ -14,7 +14,7 @@ land: Hungary
 
 # **Supporting Wrist Fracture Rehabilitation with Functional Juggling Tools**
 
-**Inspirál Circus Center - Budapest, Hungary**
+[[Inspirál Circus Center]] - Budapest, Hungary**
 Written by Gallyas Veronika 
 
 ## **Introduction**  

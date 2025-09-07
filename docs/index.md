@@ -17,7 +17,7 @@ authors:
 [[Dokumentation Nica eV]] | [[Bewegungs-Spiele|Bewegungs-Spiele]] | [[mitmachen|mitmachen]] | [[Beigoma|Beigoma]] | [[Kaskade Workspace]] | [[Jonglage|Jonglage]]
 
 # Erasmus+ 
-[[Introduction|Introduction and more...]]
+[[Lets-talk-about-inclusive-circus-practice|Introduction and more...]]
 ## Kürzliche Änderungen
 [[release notes|Release Notes]]
 
@@ -25,16 +25,16 @@ authors:
 <!-- QueryToSerialize: TABLE authors, tags, created FROM "docs" AND -"docs/blog" SORT created DESC LIMIT 10 -->
 <!-- SerializedQuery: TABLE authors, tags, created FROM "docs" AND -"docs/blog" SORT created DESC LIMIT 10 -->
 
-| File                                                         | authors                               | tags                         | created             |
-| ------------------------------------------------------------ | ------------------------------------- | ---------------------------- | ------------------- |
-| [[docs/Case Study 08 - Poland.md\|Case Study 08 - Poland]]   | <ul><li>Wiktoria Witenberg*</li></ul> | <ul><li>case-study</li></ul> | 2025-08-30 20:51:10 |
-| [[docs/Case Study 07 - Poland.md\|Case Study 07 - Poland]]   | <ul><li>Paulina Chodnicka</li></ul>   | <ul><li>case-study</li></ul> | 2025-08-30 20:42:55 |
-| [[docs/Case Study 04 - Italy.md\|Case Study 04 - Italy]]     | <ul><li>Lapo Botteri</li></ul>        | <ul><li>case-study</li></ul> | 2025-08-30 20:20:11 |
-| [[docs/Case Study 03 - Italy.md\|Case Study 03 - Italy]]     | <ul><li>Sara Papadato*</li></ul>      | <ul><li>case-study</li></ul> | 2025-08-30 20:14:34 |
-| [[docs/Case Study 02 - Hungary.md\|Case Study 02 - Hungary]] | <ul><li>Zsuzsa Székely</li></ul>      | <ul><li>case-study</li></ul> | 2025-08-30 19:07:41 |
-| [[docs/Case Study 01 - Hungary.md\|Case Study 01 - Hungary]] | <ul><li>Gallyas Veronika</li></ul>    | <ul><li>case-study</li></ul> | 2025-08-30 18:53:22 |
-| [[docs/Monokyklo.md\|Monokyklo]]                             | \-                                    | <ul><li>case-study</li></ul> | 2025-08-29 22:03:01 |
-| [[docs/Case Study 05 - Greece.md\|Case Study 05 - Greece]]   | <ul><li>Monokyklo team</li></ul>      | <ul><li>case-study</li></ul> | 2025-08-29 21:14:58 |
-| [[docs/Case Study 06 - Greece.md\|Case Study 06 - Greece]]   | <ul><li>Eva Parlani</li></ul>         | <ul><li>case-study</li></ul> | 2025-08-29 21:05:48 |
-| [[docs/NICA-EV.md\|NICA-EV]]                                 | <ul><li>Marc Bielert</li></ul>        | \-                           | 2025-08-29 20:36:43 |
+| File                                                                     | authors                             | tags                                          | created             |
+| ------------------------------------------------------------------------ | ----------------------------------- | --------------------------------------------- | ------------------- |
+| [[docs/Quat Props.md\|Quat Props]]                                       | \-                                  | <ul><li>case-study</li><li>Kontakte</li></ul> | 2025-08-31 21:08:01 |
+| [[docs/Hula Hoop Integral.md\|Hula Hoop Integral]]                       | <ul><li>Jael Rodriguez</li></ul>    | <ul><li>case-study</li><li>Kontakte</li></ul> | 2025-08-31 21:00:27 |
+| [[docs/Circusatelier Woesh.md\|Circusatelier Woesh]]                     | \-                                  | <ul><li>case-study</li><li>Kontakte</li></ul> | 2025-08-31 20:54:37 |
+| [[docs/Odskocznia Studio.md\|Odskocznia Studio]]                         | <ul><li>Paulina Chodnicka</li></ul> | <ul><li>case-study</li><li>Kontakte</li></ul> | 2025-08-31 20:39:01 |
+| [[docs/SELF APS.md\|SELF APS]]                                           | <ul><li>Lapo Botteri</li></ul>      | <ul><li>case-study</li><li>Kontakte</li></ul> | 2025-08-31 20:34:12 |
+| [[docs/Inspirál Circus Center.md\|Inspirál Circus Center]]               | <ul><li>Gallyas Veronika</li></ul>  | <ul><li>case-study</li><li>Kontakte</li></ul> | 2025-08-31 20:27:02 |
+| [[docs/Case Study 09 - Belgium.md\|Case Study 09 - Belgium]]             | <ul><li>Elga Pollet</li></ul>       | <ul><li>case-study</li></ul>                  | 2025-08-30 23:54:25 |
+| [[docs/Case Study 15 - United States.md\|Case Study 15 - United States]] | <ul><li>Craig Quat</li></ul>        | <ul><li>case-study</li></ul>                  | 2025-08-30 23:50:47 |
+| [[docs/Case Study 14 - United States.md\|Case Study 14 - United States]] | <ul><li>Craig Quat</li></ul>        | <ul><li>case-study</li></ul>                  | 2025-08-30 21:35:00 |
+| [[docs/Case Study 13 - Latin America.md\|Case Study 13 - Latin America]] | <ul><li>Jael Rodriguez</li></ul>    | <ul><li>case-study</li></ul>                  | 2025-08-30 21:24:58 |
 <!-- SerializedQuery END -->

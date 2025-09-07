@@ -1,6 +1,6 @@
 ---
 created: 2025-08-30 20:42:55
-update: 2025-08-30 21:08:35
+update: 2025-08-31 20:42:26
 publish: false
 tags:
   - case-study
@@ -14,7 +14,7 @@ land: Poland
 # **Hidden Therapy Through Play: Functional Juggling with Children with Autism and Their Caregivers**
 
 *Based on the work of **Miłosz Goślicki*****, circus educator and circus artist** in the **Podbeskidzie** region of Poland,
-*written by Paulina Chodnicka,* Odskocznia Studio, Warsaw, Poland
+written by Paulina Chodnicka,, [[Odskocznia Studio]] - Warsaw, Poland
 
 ## **Target Group**  
  This program was designed for a **small group of children with autism** and their **caregivers**. Two groups participated in total - each composed of **four children and their respective caregivers** - creating a **one-to-one dynamic** that fostered **trust, connection**, and **shared learning**.

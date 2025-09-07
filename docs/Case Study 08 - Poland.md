@@ -1,6 +1,6 @@
 ---
 created: 2025-08-30 20:51:10
-update: 2025-08-30 21:17:29
+update: 2025-08-31 20:43:07
 publish: false
 tags:
   - case-study
@@ -14,8 +14,8 @@ type: Artikel
 
 # **No Age Limit — Functional Juggling with Seniors During Lockdown**
 
-**Odskocznia Studio, Warsaw, Poland**  
- *Written by Wiktoria Witenberg*
+[[Odskocznia Studio]] - Warsaw, Poland
+Written by Wiktoria Witenberg
 
 ## **Target Group**  
  This project, led by **Odskocznia Studio**, was designed for **adults aged 65 and older**. Through an **open call**, we invited seniors to join **Functional Juggling (FJ)** classes hosted at the **Centrum Kultury Praga-Południe** in Warsaw. Participants were **independent, active older adults**—capable of registering and attending on their own—whom I would describe as functioning at an **average to high level for their age**.

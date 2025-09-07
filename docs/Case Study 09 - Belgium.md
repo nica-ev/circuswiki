@@ -1,6 +1,6 @@
 ---
 created: 2025-08-30 23:54:25
-update: 2025-08-31 00:11:42
+update: 2025-08-31 20:59:32
 publish: false
 tags:
   - case-study
@@ -13,7 +13,7 @@ land: Belgium
 
 # **Case Study: Designing Together – Inclusive Circus Props Through Cross-Sector Collaboration (Belgium)**
 
-*Written by Elga Pollet, Director of Circusatelier Woesh*
+Written by Elga Pollet, Director of [[Circusatelier Woesh]]
 
 ---
 

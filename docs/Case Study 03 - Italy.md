@@ -1,6 +1,6 @@
 ---
 created: 2025-08-30 20:14:34
-update: 2025-08-30 20:37:14
+update: 2025-08-31 20:37:22
 publish: false
 tags:
   - case-study
@@ -14,6 +14,7 @@ land: Italy
 
 # **More Than Movement: A Long-Term Journey with Functional Juggling**
 
+[[SELF APS]]
 **Disabled Day Centre –  Italy**  
  *Written by Sara Papadato*
 

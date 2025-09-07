@@ -1,6 +1,6 @@
 ---
 created: 2025-08-30 20:20:11
-update: 2025-08-30 20:39:39
+update: 2025-08-31 20:37:42
 publish: false
 tags:
   - case-study
@@ -14,6 +14,7 @@ land: Italy
 
 # **Rebuilding Grasp — Functional Juggling and Hand Rehabilitation in Florence, Italy**
 
+[[SELF APS]]
 **Disabled Day Centre – Trezzo sull'Adda, Italy**  
  **Written by** Lapo Botteri  
  **Delivered by** Circo Tascabile at the C.T.E. center in Cinque Vie, Florence

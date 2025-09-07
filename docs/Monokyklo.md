@@ -1,12 +1,18 @@
 ---
 created: 2025-08-29 22:03:01
-update: 2025-08-29 22:03:56
+update: 2025-08-31 20:22:46
 publish: false
 tags:
   - case-study
-title:
+  - Kontakte
+title: Monokyklo
 description:
 authors:
+land: Greece
+facebook: "@monokyklo"
+instagram: "@monokyklo"
+youtube: "@circusdanceyoga2472"
+website: circustogether.eu
 ---
 
 # Monokyklo
@@ -18,3 +24,11 @@ We believe that the circus teaches essential life skills. For this reason, our t
 Our team includes artists, pedagogues, youth workers, psychologists, circus trainers, and animators, all with many years of field experience in diverse social contexts.
 
 In our dedicated circus space, we offer regular classes in circus, dance, and yoga throughout the year, open to all ages.
+
+## Contact
+
+facebook: @monokyklo 
+instagram: @monokyklo 
+youtube: @circusdanceyoga2472
+website: circustogether.eu
+

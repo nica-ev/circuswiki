@@ -1,71 +1,72 @@
 ---
-created: 2025-08-30 23:50:47
-update: 2025-08-30 23:53:13
+created: 2025-08-30 21:35:00
+update: 2025-08-31 21:11:55
 publish: false
 tags:
   - case-study
-title: Social Integration in a Job Training Context
+title: Supporting Writing Tool Proficiency
 description:
 authors:
   - Craig Quat
 land: United States
 ---
 
-# **Functional Juggling as a Tool for Motor Development and Social Integration in a Job Training Context**
+# **Functional Juggling to Support Writing Tool Proficiency in a Child with ADHD**
 
-**Quat Props, United States**  
+[[Quat Props]] - United States
  *Written by Craig Quat*
 
 ---
 
-## **Setting the Scene**
+## **Initial Challenge**
 
-A 26-year-old man with Down syndrome was attending a job training center in New Jersey several times a week. His goal: to develop the practical skills needed for employment in a restaurant. One of those skills was pouring water into glasses—a deceptively simple task that, in practice, required a combination of motor coordination, focus, and timing.
+A 9-year-old boy diagnosed with ADHD began attending my circus school in New Jersey, accompanied by his mother, who was seeking support for his struggles with handwriting. Despite being physically capable and cognitively sharp, he found writing frustrating and unengaging. Completing assignments was a battle, and he had developed a strong aversion to the tools themselves. His mother believed his low academic performance was directly tied to his ADHD.
 
-The original intervention had him repeat the action with one hand, always from the same side, and without crossing his body or engaging socially. It was rigid, repetitive, and disconnected from real restaurant environments. And crucially—it didn’t motivate him.
-
----
-
-## **A Functional Juggling Approach**
-
-That’s where Functional Juggling came in.
-
-I introduced a playful, rhythmic system using the **Juggle Board** to create a foundation of patterned, bilateral movement. Once this rhythm was established, we transitioned to **cups of water—five on each side**—exchanging water instead of balls. The goal wasn’t just to reduce spillage; it was to build coordination, cognitive flexibility, and the ability to *move while staying socially present*.
-
-This participant was highly social—something that had previously been labeled as a distraction. But in our sessions, his social nature became a strength. The structure allowed him to stay physically active while engaging in conversation. Verbal prompts became unnecessary. He followed the **nonverbal cues and visual rhythms** built into the practice to guide each movement.
+Rather than addressing handwriting directly, I introduced **Functional Juggling** as a way to shift the entire **emotional and sensory relationship** with writing tools. My goal wasn’t just to improve motor control, but to reframe how he experienced the activity—transforming it from a task he dreaded into a game he could enjoy.
 
 ---
 
-## **Structure and Tracking Progress**
+## **Creating Playful Repetition**
 
-Each session lasted around 12 minutes and followed a consistent structure. To monitor progress, we filled **five glasses with exactly 5 ounces** of water each (25 ounces total). After each session, we measured how much remained to calculate the amount spilled.
+We began with the **Juggle Board**, using its structured rhythm and nonverbal language to spark curiosity. Once he was engaged in that system of play, I replaced the board with a large sheet of paper and swapped the juggling balls for five **colored markers**.
 
-In the **first session**, he spilled nearly half—about 12 ounces. But he remained motivated and fully engaged. By the **third session**, that loss had dropped to less than 4 ounces.
-
-The improvement wasn’t just in the numbers—it was in the quality of movement and joy of participation.
+We used the same **sequencing logic**—picking up, passing, and placing the markers—to draw mirrored patterns across the page. Instead of copying letters or words, he was exploring movement through color and shape, with each drawing forming part of a fluid, rhythmic sequence.
 
 ---
 
-## **A Shift in Repetition and Engagement**
+## **Engagement Through Creativity**
 
-Before Functional Juggling, traditional sessions involved about **200–300 repetitions over 40 minutes**, often with waning focus. With Functional Juggling, in just 12 minutes, he reached **over 600 repetitions**—not out of pressure, but from continuous, rhythmic play. The high-volume repetition was embedded in a format that felt fun, natural, and self-reinforcing.
+He embraced the format quickly—especially when we incorporated **creative themes** like animals, houses, or imaginary creatures. These themes required not only motor coordination, but also **interpretation, adaptation, and collaboration**. They brought the task to life.
 
-Even more significant was the change in *form*. He began to use both hands, work across his midline, and maintain fluidity. He started experimenting—changing timing, alternating patterns, improvising. These were signs not just of improvement, but of ownership. He wasn’t just practicing the task—he was playing *inside* it.
+We told stories through drawings. We made jokes. We improvised. Sometimes we worked in silence, other times we built elaborate worlds together. His **attention and motivation exceeded all expectations**. At the end of each session, he took home his drawings with pride—something he could show, share, and revisit.
 
 ---
 
-## **Transfer of Skill and Recognition**
+## **Progress Through Play**
 
-The transfer to real-world settings was immediate. He was cleared to handle water-pouring duties at the restaurant where he was training.
+What stood out wasn’t just the technical progress—it was the emotional shift. During our first session, he told me he thought writing was “stupid.” By the end, he didn’t want to put the markers down. He was excited to show his work to his sister. That shift was rapid—and real.
 
-* His **supervisor** noticed improved posture, confidence, and initiative.  
-* His **therapist** praised the method and began integrating elements into broader programming.  
-* His **parents** were amazed at how proudly he demonstrated his new skill at home.
+Over time, his **motor control, bilateral coordination, and cross-midline movement** improved significantly. His **writing proficiency** surpassed expectations. But more importantly, his relationship to the tools had changed. He no longer resisted. He wanted to engage.
+
+---
+
+## **Reflections and Outcomes**
+
+His mother was pleased—especially by the academic gains. But for me, the deeper transformation was social-emotional. What had once been a source of stress and shame had become a **point of pride and connection**.
+
+This case reminded me that juggling isn’t just about movement. It’s about how we relate to objects, to rhythm, to ourselves. In this case, it was about a pencil—or, more precisely, what the pencil had come to represent.
+
+By meeting this child in play, we rewrote his emotional script. We created space for autonomy, expression, and joy. We didn’t just train a skill—we **transformed a relationship**.
 
 ---
 
 ## **Scalability and Application**
 
-This model of Functional Juggling can be implemented with minimal resources and adapted across many support settings. Therapists and educators can recreate the structure using cups, markers, or other everyday objects—focusing on **high-repetition, low-pressure engagement**.
+This approach requires minimal resources and can be replicated across classrooms, clinics, or home settings. Educators, therapists, and caregivers can adapt the structure using simple tools like markers, paper, or everyday objects—so long as the guiding principles remain:
 
-By maintaining a rhythm-based structure that supports **bilateral movement**, **social connection**, and **playful interaction**, the method scales easily for one-on-one or small group use. Its benefits extend to **neurodiverse learners** and individuals working on **life skills**—offering a pathway to **confidence**, **autonomy**, and **skill mastery** through accessible embodied play.
+* **Structured repetition**  
+* **Embodied rhythm**  
+* **Playful interaction**
+
+When we offer movement-based learning in a joyful, accessible format, we don’t just teach skills—we help build confidence, reshape perception, and create lasting emotional resilience.
+

@@ -1,10 +1,10 @@
 ---
-created: 2025-08-29 19:33:58
-update: 2025-08-30 20:18:59
+created: 2025-08-29 19:27:16
+update: 2025-08-31 20:22:34
 publish: false
 tags:
   - case-study
-title: Circus Workshop for Children with Special Needs
+title: Movement & Play in Early Childhood Ed
 description:
 authors:
   - Marc Bielert
@@ -12,59 +12,93 @@ type: Artikel
 land: Germany
 ---
 
-# **An Adaptive Circus Pedagogy Workshop for Children with Special Needs**
+# **Movement and Play in Early Childhood Education**
 
-**NICA e.V. \- Halle, Germany**  
+[[NICA-EV|NICA e.V.]], Halle, Germany
 *Written by Marc Bielert*
 
-## **Project Overview and Target Group**  
- This case study documents a five-day circus pedagogy workshop for a group of 10 children, aged 7–10 years, from a school for students with intellectual and physical disabilities, held in autumn 2024 in Halle, Germany. The participant group presented a wide spectrum of needs, from significant behavioral challenges to cerebral palsy. This diversity required a highly individualized and flexible pedagogical framework.
+## **Project Overview and Context**  
+ This case study explores a long-term circus workshop delivered in a **kindergarten located in a socially disadvantaged area of Eastern Germany**. The project became a valued and consistent part of the weekly routine, engaging a **highly diverse group of children aged 1.5 to 6 years**. According to the kindergarten director, approximately **90% of the children spoke German as a second or even third language**. This linguistic landscape created a persistent communication challenge: some children had learned to signal understanding to please adults, even when confused.
 
-The project was staffed to ensure a high level of support, with three professional trainers (from our society NICA e.V.), one volunteer, and 5–6 school personnel (teachers, integration assistants), resulting in a support ratio of nearly 1:1 (roughly 1:3 in regards to our team).
+This required facilitators to develop **strong sensitivity to both verbal and non-verbal cues**. The team, composed of **two facilitators with 4 to 15 years of experience** in inclusive circus work and academic backgrounds in **Educational Sciences and Social Pedagogy**, encountered a familiar reality in under-resourced communities: a **dedicated but understaffed educational team**. This limited the kindergarten’s ability to offer individualized support, making the external workshop a **welcomed addition** to the children’s lives.
 
-## **Workshop Framework and Team Composition**  
- The workshop was conducted in a small circus tent on the school grounds, providing a dedicated and protected environment. The daily three-hour sessions were based on circus pedagogy, adapted for an inclusive setting.
+---
 
-The training team's qualifications included extensive professional experience in inclusive circus work (ranging from 4 to 15 years), with academic backgrounds in Educational Sciences and Social Pedagogy. A key structural element was the division of the team: **two trainers led group activities while one conducted individualized 10-minute sessions with each child daily**.
+## **Philosophy and Pedagogical Approach**  
+ The project was guided by a **simple yet powerful principle**: children are exposed to a **wide variety of movement experiences in a playful setting**. The pedagogical approach emphasized **equality**, **eye-level interaction**, and the creation of a **low-pressure, exploratory atmosphere**. Success was defined not by performance, but by **engagement, curiosity**, and the **freedom to try, fail, and try again**.
 
-## **Project Objectives**  
- The project was designed to achieve the following objectives:
+This gentle environment coexisted with **clear structure and boundaries**. Facilitators maintained **rules and adult authority when needed**, ensuring safety and group cohesion. At the same time, children were encouraged to **navigate minor social conflicts independently**, fostering **negotiation and self-regulation skills**.
 
-* **Needs-Oriented Experience:** Provide novel movement experiences focused on positive engagement and enjoyment, rather than performance metrics.
-* **Accessibility:** Ensure all activities were accessible to every child, regardless of their specific disability.
-* **Efficacy Assessment:** Evaluate the potential for observable progress within a short, intensive timeframe of individualized training in a one-on-one session.
-* **Systematic Documentation:** Implement a standardized documentation process for individual sessions to track progress and ensure continuity between trainers.
-* **Methodological Feasibility:** Demonstrate the viability of integrating resource-intensive, one-on-one training within a group workshop structure and within tight financial constraints.
-![Case-Study-Helen-Keller-1.jpg](img/Case-Study-Helen-Keller-1.jpg){ align=left }
+---
 
-## **Methodologies and Pedagogical Adaptation**  
- The workshop utilized established inclusive methods such as **Functional Juggling, Spin Poi, and Hula Hoop Integral**, as well as ideas also present in the **IN.ZIRQUE method**. A central part of our work involved adapting activities based on participant responses.
+## **Materials and Environment**  
+ Workshops were held in a **small sports room** transformed using both **specialized and traditional circus equipment**, including:
 
-A clear example of this process was the introduction of a **“Tic-Tac-Toe” running game**. Our initial design, which required strategic thinking and multi-step rule-following, proved to be a pedagogical misjudgment, as it was too cognitively demanding for the group. This prompted an immediate methodological shift. We **deconstructed the game into its core competencies: color recognition and spatial organization**, and introduced simpler sorting and pattern-making activities using the same or similar materials.
+* **Juggle Boards**, enabling structured pattern exploration without scattered balls
 
-After building these foundational skills in a playful context, we reintroduced the original game, which the children were then able to engage with successfully. **This incident highlighted the necessity of assessing and building prerequisite skills before introducing complex tasks.**
+* **Newton Devices**, for controlled tossing and coordination
 
-## **Daily Schedule**  
- Each day started with a **group welcome and warm-up games** followed by concurrent **group activities** (acrobatics, balancing, etc.) and **individualized 10-minute training sessions**, as well as **shared breaks** to eat, drink and socialize. Each day ended with **cool-down and massage games**, and a **daily feedback round** to guide the next day's planning.
+* **Curved Wobble Boards**, for balance, crawling, and rolling
 
-## **Project Outcomes**  
- **Participant Progression:** Observable progress was noted across the group. A significant outcome was observed with a **non-verbal child with cerebral palsy** who had previously shown minimal reaction to external stimuli. Through consistent, one-on-one work with a rolling ball, the child began to participate in a **reciprocal back-and-forth interaction** by the end of the week. This demonstrated the potential of targeted, patient intervention.
+* **Parkour elements**, such as beams and mats for gross motor development
 
-It is also worth noting that the progress for different children could be dependent on different trainers (some kids only opened up to female trainers, others only to male ones). This highlights that **it’s very beneficial to have a diverse group of trainers**, both in gender and other aspects.
+* Later additions: **poi, hula hoops, scarves**, and **spinning plates** to enrich sensory and movement variety
 
-The project was characterized by a **high degree of operational fluidity**, largely attributable to extensive **pre-project planning**, including preparatory meetings with the school to understand the specific needs and potential challenges of the participants.
+This environment was designed to be both **inviting and developmentally supportive**, allowing children to explore movement freely while fostering key motor skills.
 
-![Case Study Helen Keller - 2.jpg](img/Case-Study-Helen-Keller-2.jpg){ align=left }
+![Case-Study-Kindergarten-3.jpg](img/Case-Study-Kindergarten-3.jpg){ align=left }
 
-## **Key Learnings and Success Factors**  
- The project's effectiveness can be attributed to several factors:
+---
 
-* **The Value of Real-Time Adaptation:** The “Tic-Tac-Toe” example underscores that success was not contingent on a flawless initial plan, but on the team's ability to recognize a failing approach and restructure it based on direct observation of the children's needs.
+## **Workshop Design for Toddlers (Ages 1.5–3)**  
+ Participation was always voluntary. To ensure fairness, **children were selected through a mix of random choice and educator recommendation**. The team aimed for a **low trainer-to-child ratio (ideally 1:4)** to provide the individual attention otherwise unavailable.
 
-* **Structured Individualization:** The systematic documentation of 10-minute individual sessions proved highly effective. It provided concrete data for progress evaluation and allowed different trainers to work with the same child without loss of continuity.
+Each **60-minute session followed a ritualized structure**:
 
-## **Conclusion**  
- The **high staff-to-participant ratio** and the **open collaboration** between our trainers and the school's staff created a **supportive and responsive environment** for all participants.
+* A **welcome song with movement** created rhythm and psychological safety
 
-The project also illustrates the value of a **highly structured yet flexible pedagogical approach** in working with children with diverse and complex needs. The combination of **proactive planning, systematic individualization**, and the **willingness to adapt methodologies** in response to direct participant feedback were critical to the project's positive outcomes. It demonstrates that even within a short timeframe, **targeted and needs-oriented interventions** can facilitate **meaningful engagement and observable progress**.
+* Immediate engagement with **physical play**, including parkour and Juggle Board games
+
+* **Finger-plays and familiar songs** provided structure and focus
+
+* To prevent overstimulation, **no recorded music** was used—only **live group singing**
+
+* A **farewell song** and a **coloring picture** as a participation token closed the session
+
+This predictable sequence offered **comfort and rhythm** to a group too young for complex narrative structures.
+
+![Case-Study-Kindergarten-1.jpg](img/Case-Study-Kindergarten-1.jpg){ align=left }
+
+---
+
+## **Workshop Design for Pre-Schoolers (Ages 4–6)**  
+ The 90-minute sessions for older children built upon the same foundations but were **enriched with a narrative arc**. Each session was tied to **one of five stories**, each linked to a **puzzle piece** that served as a **motivational and symbolic anchor**.
+
+The activities followed a **dynamic flow**:
+
+* **High-energy parkour**
+
+* **Focused coordination** with the Newton Device
+
+* **Cooperative, calming play** on the Juggle Boards
+
+As children completed each phase, they **earned a new puzzle piece**, creating a sense of **progression and excitement**. **Recorded music and movement games** like freeze dance were incorporated to sustain energy and enjoyment.
+
+![Case-Study-Kindergarten-2.jpg](img/Case-Study-Kindergarten-2.jpg){ align=left }
+
+---
+
+## **Outcomes and Observations**  
+ Short-term outcomes were **consistently positive**. Children were **joyful and deeply engaged**. Facilitators observed improvements in **physical abilities** (balance, coordination), **cognitive development** (concentration, focus), and **social confidence**.
+
+A striking observation was the **sustained attention of toddlers**. Children as young as 1.5 years remained focused for the **entire session**—a fact noted with **astonishment by the regular educators**.
+
+The project’s strengths—**eye-level interaction, low-pressure play, and empowerment in conflict resolution**—created a deeply **nurturing environment**. However, the very success of the program posed a challenge: **demand consistently exceeded capacity**. The children's enthusiasm made it emotionally difficult to limit group size, and the **ideal trainer ratio was occasionally stretched**.
+
+---
+
+## **Evolving Practice and Future Directions**  
+ Over its **seven-year evolution**, the project methodology has continued to adapt. For the older group, facilitators are now **shifting away from rigid narratives** toward **more open-ended, child-led activities**. Traditional circus skills like **poi and plate spinning** are becoming more central.
+
+Additionally, facilitators are **incorporating children’s favorite songs** into free-play segments, enhancing **personal relevance and emotional connection**. The project continues to explore how to maintain its **core values of inclusivity and engagement**, while responding flexibly to changing needs and interests.
 
