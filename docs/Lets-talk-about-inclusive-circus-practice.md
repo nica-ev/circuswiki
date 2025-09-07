@@ -1,6 +1,6 @@
 ---
 created: 2025-08-29 19:12:50
-update: 2025-09-07 18:45:35
+update: 2025-09-07 18:47:51
 publish: false
 tags:
   - case-study
@@ -67,25 +67,23 @@ This book is a collection of those moments. And maybe, if we’re lucky, an invi
 
 ## Case Studies
 
-| name                              | authors             | title                                                | land          |
-| --------------------------------- | ------------------- | ---------------------------------------------------- | ------------- |
-| [[Case Study 01 - Hungary]]       | Gallyas Veronika    | Supporting Wrist Fracture Rehabilitation             | Hungary       |
-| [[Case Study 02 - Hungary]]       | Zsuzsa Székely      | Juggleboard in Kindergarten                          | Hungary       |
-| [[Case Study 03 - Italy]]         | Sara Papadato*      | More Than Movement                                   | Italy         |
-| [[Case Study 04 - Italy]]         | Lapo Botteri        | Rebuilding Grasp                                     | Italy         |
-| [[Case Study 05 - Greece]]        | Monokyklo team      | Colours and Patterns to Unlock Friendly Interactions | Greece        |
-| [[Case Study 06 - Greece]]        | Eva Parlani         | Feeling Safe: A Key for Autism                       | Greece        |
-| [[Case Study 07 - Poland]]        | Paulina Chodnicka   | Hidden Therapy Through Play                          | Poland        |
-| [[Case Study 08 - Poland]]        | Wiktoria Witenberg* | No Age Limit                                         | Poland        |
-| [[Case Study 09 - Belgium]]       | Elga Pollet         | Designing Together                                   | Belgium       |
-| [[Case Study 10 - Germany]]       | Marc Bielert        | Movement & Play in Early Childhood Ed                | Germany       |
-| [[Case Study 11 - Germany]]       | Marc Bielert        | Circus Workshop for Children with Special Needs      | Germany       |
-| [[Case Study 12 - Latin America]] | Jael Rodriguez      | Where Movement Finds Us                              | Latin America |
-| [[Case Study 13 - Latin America]] | Jael Rodriguez      | Weaving Routines in Confinement                      | Latin America |
-| [[Case Study 14 - United States]] | Craig Quat          | Supporting Writing Tool Proficiency                  | United States |
-| [[Case Study 15 - United States]] | Craig Quat          | Social Integration in a Job Training Context         | United States |
-|                                   |                     |                                                      |               |
-|                                   |                     |                                                      |               |
+| name                              | authors            | title                                                | land          |
+| --------------------------------- | ------------------ | ---------------------------------------------------- | ------------- |
+| [[Case Study 01 - Hungary]]       | Gallyas Veronika   | Supporting Wrist Fracture Rehabilitation             | Hungary       |
+| [[Case Study 02 - Hungary]]       | Zsuzsa Székely     | Juggleboard in Kindergarten                          | Hungary       |
+| [[Case Study 03 - Italy]]         | Sara Papadato      | More Than Movement                                   | Italy         |
+| [[Case Study 04 - Italy]]         | Lapo Botteri       | Rebuilding Grasp                                     | Italy         |
+| [[Case Study 05 - Greece]]        | Monokyklo team     | Colours and Patterns to Unlock Friendly Interactions | Greece        |
+| [[Case Study 06 - Greece]]        | Eva Parlani        | Feeling Safe: A Key for Autism                       | Greece        |
+| [[Case Study 07 - Poland]]        | Paulina Chodnicka  | Hidden Therapy Through Play                          | Poland        |
+| [[Case Study 08 - Poland]]        | Wiktoria Witenberg | No Age Limit                                         | Poland        |
+| [[Case Study 09 - Belgium]]       | Elga Pollet        | Designing Together                                   | Belgium       |
+| [[Case Study 10 - Germany]]       | Marc Bielert       | Movement & Play in Early Childhood Ed                | Germany       |
+| [[Case Study 11 - Germany]]       | Marc Bielert       | Circus Workshop for Children with Special Needs      | Germany       |
+| [[Case Study 12 - Latin America]] | Jael Rodriguez     | Where Movement Finds Us                              | Latin America |
+| [[Case Study 13 - Latin America]] | Jael Rodriguez     | Weaving Routines in Confinement                      | Latin America |
+| [[Case Study 14 - United States]] | Craig Quat         | Supporting Writing Tool Proficiency                  | United States |
+| [[Case Study 15 - United States]] | Craig Quat         | Social Integration in a Job Training Context         | United States |
 
 ## Kontakte
 | name                       |         title          |     land      |          website           |       email       |       youtube        |      instagram      |        facebook         |
@@ -99,56 +97,3 @@ This book is a collection of those moments. And maybe, if we’re lucky, an invi
 | [[Quat Props]]             |       Quat Props       | United States |     www.quatprops.net      |                   |      @quatprops      |     @quatprops      |       @quatprops        |
 | [[SELF APS]]               |        SELF APS        |     Italy     |                            |                   |                      |    selfapsitalia    |        Self APS         |
 
----
-
-# Technical Stuff
-
-```base
-views:
-  - type: table
-    name: Table
-    filters:
-      and:
-        - file.hasTag("case-study")
-        - '!file.hasTag("moc")'
-        - '!file.hasTag("Kontakte")'
-    order:
-      - file.name
-      - title
-      - authors
-      - land
-    columnSize:
-      note.authors: 177
-      note.title: 388
-
-```
-
-# Kontakte
-
-```base
-views:
-  - type: table
-    name: Table
-    filters:
-      and:
-        - file.hasTag("case-study")
-        - file.hasTag("Kontakte")
-    order:
-      - file.name
-      - title
-      - land
-      - website
-      - email
-      - youtube
-      - instagram
-      - facebook
-    columnSize:
-      file.name: 90
-      note.title: 182
-      note.land: 89
-      note.website: 168
-      note.youtube: 196
-      note.instagram: 170
-      note.facebook: 204
-
-```
