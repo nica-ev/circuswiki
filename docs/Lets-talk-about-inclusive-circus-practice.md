@@ -1,6 +1,6 @@
 ---
 created: 2025-08-29 19:12:50
-update: 2025-09-07 18:47:51
+update: 2025-09-09 18:45:49
 publish: false
 tags:
   - case-study
@@ -12,50 +12,7 @@ authors:
   - Craig Quat
 ---
 
-# Erasmus+ Project: Case Studies
-
->[!info]- Disclaimer (click here to reveal the content)
->Funded by the European Union. The information and views set out in this publication are those of the authors and do not necessarily reflect the official opinion of the European Union or the Tempus Public Foundation. Neither the European Union nor the granting authority can be held responsible for them.  
->
->Project number: 2024-1-HU01-KA210-VET-000251194
->
->**Contributing organisations**:
->- Inspiral Circus Center / Hungarian Juggling Association, Hungary 
->- SELF A.P.S, Italy
->- Monokyklo, Greece
->- Odskocznia Studio, Poland
->- Circusatelier Woesh, Belgium
->
->**Guest Contributors:** 
->- Quat Props, United States
->- NICA E.V, Germany
->- Hula Hoop Integral, Argentina
->
->**Design and Layout**: Jael Rodríguez 
->**Text Editing**: Craig Quat
->**First edition**: August 2025
->© 2025. Intellectual property rights belong to each respective author and organisation.
-
-## About the project
-European projects—especially those supported by the Erasmus+ programme—have given us tremendous opportunities to share, learn, and grow together. Thanks to this ongoing support, we’ve been able to discover new methodologies, build cross-border collaborations, and bring dreams into reality.
-The circus sector is evolving dynamically. Through personal meetings, regular online exchanges, and deep collaboration, we’ve all grown—not only as professionals, but also as human beings. These shared experiences have a lasting impact on our daily practice, our values, and our vision for what circus can be.
-This current project, “Creative Inclusion of Special Need Groups - Much More Than Circus”, spanned one year and brought together five core organisations from across Europe. Together, we delivered:
-- Three international in-person events: a convention, a conference and a training
-- A series of online symposiums
-- And this present Book of Case Studies
-
- We also invited guest organisations to contribute, offering a broader and more diverse picture of inclusive circus practices. With this, we aim to contribute to something much greater: the growing work of the Functional Juggling Network, and the future of a truly inclusive international circus community.
- We hope the seeds planted here will grow into many beautiful collaborations to come.
-
-🎥 Watch the symposium [here: ](https://www.youtube.com/playlist?list=PL6v447yuJWYhkqxr3rKsJAsb9HBPmPxP_)
-
-**Participating Organisations**:
-Hungarian Juggling Association - Inspiral Circus Center (Hungary)
-Monokyklo  (Greece) 
-Odskocznia Studio (Poland) 
-Circusatelier Woesh (Belgium) 
-SELF A.P.S. (Italy)
-
+[[Disclaimer|About the project and partners]]
 ## Prolog
 The world of circus pedagogy is in the midst of a quiet but powerful shift. For a long time, circus in education was seen as something mostly for kids—playful, physical, and rooted in learning a specific set of technical tricks. But across the globe, a growing wave of practitioners is pushing beyond that narrow frame. They’re showing that the circus can be something much more: a tool for inclusion, for connection, and for deep personal and social transformation.
 
@@ -85,7 +42,8 @@ This book is a collection of those moments. And maybe, if we’re lucky, an invi
 | [[Case Study 14 - United States]] | Craig Quat         | Supporting Writing Tool Proficiency                  | United States |
 | [[Case Study 15 - United States]] | Craig Quat         | Social Integration in a Job Training Context         | United States |
 
-## Kontakte
+## Contacts
+
 | name                       |         title          |     land      |          website           |       email       |       youtube        |      instagram      |        facebook         |
 | -------------------------- | ---------------------- | ------------- | -------------------------- | ----------------- | -------------------- | ------------------- | ----------------------- |
 | [[Circusatelier Woesh]]    |  Circusatelier Woesh   |    Belgium    |        www.woesh.be        |                   | @circusatelierwoesh  | @circusatelierwoesh |   @circusatelierwoesh   |
@@ -97,3 +55,6 @@ This book is a collection of those moments. And maybe, if we’re lucky, an invi
 | [[Quat Props]]             |       Quat Props       | United States |     www.quatprops.net      |                   |      @quatprops      |     @quatprops      |       @quatprops        |
 | [[SELF APS]]               |        SELF APS        |     Italy     |                            |                   |                      |    selfapsitalia    |        Self APS         |
 
+![EN_FundedbytheEU_RGB_POS.png](img/EN_FundedbytheEU_RGB_POS.png)
+Funded by the European Union. Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or the Tempus Public Foundation (TPF). Neither the European Union nor the granting authority can be held responsible for them.
+Project number : 2024-1-HU01-KA210-VET-000251194
