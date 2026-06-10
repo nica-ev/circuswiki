@@ -179,8 +179,8 @@ It builds the ignored `site/` directory and uploads it as a GitHub Pages artifac
 The build base path is environment driven:
 
 ```powershell
-$env:CIRCUSWIKI_SITE_BASE_PATH = "/circuswiki-dev/"
-$env:CIRCUSWIKI_SITE_URL = "https://nica-ev.github.io/circuswiki-dev/"
+$env:CIRCUSWIKI_SITE_BASE_PATH = "/circuswiki/"
+$env:CIRCUSWIKI_SITE_URL = "https://nica-ev.github.io/circuswiki/"
 powershell -ExecutionPolicy Bypass -File tools/build_multilang.ps1
 ```
 
@@ -201,21 +201,21 @@ If these variables are not set, the build defaults to the main public URL shape:
 /circuswiki/sk/
 ```
 
-For this dev repository, the Pages workflow uses:
+The Pages workflow uses the public repository URL shape:
 
 ```text
-https://nica-ev.github.io/circuswiki-dev/
-https://nica-ev.github.io/circuswiki-dev/en/
-https://nica-ev.github.io/circuswiki-dev/pl/
-https://nica-ev.github.io/circuswiki-dev/hu/
-https://nica-ev.github.io/circuswiki-dev/it/
-https://nica-ev.github.io/circuswiki-dev/nl/
-https://nica-ev.github.io/circuswiki-dev/el/
-https://nica-ev.github.io/circuswiki-dev/es/
-https://nica-ev.github.io/circuswiki-dev/uk/
-https://nica-ev.github.io/circuswiki-dev/pt/
-https://nica-ev.github.io/circuswiki-dev/cs/
-https://nica-ev.github.io/circuswiki-dev/sk/
+https://nica-ev.github.io/circuswiki/
+https://nica-ev.github.io/circuswiki/en/
+https://nica-ev.github.io/circuswiki/pl/
+https://nica-ev.github.io/circuswiki/hu/
+https://nica-ev.github.io/circuswiki/it/
+https://nica-ev.github.io/circuswiki/nl/
+https://nica-ev.github.io/circuswiki/el/
+https://nica-ev.github.io/circuswiki/es/
+https://nica-ev.github.io/circuswiki/uk/
+https://nica-ev.github.io/circuswiki/pt/
+https://nica-ev.github.io/circuswiki/cs/
+https://nica-ev.github.io/circuswiki/sk/
 ```
 
 GitHub Pages must be enabled for the repository with "GitHub Actions" as the

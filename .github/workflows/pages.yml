@@ -5,7 +5,6 @@ on:
   push:
     branches:
       - main
-      - multilingual-zensical-structure
 
 permissions:
   contents: read
@@ -40,8 +39,8 @@ jobs:
       - name: Build multilingual site
         shell: pwsh
         env:
-          CIRCUSWIKI_SITE_BASE_PATH: /circuswiki-dev/
-          CIRCUSWIKI_SITE_URL: https://nica-ev.github.io/circuswiki-dev/
+          CIRCUSWIKI_SITE_BASE_PATH: /circuswiki/
+          CIRCUSWIKI_SITE_URL: https://nica-ev.github.io/circuswiki/
         run: ./tools/build_multilang.ps1
 
       - name: Upload Pages artifact
