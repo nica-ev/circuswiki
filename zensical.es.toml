@@ -5,6 +5,7 @@ site_author = "Marc Bielert"
 site_description = "A wiki dedicated to circus pedagogy, circus arts, education, movement games, and related topics."
 copyright = "CC BY-SA 4.0"
 repo_url = "https://github.com/nica-ev/circuswiki"
+repo_name = "nica-ev/circuswiki"
 docs_dir = ".build/es"
 site_dir = "site/es"
 extra_css = ["stylesheets/circuswiki.css"]

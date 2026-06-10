@@ -209,6 +209,7 @@ GitHub Pages deployment:
 - Assume the working tree may contain user changes. Do not revert unrelated changes.
 - Use `rg` for searching when available.
 - Prefer small, reviewable changes.
+- Do not create, push, or open pull requests unless the user explicitly asks for a PR.
 - Keep generated files out of commits unless the user explicitly asks for generated output.
 - Do not commit secrets, API keys, local machine paths, virtual environments, caches, `.build/`, or `site/`.
 - Do not migrate old tooling back in from historical docs unless the user explicitly asks for it.
