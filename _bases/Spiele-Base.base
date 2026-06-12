@@ -173,12 +173,29 @@ views:
       note.group-min: 116
       note.group-max: 121
   - type: table
+    name: Beigoma
+    filters:
+      and:
+        - lang == "de"
+        - file.hasTag("spiele")
+        - category.contains("beigoma")
+        - '!file.hasTag("moc")'
+    order:
+      - file.name
+      - group-min
+      - group-max
+      - Schwierigkeit
+      - Material
+      - Spieldauer
+    columnSize:
+      note.group-min: 116
+      note.group-max: 121
+  - type: table
     name: Liste aller Spiele
     filters:
       and:
         - lang == "de"
         - file.hasTag("spiele")
-        - '!file.hasTag("beigoma")'
         - '!file.hasTag("moc")'
     order:
       - file.name

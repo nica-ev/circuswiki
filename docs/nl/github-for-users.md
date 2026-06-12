@@ -6,87 +6,170 @@ tags:
   - github
   - tutorial
 created: 2025-01-18 23:14:04
-update: 2025-01-23 05:45:14
-title: Github - Introductie
+update: 2026-06-12 18:26:00
+title: GitHub - direct meewerken in de repository
 authors:
   - Marc Bielert
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/github-for-users.md
-translation_source_hash: dfe00929e923816850c33f360f842f0e9286da94f4c365ba04458e5a82b2a709
+translation_source_hash: 8125fe4a8331e806a2b0d103dd38dbfda6e82793ffa37265095b73ad0217bdf2
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T23:16:06+00:00
-translation_source_body_hash: dfe00929e923816850c33f360f842f0e9286da94f4c365ba04458e5a82b2a709
-translation_source_metadata_hash: 78994f99738d76f1df766c8842cbf9662fdb1353ef706cd6b4bf4a05effff0ae
+translation_updated: 2026-06-12T17:31:23+00:00
+translation_source_body_hash: 8125fe4a8331e806a2b0d103dd38dbfda6e82793ffa37265095b73ad0217bdf2
+translation_source_metadata_hash: ac5f43c5c49905b729ab3c3f288e96be0cf997b5a5f1e94ca4f7eb6a77c1686f
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:48:33+00:00
+translation_metadata_updated: 2026-06-12T17:31:23+00:00
 ---
-# Meedoen met de documentatie – Zo doe je dat eenvoudig!
+> [!info] Kort samengevat
+> Deze pagina is bedoeld voor mensen die direct aan de Markdown-bestanden van CircusWiki willen werken. Voor normale bijdragen heb je deze weg niet nodig: je kunt materiaal ook gewoon per e-mail sturen.
 
-Hallo allemaal! We zijn blij dat jullie willen helpen met onze documentatie. 😊 Hier is een eenvoudige handleiding om dat te doen:
+Direct meewerken via GitHub is handig als je regelmatig pagina's wilt corrigeren, nieuwe Markdown-bestanden wilt aanmaken of met de CircusWiki-vault wilt werken in een editor zoals Obsidian.
+
+Als je alleen een spel, een methode, een PDF, een link of een correctie wilt bijdragen, is de eenvoudigere weg meestal beter:
+
+[Terug naar Meedoen](mitmachen.md){ .md-button }
 
 ## Wat je nodig hebt
 
-1.  **GitHub-account:**
-    *   Maak een gratis GitHub-account aan als je er nog geen hebt: [https://github.com/join](https://github.com/join)
-    *   Dit hebben we nodig om alles goed te laten werken.
+- een gratis GitHub-account: [https://github.com/join](https://github.com/join)
+- optioneel GitHub Desktop: [https://desktop.github.com/](https://desktop.github.com/)
+- een teksteditor voor Markdown-bestanden, bijvoorbeeld Obsidian, VS Code of een eenvoudige editor
 
-2.  **GitHub Desktop:**
-    *   Download en installeer GitHub Desktop: [https://desktop.github.com/](https://desktop.github.com/)
-    *   Dit programma maakt het werken met Git makkelijker, zelfs als je er nog niet zo bekend mee bent.
+GitHub Desktop is niet verplicht, maar voor veel mensen eenvoudiger dan de commandoregel.
 
-## Aan de slag!
+## Repository vinden
 
-1.  **Repository kopiëren (forken):**
-    *   Ga naar ons documentatiegedeelte op GitHub (bijvoorbeeld `nica-ev/docs`) en klik op de knop "Fork".
-    *   Hiermee maak je een eigen kopie van het gedeelte waarin je kunt werken, zonder iets te beschadigen. 😉
+Het openbare repository staat hier:
 
-2.  **Repository naar je computer halen:**
-    *   Open GitHub Desktop.
-    *   Klik op "File" -> "Clone repository...".
-    *   Selecteer je kopie van het gedeelte uit de lijst op GitHub.
-    *   Kies een map op je computer waar je het gedeelte wilt opslaan.
-    *   Klik op "Clone".
-    *   Nu heb je een kopie van het gedeelte op je computer.
+[https://github.com/nica-ev/circuswiki](https://github.com/nica-ev/circuswiki)
 
-3.  **(Optioneel) Een nieuwe werkbranch maken:**
-    *   Klik in GitHub Desktop op de knop "Current Branch" (meestal linksboven).
-    *   Voer een nieuwe naam in voor je werkbranch (bijvoorbeeld `nieuwe-pagina`, `fout-herstellen`).
-    *   Klik op "Create branch".
-    *   Branches helpen om je wijzigingen gescheiden te houden. Als er iets misgaat, kun je de branch eenvoudig weer verwijderen.
-    *   **Onthoud:** Het aanmaken van een nieuwe branch is optioneel, maar het is een goed idee om je wijzigingen te organiseren.
+Daar staan de eigenlijke Markdown-bestanden, afbeeldingen, vertalingen en tools waaruit de website wordt opgebouwd.
 
-4.  **Wijzigingen aanbrengen:**
-    *   Gebruik je teksteditor (bijvoorbeeld Kladblok, VS Code) om de bestanden in het gedeelte op je computer te bewerken.
-    *   Hier kun je tekst toevoegen, fouten corrigeren, enzovoort.
-    *   **Belangrijk:** Gebruik Markdown voor de opmaak (zie hieronder).
+## Werkwijze in het kort
 
-5.  **Wijzigingen opslaan (committen):**
-    *   In GitHub Desktop zie je in het tabblad "Changes" je gewijzigde bestanden.
-    *   Schrijf een korte samenvatting in het veld "Summary".
-    *   Klik op "Commit to `<branch-name>`" (of "Commit to main" als je geen branch hebt gebruikt).
-    *   Dit opslaan is als het maken van een tussenversie van je werk.
+De typische gang van zaken is:
 
-6.  **Wijzigingen uploaden (pushen):**
-    *   Klik in GitHub Desktop op "Push origin".
-    *   Hiermee worden je wijzigingen naar je kopie van het gedeelte op GitHub geüpload.
+1. Repository op GitHub forken.
+2. Je kopie naar je eigen computer klonen.
+3. Wijzigingen aanbrengen in een nieuwe branch.
+4. Bestanden bewerken of nieuwe Markdown-bestanden aanmaken.
+5. Wijzigingen committen.
+6. Branch naar GitHub uploaden.
+7. Pull Request openen, zodat de wijziging gecontroleerd en overgenomen kan worden.
 
-7.  **Wijzigingen indienen voor beoordeling (Pull Request):**
-    *   Klik in GitHub Desktop op "Create Pull Request". Er opent dan een pagina op GitHub.
-    *   Controleer daar je wijzigingen en klik op "Create Pull Request".
-    *   Een Pull Request is als een verzoek om je wijzigingen in het hoofdgedeelte over te nemen.
+## Stap voor stap met GitHub Desktop
 
-## Belangrijk om te weten
+### 1. Repository forken
 
-*   **Markdown:** Dit is een eenvoudige taal voor tekst. Hier een korte uitleg:
-    *   `# Kop 1`
-    *   `## Kop 2`
-    *   `**Vetgedrukt**`
-    *   `*Cursief*`
-    *   `- Lijstitem`
-    *   `[Link](https://www.example.com)`
-*   **Berichten bij het opslaan:** Schrijf korte berichten bij je commits, zodat iedereen weet wat je hebt gedaan.
-*   **Geduld:** In het begin kan het wat oefening vergen. Vraag gerust als iets onduidelijk is!
+Open het CircusWiki-repository op GitHub:
 
-Bedankt voor je hulp! 🙌
+[https://github.com/nica-ev/circuswiki](https://github.com/nica-ev/circuswiki)
+
+Klik op `Fork`. Hierdoor ontstaat een eigen kopie van het repository in je GitHub-account. In deze kopie kun je werken zonder het hoofdproject direct te wijzigen.
+
+### 2. Repository klonen
+
+Open GitHub Desktop en kies:
+
+```text
+File -> Clone repository...
+```
+
+Kies je fork van `nica-ev/circuswiki` en bepaal een map op je computer.
+
+Daarna heb je een lokale kopie van de bestanden.
+
+### 3. Een branch aanmaken
+
+Maak voor je wijziging bij voorkeur een eigen branch aan, bijvoorbeeld:
+
+```text
+spel-beschrijving-aanvullen
+link-corrigeren
+nieuwe-methode-balanceren
+```
+
+Een branch houdt je werk gescheiden van de hoofdversie. Dit maakt de latere controle eenvoudiger.
+
+### 4. Bestanden bewerken
+
+De openbare inhoud staat voornamelijk in de taalmappen onder `docs/`:
+
+```text
+docs/de/
+docs/en/
+docs/es/
+docs/pl/
+...
+docs/img/
+```
+
+Alle talen zijn gelijkwaardig. Er is geen hoofdtaal waarin nieuwe inhoud in principe moet ontstaan.
+
+Als je een nieuwe originele pagina maakt, plaats deze dan in de taalmap van de taal waarin de tekst is geschreven. Een Spaanse originele tekst hoort bijvoorbeeld in `docs/es/`, een Duitse in `docs/de/`, een Engelse in `docs/en/`.
+
+Belangrijk is de 'frontmatter' aan het begin van het bestand. Daar moet herkenbaar zijn dat de pagina een origineel is, bijvoorbeeld:
+
+```yaml
+translation_status: original
+translation_source_lang: es
+```
+
+`translation_source_lang` komt overeen met de taal van de originele tekst. Vanuit dit origineel kunnen later automatisch vertalingen in alle ondersteunde talen worden gegenereerd.
+
+Let bij het bewerken op het volgende:
+
+- Verwijder de frontmatter aan het begin van het bestand niet.
+- Stel bij nieuwe originele pagina's `translation_status: original` en de juiste `translation_source_lang` in.
+- Behoud bestaande links zoveel mogelijk.
+- Publiceer geen privégegevens, API-sleutels of interne notities.
+- Gebruik afbeeldingen alleen als de gebruiksrechten duidelijk zijn.
+- Maak liever kleine, duidelijke wijzigingen dan zeer grote gemengde wijzigingen.
+
+### 5. Wijzigingen committen
+
+In GitHub Desktop zie je je gewijzigde bestanden in het gedeelte `Changes`.
+
+Schrijf een korte samenvatting, bijvoorbeeld:
+
+```text
+Corrigeer materiaal-lijst in bewegingsspel
+Voeg veiligheidsinstructie toe voor Beigoma
+Voeg nieuwe spelbeschrijving toe
+```
+
+Klik daarna op `Commit to <branch-name>`.
+
+### 6. Wijzigingen uploaden
+
+Klik op `Push origin` om je branch naar GitHub te uploaden.
+
+### 7. Pull Request openen
+
+GitHub Desktop of GitHub in de browser biedt daarna aan om een Pull Request te maken.
+
+Een Pull Request betekent: je stelt je wijziging voor aan het hoofd-repository. De wijziging wordt gecontroleerd, eventueel becommentarieerd en dan overgenomen of verder bewerkt.
+
+## Markdown-basis
+
+Markdown is een eenvoudig tekstformaat. De belangrijkste tekens zijn voldoende voor de meeste bijdragen:
+
+```markdown
+# Grote kop
+## Sectie kop
+
+Normale tekst met **vetgedrukte tekst** en *cursieve tekst*.
+
+- Lijstitem
+- Nog een lijstitem
+
+[Linktekst](https://www.example.com)
+```
+
+## Als iets onduidelijk is
+
+Direct meewerken via GitHub hoef je niet meteen perfect te kunnen. Als je een Pull Request opent en iets nog niet klopt, kan dat in de review worden opgehelderd.
+
+Als je alleen inhoud wilt bijdragen en de technische weg te ingewikkeld lijkt, gebruik dan gewoon de e-mail op de [Meedoen-pagina](mitmachen.md).

@@ -6,80 +6,64 @@ tags:
   - spiele
   - beigoma
 created: 2025-01-24 03:50:50
-update: 2025-01-24 04:26:50
+update: 2026-06-11 17:28:52
 title: Juego de Bloques
 description: 
 authors:
   - Marc Bielert
 translation_status: machine-translated
-translation_source_lang: de
-translation_source: docs/de/Blockspiel.md
-translation_source_hash: 85b855a85fb8b24db41f0455b54679fa407aa497b1fa181cc7deed396715e43d
+translation_source_lang: en
+translation_source: docs/en/Blockspiel.md
+translation_source_hash: feba559e9d0aa64ee5f6f9fb6b0b7648397c4978b6acdba1fb549286dc46366a
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T13:59:46+00:00
-translation_source_body_hash: 85b855a85fb8b24db41f0455b54679fa407aa497b1fa181cc7deed396715e43d
-translation_source_metadata_hash: 658a805439446668d1f672684bb99d0601d8bbb3410b8597fd5fc4088173f2fc
+translation_updated: 2026-06-11T15:37:23+00:00
+translation_source_body_hash: feba559e9d0aa64ee5f6f9fb6b0b7648397c4978b6acdba1fb549286dc46366a
+translation_source_metadata_hash: c3fb57ba13e0517992cf588c2c001e2b5a447e4689fca0b654c9e91d66c1dab7
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:03:59+00:00
+translation_metadata_updated: 2026-06-11T15:37:23+00:00
 ---
-# Introducción al juego "Juego de Bloques"
+> [!info] Descripción Breve
+> Un formato flexible de tarjeta de puntos de Beigoma donde los jugadores completan múltiples rondas dentro de un límite de tiempo.
 
-【Características】
+**Tamaño del grupo**: 10-40 personas
+**Dificultad**: Media
+**Materiales**: Beigoma, cuerdas, áreas de juego, tarjetas de puntos de bloques
+**Duración**: 30-60 minutos
 
--   Puedes jugar entre 10 y 30 partidas por persona dentro del tiempo establecido.
-    
--   Puedes participar en el juego a tu propio ritmo.
-    
--   Puedes unirte incluso a mitad del juego (se requieren al menos 10 partidas).
+## **Descripción del Juego**:
 
-\[Flujo del juego\]
+El juego de bloques permite que muchos jugadores participen a su propio ritmo. Cada jugador utiliza una tarjeta dividida en varios bloques, típicamente A, B y C. Durante el tiempo de juego, los jugadores completan partidas cortas uno a uno y registran los resultados en sus tarjetas.
 
-1.  Cada participante recibe una tarjeta y escribe su nombre.
-2.  Colocarse en el suelo en el orden indicado.
-    
-%% ![](https://static.wixstatic.com/media/39842b_c35cac3d625145f1b8446df105c2a658~mv2.png/v1/fit/w_300,h_300,al_c,q_5/file.png) %%
-    
-![](https://static.wixstatic.com/media/39842b_c35cac3d625145f1b8446df105c2a658~mv2.png/v1/fill/w_624,h_726,al_c,q_90/39842b_c35cac3d625145f1b8446df105c2a658~mv2.webp)
-3.  Los primeros oponentes colocan las tarjetas en el escritorio en el lado del suelo y juegan una vez uno contra uno.
-4.  Al ganar o perder, se escribe el resultado en la tarjeta.
-5.  Formar filas en diferentes lugares y repetir el juego hasta el límite de tiempo.
-6.  Cuando todas las partidas hayan terminado, entregar la tarjeta a la persona responsable.
-7.  Una vez finalizado el tiempo, la persona responsable suma los puntos y anuncia a los mejores jugadores.
+Este formato es útil cuando los participantes pueden unirse durante el evento, cuando hay múltiples áreas de juego disponibles, o cuando el líder del juego quiere que todos tengan muchos intentos en lugar de ser eliminados temprano.
 
-\[Cómo leer la tarjeta\]
+Prepara tarjetas de puntos con múltiples bloques y suficientes espacios para 10-30 partidas por jugador. Monta múltiples áreas de juego de Beigoma si es posible. Con unos 20 jugadores, tres áreas de juego y una hora es una configuración viable.
 
--   Está dividida en tres bloques: A, B y C.
-    
--   El número escrito es la cantidad de partidas.
-    
--   Escribe uno de los resultados de la partida: ◎, ◯, △ y X en la cantidad de partidas.
-    
--   Compite por la puntuación total de cada bloque.
-    
-%% ![](https://static.wixstatic.com/media/39842b_eb8b00f3b30f45d3a4589f66327d0aed~mv2.jpg/v1/fit/w_300,h_300,al_c,q_5/file.jpg) %%
-    
-![](https://static.wixstatic.com/media/39842b_eb8b00f3b30f45d3a4589f66327d0aed~mv2.jpg/v1/fill/w_616,h_740,al_c,q_90,usm_0.66_1.00_0.01/39842b_eb8b00f3b30f45d3a4589f66327d0aed~mv2.webp)
-\[Tabla de puntuación\]
+Cada participante recibe una tarjeta y escribe su nombre en ella. Dos jugadores colocan sus tarjetas cerca de un área de juego y juegan una ronda uno a uno. El resultado se registra en la tarjeta. Luego, los jugadores se mueven a una fila o área de juego diferente y repiten el proceso hasta que se agote el tiempo.
 
--   Ganar (Riki / Jugar) 2 ・ ・ ◯ (2 puntos)
-    
--   Empate (Packan) ... △ (1 punto)
-    
--   Eliminar el suelo del oponente ... △ (1 punto)
-    
--   Perder ... X (0 puntos)
-    
--   Ganar al Maestro Beigoma ... ◎ (3 puntos) \* Si los Maestros Beigoma se ganan entre sí, ◯ (2 puntos)
-    
-![](https://static.wixstatic.com/media/39842b_d1ed6f9abb794fa68cd6ab75e2cc1e36~mv2.png/v1/fit/w_300,h_300,al_c,q_5/file.png)![](https://static.wixstatic.com/media/39842b_d1ed6f9abb794fa68cd6ab75e2cc1e36~mv2.png/v1/fill/w_925,h_547,al_c,q_90,usm_0.66_1.00_0.01/39842b_d1ed6f9abb794fa68cd6ab75e2cc1e36~mv2.webp)
-\[Tiempo estimado\]
+Al final, todas las tarjetas se entregan al líder del juego. El líder del juego suma los puntos de cada bloque y anuncia los resultados.
 
-Con aproximadamente 20 participantes y 3 pisos disponibles, 1 hora es suficiente.
+## **Puntuación**:
 
-Se pueden realizar 30 partidas, incluso haciendo una pausa por el camino.
-    
-%% ![](https://static.wixstatic.com/media/39842b_92846025f5564118abe2c1e777b76149~mv2.jpg/v1/fit/w_300,h_300,al_c,q_5/file.jpg) %%
-    
-![](https://static.wixstatic.com/media/39842b_92846025f5564118abe2c1e777b76149~mv2.jpg/v1/fill/w_564,h_752,al_c,q_90,usm_0.66_1.00_0.01/39842b_92846025f5564118abe2c1e777b76149~mv2.webp)
----
+Tokyo Beigoma utiliza símbolos en la tarjeta. Un sistema de puntos viable es:
+
+- Ganar por Riki o Hajiki: 2 puntos
+- Empate o Pakkan: 1 punto
+- Derrota: 0 puntos
+- Ganar contra un maestro de Beigoma designado: 3 puntos
+
+Ajusta los valores de los puntos si tus reglas locales utilizan un sistema diferente.
+
+## **Variaciones**:
+
+Utiliza un bloque para partidas de principiantes, uno para partidas mixtas y uno para partidas de desafío libre.
+
+Si los jugadores se unen más tarde, dales un objetivo mínimo más corto en lugar de exigir una tarjeta completa.
+
+## **Notas**:
+
+Este formato es más administrativo que el formato rápido. Requiere tarjetas preparadas y alguien que pueda explicar cómo registrar los resultados.
+
+## **Fuente**:
+
+Basado en el formato de Juego de Bloques de Tokyo Beigoma.

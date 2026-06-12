@@ -8,7 +8,7 @@ tags:
 
 # Spiele Content Schema
 
-This schema describes the target structure for German game notes tagged `#spiele` that are shown through `_bases/Spiele-Base.base`.
+This schema describes the target structure for canonical game notes tagged `#spiele` that are shown through `_bases/Spiele-Base.base`.
 
 It is a review guide, not an automatic migration rule. Existing content should be changed minimally and only when the source note supports the edit.
 
@@ -16,6 +16,7 @@ It is a review guide, not an automatic migration rule. Existing content should b
 
 Applies to:
 
+- canonical source game notes under `docs/<lang>/`
 - German game notes under `docs/de/`
 - notes with `tags` containing `spiele`
 - notes queried by `_bases/Spiele-Base.base`
@@ -53,7 +54,7 @@ These fields must be present and internally consistent for reviewed game notes w
 
 ## Frontmatter
 
-Target frontmatter shape:
+Target frontmatter shape. The example uses German because most existing game sources are German; for an English canonical source use `lang: en`, `translation_status: original`, and `translation_source_lang: en` while keeping the same metadata keys.
 
 ```yaml
 ---
@@ -119,6 +120,7 @@ action
 sonstiges
 kennenlernen
 Taktik
+beigoma
 ```
 
 Do not rename or normalize these values during ordinary content cleanup. If category naming is changed later, handle it as a separate metadata migration.
@@ -220,6 +222,7 @@ Schnelligkeit+Reaktionsspiele  -> category contains action
 Spiele für Zwischendurch       -> category contains sonstiges
 Spiele zum Kennenlernen        -> category contains kennenlernen
 Taktik und Konzentrationsspiele -> category contains Taktik
+Beigoma                       -> category contains beigoma
 ```
 
 Do not process all game notes at once. The useful review unit is one Base view or one explicitly named file.

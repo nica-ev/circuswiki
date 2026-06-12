@@ -6,62 +6,58 @@ tags:
   - spiele
   - beigoma
 created: 2025-01-24 03:50:50
-update: 2025-01-24 23:21:13
-title: Ligaspiel
-description: 
+update: 2026-06-11 17:29:51
+title: Ligaspiiel
+description:
 authors:
   - Marc Bielert
-translation_status: original
-translation_source_lang: de
+translation_status: machine-translated
+translation_source_lang: en
+translation_source: docs/en/Ligaspiel.md
+translation_source_body_hash: 4317cbd876e1d86e7e648dfc554afc8ea070a828c173b681a6f36d1bdcd1827e
+translation_source_hash: 4317cbd876e1d86e7e648dfc554afc8ea070a828c173b681a6f36d1bdcd1827e
+translation_model: google/gemini-2.5-flash-lite
+translation_updated: 2026-06-11T15:39:03+00:00
+translation_source_metadata_hash: d35e67bcd9f8f74aa728d37684212afe09afbaaa6c6ac928344435185177e0d7
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-11T15:39:03+00:00
 ---
-# Spieleinführung "Ligaspiel"
+> [!info] Kurzbeschreibung
+> Ein Rundlauf-Beigoma-Format, bei dem die Spieler in kleinen Gruppen gegeneinander antreten und ihre Punktzahlen vergleichen.
 
-Die Teilnehmer kämpfen eins zu eins mit der gesamten Gruppe.
+**Gruppengröße**: 5-36 Personen
+**Schwierigkeitsgrad**: Mittel
+**Materialien**: Beigoma, Schnüre, Spielflächen, Tabellen oder Ergebnisbögen
+**Dauer**: 20-60 Minuten
 
-Selbst wenn Sie einmal wie ein Turnierkampf verlieren, wird es nicht enden.
+## **Spielbeschreibung**:
 
-Die Teilnehmer spielen die gleiche Anzahl an Spielen und kämpfen um Punkte.
+Das Format „Liga-Spiele“ ist ein Rundlaufsystem. Im Gegensatz zu einem K.-o.-Turnier scheidet ein Spieler nach einer Niederlage nicht aus. Jeder in einer Gruppe spielt die gleiche Anzahl von Spielen, und der Gewinner wird anhand der Gesamtpunktzahl ermittelt.
 
-Daher können Sie an vielen Spielen teilnehmen.
+Dieses Format eignet sich gut, wenn das Ziel ein fairer Vergleich und wiederholtes Spielen ist, anstatt eine schnelle Eliminierung.
 
-**\[Vorbereitung\]**
+Teilen Sie die Teilnehmer in Gruppen von etwa 5-9 Spielern auf. Tragen Sie die Namen jeder Gruppe in eine Liga-Tabelle ein. Beispielsweise könnten 18 Spieler drei Gruppen von je sechs Personen bilden.
 
-Schreiben Sie die Namen der Teilnehmer in die Rangliste mit 5 bis 9 Personen als eine Gruppe.
+Jede Gruppe entscheidet, wer die Ergebnisse festhält und wer das nächste Spiel ansagt. Die Spieler treten im Eins-gegen-Eins-Format gegeneinander an. Jedes Spiel wird mit einem Wurf gespielt, es sei denn, lokale Regeln erfordern einen Neustart. Nach jedem Spiel überprüfen beide Spieler, ob das Ergebnis in der Tabelle eingetragen wurde.
 
-(Wenn es insgesamt 18 Teilnehmer gibt, bilden Sie 3 Gruppen mit 6 Personen als 1 Gruppe)
+Fahren Sie fort, bis jeder in der Gruppe gegen jeden anderen gespielt hat. Zählen Sie die Punkte zusammen. Die Gruppensieger mit den höchsten Punktzahlen können eine Endrunde spielen.
 
-Eine Beispiel-Rangliste wird veröffentlicht
+## **Punktwertung**:
 
-**\[Punkt\]** \* Als Leitfaden
+Ein praktikables Punktemodell ist:
 
-- 3 Punkte ... gewinnen
+- 3 Punkte: Sieg durch Hajiki (Knock-out)
+- 2 Punkte: Sieg durch Riki (Umwerfen)
+- 1 Punkt: Unentschieden, Pakkan (beide fallen gleichzeitig) oder ein anderes von der Gruppe vereinbartes Teilergebnis
+- 0 Punkte: Niederlage
 
-- 2 Punkte ... Riki gewinnt
+Für Anfänger kann eine Unterstützungsregel hinzugefügt werden, z. B. 1 Punkt für das Landen auf dem Boden und Drehen, auch wenn das Spiel verloren geht.
 
-- 1 Punkt ・ ・ ・ Unentschieden (Packan), vom Boden gewinnen
+## **Hinweise**:
 
-- 0 Punkte: Spiel verlieren, Riki verlieren, vom Boden verlieren
+Vermeiden Sie es, dass derselbe Spieler mehrere Spiele hintereinander spielt, während andere warten. Das frühzeitige Ansagen des nächsten Spiels hält das Format in Schwung.
 
-**Sonderregeln** Nur Anfänger dürfen **Sonderregeln** haben, z. B. 1 Punkt zu erhalten, indem sie auf den Boden gehen und sich sogar ein wenig drehen, selbst wenn sie das Spiel verlieren .
+## **Quelle**:
 
-**\[Spielfluss\]**
-
-1. **In der Spielmitgliedsgruppe** werden ein Schiedsrichter und ein Spielfortschritt entschieden.
-
-2. **Eins-zu-Eins-Match** ・ Nur einmal werfen (nur neu starten, wenn beide vom Boden abheben) ・ Wenn das Match erreicht ist, schreiben Sie sich gegenseitig die Punkte auf den Tisch
-
-3. **Wiederholen Sie den Fluss von 2 in der Gruppe.** ・ Nehmen Sie an einem Round Robin teil und addieren Sie die Punkte, wenn alle Schlachten beendet sind
-
-4. **Finale** ・ Die Torschützen jeder Gruppe treffen sich, um den Gewinner zu ermitteln
-
-**【Vorsicht】**
-
-- Die Rangliste enthält Zeilen und Spalten. Schreiben Sie das Ergebnis eines Sieges oder einer Niederlage basierend auf der Reihe.
-
-- Versuchen Sie, ausgewogen zu spielen, damit dieselbe Person nicht hintereinander spielt.
-
-- Wenn Sie den nächsten Gegner anrufen und ihn fertig machen, kann das Match reibungslos gespielt werden.
-
-![](https://static.wixstatic.com/media/39842b_d0ec221e650c41a29efebf8720292d96~mv2.jpg/v1/fill/w_925,h_566,al_c,q_90,usm_0.66_1.00_0.01/39842b_d0ec221e650c41a29efebf8720292d96~mv2.webp)
-
-![](https://static.wixstatic.com/media/39842b_d21710474b594b4f8ee7c005b34e194b~mv2.jpg/v1/fill/w_925,h_654,al_c,q_90,usm_0.66_1.00_0.01/39842b_d21710474b594b4f8ee7c005b34e194b~mv2.webp)
+Basierend auf dem „League Games“-Format von Tokyo Beigoma.

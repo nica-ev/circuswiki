@@ -6,70 +6,64 @@ tags:
   - spiele
   - beigoma
 created: 2025-01-24 03:50:50
-update: 2025-01-24 04:26:50
+update: 2026-06-11 17:28:52
 title: Bloková hra
 description: 
 authors:
   - Marc Bielert
 translation_status: machine-translated
-translation_source_lang: de
-translation_source: docs/de/Blockspiel.md
-translation_source_hash: 85b855a85fb8b24db41f0455b54679fa407aa497b1fa181cc7deed396715e43d
+translation_source_lang: en
+translation_source: docs/en/Blockspiel.md
+translation_source_hash: feba559e9d0aa64ee5f6f9fb6b0b7648397c4978b6acdba1fb549286dc46366a
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T18:29:31+00:00
-translation_source_body_hash: 85b855a85fb8b24db41f0455b54679fa407aa497b1fa181cc7deed396715e43d
-translation_source_metadata_hash: 658a805439446668d1f672684bb99d0601d8bbb3410b8597fd5fc4088173f2fc
+translation_updated: 2026-06-11T15:37:37+00:00
+translation_source_body_hash: feba559e9d0aa64ee5f6f9fb6b0b7648397c4978b6acdba1fb549286dc46366a
+translation_source_metadata_hash: c3fb57ba13e0517992cf588c2c001e2b5a447e4689fca0b654c9e91d66c1dab7
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:04:01+00:00
+translation_metadata_updated: 2026-06-11T15:37:37+00:00
 ---
-# Úvod do hry „Bloková hra“
+> [!info] Stručný popis
+> Flexibilný formát bodovacej karty Beigoma, kde hráči absolvujú viacero kôl v časovom limite.
 
-【Charakteristiky】
+**Veľkosť skupiny**: 10 – 40 osôb
+**Obtiažnosť**: Stredná
+**Materiály**: Beigoma, šnúrky, hracie plochy, bodovacie karty s blokmi
+**Trvanie**: 30 – 60 minút
 
--   V rámci stanoveného času môžete odohrať 10 až 30 hier na osobu.
--   Môžete sa zapojiť do hry vlastným tempom.
--   Môžete sa zapojiť aj v strede hry (vyžaduje sa minimálne 10 hier).
+## **Opis hry**:
 
-\[Priebeh hry\]
+Bloková hra umožňuje zapojiť sa mnohým hráčom vlastným tempom. Každý hráč používa kartu rozdelenú na niekoľko blokov, zvyčajne A, B a C. Počas herného času hráči absolvujú krátke súboje jeden na jedného a zaznamenávajú si výsledky na svoje karty.
 
-1.  Účastníci dostanú kartu a napíšu na ňu svoje meno.
-2.  Zostavte sa na zem v uvedenom poradí.
-    %% ![](https://static.wixstatic.com/media/39842b_c35cac3d625145f1b8446df105c2a658~mv2.png/v1/fit/w_300,h_300,al_c,q_5/file.png) %%
-    ![](https://static.wixstatic.com/media/39842b_c35cac3d625145f1b8446df105c2a658~mv2.png/v1/fill/w_624,h_726,al_c,q_90/39842b_c35cac3d625145f1b8446df105c2a658~mv2.webp)
-3.  Prví súperi umiestnia karty na stôl na strane zeme a hrajú len raz jeden proti jednému.
-4.  Po výhre alebo prehre si zapíšte výsledok na kartu.
-5.  Zostavte sa do iného radu a opakujte hru až do uplynutia časového limitu.
-6.  Po skončení všetkých hier odovzdajte kartu zodpovednej osobe.
-7.  Po uplynutí časového limitu zodpovedná osoba spočíta body a oznámi najlepších hráčov.
+Tento formát je užitočný, keď sa účastníci môžu pripojiť počas podujatia, keď je k dispozícii viacero hracích plôch, alebo keď chce vedúci hry, aby sa všetci zúčastnili viackrát namiesto skorého vypadnutia.
 
-\[Ako čítať kartu\]
+Pripravte si bodovacie karty s viacerými blokmi a dostatkom priestoru na 10 – 30 zápasov na hráča. Ak je to možné, zriadite viacero hracích plôch na Beigoma. Približne s 20 hráčmi je funkčným nastavením trojica hracích plôch a jedna hodina.
 
--   Je rozdelená na tri bloky: A, B a C.
--   Napísané číslo je počet odohraných hier.
--   Do počtu zápasov zapíšte jeden z výsledkov zápasu: ◎, ◯, △ a X.
--   Súťažte o celkový počet bodov každého bloku.
-    %% ![](https://static.wixstatic.com/media/39842b_eb8b00f3b30f45d3a4589f66327d0aed~mv2.jpg/v1/fit/w_300,h_300,al_c,q_5/file.jpg) %%
-    ![](https://static.wixstatic.com/media/39842b_eb8b00f3b30f45d3a4589f66327d0aed~mv2.jpg/v1/fill/w_616,h_740,al_c,q_90,usm_0.66_1.00_0.01/39842b_eb8b00f3b30f45d3a4589f66327d0aed~mv2.webp)
+Každý účastník dostane kartu a napíše si na ňu svoje meno. Dvaja hráči umiestnia svoje karty blízko hracie plochy a odohrajú kolo jeden na jedného. Výsledok sa zaznamená na kartu. Hráči sa potom presunú do iného riadku alebo na inú hraciu plochu a opakujú proces, kým nevyprší čas.
 
-\[Bodovacia tabuľka\]
+Na konci sa všetky karty odovzdajú vedúcemu hry. Vedúci hry spočíta body za každý blok a oznámi výsledky.
 
--   Výhra (Riki / Hra) 2 ・ ・ ◯ (2 body)
--   Remíza (Packan) ... △ (1 bod)
--   Z pôdy druhej strany ... △ (1 bod)
--   Prehra ... X (0 bodov)
--   Výhra nad majstrom Beigoma ... ◎ (3 body) \* Ak sa majstri Beigoma navzájom porazia, ◯ (2 body)
+## **Bodovanie**:
 
-![](https://static.wixstatic.com/media/39842b_d1ed6f9abb794fa68cd6ab75e2cc1e36~mv2.png/v1/fit/w_300,h_300,al_c,q_5/file.png)![](https://static.wixstatic.com/media/39842b_d1ed6f9abb794fa68cd6ab75e2cc1e36~mv2.png/v1/fill/w_925,h_547,al_c,q_90,usm_0.66_1.00_0.01/39842b_d1ed6f9abb794fa68cd6ab75e2cc1e36~mv2.webp)
+Tokyo Beigoma používa na karte symboly. Funkčný bodový systém je:
 
-\[Odhadovaný časový limit\]
+- Výhra pomocou Riki alebo Hajiki: 2 body
+- Remíza alebo Pakkan: 1 bod
+- Prehra: 0 bodov
+- Výhra proti určenému majstrovi Beigoma: 3 body
 
-Pri približne 20 účastníkoch a 3 poschodiach postačí 1 hodina.
+Upravte bodové hodnoty, ak vaše miestne pravidlá používajú iný systém.
 
-Môžete to stihnúť aj 30-krát, aj keď si počas hry urobíte prestávku.
+## **Variácie**:
 
-%% ![](https://static.wixstatic.com/media/39842b_92846025f5564118abe2c1e777b76149~mv2.jpg/v1/fit/w_300,h_300,al_c,q_5/file.jpg) %%
+Použite jeden blok na zápasy pre začiatočníkov, jeden na zmiešané zápasy a jeden na voľné výzvy.
 
-![](https://static.wixstatic.com/media/39842b_92846025f5564118abe2c1e777b76149~mv2.jpg/v1/fill/w_564,h_752,al_c,q_90,usm_0.66_1.00_0.01/39842b_92846025f5564118abe2c1e777b76149~mv2.webp)
+Ak sa hráči pripoja neskôr, dajte im kratší minimálny cieľ namiesto vyžadovania celej karty.
 
----
+## **Poznámky**:
+
+Tento formát je administratívnejší ako rýchlostný formát. Vyžaduje si pripravené karty a niekoho, kto vie vysvetliť, ako zaznamenávať výsledky.
+
+## **Zdroj**:
+
+Založené na formáte Blokovej hry z Tokyo Beigoma.

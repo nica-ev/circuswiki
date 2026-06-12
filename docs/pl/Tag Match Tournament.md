@@ -6,51 +6,53 @@ tags:
   - spiele
   - beigoma
 created: 2025-01-24 03:50:51
-update: 2025-01-25 01:13:07
+update: 2026-06-11 17:31:23
 title: Turniej Tag Match
 description: 
 authors:
   - Marc Bielert
 translation_status: machine-translated
-translation_source_lang: de
-translation_source: docs/de/Tag Match Tournament.md
-translation_source_hash: e2e2ab128c173b32494859fa57eda46515a3019e1ba76034ae902e8915f8a9f0
+translation_source_lang: en
+translation_source: docs/en/Tag Match Tournament.md
+translation_source_hash: 84227a0a6c913d9fc704f0a6ef2c6450d6e763e15e562011c89231a93904501e
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T20:24:16+00:00
-translation_source_body_hash: e2e2ab128c173b32494859fa57eda46515a3019e1ba76034ae902e8915f8a9f0
+translation_updated: 2026-06-11T15:40:31+00:00
+translation_source_body_hash: 84227a0a6c913d9fc704f0a6ef2c6450d6e763e15e562011c89231a93904501e
 translation_source_metadata_hash: cc74342fb1b2837db74e76b27779926cd9a7c8d15f110637205f06f57ac7fd3b
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T19:08:59+00:00
+translation_metadata_updated: 2026-06-11T15:40:31+00:00
 ---
-Wprowadzenie do gry „Turniej Tag Match”
-Ta gra jest idealna dla grupy uczestników o dużych różnicach w doświadczeniu. Łącząc się w pary z doświadczonymi graczami, początkujący mają mniejsze szanse na przegraną. Co więcej, skoro walczycie razem, będziecie szczęśliwsi, gdy wygracie!
+> [!info] Krótki opis
+> Drużynowy turniej Beigoma, w którym pary rywalizują w czteroosobowych rundach, a pierwsza drużyna, która zdobędzie dwa punkty, przechodzi dalej.
 
-Jeśli jest wielu początkujących, lepiej grać z normalnymi bagomami, ponieważ element szczęścia jest większy, a gra bardziej ekscytująca.
+**Wielkość grupy**: 4-40 osób
+**Poziom trudności**: Średni
+**Materiały**: Beigoma, sznurki, powierzchnie do gry, drabinka turniejowa, karty losujące lub karty drużyn
+**Czas trwania**: 20-60 minut
 
-Jak ustalić drużynę
+## **Opis gry**:
 
-Drużyny tag-team ustala się poprzez losowanie. Jeśli jest wielu początkujących, lepiej grać z normalnymi bagomami.
+Drużynowy Turniej Beigoma jest przeznaczony dla grup o znaczących różnicach w umiejętnościach. Początkujący są parowani z bardziej doświadczonymi graczami, co zmniejsza prawdopodobieństwo ich eliminacji tylko dlatego, że wypadną z powierzchni gry lub przegrają jeden pojedynek.
 
-Zasady
+Wspólny wynik drużynowy sprawia, że zwycięstwa są bardziej społeczne i pomaga doświadczonym graczom w mentoringu początkujących.
 
-(Jeśli jest wielu doświadczonych graczy, można z nimi grać.
-(Jeśli jest wielu doświadczonych graczy, gra staje się stosunkowo bardziej ekscytująca, jeśli gra się tylko poprzez rozgrywkę.
+Utwórz pary, najlepiej w drodze losowania. Jeśli jest wielu początkujących, dostosuj losowanie tak, aby dwie osoby początkujące nie grały ze sobą zbyt często. Wpisz drużyny do drabinki turniejowej. Zdecyduj, czy będzie runda "powrotu przegranych".
 
-Jednoczesne wprowadzenie 4 graczy
+Dwie drużyny rywalizują jednocześnie, co oznacza, że cztery osoby kręcą swoimi bączkami na powierzchni gry. Jeśli bączek jednej z drużyn pozostanie na powierzchni najdłużej, ta drużyna zdobywa 1 punkt. Jeśli żaden bączek nie pozostanie na powierzchni, runda jest remisem i jest powtarzana. Pierwsza drużyna, która zdobędzie 2 punkty, wygrywa mecz.
 
-Drużyna, która dłużej utrzyma zawodnika na ziemi, zdobywa 1 punkt.
+Zwycięskie drużyny awansują do następnej rundy. Przegrane drużyny są eliminowane, chyba że zastosowano zasadę "powrotu przegranych". Ostatnia pozostała drużyna wygrywa turniej.
 
-Jeśli nikt nie pozostanie na ziemi, jest to remis i zaczynamy od nowa.
+## **Zasady**:
 
-Pierwsza drużyna, która zdobędzie 2 punkty, wygrywa.
+- Przed turniejem zdecyduj, czy dozwolone są zwycięstwa Riki (wypchnięcie bączka przeciwnika), czy liczą się tylko zwycięstwa Hajiki (wypchnięcie własnego bączka poza bączek przeciwnika).
+- Użyj normalnych Beigoma, jeśli gra wielu początkujących.
+- Używaj tylko zasad Hajiki, jeśli bierze udział wielu doświadczonych graczy i chcesz, aby gra była bardziej dynamiczna.
 
-Przebieg gry
+## **Uwagi**:
 
-Każda drużyna losuje i wpisuje swoją nazwę w miejscu wskazanym na stole turniejowym.
+Jest to dobry format, jeśli chcesz, aby wydarzenie miało charakter bardziej kooperacyjny niż czysto indywidualny. Daje również doświadczonym graczom konstruktywną rolę.
 
-W pierwszej rundzie każda drużyna gra po kolei przeciwko sobie.
+## **Źródło**:
 
-Jeśli Twoja drużyna wygra, przechodzisz do drugiej rundy, jeśli Twoja drużyna przegra, kończysz grę. (W zależności od gry, istnieje możliwość powrotu przegranego.
-
-Ostatnia drużyna, która wygra, zostaje zwycięzcą!
+Oparte na formacie Turnieju Tag Match z Tokyo Beigoma.

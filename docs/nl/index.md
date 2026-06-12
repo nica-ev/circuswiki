@@ -2,37 +2,102 @@
 lang: nl
 translation_id: index
 created: 2025-01-21 18:09:55
-update: 2026-06-10 19:55:59
+update: 2026-06-12 19:26:46
 publish: true
 tags:
   - moc
   - dynamic
-title: Home
-description:
+title: CircusWiki Home
+description: Startpunt voor CircusWiki, een open en gecureerde kennisbank voor circuspedagogie, bewegingsspelen, inclusieve praktijken en gerelateerde onderwerpen.
 authors:
   - Marc Bielert
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/index.md
-translation_source_hash: d7536665ddf5d771683ddae075f13a86f750c8967b6ffcfdeec18824373f14b9
+translation_source_hash: 870f088e0a15150c24fe1ea8b3f6ebcae9635e273ed3f9d31b0babb278eea464
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-10T20:02:21+00:00
-translation_source_metadata_hash: 04ec78e8e4f7b0a6cab06271f824a9db941285d4c087b148be4145dfc86f428f
+translation_updated: 2026-06-12T17:32:21+00:00
+translation_source_metadata_hash: 52f0ef5f0a6296e95efac21a465cf0bf937020d56c4b8aa707913022d9cacc6f
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T20:02:21+00:00
-translation_source_body_hash: d7536665ddf5d771683ddae075f13a86f750c8967b6ffcfdeec18824373f14b9
+translation_metadata_updated: 2026-06-12T17:32:21+00:00
+translation_source_body_hash: 870f088e0a15150c24fe1ea8b3f6ebcae9635e273ed3f9d31b0babb278eea464
 ---
-# Welkom
-**Een wiki voor circus, beweging, pedagogiek, sport en cultuur**
+> [!info] Kort samengevat
+> CircusWiki is een open, samengestelde en meertalige kennisbank voor circuseducatie, bewegingsspelen, inclusieve praktijken, jongleren en gerelateerde onderwerpen.
 
-[Documentatie Nica eV](Dokumentation%20Nica%20eV.md) [Bewegingsspelen](Bewegungs-Spiele.md) [Meedoen](mitmachen.md) [Beigoma](Beigoma.md) [Kaskade Workspace](Kaskade%20Workspace.md) [Jongleren](Jonglage.md)
+Veel praktische ideeën ontstaan in workshops, trainingen, projecten en ontmoetingen. Vaak blijven ze lokaal, verdwijnen ze in oude documenten of gaan ze verloren als websites offline gaan. CircusWiki probeert deze kennis op de lange termijn toegankelijk te maken: als een open bron die gevonden, verbeterd, vertaald en gedeeld kan worden.
 
-## Erasmus+
-[Laten we praten over inclusieve circuspraktijken](Lets-talk-about-inclusive-circus-practice.md)
+## Ontdek kennis
 
-## Workshops
+Deze ingangen leiden naar de belangrijkste overzichtspagina's:
 
-[Hula hoop Workshop - Wiktoria Wittenberg](Warsztat%20Hula%20hoop.md)
-## Recente wijzigingen
-[Release Notes](release%20notes.md)
+<div class="grid cards" markdown>
+
+-   __Bewegingsspelen__
+
+    ---
+
+    Spelen, warming-ups, samenwerkingsvormen, kennismakingsspelen en bewegingsopdrachten voor groepen.
+
+    [Bewegingsspelen openen](Bewegungs-Spiele.md){ .md-button }
+
+-   __Jongleren__
+
+    ---
+
+    Basisprincipes, oefeningen, materialen en spelideeën rondom jongleren en objectmanipulatie.
+
+    [Jongleren openen](Jonglage.md){ .md-button }
+
+-   __Beigoma__
+
+    ---
+
+    Een groeiende verzameling over Beigoma: materiaal, opzet, spelregels, formats en workshopideeën.
+
+    [Beigoma openen](Beigoma.md){ .md-button }
+
+-   __Workshops en artikelen__
+
+    ---
+
+    Praktische materialen, workshops, tutorials en artikelen uit diverse bronnen en projecten.
+
+    [Workshops en artikelen openen](workshops-und-artikel.md){ .md-button }
+
+-   __Kaskade Archief__
+
+    ---
+
+    Transcripties en bewerkte inhoud uit het Kaskade-magazine: ongeveer 30 jaar jongleer- en circusgeschiedenis.
+
+    [Kaskade Archief openen](Kaskade%20Workspace.md){ .md-button }
+
+-   __NICA e.V.__
+
+    ---
+
+    Documentatie over werkwijzen, digitale tools en organisatorische structuren van NICA e.V.
+
+    [NICA-documentatie openen](Dokumentation%20Nica%20eV.md){ .md-button }
+
+</div>
+
+## Doe mee
+
+CircusWiki leeft van bijdragen uit de praktijk. Je kunt spellen, methoden, correcties, foto's, pdf's, links, vertalingen of oude materialen bijdragen. Het materiaal hoeft niet perfect te zijn en je hebt geen GitHub-account nodig.
+
+[Doe mee](mitmachen.md){ .md-button }
+
+## Ondersteun
+
+CircusWiki is vrij toegankelijk en reclamevrij. Toch zijn er kosten: voor technische infrastructuur, tools, vertaling, archivering en langdurig onderhoud. We proberen subsidies te gebruiken, maar hebben daarnaast een duurzaam donatie- en ondersteuningsmodel nodig.
+
+We laten open zien waar geld aan wordt besteed en rapporteren hier regelmatig en transparant over.
+
+[Project ondersteunen](unterstuetzen.md){ .md-button }
+
+## Nieuws
+
+- [Release Notes](release%20notes.md)

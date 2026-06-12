@@ -6,65 +6,63 @@ tags:
   - spiele
   - beigoma
 created: 2025-01-24 03:50:50
-update: 2025-01-24 05:13:12
-title: Daag de meester uit
+update: 2026-06-11 17:30:44
+title: Daag de Meester uit
 description: 
 authors:
   - Marc Bielert
 translation_status: machine-translated
-translation_source_lang: de
-translation_source: docs/de/Fordere den Meister heraus.md
-translation_source_hash: 6577b8613df3bfc3f3cba8792f8c1e8da1f5dbc57ca800db31f6a1871ba3baab
+translation_source_lang: en
+translation_source: docs/en/Fordere den Meister heraus.md
+translation_source_hash: cd5a870f0442740dcb4998a03c9d43d5ad0f673907aa2ab4503d0e8ff0254d24
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T23:15:44+00:00
-translation_source_body_hash: 6577b8613df3bfc3f3cba8792f8c1e8da1f5dbc57ca800db31f6a1871ba3baab
-translation_source_metadata_hash: b3cbf5b7a9ad1b31774c1a4f1aa03313ff218e300486c3d7f7ff3f512d89f6ec
+translation_updated: 2026-06-11T15:38:38+00:00
+translation_source_body_hash: cd5a870f0442740dcb4998a03c9d43d5ad0f673907aa2ab4503d0e8ff0254d24
+translation_source_metadata_hash: 3578f2ca527be747c59703b6983afac3d51bacacd5bc27b1320f2726ec0db8c1
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:47:17+00:00
+translation_metadata_updated: 2026-06-11T15:38:38+00:00
 ---
-# Spelintroductie "Daag de meester uit"
+> [!info] Korte beschrijving
+> Een Beigoma-uitdagingsformat waarbij spelers punten verdienen door ervaren meesters te verslaan in herhaalde pogingen.
 
-Beigoma heeft veel leuke spellen.
+**Groepsgrootte**: 4-40 personen
+**Moeilijkheidsgraad**: Eenvoudig
+**Materialen**: Beigoma, touwtjes, speeloppervlakken, puntkaarten, optionele prijzen (Beigoma's)
+**Duur**: 15-60 minuten
 
-Ik zal de spellen waar de manager tot nu toe aan heeft deelgenomen geleidelijk introduceren.
+## **Spelbeschrijving**:
 
-Deze keer is het "Daag de meester uit".
+"Daag de Meester uit" is een open uitdagingsformat. Verschillende ervaren spelers fungeren als Beigoma-meesters. Andere deelnemers dagen hen één voor één uit en verzamelen punten wanneer ze winnen.
 
-【Regels】
+Dit format leent zich uitstekend voor publieksevenementen, omdat spelers op verschillende tijdstippen kunnen instromen, terug kunnen komen voor meer pogingen en kunnen werken aan een zichtbaar doel.
 
-Dit is een erg populair spel.
+Selecteer meerdere meesters. Idealiter zijn dit ervaren spelers of personen die eerdere Beigoma-rondes hebben gewonnen. Zorg voor puntkaarten voor de deelnemers.
 
-\[Spelverloop\]
+Als er prijzen worden gebruikt, stel dan van tevoren de puntendrempel vast. Tokyo Beigoma beschrijft een format waarbij 20 verzamelde punten kunnen worden ingewisseld voor een standaard Beigoma.
 
-1. Kies meerdere Beigoma-meesters (Beigoma-meester: degenen die het toernooi hebben gewonnen, zijn wenselijk)
+Deelnemers dagen één meester tegelijk uit. Als de deelnemer wint, worden de punten op hun kaart genoteerd. Spelers kunnen punten verzamelen over meerdere pogingen of sessies. Wanneer een speler de afgesproken drempel bereikt, ontvangt deze de afgesproken beloning.
 
-2. Deelnemers dagen de meester één voor één uit
+## **Scoring**:
 
-3. Als de deelnemer wint, worden er punten verzameld op de puntenkaart
+Een mogelijk scoringsmodel:
 
-4. Verzamel punten en ontvang een Beigoma!
+- Winst door Hajiki: 2 punten
+- Winst door Riki: 1 punt
+- Gelijkspel of verlies: 0 punten
 
-5. Zelfs als je op die dag geen punten kunt verzamelen, kun je de volgende keer doorgaan met punten verzamelen, zodat ook degenen die halverwege instappen ervan kunnen genieten.
+Pas de scoring aan op basis van het evenement en het vaardigheidsniveau.
 
-![](https://static.wixstatic.com/media/b342b0_533ad1b9ba354ca5ac0e0df8867d63ea~mv2.jpg/v1/fill/w_734,h_489,al_c,q_90,usm_0.66_1.00_0.01/b342b0_533ad1b9ba354ca5ac0e0df8867d63ea~mv2.webp)
+## **Variaties**:
 
-De deelnemers rechts dagen de meester links op de foto na elkaar uit.
+Gebruik eenvoudigere meesters voor kinderen of beginnende spelers, en moeilijkere meesters voor gevorderde spelers.
 
-Het is een spel dat je continu kunt spelen, omdat je tussen ouders, kinderen en vrienden kunt strijden om punten.
+Sta een bonus voor beginners toe, zoals één punt voor een nette landing en een stabiele draai tegen een meester.
 
-【Punten】
+## **Opmerkingen**:
 
-Er zijn verschillende manieren om punten toe te kennen, maar bij Ota Bunkanomori, dat door de manager wordt georganiseerd, gaan we als volgt te werk.
+Dit format is afhankelijk van de houding van de meesters. Zij moeten uitdaging en opwinding creëren zonder beginners het gevoel te geven dat ze buitengesloten worden.
 
-- Spelen en winnen: 2 punten
+## **Bron**:
 
-- Lang laten draaien en winnen (Riki wint): 1 punt
-
-- Gelijkspel, verliezen: 0 punten
-
-- Als je 20 punten verzamelt, ontvang je een normaal Beigoma-cadeau.
-
-![](https://static.wixstatic.com/media/b342b0_ed18bbf6098f4db5886340a0afb48855~mv2.png/v1/fill/w_578,h_349,al_c,q_90,usm_0.66_1.00_0.01/b342b0_ed18bbf6098f4db5886340a0afb48855~mv2.webp)
-
-Puntenkaart (schrijf je naam op de achterkant)
+Gebaseerd op het "Challenge the Master" format van Tokyo Beigoma.

@@ -2,37 +2,102 @@
 lang: el
 translation_id: index
 created: 2025-01-21 18:09:55
-update: 2026-06-10 19:55:59
+update: 2026-06-12 19:26:46
 publish: true
 tags:
   - moc
   - dynamic
-title: Αρχική
-description:
+title: Αρχική Σελίδα CircusWiki
+description: Εισαγωγή στο CircusWiki, μια ανοιχτή και επιμελημένη συλλογή γνώσεων για την εκπαίδευση στο τσίρκο, παιχνίδια κίνησης, συμπεριληπτική πρακτική και συναφή θέματα.
 authors:
   - Marc Bielert
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/index.md
-translation_source_hash: d7536665ddf5d771683ddae075f13a86f750c8967b6ffcfdeec18824373f14b9
+translation_source_hash: 870f088e0a15150c24fe1ea8b3f6ebcae9635e273ed3f9d31b0babb278eea464
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-10T20:02:24+00:00
-translation_source_metadata_hash: 04ec78e8e4f7b0a6cab06271f824a9db941285d4c087b148be4145dfc86f428f
+translation_updated: 2026-06-12T17:32:26+00:00
+translation_source_metadata_hash: 52f0ef5f0a6296e95efac21a465cf0bf937020d56c4b8aa707913022d9cacc6f
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T20:02:24+00:00
-translation_source_body_hash: d7536665ddf5d771683ddae075f13a86f750c8967b6ffcfdeec18824373f14b9
+translation_metadata_updated: 2026-06-12T17:32:26+00:00
+translation_source_body_hash: 870f088e0a15150c24fe1ea8b3f6ebcae9635e273ed3f9d31b0babb278eea464
 ---
-# Καλώς ήρθατε
-**Ένα Wiki για τσίρκο, κίνηση, παιδαγωγική, αθλητισμό και πολιτισμό**
+> [!info] Με λίγα λόγια
+> Το CircusWiki είναι μια ανοιχτή, επιμελημένη και πολύγλωσση συλλογή γνώσεων για την εκπαίδευση στον τσίρκο, τα παιχνίδια κίνησης, την συμπεριληπτική πρακτική, το ζογκλερικό και συναφή θέματα.
 
-[Τεκμηρίωση Nica eV](Dokumentation%20Nica%20eV.md)  [Παιχνίδια Κίνησης](Bewegungs-Spiele.md)  [Συμμετοχή](mitmachen.md)  [Beigoma](Beigoma.md)  [Kaskade Workspace](Kaskade%20Workspace.md)  [Ζογκλερικά](Jonglage.md)
+Πολλές πρακτικές ιδέες προκύπτουν από εργαστήρια, εκπαιδεύσεις, έργα και συναντήσεις. Συχνά παραμένουν τοπικές, χάνονται σε παλιά έγγραφα ή χάνονται όταν οι ιστοσελίδες απενεργοποιούνται. Το CircusWiki προσπαθεί να καταστήσει αυτές τις γνώσεις προσβάσιμες μακροπρόθεσμα: ως μια ανοιχτή πηγή που μπορεί να βρεθεί, να βελτιωθεί, να μεταφραστεί και να διαδοθεί.
 
-## Erasmus+ 
-[Ας μιλήσουμε για την συμπεριληπτική πρακτική στο τσίρκο](Lets-talk-about-inclusive-circus-practice.md)
+## Ανακαλύψτε γνώσεις
 
-## Εργαστήρια
+Αυτές οι εισαγωγές οδηγούν στις σημαντικότερες σελίδες επισκόπησης:
 
-[Εργαστήριο Hula hoop - Wiktoria Wittenberg](Warsztat%20Hula%20hoop.md)
-## Πρόσφατες αλλαγές
-[Σημειώσεις έκδοσης](release%20notes.md)
+<div class="grid cards" markdown>
+
+-   __Παιχνίδια Κίνησης__
+
+    ---
+
+    Παιχνίδια, προθέρμανση, μορφές συνεργασίας, παιχνίδια γνωριμίας και ασκήσεις κίνησης για ομάδες.
+
+    [Άνοιγμα Παιχνιδιών Κίνησης](Bewegungs-Spiele.md){ .md-button }
+
+-   __Ζογκλερικό__
+
+    ---
+
+    Βασικές αρχές, ασκήσεις, υλικά και ιδέες παιχνιδιού γύρω από το ζογκλερικό και τη χειραγώγηση αντικειμένων.
+
+    [Άνοιγμα Ζογκλερικού](Jonglage.md){ .md-button }
+
+-   __Beigoma__
+
+    ---
+
+    Μια αναπτυσσόμενη συλλογή για το Beigoma: υλικό, κατασκευή, κανόνες παιχνιδιού, μορφές και ιδέες εργαστηρίων.
+
+    [Άνοιγμα Beigoma](Beigoma.md){ .md-button }
+
+-   __Εργαστήρια και Άρθρα__
+
+    ---
+
+    Πρακτικό υλικό, εργαστήρια, οδηγοί και άρθρα από διάφορες πηγές και έργα.
+
+    [Άνοιγμα Εργαστηρίων και Άρθρων](workshops-und-artikel.md){ .md-button }
+
+-   __Αρχείο Kaskade__
+
+    ---
+
+    Απομαγνητοφωνήσεις και επεξεργασμένο περιεχόμενο από το περιοδικό Kaskade: περίπου 30 χρόνια ιστορίας ζογκλερικού και τσίρκου.
+
+    [Άνοιγμα Αρχείου Kaskade](Kaskade%20Workspace.md){ .md-button }
+
+-   __NICA e.V.__
+
+    ---
+
+    Τεκμηρίωση για τις μεθόδους εργασίας, τα ψηφιακά εργαλεία και τις οργανωτικές δομές του NICA e.V.
+
+    [Άνοιγμα Τεκμηρίωσης NICA](Dokumentation%20Nica%20eV.md){ .md-button }
+
+</div>
+
+## Συμμετοχή
+
+Το CircusWiki ζει από συνεισφορές από την πράξη. Μπορείτε να συνεισφέρετε παιχνίδια, μεθόδους, διορθώσεις, φωτογραφίες, PDF, συνδέσμους, μεταφράσεις ή παλιό υλικό. Το υλικό δεν χρειάζεται να είναι τέλειο και δεν χρειάζεστε λογαριασμό GitHub.
+
+[Συμμετοχή](mitmachen.md){ .md-button }
+
+## Υποστήριξη
+
+Το CircusWiki είναι ελεύθερα προσβάσιμο και χωρίς διαφημίσεις. Ωστόσο, προκύπτουν κόστη: για τεχνική υποδομή, εργαλεία, μετάφραση, αρχειοθέτηση και μακροπρόθεσμη συντήρηση. Προσπαθούμε να χρησιμοποιήσουμε χρηματοδοτήσεις, αλλά χρειαζόμαστε επίσης ένα βιώσιμο μοντέλο δωρεών και υποστήριξης.
+
+Δείχνουμε ανοιχτά πού χρησιμοποιούνται τα χρήματα και αναφέρουμε τακτικά και με διαφάνεια σχετικά με αυτό.
+
+[Υποστήριξη Έργου](unterstuetzen.md){ .md-button }
+
+## Τελευταία Νέα
+
+- [Σημειώσεις Έκδοσης](release%20notes.md)

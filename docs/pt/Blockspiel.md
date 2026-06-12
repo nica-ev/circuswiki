@@ -6,89 +6,64 @@ tags:
   - spiele
   - beigoma
 created: 2025-01-24 03:50:50
-update: 2025-01-24 04:26:50
+update: 2026-06-11 17:28:52
 title: Jogo de Blocos
 description: 
 authors:
   - Marc Bielert
 translation_status: machine-translated
-translation_source_lang: de
-translation_source: docs/de/Blockspiel.md
-translation_source_hash: 85b855a85fb8b24db41f0455b54679fa407aa497b1fa181cc7deed396715e43d
+translation_source_lang: en
+translation_source: docs/en/Blockspiel.md
+translation_source_hash: feba559e9d0aa64ee5f6f9fb6b0b7648397c4978b6acdba1fb549286dc46366a
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T18:29:23+00:00
-translation_source_body_hash: 85b855a85fb8b24db41f0455b54679fa407aa497b1fa181cc7deed396715e43d
-translation_source_metadata_hash: 658a805439446668d1f672684bb99d0601d8bbb3410b8597fd5fc4088173f2fc
+translation_updated: 2026-06-11T15:37:30+00:00
+translation_source_body_hash: feba559e9d0aa64ee5f6f9fb6b0b7648397c4978b6acdba1fb549286dc46366a
+translation_source_metadata_hash: c3fb57ba13e0517992cf588c2c001e2b5a447e4689fca0b654c9e91d66c1dab7
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:04:00+00:00
+translation_metadata_updated: 2026-06-11T15:37:30+00:00
 ---
-# Introdução ao Jogo "Jogo de Blocos"
+> [!info] Breve Descrição
+> Um formato flexível de cartão de pontos de Beigoma onde os jogadores completam várias rodadas dentro de um limite de tempo.
 
-【Características】
+**Tamanho do Grupo**: 10-40 pessoas
+**Dificuldade**: Média
+**Materiais**: Beigoma, cordas, áreas de jogo, cartões de pontos em blocos
+**Duração**: 30-60 minutos
 
--   É possível jogar entre 10 a 30 partidas por pessoa dentro do tempo estipulado.
-    
--   Pode participar no jogo ao seu próprio ritmo.
-    
--   É possível entrar a meio do jogo (são necessárias pelo menos 10 partidas).
+## **Descrição do Jogo**:
 
-\[Fluxo do Jogo\]
+O jogo em blocos permite que muitos jogadores participem no seu próprio ritmo. Cada jogador usa um cartão dividido em vários blocos, tipicamente A, B e C. Durante o tempo de jogo, os jogadores completam partidas curtas um contra um e registam os resultados nos seus cartões.
 
-1.  Cada participante recebe uma ficha e escreve o seu nome.
+Este formato é útil quando os participantes podem juntar-se durante o evento, quando várias áreas de jogo estão disponíveis, ou quando o líder do jogo quer que todos tenham muitas tentativas em vez de serem eliminados cedo.
 
-2.  Organizar-se no chão, seguindo a ordem indicada.
+Prepare cartões de pontos com vários blocos e espaços suficientes para 10-30 partidas por jogador. Monte várias áreas de jogo de Beigoma, se possível. Com cerca de 20 jogadores, três áreas de jogo e uma hora é uma configuração viável.
 
-%% ![](https://static.wixstatic.com/media/39842b_c35cac3d625145f1b8446df105c2a658~mv2.png/v1/fit/w_300,h_300,al_c,q_5/file.png) %%
+Cada participante recebe um cartão e escreve o seu nome nele. Dois jogadores colocam os seus cartões perto de uma área de jogo e jogam uma rodada um contra um. O resultado é registado no cartão. Os jogadores movem-se então para uma linha ou área de jogo diferente e repetem o processo até o tempo acabar.
 
-![](https://static.wixstatic.com/media/39842b_c35cac3d625145f1b8446df105c2a658~mv2.png/v1/fill/w_624,h_726,al_c,q_90/39842b_c35cac3d625145f1b8446df105c2a658~mv2.webp)
+No final, todos os cartões são entregues ao líder do jogo. O líder do jogo soma os pontos de cada bloco e anuncia os resultados.
 
-3.  Os primeiros adversários colocam as fichas na mesa, no lado do chão, e jogam uma partida um contra um.
+## **Pontuação**:
 
-4.  Ao ganhar ou perder, escreva o resultado na ficha.
+O Tokyo Beigoma usa símbolos no cartão. Um sistema de pontos viável é:
 
-5.  Organizar-se numa fila diferente e repetir o jogo até ao limite de tempo.
+- Vitória por Riki ou Hajiki: 2 pontos
+- Empate ou Pakkan: 1 ponto
+- Derrota: 0 pontos
+- Vitória contra um mestre de Beigoma designado: 3 pontos
 
-6.  Quando todos os jogos terminarem, entregue a ficha à pessoa responsável.
+Ajuste os valores dos pontos se as suas regras locais usarem um sistema diferente.
 
-7.  Após o fim do tempo, a pessoa responsável soma os pontos e anuncia os melhores desempenhos.
+## **Variações**:
 
-\[Como Ler a Ficha\]
+Use um bloco para partidas de iniciantes, um para partidas mistas e um para partidas de desafio livre.
 
--   Está dividida em três blocos: A, B e C.
-    
--   O número escrito indica o número de partidas.
-    
--   Escreva um dos resultados da partida: ◎, ◯, △ e X, no número de partidas correspondente.
-    
--   Competir pela pontuação total de cada bloco.
+Se os jogadores se juntarem mais tarde, dê-lhes um objetivo mínimo mais curto em vez de exigir um cartão completo.
 
-%% ![](https://static.wixstatic.com/media/39842b_eb8b00f3b30f45d3a4589f66327d0aed~mv2.jpg/v1/fit/w_300,h_300,al_c,q_5/file.jpg) %%
+## **Notas**:
 
-![](https://static.wixstatic.com/media/39842b_eb8b00f3b30f45d3a4589f66327d0aed~mv2.jpg/v1/fill/w_616,h_740,al_c,q_90,usm_0.66_1.00_0.01/39842b_eb8b00f3b30f45d3a4589f66327d0aed~mv2.webp)
+Este formato é mais administrativo do que o formato de velocidade. Requer cartões preparados e alguém que possa explicar como registar os resultados.
 
-\[Tabela de Pontuação\]
+## **Fonte**:
 
--   Vitória (Riki / Jogar) ... ◯ (2 pontos)
-    
--   Empate (Packan) ... △ (1 ponto)
-    
--   Derrubar o pião do adversário ... △ (1 ponto)
-    
--   Derrota ... X (0 pontos)
-    
--   Vitória contra um Mestre de Pião (Beigoma Master) ... ◎ (3 pontos) \* Se Mestres de Pião se enfrentarem e um ganhar, é ◯ (2 pontos).
-
-![](https://static.wixstatic.com/media/39842b_d1ed6f9abb794fa68cd6ab75e2cc1e36~mv2.png/v1/fit/w_300,h_300,al_c,q_5/file.png)![](https://static.wixstatic.com/media/39842b_d1ed6f9abb794fa68cd6ab75e2cc1e36~mv2.png/v1/fill/w_925,h_547,al_c,q_90,usm_0.66_1.00_0.01/39842b_d1ed6f9abb794fa68cd6ab75e2cc1e36~mv2.webp)
-
-\[Tempo Estimado\]
-
-Com cerca de 20 participantes e 3 pisos disponíveis, 1 hora é suficiente.
-
-É possível realizar 30 partidas, mesmo com uma pausa a meio.
-
-%% ![](https://static.wixstatic.com/media/39842b_92846025f5564118abe2c1e777b76149~mv2.jpg/v1/fit/w_300,h_300,al_c,q_5/file.jpg) %%
-
-![](https://static.wixstatic.com/media/39842b_92846025f5564118abe2c1e777b76149~mv2.jpg/v1/fill/w_564,h_752,al_c,q_90,usm_0.66_1.00_0.01/39842b_92846025f5564118abe2c1e777b76149~mv2.webp)
-
----
+Baseado no formato do Jogo em Blocos do Tokyo Beigoma.

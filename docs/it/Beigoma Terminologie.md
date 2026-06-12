@@ -5,77 +5,119 @@ publish: true
 tags:
   - beigoma
 created: 2025-02-01 02:31:52
-update: 2026-06-07 00:02:54
-title: Introduzione alla terminologia Beigoma
-description: 
+update: 2026-06-11 17:22:26
+title: Terminologia Beigoma
+description: Glossario dei termini comuni di Beigoma per avvolgimento, tipi di trottole, regole di gioco e cultura del gioco.
 authors:
   - Marc Bielert
 translation_status: machine-translated
-translation_source_lang: de
-translation_source: docs/de/Beigoma Terminologie.md
-translation_source_hash: fc416799359d7c20883758d0f548610b78b5f52938c0951b4696495ab7d0ca42
+translation_source_lang: en
+translation_source: docs/en/Beigoma Terminologie.md
+translation_source_hash: 27928971eba11de4f7a6c3dc41061ec4fe144e768cf62baad48e2310418ac2bf
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T22:57:40+00:00
-translation_source_body_hash: fc416799359d7c20883758d0f548610b78b5f52938c0951b4696495ab7d0ca42
-translation_source_metadata_hash: 2208c0f851d177a0116620667c57786569aeb50671acb6a2c5b1d82a8d8fcd15
+translation_updated: 2026-06-11T15:35:48+00:00
+translation_source_body_hash: 27928971eba11de4f7a6c3dc41061ec4fe144e768cf62baad48e2310418ac2bf
+translation_source_metadata_hash: 72bff203f2113613015aab5289be3aa7eb964a6cbf29210a35af8c2c72cd058b
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:02:55+00:00
+translation_metadata_updated: 2026-06-11T15:35:48+00:00
+source:
+  - Tokyo Beigoma
+source_url: https://tokyo-beigoma.com/%E3%83%99%E3%83%BC%E3%82%B4%E3%83%9E%E5%B0%82%E9%96%80%E7%94%A8%E8%AA%9E%E3%81%AE%E3%81%94%E7%B4%B9%E4%BB%8B/
 ---
-Nel gioco con i Beigoma, si utilizzano vari termini tecnici che vanno e vengono. Si tratta di contenuti semplici. Se li conosci, sarà più facile comunicare, quindi usali!
+> [!info] Sommario
+> Questo glossario mantiene visibili i termini giapponesi del Beigoma e li spiega in un inglese pratico per workshop e facilitazione di giochi.
 
-## **Avvolgimento del Beigoma**
+Il Beigoma ha un suo vocabolario. Mantenere i termini giapponesi è utile perché molti tutorial, video e descrizioni delle regole li usano direttamente.
 
-### Avvolgimento da donna
+## **Termini di Avvolgimento**:
 
-Avvolgimento con un filo che presenta due nodi distanziati di circa 0,5-1 cm.
+### Onna-maki / 女巻き
 
-Questo metodo di avvolgimento è relativamente comune.
+Uno stile di avvolgimento che utilizza una corda con due nodi posizionati vicini, solitamente a circa 0,5-1 cm di distanza. Questo è uno stile di avvolgimento comune e adatto ai principianti.
 
-### Avvolgimento da uomo
+### Otoko-maki / 男巻き
 
-Avvolgimento con un filo che presenta due nodi distanziati di circa 5 cm.
+Uno stile di avvolgimento che utilizza due nodi posizionati molto più distanti, circa 5 cm. È un'altra opzione di avvolgimento tradizionale.
 
-## **Tipi di Beigoma**
+## **Tipi di Beigoma**:
 
-### Beigoma normale
+### Normal Beigoma / ノーマルベーゴマ
 
-Una punta arrotondata del Beigoma che non è stata lavorata. Poiché si tratta di un pezzo non modificato, il fattore fortuna per la vittoria o la sconfitta è elevato. Se un principiante di Beigoma si confronta anche con un Beigoma normale, la probabilità di vittoria è molto alta, anche se compete con un Beigoma avanzato.
+Un Beigoma non modificato con una punta arrotondata. Poiché non è stato messo a punto, il fattore fortuna è più alto. Le trottole normali sono utili quando principianti e giocatori avanzati giocano insieme.
 
-### Beigoma lavorato
+### Modified Beigoma / 加工ベーゴマ
 
-Una punta del Beigoma che è stata lavorata. A seconda del metodo di lavorazione, si può ottenere un "Riki-goma" che gira a lungo, oppure un "Hajiki-goma" che gioca spesso con l'avversario. I Beigoma vengono utilizzati correttamente secondo le regole del gioco.
+Un Beigoma la cui punta o corpo è stato modificato. A seconda della modifica, può essere messo a punto per una lunga rotazione, attacchi più forti o un set di regole specifico.
 
-### Beigoma decorato
+### Decoration Beigoma / デコレーションベーゴマ
 
-Un Beigoma realizzato decorando la superficie.
+Un Beigoma decorato sulla superficie visibile. La decorazione è principalmente estetica, ma è anche un modo per i giocatori di identificare e personalizzare le proprie trottole.
 
-## **Terminologia utilizzata al momento del gioco**
+### Riki-goma / リキゴマ
 
-\["Chitchinochi"\] Un grido al momento del lancio di un Beigoma.
+Una trottola messa a punto o selezionata per una lunga rotazione. È utile nelle partite Riki.
 
-\[Togliere il fondo\] Quando si lancia un Beigoma, la punta non deve cadere a terra.
+### Hajiki-goma / 弾きゴマ
 
-\[Gioco Riki (Riki)\] La regola è che vince la persona che fa girare il Beigoma a terra più a lungo. Un Beigoma che gira a lungo è chiamato "Rikigoma".
+Una trottola che tende a muoversi e a colpire gli avversari. È utile nelle partite Hajiki.
 
-\[Gioco Hajiki (Hajiki)\] La regola è che si vince facendo saltare il Beigoma da terra. Inoltre, un pezzo che si muove relativamente perché l'asse di rotazione centrale è disallineato è chiamato "Hajiki-goma".
+## **Termini di Partita**:
 
-\[Regola dei tre secondi\] Al momento del "Gioco Riki", si vince se si è in vantaggio sull'avversario per più di 3 secondi. Se si ferma entro 3 secondi, si riprova.
+### Chitchi-no-chi / チッチノチ
 
-\[Packan\] I Beigoma competono tra loro e tutti i Beigoma vengono fatti saltare contemporaneamente da terra.
+Un richiamo utilizzato quando i giocatori lanciano il loro Beigoma sul pavimento.
 
-\[Colpo singolo disponibile\] Questa regola si applica al momento del "Gioco Riki". Se si lancia il Beigoma e questo non tocca mai il Beigoma avversario, è necessario rilanciarlo.
+### Yuka / 床
 
-\[Okama\] Il Beigoma è a terra. A seconda delle regole, a questo punto si perde.
+Il pavimento di gioco. Nel Beigoma, questa è solitamente una superficie di stoffa tesa su un secchio, un barile o una cornice.
 
-## **Altro**
+### Yuka-hazushi / 床外し
 
-\[Honko\] Gioco serio! Se vinci la partita, ottieni il Beigoma dell'avversario.
+Mancare il pavimento durante il lancio. A seconda del set di regole, questo può significare perdere il round o ripetere il lancio.
 
-\[Bonus Honko\] Periodo di servizio per i principianti di Beigoma fino agli avanzati. I principianti possono ottenere Beigoma se vincono, ma non li otterranno se perdono.
+### Riki match / リキ勝負
 
-\[Angolo\] Lanciare un Beigoma con un angolo.
+Una regola in cui vince la trottola che continua a girare più a lungo sul pavimento.
 
-\[Nissan Foundry\]
+### Hajiki match / 弾き勝負
 
-Società di produzione e distribuzione di Beigoma
+Una regola in cui un giocatore vince facendo uscire il Beigoma dell'avversario dal pavimento.
+
+### Three-second rule / 3秒ルール
+
+In una partita Riki, un giocatore vince se la sua trottola continua a girare almeno tre secondi più a lungo di quella dell'avversario. Se la differenza è inferiore, il round viene ripetuto.
+
+### Pakkan / パッカン
+
+Uno scontro in cui tutti i Beigoma vengono fatti uscire dal pavimento contemporaneamente.
+
+### One-touch rule / ワンタッチあり
+
+Una regola della partita Riki in cui il round viene ripetuto se le trottole non si toccano mai dopo essere state lanciate.
+
+### Okama / オカマ
+
+Un Beigoma si ribalta sul pavimento. A seconda delle regole locali, questo può contare come una sconfitta immediata.
+
+## **Cultura del Gioco**:
+
+### Honko / ホンコ
+
+Una partita con scommessa seria. Tradizionalmente, il vincitore riceve il Beigoma dell'avversario.
+
+### Omake Honko / おまけホンコ
+
+Una versione di Honko adatta ai principianti. Un principiante può vincere un Beigoma, ma non perde la propria trottola se perde la partita.
+
+### Kado-zuke / 角づけ
+
+Lanciare il Beigoma sul pavimento con un'angolazione.
+
+### Nissanchuzosho / 日三鋳造所
+
+Un produttore e venditore di Beigoma.
+
+## **Fonte**:
+
+Terminologia basata sull'articolo sulla terminologia specialistica di Tokyo Beigoma.

@@ -1,16 +1,132 @@
 {
   "recentFiles": [
     {
+      "basename": "Blockspiel",
+      "path": "docs/en/Blockspiel.md"
+    },
+    {
+      "basename": "Fordere den Meister heraus",
+      "path": "docs/en/Fordere den Meister heraus.md"
+    },
+    {
+      "basename": "Ligaspiel",
+      "path": "docs/en/Ligaspiel.md"
+    },
+    {
+      "basename": "Tag Match Tournament",
+      "path": "docs/en/Tag Match Tournament.md"
+    },
+    {
+      "basename": "index",
+      "path": "docs/de/index.md"
+    },
+    {
+      "basename": "workshops-und-artikel",
+      "path": "docs/de/workshops-und-artikel.md"
+    },
+    {
+      "basename": "Aufwärmspiele MOC",
+      "path": "docs/de/Aufwärmspiele MOC.md"
+    },
+    {
+      "basename": "Resourcen",
+      "path": "_bases/Resourcen.base"
+    },
+    {
+      "basename": "Kaskade Workspace",
+      "path": "docs/de/Kaskade Workspace.md"
+    },
+    {
+      "basename": "Beigoma",
+      "path": "docs/en/Beigoma.md"
+    },
+    {
+      "basename": "Warsztat Hula hoop",
+      "path": "docs/pl/Warsztat Hula hoop.md"
+    },
+    {
+      "basename": "Wyscig pilek z hula hoop",
+      "path": "docs/pl/Wyscig pilek z hula hoop.md"
+    },
+    {
+      "basename": "Spiele-Base",
+      "path": "_bases/Spiele-Base.base"
+    },
+    {
+      "basename": "README",
+      "path": "README.md"
+    },
+    {
+      "basename": "mitmachen",
+      "path": "docs/de/mitmachen.md"
+    },
+    {
+      "basename": "github-for-users",
+      "path": "docs/de/github-for-users.md"
+    },
+    {
+      "basename": "Beigoma",
+      "path": "docs/de/Beigoma.md"
+    },
+    {
+      "basename": "Beigoma Point Match",
+      "path": "docs/en/Beigoma Point Match.md"
+    },
+    {
+      "basename": "Beigoma Tournament Match",
+      "path": "docs/en/Beigoma Tournament Match.md"
+    },
+    {
+      "basename": "Beigoma 10-Minute Modification Game",
+      "path": "docs/en/Beigoma 10-Minute Modification Game.md"
+    },
+    {
+      "basename": "Beigoma Modification Basics",
+      "path": "docs/en/Beigoma Modification Basics.md"
+    },
+    {
+      "basename": "Beigoma Decoration and Personalization",
+      "path": "docs/en/Beigoma Decoration and Personalization.md"
+    },
+    {
+      "basename": "Facilitating Beigoma for Mixed Groups",
+      "path": "docs/en/Facilitating Beigoma for Mixed Groups.md"
+    },
+    {
+      "basename": "Beigoma Equipment and Setup",
+      "path": "docs/en/Beigoma Equipment and Setup.md"
+    },
+    {
+      "basename": "Beigoma Terminologie",
+      "path": "docs/en/Beigoma Terminologie.md"
+    },
+    {
+      "basename": "Beigoma-Spiel-Speed",
+      "path": "docs/en/Beigoma-Spiel-Speed.md"
+    },
+    {
+      "basename": "Wie spielt man Beigoma",
+      "path": "docs/en/Wie spielt man Beigoma.md"
+    },
+    {
+      "basename": "Making a Beigoma Floor",
+      "path": "docs/en/Making a Beigoma Floor.md"
+    },
+    {
+      "basename": "Basic Beigoma Rules and Refereeing",
+      "path": "docs/de/Basic Beigoma Rules and Refereeing.md"
+    },
+    {
+      "basename": "Making a Beigoma Floor",
+      "path": "docs/de/Making a Beigoma Floor.md"
+    },
+    {
       "basename": "Liste aller Spiele",
       "path": "docs/de/Liste aller Spiele.md"
     },
     {
       "basename": "Liste aller Spiele",
       "path": "docs/es/Liste aller Spiele.md"
-    },
-    {
-      "basename": "index",
-      "path": "docs/de/index.md"
     },
     {
       "basename": "index",
@@ -33,20 +149,12 @@
       "path": "docs/nl/Alle_gegen_einen.md"
     },
     {
-      "basename": "README",
-      "path": "README.md"
-    },
-    {
       "basename": "translation-architecture",
       "path": "_system/translation-architecture.md"
     },
     {
       "basename": "belgium-1",
       "path": "docs/img/belgium-1.jpg"
-    },
-    {
-      "basename": "Spiele-Base",
-      "path": "_bases/Spiele-Base.base"
     },
     {
       "basename": "Grundlagen Wurfjonglage - Kaskade",
@@ -91,114 +199,6 @@
     {
       "basename": "index",
       "path": "docs/de/blog/index.md"
-    },
-    {
-      "basename": "Aufwärmspiele MOC",
-      "path": "docs/de/Aufwärmspiele MOC.md"
-    },
-    {
-      "basename": "spiele-content-schema",
-      "path": "_system/spiele-content-schema.md"
-    },
-    {
-      "basename": "Bewegungs-Spiele",
-      "path": "docs/de/Bewegungs-Spiele.md"
-    },
-    {
-      "basename": "1-2-3",
-      "path": "docs/de/1-2-3.md"
-    },
-    {
-      "basename": "Spiele für Zwischendurch",
-      "path": "docs/de/Spiele für Zwischendurch.md"
-    },
-    {
-      "basename": "Fangspiele",
-      "path": "docs/de/Fangspiele.md"
-    },
-    {
-      "basename": "Spiele zum Kennenlernen",
-      "path": "docs/de/Spiele zum Kennenlernen.md"
-    },
-    {
-      "basename": "Inklusion-Spiele",
-      "path": "docs/de/Inklusion-Spiele.md"
-    },
-    {
-      "basename": "MOC Call & Response Spiele",
-      "path": "docs/de/MOC Call & Response Spiele.md"
-    },
-    {
-      "basename": "Taktik und Konzentrationsspiele",
-      "path": "docs/de/Taktik und Konzentrationsspiele.md"
-    },
-    {
-      "basename": "Schnelligkeit+Reaktionsspiele",
-      "path": "docs/de/Schnelligkeit+Reaktionsspiele.md"
-    },
-    {
-      "basename": "Bewegungsspiele",
-      "path": "docs/de/Bewegungsspiele.md"
-    },
-    {
-      "basename": "Kreisspiele MOC",
-      "path": "docs/de/Kreisspiele MOC.md"
-    },
-    {
-      "basename": "Kooperationsspiele",
-      "path": "docs/de/Kooperationsspiele.md"
-    },
-    {
-      "basename": "Cooldown Spiele MOC",
-      "path": "docs/de/Cooldown Spiele MOC.md"
-    },
-    {
-      "basename": "Klatschspiele MOC",
-      "path": "docs/de/Klatschspiele MOC.md"
-    },
-    {
-      "basename": "Tratschen in Anwesenheit",
-      "path": "docs/de/Tratschen in Anwesenheit.md"
-    },
-    {
-      "basename": "Gemeinsamkeit und Unterschied",
-      "path": "docs/de/Gemeinsamkeit und Unterschied.md"
-    },
-    {
-      "basename": "Verheiratet-Geschieden",
-      "path": "docs/de/Verheiratet-Geschieden.md"
-    },
-    {
-      "basename": "Frutti del Mare - Aufwärmspiel",
-      "path": "docs/de/Frutti del Mare - Aufwärmspiel.md"
-    },
-    {
-      "basename": "Stierkampf - Tatonga",
-      "path": "docs/de/Stierkampf - Tatonga.md"
-    },
-    {
-      "basename": "Zah",
-      "path": "docs/de/Zah.md"
-    },
-    {
-      "basename": "Peng-Peng-Knall-Wir-fliegen-in-das-All",
-      "path": "docs/de/Peng-Peng-Knall-Wir-fliegen-in-das-All.md"
-    },
-    {
-      "basename": "Ding Dang Dong",
-      "path": "docs/de/Ding Dang Dong.md"
-    },
-    {
-      "basename": "5 Drachen und Zwerge",
-      "path": "docs/de/5 Drachen und Zwerge.md"
-    },
-    {
-      "basename": "Goldener Hirsch",
-      "path": "docs/de/Goldener Hirsch.md"
-    },
-    {
-      "basename": "Der Hund im großen Haus",
-      "path": "docs/de/Der Hund im großen Haus.md"
     }
   ],
   "omittedPaths": [],

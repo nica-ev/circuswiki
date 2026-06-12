@@ -2,8 +2,8 @@
 lang: en
 translation_id: kaskade-workspace
 created: 2025-01-21 18:09:55
-update: 2026-06-08 21:15:16
-publish: draft
+update: 2026-06-12 19:11:41
+publish: true
 tags:
   - moc
   - dynamic
@@ -14,26 +14,26 @@ authors:
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Kaskade Workspace.md
-translation_source_hash: 868e2ee0cbe7e65730873331919360e6050c09b83fcbdde4327359519389b85d
+translation_source_hash: 29a1552cf493836b4b474a5912aebdb63538c48b359b37de5a4b8b2e5b94d53f
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-08T20:11:42+00:00
-translation_source_body_hash: 868e2ee0cbe7e65730873331919360e6050c09b83fcbdde4327359519389b85d
+translation_updated: 2026-06-12T17:32:51+00:00
+translation_source_body_hash: 29a1552cf493836b4b474a5912aebdb63538c48b359b37de5a4b8b2e5b94d53f
 translation_source_metadata_hash: e7f4ba685ffe753f20b46abef2ca8139d54bb761a72234a6398c888d59b39b90
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:52:54+00:00
+translation_metadata_updated: 2026-06-12T17:32:51+00:00
 ---
 >[!info]- Introduction
 >I grew up with Kaskade. Before YouTube existed, before we could find everything on the internet – this magazine was one of the first regular sources of information I got my hands on about juggling, circus, and shows.
 >When the magazine ceased publication in 2013, it felt like the end of an era – at least for me.
 >For several years, the magazines were still available for download as PDFs. Around 2017, the website went offline.
->I often remembered small workshops, tutorials, or articles that inspired me back then. Now, years later, when I wanted to reread something – there was no way to access it anymore.
+>I often remembered small workshops, tutorials, or articles that had inspired me back then. Now, years later, when I wanted to re-read something – there was no way to do so anymore.
 >
 >Fortunately, using the Wayback Machine (The Internet Archive), I found a checkpoint from 2017 with the complete downloads (this is not always the case, especially since it was about 3 GB of PDFs) – complete with German, English, and French editions.
 >
->While reviewing them, I realized that although many great articles and tutorials were hidden in the magazines, in today's world, hardly anyone would sift through 112 magazines that are merely photocopied. Well, unless you have a nostalgic interest =P
+>While browsing, I realized that while a lot of great articles and tutorials were hidden in the magazines – in today's world, hardly anyone would look through 112 magazines that are merely photocopied. Well, unless you have a nostalgic interest =P
 >
->However, since it would be a shame to lose this knowledge, I wanted to try using current technology to digitize everything in a way that is still useful today.
+>However, since the knowledge is too valuable to lose, I wanted to try using current technology to digitize it in a way that makes it useful even today.
 
 >[!info]- How the Magazines Were Transcribed
 >First, I removed all pages from the PDF that did not contain relevant text.
@@ -43,22 +43,22 @@ translation_metadata_updated: 2026-06-10T18:52:54+00:00
 >```
 >The attached PDF is a photocopy of a magazine. Extract all text, keep the document structure intact as much as possible, also extract single images and have them correctly in context.
 >```
->along with the PDF of the scanned magazine.
+>along with the PDF containing the scanned magazine.
 >Settings: Temperature 0.1 (Important to avoid hallucinations)
 >
->The output is then cleaned up with ```gemini-2.0-flash-exp``` and the following prompt (as well as the attached text we extracted):
+>The output is then cleaned up with ```gemini-2.0-flash-exp``` and the following prompt (along with the attached text we extracted):
 >```
 >The following text is extracted with OCR from an old magazine. Your task is to clean this up. Remove artifacts (like page-numbering, unnecessary linebreaks) or unneeded parts but keep the structure, articles etc. intact. Use a proper Markdown formatting to structure the text correctly.
 >
 >Text:
 >```
 >
->The result is then reviewed and corrected manually.
+>The result is then reviewed and corrected manually once more.
 >
 >>[!Danger]+ Important:
 >>The focus was on extracting articles, workshops, interviews, etc.
->>Contributions like classified ads, etc., were discarded.
->>The extraction and cleaning of the texts were performed using LLMs, so there is always a possibility that texts were not transcribed 1:1 or that the content slightly deviates from the original. I tried to keep the error rate as low as possible by comparing text passages on a random basis.
+>>Contributions such as classified ads, etc., were discarded.
+>>The extraction and cleanup of the texts were performed using LLMs, so there is always a possibility that texts were not transcribed 1:1 or that the content slightly deviates from the original. I tried to keep the error rate as low as possible by comparing text passages at random.
 
 <!-- dynamic:start
 engine: obsidian-base
@@ -117,4 +117,4 @@ columns: file, authors, type, sub-type, source
 >Fix:
 >I split the PDF of Kaskade 002 (original) into 002 and 003.
 >Renamed Kaskade 003 (original) to Kaskade 004.
->And deleted Kaskade 004 (original).
+>And deleted Kaskade 004 (Original).

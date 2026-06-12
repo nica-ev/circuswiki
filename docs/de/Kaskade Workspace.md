@@ -2,18 +2,19 @@
 lang: de
 translation_id: kaskade-workspace
 created: 2025-01-21 18:09:55
-update: 2026-06-08 21:15:16
-publish: draft
+update: 2026-06-12 19:11:41
+publish: true
 tags:
   - moc
   - dynamic
 title: Transkripte des Kaskade Magazines
-description: 
+description:
 authors:
   - Marc Bielert
 translation_status: original
 translation_source_lang: de
 ---
+
 >[!info]- Einleitung
 >Ich bin mit der Kaskade aufgewachsen. Bevor es Youtube gab, bevor wir im Internet alles finden konnten - war dieses Magazin eines der ersten regelmäßigen Informationen die ich zum Thema Jonglieren, Zirkus, Shows in die Finger bekam.
 >Als das Magazin 2013 eingestellt wurde, fühlte sich das nach dem Ende einer Era an - zumindest für mich.

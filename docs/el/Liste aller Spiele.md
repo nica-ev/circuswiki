@@ -2,7 +2,7 @@
 lang: el
 translation_id: liste-aller-spiele
 created: 2025-01-21 18:09:55
-update: 2026-06-09 02:55:04
+update: 2026-06-11 16:17:15
 publish: true
 tags:
   - spiele
@@ -14,14 +14,14 @@ authors:
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Liste aller Spiele.md
-translation_source_hash: ca0b7c38d66013570a2bb628bfb297b8ec3d4edfc66726fd83e735eec0af2f92
+translation_source_hash: aac95d93b036e85cc315981ae4dd76aa7697bc08cc9306cb7959c770893c4fcc
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-10T20:08:15+00:00
-translation_source_body_hash: ca0b7c38d66013570a2bb628bfb297b8ec3d4edfc66726fd83e735eec0af2f92
+translation_updated: 2026-06-11T15:05:06+00:00
+translation_source_body_hash: aac95d93b036e85cc315981ae4dd76aa7697bc08cc9306cb7959c770893c4fcc
 translation_source_metadata_hash: abba45ac6e77ac393bef08b33165e000090ae042bb170bc43f0377d457c0514d
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T20:08:15+00:00
+translation_metadata_updated: 2026-06-11T15:05:06+00:00
 ---
 ## Λίστα όλων των παιχνιδιών
 
@@ -43,7 +43,7 @@ columns: file, group-min, group-max, Schwierigkeit, Material, Spieldauer
 | [Αετός - Λαγός - Κεφάλι λάχανου](<Adler%20Hase%20Kohlkopf.md>)                                                    | 8         | 30        | μέτριο           | κανένα                                          | 5-15       |
 | [Αιγυπτιακό Παιχνίδι Ρίψης](<./%C3%84gyptisches%20Wurfspiel.md>)                                           | 4         | 99        | μέτριο           | μπάλες                                           | 5 - 10     |
 | [Μπέιζμπολ Αλάσκας](<Alaska%20Baseball.md>)                                                              | 30        | 100       | εύκολο          | κανένα                                          | 5          |
-| [Όλοι εναντίον ενός](<Alle_gegen_einen.md>)                                                              | 8         | 30        | μέτριο           | στεφάνι                                          | 10-15      |
+| [Όλοι εναντίον ενός](<Alle_gegen_einen.md>)                                                              | 8         | 30        | μέτριο           | στεφάνια                                          | 10-15      |
 | [Ass Δύο Τρία - Παιχνίδι με χαρτιά](<Ass%20Zwei%20Drei%20-%20Kartenfangen.md>)                              | 20        | 60        | μέτριο           | τράπουλα                                     | 10-15      |
 | [Παιχνίδι Εργασιών](<Aufgaben%20Spiel.md>)                                                                | 4         | 30        | μέτριο           | κανένα                                          | 5-15       |
 | [Παιχνίδι προσοχής με μπάλες](<Aufmerksamkeits-Spiel%20mit%20B%C3%A4llen.md>)                     | 5         | 25        | εύκολο          | μπάλες                                           | 5-10       |
@@ -59,21 +59,21 @@ columns: file, group-min, group-max, Schwierigkeit, Material, Spieldauer
 | [Ισορροπία Βιβλίων](<B%C3%BCcherbalance.md>)                                                               | 3         | 20        | εύκολο          | βιβλία                                          | 5-10       |
 | [Σταυρωμένα Χέρια](<Crossed%20Hands.md>)                                                                  | 5         | 20        | εύκολο          | κανένα                                          | 5-10       |
 | [Το Παιχνίδι του Ναι](<Das%20Ja%20Spiel.md>)                                                                  | 4         | 30        | εύκολο          | κανένα                                          | 5-10       |
-| [Η λεπτή μεταφορά νερού](<Der%20heikle%20Wassertransport.md>)                                      | 5         | 15        | δύσκολο           | δοχείο, σχοινί, νερό, δεύτερο δοχείο             | 5-20       |
+| [Η λεπτή μεταφορά νερού](<Der%20heikle%20Wassertransport.md>)                                      | 5         | 15        | δύσκολο           | γλάστρα, σχοινί, νερό, δεύτερο δοχείο             | 5-20       |
 | [Ο σκύλος στο μεγάλο σπίτι](<Der%20Hund%20im%20gro%C3%9Fen%20Haus.md>)                                   | 5         | 30        | εύκολο          | κανένα                                          | 5 - 10     |
 | [Ο Φωτογράφος](<Der%20Photograph.md>)                                                                | 5         | 25        | εύκολο          | κανένα                                          | 10-20      |
 | [Ο τσίρκος είναι στην πόλη](<Der%20Zirkus%20ist%20in%20der%20Stadt.md>)                              | 10        | 40        | εύκολο          | κανένα                                          | 5-15       |
-| [Ο τσίρκος έρχεται στην πόλη](<Der%20Zirkus%20kommt%20in%20die%20Stadt.md>)                          | 10        | 40        | εύκολο          | χαλάκι, σηματοδοτημένες περιοχές                       | 5-15       |
+| [Ο τσίρκος έρχεται στην πόλη](<Der%20Zirkus%20kommt%20in%20die%20Stadt.md>)                          | 10        | 40        | εύκολο          | χαλάκι, σημειωμένες περιοχές                       | 5-15       |
 | [Η Βόμβα](<Die%20Bombe.md>)                                                                          | 6         | 30        | εύκολο          | μπάλα                                            | 5-10       |
 | [Η ιστορία της μπανάνας](<Die%20Geschichte%20der%20Banane.md>)                                      | 4         | 99        | εύκολο          | κανένα                                          | 5-10       |
 | [Το Εμπόδιο](<Die%20H%C3%BCrde.md>)                                                                     | 4         | 20        | μέτριο           | σχοινί                                            | 5-10       |
-| [Η Τετραγωνική Λύση του Κύκλου](<Die%20Quadratur%20des%20Kreises.md>)                                      | 8         | 20        | μέτριο           | σχοινί, προαιρετικά επιδέσμους ματιών                      | 5-60       |
+| [Η Τετραγωνική Λύση του Κύκλου](<Die%20Quadratur%20des%20Kreises.md>)                                      | 8         | 20        | μέτριο           | σχοινί, προαιρετικά δεσμά για τα μάτια                      | 5-60       |
 | [Το φίδι γδύνεται](<Die%20Schlange%20h%C3%A4uten.md>)                                               | 5         | 20        | εύκολο          | κανένα                                          | 5-10       |
 | [Το Βροντερό Παιχνίδι](<Die%20stampfende%20Bank.md>)                                                    | 4         | 20        | μέτριο           | κανένα                                          | 2-8        |
 | [Ντινγκ Ντανγκ Ντονγκ](<Ding%20Dang%20Dong.md>)                                                              | 2         | 2         | εύκολο          | κανένα                                          | 2-5        |
-| [Τριεθνής Αγώνας](<Dreil%C3%A4nderkampf.md>)                                                           | 4         | 20        | μέτριο           | επιφάνεια με στρώμα, σήμανση γηπέδου               | 5-10       |
+| [Τριεθνής Αγώνας](<Dreil%C3%A4nderkampf.md>)                                                           | 4         | 20        | μέτριο           | επιφάνεια με χαλάκια, σήμανση γηπέδου               | 5-10       |
 | [Πάνω και Κάτω](<Drunter%20und%20Dr%C3%BCber.md>)                                                 | 5         | 20        | εύκολο          | αντικείμενα                                     | 5-10       |
-| [Πολική αρκούδα σε παγόβουνο](<Eisb%C3%A4r%20auf%20der%20Scholle.md>)                                       | 10        | 30        | μέτριο           | μαλακό στρώμα δαπέδου                                 | 5 - 10     |
+| [Πολική αρκούδα σε παγόβουνο](<Eisb%C3%A4r%20auf%20der%20Scholle.md>)                                       | 10        | 30        | μέτριο           | χαλάκι με μαλακή επιφάνεια                                 | 5 - 10     |
 | [Βασίλισσα του Πάγου - Γίγαντας και Νάνοι](<Eisk%C3%B6nigin%20-%20Riese%20und%20Zwerge.md>)                       | 5         | 25        | εύκολο          | μικρό αντικείμενο                              | 5-10       |
 | [Κύκλος Ενέργειας](<Energie%20Klatschkreis.md>)                                                    | 5         | 99        | εύκολο          | κανένα                                          | 2-5        |
 | [Εξέλιξη](<Evolution.md>)                                                                            | 12        | 40        | εύκολο          | κανένα                                          | 10         |
@@ -83,13 +83,13 @@ columns: file, group-min, group-max, Schwierigkeit, Material, Spieldauer
 | [Φωτιά Νερό Άμμος](<Feuer%20Wasser%20Sand.md>)                                                        | 4         | 99        | εύκολο          | υψώματα, προαιρετικά τύμπανο                    | 5-15       |
 | [Παιχνίδι Κυνηγητού](<Figurenfangen.md>)                                                                    | 6         | 30        | μέτριο           | κανένα                                          | 6          |
 | [Μονομαχία Δακτύλων](<Finger-Fechten.md>)                                                                  | 2         | 99        | εύκολο          | κανένα                                          | 2-5        |
-| [Ιπτάμενο χαλί](<Fliegender%20Teppich.md>)                                                        | 4         | 20        | εύκολο          | μουσαμάς                                          | 3-10       |
+| [Ιπτάμενο χαλί](<Fliegender%20Teppich.md>)                                                        | 4         | 20        | εύκολο          | μουσαμάς                                        | 3-10       |
 | [Φίλος και Εχθρός](<Freund%20und%20Feind.md>)                                                          | 5         | 20        | εύκολο          | κανένα                                          | 2-5        |
 | [Frutti del Mare](<Frutti%20del%20Mare%20-%20Aufw%C3%A4rmspiel.md>)                     | 3         | 20        | εύκολο          | κανένα                                          | 5-10       |
 | [Αλεπού και Λαγός](<Fuchs%20und%20Hase.md>)                                                              | 8         | 25        | μέτριο           | κανένα                                          | 10 -  15   |
 | [Κυνήγι αλεπούς](<Fuchsjagd.md>)                                                                            | 5         | 25        | εύκολο          | μαντήλια                                          | 10 -  15   |
 | [Καρφώνω τα πόδια](<F%C3%BC%C3%9Fenageln.md>)                                                                | 5         | 30        | εύκολο          | κανένα                                          | 5-10       |
-| [Ομοιότητα και Διαφορά](<Gemeinsamkeit%20und%20Unterschied.md>)                                | 4         | 30        | εύκολο          | μουσική                                           | 5-10       |
+| [Ομοιότητα και Διαφορά](<Gemeinsamkeit%20und%20Unterschied.md>)                                | 4         | 30        | εύκολο          | μουσική                                  | 5-10       |
 | [Ίσοι με ίσους](<Gleich%20und%20gleich.md>)                                                        | 6         | 30        | εύκολο          | προαιρετικά μουσική                                  | 5-15       |
 | [Χρυσό Ελάφι](<Goldener%20Hirsch.md>)                                                              | 10        | 99        | εύκολο          | κανένα                                          | 5 - 15     |
 | [Μεγάλος εναντίον Μικρού](<Gro%C3%9F%20gegen%20Klein.md>)                                                     | 3         | 10        | μέτριο           | χαλάκι                                           | 1-5        |
@@ -112,11 +112,11 @@ columns: file, group-min, group-max, Schwierigkeit, Material, Spieldauer
 | [Γνωριμία με μπάλες, τρέξιμο](<Kennenlernen%20mit%20B%C3%A4llen%20hinterherlaufen.md>)     | 5         | 25        | εύκολο - μέτριο | μπάλες                                           | 10 -  15   |
 | [Killerfunkwagen](<Killerfunkwagen.md>)                                                                | 2         | 30        | εύκολο          | κανένα                                          | 5-10       |
 | [Κούρσα με μαξιλάρια](<Kissenrennen.md>)                                                                      | 10        | 40        | μέτριο           | μαξιλάρια                                          | 3          |
-| [Πιάσε τα μανταλάκια](<Klammern%20haschen.md>)                                                            | 5         | 30        | εύκολο          | μανταλάκια                                  | 4-6        |
+| [Πιάσε τα μανταλάκια](<Klammern%20haschen.md>)                                                            | 5         | 30        | εύκολο          | μανταλάκια ρούχων                                  | 4-6        |
 | [Κουτσομπολιό με οπτική επαφή](<Klatsch%20mit%20Augenkontakt.md>)                                          | 5         | 99        | εύκολο          | κανένα                                          | 5-10       |
 | [Θέατρο Κλας](<Klatsch%20Theater.md>)                                                              | 4         | 20        | εύκολο          | κανένα                                          | 7          |
 | [Έλα μαζί, τρέξε μακριά](<komm-mit-lauf-weg.md>)                                                            | 5         | 99        | εύκολο          | κανένα                                          | 5 - 15     |
-| [Εντολή](<Kommando.md>)                                                                              | 6         | 25        | εύκολο          | χαλάκια ή θέσεις καθίσματος                               | 4-7        |
+| [Εντολή](<Kommando.md>)                                                                              | 6         | 25        | εύκολο          | χαλάκια ή θέσεις καθίσματος                       | 4-7        |
 | [Εντολή Πιμπερλε](<Kommando%20Pimperle.md>)                                                          | 3         | 99        | εύκολο          | κανένα                                          | 5-10       |
 | [Βασιλιάς των αιθέρων](<K%C3%B6nig%20der%20L%C3%BCfte.md>)                                                  | 6         | 20        | μέτριο           | κανένα                                          | 5-10       |
 | [Νοσοκομείο](<Krankenhaus.md>)                                                                        | 8         | 30        | εύκολο          | χαλάκια                                          | 5-10       |
@@ -146,15 +146,15 @@ columns: file, group-min, group-max, Schwierigkeit, Material, Spieldauer
 | [Παιχνίδι ζευγαριών & αλυσίδας](<Paar%20haschen%20%26%20Kettenhaschen.md>)                              | 15        | 40        | εύκολο          | κανένα                                          | 5          |
 | [Πενγκ, Πενγκ, Μπαμ - Πετάμε στο διάστημα](<Peng-Peng-Knall-Wir-fliegen-in-das-All.md>)                  | 4         | 20        | εύκολο          | κανένα                                          | 5-10       |
 | [Peng](<Peng%21.md>)                                                                                  | 5         | 25        | εύκολο          | κανένα                                          | 5-10       |
-| [Πιγκουίνοι και Πολικές Αρκούδες](<Pinguine%20und%20Eisb%C3%A4ren.md>)                                           | 6         | 31        | εύκολο - μέτριο | μαλακό στρώμα δαπέδου                                 | 5 - 15     |
+| [Πιγκουίνοι και Πολικές Αρκούδες](<Pinguine%20und%20Eisb%C3%A4ren.md>)                                           | 6         | 31        | εύκολο - μέτριο | χαλάκι με μαλακή επιφάνεια                                 | 5 - 15     |
 | [Πιγκουίνοι και Φλαμίνγκο δολοφόνοι](<Pinguine%20und%20Killer-Flamingos.md>)                                | 5         | 99        | εύκολο          | κανένα                                          | 5 - 10     |
 | [Παιχνίδι Καλωσορίσματος Πειρατών](<Piraten%20Begr%C3%BC%C3%9Fungsspiel.md>)                                    | 4         | 99        | εύκολο          | κανένα                                          | 5-10       |
 | [Καπετάνιος Πειρατών](<Piraten%20Kapit%C3%A4n.md>)                                                         | 5         | 25        | εύκολο          | χαλάκι                                           | 5-15       |
 | [Pitbull](<Pitbull.md>)                                                                                | 10        | 40        | μέτριο           | κανένα                                          | 7          |
 | [Αλλαγή θέσεων μέσω οπτικής επαφής](<Platztausch%20durch%20Augenkontakt.md>)                              | 5         | 25        | εύκολο          | κανένα                                          | 5-10       |
 | [Ποπ κορν](<Popcorn.md>)                                                                                | 5         | 99        | εύκολο          | κανένα                                          | 5 - 15     |
-| [Διαστημικός Σταθμός](<Raumstation.md>)                                                                        | 6         | 25        | μέτριο           | σηματοδοτημένη περιοχή, αντικείμενα                   | 10-15      |
-| [Πέρασμα λάστιχου σε κύκλο](<Reifen%20durchgeben%20im%20Kreis.md>)                                    | 5         | 30        | εύκολο          | στεφάνι                                          | 5-10       |
+| [Διαστημικός Σταθμός](<Raumstation.md>)                                                                        | 6         | 25        | μέτριο           | σημειωμένη περιοχή, αντικείμενα                   | 10-15      |
+| [Πέρασμα λάστιχου σε κύκλο](<Reifen%20durchgeben%20im%20Kreis.md>)                                    | 5         | 30        | εύκολο          | στεφάνια                                          | 5-10       |
 | [Ιππότες και Νάνοι](<Ritter%20und%20Zwerge.md>)                                                        | 8         | 20        | εύκολο          | κοντάρι σκούπας                                      | 5-10       |
 | [Φώκιες και πολικές αρκούδες](<Robbe%20und%20Eisb%C3%A4ren.md>)                                                 | 5         | 30        | μέτριο           | κανένα                                          | 10 -  15   |
 | [Ρόμπερτ η τρέχουσα φώκια](<Robert%20die%20rennende%20Robbe.md>)                                      | 4         | 12        | εύκολο          | κανένα                                          | 3 - 10     |
@@ -170,7 +170,7 @@ columns: file, group-min, group-max, Schwierigkeit, Material, Spieldauer
 | [Παιχνίδι Ανακίνησης](<Sch%C3%BCttelspiel.md>)                                                               | 4         | 99        | εύκολο          | κανένα                                          | 5-10       |
 | [Παιχνίδι με ουρές](<Schw%C3%A4nzchen-Hasche.md>)                                                     | 5         | 30        | εύκολο          | μαντήλια                                          | 10 -  15   |
 | [Αδελφούλα, βοήθα](<Schwesterchen%20hilf.md>)                                                        | 8         | 30        | εύκολο          | κανένα                                          | 5          |
-| [Διάσχιση Λίμνης](<See%C3%BCberquerung.md>)                                                             | 5         | 30        | μέτριο           | χαρτί, μαλακό στρώμα δαπέδου, προαιρετικά αντικείμενα   | 15-20      |
+| [Διάσχιση Λίμνης](<See%C3%BCberquerung.md>)                                                             | 5         | 30        | μέτριο           | χαρτί, χαλάκι με μαλακή επιφάνεια, προαιρετικά αντικείμενα   | 15-20      |
 | [Αμοιβαία γνωριμία](<Sich%20gegenseitig%20vorstellen.md>)                                    | 5         | 15        | μέτριο           | κανένα                                          | 10 -  15   |
 | [Σλάλομ σε σειρά](<Slalom%20in%20Reihe.md>)                                                            | 3         | 25        | εύκολο          | κανένα                                          | 5-10       |
 | [Ταξινόμηση στην ομάδα](<Sortieren%20in%20der%20Gruppe.md>)                                          | 5         | 25        | μέτριο           | καρέκλες ή σκαμπό                              | 5-15       |
@@ -181,13 +181,13 @@ columns: file, group-min, group-max, Schwierigkeit, Material, Spieldauer
 | [Παιχνίδι Αναζήτησης](<Suchkind.md>)                                                                              | 5         | 20        | μέτριο           | κανένα                                          | 20 -  30   |
 | [Μπλουζάκι στο παντελόνι](<T-Shirt%20in%20der%20Hose.md>)                                                  | 6         | 30        | μέτριο           | μπάλα                                            | 5-15       |
 | [Ομάδα Σνικ-Σνάκ-Σνουκ](<Team%20Schnick-Schnack-Schnuck.md>)                                    | 14        | 40        | εύκολο          | κανένα                                          | 10         |
-| [Πιάστρα πιάτων](<Tellerf%C3%A4nger.md>)                                                                 | 6         | 30        | εύκολο          | πιάτο, πανί, ντιάμπολο                           | 5-10       |
+| [Πιάστρα πιάτων](<Tellerf%C3%A4nger.md>)                                                                 | 6         | 30        | εύκολο          | πιάτα, πανί, ντιάμπολο                           | 5-10       |
 | [Βλέμμα θανάτου](<Totblicken.md>)                                                                          | 7         | 30        | εύκολο          | κανένα                                          | 3-9        |
 | [Κουτσομπολιό παρουσίας](<Tratschen%20in%20Anwesenheit.md>)                                          | 3         | 6         | εύκολο          | κανένα                                          | 10-15      |
 | [Ultimate Ninja](<Ultimate%20Ninja.md>)                                                                | 5         | 20        | μέτριο           | κανένα                                          | 10         |
 | [Βαμπίρ](<Vampir.md>)                                                                                  | 6         | 30        | μέτριο           | κανένα                                          | 5-10       |
 | [Παντρεμένοι, Χωρισμένοι](<Verheiratet-Geschieden.md>)                                                  | 8         | 99        | εύκολο          | κανένα                                          | 5-10       |
-| [Παιχνίδι των Τεσσάρων Χρωμάτων](<Vierfarbenfangen.md>)                                                              | 20        | 40        | μέτριο           | προαιρετικά χρωματιστά μπλουζάκια                        | 10         |
+| [Παιχνίδι των Τεσσάρων Χρωμάτων](<Vierfarbenfangen.md>)                                                              | 20        | 40        | μέτριο           | προαιρετικά χρωματιστά γιλέκα                        | 10         |
 | [Ιός](<Virus.md>)                                                                                    | 5         | 30        | εύκολο          | κανένα                                          | 5-10       |
 | [Παρουσίαση - Ιστορικό - Συμβολικό](<Vorstellungsrunde%20-%20Werdegang%20-%20Symbolisch.md>)  | 2         | 10        | μέτριο           | διάφορα                                   | 30-45      |
 | [Τι κάνεις εκεί;](<Was%20tust%20Du%20da.md>)                                                            | 4         | 20        | μέτριο           | κανένα                                          | 10-15      |

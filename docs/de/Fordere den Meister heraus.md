@@ -6,56 +6,63 @@ tags:
   - spiele
   - beigoma
 created: 2025-01-24 03:50:50
-update: 2025-01-24 05:13:12
+update: 2026-06-11 17:30:44
 title: Fordere den Meister heraus
-description: 
+description:
 authors:
   - Marc Bielert
-translation_status: original
-translation_source_lang: de
+translation_status: machine-translated
+translation_source_lang: en
+translation_source: docs/en/Fordere den Meister heraus.md
+translation_source_body_hash: cd5a870f0442740dcb4998a03c9d43d5ad0f673907aa2ab4503d0e8ff0254d24
+translation_source_hash: cd5a870f0442740dcb4998a03c9d43d5ad0f673907aa2ab4503d0e8ff0254d24
+translation_model: google/gemini-2.5-flash-lite
+translation_updated: 2026-06-11T15:38:26+00:00
+translation_source_metadata_hash: 3578f2ca527be747c59703b6983afac3d51bacacd5bc27b1320f2726ec0db8c1
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-11T15:38:26+00:00
 ---
-# Spieleinführung "Fordere den Meister heraus"
+> [!info] Kurzbeschreibung
+> Ein Beigoma-Herausforderungsformat, bei dem Spieler Punkte sammeln, indem sie erfahrene Meister in wiederholten Versuchen besiegen.
 
-Beigoma hat viele lustige Spiele.
+**Gruppengröße**: 4-40 Personen
+**Schwierigkeit**: Leicht
+**Materialien**: Beigoma, Schnüre, Spielflächen, Punktkarten, optionale Preis-Kreisel
+**Dauer**: 15-60 Minuten
 
-Ich werde die Spiele, an denen der Manager bisher teilgenommen hat, nach und nach vorstellen.
+## **Spielbeschreibung**:
 
-Diesmal ist "Fordere den Meister heraus".
+"Challenge the Master" ist ein offenes Herausforderungsformat. Mehrere erfahrene Spieler agieren als Beigoma-Meister. Andere Teilnehmer fordern sie nacheinander heraus und sammeln Punkte, wenn sie gewinnen.
 
-【Regel】
+Dieses Format eignet sich gut für öffentliche Veranstaltungen, da Spieler zu unterschiedlichen Zeiten teilnehmen, für weitere Versuche zurückkehren und auf ein sichtbares Ziel hinarbeiten können.
 
-Dies ist ein sehr beliebtes Spiel.
+Wählen Sie mehrere Meister aus. Idealerweise sollten dies erfahrene Spieler oder Personen sein, die frühere Beigoma-Runden gewonnen haben. Bereiten Sie Punktkarten für die Teilnehmer vor.
 
-\[Spielfluss\]
+Wenn Preise verwendet werden, legen Sie die Punktgrenze im Voraus fest. Tokyo Beigoma beschreibt ein Format, bei dem 20 gesammelte Punkte gegen einen Standard-Beigoma eingetauscht werden können.
 
-1. Wählen Sie mehrere Beigoma-Meister aus (Beigoma-Meister: Diejenigen, die das Turnier gewonnen haben, sind wünschenswert)
+Die Teilnehmer fordern jeweils einen Meister heraus. Wenn der Teilnehmer gewinnt, werden die Punkte auf seiner Karte vermerkt. Spieler können über mehrere Versuche oder Sitzungen hinweg Punkte sammeln. Wenn ein Spieler die vereinbarte Grenze erreicht, erhält er die vereinbarte Belohnung.
 
-2. Die Teilnehmer fordern den Meister einzeln heraus
+## **Wertung**:
 
-3. Wenn der Teilnehmer gewinnt, werden Punkte auf der Punktekarte gesammelt
+Ein mögliches Wertungsmodell:
 
-4. Sammeln Sie Punkte und erhalten Sie ein Beigoma!
+- Sieg durch Hajiki: 2 Punkte
+- Sieg durch Riki: 1 Punkt
+- Unentschieden oder Niederlage: 0 Punkte
 
-5. Selbst wenn Sie an diesem Tag keine Punkte sammeln können, können Sie beim nächsten Mal weiterhin Punkte sammeln, sodass auch diejenigen, die an der Mitte teilnehmen, diese genießen können.
+Passen Sie die Wertung an die Veranstaltung und das Fähigkeitsniveau an.
 
-![](https://static.wixstatic.com/media/b342b0_533ad1b9ba354ca5ac0e0df8867d63ea~mv2.jpg/v1/fill/w_734,h_489,al_c,q_90,usm_0.66_1.00_0.01/b342b0_533ad1b9ba354ca5ac0e0df8867d63ea~mv2.webp)
+## **Variationen**:
 
-Die Teilnehmer rechts fordern den Meister links auf dem Foto der Reihe nach heraus.
+Verwenden Sie einfachere Meister für Kinder oder Erstspieler und schwierigere Meister für fortgeschrittene Spieler.
 
-Es ist ein Spiel, das Sie kontinuierlich genießen können, weil Sie zwischen Eltern, Kindern und Freunden um Punkte kämpfen können.
+Ermöglichen Sie einen Anfängerbonus, z. B. einen Punkt für eine saubere Landung und einen stabilen Spin gegen einen Meister.
 
-【Punkt】
+## **Hinweise**:
 
-Es gibt verschiedene Möglichkeiten, Punkte zu verteilen, aber bei der Ota Bunkanomori, die vom Manager gehalten wird, gehen wir wie folgt vor.
+Dieses Format hängt von der Einstellung der Meister ab. Sie sollten Herausforderung und Spannung schaffen, ohne Anfänger das Gefühl zu geben, ausgeschlossen zu sein.
 
-- Spielen und gewinnen: 2 Punkte
+## **Quelle**:
 
-- Lang drehen und gewinnen (Riki gewinnt): 1 Punkt
-
-- Unentschieden, verlieren: 0 Punkte
-
-- Wenn Sie 20 Punkte sammeln, erhalten Sie ein normales Beigoma-Geschenk.
-
-![](https://static.wixstatic.com/media/b342b0_ed18bbf6098f4db5886340a0afb48855~mv2.png/v1/fill/w_578,h_349,al_c,q_90,usm_0.66_1.00_0.01/b342b0_ed18bbf6098f4db5886340a0afb48855~mv2.webp)
-
-Punktkarte (schreiben Sie Ihren Namen auf die Rückseite)
+Basierend auf dem Format "Challenge the Master" von Tokyo Beigoma.

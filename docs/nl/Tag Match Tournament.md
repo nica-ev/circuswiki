@@ -6,51 +6,53 @@ tags:
   - spiele
   - beigoma
 created: 2025-01-24 03:50:51
-update: 2025-01-25 01:13:07
+update: 2026-06-11 17:31:23
 title: Tag Team Toernooi
 description: 
 authors:
   - Marc Bielert
 translation_status: machine-translated
-translation_source_lang: de
-translation_source: docs/de/Tag Match Tournament.md
-translation_source_hash: e2e2ab128c173b32494859fa57eda46515a3019e1ba76034ae902e8915f8a9f0
+translation_source_lang: en
+translation_source: docs/en/Tag Match Tournament.md
+translation_source_hash: 84227a0a6c913d9fc704f0a6ef2c6450d6e763e15e562011c89231a93904501e
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T23:24:43+00:00
-translation_source_body_hash: e2e2ab128c173b32494859fa57eda46515a3019e1ba76034ae902e8915f8a9f0
+translation_updated: 2026-06-11T15:40:42+00:00
+translation_source_body_hash: 84227a0a6c913d9fc704f0a6ef2c6450d6e763e15e562011c89231a93904501e
 translation_source_metadata_hash: cc74342fb1b2837db74e76b27779926cd9a7c8d15f110637205f06f57ac7fd3b
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T19:09:03+00:00
+translation_metadata_updated: 2026-06-11T15:40:42+00:00
 ---
-Introductie tot het spel "Tag Match Tournament"
-Dit spel is ideaal voor een groep deelnemers met grote verschillen in ervaring. Door ervaren spelers te koppelen, is de kans kleiner dat beginners worden verslagen. Vooral omdat je samen vecht, zul je veel gelukkiger zijn als je wint!
+> [!info] Korte beschrijving
+> Een teamgebaseerd Beigoma-toernooi waarbij duo's strijden in rondes van vier spelers, waarbij het eerste team dat twee punten behaalt, doorgaat.
 
-Als er veel beginners zijn, is het beter om met normale Bagoma te spelen, omdat het gelukselement groter is en het spel spannender wordt.
+**Groepsgrootte**: 4-40 personen
+**Moeilijkheidsgraad**: Gemiddeld
+**Benodigdheden**: Beigoma, touwtjes, speeloppervlakken, toernooischema, loterij- of teamkaarten
+**Duur**: 20-60 minuten
 
-Hoe een team te bepalen
+## **Spelbeschrijving**:
 
-Bepaal het tag-team door middel van loting. Als er veel beginners zijn, is het beter om met een normale Bagoma te spelen.
+Het Beigoma Team Toernooi is ontworpen voor groepen met aanzienlijke vaardigheidsverschillen. Beginners worden gekoppeld aan meer ervaren spelers, waardoor de kans kleiner is dat ze worden uitgeschakeld simpelweg omdat ze het speeloppervlak missen of een duel verliezen.
 
-Regels
+De gedeelde teamscore maakt overwinningen socialer en helpt ervaren spelers beginners te begeleiden.
 
-(Als er veel ervaren spelers zijn, kun je met hen spelen.
-(Als er veel ervaren spelers zijn, wordt het spel relatief spannender als het alleen door te spelen wordt gespeeld.
+Vorm duo's, bij voorkeur door loting. Als er veel beginners zijn, pas dan de loting zo aan dat twee beginners niet te vaak tegen elkaar spelen. Voer de teams in een toernooischema in. Beslis of er een "verliezersronde" (revival) zal zijn.
 
-Gelijktijdige deelname van 4 spelers
+Twee teams strijden tegelijkertijd, wat betekent dat vier spelers hun tol op het speeloppervlak laten draaien. Als de tol van één team het langst op het oppervlak blijft, verdient dat team 1 punt. Als er geen toltjes op het oppervlak blijven, is de ronde een gelijkspel en wordt deze herhaald. Het eerste team dat 2 punten behaalt, wint de wedstrijd.
 
-Het team dat een speler langer op de grond heeft, krijgt 1 punt.
+De winnende teams gaan door naar de volgende ronde. De verliezende teams worden geëlimineerd, tenzij de regel voor "verliezersrevival" wordt toegepast. Het laatst overgebleven team wint het toernooi.
 
-Als niemand op de grond blijft, is het een gelijkspel en beginnen we opnieuw.
+## **Regels**:
 
-Het eerste team dat 2 punten bereikt, wint.
+- Beslis vóór het toernooi of Riki-overwinningen (de tol van de tegenstander uitdraaien) zijn toegestaan, of dat alleen Hajiki-overwinningen (je tol uit de tol van de tegenstander draaien) tellen.
+- Gebruik normale Beigoma als er veel beginners spelen.
+- Gebruik alleen Hajiki-regels als er veel ervaren spelers deelnemen en je wilt dat het spel dynamischer wordt.
 
-Spelverloop
+## **Opmerkingen**:
 
-Elk team trekt een lot en schrijft zijn naam op de plek die op de toernooitafel staat.
+Dit is een goed format als je wilt dat het evenement coöperatief aanvoelt in plaats van puur individueel. Het geeft ervaren spelers ook een constructieve rol.
 
-In de eerste ronde speelt elk team om de beurt tegen elkaar.
+## **Bron**:
 
-Als je team wint, ga je naar de tweede ronde, als je team verliest, ben je klaar. (Afhankelijk van het spel is er een herkansing voor de verliezer.
-
-Het laatste team dat wint, is de winnaar!
+Gebaseerd op het Tag Match Tournament-format van Tokyo Beigoma.

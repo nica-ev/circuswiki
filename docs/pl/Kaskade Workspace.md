@@ -2,8 +2,8 @@
 lang: pl
 translation_id: kaskade-workspace
 created: 2025-01-21 18:09:55
-update: 2026-06-08 21:15:16
-publish: draft
+update: 2026-06-12 19:11:41
+publish: true
 tags:
   - moc
   - dynamic
@@ -14,51 +14,51 @@ authors:
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Kaskade Workspace.md
-translation_source_hash: 868e2ee0cbe7e65730873331919360e6050c09b83fcbdde4327359519389b85d
+translation_source_hash: 29a1552cf493836b4b474a5912aebdb63538c48b359b37de5a4b8b2e5b94d53f
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-08T20:11:48+00:00
-translation_source_body_hash: 868e2ee0cbe7e65730873331919360e6050c09b83fcbdde4327359519389b85d
+translation_updated: 2026-06-12T17:32:58+00:00
+translation_source_body_hash: 29a1552cf493836b4b474a5912aebdb63538c48b359b37de5a4b8b2e5b94d53f
 translation_source_metadata_hash: e7f4ba685ffe753f20b46abef2ca8139d54bb761a72234a6398c888d59b39b90
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:52:54+00:00
+translation_metadata_updated: 2026-06-12T17:32:58+00:00
 ---
 >[!info]- Wprowadzenie
->Dorastałem z „Kaskadą”. Zanim pojawił się YouTube, zanim mogliśmy znaleźć wszystko w Internecie – to czasopismo było jednym z pierwszych regularnych źródeł informacji, jakie otrzymałem na temat żonglerki, cyrku i występów.
->Kiedy w 2013 roku czasopismo zostało zamknięte, poczułem, że to koniec pewnej ery – przynajmniej dla mnie.
+>Dorastałem z „Kaskadą”. Zanim pojawił się YouTube, zanim mogliśmy znaleźć wszystko w Internecie – to czasopismo było jednym z pierwszych regularnych źródeł informacji, jakie dostałem w ręce na temat żonglerki, cyrku, pokazów.
+>Kiedy w 2013 roku czasopismo zostało zawieszone, poczułem, że to koniec pewnej ery – przynajmniej dla mnie.
 >Przez kilka lat czasopisma były dostępne do pobrania w formacie PDF, ale od około 2017 roku strona przestała działać.
->Często wspominałem małe warsztaty, tutoriale lub artykuły, które mnie wtedy inspirowały. Kiedy po latach chciałem coś ponownie przeczytać – nie było już takiej możliwości.
+>Często przypominałem sobie małe warsztaty, tutoriale lub artykuły, które mnie wtedy inspirowały. Kiedy po latach chciałem coś ponownie przeczytać – nie było już takiej możliwości.
 >
->Na szczęście, korzystając z Wayback Machine (Internet Archive), znalazłem punkt kontrolny z 2017 roku z kompletnymi plikami do pobrania (nie zawsze tak jest, zwłaszcza że było to około 3 GB plików PDF) – w komplecie z wydaniami niemieckim, angielskim i francuskim.
+>Na szczęście dzięki Wayback Machine (The Internet Archive) znalazłem punkt kontrolny z 2017 roku z kompletnymi plikami do pobrania (nie zawsze tak jest, zwłaszcza że było to około 3 GB plików PDF) – kompletny z niemiecką, angielską i francuską wersją.
 >
->Przeglądając je, zauważyłem, że chociaż w czasopismach kryło się wiele wspaniałych artykułów i tutoriali, to w dzisiejszych czasach mało kto przeglądałby 112 czasopism, które są jedynie kserokopiami. No cóż, chyba że ktoś ma nostalgiczne zainteresowania =P
+>Przeglądając je, zauważyłem, że chociaż w czasopismach kryło się wiele wspaniałych artykułów i tutoriali – to w dzisiejszych czasach mało kto przeglądałby 112 czasopism, które są jedynie kserokopiami. No cóż, chyba że ktoś ma nostalgiczne zainteresowania =P
 >
->Ponieważ szkoda byłoby zmarnować tę wiedzę, postanowiłem spróbować wykorzystać obecną technologię do zdigitalizowania tego wszystkiego w sposób, który będzie użyteczny również dzisiaj.
+>Ponieważ szkoda byłoby zmarnować tę wiedzę, postanowiłem spróbować wykorzystać obecną technologię do zdigitalizowania tego wszystkiego w sposób, który będzie sensownie użyteczny również dzisiaj.
 
 >[!info]- Jak transkrybowano czasopisma
->Najpierw usunąłem z plików PDF wszystkie strony, które nie zawierały istotnych tekstów.
+>Najpierw usunąłem z PDF wszystkie strony, które nie zawierały istotnych tekstów.
 >
 >Do właściwej transkrypcji (lub OCR) użyłem multimodalnego modelu językowego Google.
 >Używam ```Gemini 2.0 Pro Experimental 02-05``` z promptem:
 >```
 >The attached PDF is a photocopy of a magazine. Extract all text, keep the document structure intact as much as possible, also extract single images and have them correctly in context.
 >```
->oraz pliku PDF ze zeskanowanym czasopismem.
+>oraz PDF ze zeskanowanym czasopismem.
 >Ustawienia: Temperatura 0.1 (Ważne, aby unikać halucynacji)
 >
->Wynik jest czyszczony za pomocą ```gemini-2.0-flash-exp``` i następującego promptu (wraz z załączonym tekstem, który wyodrębniliśmy):
+>Wynik jest czyszczony za pomocą ```gemini-2.0-flash-exp``` i następującego promptu (oraz dołączonego tekstu, który wyodrębniliśmy):
 >```
 >The following text is extracted with OCR from an old magazin. Your task is to clean this up. Remove artifacts (like page-numbering, unneccessary linebreaks) or unneeded parts but keep the structure, articles etc. intact. Use a proper Markdown formatting to structure the text correctly.
 >
 >Text:
 >```
 >
->Wynik jest następnie ponownie ręcznie przeglądany i poprawiany.
+>Wynik jest następnie ponownie przeglądany ręcznie i poprawiany.
 >
 >>[!Danger]+ Ważne:
 >>Skupiono się na wyodrębnianiu artykułów, warsztatów, wywiadów itp.
->>Ogłoszenia drobne itp. zostały odrzucone.
->>Ekstrakcja i czyszczenie tekstów odbywało się za pomocą LLM, dlatego istnieje zawsze możliwość, że teksty nie zostały transkrybowane 1:1 lub treść nieznacznie odbiega od oryginału. Starałem się zminimalizować wskaźnik błędów, porównując fragmenty tekstu wyrywkowo.
+>>Materiały takie jak np. ogłoszenia drobne itp. zostały odrzucone.
+>>Wyodrębnianie i czyszczenie tekstów odbyło się za pomocą LLM, dlatego istnieje zawsze możliwość, że teksty nie zostały transkrybowane 1:1 lub treść nieznacznie odbiega od oryginału. Starałem się zminimalizować wskaźnik błędów, porównując fragmenty tekstu wyrywkowo.
 
 <!-- dynamic:start
 engine: obsidian-base
@@ -89,14 +89,14 @@ columns: file, authors, type, sub-type, source
 <!-- dynamic:content -->
 <!-- Generated by tools/dynamic_pages.py; edit the dynamic block config, not this table. -->
 
-| plik                                                                                   | autorzy                  | typ      | podtyp | źródło      |
-| -------------------------------------------------------------------------------------- | ------------------------ | -------- | ------ | ----------- |
-| [Warsztaty Kaskady - Strona Kolumny](<Die%20S%C3%A4ulen-Seite.md>)                                       | Dr. P. Luftiko           | Tutorial | Bälle  | Kaskade 001 |
+| plik                                                                                   | autorzy              | typ      | podtyp | źródło      |
+| -------------------------------------------------------------------------------------- | -------------------- | -------- | ------ | ----------- |
+| [Warsztaty Kaskady - Strona Kolumny](<Die%20S%C3%A4ulen-Seite.md>)                                       | Dr. P. Luftiko       | Tutorial | Piłki  | Kaskade 001 |
 | [Nowy magazyn dla Europy](<Eine%20neue%20Zeitschrift%20f%C3%BCr%20Europa.md>) | Gabi Keaton, Paul Keaton | Artykuł  | -      | Kaskade 001 |
-| [Uśmiech pokonuje grawitację](<L%C3%A4cheln%20%C3%BCberwindet%20Schwerkraft.md>)    | Toby Philpott            | Artykuł  | -      | Kaskade 001 |
-| [Warsztaty Kaskady - Oszukuj!](<Schummeln%21.md>)                                                        | Dr. P. Luftiko           | Tutorial | Bälle  | Kaskade 001 |
-| [Grawitacja - i co z tego!](<Schwerkraft%20-%20na%20und%21.md>)                            | Christoph Schmitt        | Artykuł  | -      | Kaskade 001 |
-| [Szukamy cyrku!](<Zirkus%20gesucht%21.md>)                                            | Kattrin & Uli            | Artykuł  | -      | Kaskade 001 |
+| [Uśmiech pokonuje grawitację](<L%C3%A4cheln%20%C3%BCberwindet%20Schwerkraft.md>)    | Toby Philpott        | Artykuł  | -      | Kaskade 001 |
+| [Warsztaty Kaskady - Oszukuj!](<Schummeln%21.md>)                                                        | Dr. P. Luftiko       | Tutorial | Piłki  | Kaskade 001 |
+| [Grawitacja - i co z tego!](<Schwerkraft%20-%20na%20und%21.md>)                            | Christoph Schmitt    | Artykuł  | -      | Kaskade 001 |
+| [Szukamy cyrku!](<Zirkus%20gesucht%21.md>)                                            | Kattrin & Uli        | Artykuł  | -      | Kaskade 001 |
 
 <!-- dynamic:end -->
 
@@ -105,16 +105,16 @@ columns: file, authors, type, sub-type, source
 >[!info]- Błędnie nazwane / połączone wydania (002 - 004)
 >
 >Kaskada 002:
->W oryginalnym niemieckim pliku PDF wydania 2 i 3 są połączone.
+>W oryginalnym niemieckim PDF wydania 2 i 3 są połączone.
 >
 >Kaskada 003:
->W oryginalnym niemieckim pliku PDF znajduje się tutaj wydanie 004.
+>W oryginalnym niemieckim PDF znajduje się tutaj wydanie 004.
 >
 >Kaskada 004:
->Brakuje tu strony tytułowej, nie udało mi się jeszcze ustalić, do czego ona należy...
+>Brakuje tutaj strony tytułowej, nie udało mi się jeszcze ustalić, do czego ona należy...
 >Wygląda jak kopia wydania 009, bez strony tytułowej.
 >
->Naprawa:
->Podzieliłem plik PDF Kaskada 002 (oryginalny) na 002 i 003.
+>Poprawka:
+>Podzieliłem PDF Kaskada 002 (oryginalny) na 002 i 003.
 >Przemianowałem Kaskada 003 (oryginalny) na Kaskada 004.
->Usunąłem Kaskada 004 (oryginalny).
+>Oraz usunąłem Kaskada 004 (oryginalny).

@@ -6,70 +6,64 @@ tags:
   - spiele
   - beigoma
 created: 2025-01-24 03:50:50
-update: 2025-01-24 04:26:50
+update: 2026-06-11 17:28:52
 title: Bloková hra
 description: 
 authors:
   - Marc Bielert
 translation_status: machine-translated
-translation_source_lang: de
-translation_source: docs/de/Blockspiel.md
-translation_source_hash: 85b855a85fb8b24db41f0455b54679fa407aa497b1fa181cc7deed396715e43d
+translation_source_lang: en
+translation_source: docs/en/Blockspiel.md
+translation_source_hash: feba559e9d0aa64ee5f6f9fb6b0b7648397c4978b6acdba1fb549286dc46366a
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T18:29:27+00:00
-translation_source_body_hash: 85b855a85fb8b24db41f0455b54679fa407aa497b1fa181cc7deed396715e43d
-translation_source_metadata_hash: 658a805439446668d1f672684bb99d0601d8bbb3410b8597fd5fc4088173f2fc
+translation_updated: 2026-06-11T15:37:33+00:00
+translation_source_body_hash: feba559e9d0aa64ee5f6f9fb6b0b7648397c4978b6acdba1fb549286dc46366a
+translation_source_metadata_hash: c3fb57ba13e0517992cf588c2c001e2b5a447e4689fca0b654c9e91d66c1dab7
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:04:01+00:00
+translation_metadata_updated: 2026-06-11T15:37:33+00:00
 ---
-# Úvod do hry „Bloková hra“
+> [!info] Stručný popis
+> Flexibilní formát bodovací karty Beigoma, kde hráči dokončují více kol v časovém limitu.
 
-【Charakteristika】
+**Velikost skupiny**: 10–40 osob
+**Obtížnost**: Střední
+**Materiály**: Beigoma, provázky, hrací plochy, blokové bodovací karty
+**Doba trvání**: 30–60 minut
 
--   Během stanoveného času můžete odehrát 10 až 30 her na osobu.
--   Můžete se zapojit do hry vlastním tempem.
--   Můžete se zapojit i uprostřed hry (vyžaduje se minimálně 10 her).
+## **Popis hry**:
 
-\[Průběh hry\]
+Bloková hra umožňuje účast mnoha hráčů vlastním tempem. Každý hráč používá kartu rozdělenou na několik bloků, obvykle A, B a C. Během herního času hráči absolvují krátké individuální zápasy a zaznamenávají si výsledky na své karty.
 
-1.  Účastníci obdrží kartu a napíší na ni své jméno.
-2.  Seřaďte se na podlaze v uvedeném pořadí.
-    %% ![](https://static.wixstatic.com/media/39842b_c35cac3d625145f1b8446df105c2a658~mv2.png/v1/fit/w_300,h_300,al_c,q_5/file.png) %%
-    ![](https://static.wixstatic.com/media/39842b_c35cac3d625145f1b8446df105c2a658~mv2.png/v1/fill/w_624,h_726,al_c,q_90/39842b_c35cac3d625145f1b8446df105c2a658~mv2.webp)
-3.  První soupeři položí karty na stůl na straně podlahy a hrají pouze jednou proti sobě.
-4.  Po výhře nebo prohře zapište výsledek na kartu.
-5.  Seřaďte se do jiné řady a opakujte hru až do vypršení časového limitu.
-6.  Po skončení všech her odevzdejte kartu zodpovědné osobě.
-7.  Po uplynutí lhůty zodpovědná osoba sečte body a oznámí nejlepší hráče.
+Tento formát je užitečný, když se účastníci mohou připojit během akce, když je k dispozici více hracích ploch nebo když chce vedoucí hry, aby každý měl mnoho pokusů, místo aby byl brzy vyřazen.
 
-\[Jak číst kartu\]
+Připravte bodovací karty s několika bloky a dostatkem míst pro 10–30 zápasů na hráče. Pokud je to možné, zřiďte více hracích ploch pro Beigoma. S přibližně 20 hráči je funkční nastavení tři hrací plochy a jedna hodina.
 
--   Je rozdělena do tří bloků: A, B a C.
--   Napsané číslo je počet odehraných her.
--   Do počtu her zapište jeden z výsledků utkání: ◎, ◯, △ a X.
--   Soutěžte o celkový počet bodů každého bloku.
-    %% ![](https://static.wixstatic.com/media/39842b_eb8b00f3b30f45d3a4589f66327d0aed~mv2.jpg/v1/fit/w_300,h_300,al_c,q_5/file.jpg) %%
-    ![](https://static.wixstatic.com/media/39842b_eb8b00f3b30f45d3a4589f66327d0aed~mv2.jpg/v1/fill/w_616,h_740,al_c,q_90,usm_0.66_1.00_0.01/39842b_eb8b00f3b30f45d3a4589f66327d0aed~mv2.webp)
+Každý účastník obdrží kartu a napíše na ni své jméno. Dva hráči položí své karty poblíž hrací plochy a odehrají individuální kolo. Výsledek se zaznamená na kartu. Hráči se poté přesunou do jiného řádku nebo na jinou hrací plochu a opakují proces, dokud nevyprší čas.
 
-\[Bodovací tabulka\]
+Na konci všechny karty předají vedoucímu hry. Vedoucí hry sečte body za každý blok a oznámí výsledky.
 
--   Výhra (Riki / Hra) ... ◯ (2 body)
--   Remíza (Packan) ... △ (1 bod)
--   Vyřazení soupeře z podlahy ... △ (1 bod)
--   Prohra ... X (0 bodů)
--   Výhra nad mistrem Beigoma ... ◎ (3 body) \* Pokud se mistři Beigoma vzájemně porazí, výsledek je ◯ (2 body).
+## **Bodování**:
 
-![](https://static.wixstatic.com/media/39842b_d1ed6f9abb794fa68cd6ab75e2cc1e36~mv2.png/v1/fit/w_300,h_300,al_c,q_5/file.png)![](https://static.wixstatic.com/media/39842b_d1ed6f9abb794fa68cd6ab75e2cc1e36~mv2.png/v1/fill/w_925,h_547,al_c,q_90,usm_0.66_1.00_0.01/39842b_d1ed6f9abb794fa68cd6ab75e2cc1e36~mv2.webp)
+Tokyo Beigoma používá na kartě symboly. Funkční bodovací systém je:
 
-\[Odhadovaný časový limit\]
+- Výhra pomocí Riki nebo Hajiki: 2 body
+- Remíza nebo Pakkan: 1 bod
+- Prohra: 0 bodů
+- Výhra proti určenému mistrovi Beigoma: 3 body
 
-Pro cca 20 účastníků a 3 patra stačí 1 hodina.
+Upravte bodové hodnoty, pokud vaše místní pravidla používají jiný systém.
 
-Můžete odehrát 30 her, i když si uděláte přestávku.
+## **Varianty**:
 
-%% ![](https://static.wixstatic.com/media/39842b_92846025f5564118abe2c1e777b76149~mv2.jpg/v1/fit/w_300,h_300,al_c,q_5/file.jpg) %%
+Použijte jeden blok pro začátečnické zápasy, jeden pro smíšené zápasy a jeden pro volné výzvy.
 
-![](https://static.wixstatic.com/media/39842b_92846025f5564118abe2c1e777b76149~mv2.jpg/v1/fill/w_564,h_752,al_c,q_90,usm_0.66_1.00_0.01/39842b_92846025f5564118abe2c1e777b76149~mv2.webp)
+Pokud se hráči připojí později, dejte jim kratší minimální cíl místo požadavku na vyplnění celé karty.
 
----
+## **Poznámky**:
+
+Tento formát je administrativně náročnější než rychlý formát. Vyžaduje připravené karty a někoho, kdo dokáže vysvětlit, jak zaznamenávat výsledky.
+
+## **Zdroj**:
+
+Založeno na formátu Blokové hry z Tokyo Beigoma.

@@ -6,68 +6,61 @@ tags:
   - spiele
   - beigoma
 created: 2025-01-24 03:50:50
-update: 2026-06-07 00:03:13
+update: 2026-06-11 17:27:26
 title: Speed
-description: 
+description:
 authors:
   - Marc Bielert
-translation_status: machine-translated
-translation_source_lang: de
+translation_status: original
+translation_source_lang: en
 translation_source: docs/de/Beigoma-Spiel-Speed.md
-translation_source_hash: 080f1de9ea2ce38073fc7e0b68b8cbf59fd7b264e050b187f23ea80d087c6f9b
+translation_source_body_hash: dfa001b0383473b13b0632df1c2ff85b280c83d3e0f79c3c96c16a39b6f46291
+translation_source_hash: dfa001b0383473b13b0632df1c2ff85b280c83d3e0f79c3c96c16a39b6f46291
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T22:23:51+00:00
-translation_source_body_hash: 080f1de9ea2ce38073fc7e0b68b8cbf59fd7b264e050b187f23ea80d087c6f9b
+translation_updated: 2026-06-11T14:58:25+00:00
 translation_source_metadata_hash: e965e919695442f59ce8705a71eb65d4c9b19fcccd39c0ff0b013ff42b8b79d8
 translation_metadata_model: google/gemini-2.5-flash-lite
-translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:02:45+00:00
+translation_metadata_status: original
+translation_metadata_updated: 2026-06-11T14:58:25+00:00
 ---
-Introduction to the Game "Speed"
-Game Description
 
-This game can be played with many people. (It's also possible with a small number of players.)
+> [!info] Quick Description
+> A Beigoma Speed variant where players complete a set number of quick four-player rounds on score cards.
 
-You can adjust the number of rounds based on the number of participants and the playtime.
+**Group Size**: 4-40 people
+**Difficulty**: Easy
+**Materials**: Beigoma, strings, playing surfaces, score cards
+**Duration**: 10-45 minutes
 
-The number of rounds can be adjusted depending on the number of participants and the playtime. 10 rounds for a short game, 30 rounds for a long game.
+## **Game Description**:
 
-Since the game is played with four players simultaneously, it has a large element of luck.
+This note retains the older Speed Card variant as its own game note. It is closely related to [Beigoma Speed](Spiel%20Geschwindigkeit.md): both formats use quick four-player rounds, standard Beigoma, and score cards.
 
-Therefore, it can be played by beginners and advanced players alike.
+To begin, each player receives a card and writes their name on it. The game leader determines how many rounds will count towards the game. A short session might involve 10 rounds; a longer session could last up to 30 rounds.
 
-The game is called "Speed" because many rounds are played in quick succession. In some regions, the game is named after the number of rounds, such as "00 times."
+Four players gather at a playing surface and play exactly one round. The result is recorded on the players' cards. After this round, players move to a different surface or form a new group. The game ends for each player once their card contains the agreed-upon number of scored rounds.
 
-Rules
+When the cards are full, the game leader tallies the scores and announces the highest score.
 
-4 players compete simultaneously.
+## **Rules**:
 
-It's a game of skill.
+- Four players compete simultaneously.
+- Standard, unmodified Beigoma are used.
+- Each group plays one round before switching groups.
+- Repeated play on the same surface should be avoided if other surfaces are available.
 
-Use a standard deck of cards.
+## **Scoring**:
 
-Game Scoring
+- Win: 3 points
+- Draw: 1 point
+- Loss: 0 points
 
-Win: 3 points
+The point distribution can be altered by local rules.
 
-Draw: 1 point
+## **Notes**:
 
-Loss: 0 points
+This page overlaps with [Beigoma Speed](Spiel%20Geschwindigkeit.md). It should be reviewed later to decide if both notes are needed, but it currently remains a valid game note for translation and metadata consistency.
 
-The point distribution may vary by region.
+## **Source**:
 
-Game Flow
-
-Each player receives a card and writes their name on it.
-
-Four people gather on the floor nearby and play one round of the game.
-
-The winner of the round receives a card from each participant and records all participants' scores on their card (if there's a referee, the referee records the scores on the card).
-
-Move to a different floor and play again when 4 players gather (it's a foul to keep playing on the same floor).
-
-Play the number of rounds indicated on the card.
-
-The game ends for the person whose card is filled with scores.
-
-The person in charge tallies the results and announces the high scorer.
+Based on the Speed Game format from Tokyo Beigoma.

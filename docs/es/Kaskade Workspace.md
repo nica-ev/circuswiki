@@ -2,38 +2,38 @@
 lang: es
 translation_id: kaskade-workspace
 created: 2025-01-21 18:09:55
-update: 2026-06-08 21:15:16
-publish: draft
+update: 2026-06-12 19:11:41
+publish: true
 tags:
   - moc
   - dynamic
-title: Transcripciones de la Revista Cascada
+title: Transcripciones de la Revista Kaskade
 description: 
 authors:
   - Marc Bielert
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Kaskade Workspace.md
-translation_source_hash: 868e2ee0cbe7e65730873331919360e6050c09b83fcbdde4327359519389b85d
+translation_source_hash: 29a1552cf493836b4b474a5912aebdb63538c48b359b37de5a4b8b2e5b94d53f
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-08T20:12:21+00:00
-translation_source_body_hash: 868e2ee0cbe7e65730873331919360e6050c09b83fcbdde4327359519389b85d
+translation_updated: 2026-06-12T17:33:29+00:00
+translation_source_body_hash: 29a1552cf493836b4b474a5912aebdb63538c48b359b37de5a4b8b2e5b94d53f
 translation_source_metadata_hash: e7f4ba685ffe753f20b46abef2ca8139d54bb761a72234a6398c888d59b39b90
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:52:58+00:00
+translation_metadata_updated: 2026-06-12T17:33:29+00:00
 ---
 >[!info]- Introducción
 >Crecí con Kaskade. Antes de que existiera YouTube, antes de que pudiéramos encontrar todo en Internet, esta revista fue una de las primeras fuentes regulares de información que tuve sobre malabares, circo y espectáculos.
->Cuando la revista dejó de publicarse en 2013, sentí que era el fin de una era, al menos para mí.
->Durante varios años, las revistas estuvieron disponibles para descargar en formato PDF; desde aproximadamente 2017, la página se desconectó.
->A menudo recordaba pequeños talleres, tutoriales o artículos que me inspiraron en aquel entonces. Cuando años después quise releer algo, ya no había forma de hacerlo.
+>Cuando la revista cesó su publicación en 2013, sentí que era el fin de una era, al menos para mí.
+>Durante varios años, las revistas estuvieron disponibles para descargar en formato PDF; desde aproximadamente 2017, la página dejó de estar en línea.
+>A menudo recordaba pequeños talleres, tutoriales o artículos que me inspiraron en aquel entonces. Ahora, años después, cuando quise releer algo, ya no había forma de hacerlo.
 >
->Afortunadamente, con la ayuda de la Wayback Machine (The Internet Archive), encontré un punto de control de 2017 con las descargas completas (esto no siempre es así, especialmente porque eran unos 3 GB de PDFs), completo con ediciones en alemán, inglés y francés.
+>Afortunadamente, con la ayuda de la Wayback Machine (The Internet Archive), encontré un punto de control de 2017 con las descargas completas (esto no siempre es así, especialmente porque eran aproximadamente 3 GB de PDFs), completas con las ediciones en alemán, inglés y francés.
 >
->Al revisarlas, me di cuenta de que, si bien había muchos artículos y tutoriales geniales escondidos en las revistas, en la actualidad, es poco probable que alguien revise 112 revistas que son meras fotocopias. Bueno, a menos que tengas un interés nostálgico =P
+>Al revisarlas, me di cuenta de que, si bien había muchos artículos y tutoriales geniales escondidos en las revistas, en la época actual, es poco probable que alguien revise 112 revistas que son meras fotocopias. Bueno, a menos que tengas un interés nostálgico =P
 >
->Sin embargo, dado que es una pena perder ese conocimiento, quise intentar digitalizarlo utilizando la tecnología actual para que siga siendo útil hoy en día.
+>Sin embargo, como es una pena perder ese conocimiento, quise intentar digitalizarlo utilizando la tecnología actual para que siga siendo útil hoy en día.
 
 >[!info]- ¿Cómo se transcribieron las revistas?
 >Primero, eliminé de los PDF todas las páginas que no contenían textos relevantes.
@@ -91,12 +91,12 @@ columns: file, authors, type, sub-type, source
 
 | file                                                                                   | authors                  | type     | sub-type | source      |
 | -------------------------------------------------------------------------------------- | ------------------------ | -------- | -------- | ----------- |
-| [Taller de Cascada - La página de pilares](<Die%20S%C3%A4ulen-Seite.md>)                                       | Dr. P. Luftiko           | Tutorial | Bälle    | Kaskade 001 |
-| [Una nueva revista para Europa](<Eine%20neue%20Zeitschrift%20f%C3%BCr%20Europa.md>) | Gabi Keaton, Paul Keaton | Artikel  | -        | Kaskade 001 |
-| [La sonrisa vence a la gravedad](<L%C3%A4cheln%20%C3%BCberwindet%20Schwerkraft.md>)    | Toby Philpott            | Artikel  | -        | Kaskade 001 |
-| [Taller de Cascadas - ¡Hacer trampa!](<Schummeln%21.md>)                                                        | Dr. P. Luftiko           | Tutorial | Bälle    | Kaskade 001 |
-| [Gravedad - ¿y qué!](<Schwerkraft%20-%20na%20und%21.md>)                            | Christoph Schmitt        | Artikel  | -        | Kaskade 001 |
-| [¡Se busca circo!](<Zirkus%20gesucht%21.md>)                                            | Kattrin & Uli            | Artikel  | -        | Kaskade 001 |
+| [Taller de Cascada - La página de pilares](<Die%20S%C3%A4ulen-Seite.md>)                                | Dr. P. Luftiko           | Tutorial | Pelotas  | Kaskade 001 |
+| [Una nueva revista para Europa](<Eine%20neue%20Zeitschrift%20f%C3%BCr%20Europa.md>) | Gabi Keaton, Paul Keaton | Artículo | -        | Kaskade 001 |
+| [La sonrisa vence a la gravedad](<L%C3%A4cheln%20%C3%BCberwindet%20Schwerkraft.md>)    | Toby Philpott            | Artículo | -        | Kaskade 001 |
+| [Taller de Cascadas - ¡Hacer trampa!](<Schummeln%21.md>)                                                        | Dr. P. Luftiko           | Tutorial | Pelotas  | Kaskade 001 |
+| [Gravedad - ¿y qué!](<Schwerkraft%20-%20na%20und%21.md>)                            | Christoph Schmitt        | Artículo | -        | Kaskade 001 |
+| [¡Se busca circo!](<Zirkus%20gesucht%21.md>)                                            | Kattrin & Uli            | Artículo | -        | Kaskade 001 |
 
 <!-- dynamic:end -->
 
@@ -111,10 +111,10 @@ columns: file, authors, type, sub-type, source
 >En el PDF original en alemán, aquí se encuentra la edición 004.
 >
 >Kaskade 004:
->Aquí falta la portada, aún no he podido averiguar a qué pertenece...
+>Falta la portada; aún no he podido averiguar a qué pertenece...
 >Parece una copia de la edición 009, sin portada.
 >
->Solución:
->He dividido el PDF de Kaskade 002 (original) en 002 y 003.
+>Corrección:
+>Dividí el PDF de Kaskade 002 (original) en 002 y 003.
 >Renombré Kaskade 003 (original) a Kaskade 004.
 >Y eliminé Kaskade 004 (original).

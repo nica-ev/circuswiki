@@ -6,87 +6,170 @@ tags:
   - github
   - tutorial
 created: 2025-01-18 23:14:04
-update: 2025-01-23 05:45:14
-title: Github - Introduzione
+update: 2026-06-12 18:26:00
+title: Collaborare direttamente nel repository GitHub
 authors:
   - Marc Bielert
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/github-for-users.md
-translation_source_hash: dfe00929e923816850c33f360f842f0e9286da94f4c365ba04458e5a82b2a709
+translation_source_hash: 8125fe4a8331e806a2b0d103dd38dbfda6e82793ffa37265095b73ad0217bdf2
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T23:01:37+00:00
-translation_source_body_hash: dfe00929e923816850c33f360f842f0e9286da94f4c365ba04458e5a82b2a709
-translation_source_metadata_hash: 78994f99738d76f1df766c8842cbf9662fdb1353ef706cd6b4bf4a05effff0ae
+translation_updated: 2026-06-12T17:31:17+00:00
+translation_source_body_hash: 8125fe4a8331e806a2b0d103dd38dbfda6e82793ffa37265095b73ad0217bdf2
+translation_source_metadata_hash: ac5f43c5c49905b729ab3c3f288e96be0cf997b5a5f1e94ca4f7eb6a77c1686f
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:48:33+00:00
+translation_metadata_updated: 2026-06-12T17:31:17+00:00
 ---
-# Collabora alla documentazione: ecco come fare in modo semplice!
+> [!info] In sintesi
+> Questa pagina è pensata per chi desidera lavorare direttamente sui file Markdown di CircusWiki. Per contributi normali non è necessario questo percorso: puoi anche semplicemente inviare materiale via e-mail.
 
-Ciao a tutti! Siamo felici che vogliate contribuire alla nostra documentazione. 😊 Ecco una guida semplice su come potete farlo:
+La collaborazione diretta tramite GitHub è utile se desideri correggere regolarmente pagine, creare nuovi file Markdown o lavorare con il vault di CircusWiki in un editor come Obsidian.
+
+Se desideri contribuire solo con un gioco, un metodo, un PDF, un link o una correzione, il percorso più semplice è spesso quello migliore:
+
+[Torna a Contribuisci](mitmachen.md){ .md-button }
 
 ## Cosa ti serve
 
-1.  **Account GitHub:**
-    *   Crea un account GitHub gratuito se non ne hai già uno: [https://github.com/join](https://github.com/join)
-    *   Ci serve per far funzionare tutto.
+- Un account GitHub gratuito: [https://github.com/join](https://github.com/join)
+- Opzionale GitHub Desktop: [https://desktop.github.com/](https://desktop.github.com/)
+- Un editor di testo per file Markdown, ad esempio Obsidian, VS Code o un editor semplice
 
-2.  **GitHub Desktop:**
-    *   Scarica e installa GitHub Desktop: [https://desktop.github.com/](https://desktop.github.com/)
-    *   Questo programma semplifica il lavoro con Git, anche se non hai molta familiarità.
+GitHub Desktop non è obbligatorio, ma per molte persone è più semplice della riga di comando.
 
-## Iniziamo!
+## Trovare il repository
 
-1.  **Copia il repository:**
-    *   Vai alla sezione della nostra documentazione su GitHub (es. `nica-ev/docs`) e clicca sul pulsante "Fork".
-    *   Questo creerà una tua copia della sezione, dove potrai lavorare senza rischiare di rovinare nulla. 😉
+Il repository pubblico si trova qui:
 
-2.  **Scarica il repository sul tuo computer:**
-    *   Apri GitHub Desktop.
-    *   Clicca su "File" -> "Clona repository...".
-    *   Seleziona la tua copia della sezione dall'elenco su GitHub.
-    *   Scegli una cartella sul tuo computer dove vuoi salvare la sezione.
-    *   Clicca su "Clona".
-    *   Ora hai una copia della sezione sul tuo computer.
+[https://github.com/nica-ev/circuswiki](https://github.com/nica-ev/circuswiki)
 
-3.  **(Opzionale) Crea un nuovo branch di lavoro:**
-    *   In GitHub Desktop, clicca sul pulsante "Branch corrente" (di solito in alto a sinistra).
-    *   Inserisci un nuovo nome per il tuo branch di lavoro (es. `nuova-pagina`, `correggi-errore`).
-    *   Clicca su "Crea branch".
-    *   I branch di lavoro aiutano a separare le tue modifiche. Se qualcosa va storto, puoi semplicemente eliminare il branch.
-    *   **Nota:** Creare un nuovo branch di lavoro è opzionale, ma è una buona idea per organizzare le tue modifiche.
+Qui si trovano i file Markdown effettivi, le immagini, le traduzioni e gli strumenti da cui viene costruito il sito web.
 
-4.  **Apporta le modifiche:**
-    *   Usa il tuo editor di testo (es. Notepad, VS Code) per modificare i file nella sezione sul tuo computer.
-    *   Qui puoi aggiungere testi, correggere errori e così via.
-    *   **Importante:** Usa Markdown per la formattazione (vedi sotto).
+## Come funziona in breve
 
-5.  **Salva le modifiche:**
-    *   In GitHub Desktop, nella scheda "Modifiche", vedrai i tuoi file modificati.
-    *   Scrivi un breve riassunto nel campo "Riassunto".
-    *   Clicca su "Commit a `<nome-branch>`" (o "Commit a main", se non hai usato un branch di lavoro).
-    *   Salvare è come creare un punto intermedio del tuo lavoro.
+Il flusso tipico è:
 
-6.  **Carica le modifiche:**
-    *   In GitHub Desktop, clicca su "Push origin".
-    *   Questo caricherà le tue modifiche nella tua copia del repository su GitHub.
+1. Effettuare un fork del repository su GitHub.
+2. Clonare la propria copia sul computer locale.
+3. Apportare modifiche in un nuovo branch.
+4. Modificare i file o creare nuovi file Markdown.
+5. Effettuare il commit delle modifiche.
+6. Caricare il branch su GitHub.
+7. Aprire una Pull Request, in modo che la modifica possa essere revisionata e integrata.
 
-7.  **Invia le modifiche per la revisione:**
-    *   In GitHub Desktop, clicca su "Crea Pull Request". Si aprirà una pagina su GitHub.
-    *   Verifica lì le tue modifiche e clicca su "Crea Pull Request".
-    *   Un Pull Request è come una richiesta per integrare le tue modifiche nel repository principale.
+## Passo dopo passo con GitHub Desktop
 
-## Informazioni importanti
+### 1. Effettuare il fork del repository
 
-*   **Markdown:** È come un linguaggio semplice per i testi. Ecco una breve panoramica:
-    *   `# Titolo 1`
-    *   `## Titolo 2`
-    *   `**Grassetto**`
-    *   `*Corsivo*`
-    *   `- Elenco`
-    *   `[Link](https://www.example.com)`
-*   **Messaggi di salvataggio:** Scrivi messaggi brevi per i tuoi salvataggi, in modo che tutti sappiano cosa hai fatto.
-*   **Pazienza:** All'inizio potrebbe servire un po' di pratica. Chiedi pure se qualcosa non è chiaro!
+Apri il repository di CircusWiki su GitHub:
 
-Grazie per il tuo aiuto! 🙌
+[https://github.com/nica-ev/circuswiki](https://github.com/nica-ev/circuswiki)
+
+Fai clic su `Fork`. Questo creerà una copia personale del repository nel tuo account GitHub. In questa copia puoi lavorare senza modificare direttamente il progetto principale.
+
+### 2. Clonare il repository
+
+Apri GitHub Desktop e seleziona:
+
+```text
+File -> Clone repository...
+```
+
+Scegli il tuo fork di `nica-ev/circuswiki` e specifica una cartella sul tuo computer.
+
+Successivamente, avrai una copia locale dei file.
+
+### 3. Creare un branch
+
+È meglio creare un branch separato per la tua modifica, ad esempio:
+
+```text
+aggiungere-descrizione-gioco
+correggere-link
+nuovo-metodo-equilibrio
+```
+
+Un branch mantiene il tuo lavoro separato dallo stato principale. Questo semplifica la revisione successiva.
+
+### 4. Modificare i file
+
+I contenuti pubblici si trovano principalmente nelle cartelle delle lingue sotto `docs/`:
+
+```text
+docs/de/
+docs/en/
+docs/es/
+docs/pl/
+...
+docs/img/
+```
+
+Tutte le lingue sono equivalenti. Non esiste una lingua principale in cui i nuovi contenuti debbano essere creati di default.
+
+Se crei una nuova pagina originale, inseriscila nella cartella della lingua in cui è scritto il testo. Un testo originale in spagnolo, ad esempio, va in `docs/es/`, uno tedesco in `docs/de/`, uno inglese in `docs/en/`.
+
+È importante il frontmatter all'inizio del file. Lì deve essere riconoscibile che la pagina è un originale, ad esempio:
+
+```yaml
+translation_status: original
+translation_source_lang: es
+```
+
+`translation_source_lang` corrisponde alla lingua del testo originale. Da questo originale, le traduzioni in tutte le lingue supportate possono essere generate automaticamente in seguito.
+
+Presta attenzione a quanto segue durante la modifica:
+
+- Non eliminare il frontmatter all'inizio del file.
+- Per le nuove pagine originali, imposta `translation_status: original` e la `translation_source_lang` appropriata.
+- Conserva i link esistenti quando possibile.
+- Non pubblicare dati privati, chiavi API o note interne.
+- Utilizza immagini solo se i diritti di utilizzo sono chiari.
+- Preferisci apportare modifiche piccole e chiare piuttosto che modifiche miste molto grandi.
+
+### 5. Effettuare il commit delle modifiche
+
+In GitHub Desktop, vedrai i tuoi file modificati nell'area `Changes`.
+
+Scrivi un breve riassunto, ad esempio:
+
+```text
+Correggi lista materiali nel gioco di movimento
+Aggiungi avviso di sicurezza per Beigoma
+Aggiungi nuova descrizione del gioco
+```
+
+Quindi fai clic su `Commit to <branch-name>`.
+
+### 6. Caricare le modifiche
+
+Fai clic su `Push origin` per caricare il tuo branch su GitHub.
+
+### 7. Aprire una Pull Request
+
+GitHub Desktop o GitHub nel browser offriranno quindi la possibilità di creare una Pull Request.
+
+Una Pull Request significa: proponi la tua modifica al repository principale. La modifica verrà revisionata, eventualmente commentata e poi integrata o ulteriormente elaborata.
+
+## Fondamenti di Markdown
+
+Markdown è un formato di testo semplice. I caratteri più importanti sono sufficienti per la maggior parte dei contributi:
+
+```markdown
+# Titolo principale
+## Titolo di sezione
+
+Testo normale con **enfasi in grassetto** e *enfasi in corsivo*.
+
+- Punto elenco
+- Un altro punto elenco
+
+[Testo del link](https://www.example.com)
+```
+
+## Se qualcosa non è chiaro
+
+Non è necessario essere subito perfetti nella collaborazione diretta tramite GitHub. Se apri una Pull Request e qualcosa non è ancora corretto, può essere chiarito nella revisione.
+
+Se desideri contribuire solo con contenuti e il percorso tecnico ti sembra troppo complicato, utilizza semplicemente l'e-mail sulla [pagina Contribuisci](mitmachen.md).

@@ -6,65 +6,63 @@ tags:
   - spiele
   - beigoma
 created: 2025-01-24 03:50:50
-update: 2025-01-24 05:13:12
+update: 2026-06-11 17:30:44
 title: Výzva majstrovi
 description: 
 authors:
   - Marc Bielert
 translation_status: machine-translated
-translation_source_lang: de
-translation_source: docs/de/Fordere den Meister heraus.md
-translation_source_hash: 6577b8613df3bfc3f3cba8792f8c1e8da1f5dbc57ca800db31f6a1871ba3baab
+translation_source_lang: en
+translation_source: docs/en/Fordere den Meister heraus.md
+translation_source_hash: cd5a870f0442740dcb4998a03c9d43d5ad0f673907aa2ab4503d0e8ff0254d24
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T18:41:45+00:00
-translation_source_body_hash: 6577b8613df3bfc3f3cba8792f8c1e8da1f5dbc57ca800db31f6a1871ba3baab
-translation_source_metadata_hash: b3cbf5b7a9ad1b31774c1a4f1aa03313ff218e300486c3d7f7ff3f512d89f6ec
+translation_updated: 2026-06-11T15:38:57+00:00
+translation_source_body_hash: cd5a870f0442740dcb4998a03c9d43d5ad0f673907aa2ab4503d0e8ff0254d24
+translation_source_metadata_hash: 3578f2ca527be747c59703b6983afac3d51bacacd5bc27b1320f2726ec0db8c1
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:47:21+00:00
+translation_metadata_updated: 2026-06-11T15:38:57+00:00
 ---
-# Predstavenie hry "Výzva pre majstra"
+> [!info] Stručný popis
+> Formát výzvy Beigoma, kde hráči získavajú body porážaním skúsených majstrov v opakovaných pokusoch.
 
-Beigoma (tradičná japonská káča) ponúka množstvo zábavných hier.
+**Veľkosť skupiny**: 4 – 40 osôb
+**Obtiažnosť**: Jednoduchá
+**Materiály**: Beigoma, šnúrky, hracie plochy, bodovacie karty, voliteľné ceny (beigoma)
+**Trvanie**: 15 – 60 minút
 
-Postupne vám predstavím hry, ktorých sa doteraz zúčastnil manažér.
+## **Opis hry**:
 
-Tentoraz je to hra "Výzva pre majstra".
+„Challenge the Master“ (Výzva majstrovi) je otvorený formát výzvy. Niekoľko skúsených hráčov pôsobí ako majstri Beigoma. Ostatní účastníci ich vyzývajú jeden po druhom a zbierajú body, keď vyhrajú.
 
-【Pravidlá】
+Tento formát je vhodný pre verejné podujatia, pretože hráči sa môžu zapojiť v rôznych časoch, vrátiť sa na ďalšie pokusy a pracovať na dosiahnutí viditeľného cieľa.
 
-Toto je veľmi obľúbená hra.
+Vyberte viacerých majstrov. Ideálne by mali byť skúsení hráči alebo jednotlivci, ktorí vyhrali predchádzajúce kolá Beigoma. Pripravte bodovacie karty pre účastníkov.
 
-\[Priebeh hry\]
+Ak sa používajú ceny, vopred stanovte bodový prah. Tokyo Beigoma opisuje formát, kde 20 nazbieraných bodov je možné vymeniť za štandardnú Beigoma.
 
-1. Vyberte niekoľko majstrov v hre Beigoma (Majster v hre Beigoma: Ideálni sú víťazi turnajov).
+Účastníci vyzývajú jedného majstra naraz. Ak účastník vyhrá, body sa zaznamenajú na jeho kartu. Hráči môžu zbierať body počas viacerých pokusov alebo stretnutí. Keď hráč dosiahne dohodnutý prah, dostane dohodnutú odmenu.
 
-2. Účastníci postupne vyzývajú majstra.
+## **Bodovanie**:
 
-3. Ak účastník vyhrá, získa body na bodovacej karte.
+Možný model bodovania:
 
-4. Nazbierajte body a získajte Beigoma!
+*   Výhra pomocou Hajiki (odhodenie): 2 body
+*   Výhra pomocou Riki (sila): 1 bod
+*   Remíza alebo prehra: 0 bodov
 
-5. Aj keď v daný deň nezískate žiadne body, môžete v zbieraní pokračovať aj nabudúce, takže si hru môžu užiť aj tí, ktorí sa zapoja v strede.
+Bodovanie upravte podľa podujatia a úrovne zručností.
 
-![](https://static.wixstatic.com/media/b342b0_533ad1b9ba354ca5ac0e0df8867d63ea~mv2.jpg/v1/fill/w_734,h_489,al_c,q_90,usm_0.66_1.00_0.01/b342b0_533ad1b9ba354ca5ac0e0df8867d63ea~mv2.webp)
+## **Varianty**:
 
-Účastníci vpravo postupne vyzývajú majstra vľavo na fotografii.
+Použite jednoduchších majstrov pre deti alebo hráčov, ktorí hrajú prvýkrát, a zložitejších majstrov pre pokročilých hráčov.
 
-Je to hra, ktorá vás môže baviť nepretržite, pretože môžete súťažiť o body medzi rodičmi, deťmi a priateľmi.
+Umožnite začiatočnícky bonus, napríklad jeden bod za čisté pristátie a stabilné točenie proti majstrovi.
 
-【Body】
+## **Poznámky**:
 
-Existujú rôzne spôsoby prideľovania bodov, ale v Ota Bunkanomori, kde sa koná podujatie manažéra, postupujeme nasledovne:
+Tento formát závisí od postoja majstrov. Mali by vytvárať výzvu a vzrušenie bez toho, aby sa začiatočníci cítili vylúčení.
 
-- Hra a výhra: 2 body
+## **Zdroj**:
 
-- Dlhá rotácia a výhra (víťazstvo Rikiho): 1 bod
-
-- Remíza, prehra: 0 bodov
-
-- Po nazbieraní 20 bodov získate bežnú káču Beigoma ako darček.
-
-![](https://static.wixstatic.com/media/b342b0_ed18bbf6098f4db5886340a0afb48855~mv2.png/v1/fill/w_578,h_349,al_c,q_90,usm_0.66_1.00_0.01/b342b0_ed18bbf6098f4db5886340a0afb48855~mv2.webp)
-
-Bodovacia karta (na zadnú stranu napíšte svoje meno)
+Na základe formátu „Challenge the Master“ z Tokyo Beigoma.

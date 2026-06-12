@@ -6,51 +6,54 @@ tags:
   - spiele
   - beigoma
 created: 2025-01-24 03:50:51
-update: 2025-01-25 01:13:07
+update: 2026-06-12 19:27:33
 title: Tag Match Tournament
-description: 
+description:
 authors:
   - Marc Bielert
-translation_status: machine-translated
-translation_source_lang: de
+translation_status: original
+translation_source_lang: en
 translation_source: docs/de/Tag Match Tournament.md
-translation_source_hash: e2e2ab128c173b32494859fa57eda46515a3019e1ba76034ae902e8915f8a9f0
+translation_source_body_hash: e328bb23fb8e865ed486ce97edc04fa512014e3087d406cc7dd1f361e9906301
+translation_source_hash: e328bb23fb8e865ed486ce97edc04fa512014e3087d406cc7dd1f361e9906301
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T19:29:23+00:00
-translation_source_body_hash: e2e2ab128c173b32494859fa57eda46515a3019e1ba76034ae902e8915f8a9f0
+translation_updated: 2026-06-11T15:10:08+00:00
 translation_source_metadata_hash: cc74342fb1b2837db74e76b27779926cd9a7c8d15f110637205f06f57ac7fd3b
 translation_metadata_model: google/gemini-2.5-flash-lite
-translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T19:08:59+00:00
+translation_metadata_status: original
+translation_metadata_updated: 2026-06-11T15:10:08+00:00
 ---
-Introduction to the Game "Tag Match Tournament"
-This game is perfect for a group of participants with a wide range of experience levels. By pairing up with experienced players, beginners are less likely to be defeated. Especially since you'll be fighting together, you'll be much happier when you win!
 
-If there are many beginners, it's better to play with regular bagomas, as the element of luck increases and the game becomes more exciting.
+> [!info] Short Description
+> A team-based Beigoma tournament where pairs compete in four-player rounds, with the first team to reach two points advancing.
 
-How to Determine Teams
+**Group Size**: 4-40 people
+**Difficulty**: Medium
+**Materials**: Beigoma, strings, playing surfaces, tournament bracket, lottery or team cards
+**Duration**: 20-60 minutes
 
-Determine tag teams by drawing lots. If there are many beginners, it's better to play with a normal bagoma.
+## **Game Description**:
 
-Rules
+The Beigoma Team Tournament is designed for groups with significant skill disparities. Beginners are paired with more experienced players, making them less likely to be eliminated simply for missing the playing surface or losing a single duel.
 
-(If you have many experienced players, you can play with them.
-(If there are many experienced players, the game becomes relatively more exciting if played by playing alone.
+The shared team score makes victories more social and helps experienced players mentor beginners.
 
-Simultaneous Insertion of 4 Players
+Form pairs, preferably by lottery. If there are many beginners, adjust the draw so that two beginners don't play together too often. Enter the teams into a tournament bracket. Decide whether there will be a "loser revival" round.
 
-The team that has a player on the ground for a longer duration receives 1 point.
+Two teams compete simultaneously, meaning four players spin their tops onto the playing surface. If one team's top remains on the surface the longest, that team earns 1 point. If no tops remain on the surface, the round is a draw and is repeated. The first team to reach 2 points wins the match.
 
-If no one remains on the ground, it's a draw, and we start over.
+The winning teams advance to the next round. The losing teams are eliminated unless a "loser revival" rule is applied. The last remaining team wins the tournament.
 
-The first team to reach 2 points wins.
+## **Rules**:
 
-Game Flow
+- Before the tournament, decide whether Riki wins (spinning out the opponent's top) are allowed, or if only Hajiki wins (spinning your top out of the opponent's top) count.
+- Use normal Beigoma if many beginners are playing.
+- Use only Hajiki rules if many experienced players are participating and you want the game to be more dynamic.
 
-Each team draws lots and writes their name in the spot indicated on the tournament table.
+## **Notes**:
 
-In the first round, each team plays against each other sequentially.
+This is a good format if you want the event to feel cooperative rather than purely individual. It also gives experienced players a constructive role.
 
-If your team wins, you advance to the second round; if your team loses, you are out. (Depending on the game, there may be a loser's resurrection.)
+## **Source**:
 
-The last team standing as the winner is the champion!
+Based on the Tag Match Tournament format from Tokyo Beigoma.

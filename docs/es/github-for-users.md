@@ -6,87 +6,170 @@ tags:
   - github
   - tutorial
 created: 2025-01-18 23:14:04
-update: 2025-01-23 05:45:14
-title: Github - Introducción
+update: 2026-06-12 18:26:00
+title: GitHub - Colaborar directamente en el repositorio
 authors:
   - Marc Bielert
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/github-for-users.md
-translation_source_hash: dfe00929e923816850c33f360f842f0e9286da94f4c365ba04458e5a82b2a709
+translation_source_hash: 8125fe4a8331e806a2b0d103dd38dbfda6e82793ffa37265095b73ad0217bdf2
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T14:03:20+00:00
-translation_source_body_hash: dfe00929e923816850c33f360f842f0e9286da94f4c365ba04458e5a82b2a709
-translation_source_metadata_hash: 78994f99738d76f1df766c8842cbf9662fdb1353ef706cd6b4bf4a05effff0ae
+translation_updated: 2026-06-12T17:31:35+00:00
+translation_source_body_hash: 8125fe4a8331e806a2b0d103dd38dbfda6e82793ffa37265095b73ad0217bdf2
+translation_source_metadata_hash: ac5f43c5c49905b729ab3c3f288e96be0cf997b5a5f1e94ca4f7eb6a77c1686f
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:48:34+00:00
+translation_metadata_updated: 2026-06-12T17:31:35+00:00
 ---
-# ¡Participa en la documentación – ¡Así de fácil!
+> [!info] En resumen
+> Esta página está pensada para personas que desean trabajar directamente en los archivos Markdown de CircusWiki. Para contribuciones normales, no necesitas este método: también puedes enviar material simplemente por correo electrónico.
 
-¡Hola a todos! Nos alegra que queráis ayudar con nuestra documentación. 😊 Aquí tenéis una guía sencilla de cómo podéis hacerlo:
+La colaboración directa a través de GitHub es práctica si deseas corregir páginas con regularidad, crear nuevos archivos Markdown o trabajar con la bóveda de CircusWiki en un editor como Obsidian.
+
+Si solo deseas aportar un juego, un método, un PDF, un enlace o una corrección, el camino más sencillo suele ser mejor:
+
+[Volver a Colaborar](mitmachen.md){ .md-button }
 
 ## Lo que necesitas
 
-1.  **Cuenta de GitHub:**
-    *   Crea una cuenta gratuita de GitHub si aún no tienes una: [https://github.com/join](https://github.com/join)
-    *   La necesitamos para que todo funcione correctamente.
+- Una cuenta gratuita de GitHub: [https://github.com/join](https://github.com/join)
+- Opcionalmente, GitHub Desktop: [https://desktop.github.com/](https://desktop.github.com/)
+- Un editor de texto para archivos Markdown, por ejemplo, Obsidian, VS Code o un editor sencillo.
 
-2.  **GitHub Desktop:**
-    *   Descarga e instala GitHub Desktop: [https://desktop.github.com/](https://desktop.github.com/)
-    *   Este programa facilita el trabajo con Git, incluso si no tienes mucha experiencia.
+GitHub Desktop no es obligatorio, pero para muchas personas es más fácil que la línea de comandos.
 
-## ¡Manos a la obra!
+## Encontrar el repositorio
 
-1.  **Copiar el repositorio:**
-    *   Ve a nuestra sección de documentación en GitHub (por ejemplo, `nica-ev/docs`) y haz clic en el botón "Fork".
-    *   Esto crea tu propia copia de la sección donde puedes trabajar sin estropear nada. 😉
+El repositorio público se encuentra aquí:
 
-2.  **Traer el repositorio a tu ordenador:**
-    *   Abre GitHub Desktop.
-    *   Haz clic en "File" -> "Clone repository...".
-    *   Selecciona tu copia de la sección de la lista en GitHub.
-    *   Elige una carpeta en tu ordenador donde quieras guardar la sección.
-    *   Haz clic en "Clone".
-    *   Ahora tienes una copia de la sección en tu ordenador.
+[https://github.com/nica-ev/circuswiki](https://github.com/nica-ev/circuswiki)
 
-3.  **(Opcional) Crear un nuevo espacio de trabajo:**
-    *   En GitHub Desktop, haz clic en el botón "Current Branch" (normalmente arriba a la izquierda).
-    *   Introduce un nuevo nombre para tu espacio de trabajo (por ejemplo, `nueva-pagina`, `corregir-error`).
-    *   Haz clic en "Create branch".
-    *   Los espacios de trabajo ayudan a separar tus cambios. Si algo sale mal, puedes eliminar el espacio de trabajo fácilmente.
-    *   **Recuerda:** Crear un nuevo espacio de trabajo es opcional, pero es una buena idea para organizar tus cambios.
+Allí se encuentran los archivos Markdown reales, imágenes, traducciones y herramientas a partir de los cuales se construye la página web.
 
-4.  **Realizar cambios:**
-    *   Utiliza tu editor de texto (por ejemplo, Notepad, VS Code) para editar los archivos de la sección en tu ordenador.
-    *   Aquí puedes añadir textos, corregir errores, etc.
-    *   **Importante:** Utiliza Markdown para el formato (ver más abajo).
+## Flujo de trabajo en resumen
 
-5.  **Guardar cambios:**
-    *   En GitHub Desktop, verás tus archivos modificados en la pestaña "Changes".
-    *   Escribe un breve resumen en el campo "Summary".
-    *   Haz clic en "Commit to `<branch-name>`" (o "Commit to main" si no usaste un espacio de trabajo).
-    *   Guardar es como un punto de control de tu trabajo.
+El proceso típico es:
 
-6.  **Subir cambios:**
-    *   En GitHub Desktop, haz clic en "Push origin".
-    *   Esto subirá tus cambios a tu copia de la sección en GitHub.
+1. Hacer un "fork" del repositorio en GitHub.
+2. Clonar tu copia a tu propio ordenador.
+3. Realizar cambios en una nueva rama ("branch").
+4. Editar archivos o crear nuevos archivos Markdown.
+5. Confirmar ("commit") los cambios.
+6. Subir la rama a GitHub.
+7. Abrir una solicitud de extracción ("Pull Request") para que el cambio pueda ser revisado y aceptado.
 
-7.  **Enviar cambios para revisión:**
-    *   En GitHub Desktop, haz clic en "Create Pull Request". Esto abrirá una página en GitHub.
-    *   Revisa tus cambios allí y haz clic en "Create Pull Request".
-    *   Un Pull Request es como una solicitud para que tus cambios se incorporen a la sección principal.
+## Paso a paso con GitHub Desktop
 
-## Información importante
+### 1. Hacer un "fork" del repositorio
 
-*   **Markdown:** Es como un lenguaje sencillo para textos. Aquí tienes un resumen rápido:
-    *   `# Encabezado 1`
-    *   `## Encabezado 2`
-    *   `**Negrita**`
-    *   `*Cursiva*`
-    *   `- Lista`
-    *   `[Enlace](https://www.example.com)`
-*   **Mensajes al guardar:** Escribe mensajes cortos para tus guardados, para que todos sepan lo que has hecho.
-*   **Paciencia:** Al principio puede que necesites un poco de práctica. ¡Pregunta si algo no está claro!
+Abre el repositorio de CircusWiki en GitHub:
 
-¡Gracias por tu ayuda! 🙌
+[https://github.com/nica-ev/circuswiki](https://github.com/nica-ev/circuswiki)
+
+Haz clic en `Fork`. Esto crea una copia propia del repositorio en tu cuenta de GitHub. En esta copia puedes trabajar sin modificar directamente el proyecto principal.
+
+### 2. Clonar el repositorio
+
+Abre GitHub Desktop y selecciona:
+
+```text
+File -> Clone repository...
+```
+
+Selecciona tu "fork" de `nica-ev/circuswiki` y define una carpeta en tu ordenador.
+
+Después de esto, tendrás una copia local de los archivos.
+
+### 3. Crear una rama ("branch")
+
+Para tu cambio, es mejor crear tu propia rama, por ejemplo:
+
+```text
+añadir-descripcion-juego
+corregir-enlace
+nueva-metodo-equilibrio
+```
+
+Una rama mantiene tu trabajo separado del estado principal. Esto facilita la revisión posterior.
+
+### 4. Editar archivos
+
+Los contenidos públicos se encuentran principalmente en las carpetas de idiomas bajo `docs/`:
+
+```text
+docs/de/
+docs/en/
+docs/es/
+docs/pl/
+...
+docs/img/
+```
+
+Todos los idiomas son equivalentes. No hay un idioma principal en el que los nuevos contenidos deban crearse fundamentalmente.
+
+Si creas una nueva página original, colócala en la carpeta de idioma en cuyo idioma esté escrito el texto. Un texto original en español pertenece, por ejemplo, a `docs/es/`, uno en alemán a `docs/de/`, uno en inglés a `docs/en/`.
+
+El "frontmatter" al principio del archivo es importante. Allí debe ser reconocible que la página es un original, por ejemplo:
+
+```yaml
+translation_status: original
+translation_source_lang: es
+```
+
+`translation_source_lang` corresponde al idioma del texto original. A partir de este original, se pueden generar automáticamente traducciones a todos los idiomas admitidos más tarde.
+
+Al editar, presta atención a lo siguiente:
+
+- No borres el "frontmatter" al principio del archivo.
+- Para las nuevas páginas originales, establece `translation_status: original` y el `translation_source_lang` adecuado.
+- Conserva los enlaces existentes siempre que sea posible.
+- No publiques datos privados, claves de API o notas internas.
+- Utiliza imágenes solo si los derechos de uso están claros.
+- Es preferible hacer cambios pequeños y claros que cambios mixtos muy grandes.
+
+### 5. Confirmar ("commit") los cambios
+
+En GitHub Desktop, verás tus archivos modificados en el área `Changes`.
+
+Escribe un resumen breve, por ejemplo:
+
+```text
+Corregir lista de materiales en el juego de movimiento
+Añadir aviso de seguridad para Beigoma
+Agregar nueva descripción de juego
+```
+
+Luego, haz clic en `Commit to <branch-name>`.
+
+### 6. Subir los cambios
+
+Haz clic en `Push origin` para subir tu rama a GitHub.
+
+### 7. Abrir una solicitud de extracción ("Pull Request")
+
+GitHub Desktop o GitHub en el navegador ofrecerán entonces la opción de crear una solicitud de extracción.
+
+Una solicitud de extracción significa: Propones tu cambio para el repositorio principal. El cambio se revisa, se comentan si es necesario y luego se acepta o se sigue trabajando en él.
+
+## Fundamentos de Markdown
+
+Markdown es un formato de texto sencillo. Los caracteres más importantes son suficientes para la mayoría de las contribuciones:
+
+```markdown
+# Encabezado grande
+## Encabezado de sección
+
+Texto normal con **énfasis en negrita** y *énfasis en cursiva*.
+
+- Elemento de lista
+- Otro elemento de lista
+
+[Texto del enlace](https://www.example.com)
+```
+
+## Si algo no está claro
+
+No es necesario dominar la colaboración directa a través de GitHub de inmediato. Si abres una solicitud de extracción y algo aún no está correcto, se puede aclarar durante la revisión.
+
+Si solo deseas aportar contenido y el método técnico te parece demasiado complicado, simplemente utiliza el correo electrónico en la [página de Colaboración](mitmachen.md).

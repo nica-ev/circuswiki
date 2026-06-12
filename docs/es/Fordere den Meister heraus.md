@@ -6,65 +6,63 @@ tags:
   - spiele
   - beigoma
 created: 2025-01-24 03:50:50
-update: 2025-01-24 05:13:12
+update: 2026-06-11 17:30:44
 title: Desafía al Maestro
 description: 
 authors:
   - Marc Bielert
 translation_status: machine-translated
-translation_source_lang: de
-translation_source: docs/de/Fordere den Meister heraus.md
-translation_source_hash: 6577b8613df3bfc3f3cba8792f8c1e8da1f5dbc57ca800db31f6a1871ba3baab
+translation_source_lang: en
+translation_source: docs/en/Fordere den Meister heraus.md
+translation_source_hash: cd5a870f0442740dcb4998a03c9d43d5ad0f673907aa2ab4503d0e8ff0254d24
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T14:03:04+00:00
-translation_source_body_hash: 6577b8613df3bfc3f3cba8792f8c1e8da1f5dbc57ca800db31f6a1871ba3baab
-translation_source_metadata_hash: b3cbf5b7a9ad1b31774c1a4f1aa03313ff218e300486c3d7f7ff3f512d89f6ec
+translation_updated: 2026-06-11T15:38:45+00:00
+translation_source_body_hash: cd5a870f0442740dcb4998a03c9d43d5ad0f673907aa2ab4503d0e8ff0254d24
+translation_source_metadata_hash: 3578f2ca527be747c59703b6983afac3d51bacacd5bc27b1320f2726ec0db8c1
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:47:18+00:00
+translation_metadata_updated: 2026-06-11T15:38:45+00:00
 ---
-# Introducción al juego "Desafía al maestro"
+> [!info] Descripción Breve
+> Un formato de desafío de Beigoma donde los jugadores ganan puntos al derrotar a maestros experimentados en intentos repetidos.
 
-Beigoma tiene muchos juegos divertidos.
+**Tamaño del Grupo**: 4-40 personas
+**Dificultad**: Fácil
+**Materiales**: Beigoma, cuerdas, superficies de juego, tarjetas de puntos, peonzas de premio opcionales
+**Duración**: 15-60 minutos
 
-Presentaré gradualmente los juegos en los que ha participado el director.
+## **Descripción del Juego**:
 
-Esta vez, es "Desafía al maestro".
+"Desafía al Maestro" es un formato de desafío abierto. Varios jugadores experimentados actúan como maestros de Beigoma. Los demás participantes los desafían uno tras otro, acumulando puntos cuando ganan.
 
-【Reglas】
+Este formato es muy adecuado para eventos públicos, ya que los jugadores pueden unirse en diferentes momentos, regresar para más intentos y trabajar hacia un objetivo visible.
 
-Este es un juego muy popular.
+Selecciona varios maestros. Idealmente, estos deberían ser jugadores experimentados o personas que hayan ganado rondas previas de Beigoma. Prepara tarjetas de puntos para los participantes.
 
-\[Flujo del juego\]
+Si se van a usar premios, establece el umbral de puntos con antelación. Tokyo Beigoma describe un formato donde 20 puntos acumulados se pueden canjear por un Beigoma estándar.
 
-1. Selecciona varios maestros de Beigoma (Maestros de Beigoma: es deseable que hayan ganado el torneo).
+Los participantes desafían a un maestro a la vez. Si el participante gana, los puntos se registran en su tarjeta. Los jugadores pueden acumular puntos a lo largo de múltiples intentos o sesiones. Cuando un jugador alcanza el umbral acordado, recibe la recompensa acordada.
 
-2. Los participantes desafían al maestro uno por uno.
+## **Puntuación**:
 
-3. Si el participante gana, se acumulan puntos en la tarjeta de puntuación.
+Un posible modelo de puntuación:
 
-4. ¡Acumula puntos y obtén un Beigoma!
+- Victoria por Hajiki: 2 puntos
+- Victoria por Riki: 1 punto
+- Empate o derrota: 0 puntos
 
-5. Incluso si no puedes acumular puntos ese día, puedes seguir acumulando puntos la próxima vez, por lo que incluso aquellos que se unen a mitad de camino pueden disfrutarlo.
+Ajusta la puntuación según el evento y el nivel de habilidad.
 
-![](https://static.wixstatic.com/media/b342b0_533ad1b9ba354ca5ac0e0df8867d63ea~mv2.jpg/v1/fill/w_734,h_489,al_c,q_90,usm_0.66_1.00_0.01/b342b0_533ad1b9ba354ca5ac0e0df8867d63ea~mv2.webp)
+## **Variaciones**:
 
-Los participantes de la derecha desafían al maestro de la izquierda en la foto, uno tras otro.
+Utiliza maestros más sencillos para niños o jugadores primerizos, y maestros más difíciles para jugadores avanzados.
 
-Es un juego que se puede disfrutar de forma continua porque se puede competir por puntos entre padres, hijos y amigos.
+Permite una bonificación para principiantes, como un punto por un aterrizaje limpio y un giro estable contra un maestro.
 
-【Puntuación】
+## **Notas**:
 
-Hay varias formas de distribuir los puntos, pero en Ota Bunkanomori, que organiza el director, procedemos de la siguiente manera.
+Este formato depende de la actitud de los maestros. Deben crear desafío y emoción sin hacer que los principiantes se sientan excluidos.
 
-- Jugar y ganar: 2 puntos
+## **Fuente**:
 
-- Girar durante mucho tiempo y ganar (ganar Riki): 1 punto
-
-- Empate, perder: 0 puntos
-
-- Si acumulas 20 puntos, recibirás un regalo de Beigoma normal.
-
-![](https://static.wixstatic.com/media/b342b0_ed18bbf6098f4db5886340a0afb48855~mv2.png/v1/fill/w_578,h_349,al_c,q_90,usm_0.66_1.00_0.01/b342b0_ed18bbf6098f4db5886340a0afb48855~mv2.webp)
-
-Tarjeta de puntuación (escribe tu nombre en el reverso)
+Basado en el formato "Challenge the Master" de Tokyo Beigoma.

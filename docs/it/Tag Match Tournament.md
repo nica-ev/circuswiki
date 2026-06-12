@@ -6,47 +6,53 @@ tags:
   - spiele
   - beigoma
 created: 2025-01-24 03:50:51
-update: 2025-01-25 01:13:07
+update: 2026-06-11 17:31:23
 title: Torneo Tag Match
 description: 
 authors:
   - Marc Bielert
 translation_status: machine-translated
-translation_source_lang: de
-translation_source: docs/de/Tag Match Tournament.md
-translation_source_hash: e2e2ab128c173b32494859fa57eda46515a3019e1ba76034ae902e8915f8a9f0
+translation_source_lang: en
+translation_source: docs/en/Tag Match Tournament.md
+translation_source_hash: 84227a0a6c913d9fc704f0a6ef2c6450d6e763e15e562011c89231a93904501e
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T23:09:07+00:00
-translation_source_body_hash: e2e2ab128c173b32494859fa57eda46515a3019e1ba76034ae902e8915f8a9f0
+translation_updated: 2026-06-11T15:40:39+00:00
+translation_source_body_hash: 84227a0a6c913d9fc704f0a6ef2c6450d6e763e15e562011c89231a93904501e
 translation_source_metadata_hash: cc74342fb1b2837db74e76b27779926cd9a7c8d15f110637205f06f57ac7fd3b
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T19:09:01+00:00
+translation_metadata_updated: 2026-06-11T15:40:39+00:00
 ---
-Introduzione al gioco "Tag Match Tournament"
-Questo gioco è ideale per un gruppo di partecipanti con un ampio divario di esperienza. Accoppiandosi con giocatori esperti, è meno probabile che i principianti vengano sconfitti. Soprattutto, poiché si combatte insieme, sarete più felici quando vincerete!
+> [!info] Breve Descrizione
+> Un torneo di Beigoma a squadre in cui le coppie competono in round da quattro giocatori, con la prima squadra a raggiungere due punti che avanza.
 
-Se ci sono molti principianti, è meglio giocare con le normali Bagoma, poiché l'elemento fortuna è maggiore e il gioco diventa più emozionante.
+**Dimensioni del gruppo**: 4-40 persone
+**Difficoltà**: Media
+**Materiali**: Beigoma, corde, superfici di gioco, tabellone del torneo, carte per lotteria o squadre
+**Durata**: 20-60 minuti
 
-Come determinare le squadre
-Determinate le coppie (tag-team) tramite sorteggio. Se ci sono molti principianti, è meglio giocare con una normale Bagoma.
+## **Descrizione del Gioco**:
 
-Regole
-(Se ci sono molti giocatori esperti, potete giocare con loro.)
-(Se ci sono molti giocatori esperti, il gioco diventa relativamente più emozionante se si gioca solo tra di loro.)
+Il Torneo a Squadre di Beigoma è pensato per gruppi con significative disparità di abilità. I principianti vengono abbinati a giocatori più esperti, rendendo meno probabile la loro eliminazione semplicemente per essere usciti dalla superficie di gioco o per aver perso un singolo duello.
 
-Inserimento simultaneo di 4 giocatori
-La squadra che tiene un giocatore a terra più a lungo ottiene 1 punto.
+Il punteggio condiviso della squadra rende le vittorie più sociali e aiuta i giocatori esperti a fare da mentore ai principianti.
 
-Se nessuno rimane a terra, è un pareggio e si ricomincia da capo.
+Formate delle coppie, preferibilmente tramite sorteggio. Se ci sono molti principianti, regolate il sorteggio in modo che due principianti non giochino troppo spesso insieme. Inserite le squadre in un tabellone del torneo. Decidete se ci sarà un round di "ripescaggio dei perdenti".
 
-La prima squadra che raggiunge 2 punti vince.
+Due squadre competono contemporaneamente, il che significa che quattro giocatori fanno girare le loro trottole sulla superficie di gioco. Se la trottola di una squadra rimane sulla superficie più a lungo, quella squadra guadagna 1 punto. Se nessuna trottola rimane sulla superficie, il round è un pareggio e viene ripetuto. La prima squadra a raggiungere 2 punti vince la partita.
 
-Svolgimento del gioco
-Ogni squadra estrae a sorte e scrive il proprio nome nel posto indicato sul tavolo del torneo.
+Le squadre vincenti avanzano al turno successivo. Le squadre perdenti vengono eliminate a meno che non venga applicata una regola di "ripescaggio dei perdenti". L'ultima squadra rimasta vince il torneo.
 
-Nella prima fase, ogni squadra gioca l'una contro l'altra in successione.
+## **Regole**:
 
-Se la vostra squadra vince, passate alla seconda fase; se la vostra squadra perde, siete eliminati. (A seconda del gioco, è prevista una riammissione dei perdenti.)
+- Prima del torneo, decidete se le vittorie per Riki (far uscire la trottola dell'avversario) sono permesse, o se contano solo le vittorie per Hajiki (far uscire la propria trottola da quella dell'avversario).
+- Usate i Beigoma normali se ci sono molti principianti.
+- Usate solo le regole Hajiki se partecipano molti giocatori esperti e volete che il gioco sia più dinamico.
 
-L'ultima squadra che vince è la vincitrice!
+## **Note**:
+
+Questo è un formato valido se volete che l'evento sembri più cooperativo che puramente individuale. Dà anche ai giocatori esperti un ruolo costruttivo.
+
+## **Fonte**:
+
+Basato sul formato del Tag Match Tournament di Tokyo Beigoma.

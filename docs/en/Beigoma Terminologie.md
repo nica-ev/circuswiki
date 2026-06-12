@@ -5,77 +5,111 @@ publish: true
 tags:
   - beigoma
 created: 2025-02-01 02:31:52
-update: 2026-06-07 00:02:54
-title: Introduction to Beigoma Terminology
-description: 
+update: 2026-06-11 17:22:26
+title: Beigoma Terminology
+description: Glossary of common Beigoma terms for winding, top types, match rules, and play culture.
 authors:
   - Marc Bielert
-translation_status: machine-translated
-translation_source_lang: de
-translation_source: docs/de/Beigoma Terminologie.md
-translation_source_hash: fc416799359d7c20883758d0f548610b78b5f52938c0951b4696495ab7d0ca42
-translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T22:23:53+00:00
-translation_source_body_hash: fc416799359d7c20883758d0f548610b78b5f52938c0951b4696495ab7d0ca42
-translation_source_metadata_hash: 2208c0f851d177a0116620667c57786569aeb50671acb6a2c5b1d82a8d8fcd15
-translation_metadata_model: google/gemini-2.5-flash-lite
-translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:02:54+00:00
+source:
+  - Tokyo Beigoma
+source_url: https://tokyo-beigoma.com/%E3%83%99%E3%83%BC%E3%82%B4%E3%83%9E%E5%B0%82%E9%96%80%E7%94%A8%E8%AA%9E%E3%81%AE%E3%81%94%E7%B4%B9%E4%BB%8B/
+translation_status: original
+translation_source_lang: en
 ---
-As you play with Beigoma, various technical terms will come and go. These are just simple concepts. Knowing them will make communication easier, so please use them!
 
-## **Winding the Beigoma**
+> [!info] Summary
+> This glossary keeps the Japanese Beigoma terms visible and explains them in practical English for workshops and game facilitation.
 
-### Woman's Wind
+Beigoma has its own vocabulary. Keeping the Japanese terms is useful because many tutorials, videos, and rule descriptions use them directly.
 
-Wind with a string that has two knots about 0.5 to 1 cm apart.
+## **Winding Terms**:
 
-This winding method is relatively common.
+### Onna-maki / 女巻き
 
-### Man's Wind
+A winding style using a string with two knots placed close together, usually about 0.5-1 cm apart. This is a common beginner-friendly winding style.
 
-Wind with a string that has two knots about 5 cm apart.
+### Otoko-maki / 男巻き
 
-## **Types of Beigoma**
+A winding style using two knots placed much farther apart, roughly 5 cm. It is another traditional winding option.
 
-### Normal Beigoma
+## **Types Of Beigoma**:
 
-A Beigoma with a rounded tip that has not been processed. Since this is a piece that has not been adjusted at all, the element of luck in winning or losing is high. If a Beigoma beginner also engages in a normal confrontation, their probability of winning is very high even when competing against an advanced Beigoma.
+### Normal Beigoma / ノーマルベーゴマ
 
-### Processed Beigoma
+An unmodified Beigoma with a rounded tip. Because it has not been tuned, the luck factor is higher. Normal tops are useful when beginners and advanced players play together.
 
-A Beigoma with its tip processed. Depending on the processing method, you can create a "Riki-goma" that spins for a long time, or you can make it a "Playing-goma" that often plays with the opponent. Beigoma are used properly according to the game rules.
+### Modified Beigoma / 加工ベーゴマ
 
-### Decorative Beigoma
+A Beigoma whose tip or body has been adjusted. Depending on the modification, it can be tuned for long spin, stronger attacks, or a specific rule set.
 
-A Beigoma made by decorating the surface of the Beigoma.
+### Decoration Beigoma / デコレーションベーゴマ
 
-## **Terminology Used During Play**
+A Beigoma decorated on the visible surface. Decoration is mainly aesthetic, but it is also a way for players to identify and personalize their tops.
 
-["Chitchinochi"] A shout when throwing a Beigoma.
+### Riki-goma / リキゴマ
 
-["Remove the bottom"] When you throw a Beigoma, the top should not fall to the ground.
+A top tuned or selected for long spin. It is useful in Riki matches.
 
-["Riki Play (Riki)"] The rule is that the person who keeps their Beigoma spinning on the ground the longest wins. A Beigoma that spins for a long time is called "Rikigoma."
+### Hajiki-goma / 弾きゴマ
 
-["Playing Play (Hajiki)"] The rule is that you win if you kick the Beigoma off the ground. Additionally, a piece that moves relatively because its central axis of rotation is off-center is called "Playing-goma."
+A top that tends to move around and knock into opponents. It is useful in Hajiki matches.
 
-["Three-Second Rule"] At the time of "Riki Play," you win if you are ahead of your opponent for more than 3 seconds. If it stops within 3 seconds, try again.
+## **Match Terms**:
 
-["Packan"] Beigoma compete against each other, and all Beigoma are simultaneously knocked off the ground.
+### Chitchi-no-chi / チッチノチ
 
-["One-Touch Available"] This rule is applied at the time of "Riki Play." If you throw your Beigoma and the Beigoma never touch, you must throw again.
+A call used when players throw their Beigoma into the floor.
 
-["Okama"] The Beigoma lies on the ground. Depending on the rules, you lose at this point.
+### Yuka / 床
 
-## **Other**
+The playing floor. In Beigoma this is usually a cloth surface stretched over a bucket, barrel, or frame.
 
-["Honko"] Serious game! If you win the game, you get the opponent's Beigoma.
+### Yuka-hazushi / 床外し
 
-["Bonus Honko"] A service period for Beigoma beginners to advanced players. Beginners can get Beigoma if they win, but they will not get Beigoma if they lose.
+Missing the floor when throwing. Depending on the rule set, this can mean losing the round or repeating the throw.
 
-["Angle"] Throw a Beigoma at an angle.
+### Riki match / リキ勝負
 
-["Nissan Foundry"]
+A rule where the top that keeps spinning on the floor longest wins.
 
-Beigoma manufacturing and sales company
+### Hajiki match / 弾き勝負
+
+A rule where a player wins by knocking the opponent's Beigoma out of the floor.
+
+### Three-second rule / 3秒ルール
+
+In a Riki match, a player wins if their top keeps spinning at least three seconds longer than the opponent's. If the difference is shorter, the round is repeated.
+
+### Pakkan / パッカン
+
+A clash where all Beigoma are knocked out of the floor at the same time.
+
+### One-touch rule / ワンタッチあり
+
+A Riki-match rule where the round is repeated if the tops never touch each other after being thrown.
+
+### Okama / オカマ
+
+A Beigoma flips over on the floor. Depending on local rules, this can count as an immediate loss.
+
+## **Play Culture**:
+
+### Honko / ホンコ
+
+A serious wager match. Traditionally, the winner receives the opponent's Beigoma.
+
+### Omake Honko / おまけホンコ
+
+A beginner-friendly version of Honko. A beginner can win a Beigoma, but does not lose their own top if they lose the match.
+
+### Kado-zuke / 角づけ
+
+Throwing the Beigoma into the floor at an angle.
+
+### Nissanchuzosho / 日三鋳造所
+
+A manufacturer and seller of Beigoma.
+
+## **Source**:
+
+Terminology based on Tokyo Beigoma's specialist terminology article.

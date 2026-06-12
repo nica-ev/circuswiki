@@ -6,70 +6,60 @@ tags:
   - spiele
   - beigoma
 created: 2025-01-24 03:50:50
-update: 2026-06-07 00:03:13
+update: 2026-06-11 17:27:26
 title: Sebesség
 description: 
 authors:
   - Marc Bielert
 translation_status: machine-translated
-translation_source_lang: de
-translation_source: docs/de/Beigoma-Spiel-Speed.md
-translation_source_hash: 080f1de9ea2ce38073fc7e0b68b8cbf59fd7b264e050b187f23ea80d087c6f9b
+translation_source_lang: en
+translation_source: docs/en/Beigoma-Spiel-Speed.md
+translation_source_hash: 6c7f4f79a50ccc76b5512fc5a89d7173f09cb3c3980fd3fe1423df0929e3421a
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T22:33:48+00:00
-translation_source_body_hash: 080f1de9ea2ce38073fc7e0b68b8cbf59fd7b264e050b187f23ea80d087c6f9b
+translation_updated: 2026-06-11T15:35:02+00:00
+translation_source_body_hash: 6c7f4f79a50ccc76b5512fc5a89d7173f09cb3c3980fd3fe1423df0929e3421a
 translation_source_metadata_hash: e965e919695442f59ce8705a71eb65d4c9b19fcccd39c0ff0b013ff42b8b79d8
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:02:48+00:00
+translation_metadata_updated: 2026-06-11T15:35:02+00:00
 ---
-Bevezetés a "Speed" játékba.
-Játékszabályzat.
+> [!info] Rövid leírás
+> A Beigoma Speed egyik változata, ahol a játékosok egy előre meghatározott számú gyors, négyfős kört játszanak pontozókártyákon.
 
-Ez a játék sok emberrel játszható. (Kisebb létszámmal is lehetséges.)
+**Csoportméret**: 4-40 fő
+**Nehézség**: Könnyű
+**Anyagok**: Beigoma, zsinórok, játéktér, pontozókártyák
+**Időtartam**: 10-45 perc
 
-A küzdelmek számát a résztvevők számától és a játékidőtől függően változtathatod.
+## **Játék leírása**:
 
-A küzdelmek számát a résztvevők számától és a játékidőtől függően változtathatod. Rövid távon 10 küzdelem, hosszú távon 30 küzdelem.
+Ez a leírás a régebbi Speed Card változatot külön játékként tartja számon. Szorosan kapcsolódik a [Beigoma Speed](Spiel%20Geschwindigkeit.md) játékhoz: mindkét formátum gyors, négyfős köröket, standard Beigomát és pontozókártyákat használ.
 
-Mivel a játékot négy játékos játssza egyszerre, nagy szerencsefaktorral rendelkező játékról van szó.
+A játék kezdetén minden játékos kap egy kártyát, amelyre felírja a nevét. A játékvezető határozza meg, hány kör eredménye számít bele a játékba. Egy rövid foglalkozás 10 kört foglalhat magában; egy hosszabb foglalkozás akár 30 körig is eltarthat.
 
-Ezért kezdők és haladók egyaránt játszhatják.
+Négy játékos összegyűlik egy játéktéren, és pontosan egy kört játszanak. Az eredményt a játékosok kártyájára rögzítik. A kör után a játékosok egy másik játéktérre költöznek, vagy új csoportot alkotnak. A játék minden játékos számára akkor ér véget, amikor a kártyáján szerepel a megbeszélt számú pontozott kör.
 
-A játékot "Speed"-nek hívják, mert sok játékot játszanak gyors egymásutánban. Egyes területeken a játékot a küzdelmek számáról nevezik el, "00 alkalommal".
+Amikor a kártyák megteltek, a játékvezető összesíti a pontokat, és kihirdeti a legmagasabb pontszámot.
 
-Szabályok
+## **Szabályok**:
 
-4 játékos száll be egyidejűleg
+- Négy játékos versenyez egyidejűleg.
+- Standard, módosítatlan Beigomát kell használni.
+- Minden csoport egy kört játszik, mielőtt csoportot váltana.
+- Ha más játéktér is rendelkezésre áll, kerülni kell az ismételt játékot ugyanazon a játéktéren.
 
-Erőjáték van.
+## **Pontozás**:
 
-Használj egy normál Bagoma-t.
+- Győzelem: 3 pont
+- Döntetlen: 1 pont
+- Vereség: 0 pont
 
-Játékeredmény
+A pontelosztás helyi szabályok szerint módosítható.
 
-Győzelem: 3 pont
+## **Megjegyzések**:
 
-Döntetlen: 1 pont
+Ez az oldal átfedésben van a [Beigoma Speed](Spiel%20Geschwindigkeit.md) játékkal. Később felül kell vizsgálni, hogy mindkét leírásra szükség van-e, de jelenleg érvényes játékként szerepel a fordítási és metaadat-következetesség érdekében.
 
-Vereség: 0 pont
+## **Forrás**:
 
-A pontok elosztása régiónként változik.
-
-A játék menete
-
-Minden játékos kap egy kártyát, és ráírja a nevét.
-
-Négyen összegyűlnek a közelben a földön, és csak egyszer játszanak.
-
-A játék győztese minden résztvevőtől kap egy kártyát, és ráírja az összes résztvevő pontszámát a kártyára (ha van bíró, a bíró írja rá a pontokat a kártyára).
-
-Válts egy másik emeletre, és játssz újra, ha 4 játékos gyűlik össze (vétség, ha folyamatosan ugyanazon az emeleten dobsz).
-
-(Vétség, ha folyamatosan ugyanazon az emeleten dobsz.) Játssz annyi kört, amennyi a kártyán szerepel.
-
-A játék véget ér annak a személynek, akinek a kártyája tele van pontokkal.
-
-A felelős személy összesíti az eredményeket, és kihirdeti a legtöbb pontot elért játékost.
-
-A www.DeepL.com/Translator fordította (ingyenes verzió)
+A Tokyo Beigoma Speed Game formátuma alapján.

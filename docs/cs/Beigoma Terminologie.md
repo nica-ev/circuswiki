@@ -5,77 +5,119 @@ publish: true
 tags:
   - beigoma
 created: 2025-02-01 02:31:52
-update: 2026-06-07 00:02:54
-title: Úvod do terminologie Beigoma
-description: 
+update: 2026-06-11 17:22:26
+title: Terminologie Beigoma
+description: Slovníček běžných termínů Beigoma pro navíjení, typy vrcholků, pravidla zápasů a kulturu hry.
 authors:
   - Marc Bielert
 translation_status: machine-translated
-translation_source_lang: de
-translation_source: docs/de/Beigoma Terminologie.md
-translation_source_hash: fc416799359d7c20883758d0f548610b78b5f52938c0951b4696495ab7d0ca42
+translation_source_lang: en
+translation_source: docs/en/Beigoma Terminologie.md
+translation_source_hash: 27928971eba11de4f7a6c3dc41061ec4fe144e768cf62baad48e2310418ac2bf
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T18:28:18+00:00
-translation_source_body_hash: fc416799359d7c20883758d0f548610b78b5f52938c0951b4696495ab7d0ca42
-translation_source_metadata_hash: 2208c0f851d177a0116620667c57786569aeb50671acb6a2c5b1d82a8d8fcd15
+translation_updated: 2026-06-11T15:36:15+00:00
+translation_source_body_hash: 27928971eba11de4f7a6c3dc41061ec4fe144e768cf62baad48e2310418ac2bf
+translation_source_metadata_hash: 72bff203f2113613015aab5289be3aa7eb964a6cbf29210a35af8c2c72cd058b
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:03:00+00:00
+translation_metadata_updated: 2026-06-11T15:36:15+00:00
+source:
+  - Tokyo Beigoma
+source_url: https://tokyo-beigoma.com/%E3%83%99%E3%83%BC%E3%82%B4%E3%83%9E%E5%B0%82%E9%96%80%E7%94%A8%E8%AA%9E%E3%81%AE%E3%81%94%E7%B4%B9%E4%BB%8B/
 ---
-Při hraní s beigomou se objevují a mizí různé odborné termíny. Jde jen o jednoduché věci. Pokud to budete znát, bude snazší si o tom povídat, tak to prosím používejte!
+> [!info] Shrnutí
+> Tento glosář zachovává japonské termíny pro Beigoma a vysvětluje je v praktické angličtině pro workshopy a vedení her.
 
-## **Navíjení beigomy**
+Beigoma má svůj vlastní slovník. Zachování japonských termínů je užitečné, protože je mnoho návodů, videí a popisů pravidel používá přímo.
 
-### Navíjení pro ženy
+## **Termíny pro navíjení**:
 
-Navíjení pomocí provázku se dvěma uzly, které jsou od sebe vzdáleny asi 0,5 až 1 cm.
+### Onna-maki / 女巻き
 
-Tato metoda navíjení je poměrně běžná.
+Styl navíjení pomocí provázku se dvěma uzly umístěnými blízko sebe, obvykle asi 0,5–1 cm od sebe. Jedná se o běžný styl navíjení vhodný pro začátečníky.
 
-### Navíjení pro muže
+### Otoko-maki / 男巻き
 
-Navíjení pomocí provázku se dvěma uzly, které jsou od sebe vzdáleny asi 5 cm.
+Styl navíjení pomocí dvou uzlů umístěných mnohem dále od sebe, zhruba 5 cm. Je to další tradiční možnost navíjení.
 
-## **Typy beigomy**
+## **Typy Beigoma**:
 
-### Běžná beigoma
+### Normal Beigoma / ノーマルベーゴマ
 
-Vrchní část s oblou špičkou beigomy, která nebyla nijak upravena. Jelikož jde o kus, který nebyl vůbec upraven, je faktor štěstí pro výhru či prohru vysoký. Pokud je začátečník v beigomě také v běžném souboji, je pravděpodobnost výhry velmi vysoká, i když soutěží s pokročilou beigomou.
+Neupravené Beigoma se zaoblenou špičkou. Protože nebylo vyladěno, je faktor štěstí vyšší. Běžná Beigoma jsou užitečná, když hrají společně začátečníci a pokročilí hráči.
 
-### Upravená beigoma
+### Modified Beigoma / 加工ベーゴマ
 
-Vrchní část s upravenou špičkou beigomy. V závislosti na metodě úpravy z ní můžete vytvořit "Riki-sezam", který se dlouho točí, nebo z ní můžete udělat "Hrající sezam", který často hraje s protivníkem. Beigoma se používá řádně podle pravidel hry.
+Beigoma, jehož špička nebo tělo bylo upraveno. V závislosti na úpravě může být vyladěno pro dlouhé točení, silnější útoky nebo specifický soubor pravidel.
 
-### Dekorativní beigoma
+### Decoration Beigoma / デコレーションベーゴマ
 
-Beigoma vyrobená zdobením povrchu beigomy.
+Beigoma zdobené na viditelném povrchu. Zdobení je převážně estetické, ale je to také způsob, jak si hráči mohou své káči identifikovat a personalizovat.
 
-## **Terminologie používaná při hře**
+### Riki-goma / リキゴマ
 
-\["Čičinoči"\] Výkřik při házení beigomy.
+Káča vyladěná nebo vybraná pro dlouhé točení. Je užitečná v zápasech Riki.
 
-\[Odstranit dno\] Při házení beigomy by se vrchní část neměla dotknout země.
+### Hajiki-goma / 弾きゴマ
 
-\[Riki hra (Riki)\] Pravidlo je, že vyhrává ten, kdo nechá beigomu točit se na zemi nejdéle. Beigoma, která se dlouho točí, se nazývá "Rikigoma".
+Káča, která má tendenci se pohybovat a narážet do soupeřů. Je užitečná v zápasech Hajiki.
 
-\[Hra na hraní (Hajiki)\] Pravidlo je, že vyhrajete, když kopnete beigomu ze země. Navíc kus, který se relativně pohybuje, protože středová osa otáčení je mimo, se nazývá "Hrající sezam".
+## **Termíny pro zápasy**:
 
-\[Pravidlo tří sekund\] V okamžiku "Riki hry" vyhrajete, pokud budete mít náskok před soupeřem více než 3 sekundy. Pokud se zastaví do 3 sekund, zkuste to znovu.
+### Chitchi-no-chi / チッチノチ
 
-\[Packan\] Beigomy se utkají a všechny beigomy jsou současně vyhozeny ze země.
+Výkřik používaný, když hráči vhazují své Beigoma na podlahu.
 
-\[Jednodotykové pravidlo\] Toto pravidlo se aplikuje v okamžiku "Riki hry". Pokud beigomu hodíte a beigomy se nikdy nedotknou, musíte ji hodit znovu.
+### Yuka / 床
 
-\[Okama\] Beigoma leží na zemi. V závislosti na pravidlech v tomto okamžiku prohráváte.
+Hrací podlaha. V Beigoma je to obvykle napnutý látkový povrch přes kbelík, sud nebo rám.
 
-## **Ostatní**
+### Yuka-hazushi / 床外し
 
-\[Honko\] Vážná hra! Pokud vyhrajete hru, získáte soupeřovu beigomu.
+Minutí podlahy při vhazování. V závislosti na pravidlech to může znamenat prohru kola nebo opakování hodu.
 
-\[Bonus Honko\] Servisní doba pro začátečníky i pokročilé hráče beigomy. Začátečníci mohou získat beigomu, pokud vyhrají, ale beigomu nezískají, pokud prohrají.
+### Riki match / リキ勝負
 
-\[Úhel\] Hoďte beigomu pod úhlem.
+Pravidlo, kde vyhrává káča, která se na podlaze točí nejdéle.
 
-\[Nissan Foundry\]
+### Hajiki match / 弾き勝負
 
-Společnost pro výrobu a prodej beigomy
+Pravidlo, kde hráč vyhrává tím, že vyrazí soupeřovo Beigoma z hrací plochy.
+
+### Three-second rule / 3秒ルール
+
+V zápase Riki vyhrává hráč, pokud se jeho káča točí alespoň o tři sekundy déle než soupeřova. Pokud je rozdíl kratší, kolo se opakuje.
+
+### Pakkan / パッカン
+
+Srážka, při které jsou všechna Beigoma vyražena z hrací plochy současně.
+
+### One-touch rule / ワンタッチあり
+
+Pravidlo pro zápas Riki, kde se kolo opakuje, pokud se káči po vhození nikdy nedotknou.
+
+### Okama / オカマ
+
+Beigoma se na podlaze převrátí. V závislosti na místních pravidlech to může znamenat okamžitou prohru.
+
+## **Kultura hraní**:
+
+### Honko / ホンコ
+
+Vážný zápas o sázku. Tradičně vítěz obdrží soupeřovo Beigoma.
+
+### Omake Honko / おまけホンコ
+
+Verze Honko přátelská k začátečníkům. Začátečník může vyhrát Beigoma, ale neztratí svou vlastní káču, pokud zápas prohraje.
+
+### Kado-zuke / 角づけ
+
+Vhazování Beigoma na podlahu pod úhlem.
+
+### Nissanchuzosho / 日三鋳造所
+
+Výrobce a prodejce Beigoma.
+
+## **Zdroj**:
+
+Terminologie založená na článku s odbornou terminologií společnosti Tokyo Beigoma.

@@ -6,70 +6,60 @@ tags:
   - spiele
   - beigoma
 created: 2025-01-24 03:50:50
-update: 2026-06-07 00:03:13
+update: 2026-06-11 17:27:26
 title: Snelheid
 description: 
 authors:
   - Marc Bielert
 translation_status: machine-translated
-translation_source_lang: de
-translation_source: docs/de/Beigoma-Spiel-Speed.md
-translation_source_hash: 080f1de9ea2ce38073fc7e0b68b8cbf59fd7b264e050b187f23ea80d087c6f9b
+translation_source_lang: en
+translation_source: docs/en/Beigoma-Spiel-Speed.md
+translation_source_hash: 6c7f4f79a50ccc76b5512fc5a89d7173f09cb3c3980fd3fe1423df0929e3421a
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T23:11:38+00:00
-translation_source_body_hash: 080f1de9ea2ce38073fc7e0b68b8cbf59fd7b264e050b187f23ea80d087c6f9b
+translation_updated: 2026-06-11T15:35:08+00:00
+translation_source_body_hash: 6c7f4f79a50ccc76b5512fc5a89d7173f09cb3c3980fd3fe1423df0929e3421a
 translation_source_metadata_hash: e965e919695442f59ce8705a71eb65d4c9b19fcccd39c0ff0b013ff42b8b79d8
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:02:50+00:00
+translation_metadata_updated: 2026-06-11T15:35:08+00:00
 ---
-Introductie tot het spel "Speed".
-Spelbeschrijving.
+> [!info] Korte beschrijving
+> Een Beigoma Speed variant waarbij spelers een vastgesteld aantal snelle rondes van vier spelers spelen op scorekaarten.
 
-Dit spel kan met veel mensen gespeeld worden. (Het is ook mogelijk met een klein aantal spelers.)
+**Groepsgrootte**: 4-40 personen
+**Moeilijkheidsgraad**: Eenvoudig
+**Benodigdheden**: Beigoma, touwtjes, speeloppervlakken, scorekaarten
+**Duur**: 10-45 minuten
 
-Je kunt het aantal rondes aanpassen, afhankelijk van het aantal deelnemers en de speeltijd.
+## **Spelbeschrijving**:
 
-Het aantal rondes kan worden aangepast aan het aantal deelnemers en de speeltijd. 10 rondes in het korte scenario, 30 rondes in het lange scenario.
+Dit document behoudt de oudere Speed Card variant als een eigen spelbeschrijving. Het is nauw verwant aan [Beigoma Speed](Spiel%20Geschwindigkeit.md): beide formats gebruiken snelle rondes van vier spelers, standaard Beigoma en scorekaarten.
 
-Omdat het spel met vier spelers tegelijk wordt gespeeld, is het een spel met een groot gelukselement.
+Om te beginnen ontvangt elke speler een kaart en schrijft daar zijn naam op. De spelleider bepaalt hoeveel rondes meetellen voor het spel. Een korte sessie kan 10 rondes omvatten; een langere sessie kan oplopen tot 30 rondes.
 
-Daarom kan het zowel door beginners als door gevorderden gespeeld worden.
+Vier spelers verzamelen zich bij een speeloppervlak en spelen precies één ronde. Het resultaat wordt op de kaarten van de spelers genoteerd. Na deze ronde wisselen de spelers van speeloppervlak of vormen ze een nieuwe groep. Het spel eindigt voor elke speler zodra hun kaart het afgesproken aantal gescoorde rondes bevat.
 
-Het spel heet "Speed" omdat er veel spellen snel achter elkaar worden gespeeld. In sommige gebieden wordt het spel vernoemd naar het aantal rondes, "00 keer".
+Wanneer de kaarten vol zijn, telt de spelleider de scores op en maakt de hoogste score bekend.
 
-Regels
+## **Regels**:
 
-4 spelers doen tegelijk mee.
+- Vier spelers strijden tegelijkertijd.
+- Standaard, ongewijzigde Beigoma worden gebruikt.
+- Elke groep speelt één ronde voordat er van groep wordt gewisseld.
+- Herhaaldelijk spelen op hetzelfde oppervlak moet worden vermeden als er andere oppervlakken beschikbaar zijn.
 
-Er is een krachtmeting.
+## **Scoring**:
 
-Gebruik een normale Bagoma.
+- Winst: 3 punten
+- Gelijkspel: 1 punt
+- Verlies: 0 punten
 
-Resultaat van het spel
+De puntentelling kan worden aangepast door lokale regels.
 
-Winst: 3 punten
+## **Opmerkingen**:
 
-Gelijkspel: 1 punt
+Deze pagina overlapt met [Beigoma Speed](Spiel%20Geschwindigkeit.md). Het moet later worden beoordeeld om te beslissen of beide documenten nodig zijn, maar het blijft momenteel een geldig speldocument voor consistentie in vertaling en metadata.
 
-Verlies: 0 punten
+## **Bron**:
 
-De puntentelling kan per regio verschillen.
-
-Verloop van het spel
-
-Elke speler krijgt een kaart en schrijft zijn naam erop.
-
-Vier personen verzamelen zich dicht bij elkaar op de grond en spelen het spel één keer.
-
-De winnaar van het spel ontvangt van elke deelnemer een kaart en schrijft de punten van alle deelnemers op de kaart (als er een scheidsrechter is, schrijft de scheidsrechter de punten op de kaart).
-
-Ga naar een andere verdieping en speel opnieuw als er 4 spelers zijn (het is een overtreding om steeds op dezelfde verdieping te gooien).
-
-(Het is een overtreding om steeds op dezelfde verdieping te gooien) Speel het aantal worpen dat op de kaart staat aangegeven.
-
-Het spel is afgelopen voor de persoon wiens kaart vol is met punten.
-
-De verantwoordelijke persoon telt de resultaten bij elkaar op en maakt de winnaar bekend.
-
-Vertaald met www.DeepL.com/Translator (gratis versie)
+Gebaseerd op het Speed Game format van Tokyo Beigoma.
