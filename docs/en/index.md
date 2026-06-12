@@ -2,7 +2,7 @@
 lang: en
 translation_id: index
 created: 2025-01-21 18:09:55
-update: 2026-06-12 19:26:46
+update: 2026-06-13 00:04:51
 publish: true
 tags:
   - moc
@@ -14,19 +14,19 @@ authors:
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/index.md
-translation_source_hash: 870f088e0a15150c24fe1ea8b3f6ebcae9635e273ed3f9d31b0babb278eea464
+translation_source_hash: a3817766f898356932821485eac56631b0e6dcab73ce0b46b52caac97eb0f475
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-12T17:32:03+00:00
+translation_updated: 2026-06-12T22:40:38+00:00
 translation_source_metadata_hash: 52f0ef5f0a6296e95efac21a465cf0bf937020d56c4b8aa707913022d9cacc6f
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T17:32:03+00:00
-translation_source_body_hash: 870f088e0a15150c24fe1ea8b3f6ebcae9635e273ed3f9d31b0babb278eea464
+translation_metadata_updated: 2026-06-12T22:40:38+00:00
+translation_source_body_hash: a3817766f898356932821485eac56631b0e6dcab73ce0b46b52caac97eb0f475
 ---
 > [!info] In a Nutshell
 > CircusWiki is an open, curated, and multilingual knowledge base for circus pedagogy, movement games, inclusive practice, juggling, and related topics.
 
-Many practical ideas emerge from workshops, training sessions, projects, and encounters. Often, these ideas remain local, get lost in old documents, or disappear when websites go offline. CircusWiki aims to make this knowledge accessible long-term: as an open resource that can be found, improved, translated, and shared.
+Many practical ideas emerge from workshops, training sessions, projects, and encounters. Often, they remain local, get lost in old documents, or disappear when websites go offline. CircusWiki aims to make this knowledge accessible long-term: as an open resource that can be found, improved, translated, and shared.
 
 ## Discover Knowledge
 
@@ -38,7 +38,7 @@ These starting points lead to the most important overview pages:
 
     ---
 
-    Games, warm-ups, cooperation formats, icebreakers, and movement tasks for groups.
+    Games, warm-ups, cooperative activities, icebreakers, and movement challenges for groups.
 
     [Open Movement Games](Bewegungs-Spiele.md){ .md-button }
 
@@ -46,7 +46,7 @@ These starting points lead to the most important overview pages:
 
     ---
 
-    Basics, exercises, materials, and game ideas related to juggling and object manipulation.
+    Fundamentals, exercises, materials, and play ideas related to juggling and object manipulation.
 
     [Open Juggling](Jonglage.md){ .md-button }
 
@@ -66,11 +66,19 @@ These starting points lead to the most important overview pages:
 
     [Open Workshops and Articles](workshops-und-artikel.md){ .md-button }
 
+-   __Inclusive Circus Practice__
+
+    ---
+
+    Erasmus+ project featuring case studies, partner profiles, and materials on inclusive circus pedagogy.
+
+    [Open Project](Lets-talk-about-inclusive-circus-practice.md){ .md-button }
+
 -   __Kaskade Archive__
 
     ---
 
-    Transcripts and curated content from the Kaskade magazine: approximately 30 years of juggling and circus history.
+    Transcripts and curated content from Kaskade magazine: approximately 30 years of juggling and circus history.
 
     [Open Kaskade Archive](Kaskade%20Workspace.md){ .md-button }
 
@@ -92,9 +100,9 @@ CircusWiki thrives on contributions from practitioners. You can contribute games
 
 ## Support Us
 
-CircusWiki is freely accessible and ad-free. However, costs are incurred for technical infrastructure, tools, translation, archiving, and long-term maintenance. We try to secure funding, but we also need a sustainable model for donations and support.
+CircusWiki is freely accessible and ad-free. However, costs are incurred for technical infrastructure, tools, translation, archiving, and long-term maintenance. We seek funding, but also need a sustainable model for donations and support.
 
-We openly show how funds are used and report on it regularly and transparently.
+We openly show how funds are used and provide regular, transparent reports.
 
 [Support the Project](unterstuetzen.md){ .md-button }
 

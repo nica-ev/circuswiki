@@ -6,7 +6,7 @@ tags:
   - spiele
   - moc
 created: 2025-01-24 03:50:50
-update: 2026-06-09 03:06:20
+update: 2026-06-12 23:51:04
 title: Bewegungsspiele
 description: 
 authors:
@@ -21,7 +21,7 @@ translation_source_lang: de
 [Grundsätze für die Vermittlung von Bewegungsspielen](Grundsätze%20für%20die%20Vermittlung%20von%20Bewegungsspielen.md)
 
 [Liste aller Spiele](Liste%20aller%20Spiele.md)
-
+[Convention Spiele](convention-games.md)
 ## Spiele nach Kategorien
 
 - [Spiele zum Kennenlernen und Vorstellen](Spiele%20zum%20Kennenlernen.md)

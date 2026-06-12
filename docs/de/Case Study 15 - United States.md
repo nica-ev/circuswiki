@@ -3,7 +3,7 @@ lang: de
 translation_id: case-study-15-united-states
 created: 2025-08-30 23:50:47
 update: 2026-06-06 21:49:43
-publish: false
+publish: true
 tags:
   - case-study
 title: Soziale Integration im Kontext der Berufsausbildung

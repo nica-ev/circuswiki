@@ -3,7 +3,7 @@ lang: de
 translation_id: case-study-11-germany
 created: 2025-08-29 19:33:58
 update: 2026-06-06 21:49:20
-publish: false
+publish: true
 tags:
   - case-study
 title: Circus-Workshop für Kinder mit besonderen Bedürfnissen

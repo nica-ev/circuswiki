@@ -15,14 +15,14 @@ authors:
 translation_status: machine-translated
 translation_source_lang: en
 translation_source: docs/en/Beigoma.md
-translation_source_hash: 910d97c61c19b43fbb8bd6b9ef1b98093ef4cf3991a3b7ff5e3bd1869c81efe2
+translation_source_hash: a8161f8c77ef88a63d9aad2b7c8af8ebb15e77ed9a53f5ed4829804ce78d772d
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-12T17:30:23+00:00
-translation_source_body_hash: 910d97c61c19b43fbb8bd6b9ef1b98093ef4cf3991a3b7ff5e3bd1869c81efe2
+translation_updated: 2026-06-12T21:03:01+00:00
+translation_source_body_hash: a8161f8c77ef88a63d9aad2b7c8af8ebb15e77ed9a53f5ed4829804ce78d772d
 translation_source_metadata_hash: 9673f9963410e461a465636852fcf658f2ec0a14076153bce5cf68994b5c2529
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T17:30:23+00:00
+translation_metadata_updated: 2026-06-12T21:03:01+00:00
 source:
   - Tokyo Beigoma
   - Personal contact with Tokyo Beigoma
@@ -33,17 +33,17 @@ source_url: https://tokyo-beigoma.com/
 
 Beigoma es un antiguo juego japonés de trompos. Los trompos son pequeños, pesados y suelen estar hechos de metal fundido. Los jugadores enrollan una fina cuerda alrededor del trompo, lo lanzan sobre una superficie de juego de tela tensada y compiten para mantener su propio trompo girando el mayor tiempo posible o para sacar los trompos de los demás del área de juego.
 
-Para la pedagogía circense y del movimiento, Beigoma es útil porque combina control motor fino, repetición, manipulación de materiales, competición, paciencia y juego social. Además, es lo suficientemente pequeño como para organizarlo como una actividad paralela durante talleres, entrenamientos abiertos, festivales o entornos de tipo "maker".
+Para la pedagogía circense y del movimiento, el Beigoma es útil porque combina control motor fino, repetición, manipulación de materiales, competición, paciencia y juego social. Además, es lo suficientemente pequeño como para organizarlo como actividad paralela durante talleres, entrenamientos abiertos, festivales o en entornos de tipo "maker".
 
 ## **Lo que necesitas**:
 
-- Trompos Beigoma
+- Trompos de Beigoma
 - Cuerdas finas para Beigoma
 - Un suelo de juego, normalmente tela tensada sobre un cubo, barril o marco bajo
 - Tarjetas de puntuación opcionales para juegos estructurados
 - Limas o herramientas opcionales para la modificación avanzada de los trompos
 
-Consulta [Equipo y configuración de Beigoma](Beigoma%20Equipment%20and%20Setup.md) y [Crear un suelo de Beigoma](Making%20a%20Beigoma%20Floor.md) para obtener notas prácticas sobre la configuración.
+Consulta [Equipo y configuración de Beigoma](Beigoma%20Equipment%20and%20Setup.md) y [Crear un suelo de Beigoma](Making%20a%20Beigoma%20Floor.md) para obtener notas más prácticas sobre la configuración.
 
 ## **Cómo empezar**:
 
@@ -51,7 +51,7 @@ Consulta [Equipo y configuración de Beigoma](Beigoma%20Equipment%20and%20Setup.
 2. Enrolla la cuerda firmemente alrededor del trompo.
 3. Sostén el trompo enrollado plano y cerca del suelo de juego.
 4. Suelta el trompo mientras retiras la cuerda suavemente.
-5. Empieza con rondas sencillas uno a uno antes de usar formatos de torneo o puntuación.
+5. Empieza con rondas sencillas uno a uno antes de usar formatos de torneo o por puntos.
 
 Los principiantes suelen necesitar tiempo para aprender a enrollar y lanzar. El primer objetivo útil no es ganar, sino conseguir que el trompo aterrice erguido y gire de forma fiable.
 
@@ -74,24 +74,24 @@ Los principiantes suelen necesitar tiempo para aprender a enrollar y lanzar. El 
 
 ### Formatos de juego
 
-- [Juego de cartas rápido de Beigoma](Beigoma-Spiel-Speed.md)
+- [Juego de cartas de velocidad Beigoma](Beigoma-Spiel-Speed.md)
 - [Juego de bloques](Blockspiel.md)
 - [Juego de liga](Ligaspiel.md)
 - [Desafía al maestro](Fordere%20den%20Meister%20heraus.md)
-- [Torneo de combates por relevos](Tag%20Match%20Tournament.md)
+- [Torneo de combate por turnos](Tag%20Match%20Tournament.md)
 - [Partida por puntos de Beigoma](Beigoma%20Point%20Match.md)
 - [Partida de torneo de Beigoma](Beigoma%20Tournament%20Match.md)
 - [Juego de modificación de 10 minutos de Beigoma](Beigoma%2010-Minute%20Modification%20Game.md)
 
 ### Manualidades, ajuste y facilitación
 
-- [Básicos de la modificación de Beigoma](Beigoma%20Modification%20Basics.md)
+- [Bases de la modificación de Beigoma](Beigoma%20Modification%20Basics.md)
 - [Decoración y personalización de Beigoma](Beigoma%20Decoration%20and%20Personalization.md)
 - [Facilitar Beigoma para grupos mixtos](Facilitating%20Beigoma%20for%20Mixed%20Groups.md)
 
 ## **Notas para la facilitación**:
 
-Utiliza Beigomas ordinarios y sin modificar cuando jueguen juntos principiantes y jugadores experimentados. Esto hace que el resultado sea menos predecible y da a los jugadores nuevos una oportunidad realista de participar.
+Utiliza Beigomas ordinarios sin modificar cuando jueguen juntos principiantes y jugadores experimentados. Esto hace que el resultado sea menos predecible y da a los jugadores nuevos una oportunidad realista de participar.
 
 Para los talleres, enseña a enrollar y lanzar antes de explicar las reglas detalladas. Los formatos estructurados como "Speed" o "Block Game" funcionan mejor una vez que la mayoría de los participantes pueden hacer girar un trompo al menos a veces.
 

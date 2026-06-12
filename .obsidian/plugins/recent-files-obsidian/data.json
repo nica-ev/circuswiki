@@ -1,52 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "Blockspiel",
-      "path": "docs/en/Blockspiel.md"
-    },
-    {
-      "basename": "Fordere den Meister heraus",
-      "path": "docs/en/Fordere den Meister heraus.md"
-    },
-    {
-      "basename": "Ligaspiel",
-      "path": "docs/en/Ligaspiel.md"
-    },
-    {
-      "basename": "Tag Match Tournament",
-      "path": "docs/en/Tag Match Tournament.md"
+      "basename": "convention-games",
+      "path": "docs/de/convention-games.md"
     },
     {
       "basename": "index",
       "path": "docs/de/index.md"
     },
     {
-      "basename": "workshops-und-artikel",
-      "path": "docs/de/workshops-und-artikel.md"
+      "basename": "contact-juggling-gladiators",
+      "path": "docs/de/contact-juggling-gladiators.md"
     },
     {
-      "basename": "Aufwärmspiele MOC",
-      "path": "docs/de/Aufwärmspiele MOC.md"
-    },
-    {
-      "basename": "Resourcen",
-      "path": "_bases/Resourcen.base"
-    },
-    {
-      "basename": "Kaskade Workspace",
-      "path": "docs/de/Kaskade Workspace.md"
-    },
-    {
-      "basename": "Beigoma",
-      "path": "docs/en/Beigoma.md"
-    },
-    {
-      "basename": "Warsztat Hula hoop",
-      "path": "docs/pl/Warsztat Hula hoop.md"
-    },
-    {
-      "basename": "Wyscig pilek z hula hoop",
-      "path": "docs/pl/Wyscig pilek z hula hoop.md"
+      "basename": "3-ball-piggyback-gladiators",
+      "path": "docs/de/3-ball-piggyback-gladiators.md"
     },
     {
       "basename": "Spiele-Base",
@@ -57,148 +25,12 @@
       "path": "README.md"
     },
     {
-      "basename": "mitmachen",
-      "path": "docs/de/mitmachen.md"
+      "basename": "Bewegungs-Spiele",
+      "path": "docs/de/Bewegungs-Spiele.md"
     },
     {
-      "basename": "github-for-users",
-      "path": "docs/de/github-for-users.md"
-    },
-    {
-      "basename": "Beigoma",
-      "path": "docs/de/Beigoma.md"
-    },
-    {
-      "basename": "Beigoma Point Match",
-      "path": "docs/en/Beigoma Point Match.md"
-    },
-    {
-      "basename": "Beigoma Tournament Match",
-      "path": "docs/en/Beigoma Tournament Match.md"
-    },
-    {
-      "basename": "Beigoma 10-Minute Modification Game",
-      "path": "docs/en/Beigoma 10-Minute Modification Game.md"
-    },
-    {
-      "basename": "Beigoma Modification Basics",
-      "path": "docs/en/Beigoma Modification Basics.md"
-    },
-    {
-      "basename": "Beigoma Decoration and Personalization",
-      "path": "docs/en/Beigoma Decoration and Personalization.md"
-    },
-    {
-      "basename": "Facilitating Beigoma for Mixed Groups",
-      "path": "docs/en/Facilitating Beigoma for Mixed Groups.md"
-    },
-    {
-      "basename": "Beigoma Equipment and Setup",
-      "path": "docs/en/Beigoma Equipment and Setup.md"
-    },
-    {
-      "basename": "Beigoma Terminologie",
-      "path": "docs/en/Beigoma Terminologie.md"
-    },
-    {
-      "basename": "Beigoma-Spiel-Speed",
-      "path": "docs/en/Beigoma-Spiel-Speed.md"
-    },
-    {
-      "basename": "Wie spielt man Beigoma",
-      "path": "docs/en/Wie spielt man Beigoma.md"
-    },
-    {
-      "basename": "Making a Beigoma Floor",
-      "path": "docs/en/Making a Beigoma Floor.md"
-    },
-    {
-      "basename": "Basic Beigoma Rules and Refereeing",
-      "path": "docs/de/Basic Beigoma Rules and Refereeing.md"
-    },
-    {
-      "basename": "Making a Beigoma Floor",
-      "path": "docs/de/Making a Beigoma Floor.md"
-    },
-    {
-      "basename": "Liste aller Spiele",
-      "path": "docs/de/Liste aller Spiele.md"
-    },
-    {
-      "basename": "Liste aller Spiele",
-      "path": "docs/es/Liste aller Spiele.md"
-    },
-    {
-      "basename": "index",
-      "path": "docs/cs/index.md"
-    },
-    {
-      "basename": "Liste aller Spiele",
-      "path": "docs/it/Liste aller Spiele.md"
-    },
-    {
-      "basename": "Aufmerksamkeits-Spiel mit Bällen",
-      "path": "docs/it/Aufmerksamkeits-Spiel mit Bällen.md"
-    },
-    {
-      "basename": "1-2-3",
-      "path": "docs/it/1-2-3.md"
-    },
-    {
-      "basename": "Alle_gegen_einen",
-      "path": "docs/nl/Alle_gegen_einen.md"
-    },
-    {
-      "basename": "translation-architecture",
-      "path": "_system/translation-architecture.md"
-    },
-    {
-      "basename": "belgium-1",
-      "path": "docs/img/belgium-1.jpg"
-    },
-    {
-      "basename": "Grundlagen Wurfjonglage - Kaskade",
-      "path": "docs/de/Grundlagen Wurfjonglage - Kaskade.md"
-    },
-    {
-      "basename": "release notes",
-      "path": "docs/de/release notes.md"
-    },
-    {
-      "basename": "Grundlagen Wurfjonglage - Kaskade",
-      "path": "docs/cs/Grundlagen Wurfjonglage - Kaskade.md"
-    },
-    {
-      "basename": "abhuva_Simple_geometric_shapes_forming_a_structure_representing_20bfee81-287f-49ba-b3d9-9530920cb166",
-      "path": "docs/img/abhuva_Simple_geometric_shapes_forming_a_structure_representing_20bfee81-287f-49ba-b3d9-9530920cb166.png"
-    },
-    {
-      "basename": "abhuva_Minimalist_line_drawing_of_three_figures_in_motion_formi_d579b82a-1129-4eea-859f-a79b58849010",
-      "path": "docs/img/abhuva_Minimalist_line_drawing_of_three_figures_in_motion_formi_d579b82a-1129-4eea-859f-a79b58849010.png"
-    },
-    {
-      "basename": "abhuva_Minimalist_illustration_the_Creative_Commons_CC-BY-SA_ic_701978df-88c4-4768-afad-6f435ae5dde6",
-      "path": "docs/img/abhuva_Minimalist_illustration_the_Creative_Commons_CC-BY-SA_ic_701978df-88c4-4768-afad-6f435ae5dde6.png"
-    },
-    {
-      "basename": "abhuva_Minimalist_illustration_of_a_fading_book_dissolving_into_85d1142f-719f-404e-9369-4075621ea158",
-      "path": "docs/img/abhuva_Minimalist_illustration_of_a_fading_book_dissolving_into_85d1142f-719f-404e-9369-4075621ea158.png"
-    },
-    {
-      "basename": "4691855_1005",
-      "path": "docs/img/4691855_1005.jpg"
-    },
-    {
-      "basename": "poland-01",
-      "path": "docs/img/poland-01.jpg"
-    },
-    {
-      "basename": "Games - The Data Side",
-      "path": "docs/de/blog/posts/Games - The Data Side.md"
-    },
-    {
-      "basename": "index",
-      "path": "docs/de/blog/index.md"
+      "basename": "Aufwärmspiele MOC",
+      "path": "docs/de/Aufwärmspiele MOC.md"
     }
   ],
   "omittedPaths": [],

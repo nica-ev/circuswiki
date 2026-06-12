@@ -3,7 +3,7 @@ lang: de
 translation_id: case-study-05-greece
 created: 2025-08-29 21:14:58
 update: 2026-06-06 21:48:39
-publish: false
+publish: true
 tags:
   - case-study
 title: Farben und Muster für freundliche Interaktionen

@@ -3,7 +3,7 @@ lang: de
 translation_id: case-study-01-hungary
 created: 2025-08-30 18:53:22
 update: 2026-06-06 21:47:56
-publish: false
+publish: true
 tags:
   - case-study
 title: Unterstützung bei der Rehabilitation von Handgelenksfrakturen

@@ -2,11 +2,11 @@
 lang: de
 translation_id: disclaimer
 created: 2025-09-09 18:00:05
-update: 2026-04-12 00:42:10
-publish: false
+update: 2026-06-12 22:58:00
+publish: true
 tags:
 title: Über die Projekte
-description:
+description: Hintergrund, Partner und F?rderhinweise zum Erasmus+ Projekt ?Let's talk about inclusive circus practice".
 authors:
 translation_status: machine-translated
 translation_source_lang: en

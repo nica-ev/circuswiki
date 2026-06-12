@@ -4,22 +4,62 @@
     "type": "split",
     "children": [
       {
-        "id": "72e239ebce3cc849",
+        "id": "81e678c7e0904077",
         "type": "tabs",
         "children": [
           {
-            "id": "11bcba0cd3f10524",
+            "id": "5d72f59a841e4082",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/en/Blockspiel.md",
+                "file": "docs/de/convention-games.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "convention-games"
+            }
+          },
+          {
+            "id": "6b30225d3671d887",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/de/index.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "index"
+            }
+          },
+          {
+            "id": "ad176bc052278350",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/de/3-ball-piggyback-gladiators.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Blockspiel"
+              "title": "3-ball-piggyback-gladiators"
+            }
+          },
+          {
+            "id": "e5eb6fd048f239bf",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Neuer Tab"
             }
           }
         ]
@@ -116,10 +156,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "docs/en/Blockspiel.md"
+                "file": "docs/de/convention-games.md"
               },
               "icon": "lucide-info",
-              "title": "Dateieigenschaften von Blockspiel"
+              "title": "Dateieigenschaften von convention-games"
             }
           },
           {
@@ -128,13 +168,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/en/Blockspiel.md",
+                "file": "docs/de/convention-games.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Gliederung von Blockspiel"
+              "title": "Gliederung von convention-games"
             }
           },
           {
@@ -158,7 +198,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_dataview/dataview serializer.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -168,7 +208,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Rückverweise auf dataview serializer"
+              "title": "Rückverweise auf README"
             }
           },
           {
@@ -177,12 +217,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/de/Taktik und Konzentrationsspiele.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Ausgehende Links von Taktik und Konzentrationsspiele öffnen"
+              "title": "Ausgehende Links von README öffnen"
             }
           },
           {
@@ -203,7 +243,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 587.5
+    "width": 378.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -220,54 +261,54 @@
       "file-tree-alternative:File Tree Alternative Plugin": false
     }
   },
-  "active": "11bcba0cd3f10524",
+  "active": "5d72f59a841e4082",
   "lastOpenFiles": [
-    "docs/sk/workshops-und-artikel.md",
-    "docs/cs/workshops-und-artikel.md",
-    "docs/pt/workshops-und-artikel.md",
-    "docs/uk/workshops-und-artikel.md",
-    "docs/es/workshops-und-artikel.md",
-    "docs/el/workshops-und-artikel.md",
-    "docs/nl/workshops-und-artikel.md",
-    "docs/it/workshops-und-artikel.md",
-    "docs/hu/workshops-und-artikel.md",
-    "docs/pl/workshops-und-artikel.md",
-    "docs/en/workshops-und-artikel.md",
-    "docs/sk/unterstuetzen.md",
-    "docs/cs/unterstuetzen.md",
-    "docs/pt/unterstuetzen.md",
-    "docs/uk/unterstuetzen.md",
-    "docs/es/unterstuetzen.md",
-    "docs/el/unterstuetzen.md",
-    "docs/nl/unterstuetzen.md",
-    "docs/it/unterstuetzen.md",
-    "docs/hu/unterstuetzen.md",
-    "docs/pl/unterstuetzen.md",
-    "docs/en/unterstuetzen.md",
-    "docs/en/Fordere den Meister heraus.md",
-    "docs/en/Ligaspiel.md",
-    "docs/en/Tag Match Tournament.md",
     "docs/de/index.md",
-    "site/5 Drachen und Zwerge/index.html",
-    "site/5 Drachen und Zwerge",
-    "site/3 gewinnt/index.html",
-    "site/3 gewinnt",
-    "site/5-Step Methode/index.html",
-    "site/5-Step Methode",
-    "site/Adler Hase Kohlkopf/index.html",
-    "site/Adler Hase Kohlkopf",
-    "site/Alle_gegen_einen/index.html",
-    "site/Alle_gegen_einen",
-    "site/el/assets/images/favicon.png",
-    "site/el/img/Screenshot-Google-AiStudio-Translation.png",
-    "site/el/img/Screenshot-Google-AiStudio-Transcription.png",
-    "site/el/img/poland-03.jpg",
-    "site/el/img/poland-02.jpg",
-    "site/el/img/poland-01.jpg",
-    "site/el/img/nica-logo-simple-small-150x150.png",
-    "site/el/img/nica-background.jpg",
-    "site/el/img/monokyklo_feelingsafe_autism.jpg",
-    "site/el/img/monokyklo_colours_and_patterns.jpg",
+    "docs/de/contact-juggling-gladiators.md",
+    "docs/de/convention-games.md",
+    "docs/de/3-ball-piggyback-gladiators.md",
+    "_bases/Spiele-Base.base",
+    "README.md",
+    "site/sk",
+    "site/pt/assets/stylesheets/modern/palette.dfe2e883.min.css",
+    "site/pt/assets/stylesheets/modern/main.53a7feaf.min.css",
+    "site/pt/assets/stylesheets/classic/palette.7dc9a0ad.min.css",
+    "site/pt/assets/stylesheets/classic/main.96fc3bb8.min.css",
+    "site/pt/assets/javascripts/workers/search.e2d2d235.min.js",
+    "site/pt/assets/stylesheets/modern",
+    "site/pt/assets/stylesheets/classic",
+    "site/pt/assets/javascripts/LICENSE",
+    "site/pt/assets/images/favicon.png",
+    "site/pt/img/wheelbarrow-juggling.jpg",
+    "site/pt/img/unicycle-gladiators.jpg",
+    "site/pt/img/Screenshot-Google-AiStudio-Translation.png",
+    "site/pt/img/Screenshot-Google-AiStudio-Transcription.png",
+    "site/pt/img/poland-03.jpg",
+    "site/pt/img/poland-02.jpg",
+    "site/pt/img/poland-01.jpg",
+    "site/pt/img/nica-logo-simple-small-150x150.png",
+    "site/pt/img/nica-background.jpg",
+    "docs/de/Bewegungs-Spiele.md",
+    "docs/sk/convention-games.md",
+    "docs/cs/convention-games.md",
+    "docs/pt/convention-games.md",
+    "docs/uk/convention-games.md",
+    "docs/es/convention-games.md",
+    "docs/el/convention-games.md",
+    "docs/nl/convention-games.md",
+    "docs/it/convention-games.md",
+    "docs/hu/convention-games.md",
+    "docs/pl/convention-games.md",
+    "docs/en/convention-games.md",
+    "docs/de/Aufwärmspiele MOC.md",
+    "docs/sk/human-surfing.md",
+    "docs/cs/human-surfing.md",
+    "docs/pt/human-surfing.md",
+    "docs/uk/human-surfing.md",
+    "docs/es/human-surfing.md",
+    "docs/el/human-surfing.md",
+    "docs/nl/human-surfing.md",
+    "docs/it/human-surfing.md",
     "_canvas/Trebor Aufgaben.canvas",
     "_canvas/Unbenannt.canvas",
     "_canvas/IT Infrastruktur.canvas",

@@ -2,7 +2,7 @@
 lang: de
 translation_id: index
 created: 2025-01-21 18:09:55
-update: 2026-06-12 19:26:46
+update: 2026-06-13 00:04:51
 publish: true
 tags:
   - moc
@@ -57,6 +57,14 @@ Diese Einstiege führen zu den wichtigsten Übersichtsseiten:
     Praxisnahe Materialien, Workshops, Tutorials und Artikel aus unterschiedlichen Quellen und Projekten.
 
     [Workshops und Artikel öffnen](workshops-und-artikel.md){ .md-button }
+
+-   __Inklusive Zirkuspraxis__
+
+    ---
+
+    Erasmus+ Projekt mit Fallstudien, Partnerprofilen und Materialien zu inklusiver Zirkuspädagogik.
+
+    [Projekt öffnen](Lets-talk-about-inclusive-circus-practice.md){ .md-button }
 
 -   __Kaskade Archiv__
 

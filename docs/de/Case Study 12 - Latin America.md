@@ -3,7 +3,7 @@ lang: de
 translation_id: case-study-12-latin-america
 created: 2025-08-30 21:19:33
 update: 2026-06-06 21:49:25
-publish: false
+publish: true
 tags:
   - case-study
 title: Wo uns Bewegung findet

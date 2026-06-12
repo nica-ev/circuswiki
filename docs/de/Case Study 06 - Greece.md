@@ -3,7 +3,7 @@ lang: de
 translation_id: case-study-06-greece
 created: 2025-08-29 21:05:48
 update: 2026-06-06 21:48:48
-publish: false
+publish: true
 tags:
   - case-study
 title: Sicherheit: Ein Schlüssel für Autismus

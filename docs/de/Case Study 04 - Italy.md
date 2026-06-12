@@ -3,7 +3,7 @@ lang: de
 translation_id: case-study-04-italy
 created: 2025-08-30 20:20:11
 update: 2026-06-06 21:48:33
-publish: false
+publish: true
 tags:
   - case-study
 title: Wiederaufbau des Griffs

@@ -3,7 +3,7 @@ lang: de
 translation_id: nica-ev
 created: 2025-08-29 20:36:43
 update: 2025-08-31 20:25:24
-publish: false
+publish: true
 tags:
   - case-study
   - Kontakte

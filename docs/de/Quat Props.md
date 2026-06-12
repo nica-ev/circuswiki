@@ -3,7 +3,7 @@ lang: de
 translation_id: quat-props
 created: 2025-08-31 21:08:01
 update: 2025-08-31 21:13:30
-publish: false
+publish: true
 tags:
   - case-study
   - Kontakte

@@ -3,7 +3,7 @@ lang: de
 translation_id: case-study-10-germany
 created: 2025-08-29 19:27:16
 update: 2026-06-06 21:49:14
-publish: false
+publish: true
 tags:
   - case-study
 title: Bewegung & Spiel in der frühkindlichen Bildung

@@ -3,7 +3,7 @@ lang: de
 translation_id: case-study-07-poland
 created: 2025-08-30 20:42:55
 update: 2026-06-06 21:48:55
-publish: false
+publish: true
 tags:
   - case-study
 title: Versteckte Therapie durch Spiel
