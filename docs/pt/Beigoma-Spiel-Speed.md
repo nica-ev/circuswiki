@@ -6,70 +6,60 @@ tags:
   - spiele
   - beigoma
 created: 2025-01-24 03:50:50
-update: 2026-06-07 00:03:13
+update: 2026-06-11 17:27:26
 title: Velocidade
 description: 
 authors:
   - Marc Bielert
 translation_status: machine-translated
-translation_source_lang: de
-translation_source: docs/de/Beigoma-Spiel-Speed.md
-translation_source_hash: 080f1de9ea2ce38073fc7e0b68b8cbf59fd7b264e050b187f23ea80d087c6f9b
+translation_source_lang: en
+translation_source: docs/en/Beigoma-Spiel-Speed.md
+translation_source_hash: 6c7f4f79a50ccc76b5512fc5a89d7173f09cb3c3980fd3fe1423df0929e3421a
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T18:28:08+00:00
-translation_source_body_hash: 080f1de9ea2ce38073fc7e0b68b8cbf59fd7b264e050b187f23ea80d087c6f9b
+translation_updated: 2026-06-11T15:35:20+00:00
+translation_source_body_hash: 6c7f4f79a50ccc76b5512fc5a89d7173f09cb3c3980fd3fe1423df0929e3421a
 translation_source_metadata_hash: e965e919695442f59ce8705a71eb65d4c9b19fcccd39c0ff0b013ff42b8b79d8
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:02:52+00:00
+translation_metadata_updated: 2026-06-11T15:35:20+00:00
 ---
-Introdução ao Jogo "Speed".
-Descrição do Jogo.
+> [!info] Descrição Rápida
+> Uma variante do Beigoma Speed onde os jogadores completam um número definido de rodadas rápidas para quatro jogadores em cartões de pontuação.
 
-Este jogo pode ser jogado com muitas pessoas. (Também é possível com um pequeno número de jogadores.)
+**Tamanho do Grupo**: 4-40 pessoas
+**Dificuldade**: Fácil
+**Materiais**: Beigoma, cordas, superfícies de jogo, cartões de pontuação
+**Duração**: 10-45 minutos
 
-Pode ajustar o número de jogos em função do número de participantes e do tempo de jogo.
+## **Descrição do Jogo**:
 
-O número de jogos pode ser ajustado dependendo do número de participantes e do tempo de jogo. 10 jogos no caso curto, 30 jogos no caso longo.
+Esta nota mantém a variante mais antiga do Speed Card como uma nota de jogo própria. Está intimamente relacionada ao [Beigoma Speed](Spiel%20Geschwindigkeit.md): ambos os formatos usam rodadas rápidas para quatro jogadores, Beigoma padrão e cartões de pontuação.
 
-Como o jogo é jogado por quatro jogadores ao mesmo tempo, é um jogo com um grande elemento de sorte.
+Para começar, cada jogador recebe um cartão e escreve o seu nome nele. O líder do jogo determina quantas rodadas contarão para o jogo. Uma sessão curta pode envolver 10 rodadas; uma sessão mais longa pode durar até 30 rodadas.
 
-Por isso, pode ser jogado tanto por iniciantes como por jogadores experientes.
+Quatro jogadores reúnem-se numa superfície de jogo e jogam exatamente uma rodada. O resultado é registado nos cartões dos jogadores. Após esta rodada, os jogadores mudam-se para uma superfície diferente ou formam um novo grupo. O jogo termina para cada jogador assim que o seu cartão contiver o número acordado de rodadas pontuadas.
 
-O jogo chama-se "Speed" porque muitos jogos são jogados em rápida sucessão. Em algumas regiões, o jogo é nomeado pelo número de jogos, "00 vezes".
+Quando os cartões estiverem preenchidos, o líder do jogo soma as pontuações e anuncia a pontuação mais alta.
 
-Regras
+## **Regras**:
 
-4 jogadores entram ao mesmo tempo
+- Quatro jogadores competem simultaneamente.
+- São usados Beigoma padrão, sem modificações.
+- Cada grupo joga uma rodada antes de mudar de grupo.
+- Deve evitar-se jogar repetidamente na mesma superfície se houver outras superfícies disponíveis.
 
-Há um jogo de forças.
+## **Pontuação**:
 
-Use um Bagoma normal.
+- Vitória: 3 pontos
+- Empate: 1 ponto
+- Derrota: 0 pontos
 
-Resultado do Jogo
+A distribuição de pontos pode ser alterada por regras locais.
 
-Vitória: 3 pontos
+## **Notas**:
 
-Empate: 1 ponto
+Esta página sobrepõe-se ao [Beigoma Speed](Spiel%20Geschwindigkeit.md). Deverá ser revista mais tarde para decidir se ambas as notas são necessárias, mas atualmente permanece uma nota de jogo válida para consistência de tradução e metadados.
 
-Derrota: 0 pontos
+## **Fonte**:
 
-A distribuição dos pontos muda dependendo da região.
-
-Fluxo do Jogo
-
-Cada jogador recebe uma carta e escreve o seu nome.
-
-Quatro pessoas reúnem-se no chão próximo e jogam o jogo apenas uma vez.
-
-O vencedor do jogo recebe uma carta de cada participante e escreve os pontos de todos os participantes na carta (se houver um árbitro, o árbitro escreve os pontos na carta).
-
-Mude para outro andar e jogue novamente quando 4 jogadores se juntarem (é uma infração jogar sempre no mesmo andar).
-
-(É uma infração jogar sempre no mesmo andar) Jogue o número de jogadas indicado na carta.
-
-O jogo termina para a pessoa cuja carta estiver cheia de pontos.
-
-A pessoa responsável soma os resultados e anuncia o jogador com a pontuação mais alta.
-
-Traduzido com www.DeepL.com/Translator (versão gratuita)
+Baseado no formato Speed Game de Tokyo Beigoma.

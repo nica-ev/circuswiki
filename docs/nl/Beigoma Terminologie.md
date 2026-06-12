@@ -5,77 +5,119 @@ publish: true
 tags:
   - beigoma
 created: 2025-02-01 02:31:52
-update: 2026-06-07 00:02:54
-title: Introductie van Beigoma-terminologie
-description: 
+update: 2026-06-11 17:22:26
+title: Beigoma Terminologie
+description: Woordenlijst van veelvoorkomende Beigoma-termen voor het opwinden, soorten tol, wedstrijdregels en speelcultuur.
 authors:
   - Marc Bielert
 translation_status: machine-translated
-translation_source_lang: de
-translation_source: docs/de/Beigoma Terminologie.md
-translation_source_hash: fc416799359d7c20883758d0f548610b78b5f52938c0951b4696495ab7d0ca42
+translation_source_lang: en
+translation_source: docs/en/Beigoma Terminologie.md
+translation_source_hash: 27928971eba11de4f7a6c3dc41061ec4fe144e768cf62baad48e2310418ac2bf
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T23:11:40+00:00
-translation_source_body_hash: fc416799359d7c20883758d0f548610b78b5f52938c0951b4696495ab7d0ca42
-translation_source_metadata_hash: 2208c0f851d177a0116620667c57786569aeb50671acb6a2c5b1d82a8d8fcd15
+translation_updated: 2026-06-11T15:35:52+00:00
+translation_source_body_hash: 27928971eba11de4f7a6c3dc41061ec4fe144e768cf62baad48e2310418ac2bf
+translation_source_metadata_hash: 72bff203f2113613015aab5289be3aa7eb964a6cbf29210a35af8c2c72cd058b
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:02:56+00:00
+translation_metadata_updated: 2026-06-11T15:35:52+00:00
+source:
+  - Tokyo Beigoma
+source_url: https://tokyo-beigoma.com/%E3%83%99%E3%83%BC%E3%82%B4%E3%83%9E%E5%B0%82%E9%96%80%E7%94%A8%E8%AA%9E%E3%81%AE%E3%81%94%E7%B4%B9%E4%BB%8B/
 ---
-Bij het spelen met Beigoma komen en gaan verschillende vaktaal. Alleen eenvoudige inhoud. Als je het weet, zal het gemakkelijker zijn om te communiceren, dus gebruik het alsjeblieft!
+> [!info] Samenvatting
+> Dit woordenboek behoudt de Japanse Beigoma-termen en legt ze uit in praktisch Engels voor workshops en spelbegeleiding.
 
-## **Het wikkelen van de Beigoma**
+Beigoma heeft zijn eigen woordenschat. Het behouden van de Japanse termen is nuttig omdat veel tutorials, video's en spelregels deze direct gebruiken.
 
-### Wikkeling van de vrouw
+## **Opwindtermen**:
 
-Wikkel met een touw met twee knopen, die ongeveer 0,5 tot 1 cm van elkaar verwijderd zijn.
+### Onna-maki / 女巻き
 
-Deze wikkelmethode is relatief gangbaar.
+Een opwindstijl waarbij een touw met twee knopen dicht bij elkaar wordt gebruikt, meestal ongeveer 0,5-1 cm van elkaar. Dit is een veelvoorkomende, beginnersvriendelijke opwindstijl.
 
-### Wikkeling voor mannen
+### Otoko-maki / 男巻き
 
-Wikkel met een touw met twee knopen, die ongeveer 5 cm van elkaar verwijderd zijn.
+Een opwindstijl waarbij twee knopen veel verder uit elkaar worden geplaatst, ongeveer 5 cm. Het is een andere traditionele opwindoptie.
 
-## **Soorten Beigoma**
+## **Soorten Beigoma**:
 
-### Normale Beigoma
+### Normal Beigoma / ノーマルベーゴマ
 
-Een bovenkant met een afgeronde punt van de Beigoma die niet is bewerkt. Omdat het een stuk is dat helemaal niet is aangepast, is de geluksfactor voor winst of verlies hoog. Als een beginner van Beigoma ook een normale confrontatie is, is de winstkans erg hoog, zelfs als hij concurreert met een geavanceerde Beigoma.
+Een ongewijzigde Beigoma met een afgeronde punt. Omdat deze niet is afgesteld, is de geluksfactor hoger. Normale tolletjes zijn nuttig wanneer beginners en gevorderde spelers samen spelen.
 
-### Bewerkte Beigoma
+### Modified Beigoma / 加工ベーゴマ
 
-Een bovenkant met de punt van de Beigoma bewerkt. Afhankelijk van de bewerkingsmethode kun je er een "Riki-sesam" van maken die lang draait, of je kunt er een "spelende sesam" van maken die vaak de tegenstander bespeelt. Beigoma wordt correct gebruikt volgens de spelregels.
+Een Beigoma waarvan de punt of het lichaam is aangepast. Afhankelijk van de aanpassing kan deze worden afgesteld voor lange draaitijd, sterkere aanvallen of een specifieke reeks regels.
 
-### Decoratie Beigoma
+### Decoration Beigoma / デコレーションベーゴマ
 
-Een Beigoma gemaakt door het oppervlak van de Beigoma te versieren.
+Een Beigoma die op het zichtbare oppervlak is versierd. Decoratie is voornamelijk esthetisch, maar het is ook een manier voor spelers om hun tolletjes te identificeren en te personaliseren.
 
-## **Terminologie gebruikt op het moment van het spel**
+### Riki-goma / リキゴマ
 
-\["Chitchinochi"\] Een kreet bij het gooien van een Beigoma.
+Een tolletje dat is afgesteld of geselecteerd voor lange draaitijd. Het is nuttig in Riki-wedstrijden.
 
-\[Verwijder de bodem\] Bij het gooien van een Beigoma mag de bovenkant niet op de grond vallen.
+### Hajiki-goma / 弾きゴマ
 
-\[Riki-spel (Riki)\] De regel is dat degene wint die de Beigoma het langst op de grond laat draaien. Een Beigoma dat lang draait, wordt een "Rikigoma" genoemd.
+Een tolletje dat de neiging heeft om rond te bewegen en tegenstanders omver te stoten. Het is nuttig in Hajiki-wedstrijden.
 
-\[Spel spelen (Hajiki)\] De regel is dat je wint als je de Beigoma van de grond trapt. Bovendien wordt een stuk dat relatief beweegt omdat de centrale rotatieas is uitgeschakeld, een "spelende sesam" genoemd.
+## **Wedstrijdtermen**:
 
-\[Drie-secondenregel\] Op het moment van het "Riki-spel" win je als je je tegenstander meer dan 3 seconden voor bent. Als het binnen 3 seconden stopt, probeer het opnieuw.
+### Chitchi-no-chi / チッチノチ
 
-\[Packan\] Beigoma's concurreren met elkaar en alle Beigoma's worden tegelijkertijd van de grond geslagen.
+Een kreet die wordt gebruikt wanneer spelers hun Beigoma op de vloer gooien.
 
-\[One-touch beschikbaar\] Deze regel wordt toegepast op het moment van het "Riki-spel". Als je de Beigoma ingooit en de Beigoma raakt elkaar nooit, moet je hem opnieuw inzetten.
+### Yuka / 床
 
-\[Okama\] Beigoma ligt op de grond. Afhankelijk van de regels verlies je op dat moment.
+De speelvloer. In Beigoma is dit meestal een stoffen oppervlak dat over een emmer, vat of frame is gespannen.
 
-## **Andere**
+### Yuka-hazushi / 床外し
 
-\[Honko\] Serieus spel! Als je het spel wint, krijg je de Beigoma van de tegenstander.
+De vloer missen bij het gooien. Afhankelijk van de reeks regels kan dit betekenen dat de ronde verloren is of dat de worp moet worden herhaald.
 
-\[Bonus Honko\] Service voor Beigoma-beginners tot gevorderden. Beginners kunnen Beigoma krijgen als ze winnen, maar ze krijgen geen Beigoma als ze verliezen.
+### Riki match / リキ勝負
 
-\[Hoek\] Gooi een Beigoma in een hoek.
+Een regel waarbij de tol die het langst op de vloer blijft draaien, wint.
 
-\[Nissan Gießerei\]
+### Hajiki match / 弾き勝負
 
-Beigoma productie- en distributiebedrijf
+Een regel waarbij een speler wint door de Beigoma van de tegenstander van de vloer te stoten.
+
+### Three-second rule / 3秒ルール
+
+In een Riki-wedstrijd wint een speler als zijn tol minstens drie seconden langer blijft draaien dan die van de tegenstander. Als het verschil korter is, wordt de ronde herhaald.
+
+### Pakkan / パッカン
+
+Een botsing waarbij alle Beigoma tegelijkertijd van de vloer worden gestoten.
+
+### One-touch rule / ワンタッチあり
+
+Een Riki-wedstrijdregel waarbij de ronde wordt herhaald als de tolletjes elkaar na het gooien nooit raken.
+
+### Okama / オカマ
+
+Een Beigoma die op de vloer omvalt. Afhankelijk van lokale regels kan dit een onmiddellijke nederlaag betekenen.
+
+## **Speelcultuur**:
+
+### Honko / ホンコ
+
+Een serieuze weddenschapswedstrijd. Traditioneel ontvangt de winnaar de Beigoma van de tegenstander.
+
+### Omake Honko / おまけホンコ
+
+Een beginnersvriendelijke versie van Honko. Een beginner kan een Beigoma winnen, maar verliest zijn eigen tol niet als hij de wedstrijd verliest.
+
+### Kado-zuke / 角づけ
+
+De Beigoma onder een hoek op de vloer gooien.
+
+### Nissanchuzosho / 日三鋳造所
+
+Een fabrikant en verkoper van Beigoma.
+
+## **Bron**:
+
+Terminologie gebaseerd op het artikel met specialistische terminologie van Tokyo Beigoma.

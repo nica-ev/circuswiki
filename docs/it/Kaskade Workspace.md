@@ -2,8 +2,8 @@
 lang: it
 translation_id: kaskade-workspace
 created: 2025-01-21 18:09:55
-update: 2026-06-08 21:15:16
-publish: draft
+update: 2026-06-12 19:11:41
+publish: true
 tags:
   - moc
   - dynamic
@@ -14,36 +14,36 @@ authors:
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Kaskade Workspace.md
-translation_source_hash: 868e2ee0cbe7e65730873331919360e6050c09b83fcbdde4327359519389b85d
+translation_source_hash: 29a1552cf493836b4b474a5912aebdb63538c48b359b37de5a4b8b2e5b94d53f
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-08T20:12:03+00:00
-translation_source_body_hash: 868e2ee0cbe7e65730873331919360e6050c09b83fcbdde4327359519389b85d
+translation_updated: 2026-06-12T17:33:11+00:00
+translation_source_body_hash: 29a1552cf493836b4b474a5912aebdb63538c48b359b37de5a4b8b2e5b94d53f
 translation_source_metadata_hash: e7f4ba685ffe753f20b46abef2ca8139d54bb761a72234a6398c888d59b39b90
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:52:56+00:00
+translation_metadata_updated: 2026-06-12T17:33:11+00:00
 ---
 >[!info]- Introduzione
->Sono cresciuto con Kaskade. Prima che esistesse YouTube, prima che potessimo trovare tutto su Internet, questa rivista è stata una delle prime fonti di informazione regolari che ho avuto sul giocoleria, sul circo e sugli spettacoli.
->Quando la rivista è stata interrotta nel 2013, mi è sembrata la fine di un'era, almeno per me.
->Per diversi anni le riviste sono state ancora disponibili in formato PDF scaricabile, ma dal 2017 circa il sito è andato offline.
+>Sono cresciuto con Kaskade. Prima che esistesse YouTube, prima che potessimo trovare tutto su Internet, questa rivista è stata una delle prime fonti di informazione regolari che ho ricevuto sul tema del giocoleria, del circo e degli spettacoli.
+>Quando la rivista è stata interrotta nel 2013, è sembrata la fine di un'era, almeno per me.
+>Per diversi anni le riviste sono state ancora disponibili per il download in formato PDF; dal 2017 circa il sito è andato offline.
 >Mi sono spesso ricordato di piccoli workshop, tutorial o articoli che mi avevano ispirato all'epoca. Ora, anni dopo, volendo rileggere qualcosa, non c'era più modo.
 >
->Fortunatamente, utilizzando la Wayback Machine (The Internet Archive), ho trovato un punto di salvataggio del 2017 con i download completi (cosa non sempre scontata, soprattutto trattandosi di circa 3 GB di PDF), completo di edizioni tedesca, inglese e francese.
+>Fortunatamente, utilizzando la Wayback Machine (The Internet Archive), ho trovato un punto di salvataggio del 2017 con i download completi (cosa non sempre scontata, soprattutto trattandosi di circa 3 GB di PDF), completi di edizioni tedesca, inglese e francese.
 >
->Riguardando il materiale, mi sono reso conto che, sebbene ci fossero molti articoli e tutorial fantastici nascosti nelle riviste, nell'era odierna difficilmente qualcuno sfoglierebbe 112 riviste semplicemente fotocopiate. Beh, a meno che non si abbia un interesse nostalgico =P
+>Riguardandoli, mi sono reso conto che, sebbene ci fossero molti articoli e tutorial fantastici nascosti nelle riviste, al giorno d'oggi difficilmente qualcuno sfoglierebbe 112 riviste semplicemente fotocopiate. Beh, a meno che non si abbia un interesse nostalgico =P
 >
 >Dato che sarebbe un peccato perdere queste conoscenze, ho voluto provare a digitalizzare il tutto utilizzando la tecnologia attuale in modo che sia ancora utile oggi.
 
 >[!info]- Come sono state trascritte le riviste
->Per prima cosa, ho rimosso da ogni pagina del PDF quelle che non contenevano testi rilevanti.
+>Innanzitutto, ho rimosso da ogni pagina del PDF quelle che non contenevano testi rilevanti.
 >
 >Per la trascrizione vera e propria (o OCR), ho utilizzato un modello linguistico multimodale di Google.
->Utilizzo ```Gemini 2.0 Pro Experimental 02-05``` con il prompt:
+>Ho usato ```Gemini 2.0 Pro Experimental 02-05``` con il prompt
 >```
 >The attached PDF is a photocopy of a magazine. Extract all text, keep the document structure intact as much as possible, also extract single images and have them correctly in context.
 >```
->insieme al PDF con la rivista scansionata.
+>e il PDF con la rivista scansionata.
 >Impostazioni: Temperatura 0.1 (Importante per evitare allucinazioni)
 >
 >L'output viene poi ripulito con ```gemini-2.0-flash-exp``` e il seguente prompt (insieme al testo allegato che abbiamo estratto):
@@ -57,8 +57,8 @@ translation_metadata_updated: 2026-06-10T18:52:56+00:00
 >
 >>[!Danger]+ Importante:
 >>L'obiettivo era estrarre articoli, workshop, interviste, ecc.
->>Contributi come annunci economici, ecc. sono stati scartati.
->>L'estrazione e la pulizia dei testi sono state eseguite con LLM, quindi esiste sempre la possibilità che i testi non siano stati trascritti 1:1 o che il contenuto differisca leggermente dall'originale. Ho cercato di mantenere la percentuale di errore il più bassa possibile confrontando a campione parti di testo.
+>>Ho scartato contributi come, ad esempio, piccoli annunci, ecc.
+>>L'estrazione e la pulizia dei testi sono state effettuate con LLM, quindi esiste sempre la possibilità che i testi non siano stati trascritti 1:1 o che il contenuto differisca leggermente dall'originale. Ho cercato di mantenere la percentuale di errore il più bassa possibile confrontando a campione parti di testo.
 
 <!-- dynamic:start
 engine: obsidian-base
@@ -91,24 +91,24 @@ columns: file, authors, type, sub-type, source
 
 | file                                                                                   | authors                  | type     | sub-type | source      |
 | -------------------------------------------------------------------------------------- | ------------------------ | -------- | -------- | ----------- |
-| [Workshop Cascade - La pagina delle colonne](<Die%20S%C3%A4ulen-Seite.md>)                                       | Dr. P. Luftiko           | Tutorial | Bälle    | Kaskade 001 |
-| [Una nuova rivista per l'Europa](<Eine%20neue%20Zeitschrift%20f%C3%BCr%20Europa.md>) | Gabi Keaton, Paul Keaton | Articolo | -        | Kaskade 001 |
-| [Il sorriso supera la gravità](<L%C3%A4cheln%20%C3%BCberwindet%20Schwerkraft.md>)    | Toby Philpott            | Articolo | -        | Kaskade 001 |
-| [Workshop Cascata - Barare!](<Schummeln%21.md>)                                                        | Dr. P. Luftiko           | Tutorial | Bälle    | Kaskade 001 |
-| [Gravità - e allora!](<Schwerkraft%20-%20na%20und%21.md>)                            | Christoph Schmitt        | Articolo | -        | Kaskade 001 |
-| [Circo cercasi!](<Zirkus%20gesucht%21.md>)                                            | Kattrin & Uli            | Articolo | -        | Kaskade 001 |
+| [Workshop Cascade - La pagina delle colonne](<Die%20S%C3%A4ulen-Seite.md>)                                                         | Dr. P. Luftiko           | Tutorial | Palle    | Kaskade 001 |
+| [Una nuova rivista per l'Europa](<Eine%20neue%20Zeitschrift%20f%C3%BCr%20Europa.md>)          | Gabi Keaton, Paul Keaton | Articolo | -        | Kaskade 001 |
+| [Il sorriso supera la gravità](<L%C3%A4cheln%20%C3%BCberwindet%20Schwerkraft.md>)                 | Toby Philpott            | Articolo | -        | Kaskade 001 |
+| [Workshop Cascata - Barare!](<Schummeln%21.md>)                                                                | Dr. P. Luftiko           | Tutorial | Palle    | Kaskade 001 |
+| [Gravità - e allora!](<Schwerkraft%20-%20na%20und%21.md>)                                  | Christoph Schmitt        | Articolo | -        | Kaskade 001 |
+| [Circo cercasi!](<Zirkus%20gesucht%21.md>)                                                | Kattrin & Uli            | Articolo | -        | Kaskade 001 |
 
 <!-- dynamic:end -->
 
 ---
 
->[!info]- Edizioni rinominate/raggruppate erroneamente (002 - 004)
+>[!info]- Edizioni nominate erroneamente / raggruppate (002 - 004)
 >
 >Kaskade 002:
->Nel PDF originale tedesco, le edizioni 2 e 3 sono unite.
+>Nell'originale PDF tedesco, le edizioni 2 e 3 sono unite.
 >
 >Kaskade 003:
->Nel PDF originale tedesco, qui si trova l'edizione 004.
+>Nell'originale PDF tedesco, qui si trova l'edizione 004.
 >
 >Kaskade 004:
 >Qui manca la copertina, non sono ancora riuscito a capire a cosa appartenga...

@@ -6,89 +6,64 @@ tags:
   - spiele
   - beigoma
 created: 2025-01-24 03:50:50
-update: 2025-01-24 04:26:50
-title: Gra blokowa
+update: 2026-06-11 17:28:52
+title: Gra Blokowa
 description: 
 authors:
   - Marc Bielert
 translation_status: machine-translated
-translation_source_lang: de
-translation_source: docs/de/Blockspiel.md
-translation_source_hash: 85b855a85fb8b24db41f0455b54679fa407aa497b1fa181cc7deed396715e43d
+translation_source_lang: en
+translation_source: docs/en/Blockspiel.md
+translation_source_hash: feba559e9d0aa64ee5f6f9fb6b0b7648397c4978b6acdba1fb549286dc46366a
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T20:08:26+00:00
-translation_source_body_hash: 85b855a85fb8b24db41f0455b54679fa407aa497b1fa181cc7deed396715e43d
-translation_source_metadata_hash: 658a805439446668d1f672684bb99d0601d8bbb3410b8597fd5fc4088173f2fc
+translation_updated: 2026-06-11T15:37:07+00:00
+translation_source_body_hash: feba559e9d0aa64ee5f6f9fb6b0b7648397c4978b6acdba1fb549286dc46366a
+translation_source_metadata_hash: c3fb57ba13e0517992cf588c2c001e2b5a447e4689fca0b654c9e91d66c1dab7
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:03:56+00:00
+translation_metadata_updated: 2026-06-11T15:37:07+00:00
 ---
-# Wprowadzenie do gry „Gra w bloki”
+> [!info] Krótki opis
+> Elastyczny format karty punktowej Beigoma, w którym gracze rozgrywają wiele rund w określonym czasie.
 
-【Cechy】
+**Wielkość grupy**: 10-40 osób
+**Poziom trudności**: Średni
+**Materiały**: Beigoma, sznurki, pola gry, karty punktowe z blokami
+**Czas trwania**: 30-60 minut
 
--   Można rozegrać od 10 do 30 gier na osobę w wyznaczonym czasie.
-    
--   Można brać udział w grze we własnym tempie.
-    
--   Można dołączyć do gry w jej trakcie (wymagane jest rozegranie minimum 10 gier).
+## **Opis gry**:
 
-\[Przebieg gry\]
+Gra blokowa pozwala na udział wielu graczom we własnym tempie. Każdy gracz używa karty podzielonej na kilka bloków, zazwyczaj A, B i C. W trakcie gry gracze rozgrywają krótkie pojedynki jeden na jeden i zapisują wyniki na swoich kartach.
 
-1.  Uczestnicy otrzymują kartę i wpisują na niej swoje imię.
+Ten format jest przydatny, gdy uczestnicy mogą dołączyć w trakcie wydarzenia, gdy dostępnych jest wiele pól gry lub gdy prowadzący chce, aby wszyscy mieli wiele prób, zamiast odpadać wcześnie.
 
-2.  Ustawiają się na podłodze w kolejności wskazanej na rysunku.
+Przygotuj karty punktowe z wieloma blokami i wystarczającą liczbą miejsc na 10-30 pojedynków na gracza. W miarę możliwości przygotuj wiele stanowisk do gry w Beigoma. Przy około 20 graczach, trzy stanowiska i jedna godzina to wykonalny zestaw.
 
-%% ![](https://static.wixstatic.com/media/39842b_c35cac3d625145f1b8446df105c2a658~mv2.png/v1/fit/w_300,h_300,al_c,q_5/file.png) %%
+Każdy uczestnik otrzymuje kartę i wpisuje na niej swoje imię. Dwóch graczy umieszcza swoje karty w pobliżu pola gry i rozgrywa pojedynek jeden na jeden. Wynik jest zapisywany na karcie. Następnie gracze przechodzą do innej sekcji lub pola gry i powtarzają proces, aż do upływu czasu.
 
-![](https://static.wixstatic.com/media/39842b_c35cac3d625145f1b8446df105c2a658~mv2.png/v1/fill/w_624,h_726,al_c,q_90/39842b_c35cac3d625145f1b8446df105c2a658~mv2.webp)
+Na koniec wszystkie karty są przekazywane prowadzącemu grę. Prowadzący sumuje punkty dla każdego bloku i ogłasza wyniki.
 
-3.  Pierwsi przeciwnicy kładą karty na stole na podłodze i rozgrywają pojedynek jeden na jeden.
+## **Punktacja**:
 
-4.  Po wygranej lub przegranej wynik wpisuje się na karcie.
+Tokyo Beigoma używa symboli na karcie. Wykonalny system punktacji to:
 
-5.  Ustawiają się w innych rzędach i powtarzają grę do upływu wyznaczonego czasu.
+- Zwycięstwo przez Riki lub Hajiki: 2 punkty
+- Remis lub Pakkan: 1 punkt
+- Porażka: 0 punktów
+- Zwycięstwo nad wyznaczonym mistrzem Beigoma: 3 punkty
 
-6.  Po zakończeniu wszystkich gier karta jest oddawana osobie odpowiedzialnej.
+Dostosuj wartości punktowe, jeśli lokalne zasady używają innego systemu.
 
-7.  Po upływie czasu osoba odpowiedzialna sumuje punkty i ogłasza najlepszych graczy.
+## **Warianty**:
 
-\[Jak czytać kartę\]
+Użyj jednego bloku na mecze dla początkujących, jednego na mecze mieszane i jednego na mecze otwarte.
 
--   Karta jest podzielona na trzy bloki: A, B i C.
-    
--   Wpisana liczba oznacza liczbę rozegranych gier.
-    
--   Wpisz jeden z symboli wyniku meczu: ◎, ◯, △ lub X w polu odpowiadającym liczbie gier.
-    
--   Rywalizacja odbywa się na podstawie łącznej liczby punktów w każdym bloku.
+Jeśli gracze dołączają później, wyznacz im krótszy minimalny cel zamiast wymagania wypełnienia całej karty.
 
-%% ![](https://static.wixstatic.com/media/39842b_eb8b00f3b30f45d3a4589f66327d0aed~mv2.jpg/v1/fit/w_300,h_300,al_c,q_5/file.jpg) %%
+## **Uwagi**:
 
-![](https://static.wixstatic.com/media/39842b_eb8b00f3b30f45d3a4589f66327d0aed~mv2.jpg/v1/fill/w_616,h_740,al_c,q_90,usm_0.66_1.00_0.01/39842b_eb8b00f3b30f45d3a4589f66327d0aed~mv2.webp)
+Ten format jest bardziej administracyjny niż format szybkościowy. Wymaga przygotowanych kart i kogoś, kto potrafi wyjaśnić, jak zapisywać wyniki.
 
-\[Tabela punktacji\]
+## **Źródło**:
 
--   Wygrana (Riki / Gra) ・・・ ◯ (2 punkty)
-    
--   Remis (Pakkan) ・・・ △ (1 punkt)
-    
--   Zepchnięcie z planszy przeciwnika ・・・ △ (1 punkt)
-    
--   Przegrana ・・・ X (0 punktów)
-    
--   Wygrana z Mistrzem Beigoma (bączka) ・・・ ◎ (3 punkty) \* W przypadku wygranej dwóch Mistrzów Beigoma między sobą, wynik to ◯ (2 punkty).
-
-![](https://static.wixstatic.com/media/39842b_d1ed6f9abb794fa68cd6ab75e2cc1e36~mv2.png/v1/fit/w_300,h_300,al_c,q_5/file.png)![](https://static.wixstatic.com/media/39842b_d1ed6f9abb794fa68cd6ab75e2cc1e36~mv2.png/v1/fill/w_925,h_547,al_c,q_90,usm_0.66_1.00_0.01/39842b_d1ed6f9abb794fa68cd6ab75e2cc1e36~mv2.webp)
-
-\[Szacowany czas\]
-
-Przy około 20 uczestnikach i 3 dostępnych poziomach/planszach, wystarczy 1 godzina.
-
-Można rozegrać 30 gier, nawet jeśli zrobi się przerwę w trakcie.
-
-%% ![](https://static.wixstatic.com/media/39842b_92846025f5564118abe2c1e777b76149~mv2.jpg/v1/fit/w_300,h_300,al_c,q_5/file.jpg) %%
-
-![](https://static.wixstatic.com/media/39842b_92846025f5564118abe2c1e777b76149~mv2.jpg/v1/fill/w_564,h_752,al_c,q_90,usm_0.66_1.00_0.01/39842b_92846025f5564118abe2c1e777b76149~mv2.webp)
-
----
+Oparte na formacie Block Game z Tokyo Beigoma.

@@ -6,65 +6,63 @@ tags:
   - spiele
   - beigoma
 created: 2025-01-24 03:50:50
-update: 2025-01-24 05:13:12
-title: Vyzvěte mistra
+update: 2026-06-11 17:30:44
+title: Výzva mistrovi
 description: 
 authors:
   - Marc Bielert
 translation_status: machine-translated
-translation_source_lang: de
-translation_source: docs/de/Fordere den Meister heraus.md
-translation_source_hash: 6577b8613df3bfc3f3cba8792f8c1e8da1f5dbc57ca800db31f6a1871ba3baab
+translation_source_lang: en
+translation_source: docs/en/Fordere den Meister heraus.md
+translation_source_hash: cd5a870f0442740dcb4998a03c9d43d5ad0f673907aa2ab4503d0e8ff0254d24
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T18:41:42+00:00
-translation_source_body_hash: 6577b8613df3bfc3f3cba8792f8c1e8da1f5dbc57ca800db31f6a1871ba3baab
-translation_source_metadata_hash: b3cbf5b7a9ad1b31774c1a4f1aa03313ff218e300486c3d7f7ff3f512d89f6ec
+translation_updated: 2026-06-11T15:38:54+00:00
+translation_source_body_hash: cd5a870f0442740dcb4998a03c9d43d5ad0f673907aa2ab4503d0e8ff0254d24
+translation_source_metadata_hash: 3578f2ca527be747c59703b6983afac3d51bacacd5bc27b1320f2726ec0db8c1
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:47:21+00:00
+translation_metadata_updated: 2026-06-11T15:38:54+00:00
 ---
-# Představení hry „Vyzvi mistra“
+> [!info] Stručný popis
+> Formát beigoma výzvy, kde hráči získávají body za opakované porážky zkušených mistrů.
 
-Bejma (komi) má mnoho zábavných her.
+**Velikost skupiny**: 4–40 osob
+**Obtížnost**: Snadná
+**Materiály**: Beigoma, provázky, hrací plochy, bodovací karty, volitelné ceny (beigoma)
+**Doba trvání**: 15–60 minut
 
-Budu postupně představovat hry, kterých se dosud zúčastnil správce.
+## **Popis hry**:
 
-Tentokrát je to „Vyzvi mistra“.
+„Výzva mistrovi“ je otevřený formát výzvy. Několik zkušených hráčů působí jako mistři beigoma. Ostatní účastníci je postupně vyzývají a za vítězství sbírají body.
 
-【Pravidla】
+Tento formát je vhodný pro veřejné akce, protože hráči se mohou zapojit kdykoli, vracet se k dalším pokusům a pracovat na dosažení viditelného cíle.
 
-Toto je velmi oblíbená hra.
+Vyberte několik mistrů. Ideálně by to měli být zkušení hráči nebo jednotlivci, kteří vyhráli předchozí kola beigoma. Připravte pro účastníky bodovací karty.
 
-\[Průběh hry\]
+Pokud se používají ceny, stanovte bodový limit předem. Tokyo Beigoma popisuje formát, kde 20 nasbíraných bodů lze vyměnit za standardní beigoma.
 
-1. Vyberte několik mistrů bejmy (Mistr bejmy: Ideální jsou ti, kteří vyhráli turnaj).
+Účastníci vyzývají vždy jednoho mistra. Pokud účastník vyhraje, body se zaznamenají na jeho kartu. Hráči mohou sbírat body během více pokusů nebo sezení. Když hráč dosáhne dohodnutého limitu, obdrží dohodnutou odměnu.
 
-2. Účastníci postupně vyzývají mistra.
+## **Bodování**:
 
-3. Pokud účastník vyhraje, sbírají se body na bodovací kartě.
+Možný model bodování:
 
-4. Sbírejte body a získejte bejmu!
+- Vítězství pomocí Hajiki: 2 body
+- Vítězství pomocí Riki: 1 bod
+- Remíza nebo prohra: 0 bodů
 
-5. I když v daný den nesebereš žádné body, můžeš v nich pokračovat i příště, takže si to užijí i ti, kteří se připojí v polovině.
+Bodování upravte podle akce a úrovně dovedností.
 
-![](https://static.wixstatic.com/media/b342b0_533ad1b9ba354ca5ac0e0df8867d63ea~mv2.jpg/v1/fill/w_734,h_489,al_c,q_90,usm_0.66_1.00_0.01/b342b0_533ad1b9ba354ca5ac0e0df8867d63ea~mv2.webp)
+## **Varianty**:
 
-Účastníci vpravo postupně vyzývají mistra vlevo na fotografii.
+Pro děti nebo hráče, kteří začínají, použijte jednodušší mistry a pro pokročilé hráče obtížnější mistry.
 
-Je to hra, kterou si můžete užívat nepřetržitě, protože můžete bojovat o body mezi rodiči, dětmi a přáteli.
+Umožněte bonus pro začátečníky, například jeden bod za čisté přistání a stabilní roztočení proti mistrovi.
 
-【Body】
+## **Poznámky**:
 
-Existuje mnoho způsobů, jak rozdělovat body, ale v Ota Bunkanomori, kterou spravuje správce, postupujeme následovně.
+Tento formát závisí na postoji mistrů. Měli by vytvářet výzvu a vzrušení, aniž by se začátečníci cítili vyloučeni.
 
-- Hraní a výhra: 2 body
+## **Zdroj**:
 
-- Dlouhé točení a výhra (Riki vyhraje): 1 bod
-
-- Remíza, prohra: 0 bodů
-
-- Pokud nasbíráte 20 bodů, získáte běžnou bejmu jako dárek.
-
-![](https://static.wixstatic.com/media/b342b0_ed18bbf6098f4db5886340a0afb48855~mv2.png/v1/fill/w_578,h_349,al_c,q_90,usm_0.66_1.00_0.01/b342b0_ed18bbf6098f4db5886340a0afb48855~mv2.webp)
-
-Bodovací karta (na zadní stranu napište své jméno)
+Na základě formátu „Challenge the Master“ z Tokyo Beigoma.

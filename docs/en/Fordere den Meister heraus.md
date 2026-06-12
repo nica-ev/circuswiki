@@ -6,65 +6,64 @@ tags:
   - spiele
   - beigoma
 created: 2025-01-24 03:50:50
-update: 2025-01-24 05:13:12
+update: 2026-06-12 19:28:32
 title: Challenge the Master
-description: 
+description:
 authors:
   - Marc Bielert
-translation_status: machine-translated
-translation_source_lang: de
+translation_status: original
+translation_source_lang: en
 translation_source: docs/de/Fordere den Meister heraus.md
-translation_source_hash: 6577b8613df3bfc3f3cba8792f8c1e8da1f5dbc57ca800db31f6a1871ba3baab
+translation_source_body_hash: a19097b317df622c29915196933b97d1605d4a7adb6ce3e1ebcb2b8ecc1b3144
+translation_source_hash: a19097b317df622c29915196933b97d1605d4a7adb6ce3e1ebcb2b8ecc1b3144
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T19:22:55+00:00
-translation_source_body_hash: 6577b8613df3bfc3f3cba8792f8c1e8da1f5dbc57ca800db31f6a1871ba3baab
+translation_updated: 2026-06-11T15:00:01+00:00
 translation_source_metadata_hash: b3cbf5b7a9ad1b31774c1a4f1aa03313ff218e300486c3d7f7ff3f512d89f6ec
 translation_metadata_model: google/gemini-2.5-flash-lite
-translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:47:14+00:00
+translation_metadata_status: original
+translation_metadata_updated: 2026-06-11T15:00:01+00:00
 ---
-# Game Introduction: "Challenge the Master"
 
-Beigoma offers many fun games.
+> [!info] Short Description
+> A Beigoma challenge format where players earn points by defeating experienced masters in repeated attempts.
 
-I will gradually introduce the games the manager has participated in so far.
+**Group Size**: 4-40 people
+**Difficulty**: Easy
+**Materials**: Beigoma, strings, playing surfaces, point cards, optional prize tops
+**Duration**: 15-60 minutes
 
-This time, it's "Challenge the Master."
+## **Game Description**:
 
-【Rules】
+"Challenge the Master" is an open-ended challenge format. Several experienced players act as Beigoma masters. Other participants challenge them one after another, collecting points when they win.
 
-This is a very popular game.
+This format is well-suited for public events, as players can join at different times, return for more attempts, and work towards a visible goal.
 
-\[Gameplay Flow\]
+Select multiple masters. Ideally, these should be experienced players or individuals who have won previous Beigoma rounds. Prepare point cards for the participants.
 
-1. Select several Beigoma masters (Beigoma masters: Ideally, those who have won tournaments).
+If prizes are being used, set the point threshold in advance. Tokyo Beigoma describes a format where 20 collected points can be exchanged for a standard Beigoma.
 
-2. Participants challenge the master one by one.
+Participants challenge one master at a time. If the participant wins, points are recorded on their card. Players can accumulate points over multiple attempts or sessions. When a player reaches the agreed-upon threshold, they receive the agreed-upon reward.
 
-3. If a participant wins, points are accumulated on the score card.
+## **Scoring**:
 
-4. Collect points and receive a Beigoma!
+A possible scoring model:
 
-5. Even if you can't earn points today, you can continue accumulating them next time, so even those who join mid-way can enjoy it.
+- Win by Hajiki: 2 points
+- Win by Riki: 1 point
+- Draw or loss: 0 points
 
-![](https://static.wixstatic.com/media/b342b0_533ad1b9ba354ca5ac0e0df8867d63ea~mv2.jpg/v1/fill/w_734,h_489,al_c,q_90,usm_0.66_1.00_0.01/b342b0_533ad1b9ba354ca5ac0e0df8867d63ea~mv2.webp)
+Adjust scoring based on the event and skill level.
 
-The participants on the right are challenging the master on the left in the photo, one after another.
+## **Variations**:
 
-It's a game you can enjoy continuously because you can compete for points among parents, children, and friends.
+Use simpler masters for children or first-time players, and more difficult masters for advanced players.
 
-【Scoring】
+Allow for a beginner bonus, such as one point for a clean landing and a stable spin against a master.
 
-There are various ways to award points, but at Ota Bunkanomori, which the manager holds, we proceed as follows:
+## **Notes**:
 
-- Playing and winning: 2 points
+This format depends on the attitude of the masters. They should create challenge and excitement without making beginners feel excluded.
 
-- Spinning for a long time and winning (Riki wins): 1 point
+## **Source**:
 
-- Draw, lose: 0 points
-
-- If you collect 20 points, you will receive a regular Beigoma as a gift.
-
-![](https://static.wixstatic.com/media/b342b0_ed18bbf6098f4db5886340a0afb48855~mv2.png/v1/fill/w_578,h_349,al_c,q_90,usm_0.66_1.00_0.01/b342b0_ed18bbf6098f4db5886340a0afb48855~mv2.webp)
-
-Score card (write your name on the back)
+Based on the "Challenge the Master" format from Tokyo Beigoma.

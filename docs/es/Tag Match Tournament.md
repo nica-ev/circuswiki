@@ -6,51 +6,53 @@ tags:
   - spiele
   - beigoma
 created: 2025-01-24 03:50:51
-update: 2025-01-25 01:13:07
-title: Torneo de Combate por Parejas
+update: 2026-06-11 17:31:23
+title: Torneo de Combate por Etiqueta
 description: 
 authors:
   - Marc Bielert
 translation_status: machine-translated
-translation_source_lang: de
-translation_source: docs/de/Tag Match Tournament.md
-translation_source_hash: e2e2ab128c173b32494859fa57eda46515a3019e1ba76034ae902e8915f8a9f0
+translation_source_lang: en
+translation_source: docs/en/Tag Match Tournament.md
+translation_source_hash: 84227a0a6c913d9fc704f0a6ef2c6450d6e763e15e562011c89231a93904501e
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T14:11:10+00:00
-translation_source_body_hash: e2e2ab128c173b32494859fa57eda46515a3019e1ba76034ae902e8915f8a9f0
+translation_updated: 2026-06-11T15:40:50+00:00
+translation_source_body_hash: 84227a0a6c913d9fc704f0a6ef2c6450d6e763e15e562011c89231a93904501e
 translation_source_metadata_hash: cc74342fb1b2837db74e76b27779926cd9a7c8d15f110637205f06f57ac7fd3b
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T19:09:04+00:00
+translation_metadata_updated: 2026-06-11T15:40:50+00:00
 ---
-Introducción al juego "Tag Match Tournament"
-Este juego es ideal para un grupo de participantes con una gran diferencia de experiencia. Al unirse a jugadores experimentados, es menos probable que los principiantes sean derrotados. Sobre todo, como luchan juntos, ¡serán mucho más felices si ganan!
+> [!info] Descripción Breve
+> Un torneo de Beigoma por equipos donde las parejas compiten en rondas de cuatro jugadores, y el primer equipo en alcanzar dos puntos avanza.
 
-Si hay muchos principiantes, es mejor jugar con Bagomas normales, ya que el elemento de suerte es mayor y el juego es más emocionante.
+**Tamaño del Grupo**: 4-40 personas
+**Dificultad**: Media
+**Materiales**: Beigoma, cuerdas, superficies de juego, cuadro de torneo, tarjetas de lotería o de equipos
+**Duración**: 20-60 minutos
 
-Cómo determinar un equipo
+## **Descripción del Juego**:
 
-Determine el equipo de etiqueta mediante sorteo. Si hay muchos principiantes, es mejor jugar con una Bagoma normal.
+El Torneo de Beigoma por Equipos está diseñado para grupos con disparidades significativas de habilidad. Los principiantes se emparejan con jugadores más experimentados, lo que hace menos probable que sean eliminados simplemente por salirse de la superficie de juego o perder un solo duelo.
 
-Reglas
+La puntuación compartida del equipo hace que las victorias sean más sociales y ayuda a los jugadores experimentados a guiar a los principiantes.
 
-(Si tiene muchos jugadores experimentados, puede jugar con ellos).
-(Si hay muchos jugadores experimentados, el juego será relativamente más emocionante si se juega solo jugando).
+Forma parejas, preferiblemente mediante lotería. Si hay muchos principiantes, ajusta el sorteo para que dos principiantes no jueguen juntos con demasiada frecuencia. Introduce los equipos en un cuadro de torneo. Decide si habrá una ronda de "revancha para perdedores".
 
-Inserción simultánea de 4 jugadores
+Dos equipos compiten simultáneamente, lo que significa que cuatro jugadores hacen girar sus peonzas sobre la superficie de juego. Si la peonza de un equipo permanece en la superficie el mayor tiempo posible, ese equipo gana 1 punto. Si ninguna peonza permanece en la superficie, la ronda es un empate y se repite. El primer equipo en alcanzar 2 puntos gana el partido.
 
-El equipo que tenga un jugador en el suelo durante más tiempo obtendrá 1 punto.
+Los equipos ganadores avanzan a la siguiente ronda. Los equipos perdedores son eliminados a menos que se aplique la regla de "revancha para perdedores". El último equipo restante gana el torneo.
 
-Si nadie permanece en el suelo, es un empate y comenzamos de nuevo.
+## **Reglas**:
 
-El primer equipo en alcanzar los 2 puntos gana.
+- Antes del torneo, decide si se permiten las victorias por Riki (sacar la peonza del oponente) o si solo cuentan las victorias por Hajiki (sacar tu peonza de la peonza del oponente).
+- Usa Beigoma normal si juegan muchos principiantes.
+- Usa solo reglas de Hajiki si participan muchos jugadores experimentados y quieres que el juego sea más dinámico.
 
-Desarrollo del juego
+## **Notas**:
 
-Cada equipo saca un número y escribe su nombre en el lugar designado en la mesa del torneo.
+Este es un formato bueno si quieres que el evento se sienta más cooperativo que puramente individual. También da a los jugadores experimentados un rol constructivo.
 
-En la primera ronda, cada equipo juega uno contra el otro por turnos.
+## **Fuente**:
 
-Si tu equipo gana, pasas a la segunda ronda; si tu equipo pierde, has terminado. (Dependiendo del juego, puede haber una resurrección del perdedor).
-
-¡El último equipo en ganar es el vencedor!
+Basado en el formato del Torneo Tag Match de Tokyo Beigoma.

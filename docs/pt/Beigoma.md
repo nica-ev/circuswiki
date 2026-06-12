@@ -2,51 +2,99 @@
 lang: pt
 translation_id: beigoma
 created: 2025-01-25 02:09:19
-update: 2026-06-07 00:02:54
+update: 2026-06-11 17:50:45
 publish: true
 tags:
   - beigoma
   - spiele
   - moc
 title: Beigoma
-description: Beigoma - Visão geral
+description: Visão geral do Beigoma, um jogo tradicional japonês de piões de batalha jogado com pequenos piões de metal fundido.
 authors:
   - Marc Bielert
 translation_status: machine-translated
-translation_source_lang: de
-translation_source: docs/de/Beigoma.md
-translation_source_hash: 8ec1e23d5210c20731f036950668e8f16b4b564c794875d46c49050a9ef08cbc
+translation_source_lang: en
+translation_source: docs/en/Beigoma.md
+translation_source_hash: 910d97c61c19b43fbb8bd6b9ef1b98093ef4cf3991a3b7ff5e3bd1869c81efe2
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T18:28:03+00:00
-translation_source_body_hash: 8ec1e23d5210c20731f036950668e8f16b4b564c794875d46c49050a9ef08cbc
-translation_source_metadata_hash: 49e00b80e871e8d1a52f28a4734b43a28da565c25e42c0af83a969f3d5733e41
+translation_updated: 2026-06-12T17:30:35+00:00
+translation_source_body_hash: 910d97c61c19b43fbb8bd6b9ef1b98093ef4cf3991a3b7ff5e3bd1869c81efe2
+translation_source_metadata_hash: 9673f9963410e461a465636852fcf658f2ec0a14076153bce5cf68994b5c2529
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:02:44+00:00
+translation_metadata_updated: 2026-06-12T17:30:35+00:00
+source:
+  - Tokyo Beigoma
+  - Personal contact with Tokyo Beigoma
+source_url: https://tokyo-beigoma.com/
 ---
-# Geral
+> [!info] Resumo
+> Beigoma é um jogo tradicional japonês de piões de batalha, jogado com pequenos piões de metal fundido, uma corda para enrolar e uma superfície de jogo coberta de pano chamada "chão".
 
-[Terminologia Beigoma](Beigoma%20Terminologie.md)
-[Criar Mini-Piso](../_inbox/Miniboden%20herstellen.md)
-[Como jogar Beigoma](Wie%20spielt%20man%20Beigoma.md)
+Beigoma é um antigo jogo japonês de piões. Os piões são pequenos, pesados e geralmente feitos de metal fundido. Os jogadores enrolam uma corda fina à volta do pião, lançam-no numa superfície de jogo de pano esticado e competem para manter o seu próprio pião a girar mais tempo ou para derrubar outros piões da área de jogo.
 
-## Editar
+Para a pedagogia circense e de movimento, o Beigoma é útil porque combina controlo motor fino, repetição, manipulação de materiais, competição, paciência e jogo social. É também pequeno o suficiente para ser realizado como uma atividade paralela durante workshops, treinos abertos, festivais ou em ambientes de estilo "maker".
 
-## Decorar
+## **O Que Precisa**:
 
-[[Beigoma Deko Beispiele]]
+- Piões Beigoma
+- Cordas finas para Beigoma
+- Um chão de jogo, geralmente um pano esticado sobre um balde, barril ou estrutura baixa
+- Cartões de pontuação opcionais para jogos estruturados
+- Limas ou ferramentas opcionais para modificação avançada dos piões
 
-## Jogos
+Consulte [Equipamento e Montagem de Beigoma](Beigoma%20Equipment%20and%20Setup.md) e [Criar um Chão de Beigoma](Making%20a%20Beigoma%20Floor.md) para notas mais práticas sobre a montagem.
 
-[Velocidade do Jogo Beigoma](Beigoma-Spiel-Speed.md)
-[Jogo de Bloqueio](Blockspiel.md)
-[Desafie o Mestre](Fordere%20den%20Meister%20heraus.md)
-[Jogo da Liga](Ligaspiel.md)
-[Velocidade do Jogo](Spiel%20Geschwindigkeit.md)
-[Torneio Tag Match](Tag%20Match%20Tournament.md)
+## **Como Começar**:
 
-## Trabalho de Mestres Antigos
+1. Prepare uma corda com nós que possam prender a ponta do Beigoma.
+2. Enrole a corda firmemente à volta do pião.
+3. Segure o pião enrolado horizontalmente e perto do chão de jogo.
+4. Solte o pião enquanto puxa a corda para longe suavemente.
+5. Comece com rondas simples de um contra um antes de usar formatos de torneio ou de pontos.
 
-https://baygoma.ocnk.net/page/4
+Os iniciantes geralmente precisam de tempo para aprender a enrolar e a lançar. O primeiro objetivo útil não é ganhar, mas sim fazer o pião aterrar direito e girar de forma fiável.
 
-Endurecer Beigoma - 800°C por 90min num forno elétrico
+## **Estilos de Jogo Principais**:
+
+- **Riki**: vence o pião que girar mais tempo.
+- **Hajiki**: vence um pião ao derrubar outro pião do chão de jogo.
+- **Jogo com piões normais**: utilizam-se piões não modificados para manter o fator sorte elevado e tornar os grupos com diferentes níveis de habilidade mais equilibrados.
+- **Jogo com piões modificados**: os piões são ajustados para maior tempo de rotação, ataques mais fortes ou regras específicas de torneio.
+
+## **Páginas Deste Agrupamento**:
+
+### Primeiros Passos
+
+- [Como Jogar Beigoma](Wie%20spielt%20man%20Beigoma.md)
+- [Terminologia de Beigoma](Beigoma%20Terminologie.md)
+- [Equipamento e Montagem de Beigoma](Beigoma%20Equipment%20and%20Setup.md)
+- [Criar um Chão de Beigoma](Making%20a%20Beigoma%20Floor.md)
+- [Regras Básicas de Beigoma e Arbitragem](Basic%20Beigoma%20Rules%20and%20Refereeing.md)
+
+### Formatos de Jogo
+
+- [Jogo de Cartas de Velocidade Beigoma](Beigoma-Spiel-Speed.md)
+- [Jogo de Blocos](Blockspiel.md)
+- [Jogo de Liga](Ligaspiel.md)
+- [Desafia o Mestre](Fordere%20den%20Meister%20heraus.md)
+- [Torneio de Combate em Dupla](Tag%20Match%20Tournament.md)
+- [Jogo de Pontos Beigoma](Beigoma%20Point%20Match.md)
+- [Jogo de Torneio Beigoma](Beigoma%20Tournament%20Match.md)
+- [Jogo de Modificação Beigoma de 10 Minutos](Beigoma%2010-Minute%20Modification%20Game.md)
+
+### Artesanato, Ajuste e Facilitação
+
+- [Noções Básicas de Modificação de Beigoma](Beigoma%20Modification%20Basics.md)
+- [Decoração e Personalização de Beigoma](Beigoma%20Decoration%20and%20Personalization.md)
+- [Facilitar Beigoma para Grupos Mistos](Facilitating%20Beigoma%20for%20Mixed%20Groups.md)
+
+## **Notas Para Facilitação**:
+
+Use Beigoma comuns e não modificados quando jogadores iniciantes e experientes jogam juntos. Isto torna o resultado menos previsível e dá aos novos jogadores uma chance realista de participar.
+
+Para workshops, ensine a enrolar e a lançar antes de explicar as regras detalhadas. Formatos estruturados como Speed ou Block Game funcionam melhor assim que a maioria dos participantes consegue fazer um pião girar pelo menos algumas vezes.
+
+## **Fonte**:
+
+Baseado principalmente em material de [Tokyo Beigoma](https://tokyo-beigoma.com/)

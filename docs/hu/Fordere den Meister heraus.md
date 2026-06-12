@@ -6,65 +6,63 @@ tags:
   - spiele
   - beigoma
 created: 2025-01-24 03:50:50
-update: 2025-01-24 05:13:12
-title: Hívd ki a mestert
+update: 2026-06-11 17:30:44
+title: Kihívás a Mesternek
 description: 
 authors:
   - Marc Bielert
 translation_status: machine-translated
-translation_source_lang: de
-translation_source: docs/de/Fordere den Meister heraus.md
-translation_source_hash: 6577b8613df3bfc3f3cba8792f8c1e8da1f5dbc57ca800db31f6a1871ba3baab
+translation_source_lang: en
+translation_source: docs/en/Fordere den Meister heraus.md
+translation_source_hash: cd5a870f0442740dcb4998a03c9d43d5ad0f673907aa2ab4503d0e8ff0254d24
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T22:39:20+00:00
-translation_source_body_hash: 6577b8613df3bfc3f3cba8792f8c1e8da1f5dbc57ca800db31f6a1871ba3baab
-translation_source_metadata_hash: b3cbf5b7a9ad1b31774c1a4f1aa03313ff218e300486c3d7f7ff3f512d89f6ec
+translation_updated: 2026-06-11T15:38:33+00:00
+translation_source_body_hash: cd5a870f0442740dcb4998a03c9d43d5ad0f673907aa2ab4503d0e8ff0254d24
+translation_source_metadata_hash: 3578f2ca527be747c59703b6983afac3d51bacacd5bc27b1320f2726ec0db8c1
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:47:16+00:00
+translation_metadata_updated: 2026-06-11T15:38:33+00:00
 ---
-# Játékinfó: "Hívd ki a mestert!"
+> [!info] Rövid leírás
+> Egy Beigoma kihívás formátum, ahol a játékosok pontokat szereznek azáltal, hogy ismételt próbálkozások során legyőznek tapasztalt mestereket.
 
-A beigoma (pörgettyű) sokféle szórakoztató játékkal rendelkezik.
+**Csoportméret**: 4-40 fő
+**Nehézség**: Könnyű
+**Anyagok**: Beigoma, zsinórok, játéktér, pontkártyák, opcionális díj pörgettyűk
+**Időtartam**: 15-60 perc
 
-Itt bemutatom azokat a játékokat, amelyekben a menedzser eddig részt vett.
+## **Játék leírása**:
 
-Ezúttal a "Hívd ki a mestert!" játékról lesz szó.
+A "Kihívás a Mesternek" egy nyitott végű kihívás formátum. Több tapasztalt játékos Beigoma mesterként funkcionál. A többi résztvevő egymás után kihívja őket, és pontokat gyűjt, amikor győznek.
 
-【Szabályok】
+Ez a formátum kiválóan alkalmas nyilvános rendezvényekre, mivel a játékosok különböző időpontokban csatlakozhatnak, visszatérhetnek további próbálkozásokra, és egy látható cél felé haladhatnak.
 
-Ez egy nagyon népszerű játék.
+Válasszunk ki több mestert. Ideális esetben ezek tapasztalt játékosok vagy olyan személyek legyenek, akik korábbi Beigoma fordulókat nyertek. Készítsünk pontkártyákat a résztvevők számára.
 
-\[Játék menete\]
+Ha díjakat használunk, állítsuk be előre a pontküszöböt. A Tokyo Beigoma egy olyan formátumot ír le, ahol 20 összegyűjtött pontot egy standard Beigomára lehet cserélni.
 
-1. Válasszunk ki több beigoma-mestert (Beigoma-mester: Ideális esetben azok, akik megnyerték a bajnokságot).
+A résztvevők egyszerre egy mestert hívnak ki. Ha a résztvevő nyer, a pontokat feljegyzik a kártyájára. A játékosok több próbálkozás vagy foglalkozás során is gyűjthetnek pontokat. Amikor egy játékos eléri a megbeszélt küszöböt, megkapja a megbeszélt jutalmat.
 
-2. A résztvevők egyesével kihívják a mestert.
+## **Pontozás**:
 
-3. Ha a résztvevő nyer, pontokat gyűjt a pontkártyán.
+Egy lehetséges pontozási modell:
 
-4. Gyűjts pontokat és szerezz be egy beigomát!
+- Győzelem Hajiki által: 2 pont
+- Győzelem Riki által: 1 pont
+- Döntetlen vagy vereség: 0 pont
 
-5. Még ha aznap nem is sikerül pontokat gyűjteni, a következő alkalommal is folytathatod a pontgyűjtést, így azok is élvezhetik, akik később csatlakoznak.
+A pontozást az eseményhez és a készségszinthez igazítsuk.
 
-![](https://static.wixstatic.com/media/b342b0_533ad1b9ba354ca5ac0e0df8867d63ea~mv2.jpg/v1/fill/w_734,h_489,al_c,q_90,usm_0.66_1.00_0.01/b342b0_533ad1b9ba354ca5ac0e0df8867d63ea~mv2.webp)
+## **Változatok**:
 
-A fotón látható, hogy a jobb oldali résztvevők sorban kihívják a bal oldalon álló mestert.
+Használjunk egyszerűbb mestereket gyermekek vagy első alkalommal játszók számára, és nehezebb mestereket haladó játékosoknak.
 
-Ez egy olyan játék, amelyet folyamatosan élvezhetnek, mivel a szülők, gyerekek és barátok is versenyezhetnek a pontokért.
+Lehetőséget adhatunk egy kezdő bónuszra, például egy pontra egy tiszta földelésért és stabil pörgésért egy mester ellen.
 
-【Pontozás】
+## **Megjegyzések**:
 
-Különböző pontozási módok léteznek, de az Ota Bunkanomori-ban, ahol a menedzser tartja az eseményt, a következőképpen járunk el:
+Ez a formátum a mesterek hozzáállásától függ. Kihívást és izgalmat kell teremteniük anélkül, hogy a kezdőket kizárva éreznék magukat.
 
-- Játék és nyerés: 2 pont
+## **Forrás**:
 
-- Hosszú pörgetés és nyerés (Riki nyer): 1 pont
-
-- Döntetlen, veszteség: 0 pont
-
-- Ha összegyűjtesz 20 pontot, kapsz egy ajándékba egy normál beigomát.
-
-![](https://static.wixstatic.com/media/b342b0_ed18bbf6098f4db5886340a0afb48855~mv2.png/v1/fill/w_578,h_349,al_c,q_90,usm_0.66_1.00_0.01/b342b0_ed18bbf6098f4db5886340a0afb48855~mv2.webp)
-
-Pontkártya (írja rá a nevét a hátoldalára)
+A Tokyo Beigoma "Challenge the Master" formátumán alapul.

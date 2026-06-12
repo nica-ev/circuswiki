@@ -4,56 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "f8e6791e4cf56876",
+        "id": "72e239ebce3cc849",
         "type": "tabs",
         "children": [
           {
-            "id": "1690334cf67e6534",
+            "id": "11bcba0cd3f10524",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/it/Liste aller Spiele.md",
+                "file": "docs/en/Blockspiel.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Liste aller Spiele"
-            }
-          },
-          {
-            "id": "4a70b5c305b3a6e2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/cs/index.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "index"
-            }
-          },
-          {
-            "id": "4ee0bb048481f88f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/de/Liste aller Spiele.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Liste aller Spiele"
+              "title": "Blockspiel"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -102,8 +71,8 @@
             "state": {
               "type": "recent-files",
               "state": {},
-              "icon": "clock",
-              "title": "Recent files"
+              "icon": "lucide-ghost",
+              "title": "recent-files"
             }
           },
           {
@@ -117,7 +86,7 @@
             }
           },
           {
-            "id": "cbb4aefc97bad879",
+            "id": "4950d99cbf65b8a5",
             "type": "leaf",
             "state": {
               "type": "file-tree-view",
@@ -131,8 +100,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 605.504997253418,
-    "collapsed": true
+    "width": 338.5
   },
   "right": {
     "id": "6695d9278e344b32",
@@ -148,10 +116,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "docs/de/Liste aller Spiele.md"
+                "file": "docs/en/Blockspiel.md"
               },
               "icon": "lucide-info",
-              "title": "Dateieigenschaften von Liste aller Spiele"
+              "title": "Dateieigenschaften von Blockspiel"
             }
           },
           {
@@ -160,13 +128,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tools/ARCHITECTURE_REVIEW.md",
+                "file": "docs/en/Blockspiel.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Gliederung von ARCHITECTURE_REVIEW"
+              "title": "Gliederung von Blockspiel"
             }
           },
           {
@@ -235,7 +203,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 551.5
+    "width": 587.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -252,27 +220,44 @@
       "file-tree-alternative:File Tree Alternative Plugin": false
     }
   },
-  "active": "4ee0bb048481f88f",
+  "active": "11bcba0cd3f10524",
   "lastOpenFiles": [
-    "docs/es/Liste aller Spiele.md",
-    "docs/de/Liste aller Spiele.md",
+    "docs/sk/workshops-und-artikel.md",
+    "docs/cs/workshops-und-artikel.md",
+    "docs/pt/workshops-und-artikel.md",
+    "docs/uk/workshops-und-artikel.md",
+    "docs/es/workshops-und-artikel.md",
+    "docs/el/workshops-und-artikel.md",
+    "docs/nl/workshops-und-artikel.md",
+    "docs/it/workshops-und-artikel.md",
+    "docs/hu/workshops-und-artikel.md",
+    "docs/pl/workshops-und-artikel.md",
+    "docs/en/workshops-und-artikel.md",
+    "docs/sk/unterstuetzen.md",
+    "docs/cs/unterstuetzen.md",
+    "docs/pt/unterstuetzen.md",
+    "docs/uk/unterstuetzen.md",
+    "docs/es/unterstuetzen.md",
+    "docs/el/unterstuetzen.md",
+    "docs/nl/unterstuetzen.md",
+    "docs/it/unterstuetzen.md",
+    "docs/hu/unterstuetzen.md",
+    "docs/pl/unterstuetzen.md",
+    "docs/en/unterstuetzen.md",
+    "docs/en/Fordere den Meister heraus.md",
+    "docs/en/Ligaspiel.md",
+    "docs/en/Tag Match Tournament.md",
     "docs/de/index.md",
-    "docs/cs/index.md",
-    "docs/it/Liste aller Spiele.md",
-    "tools/translation/__pycache__/dynamic_link_labels.cpython-313.pyc",
-    "tools/translation/dynamic_link_labels.py",
-    "docs/it/Aufmerksamkeits-Spiel mit Bällen.md",
-    "docs/it/1-2-3.md",
-    "docs/nl/Alle_gegen_einen.md",
-    "site/el/search.json",
-    "site/el/objects.inv",
-    "site/el/index.html",
-    "site/el/404.html",
-    "site/el/Ägyptisches Wurfspiel/index.html",
-    "site/el/Ägyptisches Wurfspiel",
-    "site/el/Zuzwinkern/index.html",
-    "site/el/Zuzwinkern",
-    "README.md",
+    "site/5 Drachen und Zwerge/index.html",
+    "site/5 Drachen und Zwerge",
+    "site/3 gewinnt/index.html",
+    "site/3 gewinnt",
+    "site/5-Step Methode/index.html",
+    "site/5-Step Methode",
+    "site/Adler Hase Kohlkopf/index.html",
+    "site/Adler Hase Kohlkopf",
+    "site/Alle_gegen_einen/index.html",
+    "site/Alle_gegen_einen",
     "site/el/assets/images/favicon.png",
     "site/el/img/Screenshot-Google-AiStudio-Translation.png",
     "site/el/img/Screenshot-Google-AiStudio-Transcription.png",
@@ -283,23 +268,6 @@
     "site/el/img/nica-background.jpg",
     "site/el/img/monokyklo_feelingsafe_autism.jpg",
     "site/el/img/monokyklo_colours_and_patterns.jpg",
-    "_system/translation-architecture.md",
-    "docs/de/Grundlagen Wurfjonglage - Kaskade.md",
-    "docs/de/release notes.md",
-    "docs/cs/Grundlagen Wurfjonglage - Kaskade.md",
-    "docs/de/blog/posts/Games - The Data Side.md",
-    "docs/de/blog/index.md",
-    "docs/de/Aufwärmspiele MOC.md",
-    "_system/liste spiele dateien.md",
-    "_dataview/dataview serializer.md",
-    "__project/tasks.md",
-    "__project/pdd.md",
-    "_system/spiele-content-schema.md",
-    "docs/sk/Verheiratet-Geschieden.md",
-    "docs/cs/Verheiratet-Geschieden.md",
-    "docs/pt/Verheiratet-Geschieden.md",
-    "docs/uk/Verheiratet-Geschieden.md",
-    "docs/es/Verheiratet-Geschieden.md",
     "_canvas/Trebor Aufgaben.canvas",
     "_canvas/Unbenannt.canvas",
     "_canvas/IT Infrastruktur.canvas",

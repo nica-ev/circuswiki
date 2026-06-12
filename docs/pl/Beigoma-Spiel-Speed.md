@@ -6,68 +6,60 @@ tags:
   - spiele
   - beigoma
 created: 2025-01-24 03:50:50
-update: 2026-06-07 00:03:13
+update: 2026-06-11 17:27:26
 title: Prędkość
 description: 
 authors:
   - Marc Bielert
 translation_status: machine-translated
-translation_source_lang: de
-translation_source: docs/de/Beigoma-Spiel-Speed.md
-translation_source_hash: 080f1de9ea2ce38073fc7e0b68b8cbf59fd7b264e050b187f23ea80d087c6f9b
+translation_source_lang: en
+translation_source: docs/en/Beigoma-Spiel-Speed.md
+translation_source_hash: 6c7f4f79a50ccc76b5512fc5a89d7173f09cb3c3980fd3fe1423df0929e3421a
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T22:30:06+00:00
-translation_source_body_hash: 080f1de9ea2ce38073fc7e0b68b8cbf59fd7b264e050b187f23ea80d087c6f9b
+translation_updated: 2026-06-11T15:34:58+00:00
+translation_source_body_hash: 6c7f4f79a50ccc76b5512fc5a89d7173f09cb3c3980fd3fe1423df0929e3421a
 translation_source_metadata_hash: e965e919695442f59ce8705a71eb65d4c9b19fcccd39c0ff0b013ff42b8b79d8
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:02:46+00:00
+translation_metadata_updated: 2026-06-11T15:34:58+00:00
 ---
-Wprowadzenie do gry „Speed”.
-Opis gry.
+> [!info] Krótki opis
+> Wariant Beigoma Speed, w którym gracze rozgrywają ustaloną liczbę szybkich, czteroosobowych rund, zapisując wyniki na kartach.
 
-W tę grę może grać wiele osób. (Możliwa jest również gra z niewielką liczbą uczestników.)
+**Liczba graczy**: 4-40 osób
+**Poziom trudności**: Łatwy
+**Materiały**: Beigoma, sznurki, powierzchnie do gry, karty wyników
+**Czas trwania**: 10-45 minut
 
-Liczbę rozgrywek można dostosować w zależności od liczby uczestników i czasu gry.
+## **Opis gry**:
 
-Liczbę rozgrywek można dostosować w zależności od liczby uczestników i czasu gry. 10 rozgrywek w przypadku krótkiej gry, 30 rozgrywek w przypadku długiej gry.
+Niniejsza notatka zachowuje starszy wariant Speed Card jako osobną grę. Jest ona ściśle powiązana z [Beigoma Speed](Spiel%20Geschwindigkeit.md): oba formaty wykorzystują szybkie, czteroosobowe rundy, standardowe Beigoma i karty wyników.
 
-Ponieważ w grę jednocześnie grają cztery osoby, jest to gra z dużym elementem losowości.
+Na początku każdy gracz otrzymuje kartę i wpisuje na niej swoje imię. Lider gry określa, ile rund będzie zaliczanych do gry. Krótka sesja może obejmować 10 rund; dłuższa sesja może trwać do 30 rund.
 
-Dlatego mogą w nią grać zarówno początkujący, jak i zaawansowani gracze.
+Czterech graczy gromadzi się przy powierzchni do gry i rozgrywa dokładnie jedną rundę. Wynik jest zapisywany na kartach graczy. Po tej rundzie gracze przechodzą na inną powierzchnię lub tworzą nową grupę. Gra kończy się dla każdego gracza, gdy jego karta zawiera uzgodnioną liczbę zaliczonych rund.
 
-Gra nazywa się „Speed”, ponieważ wiele rozgrywek odbywa się w szybkich seriach. W niektórych regionach gra jest nazywana według liczby rozgrywek, np. „00 razy”.
+Gdy karty są zapełnione, lider gry podlicza punkty i ogłasza najwyższy wynik.
 
-Zasady
+## **Zasady**:
 
-4 graczy wchodzi jednocześnie.
+- Czterech graczy rywalizuje jednocześnie.
+- Używane są standardowe, niezmodyfikowane Beigoma.
+- Każda grupa rozgrywa jedną rundę przed zmianą grupy.
+- Powtarzalna gra na tej samej powierzchni powinna być unikana, jeśli dostępne są inne powierzchnie.
 
-Jest to gra siłowa.
+## **Punktacja**:
 
-Użyj zwykłej kostki Bagoma.
+- Zwycięstwo: 3 punkty
+- Remis: 1 punkt
+- Porażka: 0 punktów
 
-Wynik gry
+Podział punktów może zostać zmieniony przez lokalne zasady.
 
-Zwycięstwo: 3 punkty
+## **Uwagi**:
 
-Remis: 1 punkt
+Ta strona pokrywa się z [Beigoma Speed](Spiel%20Geschwindigkeit.md). Powinna zostać przejrzana później, aby zdecydować, czy obie notatki są potrzebne, ale obecnie pozostaje ona ważną notatką o grze dla spójności tłumaczenia i metadanych.
 
-Porażka: 0 punktów
+## **Źródło**:
 
-Podział punktów zmienia się w zależności od regionu.
-
-Przebieg gry
-
-Każdy gracz otrzymuje kartę i wpisuje na niej swoje imię.
-
-Cztery osoby zbierają się blisko siebie na podłodze i grają w grę tylko raz.
-
-Zwycięzca gry otrzymuje od każdego uczestnika kartę i wpisuje na niej punkty wszystkich uczestników (jeśli jest sędzia, sędzia wpisuje punkty na karcie).
-
-Przejdź na inne piętro i graj ponownie, gdy zbierze się 4 graczy (zabronione jest ciągłe rzucanie na tym samym piętrze).
-
-(Zabronione jest ciągłe rzucanie na tym samym piętrze). Rozegraj wskazaną na karcie liczbę rzutów.
-
-Gra kończy się dla osoby, której karta jest wypełniona punktami.
-
-Osoba odpowiedzialna podlicza wyniki i ogłasza najlepszego gracza.
+Oparte na formacie Speed Game z Tokyo Beigoma.

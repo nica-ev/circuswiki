@@ -6,44 +6,53 @@ tags:
   - spiele
   - beigoma
 created: 2025-01-24 03:50:51
-update: 2025-01-25 01:13:07
-title: Tag Match Tournament
-description: 
+update: 2026-06-11 17:31:23
+title: Tag-Team-Turnier
+description:
 authors:
   - Marc Bielert
-translation_status: original
-translation_source_lang: de
+translation_status: machine-translated
+translation_source_lang: en
+translation_source: docs/en/Tag Match Tournament.md
+translation_source_body_hash: 84227a0a6c913d9fc704f0a6ef2c6450d6e763e15e562011c89231a93904501e
+translation_source_hash: 84227a0a6c913d9fc704f0a6ef2c6450d6e763e15e562011c89231a93904501e
+translation_model: google/gemini-2.5-flash-lite
+translation_updated: 2026-06-11T15:40:28+00:00
+translation_source_metadata_hash: cc74342fb1b2837db74e76b27779926cd9a7c8d15f110637205f06f57ac7fd3b
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-11T15:40:28+00:00
 ---
-Einführung in das Spiel "Tag Match Tournament
-Dieses Spiel ist genau das Richtige für eine Gruppe von Teilnehmern mit einem großen Erfahrungsunterschied. Indem Sie sich mit erfahrenen Spielern zusammentun, ist es für Anfänger weniger wahrscheinlich, besiegt zu werden. Vor allem, da Sie gemeinsam kämpfen, werden Sie viel glücklicher sein, wenn Sie gewinnen!
+> [!info] Kurzbeschreibung
+> Ein teambasierter Beigoma-Wettbewerb, bei dem Paare in Viererrunden gegeneinander antreten. Das erste Team, das zwei Punkte erreicht, kommt weiter.
 
-Wenn es viele Anfänger gibt, ist es besser, mit normalen Bagomas zu spielen, da das Glückselement größer und das Spiel spannender ist.
+**Gruppengröße**: 4-40 Personen
+**Schwierigkeit**: Mittel
+**Materialien**: Beigoma, Schnüre, Spielflächen, Turnierbaum, Los- oder Teamkarten
+**Dauer**: 20-60 Minuten
 
-Wie man ein Team bestimmt
+## **Spielbeschreibung**:
 
-Bestimmen Sie das Tag-Team durch Auslosung. Wenn es viele Anfänger gibt, ist es besser, mit einer normalen Bagoma zu spielen.
+Das Beigoma-Teamturnier ist für Gruppen mit erheblichen Leistungsunterschieden konzipiert. Anfänger werden mit erfahreneren Spielern zusammengebracht, sodass sie seltener einfach nur deshalb ausscheiden, weil sie die Spielfläche verfehlen oder ein einzelnes Duell verlieren.
 
-Regeln
+Die gemeinsame Teamwertung macht Siege sozialer und hilft erfahrenen Spielern, Anfänger anzuleiten.
 
-(Wenn Sie viele erfahrene Spieler haben, können Sie mit ihnen spielen.
-(Wenn es viele erfahrene Spieler gibt, wird das Spiel relativ spannender, wenn es nur durch Spielen gespielt wird.
+Bilden Sie Paare, vorzugsweise durch Los. Wenn viele Anfänger dabei sind, passen Sie die Auslosung so an, dass zwei Anfänger nicht zu oft gegeneinander spielen. Tragen Sie die Teams in einen Turnierbaum ein. Entscheiden Sie, ob es eine "Verlierer-Wiederbelebung"-Runde geben wird.
 
-Gleichzeitiges Einfügen von 4 Spielern
+Zwei Teams treten gleichzeitig gegeneinander an, d. h. vier Spieler lassen ihre Kreisel auf die Spielfläche fallen. Wenn der Kreisel eines Teams am längsten auf der Fläche bleibt, erhält dieses Team 1 Punkt. Wenn keine Kreisel auf der Fläche bleiben, ist die Runde unentschieden und wird wiederholt. Das erste Team, das 2 Punkte erreicht, gewinnt die Runde.
 
-Die Mannschaft, die einen Spieler länger auf dem Boden hat, erhält 1 Punkt
+Die Gewinnerteams rücken in die nächste Runde vor. Die Verliererteams scheiden aus, es sei denn, es wird eine "Verlierer-Wiederbelebung"-Regel angewendet. Das letzte verbleibende Team gewinnt das Turnier.
 
-Wenn niemand auf dem Boden bleibt, ist es ein Unentschieden und wir beginnen von vorne.
+## **Regeln**:
 
-Die erste Mannschaft, die 2 Punkte erreicht, gewinnt.
+- Entscheiden Sie vor dem Turnier, ob Riki-Siege (den Kreisel des Gegners aus der Fläche schleudern) erlaubt sind oder ob nur Hajiki-Siege (den eigenen Kreisel aus dem des Gegners schleudern) zählen.
+- Verwenden Sie normale Beigoma, wenn viele Anfänger spielen.
+- Verwenden Sie nur Hajiki-Regeln, wenn viele erfahrene Spieler teilnehmen und das Spiel dynamischer sein soll.
 
-Spielablauf
+## **Hinweise**:
 
-Jedes Team zieht ein Los und schreibt seinen Namen an die Stelle, die auf dem Turniertisch steht.
+Dies ist ein gutes Format, wenn die Veranstaltung eher kooperativ als rein individuell wirken soll. Es gibt auch erfahrenen Spielern eine konstruktive Rolle.
 
-In der ersten Runde spielt jedes Team nacheinander gegeneinander.
+## **Quelle**:
 
-Wenn Ihr Team gewinnt, kommen Sie in die zweite Runde, wenn Ihr Team verliert, sind Sie fertig. (Je nach Spiel gibt es eine Wiederauferstehung des Verlierers.
-
-Das letzte Team, das gewinnt, ist der Sieger!
-
-Übersetzt mit www.DeepL.com/Translator (kostenlose Version)
+Basierend auf dem Tag Match Tournament-Format von Tokyo Beigoma.

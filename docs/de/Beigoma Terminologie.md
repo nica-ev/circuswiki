@@ -5,69 +5,119 @@ publish: true
 tags:
   - beigoma
 created: 2025-02-01 02:31:52
-update: 2026-06-07 00:02:54
-title: Einführung der Beigoma-Terminologie
-description: 
+update: 2026-06-11 17:22:26
+title: Beigoma-Terminologie
+description: Glossar gebräuchlicher Beigoma-Begriffe für das Aufziehen, verschiedene Top-Typen, Wettkampfregeln und Spielkultur.
 authors:
   - Marc Bielert
-translation_status: original
-translation_source_lang: de
+source:
+  - Tokyo Beigoma
+source_url: https://tokyo-beigoma.com/%E3%83%99%E3%83%BC%E3%82%B4%E3%83%9E%E5%B0%82%E9%96%80%E7%94%A8%E8%AA%9E%E3%81%AE%E3%81%94%E7%B4%B9%E4%BB%8B/
+translation_status: machine-translated
+translation_source_lang: en
+translation_source: docs/en/Beigoma Terminologie.md
+translation_source_body_hash: 27928971eba11de4f7a6c3dc41061ec4fe144e768cf62baad48e2310418ac2bf
+translation_source_hash: 27928971eba11de4f7a6c3dc41061ec4fe144e768cf62baad48e2310418ac2bf
+translation_model: google/gemini-2.5-flash-lite
+translation_updated: 2026-06-11T15:35:33+00:00
+translation_source_metadata_hash: 72bff203f2113613015aab5289be3aa7eb964a6cbf29210a35af8c2c72cd058b
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-11T15:35:33+00:00
 ---
+> [!info] Zusammenfassung
+> Dieses Glossar behält die japanischen Beigoma-Begriffe bei und erklärt sie in praxisorientiertem Englisch für Workshops und Spielanleitungen.
 
-Beim Spielen mit Beigoma kommen und gehen verschiedene Fachbegriffe. Nur einfache Inhalte. Wenn Sie es wissen, wird es einfacher zu kommunizieren sein, also benutzen Sie es bitte!
+Beigoma hat seinen eigenen Wortschatz. Die Beibehaltung der japanischen Begriffe ist nützlich, da viele Anleitungen, Videos und Regelbeschreibungen diese direkt verwenden.
 
-## **Das Wickeln des Beigoma**
+## **Aufwickelbegriffe**:
 
-### Wicklung der Frau
+### Onna-maki / 女巻き
 
-Wickeln mit einer Schnur mit zwei Knoten der Schnur, die etwa 0,5 bis 1 cm voneinander entfernt sind.
+Eine Aufwickelmethode, bei der ein Schnur mit zwei eng beieinander liegenden Knoten verwendet wird, normalerweise etwa 0,5–1 cm Abstand. Dies ist eine gängige, anfängerfreundliche Aufwickelmethode.
 
-Diese Wicklungsmethode ist relativ gängig.
+### Otoko-maki / 男巻き
 
-### Wicklung für Männer
+Eine Aufwickelmethode, bei der zwei Knoten viel weiter auseinander liegen, etwa 5 cm. Dies ist eine weitere traditionelle Aufwickeloption.
 
-Wickeln mit einer Schnur mit zwei Knoten der Schnur, die etwa 5 cm voneinander entfernt sind.
+## **Arten von Beigoma**:
 
-## **Arten von Beigoma**
+### Normal Beigoma / ノーマルベーゴマ
 
-### Normales Beigoma
+Ein unverändertes Beigoma mit einer abgerundeten Spitze. Da es nicht gestimmt wurde, ist der Glücksfaktor höher. Normale Kreisel sind nützlich, wenn Anfänger und fortgeschrittene Spieler zusammen spielen.
 
-Ein Oberteil mit einer abgerundeten Spitze des Beigoma, das nicht verarbeitet wurde. Da es sich um ein Stück handelt, das überhaupt nicht angepasst wurde, ist der Glücksfaktor für Sieg oder Niederlage hoch. Wenn ein Anfänger von Beigoma auch eine normale Konfrontation ist, ist die Gewinnwahrscheinlichkeit sehr hoch, selbst wenn er mit einem fortgeschrittenen Beigoma konkurriert.
+### Modifiziertes Beigoma / 加工ベーゴマ
 
-### Verarbeitetes Beigoma
+Ein Beigoma, dessen Spitze oder Körper angepasst wurde. Je nach Modifikation kann es für lange Drehungen, stärkere Angriffe oder ein bestimmtes Regelwerk gestimmt werden.
 
-Eine Oberseite mit der Spitze des Beigoms verarbeitet. Abhängig von der Verarbeitungsmethode können Sie daraus einen "Riki-Sesam" machen, der sich lange dreht, oder Sie können ihn zu einem "Spielenden Sesam" machen, der oft den Gegner spielt. Beigoma wird gemäß den Spielregeln ordnungsgemäß verwendet.
+### Dekoration Beigoma / デコレーションベーゴマ
 
-### Dekoration Beigoma
+Ein Beigoma, das auf der sichtbaren Oberfläche verziert ist. Die Dekoration ist hauptsächlich ästhetisch, aber sie ist auch eine Möglichkeit für Spieler, ihre Kreisel zu identifizieren und zu personalisieren.
 
-Ein Beigoma, das durch Dekorieren der Oberfläche des Beigoma hergestellt wird.
+### Riki-goma / リキゴマ
 
-## **Zum Zeitpunkt des Spiels verwendete Terminologie**
+Ein Kreisel, der für lange Drehungen gestimmt oder ausgewählt wurde. Er ist in Riki-Wettkämpfen nützlich.
 
-\["Chitchinochi"\] Ein Schrei beim Werfen eines Beigoms.
+### Hajiki-goma / 弾きゴマ
 
-\[Entfernen Sie den Boden\] Wenn Sie ein Beigoma werfen, sollte die Oberseite nicht auf den Boden fallen.
+Ein Kreisel, der dazu neigt, sich zu bewegen und Gegner anzurempeln. Er ist in Hajiki-Wettkämpfen nützlich.
 
-\[Riki-Spiel (Riki)\] Die Regel ist, dass die Person gewinnt, die das Beigoma schon lange auf dem Boden dreht. Ein Beigoma, das sich lange dreht, heißt "Rikigoma".
+## **Wettkampfbegriffe**:
 
-\[Spiel spielen (Hajiki)\] Die Regel ist, dass Sie gewinnen, wenn Sie das Beigoma vom Boden treten. Außerdem wird ein Stück, das sich relativ bewegt, weil die zentrale Rotationsachse ausgeschaltet ist, als "Sesam spielen" bezeichnet.
+### Chitchi-no-chi / チッチノチ
 
-\[Drei-Sekunden-Regel\] Zum Zeitpunkt des "Riki-Spiels" gewinnen Sie, wenn Sie Ihrem Gegner mehr als 3 Sekunden voraus sind. Wenn es innerhalb von 3 Sekunden stoppt, versuchen Sie es erneut.
+Ein Ausruf, der verwendet wird, wenn Spieler ihre Beigoma auf den Boden werfen.
 
-\[Packan\] Beigoma tritt gegeneinander an und alle Beigoma werden gleichzeitig vom Boden gesprengt.
+### Yuka / 床
 
-\[One-Touch verfügbar\] Diese Regel wird zum Zeitpunkt des "Riki-Spiels" angewendet. Wenn Sie das Beigoma einwerfen und das Beigoma sich nie berühren, müssen Sie es erneut einnehmen.
+Der Spielfußboden. Bei Beigoma ist dies normalerweise eine Stoffoberfläche, die über einen Eimer, eine Tonne oder einen Rahmen gespannt ist.
 
-\[Okama\] Beigoma liegt auf dem Boden. Abhängig von den Regeln verlieren Sie an diesem Punkt.
+### Yuka-hazushi / 床外し
 
-## **Andere**
+Den Boden beim Werfen verfehlen. Je nach Regelwerk kann dies bedeuten, die Runde zu verlieren oder den Wurf zu wiederholen.
 
-\[Honko\] Ernstes Spiel! Wenn Sie das Spiel gewinnen, erhalten Sie das Beigoma des Gegners.
+### Riki match / リキ勝負
 
-\[Bonus Honko\] Servicezeit für Beigoma-Anfänger bis Fortgeschrittene. Anfänger können Beigoma bekommen, wenn sie gewinnen, aber sie werden Beigoma nicht bekommen, wenn sie verlieren.
+Eine Regel, bei der der Kreisel gewinnt, der am längsten auf dem Boden rotiert.
 
-\[Winkel\] Wirf ein Beigoma in einem Winkel.
+### Hajiki match / 弾き勝負
 
-\[Nissan Gießerei\]
+Eine Regel, bei der ein Spieler gewinnt, indem er das Beigoma des Gegners vom Spielfußboden stößt.
 
-Beigoma Produktions- und Vertriebsgesellschaft
+### Drei-Sekunden-Regel / 3秒ルール
+
+In einem Riki-Wettkampf gewinnt ein Spieler, wenn sein Kreisel mindestens drei Sekunden länger rotiert als der des Gegners. Ist der Unterschied kürzer, wird die Runde wiederholt.
+
+### Pakkan / パッカン
+
+Ein Zusammenstoß, bei dem alle Beigoma gleichzeitig vom Spielfußboden gestoßen werden.
+
+### One-touch-Regel / ワンタッチあり
+
+Eine Riki-Match-Regel, bei der die Runde wiederholt wird, wenn sich die Kreisel nach dem Werfen nie berühren.
+
+### Okama / オカマ
+
+Ein Beigoma, das auf dem Spielfußboden umkippt. Je nach lokalen Regeln kann dies als sofortige Niederlage gewertet werden.
+
+## **Spielkultur**:
+
+### Honko / ホンコ
+
+Ein ernster Einsatzwettkampf. Traditionell erhält der Gewinner das Beigoma des Gegners.
+
+### Omake Honko / おまけホンコ
+
+Eine anfängerfreundliche Version von Honko. Ein Anfänger kann ein Beigoma gewinnen, verliert aber seinen eigenen Kreisel nicht, wenn er den Wettkampf verliert.
+
+### Kado-zuke / 角づけ
+
+Das Beigoma in einem Winkel auf den Spielfußboden werfen.
+
+### Nissanchuzosho / 日三鋳造所
+
+Ein Hersteller und Verkäufer von Beigoma.
+
+## **Quelle**:
+
+Terminologie basierend auf dem Fachartikel über Beigoma-Terminologie von Tokyo Beigoma.

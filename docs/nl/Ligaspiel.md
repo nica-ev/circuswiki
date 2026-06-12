@@ -6,71 +6,58 @@ tags:
   - spiele
   - beigoma
 created: 2025-01-24 03:50:50
-update: 2025-01-24 23:21:13
+update: 2026-06-11 17:29:51
 title: Competitiewedstrijd
 description: 
 authors:
   - Marc Bielert
 translation_status: machine-translated
-translation_source_lang: de
-translation_source: docs/de/Ligaspiel.md
-translation_source_hash: 5d082b1cfdc43dbf82d42e78c9f18ae21ae9f2d1955a3652c10b668ebb26c04d
+translation_source_lang: en
+translation_source: docs/en/Ligaspiel.md
+translation_source_hash: 4317cbd876e1d86e7e648dfc554afc8ea070a828c173b681a6f36d1bdcd1827e
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T23:20:58+00:00
-translation_source_body_hash: 5d082b1cfdc43dbf82d42e78c9f18ae21ae9f2d1955a3652c10b668ebb26c04d
-translation_source_metadata_hash: 75474f004677e78faa13d948a117a966a8850e2b7b2b0a442a4bc41f8676019c
+translation_updated: 2026-06-11T15:39:24+00:00
+translation_source_body_hash: 4317cbd876e1d86e7e648dfc554afc8ea070a828c173b681a6f36d1bdcd1827e
+translation_source_metadata_hash: d35e67bcd9f8f74aa728d37684212afe09afbaaa6c6ac928344435185177e0d7
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:56:27+00:00
+translation_metadata_updated: 2026-06-11T15:39:24+00:00
 ---
-# Spelintroductie "Competitiespel"
+> [!info] Korte Beschrijving
+> Een round-robin Beigoma-format waarbij spelers in kleine groepen strijden en scores vergelijken.
 
-Deelnemers nemen het één-op-één op tegen de hele groep.
+**Groepsgrootte**: 5-36 personen
+**Moeilijkheidsgraad**: Gemiddeld
+**Benodigdheden**: Beigoma, touwtjes, speeloppervlakken, competitieschema's of scoreformulieren
+**Duur**: 20-60 minuten
 
-Zelfs als je een keer verliest, zoals in een toernooi, is het spel nog niet voorbij.
+## **Spelbeschrijving**:
 
-Deelnemers spelen een gelijk aantal wedstrijden en strijden om punten.
+Het League Games-format is een round-robin systeem. In tegenstelling tot een knock-out toernooi, wordt een speler niet geëlimineerd na een verlies. Iedereen in een groep speelt hetzelfde aantal wedstrijden en de winnaar wordt bepaald door de totale score.
 
-Hierdoor kun je aan veel spellen deelnemen.
+Dit format werkt goed wanneer het doel een eerlijke vergelijking en herhaald spel is, in plaats van snelle eliminatie.
 
-**\[Voorbereiding\]**
+Verdeel de deelnemers in groepen van ongeveer 5-9 spelers. Voer de namen van elke groep in een competitieschema in. Bijvoorbeeld, 18 spelers kunnen drie groepen van elk zes vormen.
 
-Schrijf de namen van de deelnemers op een ranglijst met 5 tot 9 personen per groep.
+Elke groep bepaalt wie de resultaten bijhoudt en wie de volgende wedstrijd aankondigt. Spelers strijden in een één-op-één format. Elke wedstrijd wordt gespeeld met één worp, tenzij lokale regels een herstart vereisen. Na elke wedstrijd controleren beide spelers of het resultaat in het schema is ingevoerd.
 
-(Als er in totaal 18 deelnemers zijn, vorm dan 3 groepen van 6 personen per groep.)
+Ga door totdat iedereen in de groep tegen iedereen heeft gespeeld. Tel de punten op. De groepswinnaars met de hoogste scores kunnen een finaleronde spelen.
 
-Een voorbeeld van een ranglijst wordt gepubliceerd.
+## **Scoring**:
 
-**\[Punten\]** \* Als richtlijn
+Een praktisch scoringsmodel is:
 
-- 3 punten ... winnen
+- 3 punten: Winst door Hajiki (Knock-out)
+- 2 punten: Winst door Riki (Knock-down)
+- 1 punt: Gelijkspel, Pakkan (beide vallen tegelijkertijd), of een ander gedeeltelijk resultaat waar de groep het over eens is
+- 0 punten: Verlies
 
-- 2 punten ... Riki wint
+Voor beginners kan een ondersteunende regel worden toegevoegd, zoals 1 punt voor het landen op de grond en draaien, zelfs als de wedstrijd verloren wordt.
 
-- 1 punt ... Gelijkspel (pak aan), winnen vanaf de grond
+## **Opmerkingen**:
 
-- 0 punten: Wedstrijd verliezen, Riki verliezen, vanaf de grond verliezen
+Vermijd dat dezelfde speler meerdere wedstrijden achter elkaar speelt terwijl anderen wachten. Door de volgende wedstrijd vroeg aan te kondigen, blijft het format in beweging.
 
-**Speciale regels** Alleen beginners mogen **speciale regels** hebben, zoals 1 punt krijgen door op de grond te gaan en zelfs een beetje te draaien, zelfs als ze de wedstrijd verliezen.
+## **Bron**:
 
-**\[Spelverloop\]**
-
-1. **Binnen de speelgroep** worden een scheidsrechter en een spelleider aangewezen.
-
-2. **Eén-op-één wedstrijd** ・ Slechts één keer gooien (alleen opnieuw starten als beiden van de grond komen) ・ Als de wedstrijd is bereikt, schrijven jullie elkaars punten op de tafel.
-
-3. **Herhaal de stappen van 2 binnen de groep.** ・ Neem deel aan een round robin en tel de punten op als alle gevechten voorbij zijn.
-
-4. **Finale** ・ De topscorers van elke groep komen samen om de winnaar te bepalen.
-
-**【Let op】**
-
-- De ranglijst bevat rijen en kolommen. Schrijf het resultaat van winst of verlies op basis van de rij.
-
-- Probeer evenwichtig te spelen, zodat dezelfde persoon niet achter elkaar speelt.
-
-- Als je de volgende tegenstander oproept en deze klaar maakt, kan de wedstrijd soepeler verlopen.
-
-![](https://static.wixstatic.com/media/39842b_d0ec221e650c41a29efebf8720292d96~mv2.jpg/v1/fill/w_925,h_566,al_c,q_90,usm_0.66_1.00_0.01/39842b_d0ec221e650c41a29efebf8720292d96~mv2.webp)
-
-![](https://static.wixstatic.com/media/39842b_d21710474b594b4f8ee7c005b34e194b~mv2.jpg/v1/fill/w_925,h_654,al_c,q_90,usm_0.66_1.00_0.01/39842b_d21710474b594b4f8ee7c005b34e194b~mv2.webp)
+Gebaseerd op het League Games-format van Tokyo Beigoma.

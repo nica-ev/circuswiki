@@ -2,29 +2,94 @@
 lang: de
 translation_id: index
 created: 2025-01-21 18:09:55
-update: 2026-06-10 19:55:59
+update: 2026-06-12 19:26:46
 publish: true
 tags:
   - moc
   - dynamic
-title: Home
-description:
+title: CircusWiki Home
+description: Einstieg in CircusWiki, eine offene und kuratierte Wissenssammlung für Zirkuspädagogik, Bewegungsspiele, inklusive Praxis und verwandte Themen.
 authors:
   - Marc Bielert
 translation_status: original
 translation_source_lang: de
 ---
 
-# Willkommen
-**Ein Wiki für Zirkus, Bewegung, Pädagogik, Sport und Kultur**
+> [!info] Kurz gesagt
+> CircusWiki ist eine offene, kuratierte und mehrsprachige Wissenssammlung für Zirkuspädagogik, Bewegungsspiele, inklusive Praxis, Jonglage und verwandte Themen.
 
-[Dokumentation Nica eV](Dokumentation%20Nica%20eV.md)  [Bewegungs-Spiele](Bewegungs-Spiele.md)  [mitmachen](mitmachen.md)  [Beigoma](Beigoma.md)  [Kaskade Workspace](Kaskade%20Workspace.md)  [Jonglage](Jonglage.md)
+Viele praktische Ideen entstehen in Workshops, Trainings, Projekten und Begegnungen. Oft bleiben sie lokal, verschwinden in alten Dokumenten oder gehen verloren, wenn Webseiten offline gehen. CircusWiki versucht, dieses Wissen langfristig zugänglich zu machen: als offene Ressource, die gefunden, verbessert, übersetzt und weitergegeben werden kann.
 
-## Erasmus+ 
-[Lets talk about inclusive circus practice](Lets-talk-about-inclusive-circus-practice.md)
+## Wissen entdecken
 
-## Workshops
+Diese Einstiege führen zu den wichtigsten Übersichtsseiten:
 
-[Hula hoop Workshop - Wiktoria Wittenberg](Warsztat%20Hula%20hoop.md)
-## Kürzliche Änderungen
-[Release Notes](release%20notes.md)
+<div class="grid cards" markdown>
+
+-   __Bewegungsspiele__
+
+    ---
+
+    Spiele, Warm-ups, Kooperationsformen, Kennenlernspiele und Bewegungsaufgaben für Gruppen.
+
+    [Bewegungsspiele öffnen](Bewegungs-Spiele.md){ .md-button }
+
+-   __Jonglage__
+
+    ---
+
+    Grundlagen, Übungen, Materialien und Spielideen rund um Jonglage und Objektmanipulation.
+
+    [Jonglage öffnen](Jonglage.md){ .md-button }
+
+-   __Beigoma__
+
+    ---
+
+    Eine wachsende Sammlung zu Beigoma: Material, Aufbau, Spielregeln, Formate und Workshop-Ideen.
+
+    [Beigoma öffnen](Beigoma.md){ .md-button }
+
+-   __Workshops und Artikel__
+
+    ---
+
+    Praxisnahe Materialien, Workshops, Tutorials und Artikel aus unterschiedlichen Quellen und Projekten.
+
+    [Workshops und Artikel öffnen](workshops-und-artikel.md){ .md-button }
+
+-   __Kaskade Archiv__
+
+    ---
+
+    Transkripte und aufbereitete Inhalte aus dem Kaskade-Magazin: rund 30 Jahre Jonglier- und Zirkusgeschichte.
+
+    [Kaskade Archiv öffnen](Kaskade%20Workspace.md){ .md-button }
+
+-   __NICA e.V.__
+
+    ---
+
+    Dokumentation zu Arbeitsweisen, digitalen Werkzeugen und organisatorischen Strukturen von NICA e.V.
+
+    [NICA-Dokumentation öffnen](Dokumentation%20Nica%20eV.md){ .md-button }
+
+</div>
+
+## Mitmachen
+
+CircusWiki lebt von Beiträgen aus der Praxis. Du kannst Spiele, Methoden, Korrekturen, Fotos, PDFs, Links, Übersetzungen oder alte Materialien beitragen. Das Material muss nicht perfekt sein und du brauchst kein GitHub-Konto.
+
+[Mitmachen](mitmachen.md){ .md-button }
+
+## Unterstützen
+
+CircusWiki ist offen zugänglich und werbefrei. Trotzdem entstehen Kosten: für technische Infrastruktur, Werkzeuge, Übersetzung, Archivierung und langfristige Pflege. Wir versuchen Förderungen zu nutzen, brauchen aber zusätzlich ein tragfähiges Spenden- und Unterstützungsmodell.
+
+Wir zeigen offen, wofür Geld verwendet wird, und berichten regelmäßig und nachvollziehbar darüber.
+
+[Projekt unterstützen](unterstuetzen.md){ .md-button }
+
+## Aktuelles
+
+- [Release Notes](release%20notes.md)

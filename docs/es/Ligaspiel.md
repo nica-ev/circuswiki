@@ -6,71 +6,58 @@ tags:
   - spiele
   - beigoma
 created: 2025-01-24 03:50:50
-update: 2025-01-24 23:21:13
-title: Partido de liga
+update: 2026-06-11 17:29:51
+title: Partido de Liga
 description: 
 authors:
   - Marc Bielert
 translation_status: machine-translated
-translation_source_lang: de
-translation_source: docs/de/Ligaspiel.md
-translation_source_hash: 5d082b1cfdc43dbf82d42e78c9f18ae21ae9f2d1955a3652c10b668ebb26c04d
+translation_source_lang: en
+translation_source: docs/en/Ligaspiel.md
+translation_source_hash: 4317cbd876e1d86e7e648dfc554afc8ea070a828c173b681a6f36d1bdcd1827e
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T14:07:57+00:00
-translation_source_body_hash: 5d082b1cfdc43dbf82d42e78c9f18ae21ae9f2d1955a3652c10b668ebb26c04d
-translation_source_metadata_hash: 75474f004677e78faa13d948a117a966a8850e2b7b2b0a442a4bc41f8676019c
+translation_updated: 2026-06-11T15:39:31+00:00
+translation_source_body_hash: 4317cbd876e1d86e7e648dfc554afc8ea070a828c173b681a6f36d1bdcd1827e
+translation_source_metadata_hash: d35e67bcd9f8f74aa728d37684212afe09afbaaa6c6ac928344435185177e0d7
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:56:28+00:00
+translation_metadata_updated: 2026-06-11T15:39:31+00:00
 ---
-# Introducción al juego "Juego de liga"
+> [!info] Descripción Breve
+> Un formato de Beigoma tipo "todos contra todos" donde los jugadores compiten en grupos pequeños y comparan puntuaciones.
 
-Los participantes compiten uno a uno con todo el grupo.
+**Tamaño del Grupo**: 5-36 personas
+**Dificultad**: Media
+**Materiales**: Beigoma, cuerdas, superficies de juego, tablas de liga u hojas de puntuación
+**Duración**: 20-60 minutos
 
-Aunque pierdas una vez, como en un combate de torneo, no se acaba.
+## **Descripción del Juego**:
 
-Los participantes juegan la misma cantidad de partidas y compiten por puntos.
+El formato de "Partidas de Liga" es un sistema de "todos contra todos". A diferencia de un torneo de eliminación directa, un jugador no es eliminado tras una derrota. Todos en un grupo juegan el mismo número de partidas y el ganador se determina por la puntuación total.
 
-Por lo tanto, puedes participar en muchos juegos.
+Este formato funciona bien cuando el objetivo es una comparación justa y el juego repetido, en lugar de una eliminación rápida.
 
-**\[Preparación\]**
+Divide a los participantes en grupos de aproximadamente 5-9 jugadores. Introduce los nombres de cada grupo en una tabla de liga. Por ejemplo, 18 jugadores podrían formar tres grupos de seis cada uno.
 
-Escribe los nombres de los participantes en la tabla de clasificación con 5 a 9 personas como un grupo.
+Cada grupo decide quién registrará los resultados y quién anunciará la siguiente partida. Los jugadores compiten en un formato uno contra uno. Cada partida se juega con un solo lanzamiento, a menos que las reglas locales requieran un reinicio. Después de cada partida, ambos jugadores comprueban que el resultado se haya introducido en la tabla.
 
-(Si hay 18 participantes en total, forma 3 grupos de 6 personas como 1 grupo)
+Continúa hasta que todos en el grupo hayan jugado contra todos los demás. Suma los puntos. Los ganadores del grupo con las puntuaciones más altas pueden jugar una ronda final.
 
-Se publicará una tabla de clasificación de ejemplo.
+## **Puntuación**:
 
-**\[Puntuación\]** \* Como guía
+Un modelo de puntuación práctico es:
 
-- 3 puntos... ganar
+- 3 puntos: Victoria por Hajiki (Knock-out)
+- 2 puntos: Victoria por Riki (Derribo)
+- 1 punto: Empate, Pakkan (ambos caen simultáneamente) o cualquier otro resultado parcial acordado por el grupo
+- 0 puntos: Derrota
 
-- 2 puntos... ganar Riki
+Para principiantes, se puede añadir una regla de apoyo, como 1 punto por aterrizar en el suelo y girar, incluso si se pierde la partida.
 
-- 1 punto... empate (empate), ganar desde el suelo
+## **Notas**:
 
-- 0 puntos: perder el juego, perder Riki, perder desde el suelo
+Evita que el mismo jugador juegue varias partidas seguidas mientras otros esperan. Anunciar la siguiente partida con antelación mantiene el formato en movimiento.
 
-**Reglas especiales** Solo los principiantes pueden tener **reglas especiales**, como obtener 1 punto por ir al suelo e incluso dar una pequeña vuelta, incluso si pierden el juego.
+## **Fuente**:
 
-**\[Flujo del juego\]**
-
-1. **Dentro del grupo de miembros del juego**, se decidirán un árbitro y el progreso del juego.
-
-2. **Partida uno a uno** ・ Solo un lanzamiento (solo se reinicia si ambos se levantan del suelo) ・ Cuando se alcanza la partida, anoten los puntos mutuamente en la tabla.
-
-3. **Repetir el flujo del punto 2 en el grupo.** ・ Participar en un round robin y sumar los puntos cuando todas las batallas hayan terminado.
-
-4. **Final** ・ Los goleadores de cada grupo se reunirán para determinar al ganador.
-
-**【Precaución】**
-
-- La tabla de clasificación tiene filas y columnas. Escriba el resultado de una victoria o derrota basándose en la fila.
-
-- Intenta jugar de manera equilibrada para que la misma persona no juegue en sucesión.
-
-- Si llamas al siguiente oponente y lo preparas, la partida se puede jugar sin problemas.
-
-![](https://static.wixstatic.com/media/39842b_d0ec221e650c41a29efebf8720292d96~mv2.jpg/v1/fill/w_925,h_566,al_c,q_90,usm_0.66_1.00_0.01/39842b_d0ec221e650c41a29efebf8720292d96~mv2.webp)
-
-![](https://static.wixstatic.com/media/39842b_d21710474b594b4f8ee7c005b34e194b~mv2.jpg/v1/fill/w_925,h_654,al_c,q_90,usm_0.66_1.00_0.01/39842b_d21710474b594b4f8ee7c005b34e194b~mv2.webp)
+Basado en el formato "League Games" de Tokyo Beigoma.

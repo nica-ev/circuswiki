@@ -2,8 +2,8 @@
 lang: hu
 translation_id: kaskade-workspace
 created: 2025-01-21 18:09:55
-update: 2026-06-08 21:15:16
-publish: draft
+update: 2026-06-12 19:11:41
+publish: true
 tags:
   - moc
   - dynamic
@@ -14,51 +14,51 @@ authors:
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Kaskade Workspace.md
-translation_source_hash: 868e2ee0cbe7e65730873331919360e6050c09b83fcbdde4327359519389b85d
+translation_source_hash: 29a1552cf493836b4b474a5912aebdb63538c48b359b37de5a4b8b2e5b94d53f
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-08T20:11:56+00:00
-translation_source_body_hash: 868e2ee0cbe7e65730873331919360e6050c09b83fcbdde4327359519389b85d
+translation_updated: 2026-06-12T17:33:04+00:00
+translation_source_body_hash: 29a1552cf493836b4b474a5912aebdb63538c48b359b37de5a4b8b2e5b94d53f
 translation_source_metadata_hash: e7f4ba685ffe753f20b46abef2ca8139d54bb761a72234a6398c888d59b39b90
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:52:55+00:00
+translation_metadata_updated: 2026-06-12T17:33:04+00:00
 ---
 >[!info]- Bevezetés
->A Kaskade magazinnal nőttem fel. Még mielőtt volt Youtube, mielőtt mindent megtalálhattunk volna az interneten – ez a magazin volt az egyik első rendszeres információs forrásom az ugrálás, a cirkusz, a show témakörében.
->Amikor a magazin 2013-ban megszűnt, egy korszak végét jelentette – legalábbis számomra.
->Több éven keresztül a magazinok PDF-ként még letölthetők voltak, kb. 2017 óta pedig az oldal is elérhetetlenné vált.
->Gyakran emlékeztem vissza kis workshopokra, oktatóanyagokra vagy cikkekre, amelyek akkoriban inspiráltak. Amikor évekkel később szerettem volna valamit újra elolvasni – erre már nem volt lehetőség.
+>A Kaskade magazinnal nőttem fel. Még mielőtt volt Youtube, mielőtt mindent megtalálhattunk volna az interneten – ez a magazin volt az egyik első rendszeres információm az ugrálás, a cirkusz, a show témakörében, ami a kezembe került.
+>Amikor a magazin 2013-ban megszűnt, ez egy korszak végét jelentette – legalábbis számomra.
+>Több éven keresztül a magazinok PDF formátumban még letölthetők voltak, kb. 2017 óta az oldal offline.
+>Gyakran emlékeztem kis workshopokra, oktatóanyagokra vagy cikkekre, amelyek akkoriban inspiráltak. Amikor évekkel később újra el akartam olvasni valamit – erre már nem volt lehetőség.
 >
->A Wayback Machine (The Internet Archive) segítségével szerencsére találtam egy 2017-es mentést a teljes letöltésekkel (ez nem mindig van így, különösen, mivel kb. 3 GB PDF-ről van szó) – német, angol és francia kiadásokkal együtt.
+>A Wayback Machine (The Internet Archive) segítségével szerencsére találtam egy 2017-es mentést a teljes letöltésekkel (ez nem mindig van így, különösen, mivel kb. 3 GB PDF-ről van szó) – teljes német, angol és francia kiadással.
 >
->Átnézve észrevettem, hogy bár sok nagyszerű cikk és oktatóanyag volt elrejtve a magazinokban – a mai világban aligha nézne bárki is át 112, csak fénymásolt magazint. Hát, hacsak nincs valakinek nosztalgikus érdeklődése =P
+>Átnézve észrevettem, hogy bár sok nagyszerű cikk és oktatóanyag volt elrejtve a magazinokban – de a mai korban aligha nézne bárki is át 112, csak fénymásolt magazint. Hát, hacsak nincs nosztalgikus érdeklődése =P
 >
->Mivel kár lenne az információkért, megpróbáltam a jelenlegi technika segítségével digitalizálni az egészet úgy, hogy ma is értelmesen használható legyen.
+>Mivel kár lenne a tudásért, megpróbáltam a jelenlegi technika segítségével digitalizálni az egészet úgy, hogy az ma is értelmesen használható legyen.
 
->[!info]- Hogyan transzkribálódtak a magazinok?
->Először eltávolítottam az összes olyan oldalt a PDF-ből, amely nem tartalmazott releváns szöveget.
+>[!info]- Hogyan transzkribálták a magazinokat?
+>Először eltávolítottam az összes oldalt a PDF-ből, amelyek nem tartalmaztak releváns szöveget.
 >
 >Az igazi transzkribáláshoz (vagy OCR-hez) a Google egy multimodális nyelvi modelljét használtam.
->A ```Gemini 2.0 Pro Experimental 02-05``` verziót használtam a következő prompttal:
+>A ```Gemini 2.0 Pro Experimental 02-05```-t használtam a következő prompttal:
 >```
 >The attached PDF is a photocopy of a magazine. Extract all text, keep the document structure intact as much as possible, also extract single images and have them correctly in context.
 >```
 >valamint a beolvasott magazin PDF-jét.
->Beállítások: Temperature 0.1 (Fontos a téves következtetések elkerülése érdekében)
+>Beállítások: Hőmérséklet 0.1 (Fontos a hallucinációk elkerülése érdekében)
 >
->Az outputot a ```gemini-2.0-flash-exp``` és a következő prompt (valamint a mellékelt, általunk kinyert szöveg) segítségével tisztítottam meg:
+>A kimenetet a ```gemini-2.0-flash-exp``` és a következő prompt (valamint a mellékelt, általunk kinyert szöveg) segítségével tisztítottam meg:
 >```
 >The following text is extracted with OCR from an old magazin. Your task is to clean this up. Remove artifacts (like page-numbering, unneccessary linebreaks) or unneeded parts but keep the structure, articles etc. intact. Use a proper Markdown formatting to structure the text correctly.
 >
 >Text:
 >```
 >
->Az eredményt ezután még egyszer manuálisan átnéztem és javítottam.
+>Az eredményt ezután manuálisan is átnéztem és javítottam.
 >
 >>[!Danger]+ Fontos:
 >>A hangsúly a cikkek, workshopok, interjúk stb. kinyerésén volt.
 >>Az olyan bejegyzéseket, mint pl. apróhirdetések stb. elvetettem.
->>A szövegek kinyerése és tisztítása LLM-ekkel történt, így mindig fennáll a lehetősége, hogy a szövegek nem 1:1-ben lettek transzkribálva, vagy a tartalom kissé eltér az eredetitől. Igyekeztem a hibaszázalékot a lehető legalacsonyabb szinten tartani azáltal, hogy mintavételezéssel összehasonlítottam szövegrészeket.
+>>A szövegek kinyerése és tisztítása LLM-ekkel történt, így mindig fennáll a lehetősége, hogy a szövegek nem 1:1-ben lettek transzkribálva, vagy a tartalom kissé eltér az eredetitől. Igyekeztem a hibaarányt a lehető legalacsonyabb szinten tartani azáltal, hogy véletlenszerűen összehasonlítottam szövegrészeket.
 
 <!-- dynamic:start
 engine: obsidian-base
@@ -102,13 +102,13 @@ columns: file, authors, type, sub-type, source
 
 ---
 
->[!info]- Tévesen elnevezett / összevont kiadások (002 - 004)
+>[!info]- Tévesen elnevezett / összefoglalt kiadások (002 - 004)
 >
 >Kaskade 002:
->A német eredeti PDF-ben a 2. és 3. kiadás össze van vonva.
+>A német eredeti PDF-ben a 2. és 3. kiadás együtt van.
 >
 >Kaskade 003:
->A német eredeti PDF-ben itt a 004-es kiadás található.
+>A német eredeti PDF-ben itt található a 004-es kiadás.
 >
 >Kaskade 004:
 >Itt hiányzik a címlap, még nem tudtam kideríteni, mihez tartozik...
@@ -116,5 +116,5 @@ columns: file, authors, type, sub-type, source
 >
 >Javítás:
 >A Kaskade 002 (eredeti) PDF-et kettéosztottam 002-re és 003-ra.
->A Kaskade 003 (eredeti) átnevezve Kaskade 004-re.
->A Kaskade 004 (eredeti) pedig törölve lett.
+>A Kaskade 003 (eredeti) átneveztem Kaskade 004-re.
+>A Kaskade 004 (eredeti) pedig töröltem.

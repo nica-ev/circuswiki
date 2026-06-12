@@ -6,71 +6,58 @@ tags:
   - spiele
   - beigoma
 created: 2025-01-24 03:50:50
-update: 2025-01-24 23:21:13
+update: 2026-06-11 17:29:51
 title: Mecz ligowy
 description: 
 authors:
   - Marc Bielert
 translation_status: machine-translated
-translation_source_lang: de
-translation_source: docs/de/Ligaspiel.md
-translation_source_hash: 5d082b1cfdc43dbf82d42e78c9f18ae21ae9f2d1955a3652c10b668ebb26c04d
+translation_source_lang: en
+translation_source: docs/en/Ligaspiel.md
+translation_source_hash: 4317cbd876e1d86e7e648dfc554afc8ea070a828c173b681a6f36d1bdcd1827e
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T20:20:41+00:00
-translation_source_body_hash: 5d082b1cfdc43dbf82d42e78c9f18ae21ae9f2d1955a3652c10b668ebb26c04d
-translation_source_metadata_hash: 75474f004677e78faa13d948a117a966a8850e2b7b2b0a442a4bc41f8676019c
+translation_updated: 2026-06-11T15:39:07+00:00
+translation_source_body_hash: 4317cbd876e1d86e7e648dfc554afc8ea070a828c173b681a6f36d1bdcd1827e
+translation_source_metadata_hash: d35e67bcd9f8f74aa728d37684212afe09afbaaa6c6ac928344435185177e0d7
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:56:24+00:00
+translation_metadata_updated: 2026-06-11T15:39:07+00:00
 ---
-# Wprowadzenie do gry „Mecz ligowy”
+> [!info] Krótki opis
+> Format gry Beigoma typu „każdy z każdym” (round-robin), w którym gracze rywalizują w małych grupach i porównują wyniki.
 
-Uczestnicy rywalizują jeden na jednego z całą grupą.
+**Wielkość grupy**: 5-36 osób
+**Poziom trudności**: Średni
+**Materiały**: Beigoma, sznurki, powierzchnie do gry, tabele ligowe lub karty wyników
+**Czas trwania**: 20-60 minut
 
-Nawet jeśli raz przegrasz, podobnie jak w walce turniejowej, gra się nie kończy.
+## **Opis gry**:
 
-Uczestnicy rozegrają tę samą liczbę gier i będą walczyć o punkty.
+Format Gry Ligowej to system „każdy z każdym” (round-robin). W przeciwieństwie do turnieju pucharowego, gracz nie odpada po przegranej. Wszyscy w grupie rozgrywają tę samą liczbę meczów, a zwycięzca jest wyłaniany na podstawie łącznego wyniku.
 
-Dlatego możesz wziąć udział w wielu grach.
+Ten format sprawdza się, gdy celem jest sprawiedliwe porównanie i powtarzalna gra, a nie szybka eliminacja.
 
-**\[Przygotowanie\]**
+Podziel uczestników na grupy liczące około 5-9 osób. Wpisz nazwiska każdego gracza do tabeli ligowej. Na przykład 18 graczy może utworzyć trzy grupy po sześć osób każda.
 
-Wpisz imiona uczestników na liście rankingowej, tworząc grupy od 5 do 9 osób.
+Każda grupa decyduje, kto będzie zapisywał wyniki, a kto ogłaszał kolejny mecz. Gracze rywalizują w formacie jeden na jeden. Każdy mecz rozgrywany jest jednym rzutem, chyba że lokalne zasady wymagają powtórzenia. Po każdym meczu obaj gracze sprawdzają, czy wynik został wpisany do tabeli.
 
-(Jeśli jest łącznie 18 uczestników, utwórz 3 grupy po 6 osób w każdej grupie).
+Grajcie, aż każdy w grupie rozegra mecz z każdym innym członkiem grupy. Zsumuj punkty. Zwycięzcy grup z najwyższymi wynikami mogą rozegrać rundę finałową.
 
-Zostanie opublikowana przykładowa lista rankingowa.
+## **Punktacja**:
 
-**\[Punktacja\]** \* Jako wskazówka
+Praktyczny model punktacji wygląda następująco:
 
-- 3 punkty… wygrana
+- 3 punkty: Zwycięstwo przez Hajiki (wybicie przeciwnika)
+- 2 punkty: Zwycięstwo przez Riki (przewrócenie przeciwnika)
+- 1 punkt: Remis, Pakkan (oba spadają jednocześnie) lub inny częściowy wynik uzgodniony przez grupę
+- 0 punktów: Porażka
 
-- 2 punkty… wygrana Riki
+Dla początkujących można dodać zasadę pomocniczą, np. 1 punkt za wylądowanie na ziemi i kręcenie się, nawet jeśli mecz został przegrany.
 
-- 1 punkt… remis (remis), wygrana z pozycji leżącej
+## **Uwagi**:
 
-- 0 punktów: przegrana, przegrana Riki, przegrana z pozycji leżącej
+Unikaj sytuacji, w której ten sam gracz rozgrywa wiele meczów z rzędu, podczas gdy inni czekają. Wcześniejsze ogłaszanie kolejnego meczu przyspiesza rozgrywkę.
 
-**Reguły specjalne** Tylko początkujący mogą mieć **reguły specjalne**, na przykład otrzymanie 1 punktu za położenie się na ziemi i nawet lekkie obrócenie się, nawet jeśli przegrają mecz.
+## **Źródło**:
 
-**\[Przebieg gry\]**
-
-1. **W ramach grupy uczestniczącej w grze** wyznacza się sędziego i osobę odpowiedzialną za przebieg gry.
-
-2. **Mecz jeden na jednego** · Rzut tylko raz (ponowne rozpoczęcie tylko wtedy, gdy obaj zawodnicy oderwą się od ziemi) · Po osiągnięciu wyniku meczu, wzajemnie zapiszcie punkty na tablicy.
-
-3. **Powtórz przebieg z punktu 2 w grupie.** · Weź udział w systemie każdy z każdym i zsumuj punkty po zakończeniu wszystkich walk.
-
-4. **Finał** · Najlepsi gracze z każdej grupy spotkają się, aby wyłonić zwycięzcę.
-
-**【Uwaga】**
-
-- Lista rankingowa zawiera wiersze i kolumny. Zapisz wynik zwycięstwa lub porażki w oparciu o wiersz.
-
-- Staraj się grać w sposób zrównoważony, aby ta sama osoba nie grała kolejno.
-
-- Jeśli zawołasz następnego przeciwnika i przygotujesz go, mecz będzie mógł przebiegać płynnie.
-
-![](https://static.wixstatic.com/media/39842b_d0ec221e650c41a29efebf8720292d96~mv2.jpg/v1/fill/w_925,h_566,al_c,q_90,usm_0.66_1.00_0.01/39842b_d0ec221e650c41a29efebf8720292d96~mv2.webp)
-
-![](https://static.wixstatic.com/media/39842b_d21710474b594b4f8ee7c005b34e194b~mv2.jpg/v1/fill/w_925,h_654,al_c,q_90,usm_0.66_1.00_0.01/39842b_d21710474b594b4f8ee7c005b34e194b~mv2.webp)
+Oparte na formacie Gry Ligowej z Tokyo Beigoma.

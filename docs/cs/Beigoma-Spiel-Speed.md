@@ -6,70 +6,60 @@ tags:
   - spiele
   - beigoma
 created: 2025-01-24 03:50:50
-update: 2026-06-07 00:03:13
+update: 2026-06-11 17:27:26
 title: Rychlost
 description: 
 authors:
   - Marc Bielert
 translation_status: machine-translated
-translation_source_lang: de
-translation_source: docs/de/Beigoma-Spiel-Speed.md
-translation_source_hash: 080f1de9ea2ce38073fc7e0b68b8cbf59fd7b264e050b187f23ea80d087c6f9b
+translation_source_lang: en
+translation_source: docs/en/Beigoma-Spiel-Speed.md
+translation_source_hash: 6c7f4f79a50ccc76b5512fc5a89d7173f09cb3c3980fd3fe1423df0929e3421a
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T18:28:10+00:00
-translation_source_body_hash: 080f1de9ea2ce38073fc7e0b68b8cbf59fd7b264e050b187f23ea80d087c6f9b
+translation_updated: 2026-06-11T15:35:23+00:00
+translation_source_body_hash: 6c7f4f79a50ccc76b5512fc5a89d7173f09cb3c3980fd3fe1423df0929e3421a
 translation_source_metadata_hash: e965e919695442f59ce8705a71eb65d4c9b19fcccd39c0ff0b013ff42b8b79d8
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:02:53+00:00
+translation_metadata_updated: 2026-06-11T15:35:23+00:00
 ---
-Úvod do hry „Speed“.
-Popis hry.
+> [!info] Stručný popis
+> Varianta Beigoma Speed, kde hráči dokončí stanovený počet rychlých čtyřčlenných kol na bodovacích kartách.
 
-Tuto hru může hrát mnoho lidí. (Je možná i s menším počtem hráčů.)
+**Velikost skupiny**: 4–40 osob
+**Obtížnost**: Snadná
+**Materiály**: Beigoma, provázky, hrací plochy, bodovací karty
+**Doba trvání**: 10–45 minut
 
-Počet her lze upravit v závislosti na počtu účastníků a délce hry.
+## **Popis hry**:
 
-Počet her lze upravit v závislosti na počtu účastníků a délce hry. V krátkém případě 10 her, v dlouhém případě 30 her.
+Tato poznámka si ponechává starší variantu Speed Card jako samostatnou poznámku ke hře. Je úzce spjata s [Beigoma Speed](Spiel%20Geschwindigkeit.md): oba formáty používají rychlá čtyřčlenná kola, standardní Beigoma a bodovací karty.
 
-Jelikož se hra hraje současně se čtyřmi hráči, jedná se o hru s velkým prvkem náhody.
+Na začátku každý hráč obdrží kartu a napíše na ni své jméno. Vedoucí hry určí, kolik kol se bude započítávat do hry. Krátká hra může zahrnovat 10 kol; delší hra může trvat až 30 kol.
 
-Proto ji mohou hrát začátečníci i pokročilí.
+Čtyři hráči se shromáždí u hrací plochy a odehrají přesně jedno kolo. Výsledek se zaznamená na karty hráčů. Po tomto kole se hráči přesunou na jinou plochu nebo vytvoří novou skupinu. Hra pro každého hráče končí, jakmile jeho karta obsahuje dohodnutý počet započítaných kol.
 
-Hra se nazývá „Speed“, protože se hraje mnoho her v rychlém sledu. V některých oblastech se hra nazývá podle počtu her, „00krát“.
+Když jsou karty zaplněné, vedoucí hry sečte body a oznámí nejvyšší skóre.
 
-Pravidla
+## **Pravidla**:
 
-4 hráči nastupují současně
+- Současně soutěží čtyři hráči.
+- Používají se standardní, neupravené Beigoma.
+- Každá skupina odehraje jedno kolo před přesunem do jiné skupiny.
+- Opakované hraní na stejné ploše by se mělo vyhnout, pokud jsou k dispozici jiné plochy.
 
-Hraje se hra o sílu.
+## **Bodování**:
 
-Použijte normální bagomu.
+- Výhra: 3 body
+- Remíza: 1 bod
+- Prohra: 0 bodů
 
-Výsledek hry
+Rozdělení bodů lze upravit místními pravidly.
 
-Vítězství: 3 body
+## **Poznámky**:
 
-Remíza: 1 bod
+Tato stránka se překrývá s [Beigoma Speed](Spiel%20Geschwindigkeit.md). Měla by být později přezkoumána, aby se rozhodlo, zda jsou obě poznámky nutné, ale v současné době zůstává platnou poznámkou ke hře pro konzistenci překladu a metadat.
 
-Prohra: 0 bodů
+## **Zdroj**:
 
-Rozdělení bodů se liší podle regionu.
-
-Průběh hry
-
-Každý hráč obdrží kartu a napíše na ni své jméno.
-
-Čtyři lidé se shromáždí poblíž na zemi a zahrají hru pouze jednou.
-
-Vítěz hry obdrží od každého účastníka kartu a zapíše na ni body všech účastníků (pokud je přítomen rozhodčí, zapíše body na kartu rozhodčí).
-
-Přesuňte se na jiné patro a hrajte znovu, když se shromáždí 4 hráči (je zakázáno házet stále na stejném patře).
-
-(Je zakázáno házet stále na stejném patře) Zahrajte určený počet hodů na kartě.
-
-Hra končí pro osobu, jejíž karta je zaplněna body.
-
-Odpovědná osoba sečte výsledky a oznámí nejvyššího skórujícího.
-
-Přeloženo pomocí www.DeepL.com/Translator (bezplatná verze)
+Založeno na formátu Speed Game z Tokyo Beigoma.

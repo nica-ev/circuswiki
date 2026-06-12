@@ -1,0 +1,10 @@
+views:
+  - type: table
+    name: Tutorials
+    filters:
+      and:
+        - lang == "de"
+        - type == "Tutorial"
+    order:
+      - file.name
+      - authors

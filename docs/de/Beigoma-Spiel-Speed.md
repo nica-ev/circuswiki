@@ -6,62 +6,60 @@ tags:
   - spiele
   - beigoma
 created: 2025-01-24 03:50:50
-update: 2026-06-07 00:03:13
-title: Speed
-description: 
+update: 2026-06-11 17:27:26
+title: Geschwindigkeit
+description:
 authors:
   - Marc Bielert
-translation_status: original
-translation_source_lang: de
+translation_status: machine-translated
+translation_source_lang: en
+translation_source: docs/en/Beigoma-Spiel-Speed.md
+translation_source_body_hash: 6c7f4f79a50ccc76b5512fc5a89d7173f09cb3c3980fd3fe1423df0929e3421a
+translation_source_hash: 6c7f4f79a50ccc76b5512fc5a89d7173f09cb3c3980fd3fe1423df0929e3421a
+translation_model: google/gemini-2.5-flash-lite
+translation_updated: 2026-06-11T15:34:56+00:00
+translation_source_metadata_hash: e965e919695442f59ce8705a71eb65d4c9b19fcccd39c0ff0b013ff42b8b79d8
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-06-11T15:34:56+00:00
 ---
+> [!info] Kurzbeschreibung
+> Eine Beigoma-Speed-Variante, bei der die Spieler eine festgelegte Anzahl von schnellen Vier-Spieler-Runden auf Bewertungskarten absolvieren.
 
-Einführung in das Spiel "Speed".
-Spielbeschreibung.
+**Gruppengröße**: 4-40 Personen
+**Schwierigkeitsgrad**: Leicht
+**Materialien**: Beigoma, Schnüre, Spielflächen, Bewertungskarten
+**Dauer**: 10-45 Minuten
 
-Dieses Spiel kann mit vielen Personen gespielt werden. (Es ist auch mit einer kleinen Anzahl von Spielern möglich.)
+## **Spielbeschreibung**:
 
-Sie können die Anzahl der Kämpfe in Abhängigkeit von der Teilnehmerzahl und der Spielzeit anpassen.
+Diese Notiz behält die ältere Speed-Card-Variante als eigene Spielnotiz bei. Sie ist eng mit [Beigoma Speed](Spiel%20Geschwindigkeit.md) verwandt: Beide Formate verwenden schnelle Vier-Spieler-Runden, Standard-Beigoma und Bewertungskarten.
 
-Die Anzahl der Kämpfe kann je nach Anzahl der Teilnehmer und der Spielzeit angepasst werden. 10 Kämpfe im kurzen Fall, 30 Kämpfe im langen Fall.
+Zu Beginn erhält jeder Spieler eine Karte und schreibt seinen Namen darauf. Der Spielleiter bestimmt, wie viele Runden für das Spiel zählen. Eine kurze Sitzung kann 10 Runden umfassen; eine längere Sitzung kann bis zu 30 Runden dauern.
 
-Da das Spiel mit vier Spielern gleichzeitig gespielt wird, ist es ein Spiel mit einem großen Glückselement.
+Vier Spieler versammeln sich an einer Spielfläche und spielen genau eine Runde. Das Ergebnis wird auf den Karten der Spieler vermerkt. Nach dieser Runde wechseln die Spieler zu einer anderen Fläche oder bilden eine neue Gruppe. Das Spiel endet für jeden Spieler, sobald seine Karte die vereinbarte Anzahl von gewerteten Runden enthält.
 
-Daher kann es von Anfängern und Fortgeschrittenen gleichermaßen gespielt werden.
+Wenn die Karten voll sind, zählt der Spielleiter die Punkte zusammen und gibt die höchste Punktzahl bekannt.
 
-Das Spiel wird "Speed" genannt, weil viele Spiele in schneller Folge gespielt werden. In einigen Bereichen ist das Spiel nach der Anzahl der Kämpfe benannt, "00 mal".
+## **Regeln**:
 
-Regeln
+- Vier Spieler treten gleichzeitig gegeneinander an.
+- Es werden Standard-Beigoma ohne Modifikationen verwendet.
+- Jede Gruppe spielt eine Runde, bevor sie die Gruppe wechselt.
+- Wiederholtes Spielen auf derselben Fläche sollte vermieden werden, wenn andere Flächen verfügbar sind.
 
-4 Spieler treten gleichzeitig ein
+## **Bewertung**:
 
-Es gibt ein Spiel der Kräfte.
+- Sieg: 3 Punkte
+- Unentschieden: 1 Punkt
+- Niederlage: 0 Punkte
 
-Verwenden Sie ein normales Bagoma.
+Die Punkteverteilung kann durch lokale Regeln geändert werden.
 
-Ergebnis des Spiels
+## **Anmerkungen**:
 
-Sieg: 3 Punkte
+Diese Seite überschneidet sich mit [Beigoma Speed](Spiel%20Geschwindigkeit.md). Sie sollte später überprüft werden, um zu entscheiden, ob beide Notizen benötigt werden, aber sie bleibt derzeit eine gültige Spielnotiz für Übersetzungs- und Metadatenkonsistenz.
 
-Unentschieden: 1 Punkt
+## **Quelle**:
 
-Verlieren: 0 Punkte
-
-Die Verteilung der Punkte ändert sich je nach Region.
-
-Ablauf des Spiels
-
-Jeder Spieler erhält eine Karte und schreibt seinen Namen darauf.
-
-Vier Personen versammeln sich in der Nähe auf dem Boden und spielen das Spiel nur einmal.
-
-Der Gewinner des Spiels erhält von jedem Teilnehmer eine Karte und schreibt die Punkte aller Teilnehmer auf die Karte (wenn es einen Schiedsrichter gibt, schreibt der Schiedsrichter die Punkte auf die Karte)
-
-Wechseln Sie in ein anderes Stockwerk und spielen Sie erneut, wenn 4 Spieler zusammenkommen (es ist ein Vergehen, ständig auf demselben Stockwerk zu werfen)
-
-(Es ist ein Vergehen, immer wieder auf denselben Boden zu werfen) Spielen Sie die auf der Karte angegebene Anzahl von Würfen.
-
-Das Spiel endet für die Person, deren Karte mit Punkten gefüllt ist.
-
-Die verantwortliche Person zählt die Ergebnisse zusammen und gibt den Highscorer bekannt.
-
-Übersetzt mit www.DeepL.com/Translator (kostenlose Version)
+Basierend auf dem Speed-Game-Format von Tokyo Beigoma.

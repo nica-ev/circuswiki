@@ -5,77 +5,119 @@ publish: true
 tags:
   - beigoma
 created: 2025-02-01 02:31:52
-update: 2026-06-07 00:02:54
-title: Beigoma terminológia bevezetése
-description: 
+update: 2026-06-11 17:22:26
+title: Beigoma Szakkifejezések
+description: Gyakori beigoma kifejezések gyűjteménye a pörgetéshez, a pörgettyű típusokhoz, a mérkőzés szabályaihoz és a játék kultúrájához.
 authors:
   - Marc Bielert
 translation_status: machine-translated
-translation_source_lang: de
-translation_source: docs/de/Beigoma Terminologie.md
-translation_source_hash: fc416799359d7c20883758d0f548610b78b5f52938c0951b4696495ab7d0ca42
+translation_source_lang: en
+translation_source: docs/en/Beigoma Terminologie.md
+translation_source_hash: 27928971eba11de4f7a6c3dc41061ec4fe144e768cf62baad48e2310418ac2bf
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T22:33:53+00:00
-translation_source_body_hash: fc416799359d7c20883758d0f548610b78b5f52938c0951b4696495ab7d0ca42
-translation_source_metadata_hash: 2208c0f851d177a0116620667c57786569aeb50671acb6a2c5b1d82a8d8fcd15
+translation_updated: 2026-06-11T15:35:44+00:00
+translation_source_body_hash: 27928971eba11de4f7a6c3dc41061ec4fe144e768cf62baad48e2310418ac2bf
+translation_source_metadata_hash: 72bff203f2113613015aab5289be3aa7eb964a6cbf29210a35af8c2c72cd058b
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:02:55+00:00
+translation_metadata_updated: 2026-06-11T15:35:44+00:00
+source:
+  - Tokyo Beigoma
+source_url: https://tokyo-beigoma.com/%E3%83%99%E3%83%BC%E3%82%B4%E3%83%9E%E5%B0%82%E9%96%80%E7%94%A8%E8%AA%9E%E3%81%AE%E3%81%94%E7%B4%B9%E4%BB%8B/
 ---
-A beigoma (pörgettyű) játéka során különböző szakzsargonok kerülnek elő. Ezek csak egyszerű tartalmak. Ha ismerjük őket, könnyebb lesz a kommunikáció, ezért használjuk őket bátran!
+> [!info] Összefoglaló
+> Ez a szószedet a japán Beigoma kifejezéseket jeleníti meg, és gyakorlatias angol nyelven magyarázza el őket műhelyek és játékszervezés céljából.
 
-## **A beigoma feltekerése**
+A Beigoma saját szókincscsel rendelkezik. A japán kifejezések megőrzése hasznos, mivel sok oktatóanyag, videó és szabályleírás közvetlenül ezeket használja.
 
-### Női feltekerés
+## **Felcsévélési kifejezések**:
 
-A zsinórt úgy tekerjük fel, hogy két csomó legyen rajta, kb. 0,5-1 cm távolságra egymástól.
+### Onna-maki / 女巻き
 
-Ez a feltekerési módszer viszonylag elterjedt.
+Olyan felcsévélési stílus, amelynél két, egymáshoz közel (általában 0,5-1 cm távolságra) elhelyezett csomóval rendelkező zsinórt használnak. Ez egy gyakori, kezdőbarát felcsévélési stílus.
 
-### Férfi feltekerés
+### Otoko-maki / 男巻き
 
-A zsinórt úgy tekerjük fel, hogy két csomó legyen rajta, kb. 5 cm távolságra egymástól.
+Olyan felcsévélési stílus, amelynél két, jóval távolabb (körülbelül 5 cm) elhelyezett csomót használnak. Ez egy másik hagyományos felcsévélési lehetőség.
 
-## **A beigoma típusai**
+## **Beigoma típusok**:
 
-### Normál beigoma
+### Normal Beigoma / ノーマルベーゴマ
 
-Olyan beigoma, amelynek a teteje lekerekített, és nem lett megmunkálva. Mivel ez egy teljesen érintetlen darab, nagy a szerencse szerepe a győzelemben vagy vereségben. Ha egy kezdő beigomázó is egy normál beigomával áll szemben, akkor is nagy eséllyel nyerhet, még akkor is, ha egy haladó beigomázóval versenyez.
+Egy módosítatlan Beigoma, lekerekített hegygel. Mivel nem lett finomhangolva, nagyobb a szerencse szerepe. A normál „topok” hasznosak, amikor kezdők és haladók együtt játszanak.
 
-### Megmunkált beigoma
+### Modified Beigoma / 加工ベーゴマ
 
-Olyan beigoma, amelynek a tetejét megmunkálták. A megmunkálás módjától függően lehet belőle "Riki-szezámmagot" készíteni, ami sokáig pörög, vagy "Játékos szezámmagot", ami gyakran játszik az ellenfelével. A beigomát a játékszabályoknak megfelelően használják.
+Egy Beigoma, amelynek hegyét vagy testét módosították. A módosítástól függően finomhangolható hosszú pörgésre, erősebb támadásokra vagy egy adott szabályrendszerhez.
 
-### Dísz beigoma
+### Decoration Beigoma / デコレーションベーゴマ
 
-Egy beigoma, amelyet a felületének díszítésével hoznak létre.
+Egy Beigoma, amelyet a látható felületén díszítettek. A díszítés főleg esztétikai jellegű, de ez a játékosok számára a „topjaik” azonosításának és személyre szabásának módja is.
 
-## **A játék során használt terminológia**
+### Riki-goma / リキゴマ
 
-\["Csicsicsinochi"\] Felkiáltás a beigoma feldobásakor.
+Egy „top”, amelyet hosszú pörgésre hangoltak vagy választottak ki. Hasznos a Riki meccseken.
 
-\["Tedd le a földre"\] Amikor feldobod a beigomát, a tetejének nem szabad a földre esnie.
+### Hajiki-goma / 弾きゴマ
 
-\[Riki-játék (Riki)\] Az a szabály, hogy az nyer, akinek a beigomája tovább pörög a földön. A sokáig pörgő beigomát "Rikigomának" nevezik.
+Egy „top”, amely hajlamos mozogni és nekifutni az ellenfeleknek. Hasznos a Hajiki meccseken.
 
-\[Játékos játék (Hajiki)\] Az a szabály, hogy az nyer, aki a földről kirúgja a beigomát. Ezenkívül a "Játékos szezámmagnak" nevezik azt a darabot, amely viszonylag mozog, mert a középső forgástengely eltolódott.
+## **Mérkőzés kifejezések**:
 
-\[Három másodperces szabály\] A "Riki-játék" során akkor nyersz, ha több mint 3 másodperccel tovább pörög a beigomád az ellenfélénél. Ha 3 másodpercen belül megáll, próbálkozz újra.
+### Chitchi-no-chi / チッチノチ
 
-\[Packan\] A beigomák egymásnak ütköznek, és az összes beigoma egyszerre pattan le a földről.
+Egy kiáltás, amelyet akkor használnak, amikor a játékosok a Beigomájukat a padlóra dobják.
 
-\[Egyérintéses szabály\] Ez a szabály a "Riki-játék" során érvényes. Ha feldobod a beigomát, és a beigomák soha nem érintkeznek, újra kell dobnod.
+### Yuka / 床
 
-\[Okama\] A beigoma a földön fekszik. Ez a pont a szabályoktól függően vereséget jelent.
+A játéktér. A Beigománál ez által عادة egy vödör, hordó vagy keret fölé feszített vászonfelület.
 
-## **Egyéb**
+### Yuka-hazushi / 床外し
 
-\[Honko\] Komoly játék! Ha megnyered a játékot, megkapod az ellenfél beigomáját.
+A padló eltalálásának elmulasztása a dobásnál. A szabályrendszertől függően ez a kör elvesztését vagy a dobás megismétlését jelentheti.
 
-\[Bónusz Honko\] Szervizidőszak a beigoma-kezdőktől a haladókig. A kezdők beigomát kaphatnak, ha nyernek, de nem kapnak beigomát, ha veszítenek.
+### Riki match / リキ勝負
 
-\[Szög\] Beigoma feldobása szögben.
+Egy olyan szabály, ahol az a „top” nyer, amelyik a leghosszabb ideig pörög a padlón.
 
-\[Nissan Öntöde\]
+### Hajiki match / 弾き勝負
 
-Beigoma gyártó és forgalmazó cég
+Egy olyan szabály, ahol egy játékos úgy nyer, hogy kilöki az ellenfél Beigomáját a játéktérről.
+
+### Three-second rule / 3秒ルール
+
+Egy Riki meccsen a játékos akkor nyer, ha a „topja” legalább három másodperccel tovább pörög, mint az ellenfeléé. Ha a különbség rövidebb, a kört megismétlik.
+
+### Pakkan / パッカン
+
+Egy ütközet, amelyben minden Beigoma egyszerre löklődik ki a játéktérről.
+
+### One-touch rule / ワンタッチあり
+
+Egy Riki meccs szabálya, ahol a kört megismétlik, ha a „topok” dobás után soha nem érnek össze.
+
+### Okama / オカマ
+
+Egy Beigoma felborul a padlón. A helyi szabályoktól függően ez azonnali vereségnek számíthat.
+
+## **Játékkultúra**:
+
+### Honko / ホンコ
+
+Egy komoly tétmeccs. Hagyományosan a győztes megkapja az ellenfél Beigomáját.
+
+### Omake Honko / おまけホンコ
+
+A Honko kezdőbarát változata. Egy kezdő nyerhet egy Beigomát, de nem veszíti el a saját „topját”, ha elveszíti a meccset.
+
+### Kado-zuke / 角づけ
+
+A Beigoma szögben a padlóra dobása.
+
+### Nissanchuzosho / 日三鋳造所
+
+A Beigoma gyártója és forgalmazója.
+
+## **Forrás**:
+
+A terminológia a Tokyo Beigoma szakértői terminológiai cikkén alapul.

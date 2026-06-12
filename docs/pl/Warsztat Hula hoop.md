@@ -2,7 +2,7 @@
 lang: pl
 translation_id: warsztat-hula-hoop-kpc
 created: 2026-06-07 18:55:00
-update: 2026-06-07 19:19:32
+update: 2026-06-12 18:58:20
 publish: true
 tags:
   - warsztat
@@ -18,6 +18,7 @@ instagram: "@wyhulana"
 facebook: "@wyhulana"
 translation_status: original
 translation_source_lang: pl
+type: Tutorial
 ---
 
 # Warsztat: Hula hoop

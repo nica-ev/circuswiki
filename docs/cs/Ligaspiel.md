@@ -6,71 +6,58 @@ tags:
   - spiele
   - beigoma
 created: 2025-01-24 03:50:50
-update: 2025-01-24 23:21:13
+update: 2026-06-11 17:29:51
 title: Ligový zápas
 description: 
 authors:
   - Marc Bielert
 translation_status: machine-translated
-translation_source_lang: de
-translation_source: docs/de/Ligaspiel.md
-translation_source_hash: 5d082b1cfdc43dbf82d42e78c9f18ae21ae9f2d1955a3652c10b668ebb26c04d
+translation_source_lang: en
+translation_source: docs/en/Ligaspiel.md
+translation_source_hash: 4317cbd876e1d86e7e648dfc554afc8ea070a828c173b681a6f36d1bdcd1827e
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T19:02:20+00:00
-translation_source_body_hash: 5d082b1cfdc43dbf82d42e78c9f18ae21ae9f2d1955a3652c10b668ebb26c04d
-translation_source_metadata_hash: 75474f004677e78faa13d948a117a966a8850e2b7b2b0a442a4bc41f8676019c
+translation_updated: 2026-06-11T15:39:41+00:00
+translation_source_body_hash: 4317cbd876e1d86e7e648dfc554afc8ea070a828c173b681a6f36d1bdcd1827e
+translation_source_metadata_hash: d35e67bcd9f8f74aa728d37684212afe09afbaaa6c6ac928344435185177e0d7
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:56:30+00:00
+translation_metadata_updated: 2026-06-11T15:39:41+00:00
 ---
-# Úvod ke hře „Ligový zápas“
+> [!info] Stručný popis
+> Formát turnaje Beigoma systémem každý s každým, kde hráči soutěží v malých skupinách a porovnávají skóre.
 
-Účastníci bojují v individuálních soubojích proti celé skupině.
+**Velikost skupiny**: 5–36 osob
+**Obtížnost**: Střední
+**Materiály**: Beigoma, provázky, hrací plochy, ligové tabulky nebo bodovací archy
+**Délka**: 20–60 minut
 
-I když jednou prohrajete, jako v turnajovém zápase, hra tím nekončí.
+## **Popis hry**:
 
-Účastníci odehrají stejný počet zápasů a budou sbírat body.
+Formát Ligové hry je systémem každý s každým. Na rozdíl od vyřazovacího turnaje hráč po prohře není eliminován. Každý ve skupině odehraje stejný počet zápasů a vítěz je určen na základě celkového skóre.
 
-Díky tomu se můžete zúčastnit mnoha her.
+Tento formát dobře funguje, když je cílem spravedlivé porovnání a opakované hraní, nikoli rychlé vyřazování.
 
-**\[Příprava\]**
+Účastníky rozdělte do skupin po přibližně 5–9 hráčích. Jména každé skupiny zapište do ligové tabulky. Například 18 hráčů může vytvořit tři skupiny po šesti.
 
-Napište jména účastníků do tabulky pro hodnocení. Skupinu tvoří 5 až 9 osob.
+Každá skupina si určí, kdo bude zaznamenávat výsledky a kdo bude hlásit další zápas. Hráči soutěží ve formátu jeden na jednoho. Každý zápas se hraje na jedno roztočení, pokud místní pravidla nevyžadují restart. Po každém zápase oba hráči zkontrolují, zda byl výsledek zapsán do tabulky.
 
-(Pokud je celkem 18 účastníků, vytvořte 3 skupiny po 6 osobách.)
+Pokračujte, dokud každý ve skupině neodehraje zápas proti všem ostatním. Sečtěte body. Vítězové skupin s nejvyšším skóre mohou odehrát finálové kolo.
 
-Bude zveřejněna vzorová tabulka hodnocení.
+## **Bodování**:
 
-**\[Body\]** \* Jako vodítko
+Praktický model bodování je:
 
-- 3 body ... výhra
+- 3 body: Výhra pomocí Hajiki (vyřazení soupeře)
+- 2 body: Výhra pomocí Riki (převrácení soupeře)
+- 1 bod: Remíza, Pakkan (oba spadnou současně) nebo jiný částečný výsledek odsouhlasený skupinou
+- 0 bodů: Prohra
 
-- 2 body ... výhra s „Riki“ (protihráč se sám vyřadí)
+Pro začátečníky lze přidat podpůrné pravidlo, například 1 bod za dopadnutí na zem a roztočení, i když zápas je prohraný.
 
-- 1 bod ... remíza (vyrovnaný stav), výhra od země (protihráč spadne na zem)
+## **Poznámky**:
 
-- 0 bodů: prohra v zápase, prohra s „Riki“, prohra od země (spadnutí na zem)
+Vyhněte se tomu, aby stejný hráč odehrál více zápasů po sobě, zatímco ostatní čekají. Včasné ohlášení dalšího zápasu udržuje plynulost formátu.
 
-**Speciální pravidla** Pouze začátečníci mohou mít **speciální pravidla**, například získat 1 bod za spadnutí na zem a dokonce i za malé otočení, i když zápas prohrají.
+## **Zdroj**:
 
-**\[Průběh hry\]**
-
-1. **Ve skupině účastníků** budou určeni rozhodčí a pořadí hry.
-
-2. **Individuální zápas** ・ Hodí se pouze jednou (opakuje se pouze v případě, že oba spadnou ze země) ・ Pokud dojde k zápasu, vzájemně si zapíšete body do tabulky.
-
-3. **Opakujte postup z bodu 2 ve skupině.** ・ Hrajte systémem každý s každým a po skončení všech soubojů sečtěte body.
-
-4. **Finále** ・ Střelci z každé skupiny se utkají, aby určili vítěze.
-
-**【Upozornění】**
-
-- Tabulka hodnocení obsahuje řádky a sloupce. Zapište výsledek výhry nebo prohry na základě řádku.
-
-- Snažte se hrát vyváženě, aby stejná osoba nehrála po sobě.
-
-- Pokud zavoláte dalšího soupeře a připravíte ho, zápas může probíhat plynuleji.
-
-![](https://static.wixstatic.com/media/39842b_d0ec221e650c41a29efebf8720292d96~mv2.jpg/v1/fill/w_925,h_566,al_c,q_90,usm_0.66_1.00_0.01/39842b_d0ec221e650c41a29efebf8720292d96~mv2.webp)
-
-![](https://static.wixstatic.com/media/39842b_d21710474b594b4f8ee7c005b34e194b~mv2.jpg/v1/fill/w_925,h_654,al_c,q_90,usm_0.66_1.00_0.01/39842b_d21710474b594b4f8ee7c005b34e194b~mv2.webp)
+Založeno na formátu Ligové hry z Tokyo Beigoma.
