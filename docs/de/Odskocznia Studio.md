@@ -3,7 +3,7 @@ lang: de
 translation_id: odskocznia-studio
 created: 2025-08-31 20:39:01
 update: 2025-08-31 20:41:15
-publish: false
+publish: true
 tags:
   - case-study
   - Kontakte

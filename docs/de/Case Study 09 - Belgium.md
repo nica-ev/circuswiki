@@ -3,7 +3,7 @@ lang: de
 translation_id: case-study-09-belgium
 created: 2025-08-30 23:54:25
 update: 2026-06-06 21:49:08
-publish: false
+publish: true
 tags:
   - case-study
 title: Gemeinsam gestalten

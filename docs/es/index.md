@@ -2,7 +2,7 @@
 lang: es
 translation_id: index
 created: 2025-01-21 18:09:55
-update: 2026-06-12 19:26:46
+update: 2026-06-13 00:04:51
 publish: true
 tags:
   - moc
@@ -14,23 +14,23 @@ authors:
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/index.md
-translation_source_hash: 870f088e0a15150c24fe1ea8b3f6ebcae9635e273ed3f9d31b0babb278eea464
+translation_source_hash: a3817766f898356932821485eac56631b0e6dcab73ce0b46b52caac97eb0f475
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-12T17:32:29+00:00
+translation_updated: 2026-06-12T22:41:00+00:00
 translation_source_metadata_hash: 52f0ef5f0a6296e95efac21a465cf0bf937020d56c4b8aa707913022d9cacc6f
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T17:32:29+00:00
-translation_source_body_hash: 870f088e0a15150c24fe1ea8b3f6ebcae9635e273ed3f9d31b0babb278eea464
+translation_metadata_updated: 2026-06-12T22:41:00+00:00
+translation_source_body_hash: a3817766f898356932821485eac56631b0e6dcab73ce0b46b52caac97eb0f475
 ---
 > [!info] En resumen
 > CircusWiki es una colección de conocimiento abierta, curada y multilingüe sobre pedagogía circense, juegos de movimiento, práctica inclusiva, malabares y temas relacionados.
 
 Muchas ideas prácticas surgen en talleres, formaciones, proyectos y encuentros. A menudo, estas ideas permanecen a nivel local, se pierden en documentos antiguos o desaparecen cuando las páginas web dejan de estar disponibles. CircusWiki intenta hacer que este conocimiento sea accesible a largo plazo: como un recurso abierto que pueda ser encontrado, mejorado, traducido y compartido.
 
-## Descubrir conocimiento
+## Descubre conocimiento
 
-Estos accesos directos te llevan a las páginas de resumen más importantes:
+Estos enlaces te llevarán a las páginas de resumen más importantes:
 
 <div class="grid cards" markdown>
 
@@ -38,7 +38,7 @@ Estos accesos directos te llevan a las páginas de resumen más importantes:
 
     ---
 
-    Juegos, calentamientos, formas de cooperación, juegos para conocerse y tareas de movimiento para grupos.
+    Juegos, calentamientos, formas de cooperación, juegos para romper el hielo y tareas de movimiento para grupos.
 
     [Abrir Juegos de movimiento](Bewegungs-Spiele.md){ .md-button }
 
@@ -66,6 +66,14 @@ Estos accesos directos te llevan a las páginas de resumen más importantes:
 
     [Abrir Talleres y artículos](workshops-und-artikel.md){ .md-button }
 
+-   __Práctica circense inclusiva__
+
+    ---
+
+    Proyecto Erasmus+ con estudios de caso, perfiles de socios y materiales sobre pedagogía circense inclusiva.
+
+    [Abrir Proyecto](Lets-talk-about-inclusive-circus-practice.md){ .md-button }
+
 -   __Archivo Kaskade__
 
     ---
@@ -84,19 +92,19 @@ Estos accesos directos te llevan a las páginas de resumen más importantes:
 
 </div>
 
-## Participar
+## Participa
 
-CircusWiki vive de las contribuciones de la práctica. Puedes aportar juegos, métodos, correcciones, fotos, PDFs, enlaces, traducciones o material antiguo. El material no tiene que ser perfecto y no necesitas una cuenta de GitHub.
+CircusWiki cobra vida gracias a las contribuciones de la práctica. Puedes aportar juegos, métodos, correcciones, fotos, PDFs, enlaces, traducciones o material antiguo. El material no tiene que ser perfecto y no necesitas una cuenta de GitHub.
 
-[Participar](mitmachen.md){ .md-button }
+[Participa](mitmachen.md){ .md-button }
 
-## Apoyar
+## Apoya
 
-CircusWiki es de acceso libre y sin publicidad. Sin embargo, genera costes: para infraestructura técnica, herramientas, traducción, archivo y mantenimiento a largo plazo. Intentamos utilizar subvenciones, pero además necesitamos un modelo de donaciones y apoyo sostenible.
+CircusWiki es de acceso libre y sin publicidad. Sin embargo, genera costes: para infraestructura técnica, herramientas, traducción, archivo y mantenimiento a largo plazo. Intentamos utilizar subvenciones, pero también necesitamos un modelo de donación y apoyo sostenible.
 
-Mostramos abiertamente para qué se utiliza el dinero e informamos sobre ello de forma regular y transparente.
+Mostramos abiertamente para qué se utiliza el dinero y lo comunicamos de forma regular y transparente.
 
-[Apoyar el proyecto](unterstuetzen.md){ .md-button }
+[Apoya el proyecto](unterstuetzen.md){ .md-button }
 
 ## Novedades
 

@@ -2,31 +2,31 @@
 lang: it
 translation_id: index
 created: 2025-01-21 18:09:55
-update: 2026-06-12 19:26:46
+update: 2026-06-13 00:04:51
 publish: true
 tags:
   - moc
   - dynamic
-title: Home di CircusWiki
+title: CircusWiki Home
 description: Introduzione a CircusWiki, una raccolta di conoscenze aperta e curata sulla pedagogia circense, giochi di movimento, pratiche inclusive e argomenti correlati.
 authors:
   - Marc Bielert
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/index.md
-translation_source_hash: 870f088e0a15150c24fe1ea8b3f6ebcae9635e273ed3f9d31b0babb278eea464
+translation_source_hash: a3817766f898356932821485eac56631b0e6dcab73ce0b46b52caac97eb0f475
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-12T17:32:17+00:00
+translation_updated: 2026-06-12T22:40:49+00:00
 translation_source_metadata_hash: 52f0ef5f0a6296e95efac21a465cf0bf937020d56c4b8aa707913022d9cacc6f
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T17:32:17+00:00
-translation_source_body_hash: 870f088e0a15150c24fe1ea8b3f6ebcae9635e273ed3f9d31b0babb278eea464
+translation_metadata_updated: 2026-06-12T22:40:49+00:00
+translation_source_body_hash: a3817766f898356932821485eac56631b0e6dcab73ce0b46b52caac97eb0f475
 ---
 > [!info] In sintesi
 > CircusWiki è una raccolta di conoscenze aperta, curata e multilingue sulla pedagogia circense, giochi di movimento, pratiche inclusive, giocoleria e argomenti correlati.
 
-Molte idee pratiche nascono in workshop, formazioni, progetti e incontri. Spesso rimangono a livello locale, finiscono in vecchi documenti o si perdono quando i siti web vanno offline. CircusWiki cerca di rendere queste conoscenze accessibili a lungo termine: come risorsa aperta che può essere trovata, migliorata, tradotta e condivisa.
+Molte idee pratiche nascono da workshop, formazioni, progetti e incontri. Spesso rimangono a livello locale, finiscono in vecchi documenti o vengono perse quando i siti web vanno offline. CircusWiki cerca di rendere queste conoscenze accessibili a lungo termine: come risorsa aperta che può essere trovata, migliorata, tradotta e condivisa.
 
 ## Scopri le conoscenze
 
@@ -54,7 +54,7 @@ Questi collegamenti portano alle pagine di panoramica più importanti:
 
     ---
 
-    Una raccolta in crescita su Beigoma: materiali, preparazione, regole di gioco, formati e idee per workshop.
+    Una raccolta in crescita su Beigoma: materiali, configurazione, regole di gioco, formati e idee per workshop.
 
     [Apri Beigoma](Beigoma.md){ .md-button }
 
@@ -65,6 +65,14 @@ Questi collegamenti portano alle pagine di panoramica più importanti:
     Materiali pratici, workshop, tutorial e articoli da diverse fonti e progetti.
 
     [Apri Workshop e articoli](workshops-und-artikel.md){ .md-button }
+
+-   __Pratica circense inclusiva__
+
+    ---
+
+    Progetto Erasmus+ con casi di studio, profili dei partner e materiali sulla pedagogia circense inclusiva.
+
+    [Apri Progetto](Lets-talk-about-inclusive-circus-practice.md){ .md-button }
 
 -   __Archivio Kaskade__
 
@@ -80,7 +88,7 @@ Questi collegamenti portano alle pagine di panoramica più importanti:
 
     Documentazione sulle modalità di lavoro, strumenti digitali e strutture organizzative di NICA e.V.
 
-    [Apri Documentazione NICA-eV](Dokumentation%20Nica%20eV.md){ .md-button }
+    [Apri Documentazione NICA](Dokumentation%20Nica%20eV.md){ .md-button }
 
 </div>
 
@@ -92,7 +100,7 @@ CircusWiki vive dei contributi pratici. Puoi contribuire con giochi, metodi, cor
 
 ## Sostieni
 
-CircusWiki è liberamente accessibile e senza pubblicità. Tuttavia, ci sono costi: per l'infrastruttura tecnica, gli strumenti, la traduzione, l'archiviazione e la manutenzione a lungo termine. Cerchiamo di utilizzare finanziamenti, ma abbiamo anche bisogno di un modello sostenibile di donazioni e supporto.
+CircusWiki è accessibile gratuitamente e senza pubblicità. Tuttavia, ci sono dei costi: per l'infrastruttura tecnica, gli strumenti, la traduzione, l'archiviazione e la manutenzione a lungo termine. Cerchiamo di ottenere finanziamenti, ma abbiamo anche bisogno di un modello di donazioni e supporto sostenibile.
 
 Mostriamo apertamente come vengono utilizzati i fondi e ne rendiamo conto regolarmente e in modo trasparente.
 

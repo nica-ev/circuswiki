@@ -9,7 +9,7 @@ tags:
   - spiele
   - moc
 title: Beigoma
-description: Übersicht über Beigoma, ein traditionelles japanisches Kampfkreiselspiel mit kleinen, aus Metallguss gefertigten Kreisel.
+description: Überblick über Beigoma, ein traditionelles japanisches Kampfkreiselspiel mit kleinen, aus Metallguss gefertigten Kreisel.
 authors:
   - Marc Bielert
 source:
@@ -19,48 +19,48 @@ source_url: https://tokyo-beigoma.com/
 translation_status: machine-translated
 translation_source_lang: en
 translation_source: docs/en/Beigoma.md
-translation_source_body_hash: 910d97c61c19b43fbb8bd6b9ef1b98093ef4cf3991a3b7ff5e3bd1869c81efe2
-translation_source_hash: 910d97c61c19b43fbb8bd6b9ef1b98093ef4cf3991a3b7ff5e3bd1869c81efe2
+translation_source_body_hash: a8161f8c77ef88a63d9aad2b7c8af8ebb15e77ed9a53f5ed4829804ce78d772d
+translation_source_hash: a8161f8c77ef88a63d9aad2b7c8af8ebb15e77ed9a53f5ed4829804ce78d772d
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-12T17:29:40+00:00
+translation_updated: 2026-06-12T21:02:25+00:00
 translation_source_metadata_hash: 9673f9963410e461a465636852fcf658f2ec0a14076153bce5cf68994b5c2529
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T17:29:40+00:00
+translation_metadata_updated: 2026-06-12T21:02:25+00:00
 ---
 > [!info] Zusammenfassung
-> Beigoma ist ein traditionelles japanisches Kampfkreisel-Spiel, das mit kleinen Gussmetallkreiseln, einer Aufziehschur und einer mit Stoff bespannten Spielfläche namens „Boden“ gespielt wird.
+> Beigoma ist ein traditionelles japanisches Kampfkreisel-Spiel, das mit kleinen Gussmetallkreiseln, einer Aufziehschur und einer mit Stoff bespannten Spielfläche namens "Floor" gespielt wird.
 
 Beigoma ist ein altes japanisches Kreiselspiel. Die Kreisel sind klein, schwer und meist aus Gussmetall gefertigt. Die Spieler wickeln eine dünne Schnur um den Kreisel, werfen ihn auf eine straff gespannte Stoff-Spielfläche und treten entweder gegeneinander an, um ihren eigenen Kreisel am längsten drehen zu lassen, oder um andere Kreisel aus dem Spielfeld zu stoßen.
 
-Für die Zirkus- und Bewegungs­päd­a­gogik ist Beigoma nützlich, da es Feinmotorik, Wiederholung, Basteln mit Materialien, Wettbewerb, Geduld und soziales Spiel kombiniert. Es ist auch klein genug, um als Nebenaktivität während Workshops, beim offenen Training, auf Festivals oder in Maker-Umgebungen angeboten zu werden.
+Für die Zirkus- und Bewegungsdidaktik ist Beigoma nützlich, da es Feinmotorik, Wiederholung, Materialbasteln, Wettbewerb, Geduld und soziales Spiel kombiniert. Es ist außerdem klein genug, um als Nebenaktivität während Workshops, beim offenen Training, auf Festivals oder in Maker-Umgebungen angeboten zu werden.
 
 ## **Was Sie brauchen**:
 
 - Beigoma-Kreisel
 - Dünne Beigoma-Schnüre
-- Einen Spielboden, meist ein über einen Eimer, eine Tonne oder einen niedrigen Rahmen gespannter Stoff
-- Optionale Spielkarten für strukturierte Spiele
-- Optionale Feilen oder Werkzeuge für fortgeschrittene Kreisel-Modifikationen
+- Einen Spielfloor, meist ein über einen Eimer, eine Tonne oder einen niedrigen Rahmen gespannter Stoff
+- Optionale Punktkarten für strukturierte Spiele
+- Optionale Feilen oder Werkzeuge zur fortgeschrittenen Kreiselmodifikation
 
-Siehe [Beigoma-Ausrüstung und Aufbau](Beigoma%20Equipment%20and%20Setup.md) und [Einen Beigoma-Boden herstellen](Making%20a%20Beigoma%20Floor.md) für weitere praktische Hinweise zum Aufbau.
+Siehe [Beigoma-Ausrüstung und Aufbau](Beigoma%20Equipment%20and%20Setup.md) und [Einen Beigoma-Floor herstellen](Making%20a%20Beigoma%20Floor.md) für weitere praktische Hinweise zum Aufbau.
 
 ## **Erste Schritte**:
 
 1. Bereiten Sie eine Schnur mit Knoten vor, die die Spitze des Beigoma greifen können.
 2. Wickeln Sie die Schnur fest um den Kreisel.
-3. Halten Sie den eingewickelten Kreisel flach und nah am Spielboden.
+3. Halten Sie den eingewickelten Kreisel flach und nah am Spielfloor.
 4. Lassen Sie den Kreisel los, während Sie die Schnur sanft wegziehen.
 5. Beginnen Sie mit einfachen Eins-gegen-Eins-Runden, bevor Sie Turnier- oder Punktformate verwenden.
 
-Anfänger brauchen normalerweise Zeit, um das Aufwickeln und Werfen zu lernen. Das erste sinnvolle Ziel ist nicht das Gewinnen, sondern den Kreisel aufrecht landen zu lassen und ihn zuverlässig zum Drehen zu bringen.
+Anfänger benötigen in der Regel Zeit, um das Aufwickeln und Werfen zu lernen. Das erste sinnvolle Ziel ist nicht das Gewinnen, sondern den Kreisel aufrecht landen zu lassen und ihn zuverlässig zum Drehen zu bringen.
 
 ## **Kernspielstile**:
 
 - **Riki**: Der Kreisel, der am längsten dreht, gewinnt.
-- **Hajiki**: Ein Kreisel gewinnt, indem er einen anderen Kreisel vom Spielboden stößt.
-- **Normales Kreiselspiel**: Es werden unveränderte Kreisel verwendet, um den Glücksfaktor hoch zu halten und gemischte Gruppen auszubalancieren.
-- **Modifiziertes Kreiselspiel**: Kreisel werden für längere Drehzeit, stärkere Angriffe oder spezifische Turnierregeln angepasst.
+- **Hajiki**: Ein Kreisel gewinnt, indem er einen anderen Kreisel vom Spielfloor stößt.
+- **Normaler Kreiselspiel**: Es werden unveränderte Kreisel verwendet, um den Glücksfaktor hoch zu halten und gemischte Fähigkeitsgruppen auszubalancieren.
+- **Modifizierter Kreiselspiel**: Kreisel werden für längere Drehzeit, stärkere Angriffe oder spezifische Turnierregeln angepasst.
 
 ## **Seiten in diesem Cluster**:
 
@@ -69,8 +69,8 @@ Anfänger brauchen normalerweise Zeit, um das Aufwickeln und Werfen zu lernen. D
 - [Wie spielt man Beigoma](Wie%20spielt%20man%20Beigoma.md)
 - [Beigoma-Terminologie](Beigoma%20Terminologie.md)
 - [Beigoma-Ausrüstung und Aufbau](Beigoma%20Equipment%20and%20Setup.md)
-- [Einen Beigoma-Boden herstellen](Making%20a%20Beigoma%20Floor.md)
-- [Grundlegende Beigoma-Regeln und Schiedsrichter­tätigkeit](Basic%20Beigoma%20Rules%20and%20Refereeing.md)
+- [Einen Beigoma-Floor herstellen](Making%20a%20Beigoma%20Floor.md)
+- [Grundlegende Beigoma-Regeln und Schiedsrichterwesen](Basic%20Beigoma%20Rules%20and%20Refereeing.md)
 
 ### Spielformate
 
@@ -87,7 +87,7 @@ Anfänger brauchen normalerweise Zeit, um das Aufwickeln und Werfen zu lernen. D
 
 - [Grundlagen der Beigoma-Modifikation](Beigoma%20Modification%20Basics.md)
 - [Beigoma-Dekoration und Personalisierung](Beigoma%20Decoration%20and%20Personalization.md)
-- [Beigoma-Moderation für gemischte Gruppen](Facilitating%20Beigoma%20for%20Mixed%20Groups.md)
+- [Beigoma für gemischte Gruppen moderieren](Facilitating%20Beigoma%20for%20Mixed%20Groups.md)
 
 ## **Hinweise zur Moderation**:
 

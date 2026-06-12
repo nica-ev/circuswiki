@@ -2,31 +2,31 @@
 lang: nl
 translation_id: index
 created: 2025-01-21 18:09:55
-update: 2026-06-12 19:26:46
+update: 2026-06-13 00:04:51
 publish: true
 tags:
   - moc
   - dynamic
 title: CircusWiki Home
-description: Startpunt voor CircusWiki, een open en gecureerde kennisbank voor circuspedagogie, bewegingsspelen, inclusieve praktijken en gerelateerde onderwerpen.
+description: Introductie tot CircusWiki, een open en gecureerde kennisbank voor circuseducatie, bewegingsspellen, inclusieve praktijken en gerelateerde onderwerpen.
 authors:
   - Marc Bielert
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/index.md
-translation_source_hash: 870f088e0a15150c24fe1ea8b3f6ebcae9635e273ed3f9d31b0babb278eea464
+translation_source_hash: a3817766f898356932821485eac56631b0e6dcab73ce0b46b52caac97eb0f475
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-12T17:32:21+00:00
+translation_updated: 2026-06-12T22:40:52+00:00
 translation_source_metadata_hash: 52f0ef5f0a6296e95efac21a465cf0bf937020d56c4b8aa707913022d9cacc6f
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T17:32:21+00:00
-translation_source_body_hash: 870f088e0a15150c24fe1ea8b3f6ebcae9635e273ed3f9d31b0babb278eea464
+translation_metadata_updated: 2026-06-12T22:40:52+00:00
+translation_source_body_hash: a3817766f898356932821485eac56631b0e6dcab73ce0b46b52caac97eb0f475
 ---
 > [!info] Kort samengevat
-> CircusWiki is een open, samengestelde en meertalige kennisbank voor circuseducatie, bewegingsspelen, inclusieve praktijken, jongleren en gerelateerde onderwerpen.
+> CircusWiki is een open, samengestelde en meertalige kennisbank voor circuseducatie, bewegingsspellen, inclusieve praktijken, jongleren en gerelateerde onderwerpen.
 
-Veel praktische ideeën ontstaan in workshops, trainingen, projecten en ontmoetingen. Vaak blijven ze lokaal, verdwijnen ze in oude documenten of gaan ze verloren als websites offline gaan. CircusWiki probeert deze kennis op de lange termijn toegankelijk te maken: als een open bron die gevonden, verbeterd, vertaald en gedeeld kan worden.
+Veel praktische ideeën ontstaan in workshops, trainingen, projecten en ontmoetingen. Vaak blijven ze lokaal, verdwijnen ze in oude documenten of gaan ze verloren als websites offline gaan. CircusWiki probeert deze kennis duurzaam toegankelijk te maken: als een open bron die gevonden, verbeterd, vertaald en gedeeld kan worden.
 
 ## Ontdek kennis
 
@@ -34,13 +34,13 @@ Deze ingangen leiden naar de belangrijkste overzichtspagina's:
 
 <div class="grid cards" markdown>
 
--   __Bewegingsspelen__
+-   __Bewegingsspellen__
 
     ---
 
-    Spelen, warming-ups, samenwerkingsvormen, kennismakingsspelen en bewegingsopdrachten voor groepen.
+    Spellen, warming-ups, samenwerkingsvormen, kennismakingsspellen en bewegingsopdrachten voor groepen.
 
-    [Bewegingsspelen openen](Bewegungs-Spiele.md){ .md-button }
+    [Bewegingsspellen openen](Bewegungs-Spiele.md){ .md-button }
 
 -   __Jongleren__
 
@@ -66,6 +66,14 @@ Deze ingangen leiden naar de belangrijkste overzichtspagina's:
 
     [Workshops en artikelen openen](workshops-und-artikel.md){ .md-button }
 
+-   __Inclusieve circuspraktijk__
+
+    ---
+
+    Erasmus+ project met casestudy's, partnerprofielen en materialen over inclusieve circuseducatie.
+
+    [Project openen](Lets-talk-about-inclusive-circus-practice.md){ .md-button }
+
 -   __Kaskade Archief__
 
     ---
@@ -90,14 +98,14 @@ CircusWiki leeft van bijdragen uit de praktijk. Je kunt spellen, methoden, corre
 
 [Doe mee](mitmachen.md){ .md-button }
 
-## Ondersteun
+## Ondersteunen
 
-CircusWiki is vrij toegankelijk en reclamevrij. Toch zijn er kosten: voor technische infrastructuur, tools, vertaling, archivering en langdurig onderhoud. We proberen subsidies te gebruiken, maar hebben daarnaast een duurzaam donatie- en ondersteuningsmodel nodig.
+CircusWiki is vrij toegankelijk en reclamevrij. Toch ontstaan er kosten: voor technische infrastructuur, tools, vertaling, archivering en langdurig onderhoud. We proberen subsidies te gebruiken, maar hebben daarnaast een duurzaam donatie- en ondersteuningsmodel nodig.
 
 We laten open zien waar geld aan wordt besteed en rapporteren hier regelmatig en transparant over.
 
 [Project ondersteunen](unterstuetzen.md){ .md-button }
 
-## Nieuws
+## Actueel
 
 - [Release Notes](release%20notes.md)

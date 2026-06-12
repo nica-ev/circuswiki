@@ -3,7 +3,7 @@ lang: de
 translation_id: self-aps
 created: 2025-08-31 20:34:12
 update: 2025-08-31 20:37:02
-publish: false
+publish: true
 tags:
   - case-study
   - Kontakte

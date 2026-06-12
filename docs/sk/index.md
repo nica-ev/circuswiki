@@ -2,33 +2,33 @@
 lang: sk
 translation_id: index
 created: 2025-01-21 18:09:55
-update: 2026-06-12 19:26:46
+update: 2026-06-13 00:04:51
 publish: true
 tags:
   - moc
   - dynamic
 title: Domov CircusWiki
-description: Úvod do CircusWiki, otvorenej a kurátorskej zbierky vedomostí o cirkusovej pedagogike, pohybových hrách, inkluzívnej praxi a súvisiacich témach.
+description: Úvod do CircusWiki, otvorenej a kurátorskej zbierky poznatkov o cirkusovej pedagogike, pohybových hrách, inkluzívnej praxi a súvisiacich témach.
 authors:
   - Marc Bielert
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/index.md
-translation_source_hash: 870f088e0a15150c24fe1ea8b3f6ebcae9635e273ed3f9d31b0babb278eea464
+translation_source_hash: a3817766f898356932821485eac56631b0e6dcab73ce0b46b52caac97eb0f475
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-12T17:32:46+00:00
+translation_updated: 2026-06-12T22:41:15+00:00
 translation_source_metadata_hash: 52f0ef5f0a6296e95efac21a465cf0bf937020d56c4b8aa707913022d9cacc6f
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T17:32:46+00:00
-translation_source_body_hash: 870f088e0a15150c24fe1ea8b3f6ebcae9635e273ed3f9d31b0babb278eea464
+translation_metadata_updated: 2026-06-12T22:41:15+00:00
+translation_source_body_hash: a3817766f898356932821485eac56631b0e6dcab73ce0b46b52caac97eb0f475
 ---
 > [!info] Stručne povedané
 > CircusWiki je otvorená, kurátorovaná a viacjazyčná zbierka vedomostí o cirkusovej pedagogike, pohybových hrách, inkluzívnej praxi, žonglovaní a súvisiacich témach.
 
 Mnohé praktické nápady vznikajú na workshopoch, tréningoch, projektoch a stretnutiach. Často zostávajú lokálne, strácajú sa v starých dokumentoch alebo sa stratia, keď webové stránky prestanú fungovať. CircusWiki sa snaží toto poznanie sprístupniť dlhodobo: ako otvorený zdroj, ktorý možno nájsť, vylepšiť, preložiť a zdieľať.
 
-## Objavujte vedomosti
+## Objavte vedomosti
 
 Tieto úvody vás zavedú na najdôležitejšie prehľadové stránky:
 
@@ -54,7 +54,7 @@ Tieto úvody vás zavedú na najdôležitejšie prehľadové stránky:
 
     ---
 
-    Rastúca zbierka o Beigoma: materiály, návody, pravidlá hry, formáty a nápady na workshopy.
+    Rastúca zbierka o Beigoma: materiály, nastavenie, pravidlá hry, formáty a nápady na workshopy.
 
     [Otvoriť Beigoma](Beigoma.md){ .md-button }
 
@@ -66,13 +66,21 @@ Tieto úvody vás zavedú na najdôležitejšie prehľadové stránky:
 
     [Otvoriť workshopy a články](workshops-und-artikel.md){ .md-button }
 
--   __Kaskáda archív__
+-   __Inkluzívna cirkusová prax__
 
     ---
 
-    Prepisy a spracovaný obsah z časopisu Kaskáda: približne 30 rokov histórie žonglovania a cirkusu.
+    Projekt Erasmus+ s prípadovými štúdiami, profilmi partnerov a materiálmi o inkluzívnej cirkusovej pedagogike.
 
-    [Otvoriť Kaskáda archív](Kaskade%20Workspace.md){ .md-button }
+    [Otvoriť projekt](Lets-talk-about-inclusive-circus-practice.md){ .md-button }
+
+-   __Archív Kaskade__
+
+    ---
+
+    Prepisy a spracovaný obsah z časopisu Kaskade: približne 30 rokov histórie žonglovania a cirkusu.
+
+    [Otvoriť archív Kaskade](Kaskade%20Workspace.md){ .md-button }
 
 -   __NICA e.V.__
 
@@ -86,7 +94,7 @@ Tieto úvody vás zavedú na najdôležitejšie prehľadové stránky:
 
 ## Zapojte sa
 
-CircusWiki žije z príspevkov z praxe. Môžete prispieť hrami, metódami, opravami, fotografiami, PDF súbormi, odkazmi, prekladmi alebo starými materiálmi. Materiál nemusí byť dokonalý a nepotrebujete na to účet na GitHub.
+CircusWiki žije z príspevkov z praxe. Môžete prispieť hrami, metódami, opravami, fotografiami, PDF súbormi, odkazmi, prekladmi alebo starými materiálmi. Materiál nemusí byť dokonalý a nepotrebujete účet na GitHub.
 
 [Zapojiť sa](mitmachen.md){ .md-button }
 

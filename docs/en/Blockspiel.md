@@ -6,7 +6,7 @@ tags:
   - spiele
   - beigoma
 created: 2025-01-24 03:50:50
-update: 2026-06-11 17:28:52
+update: 2026-06-12 20:25:46
 title: Block Game
 description:
 authors:

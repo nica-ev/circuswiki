@@ -309,3 +309,17 @@ views:
     columnSize:
       note.group-min: 116
       note.group-max: 121
+  - type: table
+    name: Convention-Games
+    filters:
+      and:
+        - lang == "de"
+        - category.contains("convention-games")
+    order:
+      - file.name
+      - category
+      - group-max
+      - group-min
+      - Schwierigkeit
+      - Material
+      - Spieldauer

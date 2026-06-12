@@ -3,7 +3,7 @@ lang: de
 translation_id: case-study-02-hungary
 created: 2025-08-30 19:07:41
 update: 2026-06-06 21:48:14
-publish: false
+publish: true
 tags:
   - case-study
 title: Jonglierbrett im Kindergarten

@@ -3,7 +3,7 @@ lang: de
 translation_id: case-study-08-poland
 created: 2025-08-30 20:51:10
 update: 2026-06-06 21:49:02
-publish: false
+publish: true
 tags:
   - case-study
 title: Keine Altersgrenze

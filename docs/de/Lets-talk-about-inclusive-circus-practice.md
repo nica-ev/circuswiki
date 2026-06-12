@@ -2,13 +2,13 @@
 lang: de
 translation_id: lets-talk-about-inclusive-circus-practice
 created: 2025-08-29 19:12:50
-update: 2026-06-06 23:21:23
-publish: false
+update: 2026-06-12 22:58:00
+publish: true
 tags:
   - case-study
   - moc
 title: Sprechen wir über inklusive Zirkuspraxis
-description:
+description: Fallstudien, Partner und Materialien aus dem Erasmus+ Projekt ?Let's talk about inclusive circus practice".
 authors:
   - Marc Bielert
   - Craig Quat

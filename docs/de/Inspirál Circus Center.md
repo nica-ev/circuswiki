@@ -3,7 +3,7 @@ lang: de
 translation_id: inspiral-circus-center
 created: 2025-08-31 20:27:02
 update: 2026-06-07 15:25:16
-publish: false
+publish: true
 tags:
   - case-study
   - Kontakte

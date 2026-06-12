@@ -3,7 +3,7 @@ lang: de
 translation_id: hula-hoop-integral
 created: 2025-08-31 21:00:27
 update: 2026-06-08 18:27:05
-publish: false
+publish: true
 tags:
   - case-study
   - Kontakte

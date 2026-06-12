@@ -3,7 +3,7 @@ lang: de
 translation_id: monokyklo
 created: 2025-08-29 22:03:01
 update: 2025-08-31 20:22:46
-publish: false
+publish: true
 tags:
   - case-study
   - Kontakte

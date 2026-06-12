@@ -2,7 +2,7 @@
 lang: pl
 translation_id: index
 created: 2025-01-21 18:09:55
-update: 2026-06-12 19:26:46
+update: 2026-06-13 00:04:51
 publish: true
 tags:
   - moc
@@ -14,14 +14,14 @@ authors:
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/index.md
-translation_source_hash: 870f088e0a15150c24fe1ea8b3f6ebcae9635e273ed3f9d31b0babb278eea464
+translation_source_hash: a3817766f898356932821485eac56631b0e6dcab73ce0b46b52caac97eb0f475
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-12T17:32:07+00:00
+translation_updated: 2026-06-12T22:40:41+00:00
 translation_source_metadata_hash: 52f0ef5f0a6296e95efac21a465cf0bf937020d56c4b8aa707913022d9cacc6f
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T17:32:07+00:00
-translation_source_body_hash: 870f088e0a15150c24fe1ea8b3f6ebcae9635e273ed3f9d31b0babb278eea464
+translation_metadata_updated: 2026-06-12T22:40:41+00:00
+translation_source_body_hash: a3817766f898356932821485eac56631b0e6dcab73ce0b46b52caac97eb0f475
 ---
 > [!info] W skrócie
 > CircusWiki to otwarta, kuratorowana i wielojęzyczna baza wiedzy na temat pedagogiki cyrkowej, gier ruchowych, praktyk inkluzywnych, żonglerki i powiązanych tematów.
@@ -66,11 +66,19 @@ Te wprowadzenia prowadzą do najważniejszych stron przeglądowych:
 
     [Otwórz Warsztaty i artykuły](workshops-und-artikel.md){ .md-button }
 
+-   __Inkluzywna praktyka cyrkowa__
+
+    ---
+
+    Projekt Erasmus+ z studiami przypadków, profilami partnerów i materiałami na temat inkluzywnej pedagogiki cyrkowej.
+
+    [Otwórz Projekt](Lets-talk-about-inclusive-circus-practice.md){ .md-button }
+
 -   __Archiwum Kaskade__
 
     ---
 
-    Transkrypcje i opracowane treści z magazynu Kaskade: około 30 lat historii żonglerki i cyrku.
+    Transkrypcje i przetworzone treści z magazynu Kaskade: około 30 lat historii żonglerki i cyrku.
 
     [Otwórz Archiwum Kaskade](Kaskade%20Workspace.md){ .md-button }
 
@@ -86,13 +94,13 @@ Te wprowadzenia prowadzą do najważniejszych stron przeglądowych:
 
 ## Współtwórz
 
-CircusWiki rozwija się dzięki wkładowi praktyków. Możesz dodawać gry, metody, poprawki, zdjęcia, pliki PDF, linki, tłumaczenia lub stare materiały. Materiały nie muszą być doskonałe i nie potrzebujesz konta GitHub.
+CircusWiki żyje dzięki wkładom praktyków. Możesz dodawać gry, metody, poprawki, zdjęcia, pliki PDF, linki, tłumaczenia lub stare materiały. Materiały nie muszą być doskonałe i nie potrzebujesz konta GitHub.
 
 [Współtwórz](mitmachen.md){ .md-button }
 
 ## Wspieraj
 
-CircusWiki jest otwarcie dostępne i wolne od reklam. Niemniej jednak generuje koszty: związane z infrastrukturą techniczną, narzędziami, tłumaczeniami, archiwizacją i długoterminową konserwacją. Staramy się pozyskiwać fundusze, ale potrzebujemy również stabilnego modelu darowizn i wsparcia.
+CircusWiki jest otwarcie dostępne i wolne od reklam. Niemniej jednak generuje koszty: związane z infrastrukturą techniczną, narzędziami, tłumaczeniami, archiwizacją i długoterminową konserwacją. Staramy się o pozyskanie funduszy, ale potrzebujemy również stabilnego modelu darowizn i wsparcia.
 
 Otwarcie pokazujemy, na co przeznaczane są pieniądze, i regularnie oraz przejrzyście o tym informujemy.
 

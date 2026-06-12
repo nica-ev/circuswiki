@@ -3,7 +3,7 @@ lang: de
 translation_id: case-study-14-united-states
 created: 2025-08-30 21:35:00
 update: 2026-06-06 21:49:38
-publish: false
+publish: true
 tags:
   - case-study
 title: Unterstützung der Beherrschung von Schreibwerkzeugen

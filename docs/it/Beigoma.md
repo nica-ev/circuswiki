@@ -15,14 +15,14 @@ authors:
 translation_status: machine-translated
 translation_source_lang: en
 translation_source: docs/en/Beigoma.md
-translation_source_hash: 910d97c61c19b43fbb8bd6b9ef1b98093ef4cf3991a3b7ff5e3bd1869c81efe2
+translation_source_hash: a8161f8c77ef88a63d9aad2b7c8af8ebb15e77ed9a53f5ed4829804ce78d772d
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-12T17:30:07+00:00
-translation_source_body_hash: 910d97c61c19b43fbb8bd6b9ef1b98093ef4cf3991a3b7ff5e3bd1869c81efe2
+translation_updated: 2026-06-12T21:02:44+00:00
+translation_source_body_hash: a8161f8c77ef88a63d9aad2b7c8af8ebb15e77ed9a53f5ed4829804ce78d772d
 translation_source_metadata_hash: 9673f9963410e461a465636852fcf658f2ec0a14076153bce5cf68994b5c2529
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T17:30:07+00:00
+translation_metadata_updated: 2026-06-12T21:02:44+00:00
 source:
   - Tokyo Beigoma
   - Personal contact with Tokyo Beigoma
@@ -31,9 +31,9 @@ source_url: https://tokyo-beigoma.com/
 > [!info] Riepilogo
 > Il Beigoma è un tradizionale gioco giapponese di trottole da battaglia, giocato con piccole trottole di metallo fuso, una cordicella e una superficie di gioco coperta di stoffa chiamata "pavimento".
 
-Il Beigoma è un antico gioco giapponese di trottole. Le trottole sono piccole, pesanti e solitamente realizzate in metallo fuso. I giocatori avvolgono una sottile cordicella attorno alla trottola, la lanciano su una superficie di gioco di stoffa tesa e competono o per mantenere la propria trottola in rotazione più a lungo, o per far uscire le altre trottole dall'area di gioco.
+Il Beigoma è un antico gioco giapponese di trottole. Le trottole sono piccole, pesanti e solitamente realizzate in metallo fuso. I giocatori avvolgono una sottile cordicella attorno alla trottola, la lanciano su una superficie di gioco di stoffa tesa e competono o per far girare la propria trottola più a lungo, o per far cadere le altre trottole dall'area di gioco.
 
-Per la pedagogia circense e del movimento, il Beigoma è utile perché combina controllo motorio fine, ripetizione, manipolazione di materiali, competizione, pazienza e gioco sociale. È anche abbastanza piccolo da poter essere proposto come attività secondaria durante workshop, allenamenti aperti, festival o in contesti di tipo "maker".
+Per la pedagogia circense e del movimento, il Beigoma è utile perché combina controllo motorio fine, ripetizione, manipolazione di materiali, competizione, pazienza e gioco sociale. È anche abbastanza piccolo da poter essere proposto come attività secondaria durante workshop, allenamenti aperti, festival o contesti di tipo "maker".
 
 ## **Cosa Serve**:
 
@@ -50,17 +50,17 @@ Vedere [Attrezzatura e Allestimento Beigoma](Beigoma%20Equipment%20and%20Setup.m
 1. Preparare una cordicella con nodi che possano agganciare la punta del Beigoma.
 2. Avvolgere strettamente la cordicella attorno alla trottola.
 3. Tenere la trottola avvolta piatta e vicina al pavimento di gioco.
-4. Rilasciare la trottola tirando via la cordicella in modo fluido.
+4. Rilasciare la trottola mentre si tira via la cordicella con un movimento fluido.
 5. Iniziare con semplici round uno contro uno prima di utilizzare formati a torneo o a punti.
 
-I principianti di solito hanno bisogno di tempo per imparare l'avvolgimento e il lancio. Il primo obiettivo utile non è vincere, ma far atterrare la trottola in posizione eretta e farla girare in modo affidabile.
+I principianti di solito hanno bisogno di tempo per imparare l'avvolgimento e il lancio. Il primo obiettivo utile non è vincere, ma far atterrare la trottola in posizione verticale e farla girare in modo affidabile.
 
 ## **Stili di Gioco Principali**:
 
 - **Riki**: vince la trottola che gira più a lungo.
-- **Hajiki**: vince una trottola che fa uscire un'altra trottola dal pavimento di gioco.
+- **Hajiki**: una trottola vince facendo cadere un'altra trottola dal pavimento di gioco.
 - **Gioco con trottole normali**: si usano trottole non modificate per mantenere alto il fattore fortuna e rendere più equilibrati i gruppi con abilità miste.
-- **Gioco con trottole modificate**: le trottole vengono modificate per una rotazione più lunga, attacchi più forti o regole specifiche del torneo.
+- **Gioco con trottole modificate**: le trottole vengono modificate per una maggiore durata di rotazione, attacchi più forti o regole specifiche del torneo.
 
 ## **Pagine di Questo Cluster**:
 
@@ -91,7 +91,7 @@ I principianti di solito hanno bisogno di tempo per imparare l'avvolgimento e il
 
 ## **Note per la Facilitazione**:
 
-Usare Beigoma ordinari e non modificati quando principianti e giocatori esperti giocano insieme. Questo mantiene l'esito meno prevedibile e dà ai nuovi giocatori una possibilità realistica di partecipare.
+Utilizzare Beigoma ordinari e non modificati quando principianti e giocatori esperti giocano insieme. Questo mantiene l'esito meno prevedibile e offre ai nuovi giocatori una possibilità realistica di partecipare.
 
 Per i workshop, insegnare l'avvolgimento e il lancio prima di spiegare le regole dettagliate. Formati strutturati come Speed o Block Game funzionano meglio una volta che la maggior parte dei partecipanti è in grado di far girare una trottola almeno a volte.
 

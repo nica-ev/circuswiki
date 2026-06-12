@@ -3,7 +3,7 @@ lang: de
 translation_id: case-study-03-italy
 created: 2025-08-30 20:14:34
 update: 2026-06-06 21:48:25
-publish: false
+publish: true
 tags:
   - case-study
 title: Mehr als Bewegung
