@@ -12,8 +12,8 @@ authors:
   - Marc Bielert
 category:
   - bewegung
-Schwierigkeit: einfach
-Material: Markierung für Fänger
+Schwierigkeit: facile
+Material: Segnalino per chi insegue
 Spieldauer: 5-10
 source: Tasifan Spielebuch
 group-min: 8
@@ -25,10 +25,12 @@ translation_source_hash: 8213c544d6847131566f316b1c924838ee19f9b225d311dcac0a89b
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:37:44+00:00
 translation_source_body_hash: 8213c544d6847131566f316b1c924838ee19f9b225d311dcac0a89b9a0e3ad7b
-translation_source_metadata_hash: cb1c176f396c0d894e1f4e585304e26727842a34d408913ce0ac32ca4d7abe5d
+translation_source_metadata_hash: 6288654d7ce9c8725ce3431252e6e27cc4a8e7c58a25e1d65fb3c832e354090b
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T19:13:02+00:00
+translation_metadata_updated: 2026-06-14T16:28:10+00:00
+translation_source_localized_metadata_hash: 6288654d7ce9c8725ce3431252e6e27cc4a8e7c58a25e1d65fb3c832e354090b
+translation_source_structural_metadata_hash: 435597e56a966d26370e44b290cca7bb17bc0c357afdae7400f812ac620cb899
 ---
 > [!info] Breve descrizione
 > Un gioco di presa in cui le persone catturate devono essere disinnescate come bombe a orologeria prima di essere eliminate.

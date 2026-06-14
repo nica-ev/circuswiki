@@ -31,11 +31,10 @@ source_url: https://ucircus.co.uk/resources-circus-games/
 source_image: ../img/3-ball-zombie-knockout.jpg
 source_permission: public group photo reviewed as reusable by project maintainer
 ---
-
 > [!info] Short Description
 > A themed juggling knockout game where three-ball jugglers try to survive a zombie-style chase.
 
-![[../img/3-ball-zombie-knockout.jpg|300]]
+![3-ball-zombie-knockout](../img/3-ball-zombie-knockout.jpg){ width=300 }
 
 **Group Size**: 5 to 40 players
 **Difficulty**: mittel

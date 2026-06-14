@@ -6,14 +6,14 @@ tags:
   - spiele
 created: 2025-01-24 03:50:51
 update: 2026-06-09 02:34:55
-title: Plotkowanie na żywo
-description: Gra integracyjna dla małych grup, polegająca na zbieraniu i rozwiązywaniu domysłów na temat obecnej osoby.
+title: Plotkowanie na obecność
+description: Gra poznawcza dla małych grup, w której zbiera się przypuszczenia na temat obecnej osoby, a następnie je wyjaśnia.
 authors:
   - Marc Bielert
 category:
   - kennenlernen
-Schwierigkeit: einfach
-Material: keines
+Schwierigkeit: łatwy
+Material: brak
 Spieldauer: 10-15
 source:
   - unbekannt
@@ -26,10 +26,12 @@ translation_source_hash: 2d427c4329484b381c8f5debf8b66200d66356aba1cdda61050fb35
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:32:22+00:00
 translation_source_body_hash: 2d427c4329484b381c8f5debf8b66200d66356aba1cdda61050fb351a45883bf
-translation_source_metadata_hash: 7620ed7145e37d7d4ea3929477136a3c8bac476c2a80be137c2d506a47f1f508
+translation_source_metadata_hash: b104dc43eebebcb23e694b929cd976ef063f62b309475289480f4755eb263b65
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T19:10:02+00:00
+translation_metadata_updated: 2026-06-14T16:22:59+00:00
+translation_source_localized_metadata_hash: b104dc43eebebcb23e694b929cd976ef063f62b309475289480f4755eb263b65
+translation_source_structural_metadata_hash: f3a1d56072e32579ca8fc794bd9a83bfceeae94220569885a7f8f9ea229a453c
 ---
 > [!info] Krótki opis
 > Gra zapoznawcza dla małych grup, w której zbiera się przypuszczenia na temat obecnej osoby, a następnie je wyjaśnia.

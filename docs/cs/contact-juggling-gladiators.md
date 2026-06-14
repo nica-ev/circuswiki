@@ -13,7 +13,7 @@ tags:
 created: 2026-06-12 00:00:00
 update: 2026-06-12 22:45:24
 title: Kontaktní žonglérští gladiátoři
-description: Vyřazovací hra v kontaktním žonglování, kde hráči chrání rovnováhu svých míčků a zároveň narušují rovnováhu ostatních.
+description: Kontaktní žonglérská vyřazovací hra, kde si hráči chrání rovnováhu vlastního míčku a zároveň narušují rovnováhu ostatních.
 authors:
   - CircusWiki contributors
 category:
@@ -21,8 +21,8 @@ category:
   - contact-juggling
   - knockout
   - gladiators
-Schwierigkeit: "mittel"
-Material: "Contact balls, usually four per player for a pyramid"
+Schwierigkeit: střední
+Material: Kontaktní míčky, obvykle čtyři na hráče pro pyramidu
 Spieldauer: "5-10"
 group-min: 3
 group-max: 30
@@ -37,35 +37,37 @@ source_permission: "public-place images reviewed as reusable by project maintain
 aliases:
   - Contact Ball Gladiators
 translation_source: docs/en/contact-juggling-gladiators.md
-translation_source_body_hash: 43bbbca8026a69da082567b0a62bd234ebdb046fdc7d7f2ac7c79f1b9992c278
-translation_source_hash: 43bbbca8026a69da082567b0a62bd234ebdb046fdc7d7f2ac7c79f1b9992c278
+translation_source_body_hash: a70f0e9aad83961b1c3efaf71aa5977c4e08e492babf33890a86ed8eb3ecb3b3
+translation_source_hash: a70f0e9aad83961b1c3efaf71aa5977c4e08e492babf33890a86ed8eb3ecb3b3
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-12T21:14:01+00:00
-translation_source_metadata_hash: 2031ecbd2bff1e6f316aa5420efa146b504d8126d74ab088b1ac60c287df9589
+translation_updated: 2026-06-14T19:27:10+00:00
+translation_source_metadata_hash: bcb1d24a0012784a743e1edc607dd9716713e0e7f268b5ab030f0a49082aa9c1
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T21:14:01+00:00
+translation_metadata_updated: 2026-06-14T19:27:10+00:00
+translation_source_localized_metadata_hash: bcb1d24a0012784a743e1edc607dd9716713e0e7f268b5ab030f0a49082aa9c1
+translation_source_structural_metadata_hash: a751a656eae0d52d6b87b4d0a151f743e6441cd8c99f336ea58a6774414c1d5d
 ---
 > [!info] Stručný popis
-> Vyřazovací hra s kontaktními míčky, kde si hráči chrání vlastní rovnováhu s míčky a zároveň narušují rovnováhu ostatních.
+> Vyřazovací hra s kontaktními míčky, kde si hráči chrání rovnováhu svých míčků a zároveň narušují rovnováhu ostatních.
 
-![[../img/contact-ball-gladiators.jpg|300]]
+![contact-ball-gladiators](../img/contact-ball-gladiators.jpg){ width=300 }
 
-**Počet hráčů**: 3 až 30  
+**Počet hráčů**: 3 až 30 hráčů  
 **Obtížnost**: střední  
 **Materiál**: Kontaktní míčky, obvykle čtyři na hráče pro pyramidu  
 **Délka**: cca 5-10 minut
 
 ## Popis hry
 
-Každý hráč začíná s dohodnutým tvarem z kontaktních míčků. Dokumentovaná verze z JugglingWorld používá pyramidu ze čtyř míčků. Hráči se pohybují po hrací ploše a snaží se narušit tvary ostatních hráčů, zatímco si vlastní udržují neporušené.
+Každý hráč začíná s dohodnutým tvarem z kontaktních míčků. Dokumentovaná verze z JugglingWorld používá pyramidu ze čtyř míčků. Hráči se pohybují po aréně a snaží se narušit tvary ostatních hráčů, přičemž si vlastní tvary udržují neporušené.
 
-Hráč je vyřazen, když mu spadne míček, rozpadne se tvar, nebo použije nepovolený kontakt. Ve verzi s pyramidou ze čtyř míčků mohou hráči do cizí pyramidy strčit pouze vlastní pyramidou. Prsty, volné ruce, tlačení tělem a házení nejsou povoleny. Poslední hráč s neporušeným požadovaným tvarem vítězí.
+Hráč vypadává, když mu spadne míček, rozpadne se tvar, nebo použije nepovolený kontakt. Ve verzi s pyramidou ze čtyř míčků mohou hráči do cizí pyramidy šťouchnout pouze svou vlastní pyramidou. Prsty, volné ruce, tlačení tělem a házení nejsou povoleny. Poslední hráč s neporušeným požadovaným tvarem vyhrává.
 
 ## Příprava
 
-- Dohodněte se na požadovaném tvaru, například jednoduchém balancování jednoho míčku nebo pyramidě ze čtyř míčků.
--Vymezte malou hrací plochu.
+- Dohodněte se na požadovaném tvaru, například na jednom balancovaném míčku nebo pyramidě ze čtyř míčků.
+-Vymeďte malou arénu.
 -Před začátkem kola definujte povolené kontakty.
 
 ## Varianty
@@ -76,11 +78,11 @@ Hráč je vyřazen, když mu spadne míček, rozpadne se tvar, nebo použije nep
 
 ## Bezpečnostní pokyny
 
-Kontaktní míčky mohou být těžké. Hru hrajte pomalu a zakazujte házení, údery, strkání rukama a narážení tělem.
+Kontaktní míčky mohou být těžké. Hru hrajte pomalu a zakazujte házení, údery, tlačení rukama a tělesné střety.
 
 ## Zdroj
 
 - [JugglingWorld - Juggling Games](https://www.jugglingworld.biz/tricks/juggling-games/), sekce: Gladiators, název: Contact Juggling Gladiators.
-- [Stránka s cirkusovými hrami UCirucs](https://ucircus.co.uk/resources-circus-games/), karta zdroje: Contact Ball Gladiators.
-- Lekce UCircus: Kontakt, Vyřazovací hry, Balancování.
+- [Stránka s cirkusovými hrami UCircus](https://ucircus.co.uk/resources-circus-games/), karta zdroje: Contact Ball Gladiators.
+- Kurzy UCircus: Kontakt, Vyřazovací hry, Rovnováha.
 - Referenční obrázek UCircus: `../img/contact-ball-gladiators.jpg`.

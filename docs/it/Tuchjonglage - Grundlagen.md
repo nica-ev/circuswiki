@@ -6,7 +6,7 @@ update: 2025-02-23 21:57:43
 publish: true
 tags:
   - tutorial
-title: Tessuti aerei - Fondamenti
+title: Giocoleria con foulard - Fondamenti
 description: 
 authors:
   - Marc Bielert
@@ -17,10 +17,12 @@ translation_source_hash: 50d94bd0dba95063cedf1672dc5012c92f0cdffd755b809b248d035
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-06T23:09:28+00:00
 translation_source_body_hash: 50d94bd0dba95063cedf1672dc5012c92f0cdffd755b809b248d0354714bcb24
-translation_source_metadata_hash: b0506cac391e8c76876f7d41a6f6a126009b52cb49f260014001177881969c97
+translation_source_metadata_hash: b93c397baef4bb717b77ee75ddf1411a453a0af6f19c80f04cf501c990b6beba
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T19:10:13+00:00
+translation_metadata_updated: 2026-06-14T16:23:16+00:00
+translation_source_localized_metadata_hash: b93c397baef4bb717b77ee75ddf1411a453a0af6f19c80f04cf501c990b6beba
+translation_source_structural_metadata_hash: b1fdeeac866b579f50b73fe8c7fc949d7fd74a926f304bfdc568460bb9991959
 ---
 # Giocoleria con foulard - Fondamenti
 

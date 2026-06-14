@@ -6,14 +6,14 @@ tags:
   - spiele
 created: 2025-01-24 03:50:50
 update: 2025-03-17 02:11:47
-title: Cyrk jest w mieście
-description: Interaktywna gra fabularna o cyrku, w której polecenia, ruchy i krótkie chwile łapania są osadzone w historii.
+title: Cyrk w mieście
+description: Interaktywna gra opowiadania cyrkowego, w której polecenia, ruchy i krótkie chwile łapania są wplecione w historię.
 authors:
   - Marc Bielert
 category:
   - sonstiges
-Schwierigkeit: einfach
-Material: keines
+Schwierigkeit: łatwy
+Material: brak
 Spieldauer: 5-15
 source: Tasifan Spielebuch
 group-min: 10
@@ -25,10 +25,12 @@ translation_source_hash: c68726cc5f9ea570995d4c1cdd60acca782ce146ab57337cff4091c
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:31:03+00:00
 translation_source_body_hash: c68726cc5f9ea570995d4c1cdd60acca782ce146ab57337cff4091c75b787861
-translation_source_metadata_hash: 2292a3574d035acf01949a1021168f1edcb113f7e954a71545dab85dc874077e
+translation_source_metadata_hash: a4581397551771e28e44d90d663bd4b19ca644d2357b4a7ce74397c8c23851c7
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:08:24+00:00
+translation_metadata_updated: 2026-06-14T15:45:16+00:00
+translation_source_localized_metadata_hash: a4581397551771e28e44d90d663bd4b19ca644d2357b4a7ce74397c8c23851c7
+translation_source_structural_metadata_hash: 4f5a46fe7ab23f8dc6d4c79970173b070bd766a807e66af7a45b0cb649b94426
 ---
 > [!info] Krótki opis
 > Interaktywna gra opowiadania cyrkowego, w której komendy, ruchy i krótkie momenty łapania są osadzone w historii.

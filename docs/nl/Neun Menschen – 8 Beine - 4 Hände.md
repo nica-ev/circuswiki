@@ -7,13 +7,13 @@ publish: true
 tags:
   - spiele
 title: Negen mensen – 8 benen - 4 handen
-description: Een groepstaak waarbij teams een parcours moeten afleggen met een beperkt aantal toegestane contactpunten met de grond.
+description: Een teambuildingopdracht waarbij groepen een parcours moeten afleggen met een beperkt aantal voorgedefinieerde contactpunten op de grond.
 authors:
   - Marc Bielert
 category:
   - Kooperation
-Schwierigkeit: einfach
-Material: keines
+Schwierigkeit: eenvoudig
+Material: geen
 Spieldauer: 10
 source: Tasifan Spielebuch
 group-min: 10
@@ -25,10 +25,12 @@ translation_source_hash: d5cd8e0f2f128d7404da359951ca5924c69195cf8244498aa83c54e
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:08:50+00:00
 translation_source_body_hash: d5cd8e0f2f128d7404da359951ca5924c69195cf8244498aa83c54e3eaaa1699
-translation_source_metadata_hash: 5059b4453e1c04554cdabe3488a45298df16e18723bbe9ccaa78bf49f7636511
+translation_source_metadata_hash: 4c86cb2c00068e745738b43eb8a72400dbb1b274f587d1a3b47852fc0e9eed16
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T19:00:20+00:00
+translation_metadata_updated: 2026-06-14T16:13:35+00:00
+translation_source_localized_metadata_hash: 4c86cb2c00068e745738b43eb8a72400dbb1b274f587d1a3b47852fc0e9eed16
+translation_source_structural_metadata_hash: 6f6541ce6777113e48b947b85a355393db81188eb95a280e30b81d75118f824f
 ---
 > [!info] Korte beschrijving
 > Een groepstaak waarbij groepen een parcours moeten afleggen met een beperkt aantal toegestane contactpunten met de grond.

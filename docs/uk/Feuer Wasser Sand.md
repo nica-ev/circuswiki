@@ -13,8 +13,8 @@ authors:
 category:
   - warm-up
   - bewegung
-Schwierigkeit: einfach
-Material: Erhöhungen, optional Trommel
+Schwierigkeit: легко
+Material: Підвищення, опціонально барабан
 Spieldauer: 5-15
 source: Tasifan Spielebuch
 group-min: 4
@@ -26,10 +26,12 @@ translation_source_hash: b93e2da8f4cc33adcd93d832223f022dc6d2014c763165018687002
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:37:58+00:00
 translation_source_body_hash: b93e2da8f4cc33adcd93d832223f022dc6d2014c763165018687002b8351d103
-translation_source_metadata_hash: 1b4d4d66b87fcd710c49c500085f8fadb8af13ac77dba66e334370dacf31b1d1
+translation_source_metadata_hash: 2443a049b6cb4ead116571486f0683aeecdaab7a56a90c38dba72590f0fc62cd
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:46:39+00:00
+translation_metadata_updated: 2026-06-14T15:49:25+00:00
+translation_source_localized_metadata_hash: 2443a049b6cb4ead116571486f0683aeecdaab7a56a90c38dba72590f0fc62cd
+translation_source_structural_metadata_hash: 83cd73a84ec628d550507396d1472c7e5ef2c4594a9b1c41c5f1e3dca275a102
 ---
 > [!info] Короткий опис
 > Командна гра, під час якої група швидко реагує на оголошені терміни та знаходить відповідні рухи чи пози.

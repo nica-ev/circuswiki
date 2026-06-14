@@ -7,14 +7,14 @@ tags:
 created: 2025-02-01 02:23:23
 update: 2026-06-09 01:12:29
 title: Pies w wielkim domu
-description: Narracyjna gra rozgrzewkowa, w której grupa odgrywa krótką historię z pasującymi ruchami.
+description: Narracyjna gra rozgrzewkowa, w której grupa odgrywa krótką historię z dopasowanymi ruchami.
 authors:
   - Marc Bielert
 category:
   - warm-up
   - story-telling
-Schwierigkeit: einfach
-Material: keines
+Schwierigkeit: łatwy
+Material: żaden
 Spieldauer: 5 - 10
 source: unbekannt
 group-min: 5
@@ -27,10 +27,12 @@ translation_source_hash: 194fbebc1ad54f0db5614f5b02957d5d1b963ee3a38f8a7740f5dfa
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:30:15+00:00
 translation_source_body_hash: 194fbebc1ad54f0db5614f5b02957d5d1b963ee3a38f8a7740f5dfa756119126
-translation_source_metadata_hash: 816d00b214acaf71eeb2797ff9c4a3de582be74be41ff39b9c93a9f8bcbea85f
+translation_source_metadata_hash: a93e7600c3a8087cc8b314a5797aedc7f23682447cb35ee735978211eb8b23c7
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:08:02+00:00
+translation_metadata_updated: 2026-06-14T15:44:55+00:00
+translation_source_localized_metadata_hash: a93e7600c3a8087cc8b314a5797aedc7f23682447cb35ee735978211eb8b23c7
+translation_source_structural_metadata_hash: c6c749b412ed7212dcc9ed3d1c107576a5658ca638abadfca1b3a63a05b5eb60
 ---
 > [!info] Krótki opis
 > Narracyjna gra rozgrzewkowa, w której grupa odgrywa krótką historię z odpowiednimi ruchami.

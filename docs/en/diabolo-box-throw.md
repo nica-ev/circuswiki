@@ -35,11 +35,10 @@ source_permission: "public-place images reviewed as reusable by project maintain
 aliases:
   - Diabolo in a Box
 ---
-
 > [!info] Short Description
 > A target game where players try to throw a diabolo into a box or basket.
 
-![[../img/game-diabolo-in-box.jpg|300]]
+![game-diabolo-in-box](../img/game-diabolo-in-box.jpg){ width=300 }
 
 **Group Size**: 2 to 40 players  
 **Difficulty**: einfach  

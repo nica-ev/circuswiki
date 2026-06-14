@@ -12,8 +12,8 @@ authors:
   - Marc Bielert
 category:
   - fangen
-Schwierigkeit: einfach
-Material: keines
+Schwierigkeit: facile
+Material: nessuno
 Spieldauer: 5 - 15
 source: unbekannt
 group-min: 6
@@ -26,10 +26,12 @@ translation_source_hash: 707aa42bec113838c1a7427c059d89efe9d634bd3feb29f274a1fd4
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-06T23:07:17+00:00
 translation_source_body_hash: 707aa42bec113838c1a7427c059d89efe9d634bd3feb29f274a1fd43ef6b7969
-translation_source_metadata_hash: 93c794f92c3d5e8b4e09e2f32b2143b707a24d1d778daebcea84a7ad73ae9570
+translation_source_metadata_hash: c7e74b701224255007ac9d56b85082b62471b12883e460d6b52f2496606c75e4
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:59:12+00:00
+translation_metadata_updated: 2026-06-14T16:12:36+00:00
+translation_source_localized_metadata_hash: c7e74b701224255007ac9d56b85082b62471b12883e460d6b52f2496606c75e4
+translation_source_structural_metadata_hash: 4ac33a282ae5f4ed1178162538fb1dcc27b6f471c6f2c714c8f96ebb6466235d
 ---
 # Medioevo Sasso Carta Forbici
 

@@ -19,8 +19,8 @@ category:
   - unicycle
   - endurance
   - hopping
-Schwierigkeit: "schwer"
-Material: "Unicycles"
+Schwierigkeit: nehéz
+Material: Egyszemélyes biciklik
 Spieldauer: "5-15"
 group-min: 3
 group-max: 60
@@ -35,10 +35,12 @@ translation_source_body_hash: 09767e39bc2eb5bd02de99f16ee6427002e9fed4418d42b55f
 translation_source_hash: 09767e39bc2eb5bd02de99f16ee6427002e9fed4418d42b55f3bd49838baa3ee
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-12T21:20:10+00:00
-translation_source_metadata_hash: 0c73e5e90851d77449e539a91b05862a13b673b3c67b90355cdbe18e79c8af6b
+translation_source_metadata_hash: a6a89593e61054667d102fc6bb6d9d00c4bad8565b2074331db04d1a6759080d
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T21:20:10+00:00
+translation_metadata_updated: 2026-06-14T15:59:43+00:00
+translation_source_localized_metadata_hash: a6a89593e61054667d102fc6bb6d9d00c4bad8565b2074331db04d1a6759080d
+translation_source_structural_metadata_hash: 3b403e6ddd5f462ad49568b63260d75a8ccf0b7317e5822d42f6de4b80d89e70
 ---
 > [!info] Rövid leírás
 > Minden kerekes a saját egyszemélyes biciklijén ugrál a helyén.

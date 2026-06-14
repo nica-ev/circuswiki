@@ -11,15 +11,15 @@ tags:
 created: 2026-06-12 00:00:00
 update: 2026-06-12 21:08:12
 title: Gladiadores de Hula Hoop
-description: Un juego de eliminación con hula hoops basado en el formato de juego de convención de gladiadores.
+description: Un juego de eliminación con hula hoop basado en el formato de juego de convención de gladiadores.
 authors:
   - CircusWiki contributors
 category:
   - convention-games
   - knockout
   - hula-hoop
-Schwierigkeit: mittel
-Material: One hula hoop per player, marked playing area
+Schwierigkeit: medio
+Material: Un hula hoop por jugador, área de juego marcada
 Spieldauer: "5-15"
 group-min: 4
 group-max: 40
@@ -30,19 +30,21 @@ source_url: https://ucircus.co.uk/resources-circus-games/
 source_image: ../img/hula-hoop-gladiators.jpg
 source_permission: public group photo reviewed as reusable by project maintainer
 translation_source: docs/en/hula-hoop-gladiators.md
-translation_source_body_hash: 95087ab37d00f4cd9f32dcfe45579af59c360e62e34257653aaa2db9a65e1ecb
-translation_source_hash: 95087ab37d00f4cd9f32dcfe45579af59c360e62e34257653aaa2db9a65e1ecb
+translation_source_body_hash: 18bca5483a61482aa4a26ef543a192ba94026c11eedc77b44b43e6255b40d9fd
+translation_source_hash: 18bca5483a61482aa4a26ef543a192ba94026c11eedc77b44b43e6255b40d9fd
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-12T21:44:15+00:00
-translation_source_metadata_hash: 02542937376e27e308bcb83575fc83c66cdebed91ab40e8c8136a169c724561a
+translation_updated: 2026-06-14T19:39:17+00:00
+translation_source_metadata_hash: 8819e7e188797c797581705207490f3d938d0990a25e3b4b5d7f32c4907c6f97
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T21:44:15+00:00
+translation_metadata_updated: 2026-06-14T19:39:17+00:00
+translation_source_localized_metadata_hash: 8819e7e188797c797581705207490f3d938d0990a25e3b4b5d7f32c4907c6f97
+translation_source_structural_metadata_hash: 836da624869e1e91b81a85b5df2b80b8ec9f43170f17d62b998764262ba07c5c
 ---
 > [!info] Descripción Breve
 > Un juego de eliminación con hula-hoops basado en el formato de juego de convención de gladiadores.
 
-![[../img/hula-hoop-gladiators.jpg|300]]
+![hula-hoop-gladiators](../img/hula-hoop-gladiators.jpg){ width=300 }
 
 **Tamaño del grupo**: 4 a 40 jugadores
 **Dificultad**: media
@@ -51,25 +53,25 @@ translation_metadata_updated: 2026-06-12T21:44:15+00:00
 
 ## Descripción del Juego
 
-Los jugadores mantienen un aro activo mientras se mueven dentro de una arena. Intentan hacer que otros jugadores pierdan el control de su aro sin contacto inseguro.
+Los jugadores mantienen un aro activo mientras se mueven dentro de una arena. Intentan hacer que otros jugadores pierdan el control de su aro sin contacto peligroso.
 
 ## Preparación
 
-- Dale un aro a cada jugador.
-- Define qué cuenta como activo: hacer girar el aro en la cintura, en las manos o llevarlo en una posición específica.
+- Dale a cada jugador un aro.
+- Define qué se considera "activo": hacer girar el aro en la cintura, en las manos o sostenerlo en una posición específica.
 - Delimita la arena y acuerda las interferencias permitidas.
 
 ## Reglas
 
 1. Todos los jugadores comienzan la acción acordada con el aro al mismo tiempo.
-2. Los jugadores se mueven por la arena e intentan perturbar la acción del aro de otros jugadores usando solo el contacto permitido.
+2. Los jugadores se mueven por la arena e intentan perturbar la acción del aro de otros jugadores utilizando únicamente el contacto permitido.
 3. Un jugador queda eliminado cuando su aro cae, se detiene, sale del campo o utiliza contacto ilegal.
 4. Los jugadores eliminados abandonan la arena con su aro.
 5. El último jugador activo gana.
 
 ## Variaciones
 
-- Usa reglas de "sin contacto" donde los jugadores solo puedan bloquear el espacio.
+- Utiliza reglas de "sin contacto", donde los jugadores solo pueden bloquear el espacio.
 - Realiza rondas por equipos con aros o petos de colores.
 - Exige un estilo específico de hacer girar el aro para jugadores avanzados.
 

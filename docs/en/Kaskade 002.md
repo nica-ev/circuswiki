@@ -18,10 +18,12 @@ translation_source_hash: 95fbf5b35d54a130d4d5404e9dc84b9d0d5fbd478f502b07f8046b3
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-06T19:24:21+00:00
 translation_source_body_hash: 95fbf5b35d54a130d4d5404e9dc84b9d0d5fbd478f502b07f8046b3718098c88
-translation_source_metadata_hash: 325db526a3eb80feff1f272bc40a082935b6849b4bbdad183530285dfe95ac61
+translation_source_metadata_hash: dad3abd15233125543cc9aad6304a01ae4f881a732620703417a8ace98c1740a
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:52:19+00:00
+translation_metadata_updated: 2026-06-14T16:05:51+00:00
+translation_source_localized_metadata_hash: dad3abd15233125543cc9aad6304a01ae4f881a732620703417a8ace98c1740a
+translation_source_structural_metadata_hash: 622ab901e41d2f99d83d1939e5e990b8e74d430b77e1864657290d77626edf2f
 ---
 ## JUGGLING WEEK '84
 **Idle Thoughts on Frankfurt from Someone Who Was There**

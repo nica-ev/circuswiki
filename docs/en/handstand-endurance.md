@@ -32,11 +32,10 @@ source_section: "Endurance Games/World Records"
 source_image_ucircus: "../img/handstand-endurance.jpg"
 source_permission: "public-place images reviewed as reusable by project maintainer"
 ---
-
 > [!info] Short Description
 > A last-person-standing balance challenge where participants hold a handstand as long as possible.
 
-![[../img/handstand-endurance.jpg|300]]
+![handstand-endurance](../img/handstand-endurance.jpg){ width=300 }
 
 **Group Size**: 2 to 40 players  
 **Difficulty**: schwer  

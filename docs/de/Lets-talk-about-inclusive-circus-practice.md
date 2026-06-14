@@ -2,8 +2,8 @@
 lang: de
 translation_id: lets-talk-about-inclusive-circus-practice
 created: 2025-08-29 19:12:50
-update: 2026-06-12 22:58:00
-publish: true
+update: 2026-06-06 23:21:23
+publish: false
 tags:
   - case-study
   - moc
@@ -19,10 +19,12 @@ translation_source_hash: 7599416b8b7f1bd5f8da1097b20e25403b51a5f5e84a79ee972e75a
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-07T13:27:48+00:00
 translation_source_body_hash: 7599416b8b7f1bd5f8da1097b20e25403b51a5f5e84a79ee972e75a851f39291
-translation_source_metadata_hash: 3063426c3fce69efc0042fdf0f563a5fb6d8ff85fd433c8e3c572c103da61bf6
+translation_source_metadata_hash: 3fc22bdd1b6862d333ae639cb4340aed74d7cee75bd82555fb28fc62bd2a3255
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:56:16+00:00
+translation_metadata_updated: 2026-06-14T16:09:53+00:00
+translation_source_localized_metadata_hash: 3fc22bdd1b6862d333ae639cb4340aed74d7cee75bd82555fb28fc62bd2a3255
+translation_source_structural_metadata_hash: b2f73c198102dc498ced72c40d9c51a90198e5a96ae557faa8f8c6a547fc93cb
 ---
 [Über das Projekt und die Partner](Disclaimer.md)
 ## Prolog

@@ -7,13 +7,13 @@ tags:
 created: 2025-01-24 03:50:50
 update: 2025-03-17 02:06:48
 title: Схрещені руки
-description: Реакційна гра в колі, де схрещені руки по черзі плескають і запускають зміни напрямку.
+description: Гра на реакцію в колі, де схрещені руки по черзі плескають і змінюють напрямок.
 authors:
   - Marc Bielert
 category:
   - kreisspiel
-Schwierigkeit: einfach
-Material: keines
+Schwierigkeit: легко
+Material: немає
 Spieldauer: 5-10
 source: unbekannt
 group-min: 5
@@ -25,10 +25,12 @@ translation_source_hash: 85798d5a7d59eb993e1beb42f2e37370106078f5cbe5bdc17e4a7f6
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:29:28+00:00
 translation_source_body_hash: 85798d5a7d59eb993e1beb42f2e37370106078f5cbe5bdc17e4a7f647396622d
-translation_source_metadata_hash: d1f1adf935ead51d90a3e0e0bb7d283081823b534fd334ed5125c511769021bd
+translation_source_metadata_hash: e48118e97d48af0419b59cc0c263663c614fff042fd71222fb2b8b35670ac7c9
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:07:40+00:00
+translation_metadata_updated: 2026-06-14T15:44:28+00:00
+translation_source_localized_metadata_hash: e48118e97d48af0419b59cc0c263663c614fff042fd71222fb2b8b35670ac7c9
+translation_source_structural_metadata_hash: b29eee686f99f82392687c167731915401a04eb387c859925fe850cef6e86cc2
 ---
 > [!info] Короткий опис
 > Гра на реакцію в колі, де схрещені руки по черзі плескають і змінюють напрямок.

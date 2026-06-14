@@ -17,10 +17,12 @@ translation_source_hash: 3b640a25b7f5e98605b1b30bc4ac62e77f8bea8285bab95d1dd64fb
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-07T18:48:08+00:00
 translation_source_body_hash: 3b640a25b7f5e98605b1b30bc4ac62e77f8bea8285bab95d1dd64fbc2b5aa504
-translation_source_metadata_hash: 062331be4aa6c9c8af6dcca98a96baf43cbeedf3008c512ed2963fd5b866e411
+translation_source_metadata_hash: eb57505ec3d5c57a1a13c8bcdc5aac07d24cf2c69d5bf5fb8351f5bfadc10b7c
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:51:52+00:00
+translation_metadata_updated: 2026-06-14T15:54:31+00:00
+translation_source_localized_metadata_hash: eb57505ec3d5c57a1a13c8bcdc5aac07d24cf2c69d5bf5fb8351f5bfadc10b7c
+translation_source_structural_metadata_hash: 98afdacb476bfef56846dde2b197d4d4bd8a23b36713b19c9ad6e402c04f9c8a
 ---
 #todo doplniť obsah
 

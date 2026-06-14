@@ -11,7 +11,7 @@ tags:
 created: 2026-06-12 00:00:00
 update: 2026-06-12 21:59:27
 title: Lançamento Mais Longo para Si Mesmo!
-description: Os jogadores lançam o seu diabolo para a frente a partir de um ponto de partida, correm atrás dele e tentam apanhá-lo sozinhos.
+description: Os jogadores lançam o seu diabolô para a frente a partir de um ponto de partida, correm atrás dele e tentam apanhá-lo.
 authors:
   - CircusWiki contributors
 category:
@@ -19,8 +19,8 @@ category:
   - diabolo
   - throwing
   - catching
-Schwierigkeit: "mittel"
-Material: "Diabolos and handsticks, distance markers"
+Schwierigkeit: médio
+Material: Diabolôs e baquetas, marcadores de distância
 Spieldauer: "5-15"
 group-min: 2
 group-max: 40
@@ -35,10 +35,12 @@ translation_source_body_hash: 529ecfb48e69f4090ddb67aaea0e5bf410ec25037ee99c4d00
 translation_source_hash: 529ecfb48e69f4090ddb67aaea0e5bf410ec25037ee99c4d0060c94567c12dba
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-12T21:24:57+00:00
-translation_source_metadata_hash: 02471cd12fd6cd4383f7145f48581e5971b316a9ffb0e33b0ebe9391fbc0710a
+translation_source_metadata_hash: ed3eba609698370f6feb3b982047d0566e982e62bd1e3fd9ebcd8cd77e6f7820
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T21:24:57+00:00
+translation_metadata_updated: 2026-06-14T16:01:33+00:00
+translation_source_localized_metadata_hash: ed3eba609698370f6feb3b982047d0566e982e62bd1e3fd9ebcd8cd77e6f7820
+translation_source_structural_metadata_hash: 5856a4de1b16aff7291ba4906336f3bf59087aafda3deaeb0afef04c70ad208f
 ---
 > [!info] Descrição Curta
 > Os jogadores lançam o seu diabolô para a frente a partir de um ponto de partida, correm atrás dele e tentam apanhá-lo.

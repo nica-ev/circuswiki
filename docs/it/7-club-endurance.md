@@ -11,16 +11,16 @@ tags:
   - endurance
 created: 2026-06-12 00:00:00
 update: 2026-06-12 20:51:32
-title: 7 Club Endurance
-description: Un gioco di resistenza basato sui numeri ad alta abilità per giocolieri con sette clave.
+title: Resistenza 7 Clava
+description: Un gioco di resistenza numerica ad alta abilità per giocolieri con sette clave.
 authors:
   - CircusWiki contributors
 category:
   - convention-games
   - juggling
   - endurance
-Schwierigkeit: schwer
-Material: Seven juggling clubs per player
+Schwierigkeit: difficile
+Material: Sette clave da giocoleria per giocatore
 Spieldauer: "3-15"
 group-min: 2
 group-max: 30
@@ -31,48 +31,50 @@ source_url: https://ucircus.co.uk/resources-circus-games/
 source_image: ../img/7-club-endurance.jpg
 source_permission: public group photo reviewed as reusable by project maintainer
 translation_source: docs/en/7-club-endurance.md
-translation_source_body_hash: 5f49d70375acb5b711681fb6a1f2c94be4cef9cbdafc8e808363fb1f5d010a8e
-translation_source_hash: 5f49d70375acb5b711681fb6a1f2c94be4cef9cbdafc8e808363fb1f5d010a8e
+translation_source_body_hash: 863418c64bf5d641b40e240629d818c57719f6ced0cb1ff580a15108afc985ab
+translation_source_hash: 863418c64bf5d641b40e240629d818c57719f6ced0cb1ff580a15108afc985ab
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-12T21:42:15+00:00
-translation_source_metadata_hash: 4f37812f1669419cfa9034c717c82d007d9d06cb4d638f465a285dfb901b2b65
+translation_updated: 2026-06-14T19:37:11+00:00
+translation_source_metadata_hash: b6ecf755dc1361cbb177296d5faafaa3b53848f86641d7fde304aa1d6adcc7ef
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T21:42:15+00:00
+translation_metadata_updated: 2026-06-14T19:37:11+00:00
+translation_source_localized_metadata_hash: b6ecf755dc1361cbb177296d5faafaa3b53848f86641d7fde304aa1d6adcc7ef
+translation_source_structural_metadata_hash: 4e4357caa92e7911d4ae57b87a1360944face7db1ec19d1062cb878db9c7fcfe
 ---
 > [!info] Breve Descrizione
-> Un gioco di resistenza numerica ad alta abilità per giocolieri con sette clave.
+> Un gioco di resistenza basato sul numero di attrezzi, ad alta difficoltà, per giocolieri con sette clave.
 
-![[../img/7-club-endurance.jpg|300]]
+![7-club-endurance](../img/7-club-endurance.jpg){ width=300 }
 
-**Numero di partecipanti**: da 2 a 30 giocatori
+**Dimensioni del gruppo**: da 2 a 30 giocatori
 **Difficoltà**: difficile
-**Materiale**: Sette clave da giocoleria per giocatore
+**Materiale**: Sette clave da giocoliere per giocatore
 **Durata**: circa 3-15 minuti
 
 ## Descrizione del Gioco
 
-I giocatori tentano di mantenere sette clave in aria il più a lungo possibile. Vince la performance verificata più lunga.
+I giocatori tentano di mantenere sette clave in aria il più a lungo possibile. Vince il lancio verificato più lungo.
 
 ## Preparazione
 
 - Utilizzare un'area molto ampia con una chiara separazione tra i giocolieri.
 - Definire l'inizio: partenza simultanea, finestra di partenza o tentativi individuali.
-- Assegnare giudici o utilizzare un video se la misurazione esatta è importante.
+- Assegnare giudici o utilizzare un video se la precisione del tempo è importante.
 
 ## Regole
 
 1. I giocatori iniziano la giocoleria con sette clave secondo la regola di partenza concordata.
-2. Il tentativo continua finché si mantengono sette clave nello schema concordato.
-3. Una caduta, una raccolta, una ripartenza o una riduzione al di sotto delle sette clave termina il tentativo.
-4. Il vincitore è il giocatore con la performance continua verificata più lunga.
-5. Se diversi giocatori superano il limite di tempo, si svolge una finale o si dichiarano vincitori a pari merito.
+2. Il tentativo continua finché vengono mantenute sette clave nello schema concordato.
+3. Una caduta, una raccolta, una ripartenza o una riduzione sotto le sette clave termina il tentativo.
+4. Il vincitore è il giocatore con il lancio continuo verificato più lungo.
+5. Se diversi giocatori superano il limite di tempo, si disputa una finale o si dichiarano vincitori ex aequo.
 
 ## Varianti
 
-- Utilizzare tentativi individuali per sicurezza e una valutazione più chiara.
-- Svolgere una versione di workshop per il record personale.
-- Richiedere una raccolta pulita dopo la performance per un punteggio avanzato.
+- Utilizzare tentativi individuali per sicurezza e giudizio più chiaro.
+- Organizzare una versione da workshop per il record personale.
+- Richiedere una raccolta pulita dopo il lancio per un punteggio avanzato.
 
 ## Note sulla Sicurezza
 
@@ -80,9 +82,9 @@ Questo gioco è solo per giocolieri avanzati. Sette clave richiedono un'altezza 
 
 ## Fonte
 
-- Scheda sorgente UCircus: [7 Club Endurance](https://ucircus.co.uk/resources-circus-games/)
+- Scheda fonte UCircus: [7 Club Endurance](https://ucircus.co.uk/resources-circus-games/)
 - Corsi UCircus: Clave, Knockout, Endurance, Giocoleria
-- Immagine sorgente locale: `../img/7-club-endurance.jpg`
-- Gestione della fonte: Supportato da UCircus e descrizioni generali di giochi di convenzione per eventi numerici/di resistenza.
+- Immagine fonte locale: `../img/7-club-endurance.jpg`
+- Gestione fonte: Supportato da UCircus e descrizioni generali di giochi di convenzione per eventi basati su numeri/resistenza.
 - Riferimento aggiuntivo: [Giochi di giocoleria JugglingWorld](https://www.jugglingworld.biz/tricks/juggling-games/)
 - Riferimento aggiuntivo per il contesto gladiatori/combattimento: [Combat (juggling)](https://en.wikipedia.org/wiki/Combat_(juggling))

@@ -4,41 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "81e678c7e0904077",
+        "id": "c97042fa353f3476",
         "type": "tabs",
         "children": [
           {
-            "id": "5d72f59a841e4082",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/de/convention-games.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "convention-games"
-            }
-          },
-          {
-            "id": "6b30225d3671d887",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/de/index.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "index"
-            }
-          },
-          {
-            "id": "ad176bc052278350",
+            "id": "cfaaeb82fbaabbd1",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -50,16 +20,6 @@
               },
               "icon": "lucide-file",
               "title": "3-ball-piggyback-gladiators"
-            }
-          },
-          {
-            "id": "e5eb6fd048f239bf",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Neuer Tab"
             }
           }
         ]
@@ -94,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "technical ",
+                "query": "tag:#dynamic path:docs/de  ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -111,8 +71,8 @@
             "state": {
               "type": "recent-files",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "recent-files"
+              "icon": "clock",
+              "title": "Recent files"
             }
           },
           {
@@ -136,7 +96,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -156,10 +116,10 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "docs/de/convention-games.md"
+                "file": "docs/cs/3-ball-piggyback-gladiators.md"
               },
               "icon": "lucide-info",
-              "title": "Dateieigenschaften von convention-games"
+              "title": "Dateieigenschaften von 3-ball-piggyback-gladiators"
             }
           },
           {
@@ -168,13 +128,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/de/convention-games.md",
+                "file": "docs/de/3-ball-piggyback-gladiators.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Gliederung von convention-games"
+              "title": "Gliederung von 3-ball-piggyback-gladiators"
             }
           },
           {
@@ -239,12 +199,12 @@
               "title": "Alle Eigenschaften"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 378.5,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -261,54 +221,54 @@
       "file-tree-alternative:File Tree Alternative Plugin": false
     }
   },
-  "active": "5d72f59a841e4082",
+  "active": "cfaaeb82fbaabbd1",
   "lastOpenFiles": [
-    "docs/de/index.md",
-    "docs/de/contact-juggling-gladiators.md",
-    "docs/de/convention-games.md",
-    "docs/de/3-ball-piggyback-gladiators.md",
-    "_bases/Spiele-Base.base",
-    "README.md",
-    "site/sk",
-    "site/pt/assets/stylesheets/modern/palette.dfe2e883.min.css",
-    "site/pt/assets/stylesheets/modern/main.53a7feaf.min.css",
-    "site/pt/assets/stylesheets/classic/palette.7dc9a0ad.min.css",
-    "site/pt/assets/stylesheets/classic/main.96fc3bb8.min.css",
-    "site/pt/assets/javascripts/workers/search.e2d2d235.min.js",
-    "site/pt/assets/stylesheets/modern",
-    "site/pt/assets/stylesheets/classic",
-    "site/pt/assets/javascripts/LICENSE",
-    "site/pt/assets/images/favicon.png",
-    "site/pt/img/wheelbarrow-juggling.jpg",
-    "site/pt/img/unicycle-gladiators.jpg",
-    "site/pt/img/Screenshot-Google-AiStudio-Translation.png",
-    "site/pt/img/Screenshot-Google-AiStudio-Transcription.png",
-    "site/pt/img/poland-03.jpg",
-    "site/pt/img/poland-02.jpg",
-    "site/pt/img/poland-01.jpg",
-    "site/pt/img/nica-logo-simple-small-150x150.png",
-    "site/pt/img/nica-background.jpg",
-    "docs/de/Bewegungs-Spiele.md",
-    "docs/sk/convention-games.md",
-    "docs/cs/convention-games.md",
-    "docs/pt/convention-games.md",
-    "docs/uk/convention-games.md",
-    "docs/es/convention-games.md",
-    "docs/el/convention-games.md",
-    "docs/nl/convention-games.md",
+    "site/sk/Finger-Fechten/index.html",
+    "site/sk/Finger-Fechten",
+    "site/sk/Figurenfangen/index.html",
+    "site/sk/Figurenfangen",
+    "site/sk/Feuer Wasser Sand/index.html",
+    "site/sk/Feuer Wasser Sand",
+    "site/sk/Festnageln/index.html",
+    "site/sk/Festnageln",
+    "site/sk/fastest-balloon-dog/index.html",
+    "site/sk/fastest-balloon-dog",
+    "site/sk/Farbenhasche/index.html",
+    "site/sk/assets/images/favicon.png",
+    "site/sk/img/wheelbarrow-juggling.jpg",
+    "site/sk/img/unicycle-gladiators.jpg",
+    "site/sk/img/Screenshot-Google-AiStudio-Translation.png",
+    "site/sk/img/Screenshot-Google-AiStudio-Transcription.png",
+    "site/sk/img/poland-03.jpg",
+    "site/sk/img/poland-02.jpg",
+    "site/sk/img/poland-01.jpg",
+    "site/sk/img/nica-logo-simple-small-150x150.png",
+    "site/sk/img/nica-background.jpg",
+    "docs/de/workshops-und-artikel.md",
+    "docs/it/Aufwärmspiele MOC.md",
     "docs/it/convention-games.md",
-    "docs/hu/convention-games.md",
-    "docs/pl/convention-games.md",
-    "docs/en/convention-games.md",
+    "docs/de/convention-games.md",
+    "docs/it/Aufmerksamkeits-Spiel mit Bällen.md",
+    "README.md",
+    "docs/de/Liste aller Spiele.md",
+    "docs/en/3-ball-piggyback-gladiators.md",
+    "docs/cs/3-ball-piggyback-gladiators.md",
+    "docs/cs/Aufwärmspiele MOC.md",
     "docs/de/Aufwärmspiele MOC.md",
-    "docs/sk/human-surfing.md",
-    "docs/cs/human-surfing.md",
-    "docs/pt/human-surfing.md",
-    "docs/uk/human-surfing.md",
-    "docs/es/human-surfing.md",
-    "docs/el/human-surfing.md",
-    "docs/nl/human-surfing.md",
-    "docs/it/human-surfing.md",
+    "docs/de/3-ball-piggyback-gladiators.md",
+    "docs/de/Grundlagen Wurfjonglage - Kaskade.md",
+    "docs/cs/Grundlagen Wurfjonglage - Kaskade.md",
+    "docs/cs/Liste aller Spiele.md",
+    "docs/de/Taktik und Konzentrationsspiele.md",
+    "docs/de/Spiele zum Kennenlernen.md",
+    "docs/de/Spiele für Zwischendurch.md",
+    "docs/de/Schnelligkeit+Reaktionsspiele.md",
+    "docs/de/MOC Call & Response Spiele.md",
+    "docs/de/Kreisspiele MOC.md",
+    "docs/de/Kooperationsspiele.md",
+    "docs/de/Klatschspiele MOC.md",
+    "docs/de/Kaskade Workspace.md",
+    "docs/de/Inklusion-Spiele.md",
     "_canvas/Trebor Aufgaben.canvas",
     "_canvas/Unbenannt.canvas",
     "_canvas/IT Infrastruktur.canvas",

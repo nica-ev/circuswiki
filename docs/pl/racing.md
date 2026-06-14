@@ -10,7 +10,7 @@ tags:
   - obstacle-course
 created: 2026-06-12 00:00:00
 update: 2026-06-12 22:07:19
-title: Wyścigi
+title: Wyścig
 description: Wyścig jednokołowy na dystansie lub torze przeszkód.
 authors:
   - CircusWiki contributors
@@ -19,8 +19,8 @@ category:
   - unicycle
   - race
   - obstacle-course
-Schwierigkeit: "schwer"
-Material: "Unicycles, race course"
+Schwierigkeit: trudny
+Material: Jednokołowce, tor wyścigowy
 Spieldauer: "5-15"
 group-min: 2
 group-max: 40
@@ -35,10 +35,12 @@ translation_source_body_hash: eee067224179342b867890016eba3faf936c71ea1f4ba6bc5d
 translation_source_hash: eee067224179342b867890016eba3faf936c71ea1f4ba6bc5de82568162b3759
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-12T21:31:48+00:00
-translation_source_metadata_hash: 17e67dcca00d7915fcf6abd62d2d9f006bfd4803e8c24eee2cfcaa3f043e7271
+translation_source_metadata_hash: 315b88b7ed717479aa7c520c38d1f36aa6ab107d3ef2d1488dd993fcd3eda130
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T21:31:48+00:00
+translation_metadata_updated: 2026-06-14T16:02:39+00:00
+translation_source_localized_metadata_hash: 315b88b7ed717479aa7c520c38d1f36aa6ab107d3ef2d1488dd993fcd3eda130
+translation_source_structural_metadata_hash: 5f1377459bfd7f92ad6d3754f6fd25da059254a7162ff23526eaf57268259dcf
 ---
 > [!info] Krótki opis
 > Wyścig na monocyklu na dystansie lub po torze przeszkód.

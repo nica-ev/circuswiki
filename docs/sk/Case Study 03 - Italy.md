@@ -6,7 +6,7 @@ update: 2026-06-06 21:48:25
 publish: false
 tags:
   - case-study
-title: Viac než pohyb
+title: Viac ako pohyb
 description:
 authors:
   - Sara Papadato*
@@ -19,10 +19,12 @@ translation_source_hash: 3cabfed74e25de5c3e303b200dda080ef92ddfed8788b58ff5e601d
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-07T18:32:07+00:00
 translation_source_body_hash: 3cabfed74e25de5c3e303b200dda080ef92ddfed8788b58ff5e601dbbc111eac
-translation_source_metadata_hash: af5eeeaa855e273ec458a25bf7227407ef5ae6fa149df8f89452795906403787
+translation_source_metadata_hash: 94844e165ebde648a09526eb6d3596819aa8f03e9968862b5e19fdc692443a89
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:05:36+00:00
+translation_metadata_updated: 2026-06-14T15:42:17+00:00
+translation_source_localized_metadata_hash: 94844e165ebde648a09526eb6d3596819aa8f03e9968862b5e19fdc692443a89
+translation_source_structural_metadata_hash: 6f7f482fb927434da78514c6f53f3cec411a48cbcb89f252af60011c69b4df31
 ---
 # **Viac než pohyb: Dlhodobá cesta s funkčným žonglovaním**
 

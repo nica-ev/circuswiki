@@ -6,8 +6,8 @@ tags:
   - beigoma
 created: 2026-06-11 00:00:00
 update: 2026-06-11 16:37:50
-title: Beigoma-uitrusting en -opstelling
-description: Praktisch overzicht van de basisuitrusting die nodig is voor Beigoma: tollen, touwen, speelvloeren, scoremateriaal en workshopopstelling.
+title: Beigoma Materiaal en Opstelling
+description: Praktisch overzicht van het basis materiaal dat nodig is voor Beigoma: tollen, touwen, speelvloeren, scoremateriaal en workshopopstelling.
 authors:
   - Marc Bielert
 source:
@@ -23,10 +23,12 @@ translation_source_body_hash: fece877c43d336309f871a611a5fdddb826bf6d4a3fed4b49a
 translation_source_hash: fece877c43d336309f871a611a5fdddb826bf6d4a3fed4b49aaa8230b23bc156
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-11T14:56:29+00:00
-translation_source_metadata_hash: 8fecdb9f99ef417bec0c2ff1c118b52ac01a4e3cd4336ff1c4a44c383adf0e62
+translation_source_metadata_hash: cd699a27a08f1e9e43ac73cb7492ed56a715053c50c436c6754c6573ea65ad4f
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-11T14:56:29+00:00
+translation_metadata_updated: 2026-06-14T15:39:05+00:00
+translation_source_localized_metadata_hash: cd699a27a08f1e9e43ac73cb7492ed56a715053c50c436c6754c6573ea65ad4f
+translation_source_structural_metadata_hash: 32dfec629ba7850e9a7767b6525d6743ef439d436ab4ce0601fc3360f1d3ea45
 ---
 > [!info] Samenvatting
 > Beigoma heeft maar een paar voorwerpen nodig, maar elk voorwerp is belangrijk: een metalen tol, een voorbereid touw, een stoffen speeloppervlak, en voldoende ruimte rondom het oppervlak voor veilig gooien.

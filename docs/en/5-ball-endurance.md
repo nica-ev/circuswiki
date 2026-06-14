@@ -32,11 +32,10 @@ source_section: "Endurance Games/World Records"
 source_image_ucircus: "../img/5-ball-endurance.jpg"
 source_permission: "public-place images reviewed as reusable by project maintainer"
 ---
-
 > [!info] Short Description
 > A five-ball endurance contest where the last active juggler wins.
 
-![[../img/5-ball-endurance.jpg|300]]
+![5-ball-endurance](../img/5-ball-endurance.jpg){ width=300 }
 
 **Group Size**: 2 to 80 players  
 **Difficulty**: mittel  

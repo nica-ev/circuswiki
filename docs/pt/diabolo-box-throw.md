@@ -18,8 +18,8 @@ category:
   - convention-games
   - diabolo
   - target-games
-Schwierigkeit: "einfach"
-Material: "Diabolos, handsticks, box or basket"
+Schwierigkeit: fácil
+Material: Diabolos, baquetas, caixa ou cesta
 Spieldauer: "5-10"
 group-min: 2
 group-max: 40
@@ -35,42 +35,44 @@ source_permission: "public-place images reviewed as reusable by project maintain
 aliases:
   - Diabolo in a Box
 translation_source: docs/en/diabolo-box-throw.md
-translation_source_body_hash: d2fb9084f072ba11601b7246e72fba9a0efd7bf2697da5947bb637e356b8d496
-translation_source_hash: d2fb9084f072ba11601b7246e72fba9a0efd7bf2697da5947bb637e356b8d496
+translation_source_body_hash: 2ffbebcdbfb4b7ab71dc47eb7618a79dabd72fb7870d517a6371a42af068a41b
+translation_source_hash: 2ffbebcdbfb4b7ab71dc47eb7618a79dabd72fb7870d517a6371a42af068a41b
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-12T21:15:02+00:00
-translation_source_metadata_hash: b962c2147100414303b6fc6966f23fc59faee0d5c05593c5d59f162d12ce806f
+translation_updated: 2026-06-14T19:27:43+00:00
+translation_source_metadata_hash: 45f623d0729380cf8b1b208c420697ba830b8061c36a19b1d16762f166fac65b
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T21:15:02+00:00
+translation_metadata_updated: 2026-06-14T19:27:43+00:00
+translation_source_localized_metadata_hash: 45f623d0729380cf8b1b208c420697ba830b8061c36a19b1d16762f166fac65b
+translation_source_structural_metadata_hash: b379e9799c5f4370effd35997caf8c75be342d03c1bc35b16ad57d4b659a6666
 ---
 > [!info] Descrição Curta
 > Um jogo de pontaria onde os jogadores tentam lançar um diabolô para dentro de uma caixa ou cesto.
 
-![[../img/game-diabolo-in-box.jpg|300]]
+![game-diabolo-in-box](../img/game-diabolo-in-box.jpg){ width=300 }
 
 **Tamanho do Grupo**: 2 a 40 jogadores  
-**Dificuldade**: Fácil  
+**Dificuldade**: fácil  
 **Material**: Diabolôs, baquetas, caixa ou cesto  
 **Duração**: aprox. 5-10 minutos
 
 ## Descrição do Jogo
 
-Os jogadores ficam atrás de uma linha de lançamento, giram os seus diabolôs e tentam lançá-los para dentro de uma caixa, balde ou cesto colocado do outro lado do espaço. Os lançamentos podem ocorrer um de cada vez ou com um sinal combinado.
+Os jogadores posicionam-se atrás de uma linha de lançamento, giram os seus diabolôs e tentam lançá-los para dentro de uma caixa, balde ou cesto colocado do outro lado do espaço. Os lançamentos podem ocorrer um de cada vez ou com um sinal conjunto.
 
-Um diabolô marca pontos se cair no alvo e permanecer lá. Lançamentos bem-sucedidos valem pontos ou fazem os jogadores avançar para a próxima rodada. Para criar uma final, aumente a distância, reduza o tamanho do alvo ou exija vários lançamentos bem-sucedidos.
+Um diabolô conta como ponto se aterrar no alvo e permanecer lá. Lançamentos bem-sucedidos marcam pontos ou fazem os jogadores avançar para a próxima ronda. Para criar uma final, aumente a distância, reduza o tamanho do alvo ou exija vários lançamentos bem-sucedidos.
 
 ## Preparação
 
 - Coloque uma caixa ou cesto a uma distância adequada da linha de lançamento.
 - Dê a todos os jogadores espaço suficiente para lançar em segurança.
-- Decida se os jogadores lançam um de cada vez ou todos juntos.
+- Decida se os jogadores lançam um de cada vez ou em conjunto.
 
 ## Variações
 
 - Use equipas e conte o total de lançamentos bem-sucedidos.
-- Permita que os iniciantes fiquem mais perto e os jogadores avançados mais longe.
-- Use vários alvos com diferentes valores de pontos.
+- Permita que os iniciantes se posicionem mais perto e os jogadores avançados mais longe.
+- Utilize vários alvos com diferentes valores de pontos.
 
 ## Notas de Segurança
 
@@ -78,7 +80,7 @@ Um alvo fixo é o mais seguro. Evite alvos segurados por pessoas, a menos que to
 
 ## Fonte
 
-- [JugglingWorld - Juggling Games](https://www.jugglingworld.biz/tricks/juggling-games/), secção: Diabolo Games, título: Diabolo in a box.
+- [JugglingWorld - Jogos de Malabarismo](https://www.jugglingworld.biz/tricks/juggling-games/), secção: Jogos de Diabolô, título: Diabolô na caixa.
 - [Página de jogos de circo da UCircus](https://ucircus.co.uk/resources-circus-games/), cartão de origem: Diabolo Box Throw.
 - Aulas UCircus: Diabolô.
 - Imagem de referência JugglingWorld: `../img/game-diabolo-in-box.jpg`.

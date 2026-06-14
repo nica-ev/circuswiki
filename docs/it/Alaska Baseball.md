@@ -6,14 +6,14 @@ tags:
   - spiele
 created: 2025-01-24 03:50:50
 update: 2026-06-07 00:02:07
-title: Baseball in Alaska
-description: Un gioco di squadra ad alta intensità di corsa in cui lancio, raccolta e rapido coordinamento di gruppo determinano il maggior numero di round.
+title: Baseball Alaska
+description: Un gioco di squadra ad alta intensità di corsa, in cui lancio, presa e rapido coordinamento di gruppo determinano il maggior numero di round possibile.
 authors:
   - Marc Bielert
 category:
   - warm-up
-Schwierigkeit: einfach
-Material: keines
+Schwierigkeit: facile
+Material: nessuno
 Spieldauer: "5"
 source:
   - Tasifan Spielebuch
@@ -26,10 +26,12 @@ translation_source_hash: 7248555137ddab94b3e2c43cbbca2bb8f665e557893775c7f749711
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:20:39+00:00
 translation_source_body_hash: 7248555137ddab94b3e2c43cbbca2bb8f665e557893775c7f749711d4d6564d1
-translation_source_metadata_hash: dce180ed34eb06d00494c4f13510426d77197bc93c4c468eca18d02863a13820
+translation_source_metadata_hash: 240991fda37b07a0fd99a77412aa345a6e39c9b34563258361a8f7e002104460
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:01:23+00:00
+translation_metadata_updated: 2026-06-14T15:37:04+00:00
+translation_source_localized_metadata_hash: 240991fda37b07a0fd99a77412aa345a6e39c9b34563258361a8f7e002104460
+translation_source_structural_metadata_hash: 9818f3aaf92cb798a7fe9fe7cb7b57f62dfff761b27eef5b6cb104b39b3e1f0d
 ---
 > [!info] Breve descrizione
 > Un gioco di squadra ad alta intensità di corsa, in cui lancio, raccolta e rapido coordinamento di gruppo determinano il numero di round possibili.

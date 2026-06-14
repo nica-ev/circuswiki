@@ -20,10 +20,12 @@ translation_source_hash: d8c1528fa60d4b4fb63ebf8c88fe792e251d7e661895eefbe45d1e1
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-06T19:22:33+00:00
 translation_source_body_hash: d8c1528fa60d4b4fb63ebf8c88fe792e251d7e661895eefbe45d1e1bf72c31b0
-translation_source_metadata_hash: 61f0d1eda29a427a00759ff1d2e30419dff34e459e32cdb44ad0d95e62871299
+translation_source_metadata_hash: ddbd92bc68326ee47359e50719fdc67ac43a71562cd5422c0128ab78dfbcc904
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:12:08+00:00
+translation_metadata_updated: 2026-06-14T15:47:49+00:00
+translation_source_localized_metadata_hash: ddbd92bc68326ee47359e50719fdc67ac43a71562cd5422c0128ab78dfbcc904
+translation_source_structural_metadata_hash: b54fa9f464877275bdf5125f2cc9fe56c422e1de5184c763f34d511dc8be75e8
 ---
 ## A New Magazine for Europe
 [Kaskade 001](Kaskade%20001.md#Eine%20neue%20Zeitschrift%20für%20Europas)

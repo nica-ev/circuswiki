@@ -10,16 +10,16 @@ tags:
   - balance
 created: 2026-06-12 00:00:00
 update: 2026-06-12 21:59:42
-title: Tárgyegyensúly állóképesség
-description: A játékosok egy megbeszélt tárgyat, például buzogányt vagy akár egy biciklit, az állukon vagy egy másik meghatározott ponton egyensúlyoznak.
+title: Tárgy egyensúly állóképesség
+description: A játékosok egy megbeszélt tárgyat, például buzogányt vagy akár egy biciklit, az állukon vagy egy másik meghatározott egyensúlyi ponton tartanak.
 authors:
   - CircusWiki contributors
 category:
   - convention-games
   - endurance
   - balance
-Schwierigkeit: "schwer"
-Material: "Clubs, unicycles or other balance objects"
+Schwierigkeit: nehéz
+Material: Buzogányok, biciklik vagy más egyensúlyi tárgyak
 Spieldauer: "5-15"
 group-min: 3
 group-max: 60
@@ -31,26 +31,28 @@ source_section: "Balancing Games"
 source_image: "../img/games-club-balance-guiness.jpg"
 source_permission: "public-place image reviewed as reusable by project maintainer"
 translation_source: docs/en/object-balance-endurance.md
-translation_source_body_hash: 084f4fa7aed1a528d38a466c706922afd98c607031bd3b67d11141ee0d8bf6dc
-translation_source_hash: 084f4fa7aed1a528d38a466c706922afd98c607031bd3b67d11141ee0d8bf6dc
+translation_source_body_hash: 6e35f9a216b24c16461b1735cc5d44861b18146f024132b5bdb7558230c9b62a
+translation_source_hash: 6e35f9a216b24c16461b1735cc5d44861b18146f024132b5bdb7558230c9b62a
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-12T21:29:12+00:00
-translation_source_metadata_hash: 87fb57cb88f6322f1ad908fae0c71bce2af0f789a13d46252bbf4baa270265f8
+translation_updated: 2026-06-14T19:30:06+00:00
+translation_source_metadata_hash: 3384f478fe4b9c67a3db88b20b3fecf134df4d40edbcbbd9c5604c12c7b9c2e0
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T21:29:12+00:00
+translation_metadata_updated: 2026-06-14T19:30:06+00:00
+translation_source_localized_metadata_hash: 3384f478fe4b9c67a3db88b20b3fecf134df4d40edbcbbd9c5604c12c7b9c2e0
+translation_source_structural_metadata_hash: 152e8a0d347c6c224dd3963056555e9edc5c8afc5a3e11660258b8581ebf5626
 ---
 > [!info] Rövid leírás
 > A játékosok egy megbeszélt tárgyat, például buzogányt vagy akár egy biciklit, az állukon vagy egy másik meghatározott egyensúlyi ponton tartanak egyensúlyban.
 
-![[../img/games-club-balance-guiness.jpg|300]]
+![games-club-balance-guiness](../img/games-club-balance-guiness.jpg){ width=300 }
 
-**Csoportméret**: 3–60 játékos
-**Nehézség**: Nehéz
-**Anyag**: Buzogányok, biciklik vagy más egyensúlyi tárgyak
-**Időtartam**: kb. 5–15 perc
+**Csoportméret**: 3-60 fő
+**Nehézség**: nehéz
+**Anyag**: Buzogányok, biciklik vagy más egyensúlyozó tárgyak
+**Időtartam**: kb. 5-15 perc
 
-## Játékleírás
+## Játék leírása
 
 A játékosok egy megbeszélt tárgyat, például buzogányt vagy akár egy biciklit, az állukon vagy egy másik meghatározott egyensúlyi ponton tartanak egyensúlyban. Az a játékos nyer, aki a legtovább tudja egyensúlyban tartani a tárgyat.
 
@@ -60,7 +62,7 @@ Adjunk hozzá mozgást vagy egy kis akadálypályát, ha az alapvető egyensúly
 
 ## Biztonsági megjegyzések
 
-Tartsuk tisztán a játéktér területét, és a kör megkezdése előtt határozzuk meg a határokat. Érintkezéssel járó játékok esetén a célpontok legyenek inkább a kellékek, mintsem a testek. Dobó, kerékpáros, egyensúlyozó vagy akrobatikus játékok esetén hagyjunk elegendő helyet a sikertelen kísérletekhez, és állítsuk le a kört, ha a csoport elkezd nem biztonságos kockázatokat vállalni.
+Tartsuk tisztán a játékteret, és a kör megkezdése előtt határozzuk meg a határait. Érintkezéssel járó játékok esetén a célpontok legyenek inkább a kellékek, mintsem a testek. Dobó-, kerékpáros-, egyensúlyozó vagy akrobatikus játékoknál hagyjunk elegendő helyet a sikertelen kísérletekhez, és állítsuk le a kört, ha a csoport elkezd veszélyes kockázatokat vállalni.
 
 ## Forrás
 

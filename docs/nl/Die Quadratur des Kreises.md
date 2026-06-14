@@ -6,14 +6,14 @@ tags:
   - spiele
 created: 2025-01-24 03:50:50
 update: 2025-03-17 01:56:02
-title: De cirkel kwadrateren
-description: Een samenwerkingsopdracht waarbij de groep, met gesloten ogen, uit een vastgehouden touw een vierkant moet vormen.
+title: De Kwadratuur van de Cirkel
+description: Een samenwerkingsopdracht waarbij de groep met gesloten ogen een vierkant moet vormen met een touw dat ze vasthouden.
 authors:
   - Marc Bielert
 category:
   - Kooperation
-Schwierigkeit: mittel
-Material: Seil, optional Augenbinden
+Schwierigkeit: gemiddeld
+Material: touw, optioneel blinddoeken
 Spieldauer: 5-60
 source: unbekannt
 group-min: 8
@@ -25,10 +25,12 @@ translation_source_hash: 75ec9993b36c297cf1e02ad5d279fe4d8ed17f67ea19b492ca0e042
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:33:22+00:00
 translation_source_body_hash: 75ec9993b36c297cf1e02ad5d279fe4d8ed17f67ea19b492ca0e042deb6142c4
-translation_source_metadata_hash: 37041a056207e7b6680e47f6ab56e69ebc32fad3b0e7bdee8ab7c834cd0ac616
+translation_source_metadata_hash: 12f9e1641d2b2fead90875777dad6ac9787e2147b12fac056d4c66499a38f521
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:09:16+00:00
+translation_metadata_updated: 2026-06-14T15:46:04+00:00
+translation_source_localized_metadata_hash: 12f9e1641d2b2fead90875777dad6ac9787e2147b12fac056d4c66499a38f521
+translation_source_structural_metadata_hash: 6e736db08400431dd4d498d512c07c21749b34b9208347b16201fcc581904661
 ---
 > [!info] Korte beschrijving
 > Een samenwerkingsopdracht waarbij de groep met gesloten ogen een vierkant moet vormen met een vastgehouden touw.

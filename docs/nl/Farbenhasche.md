@@ -12,8 +12,8 @@ authors:
   - Marc Bielert
 category:
   - fangen
-Schwierigkeit: mittel
-Material: Tücher
+Schwierigkeit: gemiddeld
+Material: Doeken
 Spieldauer: 15-20
 source: unbekannt
 group-min: 9
@@ -26,10 +26,12 @@ translation_source_hash: 4bb62c15e0f5aecd5784d8ccb78bb290c5066b9fc0c2cd0d5e08f76
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-06T23:15:31+00:00
 translation_source_body_hash: 4bb62c15e0f5aecd5784d8ccb78bb290c5066b9fc0c2cd0d5e08f765c5ad150d
-translation_source_metadata_hash: eb50807ca8b36526eb6f1f68bfa6cb219bf24294433a3a8462720a995d2bceb1
+translation_source_metadata_hash: ea59d5fa3121375864a8fefcf198988adb16944cdb2256cd36747c8600cb178a
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:46:18+00:00
+translation_metadata_updated: 2026-06-14T15:49:03+00:00
+translation_source_localized_metadata_hash: ea59d5fa3121375864a8fefcf198988adb16944cdb2256cd36747c8600cb178a
+translation_source_structural_metadata_hash: 808af144755c72cb34ca74ed36794f5796defd917be95c1e79145e296221d62d
 ---
 # Kleurenvangspel
 

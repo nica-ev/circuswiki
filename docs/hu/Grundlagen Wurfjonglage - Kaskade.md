@@ -2,11 +2,11 @@
 lang: hu
 translation_id: grundlagen-wurfjonglage-kaskade
 created: 2025-01-21 18:09:55
-update: 2026-06-10 03:32:52
+update: 2026-06-14 20:54:10
 publish: true
 tags:
   - tutorial
-title: Dobálas zsonglőrködés alapjai - Kaszkád
+title: Dobálós zsonglőrködés alapjai - Kaszkád
 description: 
 authors:
   - Marc Bielert
@@ -16,11 +16,13 @@ translation_source: docs/de/Grundlagen Wurfjonglage - Kaskade.md
 translation_source_hash: 240381fd0487843d8215a7501ae9a818895ad39286910b6b6ac7c4e8b425faee
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-10T20:01:40+00:00
-translation_source_metadata_hash: 056ba6997af73dc2131ac86c51a238e5415eda09608f3fac473208d160bf7f78
+translation_source_metadata_hash: 5457e6e5c94a69d5b4d10446b86b7fc56a61914b05cedbe6fc0821c6cfa3dff4
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T20:01:40+00:00
+translation_metadata_updated: 2026-06-14T15:51:52+00:00
 translation_source_body_hash: 240381fd0487843d8215a7501ae9a818895ad39286910b6b6ac7c4e8b425faee
+translation_source_localized_metadata_hash: 5457e6e5c94a69d5b4d10446b86b7fc56a61914b05cedbe6fc0821c6cfa3dff4
+translation_source_structural_metadata_hash: c22e68cf118426f1f58e738f8f2d3e03e5723db8a629ef17e1bef247d336c154
 ---
 # A dobásos zsonglőrködés alapjai – Kaskád
 

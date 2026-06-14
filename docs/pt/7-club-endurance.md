@@ -11,16 +11,16 @@ tags:
   - endurance
 created: 2026-06-12 00:00:00
 update: 2026-06-12 20:51:32
-title: Resistência de 7 Clubes
-description: Um jogo de resistência de números de alta habilidade para malabaristas de sete clubes.
+title: Resistência de 7 Clavas
+description: Um jogo de resistência de números de alta habilidade para malabaristas de sete clavas.
 authors:
   - CircusWiki contributors
 category:
   - convention-games
   - juggling
   - endurance
-Schwierigkeit: schwer
-Material: Seven juggling clubs per player
+Schwierigkeit: difícil
+Material: Sete clavas de malabarismo por jogador
 Spieldauer: "3-15"
 group-min: 2
 group-max: 30
@@ -31,19 +31,21 @@ source_url: https://ucircus.co.uk/resources-circus-games/
 source_image: ../img/7-club-endurance.jpg
 source_permission: public group photo reviewed as reusable by project maintainer
 translation_source: docs/en/7-club-endurance.md
-translation_source_body_hash: 5f49d70375acb5b711681fb6a1f2c94be4cef9cbdafc8e808363fb1f5d010a8e
-translation_source_hash: 5f49d70375acb5b711681fb6a1f2c94be4cef9cbdafc8e808363fb1f5d010a8e
+translation_source_body_hash: 863418c64bf5d641b40e240629d818c57719f6ced0cb1ff580a15108afc985ab
+translation_source_hash: 863418c64bf5d641b40e240629d818c57719f6ced0cb1ff580a15108afc985ab
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-12T21:42:31+00:00
-translation_source_metadata_hash: 4f37812f1669419cfa9034c717c82d007d9d06cb4d638f465a285dfb901b2b65
+translation_updated: 2026-06-14T19:37:26+00:00
+translation_source_metadata_hash: b6ecf755dc1361cbb177296d5faafaa3b53848f86641d7fde304aa1d6adcc7ef
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T21:42:31+00:00
+translation_metadata_updated: 2026-06-14T19:37:26+00:00
+translation_source_localized_metadata_hash: b6ecf755dc1361cbb177296d5faafaa3b53848f86641d7fde304aa1d6adcc7ef
+translation_source_structural_metadata_hash: 4e4357caa92e7911d4ae57b87a1360944face7db1ec19d1062cb878db9c7fcfe
 ---
 > [!info] Descrição Curta
 > Um jogo de resistência de números de alta habilidade para malabaristas de sete claves.
 
-![[../img/7-club-endurance.jpg|300]]
+![7-club-endurance](../img/7-club-endurance.jpg){ width=300 }
 
 **Tamanho do Grupo**: 2 a 30 jogadores
 **Dificuldade**: Difícil
@@ -52,11 +54,11 @@ translation_metadata_updated: 2026-06-12T21:42:31+00:00
 
 ## Descrição do Jogo
 
-Os jogadores tentam manter sete claves no ar pelo maior tempo possível. A sequência contínua verificada mais longa vence.
+Os jogadores tentam manter sete claves no ar pelo maior tempo possível. A sequência verificada mais longa vence.
 
 ## Preparação
 
-- Use uma área bem aberta com separação clara entre os malabaristas.
+- Utilize uma área bem aberta com separação clara entre os malabaristas.
 - Defina o início: início simultâneo, janela de início ou tentativas individuais.
 - Designe juízes ou use vídeo se o tempo exato for importante.
 
@@ -70,8 +72,8 @@ Os jogadores tentam manter sete claves no ar pelo maior tempo possível. A sequ�
 
 ## Variações
 
-- Use tentativas individuais para segurança e avaliação mais clara.
-- Realize uma versão de workshop de recorde pessoal.
+- Use tentativas individuais para segurança e julgamento mais claro.
+- Realize uma versão de oficina de recordes pessoais.
 - Exija uma recolha limpa após a sequência para pontuação avançada.
 
 ## Notas de Segurança
@@ -81,8 +83,8 @@ Este jogo é apenas para malabaristas avançados. Sete claves exigem altura e es
 ## Fonte
 
 - Cartão de fonte UCircus: [7 Club Endurance](https://ucircus.co.uk/resources-circus-games/)
-- Aulas UCircus: Claves, Knockout, Resistência, Malabarismo
+- Classes UCircus: Claves, Knockout, Resistência, Malabarismo
 - Imagem de fonte local: `../img/7-club-endurance.jpg`
-- Tratamento da fonte: Suportado pelo UCircus e descrições gerais de jogos de convenção de eventos de números/resistência.
+- Gestão da fonte: Suportado por UCircus e descrições gerais de jogos de convenção de eventos de números/resistência.
 - Referência adicional: [Jogos de malabarismo JugglingWorld](https://www.jugglingworld.biz/tricks/juggling-games/)
 - Referência adicional para contexto de gladiadores/combate: [Combate (malabarismo)](https://en.wikipedia.org/wiki/Combat_(juggling))

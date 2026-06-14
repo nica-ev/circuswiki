@@ -6,7 +6,7 @@ tags:
   - beigoma
 created: 2026-06-11 00:00:00
 update: 2026-06-11 16:39:15
-title: Cómo hacer un suelo para Beigoma
+title: Construir un Suelo para Beigoma
 description: Notas prácticas para construir un suelo portátil para jugar a Beigoma con un contenedor, tela resistente y material de sujeción.
 authors:
   - Marc Bielert
@@ -23,10 +23,12 @@ translation_source_body_hash: 54dd1fae1b6e983747d1c42b635cb99ddd056968e8dc3d9c47
 translation_source_hash: 54dd1fae1b6e983747d1c42b635cb99ddd056968e8dc3d9c479ca173265fc020
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-11T15:09:43+00:00
-translation_source_metadata_hash: 3cd0b581941a06b40c7d9402422929180b5ae51384066cbd343cdbbd0a0e5908
+translation_source_metadata_hash: 57a8070ee57a55692e4e06405590462eb7b64a7e263c51ed4b1ebff317481237
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-11T15:09:43+00:00
+translation_metadata_updated: 2026-06-14T16:10:47+00:00
+translation_source_localized_metadata_hash: 57a8070ee57a55692e4e06405590462eb7b64a7e263c51ed4b1ebff317481237
+translation_source_structural_metadata_hash: 9fd55c2f17f3e881566faa9997cad5208b9c9f4b54c3a02d5d3aad41cb4dbaeb
 ---
 > [!info] Resumen
 > Un suelo de Beigoma es una superficie de juego de tela tensada sobre un cubo, barril o marco. Una ligera depresión en la tela ayuda a que las peonzas permanezcan en juego.

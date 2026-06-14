@@ -10,16 +10,16 @@ tags:
   - juggling
 created: 2026-06-12 00:00:00
 update: 2026-06-12 21:56:36
-title: Tentativa de Recorde Mundial de Malabarismo
-description: Uma sessão de convenção para números de malabarismo informais ou formais e tentativas de recorde de resistência.
+title: Recorde Mundial de Malabares
+description: Uma sessão de convenção para tentativas informais ou formais de números de malabares e recordes de resistência.
 authors:
   - CircusWiki contributors
 category:
   - convention-games
   - endurance
   - juggling
-Schwierigkeit: "mittel"
-Material: "Props needed for the chosen record attempt"
+Schwierigkeit: médio
+Material: Adereços necessários para a tentativa de recorde escolhida
 Spieldauer: "5-15"
 group-min: 2
 group-max: 40
@@ -34,10 +34,12 @@ translation_source_body_hash: 9bbb14019361a957e8a02d2b078578f4c55ad688119b03f8e0
 translation_source_hash: 9bbb14019361a957e8a02d2b078578f4c55ad688119b03f8e0a79722f1e4f9ec
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-12T21:22:19+00:00
-translation_source_metadata_hash: a97b1e0016dd15fc2d61d6b9c2c87ea7fac31d786a7ad23fff06ea971d6d3eda
+translation_source_metadata_hash: 0b02f98ec5e2de17bf700de4c444500b79ce4a8758050de4ee67b456eacff1ca
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T21:22:19+00:00
+translation_metadata_updated: 2026-06-14T16:00:33+00:00
+translation_source_localized_metadata_hash: 0b02f98ec5e2de17bf700de4c444500b79ce4a8758050de4ee67b456eacff1ca
+translation_source_structural_metadata_hash: d037645284afb7c43d1446ecb0373a4fb0d3fc0f0e025c1ff5b8c82076253853
 ---
 > [!info] Descrição Curta
 > Uma sessão de convenção para tentativas de números de malabarismo informais ou formais e recordes de resistência.

@@ -11,7 +11,7 @@ tags:
 created: 2026-06-12 00:00:00
 update: 2026-06-12 21:44:17
 title: Atrapar el Diábolo de Alguien
-description: Un juego de lanzar diábolos donde todos lanzan a la vez e intentan atrapar el diábolo de otro jugador.
+description: Un juego de diábolo donde todos lanzan a la vez e intentan atrapar el diábolo de otro jugador.
 authors:
   - CircusWiki contributors
 category:
@@ -19,8 +19,8 @@ category:
   - diabolo
   - throwing
   - catching
-Schwierigkeit: "mittel"
-Material: "One diabolo and handsticks per player"
+Schwierigkeit: medio
+Material: Un diábolo y palos por jugador
 Spieldauer: "5-15"
 group-min: 3
 group-max: 40
@@ -35,10 +35,12 @@ translation_source_body_hash: b7f53117e5336cf302b3ed5d26dfdcda65ff6c53b894ef1b4e
 translation_source_hash: b7f53117e5336cf302b3ed5d26dfdcda65ff6c53b894ef1b4e20ce95fdd440ea
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-12T21:10:57+00:00
-translation_source_metadata_hash: 9d8b08e6ee3b1e995a3c34f22669eca91b59c777a179e78c6826bf005e29c960
+translation_source_metadata_hash: 352354167bc6003d19f79e189d18fb19ce13b2377e25a8535164827d0b577cd5
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T21:10:57+00:00
+translation_metadata_updated: 2026-06-14T15:56:50+00:00
+translation_source_localized_metadata_hash: 352354167bc6003d19f79e189d18fb19ce13b2377e25a8535164827d0b577cd5
+translation_source_structural_metadata_hash: 415ff7d86a1c62c0f08a3d662904232d9c575fc7002eef63c791f3225fb6282a
 ---
 > [!info] Descripción Breve
 > Un juego de lanzamiento de diábolo en el que todos lanzan a la vez e intentan atrapar el diábolo de otro jugador.

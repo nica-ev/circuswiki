@@ -7,13 +7,13 @@ publish: true
 tags:
   - spiele
 title: Σύγχυση με μπάλες
-description: Ένα παιχνίδι ονομάτων και μπαλών όπου σταθερές ακολουθίες ρίψης με πολλαπλά χρώματα μπάλας γίνονται όλο και πιο περίπλοκες.
+description: Παιχνίδι ονομάτων και μπαλών, όπου σταθερές ακολουθίες ρίψης με πολλαπλά χρώματα μπαλών γίνονται όλο και πιο περίπλοκες.
 authors:
   - Marc Bielert
 category:
   - kennenlernen
-Schwierigkeit: einfach - schwer
-Material: Bälle
+Schwierigkeit: εύκολο - δύσκολο
+Material: Μπάλες
 Spieldauer: "10"
 source:
   - Tasifan Spielebuch
@@ -26,10 +26,12 @@ translation_source_hash: b6674142e77b8299f910dce911219944944fecdda6351409d3baa36
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:24:06+00:00
 translation_source_body_hash: b6674142e77b8299f910dce911219944944fecdda6351409d3baa36940620c19
-translation_source_metadata_hash: 65d67e2c5c8722fdc832ac6f60001d264b32a96c7def8048eca90106f730c533
+translation_source_metadata_hash: 8c7a86f083adc7ecee5f9ad8868c0966c4daaa46b0cb9318771642978981154b
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:02:34+00:00
+translation_metadata_updated: 2026-06-14T15:38:22+00:00
+translation_source_localized_metadata_hash: 8c7a86f083adc7ecee5f9ad8868c0966c4daaa46b0cb9318771642978981154b
+translation_source_structural_metadata_hash: 476f408b71960a23e27d9f5be78f70e585e80c5cea8196a3977e94eea573d95c
 ---
 > [!info] Σύντομη περιγραφή
 > Ένα παιχνίδι ονομάτων και μπαλών, όπου σταθερές σειρές ρίψης με πολλαπλά χρώματα μπαλών γίνονται όλο και πιο σύνθετες.

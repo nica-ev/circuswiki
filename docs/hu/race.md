@@ -19,8 +19,8 @@ category:
   - ball-games
   - race
   - juggling
-Schwierigkeit: "mittel"
-Material: "Juggling props chosen by participants, route markers"
+Schwierigkeit: közepes
+Material: A résztvevők által választott zsonglőrködő eszközök, útvonaljelzők
 Spieldauer: "5-15"
 group-min: 3
 group-max: 60
@@ -35,10 +35,12 @@ translation_source_body_hash: 7bbb6551fa0399089fc22a06aacca9c8191bf7c430d7b556e8
 translation_source_hash: 7bbb6551fa0399089fc22a06aacca9c8191bf7c430d7b556e8220f7c762dc7e0
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-12T21:31:25+00:00
-translation_source_metadata_hash: e3e88392a5f974a4c2bfbe1b409fd7171b8b0b5a291d7d8bbcc5aa65db09bff7
+translation_source_metadata_hash: 6c342a030a1c80ca52dd84e6eac03fdf19065429ef0344fa67659822678ab041
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T21:31:25+00:00
+translation_metadata_updated: 2026-06-14T16:02:30+00:00
+translation_source_localized_metadata_hash: 6c342a030a1c80ca52dd84e6eac03fdf19065429ef0344fa67659822678ab041
+translation_source_structural_metadata_hash: ab287bffc8e2ac2fcee069d5f186395ec5ff8fce2d2f637c85831f3f6318faf1
 ---
 > [!info] Rövid leírás
 > A játékosoknak egy kijelölt célállomásra kell eljutniuk és vissza, miközben folyamatosan zsonglőrködnek.

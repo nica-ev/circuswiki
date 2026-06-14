@@ -11,8 +11,8 @@ tags:
   - diabolo
 created: 2026-06-12 00:00:00
 update: 2026-06-12 21:59:50
-title: Carrera de Obstáculos
-description: Una carrera de relevos combina varias habilidades circenses.
+title: Circuito de Obstáculos
+description: Un circuito de relevos combina varias habilidades de circo.
 authors:
   - CircusWiki contributors
 category:
@@ -20,8 +20,8 @@ category:
   - miscellaneous
   - obstacle-course
   - juggling
-Schwierigkeit: "mittel"
-Material: "Mixed circus props, course markers"
+Schwierigkeit: medio
+Material: Accesorios de circo variados, marcadores de circuito
 Spieldauer: "5-15"
 group-min: 6
 group-max: 40
@@ -36,10 +36,12 @@ translation_source_body_hash: 06be9fb397bcfa37079eff3bb89a32bd05e2b94fc26aa677e3
 translation_source_hash: 06be9fb397bcfa37079eff3bb89a32bd05e2b94fc26aa677e31f4a4bfad454f1
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-12T21:29:46+00:00
-translation_source_metadata_hash: eb8c2bf0b467df80d9156df0426befc7e6ea91cbf83e2da6529a020dc4928959
+translation_source_metadata_hash: ee231e7ca40504c93ac1e530d328402a0b602da1b3843a77bdedba7945d27395
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T21:29:46+00:00
+translation_metadata_updated: 2026-06-14T16:02:01+00:00
+translation_source_localized_metadata_hash: ee231e7ca40504c93ac1e530d328402a0b602da1b3843a77bdedba7945d27395
+translation_source_structural_metadata_hash: 7d34d116d7bf73a00c6781d115dbabb26a4aa32e4571bd9d3b83a61dc64fb36a
 ---
 > [!info] Descripción Breve
 > Una carrera de relevos combina varias habilidades circenses.

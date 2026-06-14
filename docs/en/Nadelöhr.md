@@ -7,14 +7,14 @@ publish: true
 tags:
   - spiele
 title: Needle's Eye
-description: A slow perception game played in a circle where everyone searches for the opposite side with closed eyes.
+description: A slow perception game in a circle where everyone, with eyes closed, carefully seeks the opposite side.
 authors:
   - Marc Bielert
 category:
   - kreisspiel
   - cool-down
-Schwierigkeit: einfach
-Material: keines
+Schwierigkeit: easy
+Material: "none"
 Spieldauer: 5-10
 source: unbekannt
 group-min: 5
@@ -26,10 +26,12 @@ translation_source_hash: 26a442e42ed81cefb8c5c8cd6e768ae1675f90a6b69c7fbc7eabdf4
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:08:02+00:00
 translation_source_body_hash: 26a442e42ed81cefb8c5c8cd6e768ae1675f90a6b69c7fbc7eabdf4d6cedb545
-translation_source_metadata_hash: 068e4f1a33f3a8309c3d4e7a6069b54f1ec1a97070ae4b0279e13b11dcc7ac5b
+translation_source_metadata_hash: 8e00e1310789dfe916ab2261d546f24caeb06c2f3e1d5829977897a12b50445b
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:59:56+00:00
+translation_metadata_updated: 2026-06-14T16:13:15+00:00
+translation_source_localized_metadata_hash: 8e00e1310789dfe916ab2261d546f24caeb06c2f3e1d5829977897a12b50445b
+translation_source_structural_metadata_hash: 870893b6d75587d484d4d82811c56d0e3c66d7078c56dd46a1d1eaee47bdd423
 ---
 > [!info] Brief Description
 > A slow perception game played in a circle, where everyone, with eyes closed, carefully seeks the opposite side.

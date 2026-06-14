@@ -7,7 +7,7 @@ tags:
 created: 2025-02-01 02:31:52
 update: 2026-06-11 17:22:26
 title: Термінологія Бейгоми
-description: Глосарій поширених термінів Бейгоми: намотування, типи дзиґ, правила матчів та культура гри.
+description: Глосарій поширених термінів Бейгоми: намотування, типи дзиґ, правила змагань та культура гри.
 authors:
   - Marc Bielert
 translation_status: machine-translated
@@ -17,13 +17,15 @@ translation_source_hash: 27928971eba11de4f7a6c3dc41061ec4fe144e768cf62baad48e231
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-11T15:36:07+00:00
 translation_source_body_hash: 27928971eba11de4f7a6c3dc41061ec4fe144e768cf62baad48e2310418ac2bf
-translation_source_metadata_hash: 72bff203f2113613015aab5289be3aa7eb964a6cbf29210a35af8c2c72cd058b
+translation_source_metadata_hash: 933df37f5cc708c8975ba454d9d3dc7d05e99cfea64e531f7197061b3a4f8ad0
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-11T15:36:07+00:00
+translation_metadata_updated: 2026-06-14T15:39:39+00:00
 source:
   - Tokyo Beigoma
 source_url: https://tokyo-beigoma.com/%E3%83%99%E3%83%BC%E3%82%B4%E3%83%9E%E5%B0%82%E9%96%80%E7%94%A8%E8%AA%9E%E3%81%AE%E3%81%94%E7%B4%B9%E4%BB%8B/
+translation_source_localized_metadata_hash: 933df37f5cc708c8975ba454d9d3dc7d05e99cfea64e531f7197061b3a4f8ad0
+translation_source_structural_metadata_hash: 55b983ebe8717330008188a01f600f6f257fefa5c44e6749bec181f60e807433
 ---
 > [!info] Резюме
 > Цей глосарій зберігає японські терміни Бейґома та пояснює їх практичною англійською мовою для майстер-класів та фасилітації ігор.

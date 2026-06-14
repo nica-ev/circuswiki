@@ -15,11 +15,13 @@ translation_source: docs/de/release notes.md
 translation_source_hash: 552574cc7eff1d5231818697f3e13c12302de19018f1a7f60a17252b52a71edd
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-10T20:13:38+00:00
-translation_source_metadata_hash: d98301b17d1c367eddf09027e8b8c2f1a29023193163f81acf69d253777088ec
+translation_source_metadata_hash: 7734b65772c8a40de5532cb66e4cf3344f2cc24a1de710397aaeb6ce14d0f822
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T20:13:38+00:00
+translation_metadata_updated: 2026-06-14T16:16:59+00:00
 translation_source_body_hash: 552574cc7eff1d5231818697f3e13c12302de19018f1a7f60a17252b52a71edd
+translation_source_localized_metadata_hash: 7734b65772c8a40de5532cb66e4cf3344f2cc24a1de710397aaeb6ce14d0f822
+translation_source_structural_metadata_hash: 48054209deb2d49a5f3283cd38424c2fba59ca058c0dd085323a92f8ef336177
 ---
 [!info]
 These release notes provide only a general overview; minor changes (such as individual new pages or modifications to existing content) are not all listed. However, these can be precisely tracked in the repository's history.

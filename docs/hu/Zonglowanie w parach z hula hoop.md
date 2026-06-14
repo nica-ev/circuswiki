@@ -8,14 +8,14 @@ tags:
   - cwiczenie
   - hula-hoop
   - zonglerka
-title: Hula hoop páros zsonglőrködés
-description: Páros gyakorlat hula hoop gurításával és dobásával, szinkron és aszinkron módban.
+title: Partneres hula hoop zsonglőrködés
+description: Partneres gyakorlat hula hoop gurításával és dobásával, szinkron és aszinkron módban.
 authors:
   - Wiktoria Witenberg
 category:
   - kooperacja
   - technika
-Schwierigkeit: mittel
+Schwierigkeit: közepes
 Material: hula hoop
 source: KPC - Hula hoop
 source_file: _inbox/Hula hoop - materiały KPC.pdf
@@ -26,10 +26,12 @@ translation_source_hash: 383277385d2b4ad2d39e5382a1344c1aef9740cb0e8c565d6a26ac6
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-07T17:30:21+00:00
 translation_source_body_hash: 383277385d2b4ad2d39e5382a1344c1aef9740cb0e8c565d6a26ac648d93f6d7
-translation_source_metadata_hash: 7532e3864978ab8d0a75e39ab79eaad04d1ed37f4d3f01df4918ea49b774dad5
+translation_source_metadata_hash: 27103f3fa7dc6198292af59ba72ce3ab440ac6ef5587c18c1782312ae63b204d
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T19:14:24+00:00
+translation_metadata_updated: 2026-06-14T16:30:01+00:00
+translation_source_localized_metadata_hash: 27103f3fa7dc6198292af59ba72ce3ab440ac6ef5587c18c1782312ae63b204d
+translation_source_structural_metadata_hash: 2f4e6bae1800b2c0f7a96c1961bb7945479f264944f8e99e06ecfe6598074d38
 ---
 # Páros hula hoop-ozás
 

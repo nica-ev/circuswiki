@@ -17,10 +17,12 @@ translation_source_hash: 8125fe4a8331e806a2b0d103dd38dbfda6e82793ffa37265095b73a
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-12T17:32:00+00:00
 translation_source_body_hash: 8125fe4a8331e806a2b0d103dd38dbfda6e82793ffa37265095b73ad0217bdf2
-translation_source_metadata_hash: ac5f43c5c49905b729ab3c3f288e96be0cf997b5a5f1e94ca4f7eb6a77c1686f
+translation_source_metadata_hash: 2a66a70e78516539cd6e01bb623a9a0267cfab77111903ce6a9a9dd30aac506c
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T17:32:00+00:00
+translation_metadata_updated: 2026-06-14T15:51:21+00:00
+translation_source_localized_metadata_hash: 2a66a70e78516539cd6e01bb623a9a0267cfab77111903ce6a9a9dd30aac506c
+translation_source_structural_metadata_hash: 69966c4b32b093dc5fdaa8e7127a710d8477892c36f2859ba38215866bb73327
 ---
 > [!info] Stručne povedané
 > Táto stránka je určená pre ľudí, ktorí chcú priamo pracovať s Markdown súbormi CircusWiki. Pre bežné príspevky tento spôsob nepotrebujete: materiál môžete jednoducho poslať aj e-mailom.

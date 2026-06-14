@@ -11,16 +11,16 @@ tags:
   - endurance
 created: 2026-06-12 00:00:00
 update: 2026-06-12 20:51:32
-title: Resistencia de 7 Clubes
-description: Un juego de resistencia de números de alta habilidad para malabaristas de siete clubes.
+title: Resistencia de 7 Clavas
+description: Un juego de resistencia de números de alta habilidad para malabaristas de siete clavas.
 authors:
   - CircusWiki contributors
 category:
   - convention-games
   - juggling
   - endurance
-Schwierigkeit: schwer
-Material: Seven juggling clubs per player
+Schwierigkeit: difícil
+Material: Siete clavas de malabarismo por jugador
 Spieldauer: "3-15"
 group-min: 2
 group-max: 30
@@ -31,19 +31,21 @@ source_url: https://ucircus.co.uk/resources-circus-games/
 source_image: ../img/7-club-endurance.jpg
 source_permission: public group photo reviewed as reusable by project maintainer
 translation_source: docs/en/7-club-endurance.md
-translation_source_body_hash: 5f49d70375acb5b711681fb6a1f2c94be4cef9cbdafc8e808363fb1f5d010a8e
-translation_source_hash: 5f49d70375acb5b711681fb6a1f2c94be4cef9cbdafc8e808363fb1f5d010a8e
+translation_source_body_hash: 863418c64bf5d641b40e240629d818c57719f6ced0cb1ff580a15108afc985ab
+translation_source_hash: 863418c64bf5d641b40e240629d818c57719f6ced0cb1ff580a15108afc985ab
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-12T21:42:24+00:00
-translation_source_metadata_hash: 4f37812f1669419cfa9034c717c82d007d9d06cb4d638f465a285dfb901b2b65
+translation_updated: 2026-06-14T19:37:21+00:00
+translation_source_metadata_hash: b6ecf755dc1361cbb177296d5faafaa3b53848f86641d7fde304aa1d6adcc7ef
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T21:42:24+00:00
+translation_metadata_updated: 2026-06-14T19:37:21+00:00
+translation_source_localized_metadata_hash: b6ecf755dc1361cbb177296d5faafaa3b53848f86641d7fde304aa1d6adcc7ef
+translation_source_structural_metadata_hash: 4e4357caa92e7911d4ae57b87a1360944face7db1ec19d1062cb878db9c7fcfe
 ---
 > [!info] Descripción Breve
 > Un juego de resistencia de números de alta habilidad para malabaristas de siete mazas.
 
-![[../img/7-club-endurance.jpg|300]]
+![7-club-endurance](../img/7-club-endurance.jpg){ width=300 }
 
 **Tamaño del grupo**: 2 a 30 jugadores
 **Dificultad**: Difícil
@@ -63,7 +65,7 @@ Los jugadores intentan mantener siete mazas en el aire durante el mayor tiempo p
 ## Reglas
 
 1. Los jugadores comienzan el malabarismo de siete mazas según la regla de inicio acordada.
-2. El intento continúa mientras se mantengan las siete mazas en el patrón acordado.
+2. El intento continúa mientras se mantengan siete mazas en el patrón acordado.
 3. Una caída, recogida, reinicio o reducción por debajo de siete finaliza el intento.
 4. El ganador es el jugador con la racha continua verificada más larga.
 5. Si varios jugadores superan el límite de tiempo, realiza una final o declara ganadores compartidos.
@@ -81,8 +83,8 @@ Esto es solo para malabaristas avanzados. Siete mazas requieren una altura y un 
 ## Fuente
 
 - Tarjeta de fuente de UCircus: [7 Club Endurance](https://ucircus.co.uk/resources-circus-games/)
-- Clases de UCircus: Mazas, Knockout, Resistencia, Malabares
+- Clases de UCircus: Mazas, Eliminación, Resistencia, Malabares
 - Imagen de fuente local: `../img/7-club-endurance.jpg`
-- Manejo de la fuente: Soportado por UCircus y descripciones generales de juegos de convenciones de eventos de números/resistencia.
+- Manejo de la fuente: Respaldado por UCircus y descripciones generales de juegos de convenciones de eventos de números/resistencia.
 - Referencia adicional: [Juegos de malabares de JugglingWorld](https://www.jugglingworld.biz/tricks/juggling-games/)
 - Referencia adicional para contexto de gladiadores/combate: [Combate (malabares)](https://en.wikipedia.org/wiki/Combat_(juggling))

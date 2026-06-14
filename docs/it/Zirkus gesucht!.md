@@ -19,10 +19,12 @@ translation_source_hash: 13de6b2c7958aa7af6d362855107a4c7f35dd15fc5d60726cef3f70
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-06T23:10:19+00:00
 translation_source_body_hash: 13de6b2c7958aa7af6d362855107a4c7f35dd15fc5d60726cef3f709549c5783
-translation_source_metadata_hash: d28f936eb7fbacec8fec7f391f7b796d49a3748a9e1b3977b64b42cca4fffbc6
+translation_source_metadata_hash: 1baa7d7c30dd1dd0b66554fb7b704bd706878818f8742be69f7f27c1959477c2
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T19:13:26+00:00
+translation_metadata_updated: 2026-06-14T16:28:40+00:00
+translation_source_localized_metadata_hash: 1baa7d7c30dd1dd0b66554fb7b704bd706878818f8742be69f7f27c1959477c2
+translation_source_structural_metadata_hash: 080db68c8428213ae1f08796754f362d9e097e0339663943ff5bf00a531aaad4
 ---
 ## Cercasi Circo!
 **Un resoconto di due clown che non avevano più voglia di vivere nella DDR**

@@ -11,15 +11,15 @@ tags:
 created: 2026-06-12 00:00:00
 update: 2026-06-12 22:44:00
 title: Rzut Diabolo do Pudełka
-description: Gra celnościowa, w której gracze próbują wrzucić diabolo do pudełka lub kosza.
+description: Gra zręcznościowa, w której gracze próbują wrzucić diabolo do pudełka lub kosza.
 authors:
   - CircusWiki contributors
 category:
   - convention-games
   - diabolo
   - target-games
-Schwierigkeit: "einfach"
-Material: "Diabolos, handsticks, box or basket"
+Schwierigkeit: łatwy
+Material: Diabolo, pałeczki, pudełko lub kosz
 Spieldauer: "5-10"
 group-min: 2
 group-max: 40
@@ -35,19 +35,21 @@ source_permission: "public-place images reviewed as reusable by project maintain
 aliases:
   - Diabolo in a Box
 translation_source: docs/en/diabolo-box-throw.md
-translation_source_body_hash: d2fb9084f072ba11601b7246e72fba9a0efd7bf2697da5947bb637e356b8d496
-translation_source_hash: d2fb9084f072ba11601b7246e72fba9a0efd7bf2697da5947bb637e356b8d496
+translation_source_body_hash: 2ffbebcdbfb4b7ab71dc47eb7618a79dabd72fb7870d517a6371a42af068a41b
+translation_source_hash: 2ffbebcdbfb4b7ab71dc47eb7618a79dabd72fb7870d517a6371a42af068a41b
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-12T21:14:39+00:00
-translation_source_metadata_hash: b962c2147100414303b6fc6966f23fc59faee0d5c05593c5d59f162d12ce806f
+translation_updated: 2026-06-14T19:27:20+00:00
+translation_source_metadata_hash: 45f623d0729380cf8b1b208c420697ba830b8061c36a19b1d16762f166fac65b
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T21:14:39+00:00
+translation_metadata_updated: 2026-06-14T19:27:20+00:00
+translation_source_localized_metadata_hash: 45f623d0729380cf8b1b208c420697ba830b8061c36a19b1d16762f166fac65b
+translation_source_structural_metadata_hash: b379e9799c5f4370effd35997caf8c75be342d03c1bc35b16ad57d4b659a6666
 ---
 > [!info] Krótki opis
 > Gra celnościowa, w której gracze próbują wrzucić diabolo do pudełka lub kosza.
 
-![[../img/game-diabolo-in-box.jpg|300]]
+![game-diabolo-in-box](../img/game-diabolo-in-box.jpg){ width=300 }
 
 **Liczba graczy**: od 2 do 40  
 **Poziom trudności**: łatwy  
@@ -58,7 +60,7 @@ translation_metadata_updated: 2026-06-12T21:14:39+00:00
 
 Gracze stają za linią rzutu, rozkręcają swoje diabolo i próbują wrzucić je do pudełka, wiadra lub kosza ustawionego na drugim końcu sali. Rzuty mogą odbywać się pojedynczo lub na wspólny sygnał.
 
-Diabolo zdobywa punkt, jeśli wyląduje w celu i pozostanie w nim. Udane rzuty punktują lub kwalifikują graczy do kolejnej rundy. Aby stworzyć finał, zwiększ odległość, zmniejsz rozmiar celu lub wymagaj kilku udanych rzutów.
+Diabolo zalicza punkt, jeśli wyląduje w celu i pozostanie w nim. Udane rzuty punktują lub pozwalają graczom przejść do następnej rundy. Aby stworzyć finał, zwiększ odległość, zmniejsz rozmiar celu lub wymagaj kilku udanych rzutów.
 
 ## Przygotowanie
 
@@ -74,12 +76,12 @@ Diabolo zdobywa punkt, jeśli wyląduje w celu i pozostanie w nim. Udane rzuty p
 
 ## Wskazówki dotyczące bezpieczeństwa
 
-Stały cel jest najbezpieczniejszy. Unikaj celów trzymanych przez ludzi, chyba że wszyscy zaangażowani wyrazili na to wyraźną zgodę, a rzuty są kontrolowane.
+Najbezpieczniejszy jest stały cel. Unikaj celów trzymanych przez ludzi, chyba że wszyscy zaangażowani wyraźnie się na to zgodzili, a rzuty są kontrolowane.
 
 ## Źródła
 
-- [JugglingWorld - Juggling Games](https://www.jugglingworld.biz/tricks/juggling-games/), sekcja: Diabolo Games, tytuł: Diabolo in a box.
-- [Strona z grami cyrkowymi UCircus](https://ucircus.co.uk/resources-circus-games/), karta źródłowa: Diabolo Box Throw.
+- [JugglingWorld - Gry żonglerskie](https://www.jugglingworld.biz/tricks/juggling-games/), sekcja: Gry z diabolo, tytuł: Diabolo do pudełka.
+- [Strona z grami cyrkowymi UCircus](https://ucircus.co.uk/resources-circus-games/), karta źródłowa: Rzut diabolo do pudełka.
 - Zajęcia UCircus: Diabolo.
 - Obraz referencyjny JugglingWorld: `../img/game-diabolo-in-box.jpg`.
 - Obraz referencyjny UCircus: `../img/diabolo-box-throw.jpg`.

@@ -13,8 +13,8 @@ authors:
 category:
   - kennenlernen
   - kreisspiel
-Schwierigkeit: mittel
-Material: keines
+Schwierigkeit: medio
+Material: nessuno
 Spieldauer: 10 -  15
 source: unbekannt
 group-min: 5
@@ -27,10 +27,12 @@ translation_source_hash: 1c112421025058579b17ffc98ecf3198f491fcd70db142b12552324
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:24:56+00:00
 translation_source_body_hash: 1c112421025058579b17ffc98ecf3198f491fcd70db142b12552324bcc7f7772
-translation_source_metadata_hash: b5e16ac700994a65e028f618ed6d35818b58b771d0a31d32f0ae2f314cda5b65
+translation_source_metadata_hash: b58bdf1eb942321d5092aaacabd7d8e38fe121299a4648525ea11e6050fefdf2
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T19:07:10+00:00
+translation_metadata_updated: 2026-06-14T16:20:07+00:00
+translation_source_localized_metadata_hash: b58bdf1eb942321d5092aaacabd7d8e38fe121299a4648525ea11e6050fefdf2
+translation_source_structural_metadata_hash: b4084d79a236e6c25a1e1534805c8f045b93fe77d499519224da921f1232565e
 ---
 > [!info] Breve descrizione
 > Un gioco di conoscenza in cerchio, in cui le persone si presentano a vicenda sulla base di supposizioni.

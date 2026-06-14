@@ -9,16 +9,16 @@ tags:
   - race
 created: 2026-06-12 00:00:00
 update: 2026-06-12 22:08:31
-title: Najwolniejszy Wyścig Jednokołowców
-description: Uczestnicy przejeżdżają przez pas tak wolno, jak to możliwe, bez zatrzymywania się, postoju czy zjeżdżania z trasy.
+title: Najwolniejszy Wyścig na Unicyklu
+description: Jeźdźcy pokonują dystans tak wolno, jak to możliwe, bez zatrzymywania się, postoju czy zjeżdżania z trasy.
 authors:
   - CircusWiki contributors
 category:
   - convention-games
   - unicycle
   - race
-Schwierigkeit: "schwer"
-Material: "Unicycles, lane markers"
+Schwierigkeit: trudny
+Material: Unicykle, znaczniki toru
 Spieldauer: "5-15"
 group-min: 3
 group-max: 60
@@ -33,10 +33,12 @@ translation_source_body_hash: 129e58eebfdc004f58a54ef74749fa7df40300fd1491158077
 translation_source_hash: 129e58eebfdc004f58a54ef74749fa7df40300fd1491158077ed7b30bca57141
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-12T21:33:30+00:00
-translation_source_metadata_hash: e4c88196f3309e1773c6515528bb5f2e67d87e1bbb720f6ac5a3ad9af7675da3
+translation_source_metadata_hash: 0fbe6a5da5f3308fb652b71f22af092a18fabc3a8ab6718100f0af9ea5afa9e0
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T21:33:30+00:00
+translation_metadata_updated: 2026-06-14T16:03:15+00:00
+translation_source_localized_metadata_hash: 0fbe6a5da5f3308fb652b71f22af092a18fabc3a8ab6718100f0af9ea5afa9e0
+translation_source_structural_metadata_hash: 509858e83e6ee463b741609c6ccfd25c85fd77b1d41ebc69e6b7b755eea42223
 ---
 > [!info] Krótki opis
 > Uczestnicy przejeżdżają przez wyznaczoną trasę tak wolno, jak to możliwe, nie zatrzymując się, nie zwalniając biegu ani nie zjeżdżając z trasy.

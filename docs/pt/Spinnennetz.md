@@ -7,15 +7,15 @@ tags:
 created: 2025-01-24 03:50:51
 update: 2025-03-17 05:46:58
 title: Teia de Aranha
-description: Uma tarefa cooperativa onde o grupo deve atravessar uma rede de cordas sem reutilizar espaços ou tocar nas cordas.
+description: Uma tarefa de cooperação onde o grupo deve atravessar uma rede de cordas sem usar os mesmos espaços duas vezes ou tocar nas cordas.
 authors:
   - Marc Bielert
 category:
   - Kooperation
 source:
   - Tasifan Spielebuch
-Schwierigkeit: einfach - schwer
-Material: Seile
+Schwierigkeit: fácil - difícil
+Material: Cordas
 Spieldauer: 5 - 15
 group-min: 6
 group-max: 14
@@ -26,10 +26,12 @@ translation_source_hash: 4f3d43bfcee9e49c45b1d1bb7d5e29a172d92979558cb97080ead23
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:28:27+00:00
 translation_source_body_hash: 4f3d43bfcee9e49c45b1d1bb7d5e29a172d92979558cb97080ead2366c13951d
-translation_source_metadata_hash: 547c9b948b0a38f0c179db63c9148c548270c95bfd9aeba1aff7d6ee81b29d4c
+translation_source_metadata_hash: 27307644b96e731e80f76d82fb88c3821e0214cbe134058d4324af4f62a96e61
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T19:08:21+00:00
+translation_metadata_updated: 2026-06-14T16:21:15+00:00
+translation_source_localized_metadata_hash: 27307644b96e731e80f76d82fb88c3821e0214cbe134058d4324af4f62a96e61
+translation_source_structural_metadata_hash: d4bf63e6340c1b51aff8d67165221b47fb1cdadbe0f899d87d87107637b0e198
 ---
 > [!info] Breve Descrição
 > Uma tarefa de cooperação em que o grupo deve atravessar uma rede de cordas sem usar os mesmos espaços duas vezes ou tocar nas cordas.

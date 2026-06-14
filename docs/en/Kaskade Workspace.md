@@ -2,7 +2,7 @@
 lang: en
 translation_id: kaskade-workspace
 created: 2025-01-21 18:09:55
-update: 2026-06-12 19:11:41
+update: 2026-06-14 19:03:29
 publish: true
 tags:
   - moc
@@ -14,36 +14,38 @@ authors:
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Kaskade Workspace.md
-translation_source_hash: 29a1552cf493836b4b474a5912aebdb63538c48b359b37de5a4b8b2e5b94d53f
+translation_source_hash: 631cf2907c40a3667c661ea1b6d881d859aab4729b277b6135718a058327fc01
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-12T17:32:51+00:00
-translation_source_body_hash: 29a1552cf493836b4b474a5912aebdb63538c48b359b37de5a4b8b2e5b94d53f
-translation_source_metadata_hash: e7f4ba685ffe753f20b46abef2ca8139d54bb761a72234a6398c888d59b39b90
+translation_updated: 2026-06-14T15:10:18+00:00
+translation_source_body_hash: 631cf2907c40a3667c661ea1b6d881d859aab4729b277b6135718a058327fc01
+translation_source_metadata_hash: 14f9eb7f2b84bdc2ea4e9bf614d19a3199b89138fa400f849f9e7789b6cd1ce0
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T17:32:51+00:00
+translation_metadata_updated: 2026-06-14T16:06:28+00:00
+translation_source_localized_metadata_hash: 14f9eb7f2b84bdc2ea4e9bf614d19a3199b89138fa400f849f9e7789b6cd1ce0
+translation_source_structural_metadata_hash: 0cfee3e1af3406a918bee8b26aa5fda5e8dd66e93b2d5c95c2c0fea35a4fc7a7
 ---
 >[!info]- Introduction
 >I grew up with Kaskade. Before YouTube existed, before we could find everything on the internet – this magazine was one of the first regular sources of information I got my hands on about juggling, circus, and shows.
 >When the magazine ceased publication in 2013, it felt like the end of an era – at least for me.
 >For several years, the magazines were still available for download as PDFs. Around 2017, the website went offline.
->I often remembered small workshops, tutorials, or articles that had inspired me back then. Now, years later, when I wanted to re-read something – there was no way to do so anymore.
+>I often remembered small workshops, tutorials, or articles that inspired me back then. Now, years later, when I wanted to re-read something – there was no way to access it anymore.
 >
->Fortunately, using the Wayback Machine (The Internet Archive), I found a checkpoint from 2017 with the complete downloads (this is not always the case, especially since it was about 3 GB of PDFs) – complete with German, English, and French editions.
+>Fortunately, using the Wayback Machine (The Internet Archive), I found a checkpoint from 2017 with the complete downloads (this isn't always the case, especially since it was about 3 GB of PDFs) – complete with German, English, and French editions.
 >
->While browsing, I realized that while a lot of great articles and tutorials were hidden in the magazines – in today's world, hardly anyone would look through 112 magazines that are merely photocopied. Well, unless you have a nostalgic interest =P
+>While reviewing them, I realized that although many great articles and tutorials were hidden within the magazines, in today's world, hardly anyone would sift through 112 magazines that are merely photocopies. Well, unless you have a nostalgic interest =P
 >
->However, since the knowledge is too valuable to lose, I wanted to try using current technology to digitize it in a way that makes it useful even today.
+>However, since the knowledge is too valuable to lose, I wanted to try using current technology to digitize everything in a way that makes it useful even today.
 
 >[!info]- How the Magazines Were Transcribed
->First, I removed all pages from the PDF that did not contain relevant text.
+>First, I removed all pages from the PDFs that did not contain relevant text.
 >
 >For the actual transcription (or OCR), I used a multimodal language model from Google.
->I used ```Gemini 2.0 Pro Experimental 02-05``` with the prompt
+>I used ```Gemini 2.0 Pro Experimental 02-05``` with the prompt:
 >```
 >The attached PDF is a photocopy of a magazine. Extract all text, keep the document structure intact as much as possible, also extract single images and have them correctly in context.
 >```
->along with the PDF containing the scanned magazine.
+>along with the PDF of the scanned magazine.
 >Settings: Temperature 0.1 (Important to avoid hallucinations)
 >
 >The output is then cleaned up with ```gemini-2.0-flash-exp``` and the following prompt (along with the attached text we extracted):
@@ -53,13 +55,12 @@ translation_metadata_updated: 2026-06-12T17:32:51+00:00
 >Text:
 >```
 >
->The result is then reviewed and corrected manually once more.
+>The result is then reviewed and corrected manually one more time.
 >
 >>[!Danger]+ Important:
 >>The focus was on extracting articles, workshops, interviews, etc.
->>Contributions such as classified ads, etc., were discarded.
->>The extraction and cleanup of the texts were performed using LLMs, so there is always a possibility that texts were not transcribed 1:1 or that the content slightly deviates from the original. I tried to keep the error rate as low as possible by comparing text passages at random.
-
+>>Contributions like classified ads, etc., were discarded.
+>>The extraction and cleanup of the texts were performed using LLMs, so there's always a possibility that texts were not transcribed 1:1 or that the content slightly deviates from the original. I tried to keep the error rate as low as possible by comparing text passages on a random basis.
 <!-- dynamic:start
 engine: obsidian-base
 base: _bases/Spiele-Base.base
@@ -69,52 +70,46 @@ format: list
 <!-- dynamic:content -->
 <!-- Generated by tools/dynamic_pages.py; edit the dynamic block config, not this list. -->
 
-- [Cascade 001 - 1984](<Kaskade%20001.md>)
-- [Cascade 002 - 1984](<Kaskade%20002.md>)
-- [Cascade 003](<Kaskade%20003.md>)
-- [Cascade 004 - 1985](<Kaskade%20004.md>)
-- [Cascade 005 - 1985](<Kaskade%20005.md>)
+- [Kaskade 001](<Kaskade%20001.md>)
+- [Kaskade 002](<Kaskade%20002.md>)
+- [Kaskade 003](<Kaskade%20003.md>)
+- [Kaskade 004](<Kaskade%20004.md>)
+- [Kaskade 005](<Kaskade%20005.md>)
 
-<!-- dynamic:end -->
-
-# Articles
-
+<!-- dynamic:end --># Article
 <!-- dynamic:start
 engine: obsidian-base
 base: _bases/Spiele-Base.base
 view: Kaskade Artikel
 format: table
-columns: file, authors, type, sub-type, source
 -->
 <!-- dynamic:content -->
 <!-- Generated by tools/dynamic_pages.py; edit the dynamic block config, not this table. -->
 
-| file                                                                                   | authors                  | type     | sub-type | source      |
-| -------------------------------------------------------------------------------------- | ------------------------ | -------- | -------- | ----------- |
-| [Cascade Workshop - The Pillar Page](<Die%20S%C3%A4ulen-Seite.md>)                                       | Dr. P. Luftiko           | Tutorial | Balls    | Kaskade 001 |
-| [A New Magazine for Europe](<Eine%20neue%20Zeitschrift%20f%C3%BCr%20Europa.md>) | Gabi Keaton, Paul Keaton | Article  | -        | Kaskade 001 |
-| [Smiling Overcomes Gravity](<L%C3%A4cheln%20%C3%BCberwindet%20Schwerkraft.md>)    | Toby Philpott            | Article  | -        | Kaskade 001 |
-| [Cascade Workshop - Cheating!](<Schummeln%21.md>)                                                        | Dr. P. Luftiko           | Tutorial | Balls    | Kaskade 001 |
-| [Gravity - So What!](<Schwerkraft%20-%20na%20und%21.md>)                            | Christoph Schmitt        | Article  | -        | Kaskade 001 |
-| [Circus Wanted!](<Zirkus%20gesucht%21.md>)                                            | Kattrin & Uli            | Article  | -        | Kaskade 001 |
+| Link                                                                            | authors                  | type     | sub-type | source      |
+| ------------------------------------------------------------------------------- | ------------------------ | -------- | -------- | ----------- |
+| [Cascade Workshop - The Pillar Page](<Die%20S%C3%A4ulen-Seite.md>)              | Dr. P. Luftiko           | Tutorial | Bälle    | Kaskade 001 |
+| [A New Magazine for Europe](<Eine%20neue%20Zeitschrift%20f%C3%BCr%20Europa.md>) | Gabi Keaton, Paul Keaton | Artikel  | -        | Kaskade 001 |
+| [Smile Overcomes Gravity](<L%C3%A4cheln%20%C3%BCberwindet%20Schwerkraft.md>)    | Toby Philpott            | Artikel  | -        | Kaskade 001 |
+| [Cascade Workshop - Cheating!](<Schummeln%21.md>)                               | Dr. P. Luftiko           | Tutorial | Bälle    | Kaskade 001 |
+| [Gravity - So What!](<Schwerkraft%20-%20na%20und%21.md>)                        | Christoph Schmitt        | Artikel  | -        | Kaskade 001 |
+| [Circus Wanted!](<Zirkus%20gesucht%21.md>)                                      | Kattrin & Uli            | Artikel  | -        | Kaskade 001 |
 
-<!-- dynamic:end -->
+<!-- dynamic:end -->---
 
----
-
->[!info]- Misnamed / Combined Issues (002 - 004)
+>[!info]- Incorrectly Named / Summarized Issues (002 - 004)
 >
->Kaskade 002:
->In the original German PDF, issues 2 and 3 are combined.
+>Cascade 002:
+>In the original German PDF, issues 2+3 are combined.
 >
->Kaskade 003:
->In the original German PDF, issue 004 is found here.
+>Cascade 003:
+>Issue 004 can be found here in the original German PDF.
 >
->Kaskade 004:
->The title page is missing here. I haven't figured out what it belongs to yet...
+>Cascade 004:
+>The title page is missing here; I haven't been able to figure out what it belongs to yet...
 >It looks like a copy of issue 009, without a title page.
 >
 >Fix:
->I split the PDF of Kaskade 002 (original) into 002 and 003.
->Renamed Kaskade 003 (original) to Kaskade 004.
->And deleted Kaskade 004 (Original).
+>I have split the PDF of Cascade 002 (original) into 002 and 003.
+>Renamed Cascade 003 (original) to Cascade 004.
+>And deleted Cascade 004 (original).

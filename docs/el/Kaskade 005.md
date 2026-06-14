@@ -6,8 +6,8 @@ update: 2025-02-09 20:53:21
 publish: draft
 tags:
   - kaskade
-title: Κάσκαντ 005 - 1985
-description: "Απομαγνητοφώνηση του περιοδικού \"Κάσκαντ 005\" του 1985"
+title: Cascade 005 - 1985
+description: "Μεταγραφή του περιοδικού \"Cascade 005\" από το 1985"
 authors:
   - Marc Bielert
 type: Magazin
@@ -18,10 +18,12 @@ translation_source_hash: b6af3934388fa433d6d3c6470319d74471f23a3c34887e28cc36dd5
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-07T13:46:52+00:00
 translation_source_body_hash: b6af3934388fa433d6d3c6470319d74471f23a3c34887e28cc36dd5559c8c01e
-translation_source_metadata_hash: 1d75cfe8922a7922b966d37322e5da529a141b69982a15e63cccae5818af719c
+translation_source_metadata_hash: 1b456afae6e14d410f038e0c6be7ae837342b65c10be5a42372a5c3a69cc1873
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:52:49+00:00
+translation_metadata_updated: 2026-06-14T16:06:24+00:00
+translation_source_localized_metadata_hash: 1b456afae6e14d410f038e0c6be7ae837342b65c10be5a42372a5c3a69cc1873
+translation_source_structural_metadata_hash: 47dffde5f725c8947cbac4232c9046f07d758e6258d5e31b28d3f3d5e7368b52
 ---
 ## LOUVAIN LA NEUVE
 ### Υπέρυθρο εναντίον Υπεριώδους

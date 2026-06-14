@@ -12,8 +12,8 @@ tags:
   - gladiators
 created: 2026-06-12 00:00:00
 update: 2026-06-12 22:45:24
-title: Μονομάχοι Επαφής Τζάγκλινγκ
-description: Ένα παιχνίδι αποκλεισμού επαφής τζάγκλινγκ όπου οι παίκτες προστατεύουν την ισορροπία της δικής τους μπάλας, ενώ διαταράσσουν τους άλλους.
+title: Μονομάχοι Επαφής
+description: Ένα παιχνίδι αποκλεισμού με juggling επαφής όπου οι παίκτες προστατεύουν την ισορροπία της μπάλας τους ενώ διαταράσσουν τους άλλους.
 authors:
   - CircusWiki contributors
 category:
@@ -21,8 +21,8 @@ category:
   - contact-juggling
   - knockout
   - gladiators
-Schwierigkeit: "mittel"
-Material: "Contact balls, usually four per player for a pyramid"
+Schwierigkeit: μεσαίο
+Material: Μπάλες επαφής, συνήθως τέσσερις ανά παίκτη για μια πυραμίδα
 Spieldauer: "5-10"
 group-min: 3
 group-max: 30
@@ -37,32 +37,34 @@ source_permission: "public-place images reviewed as reusable by project maintain
 aliases:
   - Contact Ball Gladiators
 translation_source: docs/en/contact-juggling-gladiators.md
-translation_source_body_hash: 43bbbca8026a69da082567b0a62bd234ebdb046fdc7d7f2ac7c79f1b9992c278
-translation_source_hash: 43bbbca8026a69da082567b0a62bd234ebdb046fdc7d7f2ac7c79f1b9992c278
+translation_source_body_hash: a70f0e9aad83961b1c3efaf71aa5977c4e08e492babf33890a86ed8eb3ecb3b3
+translation_source_hash: a70f0e9aad83961b1c3efaf71aa5977c4e08e492babf33890a86ed8eb3ecb3b3
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-12T21:13:48+00:00
-translation_source_metadata_hash: 2031ecbd2bff1e6f316aa5420efa146b504d8126d74ab088b1ac60c287df9589
+translation_updated: 2026-06-14T19:26:57+00:00
+translation_source_metadata_hash: bcb1d24a0012784a743e1edc607dd9716713e0e7f268b5ab030f0a49082aa9c1
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T21:13:48+00:00
+translation_metadata_updated: 2026-06-14T19:26:57+00:00
+translation_source_localized_metadata_hash: bcb1d24a0012784a743e1edc607dd9716713e0e7f268b5ab030f0a49082aa9c1
+translation_source_structural_metadata_hash: a751a656eae0d52d6b87b4d0a151f743e6441cd8c99f336ea58a6774414c1d5d
 ---
 > [!info] Σύντομη Περιγραφή
-> Ένα παιχνίδι αποκλεισμού με contact juggling, όπου οι παίκτες προστατεύουν την ισορροπία της δικής τους μπάλας, ενώ ταυτόχρονα προσπαθούν να διαταράξουν τις ισορροπίες των άλλων.
+> Ένα παιχνίδι αποκλεισμού με contact juggling, όπου οι παίκτες προστατεύουν την ισορροπία της δικής τους μπάλας, ενώ προσπαθούν να διαταράξουν των άλλων.
 
-![[../img/contact-ball-gladiators.jpg|300]]
+![contact-ball-gladiators](../img/contact-ball-gladiators.jpg){ width=300 }
 
 **Μέγεθος Ομάδας**: 3 έως 30 παίκτες
 **Δυσκολία**: μέτρια
-**Υλικά**: Μπάλες επαφής (contact balls), συνήθως τέσσερις ανά παίκτη για μια πυραμίδα
+**Υλικό**: Μπάλες επαφής (contact balls), συνήθως τέσσερις ανά παίκτη για μια πυραμίδα
 **Διάρκεια**: περίπου 5-10 λεπτά
 
 ## Περιγραφή Παιχνιδιού
 
-Κάθε παίκτης ξεκινά με την συμφωνημένη διάταξη μπαλών επαφής. Η έκδοση του JugglingWorld που τεκμηριώνεται χρησιμοποιεί μια πυραμίδα τεσσάρων μπαλών. Οι παίκτες κινούνται μέσα στην αρένα και προσπαθούν να διαταράξουν τις διατάξεις των άλλων παικτών, διατηρώντας παράλληλα άθικτη τη δική τους.
+Κάθε παίκτης ξεκινά με την συμφωνημένη διάταξη μπάλας επαφής. Η έκδοση του JugglingWorld που τεκμηριώνεται χρησιμοποιεί μια πυραμίδα τεσσάρων μπαλών. Οι παίκτες κινούνται μέσα στην αρένα και προσπαθούν να διαταράξουν τις διατάξεις άλλων παικτών, διατηρώντας παράλληλα τη δική τους άθικτη.
 
-Ένας παίκτης αποκλείεται όταν μια μπάλα πέσει, η διάταξη σπάσει ή χρησιμοποιήσει παράνομη επαφή. Στην έκδοση της πυραμίδας τεσσάρων μπαλών, οι παίκτες μπορούν να σπρώξουν την πυραμίδα ενός άλλου παίκτη μόνο με τη δική τους πυραμίδα. Δάχτυλα, ελεύθερα χέρια, σπρωξίματα με το σώμα και ρίψεις δεν επιτρέπονται. Ο τελευταίος παίκτης με την απαιτούμενη άθικτη διάταξη κερδίζει.
+Ένας παίκτης αποκλείεται όταν μια μπάλα πέσει, η διάταξη σπάσει ή χρησιμοποιήσει παράνομη επαφή. Στην εκδοχή της πυραμίδας τεσσάρων μπαλών, οι παίκτες μπορούν να σπρώξουν την πυραμίδα ενός άλλου παίκτη μόνο με τη δική τους πυραμίδα. Δάχτυλα, ελεύθερα χέρια, σπρωξίματα με το σώμα και ρίψεις δεν επιτρέπονται. Ο τελευταίος παίκτης που διατηρεί την απαιτούμενη διάταξη άθικτη κερδίζει.
 
-## Στήσιμο
+## Προετοιμασία
 
 - Συμφωνήστε στην απαιτούμενη διάταξη, όπως μια απλή ισορροπημένη μπάλα ή μια πυραμίδα τεσσάρων μπαλών.
 - Οριοθετήστε μια μικρή αρένα.
@@ -76,11 +78,11 @@ translation_metadata_updated: 2026-06-12T21:13:48+00:00
 
 ## Σημειώσεις Ασφαλείας
 
-Οι μπάλες επαφής μπορεί να είναι βαριές. Κρατήστε το παιχνίδι αργό και απαγορεύστε το ρίξιμο, το χτύπημα, τα σπρωξίματα με τα χέρια και τα σώματα.
+Οι μπάλες επαφής μπορεί να είναι βαριές. Κρατήστε το παιχνίδι αργό και απαγορεύστε ρίψεις, χτυπήματα, σπρωξίματα με τα χέρια και σωματικές συγκρούσεις.
 
 ## Πηγή
 
 - [JugglingWorld - Juggling Games](https://www.jugglingworld.biz/tricks/juggling-games/), ενότητα: Gladiators, τίτλος: Contact Juggling Gladiators.
-- [UCircus circus games page](https://ucircus.co.uk/resources-circus-games/), κάρτα πηγής: Contact Ball Gladiators.
+- [Σελίδα παιχνιδιών circus του UCircus](https://ucircus.co.uk/resources-circus-games/), κάρτα πηγής: Contact Ball Gladiators.
 - Μαθήματα UCircus: Contact, Knockout, Balance.
 - Εικόνα αναφοράς UCircus: `../img/contact-ball-gladiators.jpg`.

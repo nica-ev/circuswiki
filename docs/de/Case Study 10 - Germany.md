@@ -3,7 +3,7 @@ lang: de
 translation_id: case-study-10-germany
 created: 2025-08-29 19:27:16
 update: 2026-06-06 21:49:14
-publish: true
+publish: false
 tags:
   - case-study
 title: Bewegung & Spiel in der frühkindlichen Bildung
@@ -19,10 +19,12 @@ translation_source_hash: bb1845c565eb469e2bf150c0ec40b443aad4d17ca4838a48863f0aa
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-06T19:52:22+00:00
 translation_source_body_hash: bb1845c565eb469e2bf150c0ec40b443aad4d17ca4838a48863f0aaa0f4f6db3
-translation_source_metadata_hash: acc6853844bf9ed182b80901bec306c45b20f848171cd38e159894f687f39b1b
+translation_source_metadata_hash: f1c8888bccc325272e9eca6179e046cd3f5a4fcdf9ce94037aa7ebd80889e311
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:06:25+00:00
+translation_metadata_updated: 2026-06-14T15:43:02+00:00
+translation_source_localized_metadata_hash: f1c8888bccc325272e9eca6179e046cd3f5a4fcdf9ce94037aa7ebd80889e311
+translation_source_structural_metadata_hash: dc616ef6295207a94ad089bd5e69d61504b6ca05b551eba5d5f86c3c24108247
 ---
 # **Bewegung und Spiel in der frühkindlichen Bildung**
 

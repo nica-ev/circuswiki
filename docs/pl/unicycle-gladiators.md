@@ -12,7 +12,7 @@ tags:
 created: 2026-06-12 00:00:00
 update: 2026-06-12 22:43:17
 title: Gladiatorzy na Monocyklach
-description: Konwencyjna gra pucharowa, w której uczestnicy na monocyklach próbują utrzymać się na pojazdach, jednocześnie zmuszając innych do zjechania.
+description: Konwencyjna gra pucharowa, w której uczestnicy na monocyklach starają się utrzymać równowagę, jednocześnie zmuszając innych do zjechania z monocykla.
 authors:
   - CircusWiki contributors
 category:
@@ -20,8 +20,8 @@ category:
   - balance
   - knockout
   - gladiators
-Schwierigkeit: "schwer"
-Material: "Unicycles, marked arena"
+Schwierigkeit: trudny
+Material: Monocykle, wyznaczony teren
 Spieldauer: "5-15"
 group-min: 4
 group-max: 60
@@ -35,46 +35,48 @@ source_image: "../img/game-ewan-unicycle-gladiators.jpg"
 source_image_ucircus: "../img/unicycle-gladiators.jpg"
 source_permission: "public-place images reviewed as reusable by project maintainer"
 translation_source: docs/en/unicycle-gladiators.md
-translation_source_body_hash: 30a7fed2b289182167c464bb3938325102c0f1a691cbfade01446b887e04f810
-translation_source_hash: 30a7fed2b289182167c464bb3938325102c0f1a691cbfade01446b887e04f810
+translation_source_body_hash: b0d01e5b9b750ece26a8d0c05b33e52e14a2a5bab1724a87bc01acb3620aef28
+translation_source_hash: b0d01e5b9b750ece26a8d0c05b33e52e14a2a5bab1724a87bc01acb3620aef28
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-12T21:37:09+00:00
-translation_source_metadata_hash: 1ffdae00a6033a9996ccadf58126f3b5e099d5634a27c388e01d236f3b77c65e
+translation_updated: 2026-06-14T19:32:03+00:00
+translation_source_metadata_hash: b52be78cff666aef65d25530420e8bad2c42819f22e3a7ec75004193edfdd79c
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T21:37:09+00:00
+translation_metadata_updated: 2026-06-14T19:32:03+00:00
+translation_source_localized_metadata_hash: b52be78cff666aef65d25530420e8bad2c42819f22e3a7ec75004193edfdd79c
+translation_source_structural_metadata_hash: 390447a60e2f5818821bf120f3302d1d9130cd7047e5855ecc6eddb46aaa862b
 ---
 > [!info] Krótki opis
-> Gra pucharowa, w której uczestnicy na monocyklach starają się utrzymać równowagę, jednocześnie zmuszając innych do zjechania z pojazdu.
+> Gra typu „pucharowa” (knockout), w której uczestnicy na monocyklach starają się utrzymać na siodełku, jednocześnie zmuszając innych do zsiadania.
 
-![[../img/game-ewan-unicycle-gladiators.jpg|300]]
+![game-ewan-unicycle-gladiators](../img/game-ewan-unicycle-gladiators.jpg){ width=300 }
 
-**Liczba graczy**: od 4 do 60  
+**Liczba graczy**: od 4 do 60 osób  
 **Poziom trudności**: trudny  
-**Materiały**: Monocykle, wyznaczony obszar gry  
+**Materiały**: Monocykle, wyznaczone pole gry  
 **Czas trwania**: ok. 5-15 minut
 
 ## Opis gry
 
-Uczestnicy na monocyklach poruszają się w wyznaczonym obszarze. Celem jest utrzymanie się na monocyklu dłużej niż wszyscy pozostali, jednocześnie wywierając kontrolowaną presję na innych zawodników.
+Uczestnicy na monocyklach poruszają się wewnątrz wyznaczonej areny. Celem jest utrzymanie się na monocyklu dłużej niż wszyscy pozostali, jednocześnie wywierając kontrolowaną presję na innych zawodników.
 
-Zawodnik odpada, gdy zsiądzie z monocykla, dotknie podłoża stopą lub ręką, opuści obszar gry lub zastosuje niedozwolony kontakt. Wyeliminowani zawodnicy natychmiast opuszczają obszar gry. Wygrywa ostatni zawodnik, który utrzymał się na monocyklu.
+Zawodnik odpada, gdy zsiądzie z monocykla, dotknie podłoża stopą lub ręką, opuści arenę lub zastosuje niedozwolony kontakt. Wyeliminowani zawodnicy natychmiast opuszczają arenę. Wygrywa ostatni zawodnik, który utrzymał się na monocyklu.
 
 ## Przygotowanie
 
-- Wyznacz wyraźny obszar do jazdy, zapewniający wystarczająco dużo miejsca na krawędziach.
+- Wyznacz wyraźne pole do jazdy, zapewniając wystarczająco dużo miejsca na krawędziach.
 - Przed rozpoczęciem rundy ustalcie zasady dotyczące kontaktu.
-- Upewnijcie się, że wszyscy uczestnicy potrafią pewnie jeździć na monocyklu, zanim dołączą do gry.
+- Upewnij się, że wszyscy uczestnicy potrafią pewnie jeździć na monocyklu, zanim dołączą do gry.
 
 ## Warianty
 
-- Rozegrajcie wersję dla początkujących bez kontaktu, w której zawodnicy mogą jedynie blokować przestrzeń, ale nie dotykać się nawzajem.
-- Użyjcie kolorów drużynowych i zliczajcie punkty dla drużyny ostatniego pozostałego zawodnika.
-- Zmniejszajcie obszar gry między rundami dla bardziej doświadczonych zawodników.
+- Rozegraj wersję dla początkujących bez kontaktu, w której zawodnicy mogą jedynie blokować przestrzeń, ale nie dotykać się nawzajem.
+- Użyj kolorów drużynowych i licz punkty dla drużyny ostatniego pozostałego zawodnika.
+- Zmniejszaj arenę między rundami dla doświadczonych zawodników.
 
 ## Wskazówki dotyczące bezpieczeństwa
 
-Stosujcie tylko z pewnymi siebie uczestnikami jazdy na monocyklu. Jasno określcie granice kontaktu. W przypadku użytku publicznego ograniczcie kontakt do lekkiego nacisku barkiem lub ramieniem i zabrońcie chwytania, blokowania kół oraz przepychania.
+Stosuj tylko z pewnymi siebie cyklistami. Jasno określ granice kontaktu. W przypadku użytku publicznego ogranicz kontakt do lekkiego nacisku ramieniem lub barkiem i zabroń chwytania, blokowania kół oraz zderzeń ciałem.
 
 ## Źródło
 

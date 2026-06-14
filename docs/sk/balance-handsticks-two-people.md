@@ -10,8 +10,8 @@ tags:
   - balance
 created: 2026-06-12 00:00:00
 update: 2026-06-12 21:39:33
-title: Balansovanie tyčiek (dvaja)
-description: Dvojice balancujú každá jednu diabolo tyčku na brade, pričom povrázok medzi tyčkami zostáva spojený.
+title: Balansovanie s tyčkami (dvaja)
+description: Dvojice si balancujú na brade každú svoju diabolo tyčku, pričom medzi tyčkami zostáva spojená šnúra.
 authors:
   - CircusWiki contributors
 category:
@@ -19,8 +19,8 @@ category:
   - diabolo
   - endurance
   - balance
-Schwierigkeit: "mittel"
-Material: "Diabolo handsticks, one pair per team"
+Schwierigkeit: stredná
+Material: Diabolo tyčky, jeden pár na tím
 Spieldauer: "5-15"
 group-min: 2
 group-max: 20
@@ -35,10 +35,12 @@ translation_source_body_hash: a859463f51079466c52032e04904e8cffbf200b0c3cef77393
 translation_source_hash: a859463f51079466c52032e04904e8cffbf200b0c3cef773930180867ca1f434
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-12T21:07:51+00:00
-translation_source_metadata_hash: 09295fbf8c6259913d243f80329851ce8cefd04345dccbf006530c9ed4994b68
+translation_source_metadata_hash: e8b108b6d3325e1384873c7221b1063f8bcaeb8e54d8904d3e83e25a4eb6f65f
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T21:07:51+00:00
+translation_metadata_updated: 2026-06-14T15:55:50+00:00
+translation_source_localized_metadata_hash: e8b108b6d3325e1384873c7221b1063f8bcaeb8e54d8904d3e83e25a4eb6f65f
+translation_source_structural_metadata_hash: 63a01e7a362bb1b28a1374a6cc1f824e8d6f75e4e65761c607114655c41f4367
 ---
 > [!info] Krátky popis
 > Dvojice si vybalansujú na brade každú jednu diabolo tyčku, pričom povrázok spájajúci tyčky zostáva spojený.

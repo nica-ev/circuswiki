@@ -9,15 +9,15 @@ tags:
   - balance
 created: 2026-06-12 00:00:00
 update: 2026-06-12 22:41:24
-title: Vyvážení vodního pohárku
-description: Hráči balancují s holí nebo podobným předmětem s plastovým pohárkem vody na vrchu.
+title: Balancování s pohárem vody
+description: Hráči balancují s kyjem nebo podobným předmětem s plastovým pohárem vody na vrchu.
 authors:
   - CircusWiki contributors
 category:
   - convention-games
   - balance
-Schwierigkeit: "mittel"
-Material: "Club or balance object, plastic cup of water"
+Schwierigkeit: střední
+Material: Kyj nebo balanční předmět, plastový pohár s vodou
 Spieldauer: "5-15"
 group-min: 2
 group-max: 40
@@ -32,10 +32,12 @@ translation_source_body_hash: c8ff47a969c035af18121362260e6c42dba9362b5d78fd2032
 translation_source_hash: c8ff47a969c035af18121362260e6c42dba9362b5d78fd2032109f3ae2b37814
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-12T21:39:21+00:00
-translation_source_metadata_hash: 295f2dc748b3f0a1a0ee3412906400774a415b32fb9a441d6836a5ac636aea41
+translation_source_metadata_hash: 2452de06ec46a9a99a9c555722aceba4c2118ccfb32d74215b506b5d59ebf1e6
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T21:39:21+00:00
+translation_metadata_updated: 2026-06-14T16:05:22+00:00
+translation_source_localized_metadata_hash: 2452de06ec46a9a99a9c555722aceba4c2118ccfb32d74215b506b5d59ebf1e6
+translation_source_structural_metadata_hash: 34e814d972fdcebb3d491ce0dc23546749289fa3ff6380dcaf55bd626daea675
 ---
 > [!info] Krátký popis
 > Hráči balancují s kyjem nebo podobným předmětem, na kterém je plastový kelímek s vodou.

@@ -10,16 +10,16 @@ tags:
   - endurance
 created: 2026-06-12 00:00:00
 update: 2026-06-12 22:42:58
-title: Handstand-Ausdauer
-description: Eine Balance-Herausforderung, bei der die Teilnehmer so lange wie möglich einen Handstand halten, bis nur noch einer übrig ist.
+title: Handstand Ausdauer
+description: "Eine \"Last-Person-Standing\"-Balance-Herausforderung, bei der die Teilnehmer so lange wie möglich einen Handstand halten."
 authors:
   - CircusWiki contributors
 category:
   - convention-games
   - balance
   - endurance
-Schwierigkeit: "schwer"
-Material: "Soft floor, mats or grass"
+Schwierigkeit: schwer
+Material: Weicher Boden, Matten oder Gras
 Spieldauer: "3-10"
 group-min: 2
 group-max: 40
@@ -32,23 +32,25 @@ source_section: "Endurance Games/World Records"
 source_image_ucircus: "../img/handstand-endurance.jpg"
 source_permission: "public-place images reviewed as reusable by project maintainer"
 translation_source: docs/en/handstand-endurance.md
-translation_source_body_hash: 24a42a5d714ea12794b21a20d2aff4d776ee2c3c8d6bb1dec85d971e970288b1
-translation_source_hash: 24a42a5d714ea12794b21a20d2aff4d776ee2c3c8d6bb1dec85d971e970288b1
+translation_source_body_hash: 7939a11f1767281a23d627ec2a824a26c35bcf27ae9161ad6e6bdf048aa881c4
+translation_source_hash: 7939a11f1767281a23d627ec2a824a26c35bcf27ae9161ad6e6bdf048aa881c4
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-12T21:18:38+00:00
-translation_source_metadata_hash: 0d442386ef297fc4246d68bf7ce971a684dcf97cd86e20b995505636f1a5cbbd
+translation_updated: 2026-06-14T19:28:56+00:00
+translation_source_metadata_hash: 72495fc27163e079367bd3a70c98c62883733371de43527a4301bd9d4510b3c6
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T21:18:38+00:00
+translation_metadata_updated: 2026-06-14T19:28:56+00:00
+translation_source_localized_metadata_hash: 72495fc27163e079367bd3a70c98c62883733371de43527a4301bd9d4510b3c6
+translation_source_structural_metadata_hash: 006b2558d50fc9121b493e9127570eba6f434c981f1bca6abf1c42e17caa3b8f
 ---
 > [!info] Kurzbeschreibung
-> Eine "Wer zuletzt steht"-Gleichgewichtsherausforderung, bei der die Teilnehmenden so lange wie möglich einen Handstand halten.
+> Eine "Last-Man-Standing"-Gleichgewichtsherausforderung, bei der die Teilnehmenden so lange wie möglich einen Handstand halten.
 
-![[../img/handstand-endurance.jpg|300]]
+![handstand-endurance](../img/handstand-endurance.jpg){ width=300 }
 
-**Gruppengröße**: 2 bis 40 Spielende
-**Schwierigkeit**: schwer
-**Material**: Weicher Untergrund, Matten oder Gras
+**Gruppengröße**: 2 bis 40 Spieler*innen  
+**Schwierigkeit**: schwer  
+**Material**: Weicher Untergrund, Matten oder Gras  
 **Dauer**: ca. 3-10 Minuten
 
 ## Spielbeschreibung
@@ -59,19 +61,19 @@ Die letzte Person, die noch in einem gültigen Handstand verbleibt, gewinnt.
 
 ## Vorbereitung
 
-- Lege die erlaubte Form fest: freier Handstand, an der Wand gestützt, mit Partnerhilfe oder laufender Handstand.
+- Lege die erlaubte Form fest: freier Handstand, an der Wand gestützt, mit Partner*in gesichert oder laufender Handstand.
 - Wähle eine sichere Oberfläche und lasse genügend Platz zwischen den Teilnehmenden.
-- Entscheide, ob kleine Handkorrekturen erlaubt sind.
+- Entscheide, ob kleine Hand-Laufkorrekturen erlaubt sind.
 
 ## Variationen
 
-- Spiele separate Runden für Anfänger und Fortgeschrittene.
-- Nutze partnergestützte Handstände für inklusive Gruppen.
-- Lege eine maximale Zeit fest und erkläre alle verbleibenden Teilnehmenden zu gemeinsamen Gewinnern.
+- Spiele separate Runden für Anfänger*innen und Fortgeschrittene.
+- Nutze partner*innengestützte Handstände für inklusive Gruppen.
+- Lege eine maximale Zeit fest und erkläre alle verbleibenden Teilnehmenden zu gemeinsamen Gewinner*innen.
 
 ## Sicherheitshinweise
 
-Wärme zuerst Handgelenke und Schultern auf. Übe keinen Ausscheidungsdruck auf Teilnehmende aus, die nicht sicher aus einem Handstand herauskommen können.
+Wärme zuerst Handgelenke und Schultern auf. Setze den Ausscheidungsdruck nicht bei Teilnehmenden ein, die nicht sicher aus einem Handstand herauskommen können.
 
 ## Quelle
 

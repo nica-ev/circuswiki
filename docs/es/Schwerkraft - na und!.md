@@ -6,7 +6,7 @@ update: 2025-02-09 20:55:15
 publish: draft
 tags:
   - kaskade
-title: Gravedad - ¿y qué!
+title: Gravedad - ¡y qué!
 description: 
 authors:
   - Christoph Schmitt
@@ -19,10 +19,12 @@ translation_source_hash: 26a39b2d4ee4ff6aec0d58b3d88d91a7d05c85e2583fc65f5b25700
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-07T14:10:23+00:00
 translation_source_body_hash: 26a39b2d4ee4ff6aec0d58b3d88d91a7d05c85e2583fc65f5b257009bdae8b84
-translation_source_metadata_hash: 3fbfc8e4f4b8cc1cb5afe37f0f66985e4ca847bba40f9baffbb53846266c5fd6
+translation_source_metadata_hash: 034307ece6df3f6f5d35853efa330cf8c927c12b2335009fafbe30ce6b69206c
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T19:06:36+00:00
+translation_metadata_updated: 2026-06-14T16:19:36+00:00
+translation_source_localized_metadata_hash: 034307ece6df3f6f5d35853efa330cf8c927c12b2335009fafbe30ce6b69206c
+translation_source_structural_metadata_hash: 6b5fd8e2ee1e7a3515a50e972b62925a6f0fe184ca9dbdedfa1706528678024d
 ---
 ## Grupo de Malabares Autónomo de Wiesbaden y la 7ª Semana Europea de Malabares
 **Gravedad, ¡y qué!**

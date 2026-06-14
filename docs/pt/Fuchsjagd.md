@@ -12,8 +12,8 @@ authors:
   - Marc Bielert
 category:
   - fangen
-Schwierigkeit: einfach
-Material: Tücher
+Schwierigkeit: fácil
+Material: Panos
 Spieldauer: 10 -  15
 source: unbekannt
 group-min: 5
@@ -26,10 +26,12 @@ translation_source_hash: c406dbfd126920f2a96bfb3b553b1aa9be8a0e50f80ff8138dac6e0
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-07T18:45:52+00:00
 translation_source_body_hash: c406dbfd126920f2a96bfb3b553b1aa9be8a0e50f80ff8138dac6e06c0418c2d
-translation_source_metadata_hash: e0cf9a54c680000ef91895984945f2a9469acb71175157028290ab108bccbbd7
+translation_source_metadata_hash: bec12cbb431d648c7ad6c5dfbb3fc60f6bff9aa4ad114b34b0e06cf2c4eeefc1
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:48:13+00:00
+translation_metadata_updated: 2026-06-14T15:50:56+00:00
+translation_source_localized_metadata_hash: bec12cbb431d648c7ad6c5dfbb3fc60f6bff9aa4ad114b34b0e06cf2c4eeefc1
+translation_source_structural_metadata_hash: bcd8602a269240acdf09e1a3a6920fb1e1f95278beef748f43a5e2d42c0a4a3a
 ---
 # Caça à Raposa
 

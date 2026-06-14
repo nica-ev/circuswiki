@@ -9,14 +9,14 @@ tags:
   - hula-hoop
   - kooperacja
 title: Drei Reifen
-description: Ein Spiel für drei Personen mit einem Hula-Hoop, bei dem eine Gruppe durch Weiterreichen des Reifens vor die mittlere Person zum Ziel gelangt.
+description: Ein Spiel für drei Personen mit einem Hula-Hoop-Reifen, bei dem die Gruppe sich zur Ziellinie bewegt, indem sie den Reifen vor die mittlere Person weitergibt.
 authors:
   - Wiktoria Witenberg
 category:
   - kooperacja
   - ruch
 Schwierigkeit: einfach
-Material: hula hoop
+Material: Hula-Hoop-Reifen
 source: KPC - Hula hoop
 source_file: _inbox/Hula hoop - materiały KPC.pdf
 translation_status: machine-translated
@@ -26,10 +26,12 @@ translation_source_hash: e86e02a7f091681c3c9c12f07df670148a58805a0e87994c3e7fbe1
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-07T17:01:22+00:00
 translation_source_body_hash: e86e02a7f091681c3c9c12f07df670148a58805a0e87994c3e7fbe10d527e9be
-translation_source_metadata_hash: 3c18cd22f5af5cbae13d6066f73322a6d805deef9e818ab169af242bfa30b987
+translation_source_metadata_hash: 1e40e8efda991e57503c51681723e62ae087b1038af48ed909773589f609cdfe
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:54:33+00:00
+translation_metadata_updated: 2026-06-14T16:08:06+00:00
+translation_source_localized_metadata_hash: 1e40e8efda991e57503c51681723e62ae087b1038af48ed909773589f609cdfe
+translation_source_structural_metadata_hash: 31f5d334ad645b46d40b76b9b39ccde675e4caf3bc8c7e9c99584c35b4213319
 ---
 # Drei Reifen
 

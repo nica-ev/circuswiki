@@ -18,8 +18,8 @@ category:
   - convention-games
   - diabolo
   - target-games
-Schwierigkeit: "einfach"
-Material: "Diabolos, handsticks, box or basket"
+Schwierigkeit: lehká
+Material: Diabola, hůlky, krabice nebo koš
 Spieldauer: "5-10"
 group-min: 2
 group-max: 40
@@ -35,30 +35,32 @@ source_permission: "public-place images reviewed as reusable by project maintain
 aliases:
   - Diabolo in a Box
 translation_source: docs/en/diabolo-box-throw.md
-translation_source_body_hash: d2fb9084f072ba11601b7246e72fba9a0efd7bf2697da5947bb637e356b8d496
-translation_source_hash: d2fb9084f072ba11601b7246e72fba9a0efd7bf2697da5947bb637e356b8d496
+translation_source_body_hash: 2ffbebcdbfb4b7ab71dc47eb7618a79dabd72fb7870d517a6371a42af068a41b
+translation_source_hash: 2ffbebcdbfb4b7ab71dc47eb7618a79dabd72fb7870d517a6371a42af068a41b
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-12T21:15:07+00:00
-translation_source_metadata_hash: b962c2147100414303b6fc6966f23fc59faee0d5c05593c5d59f162d12ce806f
+translation_updated: 2026-06-14T19:27:47+00:00
+translation_source_metadata_hash: 45f623d0729380cf8b1b208c420697ba830b8061c36a19b1d16762f166fac65b
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T21:15:07+00:00
+translation_metadata_updated: 2026-06-14T19:27:47+00:00
+translation_source_localized_metadata_hash: 45f623d0729380cf8b1b208c420697ba830b8061c36a19b1d16762f166fac65b
+translation_source_structural_metadata_hash: b379e9799c5f4370effd35997caf8c75be342d03c1bc35b16ad57d4b659a6666
 ---
 > [!info] Stručný popis
-> Cílová hra, ve které se hráči snaží hodit diaboló do krabice nebo koše.
+> Cílová hra, při které se hráči snaží hodit diabolom do krabice nebo koše.
 
-![[../img/game-diabolo-in-box.jpg|300]]
+![game-diabolo-in-box](../img/game-diabolo-in-box.jpg){ width=300 }
 
 **Počet hráčů**: 2 až 40 hráčů  
 **Obtížnost**: snadná  
-**Materiál**: Diaboló, hůlky, krabice nebo koš  
-**Délka**: cca 5–10 minut
+**Materiál**: Diabola, hůlky, krabice nebo koš  
+**Délka**: cca 5-10 minut
 
 ## Popis hry
 
-Hráči stojí za odhodovou linií, roztočí svá diaboló a pokusí se je hodit do krabice, kyblíku nebo koše umístěného na druhé straně sálu. Hody mohou probíhat jeden po druhém nebo na společný signál.
+Hráči stojí za odhodovou linií, roztočí svá diabola a pokusí se je hodit do krabice, kyblíku nebo koše umístěného na druhém konci sálu. Hody mohou probíhat jeden po druhém nebo na společný signál.
 
-Diaboló se započítává, pokud dopadne do cíle a zůstane tam. Úspěšné hody bodují nebo posílají hráče do dalšího kola. Pro vytvoření finále zvětšete vzdálenost, zmenšete velikost cíle nebo vyžadujte několik úspěšných hodů.
+Diabolo se počítá, pokud dopadne do cíle a zůstane v něm. Úspěšné hody bodují nebo posílají hráče do dalšího kola. Pro vytvoření finále zvyšte vzdálenost, zmenšete velikost cíle nebo vyžadujte několik úspěšných hodů.
 
 ## Příprava
 
@@ -68,7 +70,7 @@ Diaboló se započítává, pokud dopadne do cíle a zůstane tam. Úspěšné h
 
 ## Varianty
 
-- Použijte týmy a sečtěte celkový počet úspěšných hodů.
+- Použijte týmy a sčítejte celkový počet úspěšných hodů.
 - Začátečníky nechte stát blíže a pokročilé hráče dále.
 - Použijte několik cílů s různou bodovou hodnotou.
 
@@ -79,7 +81,7 @@ Pevný cíl je nejbezpečnější. Vyhněte se cílům drženým lidmi, pokud s 
 ## Zdroj
 
 - [JugglingWorld - Juggling Games](https://www.jugglingworld.biz/tricks/juggling-games/), sekce: Diabolo Games, název: Diabolo in a box.
-- [UCircus circus games page](https://ucircus.co.uk/resources-circus-games/), karta zdroje: Diabolo Box Throw.
-- UCircus kurzy: Diabolo.
+- [Stránka s cirkusovými hrami UCircus](https://ucircus.co.uk/resources-circus-games/), karta zdroje: Diabolo Box Throw.
+- Kurzy UCircus: Diabolo.
 - Referenční obrázek JugglingWorld: `../img/game-diabolo-in-box.jpg`.
 - Referenční obrázek UCircus: `../img/diabolo-box-throw.jpg`.

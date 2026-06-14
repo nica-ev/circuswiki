@@ -6,7 +6,7 @@ update: 2025-03-17 00:17:15
 publish: true
 tags:
   - jonglage
-title: Partneroefening Werpend Jongleren Passeren
+title: Partneroefening Worp jongleren Passing
 description: 
 authors:
   - Marc Bielert
@@ -17,10 +17,12 @@ translation_source_hash: 309d60369a4efe85ec4ee6caf24dee2e27f78c181a6ed28aa88d9a2
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-06T23:23:07+00:00
 translation_source_body_hash: 309d60369a4efe85ec4ee6caf24dee2e27f78c181a6ed28aa88d9a2232924a0b
-translation_source_metadata_hash: 51d5525fda1cb56f4722be166f0e9fe2681b5de7ea800aee2189c210aa2dbd6e
+translation_source_metadata_hash: 575465de55be9307fa30a33b2214fa6752a2c90915b105e9cff43758c7e6e310
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T19:01:39+00:00
+translation_metadata_updated: 2026-06-14T16:14:53+00:00
+translation_source_localized_metadata_hash: 575465de55be9307fa30a33b2214fa6752a2c90915b105e9cff43758c7e6e310
+translation_source_structural_metadata_hash: 0f701d6c75b0311dbfabde66a203269e82693362fac0d3bd10f2fdb2cd277ac6
 ---
 # Partneroefening Werpjongleren Passen
 

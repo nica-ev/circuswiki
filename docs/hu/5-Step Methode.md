@@ -17,10 +17,12 @@ translation_source_hash: a7b9190c83d7e07dd3f18e3aced82d6a53b0cc4c01657c9e94cfe3c
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-06T22:33:12+00:00
 translation_source_body_hash: a7b9190c83d7e07dd3f18e3aced82d6a53b0cc4c01657c9e94cfe3c0012e43b2
-translation_source_metadata_hash: 9663f9d854b8ff5c4173de9fb8d44fc7e80cc891928d7b69122f4129a717b67b
+translation_source_metadata_hash: e2f2281b1dae2fd59c9ef236fdaba82776b2d811d0c52d4f9add0f06ff073532
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:00:56+00:00
+translation_metadata_updated: 2026-06-14T15:36:37+00:00
+translation_source_localized_metadata_hash: e2f2281b1dae2fd59c9ef236fdaba82776b2d811d0c52d4f9add0f06ff073532
+translation_source_structural_metadata_hash: 432cb6071b95745441be5a60fc482584af1fa12c39d252b0347f4815530ebd9d
 ---
 # 5-Lépés Módszer
 

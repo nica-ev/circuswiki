@@ -11,7 +11,7 @@ tags:
 created: 2026-06-12 00:00:00
 update: 2026-06-12 21:56:49
 title: Pase de club de larga distancia a uno mismo
-description: Un jugador lanza un garrote hacia adelante, se mueve tras él y lo atrapa lo más lejos posible del inicio.
+description: Un solo lanzador lanza un club hacia adelante, se mueve tras él y lo atrapa lo más lejos posible del punto de partida.
 authors:
   - CircusWiki contributors
 category:
@@ -19,8 +19,8 @@ category:
   - club-games
   - throwing
   - catching
-Schwierigkeit: "mittel"
-Material: "Juggling clubs, distance markers"
+Schwierigkeit: medio
+Material: Mazas de malabares, marcadores de distancia
 Spieldauer: "5-15"
 group-min: 2
 group-max: 40
@@ -35,10 +35,12 @@ translation_source_body_hash: 354c9cf49a8add773498e973be3956e73bb25e094f49fda1ea
 translation_source_hash: 354c9cf49a8add773498e973be3956e73bb25e094f49fda1ea927628f4bc7443
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-12T21:22:41+00:00
-translation_source_metadata_hash: a34d3fc2e48ceed7ada325926990e27fd3e779ff9b86da65adcd8a55bf3e19c9
+translation_source_metadata_hash: af54a0217570c13a8051a579dfb21ae376bfb83c30e95eda9527770d307bc0a2
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T21:22:41+00:00
+translation_metadata_updated: 2026-06-14T16:00:42+00:00
+translation_source_localized_metadata_hash: af54a0217570c13a8051a579dfb21ae376bfb83c30e95eda9527770d307bc0a2
+translation_source_structural_metadata_hash: 97ee8870fe1664049f6d7404c0d94be0b2fc3584d582102067f73d994ffc94fd
 ---
 > [!info] Descripción breve
 > Un jugador lanza una clava hacia adelante, corre tras ella y la atrapa lo más lejos posible del punto de partida.

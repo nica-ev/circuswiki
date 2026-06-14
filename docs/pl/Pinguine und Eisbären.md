@@ -7,14 +7,14 @@ publish: true
 tags:
   - spiele
 title: Pingwiny i niedźwiedzie polarne
-description: Gra planszowa, w której pingwiny przesuwają górę lodową po planszy, podczas gdy niedźwiedź polarny jej broni.
+description: Gra na macie, w której pingwiny przesuwają krę lodową po sali, podczas gdy niedźwiedź polarny jej broni.
 authors:
   - Marc Bielert
 category:
   - fangen
   - warm-up
-Schwierigkeit: einfach - mittel
-Material: Weichbodenmatte
+Schwierigkeit: łatwy - średni
+Material: Miękka mata podłogowa
 Spieldauer: 5 - 15
 source: unbekannt
 group-min: 6
@@ -27,10 +27,12 @@ translation_source_hash: d03c7086c518077fc9e5f82c88eb9b9a8b4ab1a60e817e0c538def2
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:10:24+00:00
 translation_source_body_hash: d03c7086c518077fc9e5f82c88eb9b9a8b4ab1a60e817e0c538def24c9bc3ec8
-translation_source_metadata_hash: f8a28aa5f1aee51964b2e19c035cc5de78f05107b16ae566dc7c455066a62000
+translation_source_metadata_hash: 341994c671767e5433cdea01df3f7c3c14fbd1651023e5eb1452f0e99fb8cf20
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T19:02:12+00:00
+translation_metadata_updated: 2026-06-14T16:15:31+00:00
+translation_source_localized_metadata_hash: 341994c671767e5433cdea01df3f7c3c14fbd1651023e5eb1452f0e99fb8cf20
+translation_source_structural_metadata_hash: 4d7bcc7fc153eaa5e553765b7388cad674a56914316cc42d8147e3139f2a5491
 ---
 > [!info] Krótki opis
 > Gra na macie, w której pingwiny przesuwają górę lodową po pomieszczeniu, podczas gdy niedźwiedź polarny jej broni.

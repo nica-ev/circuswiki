@@ -19,8 +19,8 @@ category:
   - diabolo
   - throwing
   - catching
-Schwierigkeit: "mittel"
-Material: "Diabolos, handsticks, skipping rope or clear jump space"
+Schwierigkeit: medio
+Material: Diabolo, bacchette, corda per saltare o spazio libero per saltare
 Spieldauer: "5-15"
 group-min: 2
 group-max: 40
@@ -35,10 +35,12 @@ translation_source_body_hash: 1ff4f2879bf9d6f65802cdd948cfc5d20cb82ea70eeccc9576
 translation_source_hash: 1ff4f2879bf9d6f65802cdd948cfc5d20cb82ea70eeccc9576eef8b57c66776b
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-12T21:33:09+00:00
-translation_source_metadata_hash: 2ac80f6fcb37baddf6e90559779af479a68934fee63afb381aa67d4d5de79187
+translation_source_metadata_hash: 422238bdbba761d3c712998d65179e3a82acb2f6d1f897fe924a508997faa3f1
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T21:33:09+00:00
+translation_metadata_updated: 2026-06-14T16:03:06+00:00
+translation_source_localized_metadata_hash: 422238bdbba761d3c712998d65179e3a82acb2f6d1f897fe924a508997faa3f1
+translation_source_structural_metadata_hash: a7232f598a4c308a3f554caa26a70ba1fd99867498d4ff45b12d327a71dce830
 ---
 > [!info] Breve Descrizione
 > Un giocatore lancia il diabolo verso l'alto, salta o fa i volteggi richiesti, e poi lo riprende.

@@ -11,15 +11,15 @@ tags:
 created: 2026-06-12 00:00:00
 update: 2026-06-12 22:42:58
 title: Wytrzymałość w staniu na rękach
-description: Wyzwanie balansowe typu „ostatni, który utrzyma się na nogach”, w którym uczestnicy jak najdłużej utrzymują stanie na rękach.
+description: Wyzwanie równowagi typu „ostatni, który utrzyma pozycję”, w którym uczestnicy jak najdłużej utrzymują stanie na rękach.
 authors:
   - CircusWiki contributors
 category:
   - convention-games
   - balance
   - endurance
-Schwierigkeit: "schwer"
-Material: "Soft floor, mats or grass"
+Schwierigkeit: trudny
+Material: Miękka podłoga, materace lub trawa
 Spieldauer: "3-10"
 group-min: 2
 group-max: 40
@@ -32,19 +32,21 @@ source_section: "Endurance Games/World Records"
 source_image_ucircus: "../img/handstand-endurance.jpg"
 source_permission: "public-place images reviewed as reusable by project maintainer"
 translation_source: docs/en/handstand-endurance.md
-translation_source_body_hash: 24a42a5d714ea12794b21a20d2aff4d776ee2c3c8d6bb1dec85d971e970288b1
-translation_source_hash: 24a42a5d714ea12794b21a20d2aff4d776ee2c3c8d6bb1dec85d971e970288b1
+translation_source_body_hash: 7939a11f1767281a23d627ec2a824a26c35bcf27ae9161ad6e6bdf048aa881c4
+translation_source_hash: 7939a11f1767281a23d627ec2a824a26c35bcf27ae9161ad6e6bdf048aa881c4
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-12T21:18:44+00:00
-translation_source_metadata_hash: 0d442386ef297fc4246d68bf7ce971a684dcf97cd86e20b995505636f1a5cbbd
+translation_updated: 2026-06-14T19:28:58+00:00
+translation_source_metadata_hash: 72495fc27163e079367bd3a70c98c62883733371de43527a4301bd9d4510b3c6
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T21:18:44+00:00
+translation_metadata_updated: 2026-06-14T19:28:58+00:00
+translation_source_localized_metadata_hash: 72495fc27163e079367bd3a70c98c62883733371de43527a4301bd9d4510b3c6
+translation_source_structural_metadata_hash: 006b2558d50fc9121b493e9127570eba6f434c981f1bca6abf1c42e17caa3b8f
 ---
 > [!info] Krótki opis
-> Wyzwanie polegające na utrzymaniu równowagi w pozycji stania na rękach, gdzie uczestnicy starają się wytrzymać jak najdłużej. Ostatnia osoba pozostająca w prawidłowej pozycji wygrywa.
+> Wyzwanie polegające na utrzymaniu równowagi w pozycji stania na rękach, gdzie uczestnicy starają się jak najdłużej utrzymać tę pozycję. Ostatnia osoba pozostająca w grze wygrywa.
 
-![[../img/handstand-endurance.jpg|300]]
+![handstand-endurance](../img/handstand-endurance.jpg){ width=300 }
 
 **Liczba graczy**: od 2 do 40 osób  
 **Poziom trudności**: trudny  
@@ -53,25 +55,25 @@ translation_metadata_updated: 2026-06-12T21:18:44+00:00
 
 ## Opis gry
 
-Wszyscy uczestnicy na sygnał startowy przyjmują pozycję stania na rękach i starają się utrzymać ustaloną formę stania na rękach dłużej niż pozostali. Gracz odpada, gdy jego stopy dotkną podłoża, opuści ustaloną strefę lub złamie ustaloną zasadę podparcia.
+Wszyscy uczestnicy na sygnał startowy wykonują stanie na rękach i starają się utrzymać ustaloną pozycję dłużej niż pozostali. Gracz odpada, gdy jego stopy dotkną ziemi, opuści wyznaczony obszar lub złamie ustaloną zasadę wsparcia.
 
-Ostatnia osoba pozostająca w prawidłowej pozycji stania na rękach wygrywa.
+Ostatnia osoba, która utrzymała się w prawidłowej pozycji stania na rękach, wygrywa.
 
 ## Przygotowanie
 
-- Ustal dozwoloną formę: swobodne stanie na rękach, z podparciem o ścianę, z pomocą partnera lub stanie na rękach z chodzeniem.
+- Ustal dozwoloną formę stania na rękach: dowolną, z podparciem o ścianę, z asekuracją partnera lub w formie chodzenia na rękach.
 - Zapewnij bezpieczną powierzchnię i wystarczającą przestrzeń między uczestnikami.
-- Zdecyduj, czy dozwolone są drobne korekty pozycji poprzez ruch rąk.
+- Zdecyduj, czy dozwolone są drobne korekty w postaci krótkiego ruchu rękami.
 
 ## Warianty
 
-- Przeprowadź osobne rundy dla początkujących i zaawansowanych.
-- W przypadku grup zróżnicowanych pod względem umiejętności, stosuj stanie na rękach z pomocą partnera.
+- Przeprowadź oddzielne rundy dla początkujących i zaawansowanych.
+- W przypadku grup zróżnicowanych pod względem umiejętności, stosuj stanie na rękach z asekuracją partnera.
 - Ustal maksymalny czas trwania i ogłoś wszystkich pozostałych graczy wspólnymi zwycięzcami.
 
 ## Wskazówki dotyczące bezpieczeństwa
 
-Najpierw rozgrzej nadgarstki i barki. Nie stosuj presji eliminacji wobec uczestników, którzy nie potrafią bezpiecznie wyjść z pozycji stania na rękach.
+Najpierw rozgrzej nadgarstki i barki. Nie stosuj presji eliminacji wobec uczestników, którzy nie potrafią bezpiecznie wyjść ze stania na rękach.
 
 ## Źródła
 

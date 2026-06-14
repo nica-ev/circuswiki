@@ -7,14 +7,14 @@ tags:
   - beigoma
 created: 2026-06-11 00:00:00
 update: 2026-06-11 17:31:52
-title: Torneio de Beigoma
-description: Um formato de torneio de Beigoma para iniciantes, onde partidas um contra um são decididas por quem atingir duas vitórias.
+title: Partida de Torneio de Beigoma
+description: Um formato de torneio de Beigoma para iniciantes onde partidas um contra um são decididas por quem atinge duas vitórias.
 authors:
   - Marc Bielert
 category:
   - beigoma
-Schwierigkeit: mittel
-Material: Beigoma, strings, playing floor, tournament bracket
+Schwierigkeit: médio
+Material: Beigoma, cordas, chão de jogo, chaveamento de torneio
 Spieldauer: 15-60
 source:
   - Tokyo Beigoma
@@ -28,10 +28,12 @@ translation_source_body_hash: c4fa1218dcc72803c97319cc66febb08712ee72d8d40e8ba87
 translation_source_hash: c4fa1218dcc72803c97319cc66febb08712ee72d8d40e8ba87bb61bc753e1dff
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-11T15:36:53+00:00
-translation_source_metadata_hash: 7855aa4e09a9e54adab492648bebda921e07d9410fadd15c286ad392d289d3cc
+translation_source_metadata_hash: ba2a219a550bcf8775e03449564511a0862337f4d2e4e12fcaf8e4f12557ebf5
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-11T15:36:53+00:00
+translation_metadata_updated: 2026-06-14T15:39:51+00:00
+translation_source_localized_metadata_hash: ba2a219a550bcf8775e03449564511a0862337f4d2e4e12fcaf8e4f12557ebf5
+translation_source_structural_metadata_hash: 86649c35a16fe1812311cc1b1e35d5d09031338bebe878e0796edadc8879bd65
 ---
 > [!info] Breve Descrição
 > Um formato de torneio de Beigoma acessível para iniciantes, onde partidas um contra um são decididas por quem atinge duas vitórias primeiro.

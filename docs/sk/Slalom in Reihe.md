@@ -7,13 +7,13 @@ tags:
 created: 2025-01-24 03:50:51
 update: 2025-03-17 01:37:29
 title: Slalom v rade
-description: Rozcvičovacia hra v malých skupinách, kde ľudia postupne behajú, plazia sa alebo preliezajú cez rad.
+description: Rozcvičovacia hra v malých skupinách, kde ľudia postupne behajú, plazia sa alebo šplhajú cez rad.
 authors:
   - Marc Bielert
 category:
   - warm-up
-Schwierigkeit: einfach
-Material: keines
+Schwierigkeit: ľahká
+Material: žiadny
 Spieldauer: 5-10
 source: unbekannt
 group-min: 3
@@ -25,10 +25,12 @@ translation_source_hash: ec600d83c17f012e5673e931c37fc87e458f579e90a584a3355e9f5
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:25:42+00:00
 translation_source_body_hash: ec600d83c17f012e5673e931c37fc87e458f579e90a584a3355e9f5fda50fdd0
-translation_source_metadata_hash: e5b660480a91b78006b5ad0540c11ce669c22cc0177b83c496876cc80edd9fe0
+translation_source_metadata_hash: 95c215753c2bd2e8ba7be5bfe880559da04170c23b81797abe58c208343581fc
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T19:07:25+00:00
+translation_metadata_updated: 2026-06-14T16:20:23+00:00
+translation_source_localized_metadata_hash: 95c215753c2bd2e8ba7be5bfe880559da04170c23b81797abe58c208343581fc
+translation_source_structural_metadata_hash: e46b542911626d2b533aef62c97cedc88e050da59ce57e59552534a773e271d5
 ---
 > [!info] Stručný opis
 > Rozcvičovacia hra v malých skupinách, pri ktorej osoby postupne prechádzajú, plazia sa alebo preliezajú cez rad.

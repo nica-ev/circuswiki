@@ -10,8 +10,8 @@ tags:
   - catching
 created: 2026-06-12 00:00:00
 update: 2026-06-12 21:40:47
-title: Pegar o parceiro
-description: Parceiros se encaram.
+title: Pegada sobre o parceiro
+description: Parceiros de frente um para o outro.
 authors:
   - CircusWiki contributors
 category:
@@ -19,8 +19,8 @@ category:
   - diabolo
   - throwing
   - catching
-Schwierigkeit: "mittel"
-Material: "Diabolos and handsticks, distance markers"
+Schwierigkeit: médio
+Material: Diabolos e baquetas, marcadores de distância
 Spieldauer: "5-15"
 group-min: 2
 group-max: 20
@@ -35,10 +35,12 @@ translation_source_body_hash: d2913d503a30c16334320ca799ba6fe63a7167a1236dbea9bc
 translation_source_hash: d2913d503a30c16334320ca799ba6fe63a7167a1236dbea9bc8b7714ce5ab2d7
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-12T21:10:27+00:00
-translation_source_metadata_hash: e376cb7c74968f4ce9de9dc1a8f715e9295233bf53980a57ecbc295f3cf02270
+translation_source_metadata_hash: 9275135d0786f6fd765116cb9054166c774598403274da0b268cf4b81cd49581
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T21:10:27+00:00
+translation_metadata_updated: 2026-06-14T15:56:43+00:00
+translation_source_localized_metadata_hash: 9275135d0786f6fd765116cb9054166c774598403274da0b268cf4b81cd49581
+translation_source_structural_metadata_hash: 0ce0cfc24ee1be3255722eace71cd10fd5635e48258c26c62ae5b5d53e9b693b
 ---
 > [!info] Descrição Curta
 > Os parceiros ficam um de frente para o outro.

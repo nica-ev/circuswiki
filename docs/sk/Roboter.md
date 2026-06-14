@@ -7,13 +7,13 @@ tags:
 created: 2025-01-24 03:50:51
 update: 2025-03-17 01:49:11
 title: Robot
-description: Dôverná hra v pároch, kde jedna osoba s privretými očami opatrne vedie druhú po miestnosti.
+description: Dôverná hra v pároch, kde jedna osoba s privretými očami je opatrne vedená po miestnosti.
 authors:
   - Marc Bielert
 category:
   - cool-down
-Schwierigkeit: einfach
-Material: keines
+Schwierigkeit: ľahká
+Material: žiadny
 Spieldauer: 5-10
 source: unbekannt
 group-min: 2
@@ -25,10 +25,12 @@ translation_source_hash: ab03056fa2caf03ddbf43144f65e95a23fda76d1c0bfee5924677ef
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:13:37+00:00
 translation_source_body_hash: ab03056fa2caf03ddbf43144f65e95a23fda76d1c0bfee5924677ef8de1d8941
-translation_source_metadata_hash: 750262bc5fbea31be6cd331595f505c83640b7a4ff0c1aa2b21428f66fb805b6
+translation_source_metadata_hash: dced84514c00135b0eacba1a1bda19dfd424e16c0169df02c9211a9d627e7a7c
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T19:04:33+00:00
+translation_metadata_updated: 2026-06-14T16:17:42+00:00
+translation_source_localized_metadata_hash: dced84514c00135b0eacba1a1bda19dfd424e16c0169df02c9211a9d627e7a7c
+translation_source_structural_metadata_hash: a2068386b063e4facf1715b394e83f67bc6c67401ec0963811d189610970dfe8
 ---
 > [!info] Stručný popis
 > Hra na dôveru v pároch, kde jedna osoba so zatvorenými očami je opatrne vedená po miestnosti.

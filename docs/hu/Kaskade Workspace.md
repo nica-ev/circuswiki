@@ -2,7 +2,7 @@
 lang: hu
 translation_id: kaskade-workspace
 created: 2025-01-21 18:09:55
-update: 2026-06-12 19:11:41
+update: 2026-06-14 19:03:29
 publish: true
 tags:
   - moc
@@ -14,52 +14,53 @@ authors:
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Kaskade Workspace.md
-translation_source_hash: 29a1552cf493836b4b474a5912aebdb63538c48b359b37de5a4b8b2e5b94d53f
+translation_source_hash: 631cf2907c40a3667c661ea1b6d881d859aab4729b277b6135718a058327fc01
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-12T17:33:04+00:00
-translation_source_body_hash: 29a1552cf493836b4b474a5912aebdb63538c48b359b37de5a4b8b2e5b94d53f
-translation_source_metadata_hash: e7f4ba685ffe753f20b46abef2ca8139d54bb761a72234a6398c888d59b39b90
+translation_updated: 2026-06-14T15:10:31+00:00
+translation_source_body_hash: 631cf2907c40a3667c661ea1b6d881d859aab4729b277b6135718a058327fc01
+translation_source_metadata_hash: 14f9eb7f2b84bdc2ea4e9bf614d19a3199b89138fa400f849f9e7789b6cd1ce0
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T17:33:04+00:00
+translation_metadata_updated: 2026-06-14T16:06:29+00:00
+translation_source_localized_metadata_hash: 14f9eb7f2b84bdc2ea4e9bf614d19a3199b89138fa400f849f9e7789b6cd1ce0
+translation_source_structural_metadata_hash: 0cfee3e1af3406a918bee8b26aa5fda5e8dd66e93b2d5c95c2c0fea35a4fc7a7
 ---
 >[!info]- Bevezetés
->A Kaskade magazinnal nőttem fel. Még mielőtt volt Youtube, mielőtt mindent megtalálhattunk volna az interneten – ez a magazin volt az egyik első rendszeres információm az ugrálás, a cirkusz, a show témakörében, ami a kezembe került.
->Amikor a magazin 2013-ban megszűnt, ez egy korszak végét jelentette – legalábbis számomra.
->Több éven keresztül a magazinok PDF formátumban még letölthetők voltak, kb. 2017 óta az oldal offline.
->Gyakran emlékeztem kis workshopokra, oktatóanyagokra vagy cikkekre, amelyek akkoriban inspiráltak. Amikor évekkel később újra el akartam olvasni valamit – erre már nem volt lehetőség.
+>A Kaskade magazinnal nőttem fel. Még mielőtt létezett volna a Youtube, mielőtt mindent megtalálhattunk volna az interneten – ez a magazin volt az egyik első rendszeres információs forrásom az ugrálás, a cirkusz és a show-k témájában.
+>Amikor a magazint 2013-ban megszüntették, korszakalkotó lezárásnak tűnt – legalábbis számomra.
+>Több éven keresztül a magazinok PDF formátumban még letölthetők voltak, de kb. 2017 óta a weboldal offline állapotba került.
+>Gyakran emlékeztem vissza kis workshopokra, oktatóanyagokra vagy cikkekre, amelyek akkoriban inspiráltak. Amikor évekkel később újra el akartam olvasni valamit – már nem volt rá lehetőség.
 >
->A Wayback Machine (The Internet Archive) segítségével szerencsére találtam egy 2017-es mentést a teljes letöltésekkel (ez nem mindig van így, különösen, mivel kb. 3 GB PDF-ről van szó) – teljes német, angol és francia kiadással.
+>Szerencsére a Wayback Machine (The Internet Archive) segítségével találtam egy 2017-es mentést a teljes letöltésekkel (ez nem mindig van így, különösen, mivel kb. 3 GB PDF-ről van szó) – német, angol és francia kiadásokkal együtt.
 >
->Átnézve észrevettem, hogy bár sok nagyszerű cikk és oktatóanyag volt elrejtve a magazinokban – de a mai korban aligha nézne bárki is át 112, csak fénymásolt magazint. Hát, hacsak nincs nosztalgikus érdeklődése =P
+>Átnézve észrevettem, hogy bár rengeteg nagyszerű cikk és oktatóanyag volt elrejtve a magazinokban – a mai világban valószínűleg senki sem nézne át 112, csak fénymásolt magazint. Hát, hacsak nincs valakinek nosztalgikus érdeklődése =P
 >
->Mivel kár lenne a tudásért, megpróbáltam a jelenlegi technika segítségével digitalizálni az egészet úgy, hogy az ma is értelmesen használható legyen.
+>Mivel azonban kár lenne az információkért, megpróbáltam a jelenlegi technológia segítségével digitalizálni az egészet úgy, hogy ma is értelmesen használható legyen.
 
 >[!info]- Hogyan transzkribálták a magazinokat?
 >Először eltávolítottam az összes oldalt a PDF-ből, amelyek nem tartalmaztak releváns szöveget.
 >
->Az igazi transzkribáláshoz (vagy OCR-hez) a Google egy multimodális nyelvi modelljét használtam.
->A ```Gemini 2.0 Pro Experimental 02-05```-t használtam a következő prompttal:
+>Az igazi transzkribáláshoz (vagy OCR-hez) a Google egyik multimodális nyelvi modelljét használtam.
+>A ```Gemini 2.0 Pro Experimental 02-05``` verziót használtam a következő prompttal:
 >```
 >The attached PDF is a photocopy of a magazine. Extract all text, keep the document structure intact as much as possible, also extract single images and have them correctly in context.
 >```
 >valamint a beolvasott magazin PDF-jét.
->Beállítások: Hőmérséklet 0.1 (Fontos a hallucinációk elkerülése érdekében)
+>Beállítások: Hőmérséklet 0.1 (Fontos a téves következtetések elkerülése érdekében)
 >
->A kimenetet a ```gemini-2.0-flash-exp``` és a következő prompt (valamint a mellékelt, általunk kinyert szöveg) segítségével tisztítottam meg:
+>A kimenetet a ```gemini-2.0-flash-exp``` és a következő prompt segítségével tisztítottam meg (valamint a mellékelt, általunk kinyert szöveggel):
 >```
 >The following text is extracted with OCR from an old magazin. Your task is to clean this up. Remove artifacts (like page-numbering, unneccessary linebreaks) or unneeded parts but keep the structure, articles etc. intact. Use a proper Markdown formatting to structure the text correctly.
 >
 >Text:
 >```
 >
->Az eredményt ezután manuálisan is átnéztem és javítottam.
+>Az eredményt ezután még egyszer manuálisan átnéztem és javítottam.
 >
 >>[!Danger]+ Fontos:
 >>A hangsúly a cikkek, workshopok, interjúk stb. kinyerésén volt.
 >>Az olyan bejegyzéseket, mint pl. apróhirdetések stb. elvetettem.
->>A szövegek kinyerése és tisztítása LLM-ekkel történt, így mindig fennáll a lehetősége, hogy a szövegek nem 1:1-ben lettek transzkribálva, vagy a tartalom kissé eltér az eredetitől. Igyekeztem a hibaarányt a lehető legalacsonyabb szinten tartani azáltal, hogy véletlenszerűen összehasonlítottam szövegrészeket.
-
+>>A szövegek kinyerését és tisztítását LLM-ek végezték, így mindig fennáll a lehetősége, hogy a szövegek nem 1:1-ben lettek átírva, vagy a tartalom kissé eltér az eredetitől. Igyekeztem a hibaarányt a lehető legalacsonyabb szinten tartani azáltal, hogy mintavételszerűen összehasonlítottam szövegrészeket.
 <!-- dynamic:start
 engine: obsidian-base
 base: _bases/Spiele-Base.base
@@ -69,52 +70,46 @@ format: list
 <!-- dynamic:content -->
 <!-- Generated by tools/dynamic_pages.py; edit the dynamic block config, not this list. -->
 
-- [Kaskade 001 - 1984](<Kaskade%20001.md>)
-- [Kaskade 002 - 1984](<Kaskade%20002.md>)
+- [Kaskade 001](<Kaskade%20001.md>)
+- [Kaskade 002](<Kaskade%20002.md>)
 - [Kaskade 003](<Kaskade%20003.md>)
-- [Kaskade 004 - 1985](<Kaskade%20004.md>)
-- [Kaskade 005 - 1985](<Kaskade%20005.md>)
+- [Kaskade 004](<Kaskade%20004.md>)
+- [Kaskade 005](<Kaskade%20005.md>)
 
-<!-- dynamic:end -->
-
-# Cikkek
-
+<!-- dynamic:end --># Cikk
 <!-- dynamic:start
 engine: obsidian-base
 base: _bases/Spiele-Base.base
 view: Kaskade Artikel
 format: table
-columns: file, authors, type, sub-type, source
 -->
 <!-- dynamic:content -->
 <!-- Generated by tools/dynamic_pages.py; edit the dynamic block config, not this table. -->
 
-| file                                                                                   | authors                  | type     | sub-type | source      |
-| -------------------------------------------------------------------------------------- | ------------------------ | -------- | -------- | ----------- |
-| [Kaskád Műhely - Az oszlopoldal](<Die%20S%C3%A4ulen-Seite.md>)                                       | Dr. P. Luftiko           | Tutorial | Bälle    | Kaskade 001 |
-| [Egy új folyóirat Európának](<Eine%20neue%20Zeitschrift%20f%C3%BCr%20Europa.md>) | Gabi Keaton, Paul Keaton | Artikel  | -        | Kaskade 001 |
-| [Mosoly legyőzi a gravitációt](<L%C3%A4cheln%20%C3%BCberwindet%20Schwerkraft.md>)    | Toby Philpott            | Artikel  | -        | Kaskade 001 |
-| [Kaskade Workshop - Csalás!](<Schummeln%21.md>)                                                        | Dr. P. Luftiko           | Tutorial | Bälle    | Kaskade 001 |
-| [Gravitáció - és akkor mi van!](<Schwerkraft%20-%20na%20und%21.md>)                            | Christoph Schmitt        | Artikel  | -        | Kaskade 001 |
-| [Cirkuszt keresünk!](<Zirkus%20gesucht%21.md>)                                            | Kattrin & Uli            | Artikel  | -        | Kaskade 001 |
+| Hivatkozás                                                                        | authors                  | type     | sub-type | source      |
+| --------------------------------------------------------------------------------- | ------------------------ | -------- | -------- | ----------- |
+| [Kaskád Műhely - Az Oszlop Oldala](<Die%20S%C3%A4ulen-Seite.md>)                  | Dr. P. Luftiko           | Tutorial | Bälle    | Kaskade 001 |
+| [Új folyóirat Európának](<Eine%20neue%20Zeitschrift%20f%C3%BCr%20Europa.md>)      | Gabi Keaton, Paul Keaton | Artikel  | -        | Kaskade 001 |
+| [Mosoly legyőzi a gravitációt](<L%C3%A4cheln%20%C3%BCberwindet%20Schwerkraft.md>) | Toby Philpott            | Artikel  | -        | Kaskade 001 |
+| [Kaskád Műhely - Csalás!](<Schummeln%21.md>)                                      | Dr. P. Luftiko           | Tutorial | Bälle    | Kaskade 001 |
+| [Gravitáció - és akkor mi van!](<Schwerkraft%20-%20na%20und%21.md>)               | Christoph Schmitt        | Artikel  | -        | Kaskade 001 |
+| [Cirkuszt keresünk!](<Zirkus%20gesucht%21.md>)                                    | Kattrin & Uli            | Artikel  | -        | Kaskade 001 |
 
-<!-- dynamic:end -->
+<!-- dynamic:end -->---
 
----
-
->[!info]- Tévesen elnevezett / összefoglalt kiadások (002 - 004)
+>[!info]- Rosszul elnevezett / összefoglalt kiadások (002–004)
 >
 >Kaskade 002:
->A német eredeti PDF-ben a 2. és 3. kiadás együtt van.
+>A német eredeti PDF-ben a 2. és 3. kiadás össze van vonva.
 >
 >Kaskade 003:
 >A német eredeti PDF-ben itt található a 004-es kiadás.
 >
 >Kaskade 004:
->Itt hiányzik a címlap, még nem tudtam kideríteni, mihez tartozik...
+>Itt hiányzik a címlap, még nem tudtam kideríteni, mire vonatkozik…
 >Úgy néz ki, mint a 009-es kiadás másolata, címlap nélkül.
 >
 >Javítás:
 >A Kaskade 002 (eredeti) PDF-et kettéosztottam 002-re és 003-ra.
->A Kaskade 003 (eredeti) átneveztem Kaskade 004-re.
->A Kaskade 004 (eredeti) pedig töröltem.
+>A Kaskade 003 (eredeti) kiadást átneveztem Kaskade 004-re.
+>A Kaskade 004 (eredeti) kiadást pedig töröltem.

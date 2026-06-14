@@ -18,10 +18,12 @@ translation_source_hash: bf10184cfc1915b67e78d910e21614c809f47e6c89adbf4ec079fa7
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-06T22:59:23+00:00
 translation_source_body_hash: bf10184cfc1915b67e78d910e21614c809f47e6c89adbf4ec079fa749ba3c6e2
-translation_source_metadata_hash: 07c30c7a2335cd80d573b2003e56334afeecd4edaced4181799634def4bf5ebf
+translation_source_metadata_hash: 4b0f8f6d965acc44038c1e608e131a2069c2f49c18db2b744b7b7c77b5b46d81
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:06:19+00:00
+translation_metadata_updated: 2026-06-14T15:42:58+00:00
+translation_source_localized_metadata_hash: 4b0f8f6d965acc44038c1e608e131a2069c2f49c18db2b744b7b7c77b5b46d81
+translation_source_structural_metadata_hash: 54925cb86f198a7de28ba508691de81a19629593eaaca972fa583d9ba533e7bb
 ---
 # **Studio di caso: Progettare Insieme – Attrezzi circensi inclusivi attraverso la collaborazione intersettoriale (Belgio)**
 

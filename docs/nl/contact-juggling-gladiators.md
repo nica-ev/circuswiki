@@ -13,7 +13,7 @@ tags:
 created: 2026-06-12 00:00:00
 update: 2026-06-12 22:45:24
 title: Contact Juggling Gladiators
-description: Een contact-jongleer-knockoutspel waarbij spelers hun eigen balbalans beschermen terwijl ze anderen verstoren.
+description: Een contact-juggling knockoutspel waarbij spelers hun eigen balbalans beschermen terwijl ze anderen storen.
 authors:
   - CircusWiki contributors
 category:
@@ -21,8 +21,8 @@ category:
   - contact-juggling
   - knockout
   - gladiators
-Schwierigkeit: "mittel"
-Material: "Contact balls, usually four per player for a pyramid"
+Schwierigkeit: gemiddeld
+Material: Contactballen, meestal vier per speler voor een piramide
 Spieldauer: "5-10"
 group-min: 3
 group-max: 30
@@ -37,19 +37,21 @@ source_permission: "public-place images reviewed as reusable by project maintain
 aliases:
   - Contact Ball Gladiators
 translation_source: docs/en/contact-juggling-gladiators.md
-translation_source_body_hash: 43bbbca8026a69da082567b0a62bd234ebdb046fdc7d7f2ac7c79f1b9992c278
-translation_source_hash: 43bbbca8026a69da082567b0a62bd234ebdb046fdc7d7f2ac7c79f1b9992c278
+translation_source_body_hash: a70f0e9aad83961b1c3efaf71aa5977c4e08e492babf33890a86ed8eb3ecb3b3
+translation_source_hash: a70f0e9aad83961b1c3efaf71aa5977c4e08e492babf33890a86ed8eb3ecb3b3
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-12T21:13:44+00:00
-translation_source_metadata_hash: 2031ecbd2bff1e6f316aa5420efa146b504d8126d74ab088b1ac60c287df9589
+translation_updated: 2026-06-14T19:26:53+00:00
+translation_source_metadata_hash: bcb1d24a0012784a743e1edc607dd9716713e0e7f268b5ab030f0a49082aa9c1
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T21:13:44+00:00
+translation_metadata_updated: 2026-06-14T19:26:53+00:00
+translation_source_localized_metadata_hash: bcb1d24a0012784a743e1edc607dd9716713e0e7f268b5ab030f0a49082aa9c1
+translation_source_structural_metadata_hash: a751a656eae0d52d6b87b4d0a151f743e6441cd8c99f336ea58a6774414c1d5d
 ---
-> [!info] Korte beschrijving
-> Een contactjongleer-knockoutspel waarbij spelers hun eigen balbalans beschermen terwijl ze die van anderen verstoren.
+> [!info] Korte Beschrijving
+> Een contact juggling knockout-spel waarbij spelers hun eigen balbalans beschermen terwijl ze anderen verstoren.
 
-![[../img/contact-ball-gladiators.jpg|300]]
+![contact-ball-gladiators](../img/contact-ball-gladiators.jpg){ width=300 }
 
 **Groepsgrootte**: 3 tot 30 spelers  
 **Moeilijkheidsgraad**: gemiddeld  
@@ -60,7 +62,7 @@ translation_metadata_updated: 2026-06-12T21:13:44+00:00
 
 Elke speler begint met de afgesproken vorm van contactballen. De gedocumenteerde JugglingWorld-versie gebruikt een piramide van vier ballen. Spelers bewegen door de arena en proberen de vormen van andere spelers te verstoren, terwijl ze hun eigen vorm intact houden.
 
-Een speler is uitgeschakeld wanneer een bal valt, de vorm breekt, of wanneer ze illegaal contact gebruiken. In de vier-ballen piramideversie mogen spelers de piramide van een andere speler alleen met hun eigen piramide aanstoten. Vingers, vrije handen, lichaamsduwen en gooien zijn niet toegestaan. De laatste speler met de vereiste vorm intact wint.
+Een speler is uitgeschakeld wanneer een bal valt, de vorm breekt, of wanneer er illegaal contact wordt gemaakt. In de versie met de piramide van vier ballen mogen spelers de piramide van een andere speler alleen met hun eigen piramide duwen. Vingers, vrije handen, lichaamsduwen en gooien zijn niet toegestaan. De laatste speler met de vereiste vorm intact wint.
 
 ## Opzet
 
@@ -72,7 +74,7 @@ Een speler is uitgeschakeld wanneer een bal valt, de vorm breekt, of wanneer ze 
 
 - Gebruik een enkele balbalans voor beginners.
 - Vereis een piramide van vier ballen voor gevorderde spelers.
-- Speel stille slow-motionrondes waarbij snelheid niet is toegestaan.
+- Speel stille slow-motion rondes waarbij snelheid niet is toegestaan.
 
 ## Veiligheidsopmerkingen
 

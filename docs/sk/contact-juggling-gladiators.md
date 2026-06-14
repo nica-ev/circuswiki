@@ -12,8 +12,8 @@ tags:
   - gladiators
 created: 2026-06-12 00:00:00
 update: 2026-06-12 22:45:24
-title: Kontaktné žonglérske gladiátory
-description: Kontaktná žonglérska vyraďovacia hra, kde hráči chránia rovnováhu vlastnej lopty a zároveň narúšajú rovnováhu ostatných.
+title: Kontaktní žonglérští gladiátoři
+description: Vyřazovací hra v kontaktním žonglování, kde si hráči chrání rovnováhu vlastních míčků a zároveň narušují rovnováhu ostatních.
 authors:
   - CircusWiki contributors
 category:
@@ -21,8 +21,8 @@ category:
   - contact-juggling
   - knockout
   - gladiators
-Schwierigkeit: "mittel"
-Material: "Contact balls, usually four per player for a pyramid"
+Schwierigkeit: stredná
+Material: Kontaktní koule, obvykle čtyři na hráče pro pyramidu
 Spieldauer: "5-10"
 group-min: 3
 group-max: 30
@@ -37,46 +37,48 @@ source_permission: "public-place images reviewed as reusable by project maintain
 aliases:
   - Contact Ball Gladiators
 translation_source: docs/en/contact-juggling-gladiators.md
-translation_source_body_hash: 43bbbca8026a69da082567b0a62bd234ebdb046fdc7d7f2ac7c79f1b9992c278
-translation_source_hash: 43bbbca8026a69da082567b0a62bd234ebdb046fdc7d7f2ac7c79f1b9992c278
+translation_source_body_hash: a70f0e9aad83961b1c3efaf71aa5977c4e08e492babf33890a86ed8eb3ecb3b3
+translation_source_hash: a70f0e9aad83961b1c3efaf71aa5977c4e08e492babf33890a86ed8eb3ecb3b3
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-12T21:14:05+00:00
-translation_source_metadata_hash: 2031ecbd2bff1e6f316aa5420efa146b504d8126d74ab088b1ac60c287df9589
+translation_updated: 2026-06-14T19:27:14+00:00
+translation_source_metadata_hash: bcb1d24a0012784a743e1edc607dd9716713e0e7f268b5ab030f0a49082aa9c1
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T21:14:05+00:00
+translation_metadata_updated: 2026-06-14T19:27:14+00:00
+translation_source_localized_metadata_hash: bcb1d24a0012784a743e1edc607dd9716713e0e7f268b5ab030f0a49082aa9c1
+translation_source_structural_metadata_hash: a751a656eae0d52d6b87b4d0a151f743e6441cd8c99f336ea58a6774414c1d5d
 ---
 > [!info] Stručný popis
-> Vyraďovacia hra s kontaktnými loptičkami, kde si hráči chránia vlastnú rovnováhu loptičiek a zároveň narúšajú rovnováhu ostatných.
+> Vyraďovacia hra s kontaktnými loptami, kde si hráči chránia vlastnú rovnováhu loptičiek a zároveň narúšajú rovnováhu ostatných.
 
-![[../img/contact-ball-gladiators.jpg|300]]
+![contact-ball-gladiators](../img/contact-ball-gladiators.jpg){ width=300 }
 
-**Počet hráčov**: 3 až 30 hráčov
+**Počet hráčov**: 3 až 30
 **Obtiažnosť**: stredná
-**Materiál**: Kontaktné loptičky, zvyčajne štyri na hráča pre pyramídu
-**Trvanie**: približne 5-10 minút
+**Materiál**: Kontaktné lopty, zvyčajne štyri na hráča pre pyramídu
+**Trvanie**: približne 5 – 10 minút
 
 ## Popis hry
 
 Každý hráč začína s dohodnutým tvarom z kontaktných loptičiek. Dokumentovaná verzia z JugglingWorld používa pyramídu zo štyroch loptičiek. Hráči sa pohybujú po aréne a snažia sa narušiť tvary ostatných hráčov, pričom si vlastné udržiavajú nedotknuté.
 
-Hráč vypadáva, keď mu spadne loptička, rozpadne sa tvar alebo použije nelegálny kontakt. V verzii s pyramídou zo štyroch loptičiek môžu hráči do pyramídy iného hráča iba naraziť vlastnou pyramídou. Prsty, voľné ruky, strkanie telom a hádzanie nie sú povolené. Posledný hráč s nedotknutým požadovaným tvarom vyhráva.
+Hráč je vyradený, keď mu spadne lopta, rozpadne sa tvar alebo použije nelegálny kontakt. Vo verzii s pyramídou zo štyroch loptičiek môžu hráči do pyramídy iného hráča strčiť iba vlastnou pyramídou. Prsty, voľné ruky, tlačením telom a hádzaním nie sú povolené. Vyhráva posledný hráč, ktorému zostane požadovaný tvar nedotknutý.
 
 ## Príprava
 
-- Dohodnite sa na požadovanom tvare, napríklad na jednej vyváženej loptičke alebo pyramíde zo štyroch loptičiek.
+- Dohodnite sa na požadovanom tvare, napríklad na jednej vyváženej lopte alebo pyramíde zo štyroch loptičiek.
 -Vymedzte malú arénu.
 -Pred začiatkom kola definujte povolený kontakt.
 
 ## Variácie
 
--Pre začiatočníkov použite rovnováhu s jednou loptičkou.
--Pre pokročilých hráčov požadujte pyramídu zo štyroch loptičiek.
+-Pre začiatočníkov použite rovnováhu jednej lopty.
+-Pre pokročilých hráčov vyžadujte pyramídu zo štyroch loptičiek.
 -Usporiadajte tiché kolá v spomalenom pohybe, kde nie je povolená rýchlosť.
 
 ## Bezpečnostné upozornenia
 
-Kontaktné loptičky môžu byť ťažké. Hru hrajte pomaly a zakážte hádzanie, udieranie, strkanie rukami a telo.
+Kontaktné lopty môžu byť ťažké. Hru hrajte pomaly a zakážte hádzanie, udieranie, tlačením rukami a strkaním telom.
 
 ## Zdroj
 

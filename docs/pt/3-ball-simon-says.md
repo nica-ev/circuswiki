@@ -12,7 +12,7 @@ tags:
 created: 2026-06-12 00:00:00
 update: 2026-06-12 22:43:38
 title: Simon Diz 3 Bolas
-description: Um jogo de comando e reação onde malabaristas seguem apenas instruções válidas de Simon Diz enquanto mantêm três bolas em jogo.
+description: Um jogo de comando e reação onde malabaristas seguem apenas instruções válidas de Simon Diz, mantendo três bolas em jogo.
 authors:
   - CircusWiki contributors
 category:
@@ -20,8 +20,8 @@ category:
   - ball-games
   - juggling
   - reaction-games
-Schwierigkeit: "mittel"
-Material: "Three juggling balls per player"
+Schwierigkeit: médio
+Material: Três bolas de malabarismo por jogador
 Spieldauer: "5-10"
 group-min: 3
 group-max: 50
@@ -36,19 +36,21 @@ source_permission: "public-place images reviewed as reusable by project maintain
 aliases:
   - Simon Says
 translation_source: docs/en/3-ball-simon-says.md
-translation_source_body_hash: 5fb11f46f3cc26e55d1d3d9215dd37e0bdfe8633fc681c3424621faebd2541ef
-translation_source_hash: 5fb11f46f3cc26e55d1d3d9215dd37e0bdfe8633fc681c3424621faebd2541ef
+translation_source_body_hash: 419edad2f4a3fd7e8f047fb4f220af48b6de44209693363c94a4176170591763
+translation_source_hash: 419edad2f4a3fd7e8f047fb4f220af48b6de44209693363c94a4176170591763
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-12T21:03:55+00:00
-translation_source_metadata_hash: 81f617b320fb7c107726f83560b979933b3e7e3bdb593fc8b9b4fe4a0e8c9bf0
+translation_updated: 2026-06-14T19:24:34+00:00
+translation_source_metadata_hash: 0c704425aff40df6bf39bbbf2b8fe4485389932691ad1d3c98638b6dc5f8fd92
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T21:03:55+00:00
+translation_metadata_updated: 2026-06-14T19:24:34+00:00
+translation_source_localized_metadata_hash: 0c704425aff40df6bf39bbbf2b8fe4485389932691ad1d3c98638b6dc5f8fd92
+translation_source_structural_metadata_hash: c519c7f25f910824f98b765fd00f47085f441493c02c1fd8fdde294eaaa2a008
 ---
 > [!info] Descrição Curta
-> Um jogo de comando e reação onde malabaristas seguem apenas instruções válidas de "Simon Diz" enquanto mantêm três bolas em movimento.
+> Um jogo de comando e reação onde malabaristas seguem apenas instruções válidas de "Mestre Mandou", mantendo três bolas em jogo.
 
-![[../img/3-ball-simon-says.jpg|300]]
+![3-ball-simon-says](../img/3-ball-simon-says.jpg){ width=300 }
 
 **Tamanho do Grupo**: 3 a 50 jogadores  
 **Dificuldade**: Média  
@@ -57,25 +59,25 @@ translation_metadata_updated: 2026-06-12T21:03:55+00:00
 
 ## Descrição do Jogo
 
-Todos os jogadores fazem malabarismo com três bolas enquanto um "chamador" dá comandos de movimento ou truques. Os jogadores só seguem os comandos que começam com a frase combinada, por exemplo, "Simon Diz". Quem seguir um comando falso, ignorar um comando válido, deixar cair as bolas ou parar de fazer malabarismo está fora.
+Todos os jogadores malabareiam três bolas enquanto um "mestre" dá comandos de movimento ou truques. Os jogadores só seguem os comandos que começam com a frase combinada, por exemplo, "Mestre Mandou". Quem seguir um comando falso, ignorar um comando válido, deixar cair as bolas ou parar de malabarizar está fora.
 
-Comandos possíveis incluem virar-se, sentar-se, deitar-se, levantar-se, bater palmas, mudar de padrão, mover-se para a esquerda ou direita, ou congelar.
+Comandos possíveis incluem virar-se, sentar-se, deitar-se, levantar-se, bater palmas, mudar o padrão, mover-se para a esquerda ou direita, ou congelar.
 
 ## Preparação
 
 - Dê a cada jogador três bolas e espaço pessoal suficiente.
-- Escolha um chamador.
+- Escolha um "mestre".
 - Decida se os jogadores são eliminados ou recebem pontos de penalidade engraçados.
 
 ## Variações
 
 - Para iniciantes, use uma bola ou lenços.
-- Torne-o cooperativo contando quantos comandos o grupo inteiro consegue sobreviver.
-- Deixe os jogadores eliminados se tornarem chamadores assistentes.
+- Torne o jogo cooperativo contando quantos comandos o grupo inteiro consegue sobreviver.
+- Permita que os jogadores eliminados se tornem "mestres" assistentes.
 
 ## Notas de Segurança
 
-Evite comandos que forcem os jogadores a mergulhar, correr uns contra os outros ou mover-se às cegas enquanto observam seus adereços.
+Evite comandos que forcem os jogadores a mergulhar, colidir uns com os outros ou mover-se às cegas enquanto observam seus adereços.
 
 ## Fonte
 

@@ -6,8 +6,8 @@ tags:
   - beigoma
 created: 2026-06-11 00:00:00
 update: 2026-06-11 00:00:00
-title: Βασικοί Κανόνες και Διαιτησία Μπέιγκομα
-description: Πρακτικός οδηγός για την απόφαση γύρων Μπέιγκομα, επαναβολών, αποκλεισμών εκτός πίστας, αποτελεσμάτων κοντινών Ρίκι και προσαρμογών κανόνων για αρχάριους.
+title: Βασικοί Κανόνες Beigoma και Διαιτησία
+description: Πρακτικός οδηγός για την απόφαση γύρων Beigoma, επαναφορών, πτώσεων στο έδαφος, αποτελεσμάτων Riki, και προσαρμογές κανόνων για αρχάριους.
 authors:
   - Marc Bielert
 source:
@@ -23,10 +23,12 @@ translation_source_body_hash: 30f281ad4d98456914a28e821e3c42ca71ae1047942b42791a
 translation_source_hash: 30f281ad4d98456914a28e821e3c42ca71ae1047942b42791a32b02908d6a942
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-11T14:54:27+00:00
-translation_source_metadata_hash: 38e7d79efc015850f266d4f04bdded6f36567dd17bb6e3c9c0d3689977c09006
+translation_source_metadata_hash: 83deaac17f54c9d05df8332b3cfd491affcacedcd4056604a2db4a5861e3c9fe
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-11T14:54:27+00:00
+translation_metadata_updated: 2026-06-14T15:38:31+00:00
+translation_source_localized_metadata_hash: 83deaac17f54c9d05df8332b3cfd491affcacedcd4056604a2db4a5861e3c9fe
+translation_source_structural_metadata_hash: 45cf3195698454e8f3e5581a5d92e2b2af16725c918eb8abc10ba44f69470212
 ---
 > [!info] Περίληψη
 > Οι κανόνες του Beigoma πρέπει να είναι αρκετά αυστηροί ώστε να δημιουργούν ένταση και αρκετά ευέλικτοι ώστε οι αρχάριοι να έχουν ουσιαστικές προσπάθειες.

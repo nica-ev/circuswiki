@@ -11,15 +11,15 @@ tags:
 created: 2026-06-12 00:00:00
 update: 2026-06-12 21:59:42
 title: Equilíbrio de Objeto em Resistência
-description: Os jogadores equilibram um objeto combinado, como uma clava ou até mesmo um monociclo, no queixo ou em outro ponto de equilíbrio definido.
+description: Os jogadores equilibram um objeto combinado, como uma clave ou até mesmo um monociclo, no queixo ou em outro ponto de equilíbrio definido.
 authors:
   - CircusWiki contributors
 category:
   - convention-games
   - endurance
   - balance
-Schwierigkeit: "schwer"
-Material: "Clubs, unicycles or other balance objects"
+Schwierigkeit: difícil
+Material: Claves, monociclos ou outros objetos de equilíbrio
 Spieldauer: "5-15"
 group-min: 3
 group-max: 60
@@ -31,19 +31,21 @@ source_section: "Balancing Games"
 source_image: "../img/games-club-balance-guiness.jpg"
 source_permission: "public-place image reviewed as reusable by project maintainer"
 translation_source: docs/en/object-balance-endurance.md
-translation_source_body_hash: 084f4fa7aed1a528d38a466c706922afd98c607031bd3b67d11141ee0d8bf6dc
-translation_source_hash: 084f4fa7aed1a528d38a466c706922afd98c607031bd3b67d11141ee0d8bf6dc
+translation_source_body_hash: 6e35f9a216b24c16461b1735cc5d44861b18146f024132b5bdb7558230c9b62a
+translation_source_hash: 6e35f9a216b24c16461b1735cc5d44861b18146f024132b5bdb7558230c9b62a
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-12T21:29:26+00:00
-translation_source_metadata_hash: 87fb57cb88f6322f1ad908fae0c71bce2af0f789a13d46252bbf4baa270265f8
+translation_updated: 2026-06-14T19:30:22+00:00
+translation_source_metadata_hash: 3384f478fe4b9c67a3db88b20b3fecf134df4d40edbcbbd9c5604c12c7b9c2e0
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T21:29:26+00:00
+translation_metadata_updated: 2026-06-14T19:30:22+00:00
+translation_source_localized_metadata_hash: 3384f478fe4b9c67a3db88b20b3fecf134df4d40edbcbbd9c5604c12c7b9c2e0
+translation_source_structural_metadata_hash: 152e8a0d347c6c224dd3963056555e9edc5c8afc5a3e11660258b8581ebf5626
 ---
 > [!info] Descrição Curta
 > Os jogadores equilibram um objeto acordado, como uma clava ou até mesmo um monociclo, no queixo ou noutro ponto de equilíbrio definido.
 
-![[../img/games-club-balance-guiness.jpg|300]]
+![games-club-balance-guiness](../img/games-club-balance-guiness.jpg){ width=300 }
 
 **Tamanho do Grupo**: 3 a 60 jogadores  
 **Dificuldade**: Difícil  
@@ -60,8 +62,8 @@ Adicione movimento ou um pequeno percurso de obstáculos se o equilíbrio básic
 
 ## Notas de Segurança
 
-Mantenha a área de jogo livre e defina os limites antes do início da ronda. Em jogos de contacto, direcione os adereços em vez dos corpos. Para jogos de lançamento, condução, equilíbrio ou acrobacias, deixe espaço suficiente para tentativas falhadas e pare a ronda se o grupo começar a correr riscos inseguros.
+Mantenha a área de jogo livre e defina os limites antes do início da rodada. Para jogos de contato, direcione os adereços em vez dos corpos. Para jogos de arremesso, montaria, equilíbrio ou acrobacias, deixe espaço suficiente para tentativas falhadas e pare a rodada se o grupo começar a correr riscos inseguros.
 
 ## Fonte
 
-[JugglingWorld - Jogos de Malabarismo](https://www.jugglingworld.biz/tricks/juggling-games/), secção: Jogos de Equilíbrio.
+[JugglingWorld - Juggling Games](https://www.jugglingworld.biz/tricks/juggling-games/), secção: Balancing Games.

@@ -10,8 +10,8 @@ tags:
   - endurance
 created: 2026-06-12 00:00:00
 update: 2026-06-12 20:51:32
-title: 5er Club Ausdauer
-description: Ein Ausdauerwettbewerb im Jonglieren mit fünf Keulen, bei dem die Teilnehmer versuchen, sie so lange wie möglich in der Luft zu halten.
+title: 5 Keulen Ausdauer
+description: Ein Ausdauerwettbewerb im Jonglieren mit Zahlen, bei dem die Spieler fünf Keulen so lange wie möglich in der Luft halten.
 authors:
   - CircusWiki contributors
 category:
@@ -19,7 +19,7 @@ category:
   - juggling
   - endurance
 Schwierigkeit: schwer
-Material: Five juggling clubs per player
+Material: Fünf Jonglierkeulen pro Spieler
 Spieldauer: "3-15"
 group-min: 2
 group-max: 40
@@ -30,58 +30,60 @@ source_url: https://ucircus.co.uk/resources-circus-games/
 source_image: ../img/5-club-endurance.jpg
 source_permission: public group photo reviewed as reusable by project maintainer
 translation_source: docs/en/5-club-endurance.md
-translation_source_body_hash: b04b7d7ad53b43c0ea5d9d9deaf26a15fbd527751b0a85d5e615d214cac77e12
-translation_source_hash: b04b7d7ad53b43c0ea5d9d9deaf26a15fbd527751b0a85d5e615d214cac77e12
+translation_source_body_hash: 4452e91081cae79c6f43500c843c377f298fccc14d9c6750fd9409cee96b2142
+translation_source_hash: 4452e91081cae79c6f43500c843c377f298fccc14d9c6750fd9409cee96b2142
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-12T21:41:28+00:00
-translation_source_metadata_hash: c75f2c678376a8dc997b10f82c0fb5d6c8028556dadafc8d71cdb195f02d8253
+translation_updated: 2026-06-14T19:36:25+00:00
+translation_source_metadata_hash: ec03ef05e8f39855562be574670ef02657c963efbc50fe5b958f0d5f6b5830b6
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T21:41:28+00:00
+translation_metadata_updated: 2026-06-14T19:36:25+00:00
+translation_source_localized_metadata_hash: ec03ef05e8f39855562be574670ef02657c963efbc50fe5b958f0d5f6b5830b6
+translation_source_structural_metadata_hash: ab369ba399691c96a1856c79f7f214666aa3f6422917e39b65d5a48e81eed123
 ---
 > [!info] Kurzbeschreibung
-> Ein Ausdauerwettbewerb im Jonglieren mit fünf Keulen, bei dem die Teilnehmenden die Keulen so lange wie möglich in der Luft halten.
+> Ein Ausdauerwettbewerb im Jonglieren mit fünf Keulen, bei dem die Teilnehmenden so lange wie möglich jonglieren.
 
-![[../img/5-club-endurance.jpg|300]]
+![5-club-endurance](../img/5-club-endurance.jpg){ width=300 }
 
 **Gruppengröße**: 2 bis 40 Teilnehmende
-**Schwierigkeit**: schwer
-**Material**: Fünf Jonglierkeulen pro Teilnehmende
+**Schwierigkeitsgrad**: schwer
+**Material**: Fünf Jonglierkeulen pro Teilnehmenden
 **Dauer**: ca. 3-15 Minuten
 
 ## Spielbeschreibung
 
-Alle Teilnehmenden beginnen gleichzeitig, fünf Keulen zu jonglieren. Gewonnen hat, wer als Letzte/r das vereinbarte Muster aufrechterhalten kann.
+Alle Teilnehmenden beginnen gleichzeitig, fünf Keulen zu jonglieren. Gewonnen hat, wer als Letzter das vereinbarte Muster aufrechterhält.
 
 ## Vorbereitung
 
-- Wählt einen großen, freien Platz mit ausreichend Abstand zwischen den Jonglierenden.
-- Legt fest, ob jedes beliebige Fünf-Keulen-Muster erlaubt ist oder nur ein Kaskaden-/Springbrunnenmuster.
-- Positioniert Schiedsrichter*innen so, dass herunterfallende Keulen gut sichtbar sind.
+- Wähle einen großen, offenen Raum mit ausreichend Abstand zwischen den Jonglierenden.
+- Einigt euch darauf, ob jedes beliebige Fünf-Keulen-Muster erlaubt ist oder nur ein Kaskaden- bzw. Springbrunnenmuster.
+- Positioniere die Schiedsrichter so, dass sie herunterfallende Keulen gut sehen können.
 
 ## Regeln
 
-1. Die Teilnehmenden beginnen auf Signal, fünf Keulen zu jonglieren.
-2. Eine/r Teilnehmende/r bleibt im Spiel, solange fünf Keulen kontinuierlich im vereinbarten Muster gehalten werden.
-3. Ein Fallenlassen, Einsammeln, Neustart oder eine Reduzierung der Anzahl beendet den Versuch.
+1. Die Teilnehmenden beginnen auf das Startsignal hin mit fünf Keulen.
+2. Eine Person bleibt aktiv, solange sie fünf Keulen kontinuierlich im vereinbarten Muster jongliert.
+3. Ein Fallenlassen, Einsammeln, Neustarten oder Reduzieren der Anzahl beendet den Versuch.
 4. Ausgeschiedene Teilnehmende treten aus dem aktiven Bereich zurück.
-5. Die längste verbleibende Laufzeit gewinnt.
+5. Die längste ununterbrochene Laufzeit gewinnt.
 
 ## Variationen
 
-- Nutzt Zeitläufe, wenn viele fortgeschrittene Jonglierende teilnehmen.
-- Fordert Tricks oder Bewegungen nach einer festgelegten Zeit.
-- Erlaubt persönliche Bestleistungen anstelle von Ausscheidungen für Workshops.
+- Führe Zeitläufe durch, wenn viele fortgeschrittene Jonglierende teilnehmen.
+- Fordere Tricks oder Bewegungen nach einer festgelegten Zeit.
+- Erlaube bei Workshops persönliche Bestleistungen anstelle von Ausscheidungen.
 
 ## Sicherheitshinweise
 
-Fünf-Keulen-Läufe erfordern Platz. Haltet Zuschauer*innen und ausgeschiedene Teilnehmende außerhalb des Auffangbereichs.
+Fünf-Keulen-Läufe erfordern Platz. Halte Zuschauer und ausgeschiedene Teilnehmende außerhalb des Auffangbereichs.
 
 ## Quelle
 
 - UCircus Quellkarte: [5 Club Endurance](https://ucircus.co.uk/resources-circus-games/)
-- UCircus Klassen: Clubs, Knockout, Endurance, Juggling
-- Lokales Quellbild: `../img/5-club-endurance.jpg`
-- Quellenverarbeitung: Unterstützt durch UCircus und unabhängige Beschreibungen von Zahlen-/Ausdauerwettbewerben auf Convention-Spielen.
-- Zusätzliche Referenz: [JugglingWorld Jonglierspiele](https://www.jugglingworld.biz/tricks/juggling-games/)
-- Zusätzliche Referenz für Gladiatoren-/Kampfkontext: [Combat (Jonglieren)](https://en.wikipedia.org/wiki/Combat_(juggling))
+- UCircus Kurse: Clubs, Knockout, Endurance, Juggling
+- Lokales Bild: `../img/5-club-endurance.jpg`
+- Quellenbearbeitung: Unterstützt durch UCircus und unabhängige Beschreibungen von Zahlen-/Ausdauerwettbewerben auf Convention-Spielen.
+- Zusätzlicher Verweis: [JugglingWorld Jonglierspiele](https://www.jugglingworld.biz/tricks/juggling-games/)
+- Zusätzlicher Verweis für Gladiatoren-/Kampfkontext: [Combat (juggling)](https://en.wikipedia.org/wiki/Combat_(juggling))

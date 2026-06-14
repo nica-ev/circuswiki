@@ -11,8 +11,8 @@ tags:
   - juggling
 created: 2026-06-12 00:00:00
 update: 2026-06-12 22:30:50
-title: Volleyclub
-description: Volleyclub to gra podobna do siatkówki, ale z użyciem kijów.
+title: Klub Siatkówki
+description: Klub siatkówki to gra podobna do siatkówki, ale z użyciem klubów.
 authors:
   - CircusWiki contributors
 category:
@@ -20,8 +20,8 @@ category:
   - club-games
   - throwing
   - net-game
-Schwierigkeit: "schwer"
-Material: "Clubs, volleyball net or marked net line"
+Schwierigkeit: trudny
+Material: Kluby, siatka do siatkówki lub zaznaczona linia siatki
 Spieldauer: "5-15"
 group-min: 6
 group-max: 40
@@ -36,10 +36,12 @@ translation_source_body_hash: 3f66a06c94187dcb1f72a74a8b3b5ab394b280ddb7e9481ab9
 translation_source_hash: 3f66a06c94187dcb1f72a74a8b3b5ab394b280ddb7e9481ab91aa37402721ae8
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-12T21:38:37+00:00
-translation_source_metadata_hash: dc5df147a8f27898ab0dd77a4dd442fc1fe75dc08bf40dc27721fc381bddff48
+translation_source_metadata_hash: ac7c53f944a0ba0ddbc90f7aaa00ad4e054b89e5ff7dd530e5b0977cd12d0e65
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T21:38:37+00:00
+translation_metadata_updated: 2026-06-14T16:05:06+00:00
+translation_source_localized_metadata_hash: ac7c53f944a0ba0ddbc90f7aaa00ad4e054b89e5ff7dd530e5b0977cd12d0e65
+translation_source_structural_metadata_hash: 3a72fa876b98bfb22eebdfb3b3134bcb15ed2b2d8ed0dbe7c00f5bbc13c781b0
 ---
 > [!info] Krótki opis
 > Volleyclub to gra podobna do siatkówki, ale z użyciem maczug.

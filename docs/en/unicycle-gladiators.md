@@ -35,11 +35,10 @@ source_image: "../img/game-ewan-unicycle-gladiators.jpg"
 source_image_ucircus: "../img/unicycle-gladiators.jpg"
 source_permission: "public-place images reviewed as reusable by project maintainer"
 ---
-
 > [!info] Short Description
 > A convention knockout game where unicyclists try to stay mounted while forcing others to dismount.
 
-![[../img/game-ewan-unicycle-gladiators.jpg|300]]
+![game-ewan-unicycle-gladiators](../img/game-ewan-unicycle-gladiators.jpg){ width=300 }
 
 **Group Size**: 4 to 60 players  
 **Difficulty**: schwer  

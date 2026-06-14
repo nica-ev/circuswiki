@@ -6,14 +6,14 @@ tags:
   - spiele
 created: 2025-02-01 02:25:08
 update: 2025-03-17 01:38:12
-title: Тристороння боротьба
+title: Бій трьох країн
 description: Фізична гра-боротьба на трьох позначених полях, де всі намагаються залишитися на першому полі.
 authors:
   - Marc Bielert
 category:
   - warm-up
-Schwierigkeit: mittel
-Material: Mattenfläche, Spielfeldmarkierung
+Schwierigkeit: середній
+Material: килимова поверхня, розмітка поля
 Spieldauer: 5-10
 source: unbekannt
 group-min: 4
@@ -25,10 +25,12 @@ translation_source_hash: f19dfb2a162a5f016b1fa15eb0f79c0c1bd7d671f5840e64f027bf2
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:35:08+00:00
 translation_source_body_hash: f19dfb2a162a5f016b1fa15eb0f79c0c1bd7d671f5840e64f027bf22ad8b1999
-translation_source_metadata_hash: 3b3788d0713513706bf10d484b43d4939b18c89b2314f48bdec1824e93e45163
+translation_source_metadata_hash: 03b51e54c3f02dd4afbf02103fafcbe21ccb3828b77c2950ca764cb698d0638a
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:11:57+00:00
+translation_metadata_updated: 2026-06-14T15:47:35+00:00
+translation_source_localized_metadata_hash: 03b51e54c3f02dd4afbf02103fafcbe21ccb3828b77c2950ca764cb698d0638a
+translation_source_structural_metadata_hash: 5e5359c1e5c7cc722a3c66c951ddbe5496543a8baf0791015b6f80749b1da557
 ---
 > [!info] Короткий опис
 > Фізична гра-боротьба на трьох позначених полях, де всі намагаються залишитися на першому полі.

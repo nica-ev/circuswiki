@@ -7,7 +7,7 @@ publish: false
 tags:
   - case-study
   - Kontakte
-title: Студія Odskocznia
+title: "Студія \"Odskocznia\""
 description:
 authors:
   - Paulina Chodnicka
@@ -21,10 +21,12 @@ translation_source_hash: a376e59deb8f3cbde7674885ebdcd0914d67e8d50b09b115322b7fb
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-08T16:36:27+00:00
 translation_source_body_hash: a376e59deb8f3cbde7674885ebdcd0914d67e8d50b09b115322b7fbada70b2b4
-translation_source_metadata_hash: a84b2718b3ea73272412521fb1fe9f178d96e14086d4199cdbbe25fd4426b1de
+translation_source_metadata_hash: 6d56b59d3cb71559ea61d4379f52e7f187e6a2c010572c5ef48683fa94f2d8fb
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T19:01:14+00:00
+translation_metadata_updated: 2026-06-14T16:14:29+00:00
+translation_source_localized_metadata_hash: 6d56b59d3cb71559ea61d4379f52e7f187e6a2c010572c5ef48683fa94f2d8fb
+translation_source_structural_metadata_hash: 519f39c78dea4a5f89e8cbd7dede683eef017e355aa77378f95a98cc92d38437
 ---
 # **Odskocznia Studio**
 

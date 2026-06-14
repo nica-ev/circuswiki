@@ -7,13 +7,13 @@ tags:
 created: 2025-01-24 03:50:51
 update: 2025-03-18 01:03:08
 title: Zombieball
-description: Un juego de lanzamiento en el que los jugadores eliminados pueden regresar si el jugador que los eliminó es eliminado.
+description: Un juego de balón prisionero donde las personas golpeadas pueden regresar si la persona que las golpeó es eliminada.
 authors:
   - Marc Bielert
 category:
   - bewegung
-Schwierigkeit: mittel
-Material: Bälle
+Schwierigkeit: medio
+Material: Pelotas
 Spieldauer: "10"
 group-min: 5
 group-max: 30
@@ -26,10 +26,12 @@ translation_source_hash: 35799b651ed9ca7467b41cee02bed6c2cae6ed000b0ceaad2d4b3d7
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:39:17+00:00
 translation_source_body_hash: 35799b651ed9ca7467b41cee02bed6c2cae6ed000b0ceaad2d4b3d74f13e712f
-translation_source_metadata_hash: 1bac0706a8a761446ec54e1b1ca69f662b117b07f1bd37982952a9f58cdb8c99
+translation_source_metadata_hash: 353c3401b14f35d05d416f1ecbd0db053142a0b34732ef4f9a13c4ca093c627d
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T19:14:09+00:00
+translation_metadata_updated: 2026-06-14T16:29:44+00:00
+translation_source_localized_metadata_hash: 353c3401b14f35d05d416f1ecbd0db053142a0b34732ef4f9a13c4ca093c627d
+translation_source_structural_metadata_hash: 6754a07b5170d3bd4ea4cdeaf60c102a8e41a7ce5bb425fa4838c6476832cb62
 ---
 > [!info] Breve descripción
 > Un juego de lanzar, en el que las personas alcanzadas pueden volver a entrar en juego en cuanto la persona que las alcanzó es eliminada.

@@ -15,10 +15,12 @@ translation_source_hash: bf9ce19d8ada1591527eaab93d628ac5f52f6502ff79e986249b1b0
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-06T20:21:46+00:00
 translation_source_body_hash: bf9ce19d8ada1591527eaab93d628ac5f52f6502ff79e986249b1b03be05d9b0
-translation_source_metadata_hash: 619a6953727d9e5aa408066d3e18868e9afcf59dd5179abedfb71844a72e480e
+translation_source_metadata_hash: eee2750242d12c0698089fdccf01158f1f5419251afe57cf80738860f2bf9d11
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T19:01:01+00:00
+translation_metadata_updated: 2026-06-14T16:14:19+00:00
+translation_source_localized_metadata_hash: eee2750242d12c0698089fdccf01158f1f5419251afe57cf80738860f2bf9d11
+translation_source_structural_metadata_hash: 6eec0b8a6b7772bab240bcedda44bfa18061f6163b3b9475217ace91bcc065ea
 ---
 Obsidian jest niezwykle konfigurowalny, co może stanowić wyzwanie dla nowych użytkowników.
 Dostarczamy gotowy zestaw, który można od razu wykorzystać, zawierający wtyczki i motywy, a także ich dopracowane ustawienia.

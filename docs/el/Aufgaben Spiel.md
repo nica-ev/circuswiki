@@ -7,13 +7,13 @@ tags:
 created: 2025-01-24 03:50:50
 update: 2026-06-07 00:02:10
 title: Παιχνίδι Εργασιών
-description: Ένα ομαδικό παιχνίδι εργασιών όπου οι συμμετέχοντες λύνουν συνδυασμούς σημείων επαφής σώματος και μεγέθους ομάδας σύμφωνα με τις οδηγίες.
+description: Ένα ομαδικό παιχνίδι εργασιών όπου οι συμμετέχοντες βρίσκουν σημεία σωματικής επαφής και ομαδικά μεγέθη σύμφωνα με τις οδηγίες.
 authors:
   - Marc Bielert
 category:
   - sonstiges
-Schwierigkeit: mittel
-Material: keines
+Schwierigkeit: μεσαίο
+Material: κανένα
 Spieldauer: 5-15
 source: unbekannt
 group-min: 4
@@ -25,10 +25,12 @@ translation_source_hash: 91a515cf7fd9399daada8e91800ce3028b84d1dd31aa86c0d20153b
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:22:00+00:00
 translation_source_body_hash: 91a515cf7fd9399daada8e91800ce3028b84d1dd31aa86c0d20153bfc4f595bb
-translation_source_metadata_hash: b38dd27132e9743a7e19c97c2540bdc6b5cce71da893748ae0e600f35cd4235a
+translation_source_metadata_hash: a4ed58b6bc586f5ea6c2f0861772e70c3ff5922443e4c0bd2f69b56a97912f50
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:01:51+00:00
+translation_metadata_updated: 2026-06-14T15:37:31+00:00
+translation_source_localized_metadata_hash: a4ed58b6bc586f5ea6c2f0861772e70c3ff5922443e4c0bd2f69b56a97912f50
+translation_source_structural_metadata_hash: de9826b218c865ed8c6e47ec222bf0ebecb9a11b7b519b5e06c75b62d6f08c77
 ---
 > [!info] Σύντομη Περιγραφή
 > Ένα παιχνίδι ομαδικής εργασίας, στο οποίο οι συμμετέχοντες βρίσκουν σημεία επαφής σώματος και ομαδοποιούνται σύμφωνα με τις οδηγίες.

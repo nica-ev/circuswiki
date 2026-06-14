@@ -16,10 +16,12 @@ translation_source_hash: 0b326f5a773b4ecd06f90f5149e79dc27c5203be251278b54173946
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-07T19:06:45+00:00
 translation_source_body_hash: 0b326f5a773b4ecd06f90f5149e79dc27c5203be251278b541739468c7b52bcb
-translation_source_metadata_hash: eed706c79fd6ea90a76ba2b51361c863c6912b95f935cd11d779c1918551b7bd
+translation_source_metadata_hash: e300ed8dc6448b4d044c783fb13a0d7add83766e27471f5b416aa250c6806c21
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T19:00:32+00:00
+translation_metadata_updated: 2026-06-14T16:13:48+00:00
+translation_source_localized_metadata_hash: e300ed8dc6448b4d044c783fb13a0d7add83766e27471f5b416aa250c6806c21
+translation_source_structural_metadata_hash: dbd07203d96db9efad3393ba6ec5c3212dc551ea9eac6775727fb77a8fe5521a
 ---
 # Zálohy
 Jak se spravují zálohy --> zeptat se Trebora. #todo

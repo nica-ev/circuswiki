@@ -9,7 +9,7 @@ tags:
   - spiele
   - moc
 title: Beigoma
-description: A beigoma áttekintése, egy hagyományos japán pörgettyűs harci játék, amelyet kis présöntött fém pörgettyűkkel játszanak.
+description: Beigoma áttekintése, egy hagyományos japán pörgettyűs játék, amelyet kis présöntött fém pörgettyűkkel játszanak.
 authors:
   - Marc Bielert
 translation_status: machine-translated
@@ -19,14 +19,16 @@ translation_source_hash: a8161f8c77ef88a63d9aad2b7c8af8ebb15e77ed9a53f5ed4829804
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-12T21:02:40+00:00
 translation_source_body_hash: a8161f8c77ef88a63d9aad2b7c8af8ebb15e77ed9a53f5ed4829804ce78d772d
-translation_source_metadata_hash: 9673f9963410e461a465636852fcf658f2ec0a14076153bce5cf68994b5c2529
+translation_source_metadata_hash: dbb1e1d1f976ab53bd9cac7b6d540b76e5bd19f35a0d95737d26a04a2a0fec43
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T21:02:40+00:00
+translation_metadata_updated: 2026-06-14T15:38:38+00:00
 source:
   - Tokyo Beigoma
   - Personal contact with Tokyo Beigoma
 source_url: https://tokyo-beigoma.com/
+translation_source_localized_metadata_hash: dbb1e1d1f976ab53bd9cac7b6d540b76e5bd19f35a0d95737d26a04a2a0fec43
+translation_source_structural_metadata_hash: 4213af7c2fe99a7a74dad5b9d497a773b9950a12824670d8148378014be55ea6
 ---
 > [!info] Összefoglaló
 > A Beigoma egy hagyományos japán pörgettyűs csatajáték, amelyet kis öntöttvas pörgettyűkkel, egy felcsévélő zsinórral és egy ruhával borított játéktérrel, az úgynevezett "pályával" játszanak.

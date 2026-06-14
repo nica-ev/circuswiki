@@ -2,64 +2,65 @@
 lang: cs
 translation_id: kaskade-workspace
 created: 2025-01-21 18:09:55
-update: 2026-06-12 19:11:41
+update: 2026-06-14 19:03:29
 publish: true
 tags:
   - moc
   - dynamic
-title: Přepisy časopisu Kaskáda
+title: Přepisy časopisu Kaskade
 description: 
 authors:
   - Marc Bielert
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Kaskade Workspace.md
-translation_source_hash: 29a1552cf493836b4b474a5912aebdb63538c48b359b37de5a4b8b2e5b94d53f
+translation_source_hash: 631cf2907c40a3667c661ea1b6d881d859aab4729b277b6135718a058327fc01
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-12T17:33:49+00:00
-translation_source_body_hash: 29a1552cf493836b4b474a5912aebdb63538c48b359b37de5a4b8b2e5b94d53f
-translation_source_metadata_hash: e7f4ba685ffe753f20b46abef2ca8139d54bb761a72234a6398c888d59b39b90
+translation_updated: 2026-06-14T15:11:12+00:00
+translation_source_body_hash: 631cf2907c40a3667c661ea1b6d881d859aab4729b277b6135718a058327fc01
+translation_source_metadata_hash: 14f9eb7f2b84bdc2ea4e9bf614d19a3199b89138fa400f849f9e7789b6cd1ce0
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T17:33:49+00:00
+translation_metadata_updated: 2026-06-14T16:06:34+00:00
+translation_source_localized_metadata_hash: 14f9eb7f2b84bdc2ea4e9bf614d19a3199b89138fa400f849f9e7789b6cd1ce0
+translation_source_structural_metadata_hash: 0cfee3e1af3406a918bee8b26aa5fda5e8dd66e93b2d5c95c2c0fea35a4fc7a7
 ---
 >[!info]- Úvod
->Vyrůstal jsem s časopisem Kaskade. Než existoval YouTube, než jsme na internetu našli všechno – tento časopis byl jedním z prvních pravidelných zdrojů informací, které jsem dostal do rukou o žonglování, cirkusu a představeních.
+>Vyrůstal jsem s časopisem Kaskáda. Než existoval YouTube, než jsme na internetu našli všechno – tento časopis byl jedním z prvních pravidelných zdrojů informací, které jsem získal o žonglování, cirkusu a představeních.
 >Když časopis v roce 2013 skončil, připadalo mi to jako konec jedné éry – alespoň pro mě.
->Několik let byly časopisy ještě ke stažení ve formátu PDF, od cca roku 2017 je stránka offline.
->Často jsem si vzpomněl na malé workshopy, tutoriály nebo články, které mě tehdy inspirovaly. Když jsem o několik let později chtěl něco znovu přečíst – už to nebylo možné.
+>Několik let byly časopisy ještě ke stažení ve formátu PDF, ale přibližně od roku 2017 šla stránka do offline režimu.
+>Často jsem si vzpomínal na malé workshopy, tutoriály nebo články, které mě tehdy inspirovaly. Když jsem o několik let později chtěl něco znovu přečíst – už to nebylo možné.
 >
->S pomocí Wayback Machine (The Internet Archive) jsem naštěstí našel zálohu z roku 2017 s kompletními staženími (to není vždy samozřejmostí, zvláště když šlo o cca 3 GB PDF) – kompletní s německým, anglickým a francouzským vydáním.
+>S pomocí Wayback Machine (The Internet Archive) jsem naštěstí našel zálohu z roku 2017 s kompletními staženími (což není vždy samozřejmostí, zvláště když šlo o přibližně 3 GB PDF souborů) – kompletní s německým, anglickým a francouzským vydáním.
 >
->Při procházení jsem si uvědomil, že ačkoliv bylo v časopisech ukryto spousta skvělých článků a tutoriálů – v dnešní době by asi málokdo procházel 112 časopisů, které jsou pouze zkopírované. No, pokud nemá nostalgický zájem =P
+>Při procházení jsem si uvědomil, že ačkoli bylo v časopisech ukryto mnoho skvělých článků a tutoriálů, v dnešní době by už asi málokdo procházel 112 časopisů, které jsou jen zkopírované. No, pokud nemá nostalgický zájem =P
 >
->Protože je ale škoda toho vědění, chtěl jsem se pokusit pomocí současné techniky celé to digitalizovat tak, aby to bylo i dnes smysluplně využitelné.
+>Protože je ale škoda toho vědění, chtěl jsem se pokusit pomocí současné techniky vše digitalizovat tak, aby to bylo smysluplně využitelné i dnes.
 
 >[!info]- Jak byly časopisy přepsány
 >Nejprve jsem ze všech stránek PDF odstranil ty, které neobsahovaly relevantní texty.
 >
 >Pro samotný přepis (nebo OCR) jsem použil multimodální jazykový model od Googlu.
->Používám ```Gemini 2.0 Pro Experimental 02-05``` s promptem
+>Používám ```Gemini 2.0 Pro Experimental 02-05``` s promptem:
 >```
 >The attached PDF is a photocopy of a magazine. Extract all text, keep the document structure intact as much as possible, also extract single images and have them correctly in context.
 >```
->a také PDF se skenovaným časopisem.
+>a k tomu PDF se skenovaným časopisem.
 >Nastavení: Teplota 0.1 (Důležité pro zamezení halucinací)
 >
->Výstup je čištěn pomocí ```gemini-2.0-flash-exp``` a následujícího promptu (a připojeného textu, který jsme extrahovali):
+>Výstup je následně vyčištěn pomocí ```gemini-2.0-flash-exp``` a následujícího promptu (spolu s připojeným textem, který jsme extrahovali):
 >```
 >The following text is extracted with OCR from an old magazin. Your task is to clean this up. Remove artifacts (like page-numbering, unneccessary linebreaks) or unneeded parts but keep the structure, articles etc. intact. Use a proper Markdown formatting to structure the text correctly.
 >
 >Text:
 >```
 >
->Výsledek je pak znovu manuálně zkontrolován a opraven.
+>Výsledek je pak ještě jednou ručně zkontrolován a opraven.
 >
 >>[!Danger]+ Důležité:
->>Zaměření bylo na extrakci článků, workshopů, rozhovorů atd.
+>>Zaměření bylo na extrahování článků, workshopů, rozhovorů atd.
 >>Příspěvky jako např. inzeráty atd. jsem zamítl.
->>Extrakce a čištění textů proběhlo pomocí LLM, tudíž existuje vždy možnost, že texty nebyly přepsány 1:1 nebo se obsah mírně liší od originálu. Snažil jsem se minimalizovat chybovost namátkovou kontrolou textových pasáží.
-
+>>Extrahování a čištění textů proběhlo pomocí LLM, takže vždy existuje možnost, že texty nebyly přepsány 1:1 nebo se obsah mírně liší od originálu. Snažil jsem se minimalizovat chybovost tím, že jsem namátkově porovnával textové úseky.
 <!-- dynamic:start
 engine: obsidian-base
 base: _bases/Spiele-Base.base
@@ -69,52 +70,46 @@ format: list
 <!-- dynamic:content -->
 <!-- Generated by tools/dynamic_pages.py; edit the dynamic block config, not this list. -->
 
-- [Kaskáda 001 - 1984](<Kaskade%20001.md>)
-- [Kaskáda 002 - 1984](<Kaskade%20002.md>)
-- [Kaskáda 003](<Kaskade%20003.md>)
-- [Kaskáda 004 - 1985](<Kaskade%20004.md>)
-- [Kaskáda 005 - 1985](<Kaskade%20005.md>)
+- [Kaskade 001](<Kaskade%20001.md>)
+- [Kaskade 002](<Kaskade%20002.md>)
+- [Kaskade 003](<Kaskade%20003.md>)
+- [Kaskade 004](<Kaskade%20004.md>)
+- [Kaskade 005](<Kaskade%20005.md>)
 
-<!-- dynamic:end -->
-
-# Články
-
+<!-- dynamic:end --># Článek
 <!-- dynamic:start
 engine: obsidian-base
 base: _bases/Spiele-Base.base
 view: Kaskade Artikel
 format: table
-columns: file, authors, type, sub-type, source
 -->
 <!-- dynamic:content -->
 <!-- Generated by tools/dynamic_pages.py; edit the dynamic block config, not this table. -->
 
-| soubor                                                                                 | autoři               | typ      | podtyp | zdroj      |
-| -------------------------------------------------------------------------------------- | -------------------- | -------- | ------ | ----------- |
-| [Workshop Kaskáda – Stránka sloupce](<Die%20S%C3%A4ulen-Seite.md>)                                     | Dr. P. Luftiko       | Tutoriál | Míče   | Kaskade 001 |
-| [Nový časopis pro Evropu](<Eine%20neue%20Zeitschrift%20f%C3%BCr%20Europa.md>)         | Gabi Keaton, Paul Keaton | Článek   | -      | Kaskade 001 |
-| [Úsměv překonává gravitaci](<L%C3%A4cheln%20%C3%BCberwindet%20Schwerkraft.md>)      | Toby Philpott        | Článek   | -      | Kaskade 001 |
-| [Workshop Kaskáda - Podvádění!](<Schummeln%21.md>)                                                          | Dr. P. Luftiko       | Tutoriál | Míče   | Kaskade 001 |
-| [Gravitace - a co!](<Schwerkraft%20-%20na%20und%21.md>)                             | Christoph Schmitt    | Článek   | -      | Kaskade 001 |
-| [Hledá se cirkus!](<Zirkus%20gesucht%21.md>)                                           | Kattrin & Uli        | Článek   | -      | Kaskade 001 |
+| Odkaz                                                                          | authors                  | type     | sub-type | source      |
+| ------------------------------------------------------------------------------ | ------------------------ | -------- | -------- | ----------- |
+| [Workshop kaskády - Stránka sloupu](<Die%20S%C3%A4ulen-Seite.md>)              | Dr. P. Luftiko           | Tutorial | Bälle    | Kaskade 001 |
+| [Nový časopis pro Evropu](<Eine%20neue%20Zeitschrift%20f%C3%BCr%20Europa.md>)  | Gabi Keaton, Paul Keaton | Artikel  | -        | Kaskade 001 |
+| [Úsměv překonává gravitaci](<L%C3%A4cheln%20%C3%BCberwindet%20Schwerkraft.md>) | Toby Philpott            | Artikel  | -        | Kaskade 001 |
+| [Workshop kaskád - Podvádění!](<Schummeln%21.md>)                              | Dr. P. Luftiko           | Tutorial | Bälle    | Kaskade 001 |
+| [Gravitace - a co!](<Schwerkraft%20-%20na%20und%21.md>)                        | Christoph Schmitt        | Artikel  | -        | Kaskade 001 |
+| [Hledá se cirkus!](<Zirkus%20gesucht%21.md>)                                   | Kattrin & Uli            | Artikel  | -        | Kaskade 001 |
 
-<!-- dynamic:end -->
+<!-- dynamic:end -->---
 
----
-
->[!info]- Nesprávně pojmenovaná / sloučená vydání (002 - 004)
+>[!info]- Nesprávně pojmenované / sloučené výtisky (002 - 004)
 >
->Kaskade 002:
->V německém originále PDF jsou vydání 2+3 sloučena.
+>Kaskáda 002:
+>V původním německém PDF jsou výtisky 2 a 3 spojené.
 >
->Kaskade 003:
->V německém originále PDF je zde nalezeno vydání 004.
+>Kaskáda 003:
+>V původním německém PDF se zde nachází výtisk 004.
 >
->Kaskade 004:
->Zde chybí titulní strana, ještě jsem nezjistil, k čemu patří...
->Vypadá jako kopie vydání 009, bez titulní strany.
+>Kaskáda 004:
+>Zde chybí titulní strana, zatím jsem nezjistil, k čemu patří...
+>Vypadá jako kopie výtisku 009, bez titulní strany.
 >
 >Oprava:
->PDF Kaskade 002 (originál) jsem rozdělil na 002 a 003.
->Kaskade 003 (originál) jsem přejmenoval na Kaskade 004.
->A Kaskade 004 (originál) jsem smazal.
+>Rozdělil jsem PDF Kaskády 002 (originál) na 002 a 003.
+>Přejmenoval jsem Kaskádu 003 (originál) na Kaskádu 004.
+>A smazal Kaskádu 004 (originál).

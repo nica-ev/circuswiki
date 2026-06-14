@@ -18,10 +18,12 @@ translation_source_hash: 3936690d73f616dfd2aa5ca1d1f8dc956422e48662e5d367b478d88
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-07T14:05:34+00:00
 translation_source_body_hash: 3936690d73f616dfd2aa5ca1d1f8dc956422e48662e5d367b478d8892bb8c959
-translation_source_metadata_hash: c9839637ff1d2dbe5b3075e00524f4c8a12902c299ad8fc3f7a4092bbf6e29eb
+translation_source_metadata_hash: 0fabafe8c38fca40520e877c095ecc1b42ca6d88be53ebdc670a7add90a3c0b9
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:52:33+00:00
+translation_metadata_updated: 2026-06-14T16:06:04+00:00
+translation_source_localized_metadata_hash: 0fabafe8c38fca40520e877c095ecc1b42ca6d88be53ebdc670a7add90a3c0b9
+translation_source_structural_metadata_hash: 01ab5d17de836f87fb7ce9eb2db70894b997cb14a39ef55972e9afb848990d02
 ---
 ## Malabares en China
 

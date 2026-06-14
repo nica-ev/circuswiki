@@ -7,14 +7,14 @@ tags:
 created: 2025-01-24 03:50:51
 update: 2025-03-17 02:05:08
 title: Massage spel - Boer en aardappelveld
-description: Een massage spel in een cirkel waarbij koppels samen een rustige boer-en-aardappelveld-situatie uitbeelden.
+description: Een massage spel in een cirkel waarbij koppels samen een rustige boer en aardappelveld situatie uitbeelden.
 authors:
   - Marc Bielert
 category:
   - kreisspiel
   - cool-down
-Schwierigkeit: einfach
-Material: keines
+Schwierigkeit: eenvoudig
+Material: geen
 Spieldauer: 5-10
 source: unbekannt
 group-min: 4
@@ -26,10 +26,12 @@ translation_source_hash: b2ae86ce3f22e9c6dfc2bb103db2c32d127489a1381ab2c666f06bd
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:05:04+00:00
 translation_source_body_hash: b2ae86ce3f22e9c6dfc2bb103db2c32d127489a1381ab2c666f06bdca9921ae5
-translation_source_metadata_hash: 1c4a5504d29d7769cbae8f281815cc8965080a16fb975107389406cce036f866
+translation_source_metadata_hash: a768d20d5c7bc950f6dc0a73a52bf80afc3e258e6d115e8be9bd772e0e43fb44
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:57:14+00:00
+translation_metadata_updated: 2026-06-14T16:11:01+00:00
+translation_source_localized_metadata_hash: a768d20d5c7bc950f6dc0a73a52bf80afc3e258e6d115e8be9bd772e0e43fb44
+translation_source_structural_metadata_hash: 7835f11d9dd7a79a7e74d1407e0d7e0374215b15ba26c2ec3f63c1704911ca53
 ---
 > [!info] Korte beschrijving
 > Een massage-spel in een kring, waarbij koppels samen een rustige boer-en-aardappelveld-situatie uitbeelden.

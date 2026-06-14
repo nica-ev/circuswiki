@@ -21,10 +21,12 @@ translation_source_hash: 8a7b4d2f524640b6c226e1ce717325b7ef5bcd41fc901a47b2ef259
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-08T16:36:06+00:00
 translation_source_body_hash: 8a7b4d2f524640b6c226e1ce717325b7ef5bcd41fc901a47b2ef259a02f30f98
-translation_source_metadata_hash: ae8865a2e259feef57d5b6d993841b2234bd49958a7bf1aacaecfa1e9b5a877a
+translation_source_metadata_hash: 6735bb2ebbf52847c215e3bb22fda6e34fb8f577594d89079c149be45c19f99d
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T19:00:38+00:00
+translation_metadata_updated: 2026-06-14T16:13:53+00:00
+translation_source_localized_metadata_hash: 6735bb2ebbf52847c215e3bb22fda6e34fb8f577594d89079c149be45c19f99d
+translation_source_structural_metadata_hash: 1779173a854638d5c6087af7d8946fd95af6598052b229effe4c9f6ff96924e6
 ---
 # NICA e.V. - Δίκτυο για τις συμπεριληπτικές τέχνες του τσίρκου
 

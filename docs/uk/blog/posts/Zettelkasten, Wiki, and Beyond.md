@@ -6,7 +6,7 @@ update: 2025-05-03 22:54:11
 date: 2025-02-25T02:14:00
 publish: true
 tags: 
-title: Zettelkasten, Wiki та далі
+title: Цеттелькастен, Вікі та далі
 description: 
 authors:
   - Marc Bielert
@@ -19,10 +19,12 @@ translation_source_hash: 7962c1d3def8449dd725f1045c0e2fc9e6f0b9cb5aa662c2ef6ecd7
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-07T14:18:50+00:00
 translation_source_body_hash: 7962c1d3def8449dd725f1045c0e2fc9e6f0b9cb5aa662c2ef6ecd76aa114186
-translation_source_metadata_hash: 97ab7c44d7e268c7d8df5f06a75c80fa246729a281654bc522aafdde90c6c3a8
+translation_source_metadata_hash: d1fdf486731057ba36e38856452394aa4294072211fe8a1ebd4de6c5ba53ba51
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:04:30+00:00
+translation_metadata_updated: 2026-06-14T15:41:13+00:00
+translation_source_localized_metadata_hash: d1fdf486731057ba36e38856452394aa4294072211fe8a1ebd4de6c5ba53ba51
+translation_source_structural_metadata_hash: 954fd44b41e05f58bf1c8770aa83d64e0e9940b99ea04fb9e455b64f3667247b
 ---
 # **Zettelkasten, Wiki та далі**
 **Чому я почав цей проєкт, ідеї, що стоять за ним, і куди він може привести.**

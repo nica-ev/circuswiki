@@ -7,14 +7,14 @@ publish: true
 tags:
   - spiele
 title: Tapas e Beijos
-description: Um jogo sensível de interação onde cumprimentos, gestos amigáveis e gestos de conflito sugeridos são conscientemente encenados.
+description: Um jogo de interação sensível onde cumprimentos, gestos amigáveis e gestos de conflito sugeridos são conscientemente interpretados.
 authors:
   - Marc Bielert
 category:
   - kennenlernen
   - theater
-Schwierigkeit: mittel
-Material: keines
+Schwierigkeit: médio
+Material: nenhum
 Spieldauer: 10 -  15
 source: unbekannt
 group-min: 5
@@ -27,10 +27,12 @@ translation_source_hash: ecb6958f98780fd7b6a10da753ab775886117216eeda597b454cc87
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:09:34+00:00
 translation_source_body_hash: ecb6958f98780fd7b6a10da753ab775886117216eeda597b454cc874bf70ad41
-translation_source_metadata_hash: 49dbe7718283b41e2a00ecf8694d6f081d1e9cf132bf0b53bcc238a1ba2ed95e
+translation_source_metadata_hash: badbd5e78acfa75f3ba9862e497d3c5444fe24aab364d9a98041cd990131ae68
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T19:01:25+00:00
+translation_metadata_updated: 2026-06-14T16:14:40+00:00
+translation_source_localized_metadata_hash: badbd5e78acfa75f3ba9862e497d3c5444fe24aab364d9a98041cd990131ae68
+translation_source_structural_metadata_hash: 7717582a38d28349a7588b25c5b56e75eaa5eed0ea8f9b930c22ec97b9b491a1
 ---
 > [!info] Breve Descrição
 > Um jogo de interação sensível onde cumprimentos, gestos amigáveis e gestos de conflito simulados são intencionalmente encenados.

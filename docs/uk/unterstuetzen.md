@@ -18,10 +18,12 @@ translation_source_body_hash: d2efe412ecf4e1464ba3ea339df4ab0618b66f38af841621e9
 translation_source_hash: d2efe412ecf4e1464ba3ea339df4ab0618b66f38af841621e9dccc454bf92d71
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-12T17:35:33+00:00
-translation_source_metadata_hash: f98815177f4cd9f7464331bf2cff6f1c91fc6458d3ae295bc40d959f2e22a462
+translation_source_metadata_hash: c54406398fd751b36ca3bd69ee9319282403dcd7ae7a16ca553f047ffc56979c
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T17:35:33+00:00
+translation_metadata_updated: 2026-06-14T16:25:06+00:00
+translation_source_localized_metadata_hash: c54406398fd751b36ca3bd69ee9319282403dcd7ae7a16ca553f047ffc56979c
+translation_source_structural_metadata_hash: 90eb39898448084d7d0079a7df2af37a6dfa784e275a68598418954bcd8f808d
 ---
 # Підтримати CircusWiki
 

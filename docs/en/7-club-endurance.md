@@ -34,7 +34,7 @@ source_permission: public group photo reviewed as reusable by project maintainer
 > [!info] Short Description
 > A high-skill numbers endurance game for seven-club jugglers.
 
-![[../img/7-club-endurance.jpg|300]]
+![7-club-endurance](../img/7-club-endurance.jpg){ width=300 }
 
 **Group Size**: 2 to 30 players
 **Difficulty**: schwer

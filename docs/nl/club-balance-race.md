@@ -10,16 +10,16 @@ tags:
   - balance
 created: 2026-06-12 00:00:00
 update: 2026-06-12 21:42:27
-title: Club Balans Race
-description: Spelers racen terwijl ze een club of vergelijkbaar voorwerp op hun kin balanceren.
+title: Club Balansrace
+description: Spelers racen terwijl ze een club of vergelijkbaar object op hun kin balanceren.
 authors:
   - CircusWiki contributors
 category:
   - convention-games
   - race
   - balance
-Schwierigkeit: "mittel"
-Material: "Club or balance object, race markers"
+Schwierigkeit: medium
+Material: Club of balansvoorwerp, race-markeringen
 Spieldauer: "5-15"
 group-min: 3
 group-max: 60
@@ -31,34 +31,36 @@ source_section: "Balancing Games"
 source_image: "../img/games-club-balance-guiness.jpg"
 source_permission: "public-place image reviewed as reusable by project maintainer"
 translation_source: docs/en/club-balance-race.md
-translation_source_body_hash: 7292f3a57373785d9b1298d0378f4fa6f9c73ce9bb4d576c00754f3b63a61760
-translation_source_hash: 7292f3a57373785d9b1298d0378f4fa6f9c73ce9bb4d576c00754f3b63a61760
+translation_source_body_hash: 8264275277f52db246023d9744437abc4182108234d05a14b5159e6dc5020fab
+translation_source_hash: 8264275277f52db246023d9744437abc4182108234d05a14b5159e6dc5020fab
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-12T21:11:20+00:00
-translation_source_metadata_hash: 040c7b0d5a13a72cf882cc33b20cde89c350cea2c32892c5dd795ebd75616acd
+translation_updated: 2026-06-14T19:26:20+00:00
+translation_source_metadata_hash: f4df1755ddb18a1c94d82d3a6cbf4b30eceb633d5bc85a820c58cc581bda14bd
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T21:11:20+00:00
+translation_metadata_updated: 2026-06-14T19:26:20+00:00
+translation_source_localized_metadata_hash: f4df1755ddb18a1c94d82d3a6cbf4b30eceb633d5bc85a820c58cc581bda14bd
+translation_source_structural_metadata_hash: 31b3ee026ffd42aeb47acdc5d2a3915ae9ddde8025eb89d4a41ccad3b9742351
 ---
 > [!info] Korte beschrijving
-> Spelers racen terwijl ze een knuppel of vergelijkbaar voorwerp op hun kin balanceren.
+> Spelers racen terwijl ze een knuppel of een vergelijkbaar voorwerp op hun kin balanceren.
 
-![[../img/games-club-balance-guiness.jpg|300]]
+![games-club-balance-guiness](../img/games-club-balance-guiness.jpg){ width=300 }
 
-**Groepsgrootte**: 3 tot 60 spelers  
-**Moeilijkheidsgraad**: gemiddeld  
-**Materiaal**: Knuppel of balanceerobject, race-afzettingen  
+**Groepsgrootte**: 3 tot 60 spelers
+**Moeilijkheidsgraad**: gemiddeld
+**Materiaal**: Knuppel of balanceerobject, race-afzetpunten
 **Duur**: ca. 5-15 minuten
 
 ## Spelbeschrijving
 
-Spelers racen terwijl ze een knuppel of vergelijkbaar voorwerp op hun kin balanceren. De eerste speler die de finish bereikt zonder het voorwerp te laten vallen, wint.
+Spelers racen terwijl ze een knuppel of een vergelijkbaar voorwerp op hun kin balanceren. De eerste speler die finisht zonder het voorwerp te laten vallen, wint.
 
 ## Variaties
 
 Maak er een hindernisbaan van voor gevorderde spelers.
 
-## Veiligheidsaanwijzingen
+## Veiligheidsinstructies
 
 Houd het speelveld vrij en definieer de grenzen voordat de ronde begint. Richt bij contactspelen op attributen in plaats van lichamen. Zorg bij werp-, rij-, balanceer- of acrobatische spellen voor voldoende ruimte voor mislukte pogingen en stop de ronde als de groep onveilige risico's begint te nemen.
 

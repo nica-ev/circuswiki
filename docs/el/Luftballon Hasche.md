@@ -6,14 +6,14 @@ tags:
   - spiele
 created: 2025-01-24 03:50:51
 update: 2025-03-18 03:14:51
-title: Μπαλόνι Χάσκε
+title: Παιχνίδι με Μπαλόνι
 description: 
 authors:
   - Marc Bielert
 category:
   - fangen
-Schwierigkeit: mittel
-Material: keines
+Schwierigkeit: μεσαίο
+Material: κανένα
 Spieldauer: 5 - 15
 source: unbekannt
 group-min: 6
@@ -26,10 +26,12 @@ translation_source_hash: 1e4c1d3414580760b80105741ba5fe2ed4ea93e2f86a9e42c88ffa0
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-07T13:49:39+00:00
 translation_source_body_hash: 1e4c1d3414580760b80105741ba5fe2ed4ea93e2f86a9e42c88ffa03927997c5
-translation_source_metadata_hash: 139806bc52a1b1ab214a04278e3841ea13d0f8ab19b16896213b931d352ac118
+translation_source_metadata_hash: 13d65b66ff552376938c3482f63b00807083fe1b0792390fce473f751e3d0572
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:56:50+00:00
+translation_metadata_updated: 2026-06-14T16:10:29+00:00
+translation_source_localized_metadata_hash: 13d65b66ff552376938c3482f63b00807083fe1b0792390fce473f751e3d0572
+translation_source_structural_metadata_hash: 4a8df765e5df22e53040bc840e351657d64b6efcdb2c1c6d9bf8ce95a02eaa67
 ---
 # Παιχνίδι "Μπαλόνι"
 

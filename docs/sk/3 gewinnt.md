@@ -6,14 +6,14 @@ tags:
   - spiele
 created: 2025-01-24 03:50:50
 update: 2026-06-07 00:01:34
-title: Tri v rade
+title: Tri v jednom
 description: Behová a taktická hra, v ktorej dva tímy umiestňujú a presúvajú predmety na pole 3x3.
 authors:
   - Marc Bielert
 category:
   - bewegung
-Schwierigkeit: mittel
-Material: 9 Ringe, 6 farbige Gegenstände, Startmarkierung
+Schwierigkeit: stredná
+Material: 9 krúžkov, 6 farebných predmetov, štartovacia značka
 Spieldauer: 5-20
 source: Facebook
 group-min: 4
@@ -25,10 +25,12 @@ translation_source_hash: 9f05e768ef33a6782d315acfcf64eede446f5a3a2e8f26682983760
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:19:51+00:00
 translation_source_body_hash: 9f05e768ef33a6782d315acfcf64eede446f5a3a2e8f2668298376080ec01ef7
-translation_source_metadata_hash: 38ddb2111845d2227aed5f521ebf165290629638aab1fd37241d7429f7ce8d22
+translation_source_metadata_hash: 87f46d12e0ebc9d7fcfad632fb2ba9540e478870542399cca47b97b94b728c06
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:00:48+00:00
+translation_metadata_updated: 2026-06-14T15:36:28+00:00
+translation_source_localized_metadata_hash: 87f46d12e0ebc9d7fcfad632fb2ba9540e478870542399cca47b97b94b728c06
+translation_source_structural_metadata_hash: 1e1adc1a47acef0787ee80bae616a3faf93d0888ed8e4c6a746b72be2c78ad30
 ---
 > [!info] Stručný popis
 > Bežecká a taktická hra, v ktorej dva tímy umiestňujú a presúvajú predmety na pole 3x3.

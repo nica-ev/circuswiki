@@ -15,10 +15,12 @@ translation_source_hash: ec0cfaaca8fbcb87418fbc3e188692632b70ccb41881d8d51c8e8ec
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-06T23:14:42+00:00
 translation_source_body_hash: ec0cfaaca8fbcb87418fbc3e188692632b70ccb41881d8d51c8e8ec23bbe8e26
-translation_source_metadata_hash: 075669e3cf487fa522a2dc1fccc990dc5d673060bf0f100bec35ee4deea564d9
+translation_source_metadata_hash: 13beaf3c5db783bfa4c9ef09c5e3926d7c184dc85fd5000165708dc1d683679c
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:09:52+00:00
+translation_metadata_updated: 2026-06-14T15:46:41+00:00
+translation_source_localized_metadata_hash: 13beaf3c5db783bfa4c9ef09c5e3926d7c184dc85fd5000165708dc1d683679c
+translation_source_structural_metadata_hash: 517624d8f952974ac10d17bc4604010d9433d5b710b50f0211bb9d9c304f4c13
 ---
 # Digitale Infrastructuur - Overzicht
 

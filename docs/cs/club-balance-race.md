@@ -10,16 +10,16 @@ tags:
   - balance
 created: 2026-06-12 00:00:00
 update: 2026-06-12 21:42:27
-title: Závod s klubem
-description: Hráči závodí a zároveň balancují klub nebo podobný předmět na bradě.
+title: Závod s kyjem na bradě
+description: Hráči závodí s kyjem nebo podobným předmětem balancovaným na bradě.
 authors:
   - CircusWiki contributors
 category:
   - convention-games
   - race
   - balance
-Schwierigkeit: "mittel"
-Material: "Club or balance object, race markers"
+Schwierigkeit: střední
+Material: Kyj nebo balanční předmět, značky pro závod
 Spieldauer: "5-15"
 group-min: 3
 group-max: 60
@@ -31,36 +31,38 @@ source_section: "Balancing Games"
 source_image: "../img/games-club-balance-guiness.jpg"
 source_permission: "public-place image reviewed as reusable by project maintainer"
 translation_source: docs/en/club-balance-race.md
-translation_source_body_hash: 7292f3a57373785d9b1298d0378f4fa6f9c73ce9bb4d576c00754f3b63a61760
-translation_source_hash: 7292f3a57373785d9b1298d0378f4fa6f9c73ce9bb4d576c00754f3b63a61760
+translation_source_body_hash: 8264275277f52db246023d9744437abc4182108234d05a14b5159e6dc5020fab
+translation_source_hash: 8264275277f52db246023d9744437abc4182108234d05a14b5159e6dc5020fab
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-12T21:11:34+00:00
-translation_source_metadata_hash: 040c7b0d5a13a72cf882cc33b20cde89c350cea2c32892c5dd795ebd75616acd
+translation_updated: 2026-06-14T19:26:33+00:00
+translation_source_metadata_hash: f4df1755ddb18a1c94d82d3a6cbf4b30eceb633d5bc85a820c58cc581bda14bd
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T21:11:34+00:00
+translation_metadata_updated: 2026-06-14T19:26:33+00:00
+translation_source_localized_metadata_hash: f4df1755ddb18a1c94d82d3a6cbf4b30eceb633d5bc85a820c58cc581bda14bd
+translation_source_structural_metadata_hash: 31b3ee026ffd42aeb47acdc5d2a3915ae9ddde8025eb89d4a41ccad3b9742351
 ---
 > [!info] Stručný popis
 > Hráči závodí a zároveň si na bradě balancují kyj nebo podobný předmět.
 
-![[../img/games-club-balance-guiness.jpg|300]]
+![games-club-balance-guiness](../img/games-club-balance-guiness.jpg){ width=300 }
 
-**Počet hráčů**: 3 až 60 hráčů  
+**Velikost skupiny**: 3 až 60 hráčů  
 **Obtížnost**: střední  
 **Materiál**: Kyj nebo balanční předmět, značky pro závod  
-**Doba trvání**: cca 5-15 minut
+**Délka**: cca 5-15 minut
 
 ## Popis hry
 
-Hráči závodí a zároveň si na bradě balancují kyj nebo podobný předmět. Vyhrává hráč, který jako první dokončí trať, aniž by předmět upustil.
+Hráči závodí a zároveň si na bradě balancují kyj nebo podobný předmět. Vyhrává ten, kdo jako první dokončí trať, aniž by předmět upustil.
 
 ## Varianty
 
-Pro pokročilé hráče lze hru proměnit v překážkový závod.
+Pro pokročilé hráče z toho udělejte překážkový závod.
 
 ## Bezpečnostní pokyny
 
-Udržujte hrací plochu volnou a před začátkem kola vymezte její hranice. V případě kontaktních her se zaměřte na rekvizity, nikoli na těla. U her zahrnujících házení, jízdu, balancování nebo akrobacii ponechte dostatek prostoru pro neúspěšné pokusy a kolo ukončete, pokud skupina začne podstupovat nebezpečné riziko.
+Udržujte hrací plochu volnou a před začátkem kola jasně vymezte její hranice. U kontaktních her se zaměřte na rekvizity, nikoli na těla. U her zahrnujících házení, jízdu, balancování nebo akrobacii ponechte dostatek prostoru pro neúspěšné pokusy a kolo ukončete, pokud skupina začne podstupovat nebezpečné riziko.
 
 ## Zdroj
 

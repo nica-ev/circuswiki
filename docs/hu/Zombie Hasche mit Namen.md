@@ -6,14 +6,14 @@ tags:
   - spiele
 created: 2025-01-24 03:50:51
 update: 2025-03-25 22:53:47
-title: Zombi Hús darálva
+title: Zombi üldözés névvel
 description: 
 authors:
   - Marc Bielert
 category:
   - fangen
-Schwierigkeit: mittel
-Material: keines
+Schwierigkeit: közepes
+Material: nincs
 Spieldauer: 15-20
 source: unbekannt
 group-min: 6
@@ -26,10 +26,12 @@ translation_source_hash: 25a606664a5e7b1f7a29b02271fdd0fdfdb7afbaf3d919dea1c2371
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-06T22:55:57+00:00
 translation_source_body_hash: 25a606664a5e7b1f7a29b02271fdd0fdfdb7afbaf3d919dea1c23710e75033df
-translation_source_metadata_hash: 904744ec0c8b26c4381be46b9794e717d0260c5eadb79c896e4699c57af4bb4b
+translation_source_metadata_hash: 5c102510e9e0b93300d1912e4d7638747a5e302d30aadccb30c142497cd5d1a7
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T19:13:57+00:00
+translation_metadata_updated: 2026-06-14T16:29:28+00:00
+translation_source_localized_metadata_hash: 5c102510e9e0b93300d1912e4d7638747a5e302d30aadccb30c142497cd5d1a7
+translation_source_structural_metadata_hash: abea09da9eac760f6c1171efffdecbfcb5b36e609bc004d09f6c8176fa4f8413
 ---
 # Zombi futóverseny névvel
 

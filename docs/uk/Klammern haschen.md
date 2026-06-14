@@ -12,8 +12,8 @@ authors:
   - Marc Bielert
 category:
   - bewegung
-Schwierigkeit: einfach
-Material: Wäscheklammern
+Schwierigkeit: легко
+Material: Прищіпки
 Spieldauer: 4-6
 source: Tasifan Spielebuch
 group-min: 5
@@ -25,10 +25,12 @@ translation_source_hash: a0cb068d333c6d2874c9001238c13bdf8f2896b223d7d2c261a6847
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:49:06+00:00
 translation_source_body_hash: a0cb068d333c6d2874c9001238c13bdf8f2896b223d7d2c261a68474a3f44e1a
-translation_source_metadata_hash: 0e3fafac66ff6215e3d49ed87a28ed90116b85268c93a0a34cb66bf5a475c981
+translation_source_metadata_hash: 4de71cf6ec238be2d01b84caf8399bea16009bb7ec817f47826ea04cb3c46b68
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:54:04+00:00
+translation_metadata_updated: 2026-06-14T16:07:39+00:00
+translation_source_localized_metadata_hash: 4de71cf6ec238be2d01b84caf8399bea16009bb7ec817f47826ea04cb3c46b68
+translation_source_structural_metadata_hash: 7f89d0c91eabbad4ac4e6ef04522ca5359457849883bf4b236b9d465e3d7e5d7
 ---
 > [!info] Короткий опис
 > Рухлива гра з прищіпками, під час якої всі намагаються зловити та зібрати прищіпки.

@@ -6,14 +6,14 @@ update: 2025-05-26 23:07:35
 publish: true
 tags:
   - spiele
-title: Fókák és jegesmedvék
+title: Fóka és jegesmedve
 description: 
 authors:
   - Marc Bielert
 category:
   - fangen
-Schwierigkeit: mittel
-Material: keines
+Schwierigkeit: közepes
+Material: nincs
 Spieldauer: 10 -  15
 source: unbekannt
 group-min: 5
@@ -26,10 +26,12 @@ translation_source_hash: 55ba562cb3c745916338fd7c435289e4c1089f291facabbebea754c
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-06T22:48:44+00:00
 translation_source_body_hash: 55ba562cb3c745916338fd7c435289e4c1089f291facabbebea754c094a3877e
-translation_source_metadata_hash: ba667f15b7356629df787a9b0031e47312faacc4406f3bb2cdb48ad71929bcd0
+translation_source_metadata_hash: 98aa6e57a062fa028923fdd0ac0ec975c2116ee413ff0f56ae879d1f3df6357f
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T19:04:04+00:00
+translation_metadata_updated: 2026-06-14T16:17:17+00:00
+translation_source_localized_metadata_hash: 98aa6e57a062fa028923fdd0ac0ec975c2116ee413ff0f56ae879d1f3df6357f
+translation_source_structural_metadata_hash: 578aedd37611da70316d27adb2215587c68ba24c7407b2aa56b3e647168b9241
 ---
 # Fóka és jegesmedve
 

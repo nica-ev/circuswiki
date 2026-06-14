@@ -6,15 +6,15 @@ tags:
   - spiele
 created: 2025-01-24 03:50:51
 update: 2025-03-17 02:23:35
-title: Ľudské dáma
-description: Tichá taktická hra pre dva tímy, kde ľudia preskakujú súperových hráčov alebo dosiahnu základnú líniu.
+title: Ľudský Človeče, nehnevaj sa!
+description: Tichá taktická hra pre dva tímy, kde ľudia prekonávajú súperových hráčov skokmi alebo dosiahnu základnú líniu.
 authors:
   - Marc Bielert
 category:
   - Taktik
   - cool-down
-Schwierigkeit: einfach
-Material: keines
+Schwierigkeit: ľahká
+Material: žiadny
 Spieldauer: 4
 source: Tasifan Spielebuch
 group-min: 8
@@ -26,10 +26,12 @@ translation_source_hash: a472399930f7c422c08f2f27df26720e0f7de05082a299ab02bc0ad
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:06:39+00:00
 translation_source_body_hash: a472399930f7c422c08f2f27df26720e0f7de05082a299ab02bc0ad5bde90bef
-translation_source_metadata_hash: 9b0035bfbf8b4550ea8b3d74fbd8b9ab088b43e2cfb1f088b696497542447d10
+translation_source_metadata_hash: 3cb3f121885c67266f299028453d1ae47720962871e2b3ce28186f01b7a6868a
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:58:34+00:00
+translation_metadata_updated: 2026-06-14T16:11:53+00:00
+translation_source_localized_metadata_hash: 3cb3f121885c67266f299028453d1ae47720962871e2b3ce28186f01b7a6868a
+translation_source_structural_metadata_hash: 62272d15c4a482659c6ef8aacc41dd8f72cfd7af98898d6859cc673455a70095
 ---
 > [!info] Stručný popis
 > Tichá taktická hra pre dva tímy, v ktorej hráči skákaním vyraďujú súperových hráčov alebo dosiahnu základnú líniu.

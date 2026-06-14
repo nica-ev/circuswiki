@@ -6,14 +6,14 @@ update: 2025-03-17 02:10:46
 publish: true
 tags:
   - spiele
-title: Velký proti malým
-description: Fyzická hra, při které se jedna velká osoba snaží shodit několik menších osob z podložky.
+title: Velký proti malému
+description: Fyzická přetahovaná, kde se jedna velká osoba snaží shodit několik malých osob z podložky.
 authors:
   - Marc Bielert
 category:
   - sonstiges
-Schwierigkeit: mittel
-Material: Matte
+Schwierigkeit: střední
+Material: podložka
 Spieldauer: 1-5
 source: Tasifan Spielebuch
 group-min: 3
@@ -25,10 +25,12 @@ translation_source_hash: 01c0cb5901c0890d7c6a90d2071f4dc5d0343708a3550f5f3ac1194
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:41:28+00:00
 translation_source_body_hash: 01c0cb5901c0890d7c6a90d2071f4dc5d0343708a3550f5f3ac1194c6efe96e7
-translation_source_metadata_hash: cdad17318a2cbc6379aa9648389298e50146b3a706e5f9329cac5c95b93dfb08
+translation_source_metadata_hash: 50a06245660ddd6ca7507607a7a938b03aea7297940606c77cc53b03c3b42636
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:49:03+00:00
+translation_metadata_updated: 2026-06-14T15:51:49+00:00
+translation_source_localized_metadata_hash: 50a06245660ddd6ca7507607a7a938b03aea7297940606c77cc53b03c3b42636
+translation_source_structural_metadata_hash: 548cb670c3fe07abf4cde733c734c6d1cc4051a65b4bf9fd592c3aa187e6e749
 ---
 > [!info] Stručný popis
 > Fyzická rvačka, při které se jedna velká osoba snaží shodit z podložky několik malých osob.

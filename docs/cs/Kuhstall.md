@@ -6,14 +6,14 @@ tags:
   - spiele
 created: 2025-01-24 03:50:50
 update: 2025-03-17 02:27:03
-title: Stáj
-description: Skupinová hra, ve které krávy a stáje na povel rychle tvoří nové trojice.
+title: Kravín
+description: Skupinová hra na výměnu, kde krávy a stáje rychle tvoří nové trojice na povel.
 authors:
   - Marc Bielert
 category:
   - sonstiges
-Schwierigkeit: einfach
-Material: keines
+Schwierigkeit: lehká
+Material: žádný
 Spieldauer: 5-10
 source: unbekannt
 group-min: 7
@@ -25,10 +25,12 @@ translation_source_hash: 74de695d1a4d7d1df569e095305cb88ccf7a567a03455ccc78ac1d7
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:54:12+00:00
 translation_source_body_hash: 74de695d1a4d7d1df569e095305cb88ccf7a567a03455ccc78ac1d78fcf1e517
-translation_source_metadata_hash: 1b289d0e88ab3e4ffdcae103653c48e2df80e449ab9ae2fd9affefb4d1dd0464
+translation_source_metadata_hash: efbad4def1c70724d78bf090a715764eca013648940af6afab075ebaf592acb8
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:55:50+00:00
+translation_metadata_updated: 2026-06-14T16:09:27+00:00
+translation_source_localized_metadata_hash: efbad4def1c70724d78bf090a715764eca013648940af6afab075ebaf592acb8
+translation_source_structural_metadata_hash: 117568bd6b34a9196708deddba38d26caf408306954cb6273efebcee1ecdfe28
 ---
 > [!info] Stručný popis
 > Hra na výměnu skupin, při které krávy a stáje na povel rychle tvoří nové trojice.

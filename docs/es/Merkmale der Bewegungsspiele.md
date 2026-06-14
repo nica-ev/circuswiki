@@ -18,10 +18,12 @@ translation_source_hash: e785f95dbf7256180016efff3478eb66ab08a76bc92c5fea9da7f78
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-07T14:09:03+00:00
 translation_source_body_hash: e785f95dbf7256180016efff3478eb66ab08a76bc92c5fea9da7f78cbc916fb0
-translation_source_metadata_hash: 0d22e1be8ca5e9d39ce09128d0b5eb1aeb6131f7c5542eb444c7a6ff05d2b72f
+translation_source_metadata_hash: 03db701f12c04032d88557ed8bfdc826ff4cff47374cd84c3aeb0a6c1267a866
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:58:48+00:00
+translation_metadata_updated: 2026-06-14T16:12:06+00:00
+translation_source_localized_metadata_hash: 03db701f12c04032d88557ed8bfdc826ff4cff47374cd84c3aeb0a6c1267a866
+translation_source_structural_metadata_hash: 72e769cb54a6262575065869d148b1b95a2f0533c7f856d7cacf02702eaa183f
 ---
 # Características de los juegos de movimiento
 ## Definición

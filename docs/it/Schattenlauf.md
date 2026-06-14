@@ -14,8 +14,8 @@ category:
   - sonstiges
 group-min: 2
 group-max: 99
-Schwierigkeit: einfach
-Material: keines
+Schwierigkeit: facile
+Material: nessuno
 Spieldauer: 5 - 15
 source: unbekannt
 todo: fertig
@@ -26,10 +26,12 @@ translation_source_hash: 38dd436a4d3412821f1c6ca874e3996721106299b67d2821ed595ca
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:14:30+00:00
 translation_source_body_hash: 38dd436a4d3412821f1c6ca874e3996721106299b67d2821ed595ca155cd6cad
-translation_source_metadata_hash: a8346d8646508a0a4ac4c017e6d9e54c81952ecaa4412c67963b0256e487d02a
+translation_source_metadata_hash: 221c2417fbeae032c93b17732b5eed428838176e0e6101a0d2e34784effd6da8
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T19:04:56+00:00
+translation_metadata_updated: 2026-06-14T16:18:07+00:00
+translation_source_localized_metadata_hash: 221c2417fbeae032c93b17732b5eed428838176e0e6101a0d2e34784effd6da8
+translation_source_structural_metadata_hash: f089d28dbbe7a040878c52f87941744f0dc89b67b34b7c303883e47d08f06511
 ---
 > [!info] Breve descrizione 
 > Un gioco di movimento in coppia, in cui una persona imita i movimenti dell'altra come un'ombra.

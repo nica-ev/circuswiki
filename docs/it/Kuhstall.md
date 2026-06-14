@@ -12,8 +12,8 @@ authors:
   - Marc Bielert
 category:
   - sonstiges
-Schwierigkeit: einfach
-Material: keines
+Schwierigkeit: facile
+Material: nessuno
 Spieldauer: 5-10
 source: unbekannt
 group-min: 7
@@ -25,10 +25,12 @@ translation_source_hash: 74de695d1a4d7d1df569e095305cb88ccf7a567a03455ccc78ac1d7
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:53:58+00:00
 translation_source_body_hash: 74de695d1a4d7d1df569e095305cb88ccf7a567a03455ccc78ac1d78fcf1e517
-translation_source_metadata_hash: 1b289d0e88ab3e4ffdcae103653c48e2df80e449ab9ae2fd9affefb4d1dd0464
+translation_source_metadata_hash: efbad4def1c70724d78bf090a715764eca013648940af6afab075ebaf592acb8
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:55:46+00:00
+translation_metadata_updated: 2026-06-14T16:09:22+00:00
+translation_source_localized_metadata_hash: efbad4def1c70724d78bf090a715764eca013648940af6afab075ebaf592acb8
+translation_source_structural_metadata_hash: 117568bd6b34a9196708deddba38d26caf408306954cb6273efebcee1ecdfe28
 ---
 > [!info] Breve descrizione
 > Un gioco di cambio gruppo in cui mucche e stalle formano rapidamente nuovi gruppi di tre su comando.

@@ -12,8 +12,8 @@ authors:
   - Marc Bielert
 category:
   - cool-down
-Schwierigkeit: einfach
-Material: keines
+Schwierigkeit: eenvoudig
+Material: geen
 Spieldauer: 5-10
 source: unbekannt
 group-min: 5
@@ -25,10 +25,12 @@ translation_source_hash: 7bc9a757c21312ac44317a9c7a38803ab841a5ed732535a3a9054f3
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:38:03+00:00
 translation_source_body_hash: 7bc9a757c21312ac44317a9c7a38803ab841a5ed732535a3a9054f30486ee4d3
-translation_source_metadata_hash: 9d52a0972ff58b2096b849306e368dd1f000da58fa2a268157a85dc3137c0ad3
+translation_source_metadata_hash: 6a9c723545f1aa7b4b8927dba29f8b0e303b131cd792cf150c467794d8a45542
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T19:13:20+00:00
+translation_metadata_updated: 2026-06-14T16:28:28+00:00
+translation_source_localized_metadata_hash: 6a9c723545f1aa7b4b8927dba29f8b0e303b131cd792cf150c467794d8a45542
+translation_source_structural_metadata_hash: d471aba37a4d2adb04b79337e92a4ae2df6639fa8404bfa50c95b643839fec40
 ---
 > [!info] Korte beschrijving
 > Een cirkelspel met impulsen, waarbij Zip, Zap, Peng en Boing ritmisch en aandachtig worden doorgegeven.

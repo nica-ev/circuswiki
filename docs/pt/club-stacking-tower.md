@@ -9,16 +9,16 @@ tags:
   - challenge
 created: 2026-06-12 00:00:00
 update: 2026-06-12 21:44:52
-title: Torre de Malabares Empilhada
-description: Equipes constroem a torre mais alta possível com malabares.
+title: Torre de Clavas Empilhadas
+description: Equipes constroem a torre mais alta possível com clavas de malabarismo.
 authors:
   - CircusWiki contributors
 category:
   - convention-games
   - club-games
   - challenge
-Schwierigkeit: "mittel"
-Material: "Many clubs"
+Schwierigkeit: médio
+Material: Muitas clavas
 Spieldauer: "5-15"
 group-min: 2
 group-max: 40
@@ -33,10 +33,12 @@ translation_source_body_hash: 0ed36bb60256b3ce34d6ae3fb861edf4b0b172ee89d8235d10
 translation_source_hash: 0ed36bb60256b3ce34d6ae3fb861edf4b0b172ee89d8235d10f152fd7e106744
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-12T21:12:54+00:00
-translation_source_metadata_hash: 32c1f657beca79deff44a903d1997bdab7b1cb016407f5299c871a77c1040148
+translation_source_metadata_hash: 9ca56dc5566a7b8d15b41d371d930d90215ed74efe64083f7875e1c813673fba
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T21:12:54+00:00
+translation_metadata_updated: 2026-06-14T15:57:29+00:00
+translation_source_localized_metadata_hash: 9ca56dc5566a7b8d15b41d371d930d90215ed74efe64083f7875e1c813673fba
+translation_source_structural_metadata_hash: 3e6892705626e335bf2363df10015744939d6f77b42f4dbc89b03bbcee2daa1c
 ---
 > [!info] Descrição Curta
 > As equipas constroem a torre mais alta possível com claves de malabarismo.

@@ -13,8 +13,8 @@ authors:
 category:
   - action
   - kreisspiel
-Schwierigkeit: mittel
-Material: keines
+Schwierigkeit: medio
+Material: ninguno
 Spieldauer: "7"
 source:
   - Tasifan Spielebuch
@@ -28,10 +28,12 @@ translation_source_hash: de23855d3852232c3f32ec397666054eea25c16092f25eb8f36ec8f
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:40:18+00:00
 translation_source_body_hash: de23855d3852232c3f32ec397666054eea25c16092f25eb8f36ec8f0a55631f5
-translation_source_metadata_hash: a5b1fdb43ff296b4abbd1072cf7870e8d57a725bccd6178ca98a9558ca747dce
+translation_source_metadata_hash: 7e8ccc680493d7292de132045e770d5ee55384882b0720d574b75ab27b73e873
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T19:14:54+00:00
+translation_metadata_updated: 2026-06-14T16:30:40+00:00
+translation_source_localized_metadata_hash: 7e8ccc680493d7292de132045e770d5ee55384882b0720d574b75ab27b73e873
+translation_source_structural_metadata_hash: 319aa57b8cf6d6c431510226a88bb22f819285b7580dcc10c15c21d840977f51
 ---
 > [!info] Breve descripción
 > Un juego en círculo en el que una persona sola intenta atraer a una nueva pareja guiñándole un ojo.

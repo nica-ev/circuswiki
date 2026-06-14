@@ -1,0 +1,446 @@
+{
+  "version": 1,
+  "bases": {
+    "_bases/Resourcen.base": {
+      "source_lang": "de",
+      "properties": {}
+    },
+    "_bases/Spiele-Base.base": {
+      "source_lang": "de",
+      "properties": {
+        "formula.link-title": {
+          "translations": {
+            "en": {
+              "value": "Link",
+              "source_hash": "a6a32dbc5618ea39f6df5b0f9808e3588b19e00d5f6f96c69492e40386e5aeab",
+              "model": "google/gemini-2.5-flash-lite",
+              "updated": "2026-06-14T18:31:40+00:00"
+            },
+            "pl": {
+              "value": "Link",
+              "source_hash": "a6a32dbc5618ea39f6df5b0f9808e3588b19e00d5f6f96c69492e40386e5aeab",
+              "model": "google/gemini-2.5-flash-lite",
+              "updated": "2026-06-14T18:31:41+00:00"
+            },
+            "hu": {
+              "value": "Hivatkozás",
+              "source_hash": "a6a32dbc5618ea39f6df5b0f9808e3588b19e00d5f6f96c69492e40386e5aeab",
+              "model": "google/gemini-2.5-flash-lite",
+              "updated": "2026-06-14T18:31:42+00:00"
+            },
+            "it": {
+              "value": "Collegamento",
+              "source_hash": "a6a32dbc5618ea39f6df5b0f9808e3588b19e00d5f6f96c69492e40386e5aeab",
+              "model": "google/gemini-2.5-flash-lite",
+              "updated": "2026-06-14T18:31:43+00:00"
+            },
+            "nl": {
+              "value": "Link",
+              "source_hash": "a6a32dbc5618ea39f6df5b0f9808e3588b19e00d5f6f96c69492e40386e5aeab",
+              "model": "google/gemini-2.5-flash-lite",
+              "updated": "2026-06-14T18:31:45+00:00"
+            },
+            "el": {
+              "value": "Σύνδεσμος",
+              "source_hash": "a6a32dbc5618ea39f6df5b0f9808e3588b19e00d5f6f96c69492e40386e5aeab",
+              "model": "google/gemini-2.5-flash-lite",
+              "updated": "2026-06-14T18:31:46+00:00"
+            },
+            "es": {
+              "value": "Enlace",
+              "source_hash": "a6a32dbc5618ea39f6df5b0f9808e3588b19e00d5f6f96c69492e40386e5aeab",
+              "model": "google/gemini-2.5-flash-lite",
+              "updated": "2026-06-14T18:31:47+00:00"
+            },
+            "uk": {
+              "value": "Посилання",
+              "source_hash": "a6a32dbc5618ea39f6df5b0f9808e3588b19e00d5f6f96c69492e40386e5aeab",
+              "model": "google/gemini-2.5-flash-lite",
+              "updated": "2026-06-14T18:31:48+00:00"
+            },
+            "pt": {
+              "value": "Link",
+              "source_hash": "a6a32dbc5618ea39f6df5b0f9808e3588b19e00d5f6f96c69492e40386e5aeab",
+              "model": "google/gemini-2.5-flash-lite",
+              "updated": "2026-06-14T18:31:49+00:00"
+            },
+            "cs": {
+              "value": "Odkaz",
+              "source_hash": "a6a32dbc5618ea39f6df5b0f9808e3588b19e00d5f6f96c69492e40386e5aeab",
+              "model": "google/gemini-2.5-flash-lite",
+              "updated": "2026-06-14T18:31:49+00:00"
+            },
+            "sk": {
+              "value": "Odkaz",
+              "source_hash": "a6a32dbc5618ea39f6df5b0f9808e3588b19e00d5f6f96c69492e40386e5aeab",
+              "model": "google/gemini-2.5-flash-lite",
+              "updated": "2026-06-14T18:31:51+00:00"
+            }
+          },
+          "source": "Link",
+          "source_hash": "a6a32dbc5618ea39f6df5b0f9808e3588b19e00d5f6f96c69492e40386e5aeab"
+        },
+        "note.group-min": {
+          "translations": {
+            "en": {
+              "value": "Players Min",
+              "source_hash": "f196a43b821cdcef831a7beaae7e32a049636ab168a91f82a6b953a84a2465b8",
+              "model": "google/gemini-2.5-flash-lite",
+              "updated": "2026-06-14T18:31:40+00:00"
+            },
+            "pl": {
+              "value": "Min Graczy",
+              "source_hash": "f196a43b821cdcef831a7beaae7e32a049636ab168a91f82a6b953a84a2465b8",
+              "model": "google/gemini-2.5-flash-lite",
+              "updated": "2026-06-14T18:31:41+00:00"
+            },
+            "hu": {
+              "value": "Játékos Min",
+              "source_hash": "f196a43b821cdcef831a7beaae7e32a049636ab168a91f82a6b953a84a2465b8",
+              "model": "google/gemini-2.5-flash-lite",
+              "updated": "2026-06-14T18:31:42+00:00"
+            },
+            "it": {
+              "value": "Giocatori Min",
+              "source_hash": "f196a43b821cdcef831a7beaae7e32a049636ab168a91f82a6b953a84a2465b8",
+              "model": "google/gemini-2.5-flash-lite",
+              "updated": "2026-06-14T18:31:43+00:00"
+            },
+            "nl": {
+              "value": "Min. spelers",
+              "source_hash": "f196a43b821cdcef831a7beaae7e32a049636ab168a91f82a6b953a84a2465b8",
+              "model": "google/gemini-2.5-flash-lite",
+              "updated": "2026-06-14T18:31:45+00:00"
+            },
+            "el": {
+              "value": "Παίκτες Ελάχ.",
+              "source_hash": "f196a43b821cdcef831a7beaae7e32a049636ab168a91f82a6b953a84a2465b8",
+              "model": "google/gemini-2.5-flash-lite",
+              "updated": "2026-06-14T18:31:46+00:00"
+            },
+            "es": {
+              "value": "Jugadores Mín",
+              "source_hash": "f196a43b821cdcef831a7beaae7e32a049636ab168a91f82a6b953a84a2465b8",
+              "model": "google/gemini-2.5-flash-lite",
+              "updated": "2026-06-14T18:31:47+00:00"
+            },
+            "uk": {
+              "value": "Гравці Мін",
+              "source_hash": "f196a43b821cdcef831a7beaae7e32a049636ab168a91f82a6b953a84a2465b8",
+              "model": "google/gemini-2.5-flash-lite",
+              "updated": "2026-06-14T18:31:48+00:00"
+            },
+            "pt": {
+              "value": "Jogadores Min",
+              "source_hash": "f196a43b821cdcef831a7beaae7e32a049636ab168a91f82a6b953a84a2465b8",
+              "model": "google/gemini-2.5-flash-lite",
+              "updated": "2026-06-14T18:31:49+00:00"
+            },
+            "cs": {
+              "value": "Min. hráčů",
+              "source_hash": "f196a43b821cdcef831a7beaae7e32a049636ab168a91f82a6b953a84a2465b8",
+              "model": "google/gemini-2.5-flash-lite",
+              "updated": "2026-06-14T18:31:49+00:00"
+            },
+            "sk": {
+              "value": "Min. hráčov",
+              "source_hash": "f196a43b821cdcef831a7beaae7e32a049636ab168a91f82a6b953a84a2465b8",
+              "model": "google/gemini-2.5-flash-lite",
+              "updated": "2026-06-14T18:31:51+00:00"
+            }
+          },
+          "source": "Spieler Min",
+          "source_hash": "f196a43b821cdcef831a7beaae7e32a049636ab168a91f82a6b953a84a2465b8"
+        },
+        "note.group-max": {
+          "translations": {
+            "en": {
+              "value": "Players Max",
+              "source_hash": "1ace39f468c74117b1912d271e567297ad1feacba15e0e7d594f2a96f035b240",
+              "model": "google/gemini-2.5-flash-lite",
+              "updated": "2026-06-14T18:31:40+00:00"
+            },
+            "pl": {
+              "value": "Max Graczy",
+              "source_hash": "1ace39f468c74117b1912d271e567297ad1feacba15e0e7d594f2a96f035b240",
+              "model": "google/gemini-2.5-flash-lite",
+              "updated": "2026-06-14T18:31:41+00:00"
+            },
+            "hu": {
+              "value": "Játékos Max",
+              "source_hash": "1ace39f468c74117b1912d271e567297ad1feacba15e0e7d594f2a96f035b240",
+              "model": "google/gemini-2.5-flash-lite",
+              "updated": "2026-06-14T18:31:42+00:00"
+            },
+            "it": {
+              "value": "Giocatori Max",
+              "source_hash": "1ace39f468c74117b1912d271e567297ad1feacba15e0e7d594f2a96f035b240",
+              "model": "google/gemini-2.5-flash-lite",
+              "updated": "2026-06-14T18:31:43+00:00"
+            },
+            "nl": {
+              "value": "Max. spelers",
+              "source_hash": "1ace39f468c74117b1912d271e567297ad1feacba15e0e7d594f2a96f035b240",
+              "model": "google/gemini-2.5-flash-lite",
+              "updated": "2026-06-14T18:31:45+00:00"
+            },
+            "el": {
+              "value": "Παίκτες Μέγ.",
+              "source_hash": "1ace39f468c74117b1912d271e567297ad1feacba15e0e7d594f2a96f035b240",
+              "model": "google/gemini-2.5-flash-lite",
+              "updated": "2026-06-14T18:31:46+00:00"
+            },
+            "es": {
+              "value": "Jugadores Máx",
+              "source_hash": "1ace39f468c74117b1912d271e567297ad1feacba15e0e7d594f2a96f035b240",
+              "model": "google/gemini-2.5-flash-lite",
+              "updated": "2026-06-14T18:31:47+00:00"
+            },
+            "uk": {
+              "value": "Гравці Макс",
+              "source_hash": "1ace39f468c74117b1912d271e567297ad1feacba15e0e7d594f2a96f035b240",
+              "model": "google/gemini-2.5-flash-lite",
+              "updated": "2026-06-14T18:31:48+00:00"
+            },
+            "pt": {
+              "value": "Jogadores Max",
+              "source_hash": "1ace39f468c74117b1912d271e567297ad1feacba15e0e7d594f2a96f035b240",
+              "model": "google/gemini-2.5-flash-lite",
+              "updated": "2026-06-14T18:31:49+00:00"
+            },
+            "cs": {
+              "value": "Max. hráčů",
+              "source_hash": "1ace39f468c74117b1912d271e567297ad1feacba15e0e7d594f2a96f035b240",
+              "model": "google/gemini-2.5-flash-lite",
+              "updated": "2026-06-14T18:31:49+00:00"
+            },
+            "sk": {
+              "value": "Max. hráčov",
+              "source_hash": "1ace39f468c74117b1912d271e567297ad1feacba15e0e7d594f2a96f035b240",
+              "model": "google/gemini-2.5-flash-lite",
+              "updated": "2026-06-14T18:31:51+00:00"
+            }
+          },
+          "source": "Spieler Max",
+          "source_hash": "1ace39f468c74117b1912d271e567297ad1feacba15e0e7d594f2a96f035b240"
+        },
+        "note.Schwierigkeit": {
+          "translations": {
+            "en": {
+              "value": "Difficulty",
+              "source_hash": "4681c036b1cb18824e07c263580ed8e3fdb715b68bc195af7dcb43888ec1e363",
+              "model": "google/gemini-2.5-flash-lite",
+              "updated": "2026-06-14T18:31:40+00:00"
+            },
+            "pl": {
+              "value": "Poziom trudności",
+              "source_hash": "4681c036b1cb18824e07c263580ed8e3fdb715b68bc195af7dcb43888ec1e363",
+              "model": "google/gemini-2.5-flash-lite",
+              "updated": "2026-06-14T18:31:41+00:00"
+            },
+            "hu": {
+              "value": "Nehézség",
+              "source_hash": "4681c036b1cb18824e07c263580ed8e3fdb715b68bc195af7dcb43888ec1e363",
+              "model": "google/gemini-2.5-flash-lite",
+              "updated": "2026-06-14T18:31:42+00:00"
+            },
+            "it": {
+              "value": "Difficoltà",
+              "source_hash": "4681c036b1cb18824e07c263580ed8e3fdb715b68bc195af7dcb43888ec1e363",
+              "model": "google/gemini-2.5-flash-lite",
+              "updated": "2026-06-14T18:31:43+00:00"
+            },
+            "nl": {
+              "value": "Moeilijkheidsgraad",
+              "source_hash": "4681c036b1cb18824e07c263580ed8e3fdb715b68bc195af7dcb43888ec1e363",
+              "model": "google/gemini-2.5-flash-lite",
+              "updated": "2026-06-14T18:31:45+00:00"
+            },
+            "el": {
+              "value": "Δυσκολία",
+              "source_hash": "4681c036b1cb18824e07c263580ed8e3fdb715b68bc195af7dcb43888ec1e363",
+              "model": "google/gemini-2.5-flash-lite",
+              "updated": "2026-06-14T18:31:46+00:00"
+            },
+            "es": {
+              "value": "Dificultad",
+              "source_hash": "4681c036b1cb18824e07c263580ed8e3fdb715b68bc195af7dcb43888ec1e363",
+              "model": "google/gemini-2.5-flash-lite",
+              "updated": "2026-06-14T18:31:47+00:00"
+            },
+            "uk": {
+              "value": "Складність",
+              "source_hash": "4681c036b1cb18824e07c263580ed8e3fdb715b68bc195af7dcb43888ec1e363",
+              "model": "google/gemini-2.5-flash-lite",
+              "updated": "2026-06-14T18:31:48+00:00"
+            },
+            "pt": {
+              "value": "Dificuldade",
+              "source_hash": "4681c036b1cb18824e07c263580ed8e3fdb715b68bc195af7dcb43888ec1e363",
+              "model": "google/gemini-2.5-flash-lite",
+              "updated": "2026-06-14T18:31:49+00:00"
+            },
+            "cs": {
+              "value": "Obtížnost",
+              "source_hash": "4681c036b1cb18824e07c263580ed8e3fdb715b68bc195af7dcb43888ec1e363",
+              "model": "google/gemini-2.5-flash-lite",
+              "updated": "2026-06-14T18:31:49+00:00"
+            },
+            "sk": {
+              "value": "Obtiažnosť",
+              "source_hash": "4681c036b1cb18824e07c263580ed8e3fdb715b68bc195af7dcb43888ec1e363",
+              "model": "google/gemini-2.5-flash-lite",
+              "updated": "2026-06-14T18:31:51+00:00"
+            }
+          },
+          "source": "Schwierigkeit",
+          "source_hash": "4681c036b1cb18824e07c263580ed8e3fdb715b68bc195af7dcb43888ec1e363"
+        },
+        "note.Material": {
+          "translations": {
+            "en": {
+              "value": "Material",
+              "source_hash": "616cb218a65b982f61fd738e24ebe00d5a2ae039c0d386fed975a51d51b772f8",
+              "model": "google/gemini-2.5-flash-lite",
+              "updated": "2026-06-14T18:31:40+00:00"
+            },
+            "pl": {
+              "value": "Materiały",
+              "source_hash": "616cb218a65b982f61fd738e24ebe00d5a2ae039c0d386fed975a51d51b772f8",
+              "model": "google/gemini-2.5-flash-lite",
+              "updated": "2026-06-14T18:31:41+00:00"
+            },
+            "hu": {
+              "value": "Anyag",
+              "source_hash": "616cb218a65b982f61fd738e24ebe00d5a2ae039c0d386fed975a51d51b772f8",
+              "model": "google/gemini-2.5-flash-lite",
+              "updated": "2026-06-14T18:31:42+00:00"
+            },
+            "it": {
+              "value": "Materiale",
+              "source_hash": "616cb218a65b982f61fd738e24ebe00d5a2ae039c0d386fed975a51d51b772f8",
+              "model": "google/gemini-2.5-flash-lite",
+              "updated": "2026-06-14T18:31:43+00:00"
+            },
+            "nl": {
+              "value": "Materiaal",
+              "source_hash": "616cb218a65b982f61fd738e24ebe00d5a2ae039c0d386fed975a51d51b772f8",
+              "model": "google/gemini-2.5-flash-lite",
+              "updated": "2026-06-14T18:31:45+00:00"
+            },
+            "el": {
+              "value": "Υλικό",
+              "source_hash": "616cb218a65b982f61fd738e24ebe00d5a2ae039c0d386fed975a51d51b772f8",
+              "model": "google/gemini-2.5-flash-lite",
+              "updated": "2026-06-14T18:31:46+00:00"
+            },
+            "es": {
+              "value": "Material",
+              "source_hash": "616cb218a65b982f61fd738e24ebe00d5a2ae039c0d386fed975a51d51b772f8",
+              "model": "google/gemini-2.5-flash-lite",
+              "updated": "2026-06-14T18:31:47+00:00"
+            },
+            "uk": {
+              "value": "Матеріал",
+              "source_hash": "616cb218a65b982f61fd738e24ebe00d5a2ae039c0d386fed975a51d51b772f8",
+              "model": "google/gemini-2.5-flash-lite",
+              "updated": "2026-06-14T18:31:48+00:00"
+            },
+            "pt": {
+              "value": "Material",
+              "source_hash": "616cb218a65b982f61fd738e24ebe00d5a2ae039c0d386fed975a51d51b772f8",
+              "model": "google/gemini-2.5-flash-lite",
+              "updated": "2026-06-14T18:31:49+00:00"
+            },
+            "cs": {
+              "value": "Materiál",
+              "source_hash": "616cb218a65b982f61fd738e24ebe00d5a2ae039c0d386fed975a51d51b772f8",
+              "model": "google/gemini-2.5-flash-lite",
+              "updated": "2026-06-14T18:31:49+00:00"
+            },
+            "sk": {
+              "value": "Materiál",
+              "source_hash": "616cb218a65b982f61fd738e24ebe00d5a2ae039c0d386fed975a51d51b772f8",
+              "model": "google/gemini-2.5-flash-lite",
+              "updated": "2026-06-14T18:31:51+00:00"
+            }
+          },
+          "source": "Material",
+          "source_hash": "616cb218a65b982f61fd738e24ebe00d5a2ae039c0d386fed975a51d51b772f8"
+        },
+        "note.Spieldauer": {
+          "translations": {
+            "en": {
+              "value": "Playtime",
+              "source_hash": "9451120c2a80abee9993eb0608338a5081da76a0dd23cf61c5ab4a183800ac9b",
+              "model": "google/gemini-2.5-flash-lite",
+              "updated": "2026-06-14T18:31:40+00:00"
+            },
+            "pl": {
+              "value": "Czas gry",
+              "source_hash": "9451120c2a80abee9993eb0608338a5081da76a0dd23cf61c5ab4a183800ac9b",
+              "model": "google/gemini-2.5-flash-lite",
+              "updated": "2026-06-14T18:31:41+00:00"
+            },
+            "hu": {
+              "value": "Játékidő",
+              "source_hash": "9451120c2a80abee9993eb0608338a5081da76a0dd23cf61c5ab4a183800ac9b",
+              "model": "google/gemini-2.5-flash-lite",
+              "updated": "2026-06-14T18:31:42+00:00"
+            },
+            "it": {
+              "value": "Durata",
+              "source_hash": "9451120c2a80abee9993eb0608338a5081da76a0dd23cf61c5ab4a183800ac9b",
+              "model": "google/gemini-2.5-flash-lite",
+              "updated": "2026-06-14T18:31:43+00:00"
+            },
+            "nl": {
+              "value": "Speeltijd",
+              "source_hash": "9451120c2a80abee9993eb0608338a5081da76a0dd23cf61c5ab4a183800ac9b",
+              "model": "google/gemini-2.5-flash-lite",
+              "updated": "2026-06-14T18:31:45+00:00"
+            },
+            "el": {
+              "value": "Διάρκεια",
+              "source_hash": "9451120c2a80abee9993eb0608338a5081da76a0dd23cf61c5ab4a183800ac9b",
+              "model": "google/gemini-2.5-flash-lite",
+              "updated": "2026-06-14T18:31:46+00:00"
+            },
+            "es": {
+              "value": "Duración",
+              "source_hash": "9451120c2a80abee9993eb0608338a5081da76a0dd23cf61c5ab4a183800ac9b",
+              "model": "google/gemini-2.5-flash-lite",
+              "updated": "2026-06-14T18:31:47+00:00"
+            },
+            "uk": {
+              "value": "Тривалість гри",
+              "source_hash": "9451120c2a80abee9993eb0608338a5081da76a0dd23cf61c5ab4a183800ac9b",
+              "model": "google/gemini-2.5-flash-lite",
+              "updated": "2026-06-14T18:31:48+00:00"
+            },
+            "pt": {
+              "value": "Duração do Jogo",
+              "source_hash": "9451120c2a80abee9993eb0608338a5081da76a0dd23cf61c5ab4a183800ac9b",
+              "model": "google/gemini-2.5-flash-lite",
+              "updated": "2026-06-14T18:31:49+00:00"
+            },
+            "cs": {
+              "value": "Doba hry",
+              "source_hash": "9451120c2a80abee9993eb0608338a5081da76a0dd23cf61c5ab4a183800ac9b",
+              "model": "google/gemini-2.5-flash-lite",
+              "updated": "2026-06-14T18:31:49+00:00"
+            },
+            "sk": {
+              "value": "Dĺžka hry",
+              "source_hash": "9451120c2a80abee9993eb0608338a5081da76a0dd23cf61c5ab4a183800ac9b",
+              "model": "google/gemini-2.5-flash-lite",
+              "updated": "2026-06-14T18:31:51+00:00"
+            }
+          },
+          "source": "Spieldauer",
+          "source_hash": "9451120c2a80abee9993eb0608338a5081da76a0dd23cf61c5ab4a183800ac9b"
+        }
+      }
+    }
+  }
+}

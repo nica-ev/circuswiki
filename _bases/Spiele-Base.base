@@ -1,3 +1,18 @@
+formulas:
+  link-title: file.aslink(title)
+properties:
+  formula.link-title:
+    displayName: Link
+  note.group-min:
+    displayName: Spieler Min
+  note.group-max:
+    displayName: Spieler Max
+  note.Schwierigkeit:
+    displayName: Schwierigkeit
+  note.Material:
+    displayName: Material
+  note.Spieldauer:
+    displayName: Spieldauer
 views:
   - type: table
     name: Aufwärmspiele MOC
@@ -7,13 +22,19 @@ views:
         - file.hasTag("spiele")
         - category.contains("warm-up")
     order:
-      - file.name
+      - formula.link-title
       - group-min
       - group-max
       - Schwierigkeit
       - Material
       - Spieldauer
+    sort:
+      - property: Schwierigkeit
+        direction: ASC
+      - property: group-max
+        direction: ASC
     columnSize:
+      formula.link-title: 238
       note.group-min: 116
       note.group-max: 121
   - type: table
@@ -24,7 +45,7 @@ views:
         - file.hasTag("spiele")
         - category.contains("bewegung")
     order:
-      - file.name
+      - formula.link-title
       - group-min
       - group-max
       - Schwierigkeit
@@ -41,7 +62,7 @@ views:
         - file.hasTag("spiele")
         - category.contains("cool-down")
     order:
-      - file.name
+      - formula.link-title
       - group-min
       - group-max
       - Schwierigkeit
@@ -58,7 +79,7 @@ views:
         - file.hasTag("spiele")
         - category.contains("fangen")
     order:
-      - file.name
+      - formula.link-title
       - group-min
       - group-max
       - Schwierigkeit
@@ -112,7 +133,7 @@ views:
         - file.hasTag("kaskade")
         - '!type.containsAny("magazin")'
     order:
-      - file.name
+      - formula.link-title
       - authors
       - type
       - sub-type
@@ -128,7 +149,7 @@ views:
         - file.hasTag("spiele")
         - category.contains("klatschspiel")
     order:
-      - file.name
+      - formula.link-title
       - group-min
       - group-max
       - Schwierigkeit
@@ -145,7 +166,7 @@ views:
         - file.hasTag("spiele")
         - category.contains("Kooperation")
     order:
-      - file.name
+      - formula.link-title
       - group-min
       - group-max
       - Schwierigkeit
@@ -163,7 +184,7 @@ views:
         - file.hasTag("spiele")
         - category.contains("kreisspiel")
     order:
-      - file.name
+      - formula.link-title
       - group-min
       - group-max
       - Schwierigkeit
@@ -181,7 +202,7 @@ views:
         - category.contains("beigoma")
         - '!file.hasTag("moc")'
     order:
-      - file.name
+      - formula.link-title
       - group-min
       - group-max
       - Schwierigkeit
@@ -198,7 +219,7 @@ views:
         - file.hasTag("spiele")
         - '!file.hasTag("moc")'
     order:
-      - file.name
+      - formula.link-title
       - group-min
       - group-max
       - Schwierigkeit
@@ -215,7 +236,7 @@ views:
         - file.hasTag("spiele")
         - category.contains("call-response")
     order:
-      - file.name
+      - formula.link-title
       - group-min
       - group-max
       - Schwierigkeit
@@ -232,7 +253,7 @@ views:
         - file.hasTag("spiele")
         - category.contains("action")
     order:
-      - file.name
+      - formula.link-title
       - group-min
       - group-max
       - Schwierigkeit
@@ -249,7 +270,7 @@ views:
         - file.hasTag("spiele")
         - category.contains("sonstiges")
     order:
-      - file.name
+      - formula.link-title
       - group-min
       - group-max
       - Schwierigkeit
@@ -266,7 +287,7 @@ views:
         - file.hasTag("spiele")
         - category.contains("kennenlernen")
     order:
-      - file.name
+      - formula.link-title
       - group-min
       - group-max
       - Schwierigkeit
@@ -283,7 +304,7 @@ views:
         - file.hasTag("spiele")
         - category.contains("Taktik")
     order:
-      - file.name
+      - formula.link-title
       - group-min
       - group-max
       - Schwierigkeit
@@ -300,7 +321,7 @@ views:
         - file.hasTag("spiele")
         - category.contains("inklusion")
     order:
-      - file.name
+      - formula.link-title
       - group-min
       - group-max
       - Schwierigkeit
@@ -316,7 +337,7 @@ views:
         - lang == "de"
         - category.contains("convention-games")
     order:
-      - file.name
+      - formula.link-title
       - category
       - group-max
       - group-min

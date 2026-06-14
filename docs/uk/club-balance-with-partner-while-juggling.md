@@ -11,8 +11,8 @@ tags:
   - juggling
 created: 2026-06-12 00:00:00
 update: 2026-06-12 21:43:41
-title: Баланс клубу з партнером під час жонглювання
-description: Двоє гравців стоять обличчям один до одного і тримають клуби між тілами, наприклад, живіт до живота, груди до грудей та підборіддя до підборіддя.
+title: Баланс булави з партнером під час жонглювання
+description: Двоє партнерів стоять обличчям один до одного і тримають булави між тілами, наприклад, живіт до живота, груди до грудей та підборіддя до підборіддя.
 authors:
   - CircusWiki contributors
 category:
@@ -20,8 +20,8 @@ category:
   - club-games
   - endurance
   - balance
-Schwierigkeit: "mittel"
-Material: "Three clubs per pair, three balls per juggler"
+Schwierigkeit: середній
+Material: Три булави на пару, три м'ячі на жонглера
 Spieldauer: "5-15"
 group-min: 2
 group-max: 20
@@ -36,10 +36,12 @@ translation_source_body_hash: bda7a2163005b65a3272013a971619e75d3311bb677d4528db
 translation_source_hash: bda7a2163005b65a3272013a971619e75d3311bb677d4528db3ec81a570abd33
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-12T21:11:59+00:00
-translation_source_metadata_hash: bb85368121d9ef5182333da6577f9d1843c4e353d1cf09f31486d1146977a8f1
+translation_source_metadata_hash: 9f44a30e106a2f498977cf345545485611638d3cc96a8f9fa27d2023ac1fecee
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T21:11:59+00:00
+translation_metadata_updated: 2026-06-14T15:57:10+00:00
+translation_source_localized_metadata_hash: 9f44a30e106a2f498977cf345545485611638d3cc96a8f9fa27d2023ac1fecee
+translation_source_structural_metadata_hash: 698bda92c7a66b2871ba273f000c92b3e3291f37c016b2ac4582eeb17acb4d98
 ---
 > [!info] Коротка Опис
 > Двоє гравців стають один навпроти одного і тримають кеглі між своїми тілами, наприклад, живіт до живота, груди до грудей та підборіддя до підборіддя.

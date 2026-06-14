@@ -11,16 +11,16 @@ tags:
   - gladiators
 created: 2026-06-12 00:00:00
 update: 2026-06-12 21:07:06
-title: Gladiadores do Clube
-description: O clássico jogo de combate de convenção onde malabaristas de clava tentam ser os últimos a continuar malabarizando.
+title: Gladiadores de Clava
+description: O clássico jogo de combate de convenção onde malabaristas de clava tentam ser os últimos a malabarizar.
 authors:
   - CircusWiki contributors
 category:
   - convention-games
   - juggling
   - knockout
-Schwierigkeit: schwer
-Material: Three juggling clubs per player, marked arena
+Schwierigkeit: difícil
+Material: Três claves de malabarismo por jogador, arena marcada
 Spieldauer: "5-15"
 group-min: 3
 group-max: 80
@@ -31,19 +31,21 @@ source_url: https://ucircus.co.uk/resources-circus-games/
 source_image: ../img/club-gladiators.jpg
 source_permission: public group photo reviewed as reusable by project maintainer
 translation_source: docs/en/club-gladiators.md
-translation_source_body_hash: 296d08c1d535a61873b2727cbcc7549166194b0cabbc71410016ca7caedc6e73
-translation_source_hash: 296d08c1d535a61873b2727cbcc7549166194b0cabbc71410016ca7caedc6e73
+translation_source_body_hash: 1c9ae1f0d108f500d94ef984d282b32ae110117fe8b971443ce8471d4aee8682
+translation_source_hash: 1c9ae1f0d108f500d94ef984d282b32ae110117fe8b971443ce8471d4aee8682
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-12T21:43:08+00:00
-translation_source_metadata_hash: bbffbeb7fd5c6525894d04346e31e95324cc01144a7c3429c0aa1f7b6f1f9641
+translation_updated: 2026-06-14T19:38:06+00:00
+translation_source_metadata_hash: 50547229720e7c79def6b0f4e4e90d0937c38baa7852bd1a89efbafacb65caf8
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T21:43:08+00:00
+translation_metadata_updated: 2026-06-14T19:38:06+00:00
+translation_source_localized_metadata_hash: 50547229720e7c79def6b0f4e4e90d0937c38baa7852bd1a89efbafacb65caf8
+translation_source_structural_metadata_hash: 0ee621f211b20bf84157d307c4b078c04f1a9f9b28b33253269cbbce862f6fc0
 ---
 > [!info] Descrição Curta
-> O clássico jogo de combate de convenção onde malabaristas de clavas tentam ser os últimos a continuar a malabarizar.
+> O clássico jogo de combate de convenção onde malabaristas de clavas tentam ser a última pessoa a continuar a fazer malabarismo.
 
-![[../img/club-gladiators.jpg|300]]
+![club-gladiators](../img/club-gladiators.jpg){ width=300 }
 
 **Tamanho do Grupo**: 3 a 80 jogadores
 **Dificuldade**: Difícil
@@ -52,7 +54,7 @@ translation_metadata_updated: 2026-06-12T21:43:08+00:00
 
 ## Descrição do Jogo
 
-Todos malabareiam três clavas na mesma arena. Os jogadores atacam os padrões de malabarismo dos oponentes enquanto mantêm o seu próprio padrão ativo.
+Todos fazem malabarismo com três clavas na mesma arena. Os jogadores atacam os padrões de malabarismo dos oponentes enquanto mantêm o seu próprio padrão ativo.
 
 ## Preparação
 
@@ -62,11 +64,11 @@ Todos malabareiam três clavas na mesma arena. Os jogadores atacam os padrões d
 
 ## Regras
 
-1. Todos os jogadores começam a malabarizar três clavas juntos.
-2. Os jogadores movem-se pela arena e tentam fazer com que os oponentes larguem as clavas, perturbando os seus padrões de malabarismo.
-3. Um jogador é eliminado quando larga as clavas, recolhe, para de malabarizar ou já não tem as três clavas necessárias no padrão.
+1. Todos os jogadores começam a fazer malabarismo com três clavas juntos.
+2. Os jogadores movem-se pela arena e tentam fazer os oponentes largar as clavas, perturbando os seus padrões.
+3. Um jogador é eliminado quando larga as clavas, recolhe, para de fazer malabarismo ou já não tem as três clavas necessárias no padrão.
 4. Os jogadores eliminados param imediatamente de interferir e saem do campo.
-5. O último jogador a continuar a malabarizar ganha a ronda.
+5. O último jogador a continuar a fazer malabarismo ganha a ronda.
 
 ## Variações
 
@@ -76,7 +78,7 @@ Todos malabareiam três clavas na mesma arena. Os jogadores atacam os padrões d
 
 ## Notas de Segurança
 
-O conjunto de regras públicas deve proibir explicitamente ataques a corpos e lançamentos perigosos para rostos.
+O conjunto de regras públicas deve proibir explicitamente ataques aos corpos e lançamentos perigosos para os rostos.
 
 ## Fonte
 

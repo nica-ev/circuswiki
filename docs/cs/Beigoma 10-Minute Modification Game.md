@@ -7,14 +7,14 @@ tags:
   - beigoma
 created: 2026-06-11 00:00:00
 update: 2026-06-11 17:31:57
-title: Beigoma: 10minutová modifikační hra
-description: Hra Beigoma ve stylu „maker“, kde hráči mají krátkou časovou fázi na úpravu káči před testováním jejího výkonu ve spinu nebo v zápase.
+title: Beigoma: Hra s 10minutovou úpravou
+description: "Hra Beigoma ve stylu \"maker\", kde hráči mají krátkou časově omezenou fázi na úpravu své káči před testováním jejího roztočení nebo výkonu v zápase."
 authors:
   - Marc Bielert
 category:
   - beigoma
-Schwierigkeit: schwer
-Material: Beigoma, strings, playing floor, files, sandpaper, safety equipment, timer
+Schwierigkeit: těžká
+Material: Beigoma, provázky, hrací plocha, pilníky, brusný papír, bezpečnostní vybavení, časovač
 Spieldauer: 20-45
 source:
   - Tokyo Beigoma
@@ -30,10 +30,12 @@ translation_source_body_hash: 9f1dc51cc10e86474298c87409acad691121da59b6889a9628
 translation_source_hash: 9f1dc51cc10e86474298c87409acad691121da59b6889a9628521944ff92d154
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-11T15:33:27+00:00
-translation_source_metadata_hash: 2afeb60e63d771d8d6189e029e6521d2270bf630f533fbe45bf6b7bbc250376f
+translation_source_metadata_hash: 99fce950987aad27751065f67bdd78aa00cea03015b23938e27ef0e38711fa06
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-11T15:33:27+00:00
+translation_metadata_updated: 2026-06-14T15:38:53+00:00
+translation_source_localized_metadata_hash: 99fce950987aad27751065f67bdd78aa00cea03015b23938e27ef0e38711fa06
+translation_source_structural_metadata_hash: 8432d6e4150c4229fb29528b68bde74b91738375416eac646d0500046f61425e
 ---
 > [!info] Stručný popis
 > Hra typu „maker“ s beigomou, kde hráči mají krátkou časově omezenou fázi na úpravu své káči před testováním jejího vyvážení nebo výkonu v zápase.

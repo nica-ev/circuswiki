@@ -6,14 +6,14 @@ tags:
   - spiele
 created: 2025-01-24 03:50:51
 update: 2025-03-18 01:58:45
-title: Hledané dítě
+title: Hledací dítě
 description: Seznamovací hra, kde děti hledají vhodné členy skupiny na základě charakteristických vodítek.
 authors:
   - Marc Bielert
 category:
   - kennenlernen
-Schwierigkeit: mittel
-Material: keines
+Schwierigkeit: střední
+Material: žádný
 Spieldauer: 20 -  30
 source: Portmann2009
 group-min: 5
@@ -26,10 +26,12 @@ translation_source_hash: 1a21bcbde76b56380cbf9015e82c1b8d2682e6e3de839d863c19812
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:29:37+00:00
 translation_source_body_hash: 1a21bcbde76b56380cbf9015e82c1b8d2682e6e3de839d863c19812f0047418b
-translation_source_metadata_hash: 5235ad04525c686e603af98bed5fd2a081de17d7468e53e5c40f38eece339b95
+translation_source_metadata_hash: 60b126922692912e62e13c670db12f596ddedfdc0a66dca46db0d515c57adf72
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T19:08:47+00:00
+translation_metadata_updated: 2026-06-14T16:21:48+00:00
+translation_source_localized_metadata_hash: 60b126922692912e62e13c670db12f596ddedfdc0a66dca46db0d515c57adf72
+translation_source_structural_metadata_hash: 7973b8232e3aba6de554e189db973c66545f8fc920553647392db8f9e986196f
 ---
 > [!info] Stručný popis
 > Seznamovací hra, při které si děti pomocí charakteristických indicií najdou vhodné členy skupiny.

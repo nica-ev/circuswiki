@@ -9,15 +9,15 @@ tags:
   - gladiators
 created: 2026-06-12 00:00:00
 update: 2026-06-12 21:46:23
-title: Gladiatori con Diabolo Propulsore
-description: I giocatori mantengono in movimento un diabolo propulsore mentre giocano a un round di eliminazione in stile gladiatori.
+title: Diavolo Bastone Elica Gladiatori
+description: I giocatori mantengono in movimento un'elica di diavolo bastone mentre giocano un round a eliminazione in stile gladiatori.
 authors:
   - CircusWiki contributors
 category:
   - convention-games
   - gladiators
-Schwierigkeit: "mittel"
-Material: "Devil sticks and handsticks"
+Schwierigkeit: medio
+Material: Diavolo bastoni e bacchette
 Spieldauer: "5-15"
 group-min: 3
 group-max: 60
@@ -32,10 +32,12 @@ translation_source_body_hash: 6efb7995b4f5f1da94ff8431a84470e1661a626bc326a8c2d3
 translation_source_hash: 6efb7995b4f5f1da94ff8431a84470e1661a626bc326a8c2d3abfd0cb6be2497
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-12T21:14:15+00:00
-translation_source_metadata_hash: 13dea30fde22878df1925d718d3cb2c3655c3608f33a92471eb12e52336284ff
+translation_source_metadata_hash: c27f33c9f7474fec3c402c089310cafccd409e3ca9a10f005e955cdda9db4f81
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T21:14:15+00:00
+translation_metadata_updated: 2026-06-14T15:57:52+00:00
+translation_source_localized_metadata_hash: c27f33c9f7474fec3c402c089310cafccd409e3ca9a10f005e955cdda9db4f81
+translation_source_structural_metadata_hash: b10a44cd7b151642166ea0caee43ccd56d0b990121aab729db8734edba27b1cd
 ---
 > [!info] Breve Descrizione
 > I giocatori mantengono in movimento un diavolo in volo (devil-stick) mentre partecipano a un round di eliminazione in stile gladiatori.

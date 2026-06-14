@@ -10,8 +10,8 @@ tags:
   - catching
 created: 2026-06-12 00:00:00
 update: 2026-06-12 22:45:03
-title: Υψηλότερη Ρίψη Diabolo
-description: Διαγωνισμός ρίψης diabolo όπου κερδίζει η υψηλότερη καθαρή ρίψη και πιάσιμο.
+title: Υψηλότερη Ρίψη Διάβολο
+description: Διαγωνισμός ρίψης διάβολο όπου κερδίζει η υψηλότερη καθαρή ρίψη και πιάσιμο.
 authors:
   - CircusWiki contributors
 category:
@@ -19,8 +19,8 @@ category:
   - diabolo
   - throwing
   - catching
-Schwierigkeit: "mittel"
-Material: "One diabolo and handsticks per player, open high space"
+Schwierigkeit: μεσαίο
+Material: Ένας διάβολος και μπαστούνια ανά παίκτη, ανοιχτός ψηλός χώρος
 Spieldauer: "5-10"
 group-min: 2
 group-max: 40
@@ -35,34 +35,36 @@ source_permission: "public-place images reviewed as reusable by project maintain
 aliases:
   - Highest Throw
 translation_source: docs/en/diabolo-highest-throw.md
-translation_source_body_hash: c3162937bee4493f593c9f81cf481815c573d6987b324367766d1839ce477763
-translation_source_hash: c3162937bee4493f593c9f81cf481815c573d6987b324367766d1839ce477763
+translation_source_body_hash: b66ce9655589d49184595dfe9733a4b83b29ab92f9f4f1f161185325423ef411
+translation_source_hash: b66ce9655589d49184595dfe9733a4b83b29ab92f9f4f1f161185325423ef411
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-12T21:15:28+00:00
-translation_source_metadata_hash: f52f7c7bf3f1d71b41767f4bf71ce499aa0734345d320e3cbf10f98d2e04a397
+translation_updated: 2026-06-14T19:28:11+00:00
+translation_source_metadata_hash: b60fe45a1e155575c078bea0e94e472f0d7ed9e027c1bc8e12bdc70a5be66376
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T21:15:28+00:00
+translation_metadata_updated: 2026-06-14T19:28:11+00:00
+translation_source_localized_metadata_hash: b60fe45a1e155575c078bea0e94e472f0d7ed9e027c1bc8e12bdc70a5be66376
+translation_source_structural_metadata_hash: 28272c76a617bb54caa13fa874e48c644ad1f882db6519d1f0fd0a9cd7e08043
 ---
 > [!info] Σύντομη Περιγραφή
 > Ένας διαγωνισμός ρίψης διαβόλου όπου η υψηλότερη καθαρή ρίψη και πιάσιμο κερδίζει.
 
-![[../img/diabolo-highest-throw.jpg|300]]
+![diabolo-highest-throw](../img/diabolo-highest-throw.jpg){ width=300 }
 
 **Μέγεθος Ομάδας**: 2 έως 40 παίκτες
 **Δυσκολία**: μέτρια
-**Υλικά**: Ένας διάβολος και χερούλια ανά παίκτη, ανοιχτός χώρος με ύψος
+**Υλικά**: Ένας διάβολος και δύο μπαστούνια ανά παίκτη, ανοιχτός χώρος με ύψος
 **Διάρκεια**: περίπου 5-10 λεπτά
 
 ## Περιγραφή Παιχνιδιού
 
-Όλοι οι παίκτες ρίχνουν τους διαβόλους τους ψηλά ταυτόχρονα και πρέπει να τους πιάσουν καθαρά για να παραμείνουν στο παιχνίδι. Ένας παίκτης αποκλείεται αν η ρίψη είναι επικίνδυνη, ανέφικτη ή αν δεν πιαστεί καθαρά.
+Όλοι οι παίκτες ρίχνουν τους διαβόλους τους ψηλά ταυτόχρονα και πρέπει να τους πιάσουν καθαρά για να παραμείνουν στο παιχνίδι. Ένας παίκτης αποκλείεται αν η ρίψη είναι επικίνδυνη, απρόσιτη ή αν δεν την πιάσει καθαρά.
 
-Επαναλάβετε γύρους μέχρι να απομείνουν λίγοι παίκτες. Στον τελικό, ο νικητής είναι ο παίκτης που κάνει την υψηλότερη ασφαλή ρίψη και την πιάνει.
+Επαναλάβετε γύρους μέχρι να παραμείνουν μόνο λίγοι παίκτες. Στον τελικό, ο νικητής είναι ο παίκτης που θα κάνει την υψηλότερη ασφαλή ρίψη και θα καταφέρει να την πιάσει.
 
-## Στήσιμο
+## Προετοιμασία
 
-- Χρησιμοποιήστε μια ψηλή κλειστή αίθουσα ή εξωτερικό χώρο χωρίς εμπόδια από πάνω.
+- Χρησιμοποιήστε μια ψηλή κλειστή αίθουσα ή έναν εξωτερικό χώρο χωρίς εμπόδια από πάνω.
 - Οριοθετήστε μια περιοχή ρίψης και κρατήστε τους θεατές μακριά από τη ζώνη προσγείωσης.
 - Αποφασίστε αν οι παίκτες πρέπει να πιάσουν τον δικό τους διάβολο ή αν μπορούν να πιάσουν οποιονδήποτε διάβολο.
 
@@ -71,15 +73,15 @@ translation_metadata_updated: 2026-06-12T21:15:28+00:00
 - Επιτρέψτε το πιάσιμο οποιουδήποτε διαβόλου για χαοτικό παιχνίδι.
 - Απαιτήστε από κάθε παίκτη να πιάσει τον δικό του διάβολο για μια πιο αυστηρή εκδοχή.
 - Χρησιμοποιήστε την απόσταση από τον εαυτό αντί για το ύψος.
-- Επιτρέψτε τα πιασίματα από συμπαίκτη για μια ομαδική εκδοχή.
+- Επιτρέψτε το πιάσιμο από συμπαίκτη για μια ομαδική εκδοχή.
 
 ## Σημειώσεις Ασφαλείας
 
-Οι ψηλοί διάβολοι είναι σκληροί και απρόβλεπτοι. Καθαρίστε την περιοχή προσγείωσης και σταματήστε αν οι ρίψεις κατευθύνονται προς τους θεατές.
+Οι ψηλοί διάβολοι είναι σκληροί και απρόβλεπτοι. Καθαρίστε τη ζώνη προσγείωσης και σταματήστε αν οι ρίψεις κατευθύνονται προς τους θεατές.
 
 ## Πηγή
 
 - [JugglingWorld - Juggling Games](https://www.jugglingworld.biz/tricks/juggling-games/), ενότητα: Diabolo Games, τίτλος: Highest Throw.
-- [Σελίδα παιχνιδιών τσίρκου του UCircus](https://ucircus.co.uk/resources-circus-games/), κάρτα πηγής: Diabolo Highest Throw.
+- [UCircus circus games page](https://ucircus.co.uk/resources-circus-games/), κάρτα πηγής: Diabolo Highest Throw.
 - Μαθήματα UCircus: Diabolo.
 - Εικόνα αναφοράς UCircus: `../img/diabolo-highest-throw.jpg`.

@@ -10,15 +10,15 @@ tags:
 created: 2026-06-12 00:00:00
 update: 2026-06-12 22:09:50
 title: Prove
-description: Una competizione giudicata di ostacoli per monociclo.
+description: Una competizione giudicata di unicycle su un percorso a ostacoli.
 authors:
   - CircusWiki contributors
 category:
   - convention-games
   - unicycle
   - obstacle-course
-Schwierigkeit: "schwer"
-Material: "Unicycles, obstacle course, stopwatch"
+Schwierigkeit: difficile
+Material: Monoruota, percorso a ostacoli, cronometro
 Spieldauer: "5-15"
 group-min: 2
 group-max: 40
@@ -33,10 +33,12 @@ translation_source_body_hash: 15b4e6592b5146f5e53f9e56be22525c0689ccdb634e23b389
 translation_source_hash: 15b4e6592b5146f5e53f9e56be22525c0689ccdb634e23b389dea7581e70e8e6
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-12T21:35:40+00:00
-translation_source_metadata_hash: c076ea164d99509c4223a696a25c2ea056ba622660852408a5848fd697d50ff7
+translation_source_metadata_hash: 81ad4a888f39dc803c7b84c2c0fe852f44927d87ca4c7af415bba0e3e0b8b80c
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T21:35:40+00:00
+translation_metadata_updated: 2026-06-14T16:04:07+00:00
+translation_source_localized_metadata_hash: 81ad4a888f39dc803c7b84c2c0fe852f44927d87ca4c7af415bba0e3e0b8b80c
+translation_source_structural_metadata_hash: 7a966a0a157231f19d15764268802e5efef9f3141b8e606a60a7e5cc257e5b0d
 ---
 > [!info] Breve Descrizione
 > Una competizione giudicata di percorso a ostacoli su monociclo.

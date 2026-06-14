@@ -6,7 +6,7 @@ update: 2026-06-06 21:48:39
 publish: false
 tags:
   - case-study
-title: Colores y Patrones para Desbloquear Interacciones Amigables
+title: Colores y Patrones para Desbloquear Interacciones Amistosas
 description:
 authors:
   - Monokyklo team
@@ -19,10 +19,12 @@ translation_source_hash: 71a0dd1e0d3b774dff4b22ecd17d1e14698dfd08d569cba7531dca9
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-07T14:00:43+00:00
 translation_source_body_hash: 71a0dd1e0d3b774dff4b22ecd17d1e14698dfd08d569cba7531dca9043a25219
-translation_source_metadata_hash: c094ae3f3c48f5e1eb5fc8efcbfc3855c0fac9449864c5db3b2ef0bc8918e854
+translation_source_metadata_hash: 5f59af0d7e77c6d52bd4f165628eba832812d0229bdcb155f1a6fa5469151250
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:05:49+00:00
+translation_metadata_updated: 2026-06-14T15:42:27+00:00
+translation_source_localized_metadata_hash: 5f59af0d7e77c6d52bd4f165628eba832812d0229bdcb155f1a6fa5469151250
+translation_source_structural_metadata_hash: 40cb7e5c454b7ae7c5307a0e2c6c712db9b417f41471fbef18eb6d58cc49f1c7
 ---
 # **Colores y Patrones para Fomentar Interacciones Amistosas**
 

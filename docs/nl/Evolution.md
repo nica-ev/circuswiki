@@ -12,8 +12,8 @@ authors:
   - Marc Bielert
 category:
   - sonstiges
-Schwierigkeit: einfach
-Material: keines
+Schwierigkeit: eenvoudig
+Material: geen
 Spieldauer: 10
 source: Tasifan Spielebuch
 group-min: 12
@@ -25,10 +25,12 @@ translation_source_hash: 3d2da63c5fc6fca6873d46ff40837beeea3229ab05bc844cb7ccbe8
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:36:40+00:00
 translation_source_body_hash: 3d2da63c5fc6fca6873d46ff40837beeea3229ab05bc844cb7ccbe8ed2dc99b0
-translation_source_metadata_hash: 0482ec5a7495b5a955372ad0145a09f3738f32162ce111193f7d33e006c9f845
+translation_source_metadata_hash: f060a2fdae7e4de1ab05cd1f3a774856e6f6da316b9c92903f49e93d92ab1732
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:45:55+00:00
+translation_metadata_updated: 2026-06-14T15:48:31+00:00
+translation_source_localized_metadata_hash: f060a2fdae7e4de1ab05cd1f3a774856e6f6da316b9c92903f49e93d92ab1732
+translation_source_structural_metadata_hash: bc3b11214cd3fe97ea51b453f06845a33b220c2e601ea04e79637f1b60ae106d
 ---
 > [!info] Korte beschrijving
 > Een bewegingsspel met steen-papier-schaar, waarbij personen door evolutiestadia stijgen en dalen.

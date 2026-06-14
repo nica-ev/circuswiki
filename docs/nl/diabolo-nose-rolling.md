@@ -9,14 +9,14 @@ tags:
 created: 2026-06-12 00:00:00
 update: 2026-06-12 21:46:55
 title: Diabolo neusrollen
-description: Alle diabolos beginnen op de grond bij een startlijn.
+description: Alle diabolos beginnen op de grond aan een startlijn.
 authors:
   - CircusWiki contributors
 category:
   - convention-games
   - diabolo
-Schwierigkeit: "einfach"
-Material: "Diabolos, start and finish line"
+Schwierigkeit: eenvoudig
+Material: Diabolos, start- en finishlijn
 Spieldauer: "5-15"
 group-min: 2
 group-max: 40
@@ -28,19 +28,21 @@ source_section: "Diabolo Games"
 source_image: "../img/game-diabolo-nose-rolling.jpg"
 source_permission: "public-place image reviewed as reusable by project maintainer"
 translation_source: docs/en/diabolo-nose-rolling.md
-translation_source_body_hash: 91261b1617d8ad472155d66fee8fee5baae956ee8c56452c32df6372236fc3f5
-translation_source_hash: 91261b1617d8ad472155d66fee8fee5baae956ee8c56452c32df6372236fc3f5
+translation_source_body_hash: e1be7bcfa6e9ab2c327a1c09364f61b2d898930e35447f3a21fb42d8f8c56bbf
+translation_source_hash: e1be7bcfa6e9ab2c327a1c09364f61b2d898930e35447f3a21fb42d8f8c56bbf
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-12T21:15:57+00:00
-translation_source_metadata_hash: 95a2c8b6814cd824882ac34b2ac3593dc8eec4b61a9afb443b7d77cc1ba4eb3c
+translation_updated: 2026-06-14T19:28:38+00:00
+translation_source_metadata_hash: 169851ee2ea0ab7b70375abd9189fe2ed5bf96fe4be44800eba20906c7f78fc9
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T21:15:57+00:00
+translation_metadata_updated: 2026-06-14T19:28:38+00:00
+translation_source_localized_metadata_hash: 169851ee2ea0ab7b70375abd9189fe2ed5bf96fe4be44800eba20906c7f78fc9
+translation_source_structural_metadata_hash: 872d50d5f1392aeaee766ab2e1205a113c840969bd76cdb8a9d81dc16ff7948b
 ---
 > [!info] Korte beschrijving
 > Alle diabolos beginnen op de grond bij een startlijn.
 
-![[../img/game-diabolo-nose-rolling.jpg|300]]
+![game-diabolo-nose-rolling](../img/game-diabolo-nose-rolling.jpg){ width=300 }
 
 **Groepsgrootte**: 2 tot 40 spelers  
 **Moeilijkheidsgraad**: eenvoudig  

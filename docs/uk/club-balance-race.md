@@ -11,15 +11,15 @@ tags:
 created: 2026-06-12 00:00:00
 update: 2026-06-12 21:42:27
 title: Гонка з балансуванням булави
-description: Гравці змагаються, балансуючи булавою або подібним предметом на підборідді.
+description: Гравці змагаються, балансуючи булаву або подібний предмет на підборідді.
 authors:
   - CircusWiki contributors
 category:
   - convention-games
   - race
   - balance
-Schwierigkeit: "mittel"
-Material: "Club or balance object, race markers"
+Schwierigkeit: середній
+Material: Булава або предмет для балансування, маркери для дистанції
 Spieldauer: "5-15"
 group-min: 3
 group-max: 60
@@ -31,19 +31,21 @@ source_section: "Balancing Games"
 source_image: "../img/games-club-balance-guiness.jpg"
 source_permission: "public-place image reviewed as reusable by project maintainer"
 translation_source: docs/en/club-balance-race.md
-translation_source_body_hash: 7292f3a57373785d9b1298d0378f4fa6f9c73ce9bb4d576c00754f3b63a61760
-translation_source_hash: 7292f3a57373785d9b1298d0378f4fa6f9c73ce9bb4d576c00754f3b63a61760
+translation_source_body_hash: 8264275277f52db246023d9744437abc4182108234d05a14b5159e6dc5020fab
+translation_source_hash: 8264275277f52db246023d9744437abc4182108234d05a14b5159e6dc5020fab
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-12T21:11:29+00:00
-translation_source_metadata_hash: 040c7b0d5a13a72cf882cc33b20cde89c350cea2c32892c5dd795ebd75616acd
+translation_updated: 2026-06-14T19:26:28+00:00
+translation_source_metadata_hash: f4df1755ddb18a1c94d82d3a6cbf4b30eceb633d5bc85a820c58cc581bda14bd
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T21:11:29+00:00
+translation_metadata_updated: 2026-06-14T19:26:28+00:00
+translation_source_localized_metadata_hash: f4df1755ddb18a1c94d82d3a6cbf4b30eceb633d5bc85a820c58cc581bda14bd
+translation_source_structural_metadata_hash: 31b3ee026ffd42aeb47acdc5d2a3915ae9ddde8025eb89d4a41ccad3b9742351
 ---
 > [!info] Коротка Опис
-> Гравці змагаються, балансуючи палицю або подібний предмет на підборідді.
+> Гравці змагаються, тримаючи на підборідді палицю або подібний предмет.
 
-![[../img/games-club-balance-guiness.jpg|300]]
+![games-club-balance-guiness](../img/games-club-balance-guiness.jpg){ width=300 }
 
 **Кількість гравців**: від 3 до 60  
 **Складність**: середня  
@@ -52,7 +54,7 @@ translation_metadata_updated: 2026-06-12T21:11:29+00:00
 
 ## Опис гри
 
-Гравці змагаються, балансуючи палицю або подібний предмет на підборідді. Перемагає той, хто першим дістанеться фінішу, не впустивши предмет.
+Гравці змагаються, тримаючи на підборідді палицю або подібний предмет. Перемагає той, хто першим дістанеться фінішу, не впустивши предмет.
 
 ## Варіанти
 
@@ -60,7 +62,7 @@ translation_metadata_updated: 2026-06-12T21:11:29+00:00
 
 ## Заходи безпеки
 
-Переконайтеся, що ігровий майданчик вільний, і визначте його межі перед початком раунду. У контактних іграх цільтеся в реквізит, а не в тіла гравців. У іграх, що передбачають кидки, їзду, балансування або акробатику, залишайте достатньо простору для невдалих спроб і зупиняйте раунд, якщо група починає наражатися на небезпеку.
+Перед початком раунду переконайтеся, що ігровий майданчик вільний, і визначте його межі. У контактних іграх цільтеся в предмети, а не в тіла. У іграх, що передбачають кидки, їзду, балансування або акробатику, залишайте достатньо місця для невдалих спроб і зупиняйте раунд, якщо група починає наражатися на небезпеку.
 
 ## Джерело
 

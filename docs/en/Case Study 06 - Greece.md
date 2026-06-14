@@ -15,7 +15,6 @@ land: Greece
 translation_status: original
 translation_source_lang: en
 ---
-
 # **Feeling Safe: A Key for Autism**
 
 [Monokyklo](Monokyklo.md) - Thessaloniki, Greece
@@ -23,7 +22,7 @@ translation_source_lang: en
 
 ## **The Beginning**  
 
-![monokyklo_colours_and_patterns.jpg|200](../img/monokyklo_colours_and_patterns.jpg)
+![monokyklo_colours_and_patterns.jpg](../img/monokyklo_colours_and_patterns.jpg){ width=200 }
 The **Monokyklo team** introduced methods of *Functional Juggling* in Thessaloniki, with the primary goal of making **circus arts accessible to people with disabilities**. The team was composed of trainers with backgrounds in circus arts and specific training in Functional Juggling, gained through participation in international seminars and facilitator courses.
 
 The project, titled **“A Rolling Ball”**, was designed as an **integrated intervention** at various **Disability Daycare Centers (DDCs)** in Thessaloniki. It aimed to offer a **creative, inclusive space for expression** through the language of juggling and movement.
@@ -47,7 +46,7 @@ From that point on, Nikolas **never missed a session**. He **remembered the comb
 
 Through this process, we witnessed a clear **increase in Nikolas’s self-confidence**, **communication skills**, and **social openness**. His journey is just one example of the **transformative power of Functional Juggling**, both for **psycho-emotional growth** and **physical activation**.
 
-![monokyklo_feelingsafe_autism.jpg|400](../img/monokyklo_feelingsafe_autism.jpg){ align=left }
+![monokyklo_feelingsafe_autism.jpg](../img/monokyklo_feelingsafe_autism.jpg){ align=left width=400 }
 
 ---
 

@@ -10,16 +10,16 @@ tags:
   - balance
 created: 2026-06-12 00:00:00
 update: 2026-06-12 21:59:42
-title: Equilibrio de Objetos y Resistencia
-description: Los jugadores equilibran un objeto acordado, como una porra o incluso un monociclo, en la barbilla u otro punto de equilibrio definido.
+title: Equilibrio de Objetos en Resistencia
+description: Los jugadores equilibran un objeto acordado, como una maza o incluso un monociclo, en la barbilla u otro punto de equilibrio definido.
 authors:
   - CircusWiki contributors
 category:
   - convention-games
   - endurance
   - balance
-Schwierigkeit: "schwer"
-Material: "Clubs, unicycles or other balance objects"
+Schwierigkeit: difícil
+Material: Mazas, monociclos u otros objetos de equilibrio
 Spieldauer: "5-15"
 group-min: 3
 group-max: 60
@@ -31,19 +31,21 @@ source_section: "Balancing Games"
 source_image: "../img/games-club-balance-guiness.jpg"
 source_permission: "public-place image reviewed as reusable by project maintainer"
 translation_source: docs/en/object-balance-endurance.md
-translation_source_body_hash: 084f4fa7aed1a528d38a466c706922afd98c607031bd3b67d11141ee0d8bf6dc
-translation_source_hash: 084f4fa7aed1a528d38a466c706922afd98c607031bd3b67d11141ee0d8bf6dc
+translation_source_body_hash: 6e35f9a216b24c16461b1735cc5d44861b18146f024132b5bdb7558230c9b62a
+translation_source_hash: 6e35f9a216b24c16461b1735cc5d44861b18146f024132b5bdb7558230c9b62a
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-12T21:29:21+00:00
-translation_source_metadata_hash: 87fb57cb88f6322f1ad908fae0c71bce2af0f789a13d46252bbf4baa270265f8
+translation_updated: 2026-06-14T19:30:17+00:00
+translation_source_metadata_hash: 3384f478fe4b9c67a3db88b20b3fecf134df4d40edbcbbd9c5604c12c7b9c2e0
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T21:29:21+00:00
+translation_metadata_updated: 2026-06-14T19:30:17+00:00
+translation_source_localized_metadata_hash: 3384f478fe4b9c67a3db88b20b3fecf134df4d40edbcbbd9c5604c12c7b9c2e0
+translation_source_structural_metadata_hash: 152e8a0d347c6c224dd3963056555e9edc5c8afc5a3e11660258b8581ebf5626
 ---
 > [!info] Descripción Breve
 > Los jugadores equilibran un objeto acordado, como una clava o incluso un monociclo, en la barbilla u otro punto de equilibrio definido.
 
-![[../img/games-club-balance-guiness.jpg|300]]
+![games-club-balance-guiness](../img/games-club-balance-guiness.jpg){ width=300 }
 
 **Tamaño del grupo**: 3 a 60 jugadores  
 **Dificultad**: Difícil  
@@ -60,7 +62,7 @@ Añade movimiento o un pequeño circuito de obstáculos si el equilibrio básico
 
 ## Notas de Seguridad
 
-Mantén despejada el área de juego y define los límites antes de que comience la ronda. En los juegos de contacto, apunta a los objetos en lugar de a los cuerpos. Para juegos de lanzamiento, de montar, de equilibrio o acrobáticos, deja suficiente espacio para los intentos fallidos y detén la ronda si el grupo empieza a asumir riesgos inseguros.
+Mantén despejada la zona de juego y define los límites antes de que comience la ronda. En los juegos de contacto, apunta a los objetos en lugar de a los cuerpos. En los juegos de lanzamiento, conducción, equilibrio o acrobacias, deja suficiente espacio para los intentos fallidos y detén la ronda si el grupo empieza a asumir riesgos inseguros.
 
 ## Fuente
 

@@ -7,7 +7,7 @@ publish: draft
 tags:
   - tutorial
   - kaskade
-title: Workshop Cascade - La pagina delle colonne
+title: Workshop Cascata - Il Lato della Colonna
 description: 
 authors:
   - Dr. P. Luftiko
@@ -21,10 +21,12 @@ translation_source_hash: b03c66086dd523e662d48ae655f9405ebc4b1760773b89c3e4528ee
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-06T23:00:19+00:00
 translation_source_body_hash: b03c66086dd523e662d48ae655f9405ebc4b1760773b89c3e4528eeb70d9af4d
-translation_source_metadata_hash: 51814096618e8dd23c2e61b2f9008bed308ae512fcf0171aa0f09c4715685fe7
+translation_source_metadata_hash: 4879ea93368382a35c2a15bf1ac71acc7eb2ea885ef43b47bb622ed57a4ef0dc
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:09:26+00:00
+translation_metadata_updated: 2026-06-14T15:46:13+00:00
+translation_source_localized_metadata_hash: 4879ea93368382a35c2a15bf1ac71acc7eb2ea885ef43b47bb622ed57a4ef0dc
+translation_source_structural_metadata_hash: 35742059b328056db2c145526183c568e27edafab95d085da474dfd908682a93
 ---
 ### La colonna
 Fonte: [Cascata 001](Kaskade%20001.md#Die%20Säulen-Seite)

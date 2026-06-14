@@ -30,11 +30,10 @@ source_section: "Miscellaneous!"
 source_image: "../img/game-moneyjuggling_prize.jpg"
 source_permission: "public-place image reviewed as reusable by project maintainer"
 ---
-
 > [!info] Short Description
 > Each player contributes three coins and juggles them.
 
-![[../img/game-moneyjuggling_prize.jpg|300]]
+![game-moneyjuggling_prize](../img/game-moneyjuggling_prize.jpg){ width=300 }
 
 **Group Size**: 2 to 40 players  
 **Difficulty**: mittel  

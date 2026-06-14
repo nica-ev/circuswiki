@@ -90,6 +90,29 @@ def set_block(frontmatter: str, key: str, block: str) -> str:
     return "\n".join(output) + "\n"
 
 
+def remove_block(frontmatter: str, key: str) -> str:
+    lines = frontmatter.splitlines()
+    output: list[str] = []
+    index = 0
+
+    while index < len(lines):
+        line = lines[index]
+        match = SCALAR_RE.match(line)
+        if match and not line.startswith((" ", "\t")) and match.group("key") == key:
+            index += 1
+            while index < len(lines):
+                next_line = lines[index]
+                next_match = SCALAR_RE.match(next_line)
+                if next_match and not next_line.startswith((" ", "\t")):
+                    break
+                index += 1
+            continue
+        output.append(line)
+        index += 1
+
+    return "\n".join(output) + ("\n" if output else "")
+
+
 def missing_scalars(frontmatter: str, keys: Iterable[str]) -> list[str]:
     return [key for key in keys if read_scalar(frontmatter, key) in (None, "")]
 

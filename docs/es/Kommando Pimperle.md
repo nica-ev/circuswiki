@@ -7,13 +7,13 @@ tags:
 created: 2025-01-24 03:50:50
 update: 2025-03-17 01:39:12
 title: Comando Pimperle
-description: Un juego de reacción en el que solo se pueden ejecutar comandos si se anuncian con la palabra clave.
+description: Un juego de reacción donde las órdenes solo deben ejecutarse si se anuncian con la palabra clave.
 authors:
   - Marc Bielert
 category:
   - warm-up
-Schwierigkeit: einfach
-Material: keines
+Schwierigkeit: fácil
+Material: ninguno
 Spieldauer: 5-10
 source: unbekannt
 group-min: 3
@@ -25,10 +25,12 @@ translation_source_hash: 8dedc6a941f359a9345e6a2fc8c112c56e53c89ace52b5658cb495e
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:51:25+00:00
 translation_source_body_hash: 8dedc6a941f359a9345e6a2fc8c112c56e53c89ace52b5658cb495e46c5bc90d
-translation_source_metadata_hash: 827e1f53ef1acc5460b3147f33608293872b5d6bf2f9f5815470ab063a54fd15
+translation_source_metadata_hash: 2962c5d55fd1950c330b883b7aeebd92688d9a86c26b11a6e851a73b7f8bbcbd
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:55:03+00:00
+translation_metadata_updated: 2026-06-14T16:08:38+00:00
+translation_source_localized_metadata_hash: 2962c5d55fd1950c330b883b7aeebd92688d9a86c26b11a6e851a73b7f8bbcbd
+translation_source_structural_metadata_hash: 4b16b40f624f7479bdcd35a5ed6d0d8140ff067af460d47f1b90554bf9e04b93
 ---
 > [!info] Descripción breve
 > Un juego de reacción en el que solo se pueden ejecutar órdenes si se anuncian con la palabra clave.

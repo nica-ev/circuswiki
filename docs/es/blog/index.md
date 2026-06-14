@@ -16,10 +16,12 @@ translation_source_hash: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-07T13:59:48+00:00
 translation_source_body_hash: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
-translation_source_metadata_hash: 78d30b4906940e1cc2a790dc9beaac81d2031d6c241612df9ec396117cae7d6d
+translation_source_metadata_hash: e32e42247d64f29af16a3bc64cfbbb18fb7f099dd931817f8e1bc5cd3c2197a6
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:04:07+00:00
+translation_metadata_updated: 2026-06-14T15:40:50+00:00
+translation_source_localized_metadata_hash: e32e42247d64f29af16a3bc64cfbbb18fb7f099dd931817f8e1bc5cd3c2197a6
+translation_source_structural_metadata_hash: 991e57b22e613a4e2dcf2588693b453f8f6b84482c48a29e55a7e641d45a33be
 ---
 En la pedagogía circense, la inclusión no es solo un objetivo deseable, sino un pilar fundamental. Se trata de crear un entorno donde cada persona, independientemente de sus capacidades, origen o identidad, se sienta valorada, segura y con la oportunidad de participar plenamente. Esto implica una reflexión constante sobre nuestras prácticas y una adaptación proactiva para eliminar barreras y fomentar la diversidad.
 

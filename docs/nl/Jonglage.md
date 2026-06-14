@@ -17,10 +17,12 @@ translation_source_hash: ef42465e412b41d5606d3ac9c46e85a1b98ce135f2f9f6569ac3a1c
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:46:07+00:00
 translation_source_body_hash: ef42465e412b41d5606d3ac9c46e85a1b98ce135f2f9f6569ac3a1c154e5608a
-translation_source_metadata_hash: 02ba3af41519c64eae62a83f001ca97ea8869a47a3efdc05f0fe13ce72b55fda
+translation_source_metadata_hash: f9c2df6a4b6cbba9779e9e6dd5a8eba4b6dacbfe5b8cbf2d456121db823b2d3a
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:51:41+00:00
+translation_metadata_updated: 2026-06-14T15:54:21+00:00
+translation_source_localized_metadata_hash: f9c2df6a4b6cbba9779e9e6dd5a8eba4b6dacbfe5b8cbf2d456121db823b2d3a
+translation_source_structural_metadata_hash: 06e97705f52adc09d2705d7a0c0f111eaf37d027d2686ea377dd7b4e2e58de9c
 ---
 # Jongleren
 

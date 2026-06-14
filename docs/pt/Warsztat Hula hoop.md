@@ -2,7 +2,7 @@
 lang: pt
 translation_id: warsztat-hula-hoop-kpc
 created: 2026-06-07 18:55:00
-update: 2026-06-07 19:19:32
+update: 2026-06-12 18:58:20
 publish: true
 tags:
   - warsztat
@@ -23,10 +23,13 @@ translation_source_hash: 851968ce774a7501ea2b597c3f283960b849ae51f46d30479e76556
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-07T19:14:36+00:00
 translation_source_body_hash: 851968ce774a7501ea2b597c3f283960b849ae51f46d30479e76556a4d60ddc6
-translation_source_metadata_hash: 08783ac089fdf7dbe04d63f0a988e90e088c33edad1266d522ae10b1c77cd132
+translation_source_metadata_hash: 2a081db0b3e7a6d5aa462e8c255dbbd04ba8d214b761147384c9b3f430fcd67e
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T19:11:33+00:00
+translation_metadata_updated: 2026-06-14T16:26:29+00:00
+type: Tutorial
+translation_source_localized_metadata_hash: 2a081db0b3e7a6d5aa462e8c255dbbd04ba8d214b761147384c9b3f430fcd67e
+translation_source_structural_metadata_hash: c85a4dffa3947e9e6f1267d3df6b0434a918d1034a6e60906d9a3b97b0fa3d4e
 ---
 # Workshop: Hula Hoop
 

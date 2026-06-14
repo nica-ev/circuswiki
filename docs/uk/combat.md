@@ -11,7 +11,7 @@ tags:
 created: 2026-06-12 00:00:00
 update: 2026-06-12 21:45:12
 title: Бій
-description: Двоє гравців стоять спиною один до одного в невеликій позначеній зоні, обидва жонглюють трьома м'ячами.
+description: Двоє гравців стоять спиною один до одного в невеликій позначеній зоні, кожен жонглює трьома м'ячами.
 authors:
   - CircusWiki contributors
 category:
@@ -19,8 +19,8 @@ category:
   - ball-games
   - combat
   - juggling
-Schwierigkeit: "mittel"
-Material: "Three juggling balls per player, small marked circle"
+Schwierigkeit: середній
+Material: Три м'ячі для жонглювання на гравця, невелике позначене коло
 Spieldauer: "5-15"
 group-min: 2
 group-max: 20
@@ -35,10 +35,12 @@ translation_source_body_hash: e8852b2cb95112baa896252dcf3de56861ebaa53f58845cb59
 translation_source_hash: e8852b2cb95112baa896252dcf3de56861ebaa53f58845cb591f1239a201a9a8
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-12T21:13:21+00:00
-translation_source_metadata_hash: ab27bde64ef2abd893447d9466e8b083e375679fc6dd00e59df7211f085b6efa
+translation_source_metadata_hash: ab1acce7c3b67f1556931c3e652a915994146bf659e293de8aa2bfe77e8f6613
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T21:13:21+00:00
+translation_metadata_updated: 2026-06-14T15:57:36+00:00
+translation_source_localized_metadata_hash: ab1acce7c3b67f1556931c3e652a915994146bf659e293de8aa2bfe77e8f6613
+translation_source_structural_metadata_hash: 63389c8fa654006e28411401422bc1139603171979f9f512a34036092f07818b
 ---
 > [!info] Коротка Опис
 > Двоє гравців стають спиною до спини в межах невеликої позначеної зони, кожен жонглюючи трьома м'ячами.

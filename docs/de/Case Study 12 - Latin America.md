@@ -3,7 +3,7 @@ lang: de
 translation_id: case-study-12-latin-america
 created: 2025-08-30 21:19:33
 update: 2026-06-06 21:49:25
-publish: true
+publish: false
 tags:
   - case-study
 title: Wo uns Bewegung findet
@@ -19,10 +19,12 @@ translation_source_hash: c74f8a0aa998fbf8544b8919c4c28f0552f8c723c8fb3c6414ff50e
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-06T19:52:34+00:00
 translation_source_body_hash: c74f8a0aa998fbf8544b8919c4c28f0552f8c723c8fb3c6414ff50ed51df7c05
-translation_source_metadata_hash: e4c44982983934e4fd5ae56cedfd403efa8427171856a518e1e27559826d3d3e
+translation_source_metadata_hash: 9993242721bd5abca5f3cbdef3b1146e55539583aa302481453a452020377aaa
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:06:40+00:00
+translation_metadata_updated: 2026-06-14T15:43:16+00:00
+translation_source_localized_metadata_hash: 9993242721bd5abca5f3cbdef3b1146e55539583aa302481453a452020377aaa
+translation_source_structural_metadata_hash: f19450812bac988d4e6fa61ac04e3c2605479ab81dd051476cbbeca2520587bd
 ---
 # Wo Bewegung uns findet – Inklusiver Zirkus im therapeutischen Gruppenkontext
 

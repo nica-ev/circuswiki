@@ -1,3 +1,5 @@
+formulas:
+  link-title: file.aslink(title)
 views:
   - type: table
     name: Tutorials
@@ -6,5 +8,7 @@ views:
         - lang == "de"
         - type == "Tutorial"
     order:
-      - file.name
+      - formula.link-title
       - authors
+    columnSize:
+      formula.link-title: 323

@@ -19,8 +19,8 @@ category:
   - ball-games
   - throwing
   - catching
-Schwierigkeit: "einfach"
-Material: "Five balls per team, optional bin or sack"
+Schwierigkeit: εύκολο
+Material: Πέντε μπάλες ανά ομάδα, προαιρετικός κάδος ή σακούλα
 Spieldauer: "5-15"
 group-min: 2
 group-max: 40
@@ -32,19 +32,21 @@ source_section: "Ball Games"
 source_image: "../img/games-stredging.jpg"
 source_permission: "public-place image reviewed as reusable by project maintainer"
 translation_source: docs/en/stredging.md
-translation_source_body_hash: 3a0a36a5dac9b3e098811bbeeb830c974096e0322da21b6587ecbaffd6cedadf
-translation_source_hash: 3a0a36a5dac9b3e098811bbeeb830c974096e0322da21b6587ecbaffd6cedadf
+translation_source_body_hash: 862dfd2e952c4774f8243265eb59e8dfb8e29eddd8e8ca69fb8c082931c49ac2
+translation_source_hash: 862dfd2e952c4774f8243265eb59e8dfb8e29eddd8e8ca69fb8c082931c49ac2
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-12T21:34:06+00:00
-translation_source_metadata_hash: 25c199a23a88d0df969376e691566a4d2494ba9cffa135b69398badf4fde29a9
+translation_updated: 2026-06-14T19:31:43+00:00
+translation_source_metadata_hash: 2a88d3049e32a3aad43e4b0fdcfaf916ebf2bf80ad1d8042cdf2e0c6b7399e3d
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T21:34:06+00:00
+translation_metadata_updated: 2026-06-14T19:31:43+00:00
+translation_source_localized_metadata_hash: 2a88d3049e32a3aad43e4b0fdcfaf916ebf2bf80ad1d8042cdf2e0c6b7399e3d
+translation_source_structural_metadata_hash: 26ca6b1dd24bccd83eb2944dd1bb52e1c22140e3cea9ac8a1e9ff8412e9697fb
 ---
 > [!info] Σύντομη Περιγραφή
-> Ένας αγώνας συνεργασίας όπου ο ένας παίκτης εκτοξεύει μπάλες από το πάτωμα και ο άλλος τις πιάνει.
+> Ένας αγώνας συνεργασίας όπου ο ένας παίκτης πετάει μπάλες από το πάτωμα προς τα πάνω και ο άλλος τις πιάνει.
 
-![[../img/games-stredging.jpg|300]]
+![games-stredging](../img/games-stredging.jpg){ width=300 }
 
 **Μέγεθος Ομάδας**: 2 έως 40 παίκτες
 **Δυσκολία**: εύκολο
@@ -53,11 +55,11 @@ translation_metadata_updated: 2026-06-12T21:34:06+00:00
 
 ## Περιγραφή Παιχνιδιού
 
-Παιχνίδι συνεργασίας για ομάδες των δύο ατόμων. Πέντε μπάλες τοποθετούνται σε μια σειρά στο πάτωμα. Ο ένας παίκτης εκτοξεύει ή κλωτσάει τις μπάλες από το έδαφος, ενώ ο συμπαίκτης του τις πιάνει με το χέρι ή μέσα σε ένα δοχείο. Η ομάδα που θα πιάσει όλες τις μπάλες ταχύτερα κερδίζει.
+Παιχνίδι συνεργασίας για ομάδες των δύο ατόμων. Πέντε μπάλες τοποθετούνται σε μια σειρά στο πάτωμα. Ο ένας παίκτης πετάει ή κλωτσάει τις μπάλες από το έδαφος προς τα πάνω, ενώ ο συμπαίκτης του τις πιάνει με το χέρι ή μέσα σε ένα δοχείο. Η ομάδα που θα πιάσει όλες τις μπάλες γρηγορότερα κερδίζει.
 
 ## Παραλλαγές
 
-Οι ρόλοι μπορούν να αλλάξουν μετά την πρώτη σειρά μπαλών. Για μια μεγαλύτερη σκυταλοδρομία, στήστε δύο σειρές ώστε και οι δύο παίκτες να πρέπει να είναι εκτοξευτής και δέκτης από μία φορά ο καθένας.
+Οι ρόλοι μπορούν να αλλάξουν μετά την πρώτη σειρά με τις μπάλες. Για μια μεγαλύτερη σκυταλοδρομία, στήστε δύο σειρές ώστε και οι δύο παίκτες να πρέπει να είναι μία φορά ο πετατής και μία φορά ο πιάνων.
 
 ## Σημειώσεις Ασφαλείας
 

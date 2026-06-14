@@ -15,10 +15,12 @@ translation_source_hash: d2dcf87719eb9c54ea369b333620af414fdc4b19cd582813e597d1b
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-07T18:38:42+00:00
 translation_source_body_hash: d2dcf87719eb9c54ea369b333620af414fdc4b19cd582813e597d1b3d01aa320
-translation_source_metadata_hash: 0f4acd5e1498726f8e7993f3d4aa8b6e5b2ec848dd1958682b0472b7c51582b9
+translation_source_metadata_hash: dd12cac4a297cb7c7377bc7fe3976d8d3a39b6fc4e70d00a29a57eec43a5b726
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:10:34+00:00
+translation_metadata_updated: 2026-06-14T15:47:19+00:00
+translation_source_localized_metadata_hash: dd12cac4a297cb7c7377bc7fe3976d8d3a39b6fc4e70d00a29a57eec43a5b726
+translation_source_structural_metadata_hash: 3c8b4d3369d613d9794ea4565ab18099114d40b4d8845940dc081ad59026e0ec
 ---
 # Manifesto: Os Meus Princípios para a Gestão do Conhecimento
 

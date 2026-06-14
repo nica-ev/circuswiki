@@ -13,8 +13,8 @@ authors:
 category:
   - Taktik
   - cool-down
-Schwierigkeit: mittel
-Material: keines
+Schwierigkeit: medio
+Material: ninguno
 Spieldauer: 6
 source: Tasifan Spielebuch
 group-min: 8
@@ -26,10 +26,12 @@ translation_source_hash: 238e30cde424fbe939939e1dbcee16bf78fa1645f8eee2c5a74aa5a
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:07:51+00:00
 translation_source_body_hash: 238e30cde424fbe939939e1dbcee16bf78fa1645f8eee2c5a74aa5aab736467d
-translation_source_metadata_hash: a48c3576818751341c9fa383c87a19c951345b1ddf31205629e6bc4730880e61
+translation_source_metadata_hash: 636f22f0b8a4e0a73fc8e6eb45d939db64284242ffe4e1fa98bd95ec14f57f19
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:59:52+00:00
+translation_metadata_updated: 2026-06-14T16:13:12+00:00
+translation_source_localized_metadata_hash: 636f22f0b8a4e0a73fc8e6eb45d939db64284242ffe4e1fa98bd95ec14f57f19
+translation_source_structural_metadata_hash: 91d1e9b27fb6480f1b3e10c83faa77ab5fad24c609e5fa7b315249d7a8ab4155
 ---
 > [!info] Breve descripción
 > Un juego de rol silencioso en el que un asesino mata parpadeando y el grupo debe desenmascararlo juntos.

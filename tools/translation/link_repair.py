@@ -3,6 +3,7 @@ from __future__ import annotations
 import re
 from dataclasses import asdict, dataclass
 from typing import Iterable
+from pathlib import PurePosixPath
 
 
 MARKDOWN_LINK_RE = re.compile(
@@ -11,6 +12,13 @@ MARKDOWN_LINK_RE = re.compile(
     r"(\))"
 )
 WIKILINK_RE = re.compile(r"(!?\[\[)(?P<body>[^\]]+)(\]\])")
+OBSIDIAN_IMAGE_EMBED_RE = re.compile(r"!\[\[(?P<body>[^\]]+)\]\]")
+MARKDOWN_IMAGE_RE = re.compile(
+    r"!\[(?P<alt>[^\]]*?)\]\("
+    r"(?P<inner><[^>]+>|[^)]*)"
+    r"\)"
+    r"(?P<attrs>\{[^}\n]*\})?"
+)
 LOCAL_MARKDOWN_TARGET_RE = re.compile(
     r"^(?![a-z][a-z0-9+.-]*:|#|/|mailto:)(?P<path>[^#?]+?\.md)(?P<suffix>[#?].*)?$",
     re.IGNORECASE,
@@ -22,6 +30,9 @@ LOCAL_REPAIRABLE_TARGET_RE = re.compile(
     re.IGNORECASE,
 )
 FENCE_RE = re.compile(r"^\s*(```|~~~)")
+IMAGE_WIDTH_RE = re.compile(r"^(?P<label>.*)\|(?P<width>[1-9][0-9]{0,4})$")
+IMAGE_EXT_RE = re.compile(r"\.(?:png|jpe?g|gif|svg|webp|avif)$", re.IGNORECASE)
+ATTR_WIDTH_RE = re.compile(r"\bwidth\s*=")
 
 
 @dataclass(frozen=True)
@@ -47,6 +58,18 @@ class LinkRepairResult:
             "repair_count": self.repair_count,
             "diagnostics": [asdict(item) for item in self.diagnostics],
         }
+
+
+@dataclass(frozen=True)
+class SourceLinkStyleIssue:
+    kind: str
+    start: int
+    end: int
+    original: str
+    replacement: str
+    target: str
+    width: str = ""
+    label: str = ""
 
 
 @dataclass(frozen=True)
@@ -78,6 +101,57 @@ def repair_link_targets(source_body: str, translated_body: str) -> LinkRepairRes
         body=wikilink_result.body,
         changed=wikilink_result.body != translated_body,
         repair_count=repair_count,
+        diagnostics=diagnostics,
+    )
+
+
+def source_link_style_issues(body: str) -> list[SourceLinkStyleIssue]:
+    fence_spans = fenced_code_spans(body)
+    occupied: list[tuple[int, int]] = []
+    issues: list[SourceLinkStyleIssue] = []
+
+    for match in OBSIDIAN_IMAGE_EMBED_RE.finditer(body):
+        if inside_any_span(match.start(), fence_spans):
+            continue
+        issue = obsidian_image_embed_issue(match)
+        if not issue:
+            continue
+        issues.append(issue)
+        occupied.append((match.start(), match.end()))
+
+    for match in MARKDOWN_IMAGE_RE.finditer(body):
+        if inside_any_span(match.start(), fence_spans) or inside_any_span(match.start(), occupied):
+            continue
+        issue = markdown_image_width_issue(match)
+        if issue:
+            issues.append(issue)
+
+    return sorted(issues, key=lambda item: item.start)
+
+
+def repair_source_link_styles(body: str) -> LinkRepairResult:
+    issues = source_link_style_issues(body)
+    if not issues:
+        return LinkRepairResult(body=body, changed=False, repair_count=0, diagnostics=[])
+
+    output = body
+    diagnostics: list[LinkRepairDiagnostic] = []
+    for issue in reversed(issues):
+        output = output[: issue.start] + issue.replacement + output[issue.end :]
+    for issue in issues:
+        diagnostics.append(
+            LinkRepairDiagnostic(
+                kind=issue.kind,
+                link_type="source_image_style",
+                message="Source image syntax was converted to Markdown attr_list width syntax.",
+                source_target=issue.original,
+                translated_target=issue.replacement,
+            )
+        )
+    return LinkRepairResult(
+        body=output,
+        changed=output != body,
+        repair_count=len(issues),
         diagnostics=diagnostics,
     )
 
@@ -199,6 +273,88 @@ def replace_wikilink_targets(
             continue
         output = output[: translated.start] + source.raw_target + output[translated.end :]
     return output
+
+
+def obsidian_image_embed_issue(match: re.Match[str]) -> SourceLinkStyleIssue | None:
+    body = match.group("body")
+    target = wikilink_target(body)
+    suffix = wikilink_alias(body)
+    width = width_from_alias(suffix)
+    if not target or not width or not is_image_target(target):
+        return None
+    label = image_alt_from_target(target)
+    replacement = f"![{escape_markdown_alt(label)}]({target}){{ width={width} }}"
+    return SourceLinkStyleIssue(
+        kind="obsidian_image_embed",
+        start=match.start(),
+        end=match.end(),
+        original=match.group(0),
+        replacement=replacement,
+        target=target,
+        width=width,
+        label=label,
+    )
+
+
+def markdown_image_width_issue(match: re.Match[str]) -> SourceLinkStyleIssue | None:
+    alt = match.group("alt")
+    width_match = IMAGE_WIDTH_RE.match(alt.strip())
+    if not width_match:
+        return None
+    attrs = match.group("attrs") or ""
+    if ATTR_WIDTH_RE.search(attrs):
+        return None
+    parsed = markdown_target_span(match.group("inner"), match.start("inner"))
+    if not parsed:
+        return None
+    raw_target, _target_start, _target_end = parsed
+    target = normalize_markdown_target(raw_target)
+    if not is_image_target(target):
+        return None
+    label = width_match.group("label").strip() or image_alt_from_target(target)
+    width = width_match.group("width")
+    replacement = f"![{escape_markdown_alt(label)}]({raw_target}){merge_attr_width(attrs, width)}"
+    return SourceLinkStyleIssue(
+        kind="markdown_image_alt_width",
+        start=match.start(),
+        end=match.end(),
+        original=match.group(0),
+        replacement=replacement,
+        target=target,
+        width=width,
+        label=label,
+    )
+
+
+def width_from_alias(alias: str) -> str:
+    if not alias.startswith("|"):
+        return ""
+    value = alias[1:].strip()
+    return value if re.fullmatch(r"[1-9][0-9]{0,4}", value) else ""
+
+
+def is_image_target(target: str) -> bool:
+    return bool(IMAGE_EXT_RE.search(normalize_markdown_target(target).split("#", 1)[0].split("?", 1)[0]))
+
+
+def image_alt_from_target(target: str) -> str:
+    path = normalize_markdown_target(target).split("#", 1)[0].split("?", 1)[0]
+    name = PurePosixPath(path.replace("\\", "/")).name
+    stem = PurePosixPath(name).stem
+    return stem or "image"
+
+
+def escape_markdown_alt(value: str) -> str:
+    return value.replace("\\", "\\\\").replace("[", "\\[").replace("]", "\\]")
+
+
+def merge_attr_width(attrs: str, width: str) -> str:
+    if not attrs:
+        return f"{{ width={width} }}"
+    inner = attrs.strip()[1:-1].strip()
+    if not inner:
+        return f"{{ width={width} }}"
+    return f"{{ {inner} width={width} }}"
 
 
 def sequence_diagnostics(

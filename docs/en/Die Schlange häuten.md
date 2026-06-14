@@ -7,13 +7,13 @@ publish: true
 tags:
   - spiele
 title: Shedding the Snake
-description: A line game where the group stays connected and sheds itself like a snake, one by one.
+description: A line-based movement game where the group stays connected and sheds itself like a snake, one by one.
 authors:
   - Marc Bielert
 category:
   - kreisspiel
-Schwierigkeit: einfach
-Material: keines
+Schwierigkeit: easy
+Material: "none"
 Spieldauer: 5-10
 source: unbekannt
 group-min: 5
@@ -25,10 +25,12 @@ translation_source_hash: 5cc7fbec7fa0e49a4ff7e248a7916319d654130eea960d1312eac13
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:33:39+00:00
 translation_source_body_hash: 5cc7fbec7fa0e49a4ff7e248a7916319d654130eea960d1312eac135b8119353
-translation_source_metadata_hash: d33019a27e56472ab462940173c3c7adb6af149ade16c7f40f5ee8c011e9b84d
+translation_source_metadata_hash: e7a878632a1fa202758b3f88682a157ea090febb5402f32c8636b7fcf38e3e22
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:09:33+00:00
+translation_metadata_updated: 2026-06-14T15:46:19+00:00
+translation_source_localized_metadata_hash: e7a878632a1fa202758b3f88682a157ea090febb5402f32c8636b7fcf38e3e22
+translation_source_structural_metadata_hash: 90f70beaf930ef52b983acf60c980273c225f190d5aa9ba52bce917b086f2b30
 ---
 > [!info] Brief Description
 > A line-based movement game where the group stays connected and lies down one after another like a snake.

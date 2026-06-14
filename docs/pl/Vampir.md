@@ -7,13 +7,13 @@ tags:
 created: 2025-01-24 03:50:51
 update: 2025-03-17 02:31:14
 title: Wampir
-description: Gra z zamkniętymi oczami, w której wampiry zarażają innych i mogą się nawzajem przemieniać podczas spotkań.
+description: Gra z zamkniętymi oczami, w której wampiry zarażają innych i mogą się nawzajem przemieniać podczas spotkania.
 authors:
   - Marc Bielert
 category:
   - sonstiges
-Schwierigkeit: mittel
-Material: keines
+Schwierigkeit: średni
+Material: brak
 Spieldauer: 5-10
 source: unbekannt
 group-min: 6
@@ -25,10 +25,12 @@ translation_source_hash: 2d0b092503caeec479d27b2dd5aa4518b353ce549347e1450ff7cac
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:33:03+00:00
 translation_source_body_hash: 2d0b092503caeec479d27b2dd5aa4518b353ce549347e1450ff7cac45da95b65
-translation_source_metadata_hash: 864e8ac491f6c54527dfe497a5dd3ffdbeda686d08c42ba068333bb392cf8935
+translation_source_metadata_hash: 0dcbcbcbabaec1ad4dae028c33334b42f97e47ff0a14caa5f03c6bb79dd7c44d
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T19:10:27+00:00
+translation_metadata_updated: 2026-06-14T16:25:10+00:00
+translation_source_localized_metadata_hash: 0dcbcbcbabaec1ad4dae028c33334b42f97e47ff0a14caa5f03c6bb79dd7c44d
+translation_source_structural_metadata_hash: 05bc2eea70815abbc1961a85925e2cc08d2949a3e7eb6c541e3896843c081d7f
 ---
 > [!info] Krótki opis
 > Gra z zamkniętymi oczami, w której wampiry mogą zarażać innych, a przy spotkaniu mogą się wzajemnie przemieniać z powrotem.

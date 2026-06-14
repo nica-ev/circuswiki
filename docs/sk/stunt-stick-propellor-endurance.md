@@ -9,15 +9,15 @@ tags:
   - endurance
 created: 2026-06-12 00:00:00
 update: 2026-06-12 22:09:22
-title: Výdrž vrtuľky kaskadérskej tyče
-description: Hráči udržiavajú vrtuľku kaskadérskej tyče v chode čo najdlhšie.
+title: Výdrž s vrtuľovým tyčou
+description: Hráči udržiavajú vrtuľovú tyč v chode čo najdlhšie.
 authors:
   - CircusWiki contributors
 category:
   - convention-games
   - endurance
-Schwierigkeit: "einfach"
-Material: "Stunt sticks and handsticks"
+Schwierigkeit: ľahká
+Material: Vrtuľové tyče a ručné tyče
 Spieldauer: "5-15"
 group-min: 3
 group-max: 60
@@ -32,10 +32,12 @@ translation_source_body_hash: 5ab7cefdb08c88d088427483330eefbd0f0068910d3bb90597
 translation_source_hash: 5ab7cefdb08c88d088427483330eefbd0f0068910d3bb90597a87807051084dd
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-12T21:34:41+00:00
-translation_source_metadata_hash: e3b5c4f4696255d17da3fa360f28842acb123db461bb901bb6c96e5a625e1ae1
+translation_source_metadata_hash: 08078cd47fe1592401c08b5617595e9c43f870e5471227e36d0cac8b34da3a59
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T21:34:41+00:00
+translation_metadata_updated: 2026-06-14T16:03:44+00:00
+translation_source_localized_metadata_hash: 08078cd47fe1592401c08b5617595e9c43f870e5471227e36d0cac8b34da3a59
+translation_source_structural_metadata_hash: abe3fae541720031f068f2ff9866c9e81a0978a7281063baafc09c6c734d7a50
 ---
 > [!info] Stručný popis
 > Hráči sa snažia čo najdlhšie udržať v pohybe „stunt stick“ (vrtuľu).

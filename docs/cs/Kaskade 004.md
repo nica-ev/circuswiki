@@ -18,10 +18,12 @@ translation_source_hash: 3feb61d6a20641e415b67ea98308e959237c98d8335a28cb3e9d127
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-07T18:54:54+00:00
 translation_source_body_hash: 3feb61d6a20641e415b67ea98308e959237c98d8335a28cb3e9d127ebc38bf41
-translation_source_metadata_hash: 830c9172064856d91be25856ea8308c0ff8fde235d66faf574f09d394c82e3f2
+translation_source_metadata_hash: 387c4871b348617107f2a7df19029993dff5ac056f9327b8056b66036b7e52fe
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:52:44+00:00
+translation_metadata_updated: 2026-06-14T16:06:16+00:00
+translation_source_localized_metadata_hash: 387c4871b348617107f2a7df19029993dff5ac056f9327b8056b66036b7e52fe
+translation_source_structural_metadata_hash: 940f6fe03f367488d77beb320dbb352505b9e8aea2f1aea0d9341ec0904db35e
 ---
 ## Něco je ve vzduchu
 

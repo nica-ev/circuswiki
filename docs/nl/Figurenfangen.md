@@ -7,13 +7,13 @@ tags:
 created: 2025-01-24 03:50:50
 update: 2025-03-17 02:14:53
 title: Figuren vangen
-description: Een vangspel waarbij gevangenen veranderen in 'figuren' en bevrijd kunnen worden door passende acties.
+description: Een vangspel waarbij gevangenen veranderen in figuren en bevrijd kunnen worden door passende acties.
 authors:
   - Marc Bielert
 category:
   - bewegung
-Schwierigkeit: mittel
-Material: keines
+Schwierigkeit: gemiddeld
+Material: geen
 Spieldauer: 6
 source: Tasifan Spielebuch
 group-min: 6
@@ -25,10 +25,12 @@ translation_source_hash: 4b3ecdeff45fc4f7425177eeda232bfa9fc4f06a2635eebe47e913f
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:38:20+00:00
 translation_source_body_hash: 4b3ecdeff45fc4f7425177eeda232bfa9fc4f06a2635eebe47e913f39390530f
-translation_source_metadata_hash: 3b0154b444bcec369a9bb29aed00f023e9fb70153beb6f8643ec067e4b3e762e
+translation_source_metadata_hash: 623ded757cee1c0ab466a548fbb16ece52eca09151ce3e4254c6df552bf8b205
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:46:47+00:00
+translation_metadata_updated: 2026-06-14T15:49:34+00:00
+translation_source_localized_metadata_hash: 623ded757cee1c0ab466a548fbb16ece52eca09151ce3e4254c6df552bf8b205
+translation_source_structural_metadata_hash: 6b97de2ad15acf781d1823bea5cf90effde1e944138fa606211b88b39f522db1
 ---
 > [!info] Korte beschrijving
 > Een vangspel waarbij gevangenen veranderen in figuren en door passende acties weer bevrijd kunnen worden.

@@ -7,13 +7,13 @@ publish: true
 tags:
   - spiele
 title: Grande contro Piccolo
-description: Un gioco fisico in cui una persona grande cerca di far cadere più persone piccole dal tappetino.
+description: Un gioco fisico di lotta in cui una persona grande cerca di far uscire più persone piccole dal tappetino.
 authors:
   - Marc Bielert
 category:
   - sonstiges
-Schwierigkeit: mittel
-Material: Matte
+Schwierigkeit: medio
+Material: Tappetino
 Spieldauer: 1-5
 source: Tasifan Spielebuch
 group-min: 3
@@ -25,10 +25,12 @@ translation_source_hash: 01c0cb5901c0890d7c6a90d2071f4dc5d0343708a3550f5f3ac1194
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:41:17+00:00
 translation_source_body_hash: 01c0cb5901c0890d7c6a90d2071f4dc5d0343708a3550f5f3ac1194c6efe96e7
-translation_source_metadata_hash: cdad17318a2cbc6379aa9648389298e50146b3a706e5f9329cac5c95b93dfb08
+translation_source_metadata_hash: 50a06245660ddd6ca7507607a7a938b03aea7297940606c77cc53b03c3b42636
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:48:59+00:00
+translation_metadata_updated: 2026-06-14T15:51:44+00:00
+translation_source_localized_metadata_hash: 50a06245660ddd6ca7507607a7a938b03aea7297940606c77cc53b03c3b42636
+translation_source_structural_metadata_hash: 548cb670c3fe07abf4cde733c734c6d1cc4051a65b4bf9fd592c3aa187e6e749
 ---
 > [!info] Breve descrizione
 > Un gioco di lotta fisica in cui una persona "grande" cerca di far scendere dalla materassina diverse persone "piccole".

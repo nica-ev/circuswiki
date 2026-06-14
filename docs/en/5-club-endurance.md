@@ -33,7 +33,7 @@ source_permission: public group photo reviewed as reusable by project maintainer
 > [!info] Short Description
 > A numbers-juggling endurance contest where players keep five clubs going as long as possible.
 
-![[../img/5-club-endurance.jpg|300]]
+![5-club-endurance](../img/5-club-endurance.jpg){ width=300 }
 
 **Group Size**: 2 to 40 players
 **Difficulty**: schwer

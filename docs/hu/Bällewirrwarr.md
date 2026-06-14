@@ -7,13 +7,13 @@ publish: true
 tags:
   - spiele
 title: Labirintus labdákkal
-description: Név- és labdajáték, ahol a több színű labdákkal végzett fix dobási sorozatok egyre bonyolultabbá válnak.
+description: Név- és labdajáték, ahol a több színű labdákkal való dobási sorrend egyre bonyolultabbá válik.
 authors:
   - Marc Bielert
 category:
   - kennenlernen
-Schwierigkeit: einfach - schwer
-Material: Bälle
+Schwierigkeit: könnyű - nehéz
+Material: Labdák
 Spieldauer: "10"
 source:
   - Tasifan Spielebuch
@@ -26,10 +26,12 @@ translation_source_hash: b6674142e77b8299f910dce911219944944fecdda6351409d3baa36
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:23:57+00:00
 translation_source_body_hash: b6674142e77b8299f910dce911219944944fecdda6351409d3baa36940620c19
-translation_source_metadata_hash: 65d67e2c5c8722fdc832ac6f60001d264b32a96c7def8048eca90106f730c533
+translation_source_metadata_hash: 8c7a86f083adc7ecee5f9ad8868c0966c4daaa46b0cb9318771642978981154b
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:02:31+00:00
+translation_metadata_updated: 2026-06-14T15:38:20+00:00
+translation_source_localized_metadata_hash: 8c7a86f083adc7ecee5f9ad8868c0966c4daaa46b0cb9318771642978981154b
+translation_source_structural_metadata_hash: 476f408b71960a23e27d9f5be78f70e585e80c5cea8196a3977e94eea573d95c
 ---
 > [!info] Rövid leírás
 > Egy név- és labdajáték, amelyben a fix dobási sorrendek többféle labdával egyre bonyolultabbá válnak.

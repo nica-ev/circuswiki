@@ -18,8 +18,8 @@ category:
   - convention-games
   - balance
   - endurance
-Schwierigkeit: mittel
-Material: One juggling club per player
+Schwierigkeit: közepes
+Material: Egy zsonglőrbot játékosonként
 Spieldauer: "3-10"
 group-min: 2
 group-max: 40
@@ -30,19 +30,21 @@ source_url: https://ucircus.co.uk/resources-circus-games/
 source_image: ../img/club-head-balance.jpg
 source_permission: public group photo reviewed as reusable by project maintainer
 translation_source: docs/en/club-head-balance.md
-translation_source_body_hash: 41310b730d8066c00b738b31a5c753f42b77dc6fb73ebe207a6481c7d7ae324f
-translation_source_hash: 41310b730d8066c00b738b31a5c753f42b77dc6fb73ebe207a6481c7d7ae324f
+translation_source_body_hash: 986c7848067a15ae7ed39ec3349a2690d4c0fcd05871a99d01cff4c5390b8369
+translation_source_hash: 986c7848067a15ae7ed39ec3349a2690d4c0fcd05871a99d01cff4c5390b8369
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-12T21:43:26+00:00
-translation_source_metadata_hash: 936860c608a96e1a22324d56d7a5189761c40f38675fd49741ef7038ccae5cae
+translation_updated: 2026-06-14T19:38:24+00:00
+translation_source_metadata_hash: 547b45352e1c4e41793450d5f91913795d5b6b7390b806fa39efd70bdec88e5f
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T21:43:26+00:00
+translation_metadata_updated: 2026-06-14T19:38:24+00:00
+translation_source_localized_metadata_hash: 547b45352e1c4e41793450d5f91913795d5b6b7390b806fa39efd70bdec88e5f
+translation_source_structural_metadata_hash: 05b56eb3f61483b64682c126e937b97c5126bdae38453eed8d3f35143353e7df
 ---
 > [!info] Rövid leírás
-> Egyensúlyt és kitartást fejlesztő játék, ahol a játékosok egy zsonglőrbotot tartanak egyensúlyban a fejükön vagy az arcukon.
+> Egyensúlyt és állóképességet fejlesztő játék, ahol a játékosok egy zsonglőrbotot tartanak egyensúlyban a fejükön vagy az arcukon.
 
-![[../img/club-head-balance.jpg|300]]
+![club-head-balance](../img/club-head-balance.jpg){ width=300 }
 
 **Csoportméret**: 2–40 játékos
 **Nehézség**: közepes
@@ -51,37 +53,37 @@ translation_metadata_updated: 2026-06-12T21:43:26+00:00
 
 ## Játék leírása
 
-A játékosok egy botot tartanak egyensúlyban a megbeszélt testrészen. Az utolsó játékos, aki még egyensúlyban tartja a botot, nyer.
+A játékosok egy botot tartanak egyensúlyban a megbeszélt testrészen. Az utolsó, aki még egyensúlyban tartja a botot, nyer.
 
 ## Előkészületek
 
 - Adj minden játékosnak egy zsonglőrbotot.
 - Válasszátok ki az egyensúlyozás helyét: homlok, áll, orr vagy fejtető.
-- Döntsd el, hogy a játékosok mozoghatnak-e a lábukkal, vagy mozdulatlanul kell állniuk.
+- Döntsetek arról, hogy a játékosok mozoghatnak-e, vagy mozdulatlanul kell állniuk.
 
 ## Szabályok
 
 1. Minden játékos a megbeszélt testrészen helyezi el a botot.
-2. A jelzésre a kezek eltávolodnak, és elkezdődik az egyensúlyozás.
-3. Egy játékos kiesik, ha a bot leesik, elkapják, vagy szabálytalanul hozzáérnek.
-4. Az aktív játékosokat megkérhetik, hogy sétáljanak, forduljanak, térdeljenek, vagy egy egyszerű pályán mozogjanak.
-5. Az utolsó játékos, aki még egyensúlyban tartja a botot, nyer.
+2. A jeladásra a kezek eltávolodnak, és elkezdődik az egyensúlyozás.
+3. A játékos kiesik, ha a bot leesik, elkapja, vagy szabálytalanul hozzáér.
+4. Az aktív játékosokat kérhetik, hogy sétáljanak, forduljanak, térdeljenek, vagy egy egyszerű pályán mozogjanak.
+5. Az utolsó, aki még egyensúlyban tartja a botot, nyer.
 
 ## Változatok
 
-- Tegyél egy vizespoharat a bot tetejére egy vicces, haladó változatban.
-- Tartsatok egyensúlyi versenyt a kitartási kör helyett.
+- Tegyél egy pohár vizet a bot tetejére egy vicces, haladó változatban.
+- Egyensúlyi versenyt tartsatok állóképességi kör helyett.
 - Kezdő csoportoknak használjatok sálakat vagy rudakat.
 
 ## Biztonsági megjegyzések
 
-Tartsatok elegendő helyet a játékosok között, hogy a leeső botok ne találjanak el arcokat. Kerüljétek a kemény botokat nagyon fiatal csoportoknál.
+Tartsatok elegendő távolságot a játékosok között, hogy a leeső botok ne találjanak el arcokat. Kerüljétek a kemény botokat nagyon fiatal csoportok esetében.
 
 ## Forrás
 
 - UCircus forráskártya: [Club Head Balance](https://ucircus.co.uk/resources-circus-games/)
-- UCircus órák: Botok, Kiütés, Egyensúly
+- UCircus órák: Clubs, Knockout, Balance
 - Helyi forráskép: `../img/club-head-balance.jpg`
-- Forráskezelés: Az UCircus és a bot/arc-egyensúly konvenciós játékok független leírásai támogatják.
+- Forráskezelés: Támogatja az UCircus és független leírások a bot/arc-egyensúlyozó játékokról.
 - További referencia: [JugglingWorld zsonglőrjátékok](https://www.jugglingworld.biz/tricks/juggling-games/)
-- További referencia a gladiátorok/harci kontextushoz: [Combat (juggling)](https://en.wikipedia.org/wiki/Combat_(juggling))
+- További referencia a gladiátor/harci kontextushoz: [Combat (juggling)](https://en.wikipedia.org/wiki/Combat_(juggling))

@@ -10,8 +10,8 @@ tags:
   - juggling
 created: 2026-06-12 00:00:00
 update: 2026-06-12 21:52:54
-title: Ρεκόρ Ζογκλερικής με Χάγκις
-description: Ένα πρωτότυπο παιχνίδι ρεκόρ ζογκλερικής εμπνευσμένο από το χάγκις, ένα παραδοσιακό σκωτσέζικο φαγητό, που συνήθως παίζεται με μαλακά υποκατάστατα αντικείμενα.
+title: Ρεκόρ Ζογκλερικής με Haggis
+description: Ένα πρωτότυπο παιχνίδι ρεκόρ ζογκλερικής εμπνευσμένο από το haggis, ένα παραδοσιακό σκωτσέζικο φαγητό, που συνήθως παίζεται με μαλακά υποκατάστατα αντικείμενα.
 authors:
   - CircusWiki contributors
 category:
@@ -19,8 +19,8 @@ category:
   - novelty-games
   - endurance
   - juggling
-Schwierigkeit: "mittel"
-Material: "Soft haggis-shaped substitute objects, or well-wrapped novelty props"
+Schwierigkeit: μεσαία
+Material: Μαλακά υποκατάστατα αντικείμενα σε σχήμα haggis, ή καλά τυλιγμένα πρωτότυπα αντικείμενα
 Spieldauer: "5-15"
 group-min: 2
 group-max: 40
@@ -35,10 +35,12 @@ translation_source_body_hash: d911aea76337fb564862601d2a4c22f7a3ec0e6fbd0f4866c2
 translation_source_hash: d911aea76337fb564862601d2a4c22f7a3ec0e6fbd0f4866c204acee652e9274
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-12T21:17:52+00:00
-translation_source_metadata_hash: c2f7b2db0058119dedb7ca67af454147c36b9d1b0fb7daf73719ecf0704a892c
+translation_source_metadata_hash: 475d78b5bcca87bd25d3d7793e5b6de771a874ad39b1c7d1cb675814f5379e98
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T21:17:52+00:00
+translation_metadata_updated: 2026-06-14T15:59:02+00:00
+translation_source_localized_metadata_hash: 475d78b5bcca87bd25d3d7793e5b6de771a874ad39b1c7d1cb675814f5379e98
+translation_source_structural_metadata_hash: 6a943790f6133046c72bd1ef33f1abbf4a3892bf40846c3b02f32d1da84b662b
 ---
 > [!info] Σύντομη Περιγραφή
 > Ένα πρωτότυπο παιχνίδι ρεκόρ στο ζογκλερικό, εμπνευσμένο από το χάγκις, ένα παραδοσιακό σκωτσέζικο φαγητό, που συνήθως παίζεται με μαλακά αντικείμενα-υποκατάστατα.

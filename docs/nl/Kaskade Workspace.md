@@ -2,7 +2,7 @@
 lang: nl
 translation_id: kaskade-workspace
 created: 2025-01-21 18:09:55
-update: 2026-06-12 19:11:41
+update: 2026-06-14 19:03:29
 publish: true
 tags:
   - moc
@@ -14,36 +14,38 @@ authors:
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Kaskade Workspace.md
-translation_source_hash: 29a1552cf493836b4b474a5912aebdb63538c48b359b37de5a4b8b2e5b94d53f
+translation_source_hash: 631cf2907c40a3667c661ea1b6d881d859aab4729b277b6135718a058327fc01
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-12T17:33:17+00:00
-translation_source_body_hash: 29a1552cf493836b4b474a5912aebdb63538c48b359b37de5a4b8b2e5b94d53f
-translation_source_metadata_hash: e7f4ba685ffe753f20b46abef2ca8139d54bb761a72234a6398c888d59b39b90
+translation_updated: 2026-06-14T15:10:42+00:00
+translation_source_body_hash: 631cf2907c40a3667c661ea1b6d881d859aab4729b277b6135718a058327fc01
+translation_source_metadata_hash: 14f9eb7f2b84bdc2ea4e9bf614d19a3199b89138fa400f849f9e7789b6cd1ce0
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T17:33:17+00:00
+translation_metadata_updated: 2026-06-14T16:06:30+00:00
+translation_source_localized_metadata_hash: 14f9eb7f2b84bdc2ea4e9bf614d19a3199b89138fa400f849f9e7789b6cd1ce0
+translation_source_structural_metadata_hash: 0cfee3e1af3406a918bee8b26aa5fda5e8dd66e93b2d5c95c2c0fea35a4fc7a7
 ---
 >[!info]- Introductie
->Ik ben opgegroeid met Kaskade. Voordat YouTube bestond, voordat we alles op internet konden vinden – was dit tijdschrift een van de eerste regelmatige informatiebronnen die ik kreeg over jongleren, circus, shows.
->Toen het tijdschrift in 2013 stopte, voelde dat als het einde van een tijdperk – tenminste voor mij.
->Meerdere jaren waren de tijdschriften nog als PDF te downloaden, sinds ongeveer 2017 is de website offline gegaan.
+>Ik ben opgegroeid met Kaskade. Voordat er YouTube was, voordat we alles op internet konden vinden – was dit tijdschrift een van de eerste regelmatige informatiebronnen die ik kreeg over jongleren, circus en shows.
+>Toen het tijdschrift in 2013 stopte, voelde dat als het einde van een tijdperk – althans voor mij.
+>Enkele jaren lang waren de tijdschriften nog als pdf te downloaden, maar rond 2017 ging de website offline.
 >Ik heb vaak teruggedacht aan kleine workshops, tutorials of artikelen die me destijds inspireerden. Toen ik jaren later iets wilde teruglezen – kon dat niet meer.
 >
->Met behulp van de Wayback Machine (The Internet Archive) heb ik gelukkig nog een checkpunt van 2017 gevonden met de complete downloads (dit is niet altijd het geval, zeker omdat het ongeveer 3 GB aan PDF's waren) – compleet met Duitse, Engelse en Franse edities.
+>Met behulp van de Wayback Machine (The Internet Archive) heb ik gelukkig nog een controlepunt uit 2017 gevonden met de volledige downloads (dit is niet altijd het geval, zeker omdat het ongeveer 3 GB aan pdf's waren) – compleet met Duitse, Engelse en Franse edities.
 >
->Tijdens het doorbladeren merkte ik dat er weliswaar veel geweldige artikelen en tutorials in de tijdschriften verborgen zaten – maar in deze tijd zou waarschijnlijk niemand meer 112 tijdschriften, die slechts gekopieerd zijn, doorbladeren. Nou ja, tenzij je nostalgisch bent =P
+>Tijdens het doorbladeren merkte ik dat er weliswaar veel geweldige artikelen en tutorials in de tijdschriften stonden – maar in deze tijd zou waarschijnlijk niemand meer 112 tijdschriften, die slechts gekopieerd zijn, doorbladeren. Nou ja, tenzij je nostalgische interesse hebt =P
 >
->Omdat het zonde is van de kennis, wilde ik proberen met behulp van huidige technologie alles zo te digitaliseren dat het ook vandaag de dag nog zinvol bruikbaar is.
+>Omdat het zonde is van de kennis, wilde ik proberen met behulp van de huidige technologie alles zo te digitaliseren dat het ook vandaag de dag nog zinvol bruikbaar is.
 
->[!info]- Hoe zijn de tijdschriften getranscribeerd?
->Eerst heb ik alle pagina's uit de PDF verwijderd die geen relevante teksten bevatten.
+>[!info]- Hoe de tijdschriften zijn getranscribeerd
+>Eerst heb ik alle pagina's uit de pdf verwijderd die geen relevante teksten bevatten.
 >
 >Voor het eigenlijke transcriberen (of OCR) heb ik een multimodale taalmodel van Google gebruikt.
 >Ik gebruik ```Gemini 2.0 Pro Experimental 02-05``` met de prompt
 >```
 >The attached PDF is a photocopy of a magazine. Extract all text, keep the document structure intact as much as possible, also extract single images and have them correctly in context.
 >```
->en de PDF met het gescande tijdschrift.
+>en de pdf met het gescande tijdschrift.
 >Instellingen: Temperatuur 0.1 (Belangrijk om hallucinaties te voorkomen)
 >
 >De output wordt opgeschoond met ```gemini-2.0-flash-exp``` en de volgende prompt (evenals de bijgevoegde tekst die we hebben geëxtraheerd):
@@ -53,13 +55,12 @@ translation_metadata_updated: 2026-06-12T17:33:17+00:00
 >Text:
 >```
 >
->Het resultaat wordt vervolgens nogmaals handmatig bekeken en gecorrigeerd.
+>Het resultaat wordt dan nogmaals handmatig bekeken en gecorrigeerd.
 >
 >>[!Danger]+ Belangrijk:
 >>De focus lag op het extraheren van artikelen, workshops, interviews etc.
->>Bijdragen zoals bijvoorbeeld kleine advertenties etc. heb ik verworpen.
->>Het extraheren en opschonen van de teksten is uitgevoerd met LLM's, dus er bestaat altijd de mogelijkheid dat teksten niet 1:1 zijn getranscribeerd of dat de inhoud licht afwijkt van het origineel. Ik heb geprobeerd de foutenmarge zo klein mogelijk te houden door steekproefsgewijs tekstgedeelten te vergelijken.
-
+>>Berichten zoals bijvoorbeeld kleine advertenties etc. heb ik verworpen.
+>>Het extraheren en opschonen van de teksten is met LLM's uitgevoerd, waardoor er altijd een mogelijkheid bestaat dat teksten niet 1:1 zijn getranscribeerd of dat de inhoud licht afwijkt van het origineel. Ik heb geprobeerd de foutmarge zo klein mogelijk te houden door steekproefsgewijs tekstgedeelten te vergelijken.
 <!-- dynamic:start
 engine: obsidian-base
 base: _bases/Spiele-Base.base
@@ -69,50 +70,44 @@ format: list
 <!-- dynamic:content -->
 <!-- Generated by tools/dynamic_pages.py; edit the dynamic block config, not this list. -->
 
-- [Cascade 001 - 1984](<Kaskade%20001.md>)
-- [Cascade 002 - 1984](<Kaskade%20002.md>)
-- [Cascade 003](<Kaskade%20003.md>)
-- [Cascade 004 - 1985](<Kaskade%20004.md>)
-- [Cascade 005 - 1985](<Kaskade%20005.md>)
+- [Kaskade 001](<Kaskade%20001.md>)
+- [Kaskade 002](<Kaskade%20002.md>)
+- [Kaskade 003](<Kaskade%20003.md>)
+- [Kaskade 004](<Kaskade%20004.md>)
+- [Kaskade 005](<Kaskade%20005.md>)
 
-<!-- dynamic:end -->
-
-# Artikelen
-
+<!-- dynamic:end --># Artikel
 <!-- dynamic:start
 engine: obsidian-base
 base: _bases/Spiele-Base.base
 view: Kaskade Artikel
 format: table
-columns: file, authors, type, sub-type, source
 -->
 <!-- dynamic:content -->
 <!-- Generated by tools/dynamic_pages.py; edit the dynamic block config, not this table. -->
 
-| file                                                                                   | authors                  | type     | sub-type | source      |
-| -------------------------------------------------------------------------------------- | ------------------------ | -------- | -------- | ----------- |
-| [Cascade Workshop - De Kolom Pagina](<Die%20S%C3%A4ulen-Seite.md>)                                       | Dr. P. Luftiko           | Tutorial | Bälle    | Kaskade 001 |
+| Link                                                                                    | authors                  | type     | sub-type | source      |
+| --------------------------------------------------------------------------------------- | ------------------------ | -------- | -------- | ----------- |
+| [Cascade Workshop - De Zuilenzijde](<Die%20S%C3%A4ulen-Seite.md>)                       | Dr. P. Luftiko           | Tutorial | Bälle    | Kaskade 001 |
 | [Een nieuw tijdschrift voor Europa](<Eine%20neue%20Zeitschrift%20f%C3%BCr%20Europa.md>) | Gabi Keaton, Paul Keaton | Artikel  | -        | Kaskade 001 |
-| [Lachen overwint zwaartekracht](<L%C3%A4cheln%20%C3%BCberwindet%20Schwerkraft.md>)    | Toby Philpott            | Artikel  | -        | Kaskade 001 |
-| [Cascade Workshop - Valsspelen!](<Schummeln%21.md>)                                                        | Dr. P. Luftiko           | Tutorial | Bälle    | Kaskade 001 |
-| [Zwaartekracht - en dan nog!](<Schwerkraft%20-%20na%20und%21.md>)                            | Christoph Schmitt        | Artikel  | -        | Kaskade 001 |
-| [Circus gezocht!](<Zirkus%20gesucht%21.md>)                                            | Kattrin & Uli            | Artikel  | -        | Kaskade 001 |
+| [Lachen overwint zwaartekracht](<L%C3%A4cheln%20%C3%BCberwindet%20Schwerkraft.md>)      | Toby Philpott            | Artikel  | -        | Kaskade 001 |
+| [Cascade Workshop - Valsspelen!](<Schummeln%21.md>)                                     | Dr. P. Luftiko           | Tutorial | Bälle    | Kaskade 001 |
+| [Zwaartekracht - en dan nog!](<Schwerkraft%20-%20na%20und%21.md>)                       | Christoph Schmitt        | Artikel  | -        | Kaskade 001 |
+| [Circus gezocht!](<Zirkus%20gesucht%21.md>)                                             | Kattrin & Uli            | Artikel  | -        | Kaskade 001 |
 
-<!-- dynamic:end -->
-
----
+<!-- dynamic:end -->---
 
 >[!info]- Verkeerd benoemde / samengevoegde edities (002 - 004)
 >
 >Kaskade 002:
->In de Duitse originele PDF zijn edities 2+3 samengevoegd.
+>In de originele Duitse PDF zijn edities 2+3 samengevoegd.
 >
 >Kaskade 003:
->In de Duitse originele PDF is hier editie 004 te vinden.
+>In de originele Duitse PDF staat hier editie 004.
 >
 >Kaskade 004:
->Hier ontbreekt het titelblad, ik heb nog niet kunnen achterhalen waar dit bij hoort...
->Het ziet eruit als een kopie van editie 009, zonder titelblad.
+>Hier ontbreekt het titelblad, ik heb nog niet kunnen achterhalen waarvan dit is...
+>Het lijkt op een kopie van editie 009, zonder titelblad.
 >
 >Oplossing:
 >Ik heb de PDF van Kaskade 002 (origineel) gesplitst in 002 en 003.

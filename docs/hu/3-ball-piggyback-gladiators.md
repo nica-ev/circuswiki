@@ -10,17 +10,17 @@ tags:
   - piggyback
   - gladiators
 created: 2026-06-12 00:00:00
-update: 2026-06-12 21:05:58
-title: 3 Labda Visszatartott Gladiátorok
-description: Egy csapat gladiátorok variáció, ahol az egyik játékos három labdát zsonglőrködik, miközben partnere mozgatja őket az arénában.
+update: 2026-06-14 21:44:17
+title: 3 Labda Visszafogás Gladiátorok
+description: Egy csapat gladiátorok variáció, ahol az egyik játékos három labdát zsonglőrködik, miközben partnere mozgatja őt az arénában.
 authors:
   - CircusWiki contributors
 category:
   - convention-games
   - juggling
   - partner-games
-Schwierigkeit: schwer
-Material: Three juggling balls per pair, marked arena
+Schwierigkeit: nehéz
+Material: Három zsonglőrködő labda páronként, kijelölt aréna
 Spieldauer: "5-10"
 group-min: 4
 group-max: 30
@@ -31,58 +31,60 @@ source_url: https://ucircus.co.uk/resources-circus-games/
 source_image: ../img/3-ball-piggyback-gladiators.jpg
 source_permission: public group photo reviewed as reusable by project maintainer
 translation_source: docs/en/3-ball-piggyback-gladiators.md
-translation_source_body_hash: e243d0af57f3b126837fea6988bc30fcd7ce1b91e50ccf021caeecacc18e64ea
-translation_source_hash: e243d0af57f3b126837fea6988bc30fcd7ce1b91e50ccf021caeecacc18e64ea
+translation_source_body_hash: 2ed42bd435a73bc1eb007ca04cf5be9b38e9095f2738c3dab173c1d5c87f196f
+translation_source_hash: 2ed42bd435a73bc1eb007ca04cf5be9b38e9095f2738c3dab173c1d5c87f196f
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-12T21:39:35+00:00
-translation_source_metadata_hash: b65c0ac6e9167b0d6841bb93b04b1b35979a4b914cb64220474d236b1b623bba
+translation_updated: 2026-06-14T19:34:27+00:00
+translation_source_metadata_hash: f9e4ae967c2381b3d8754708f05a85a4e44928355fec69bc00c822f163242a11
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T21:39:35+00:00
+translation_metadata_updated: 2026-06-14T19:34:27+00:00
+translation_source_localized_metadata_hash: f9e4ae967c2381b3d8754708f05a85a4e44928355fec69bc00c822f163242a11
+translation_source_structural_metadata_hash: 2707735df02da212fa2bd39afc4173dff72a12139949578f9e534d9d23e3c389
 ---
 > [!info] Rövid leírás
-> A Gladiátorok csapatjáték egy olyan változata, ahol az egyik játékos a másikat viszi, miközben három labdával zsonglőrködik, miközben partnere mozgatja őt a pályán.
+> A gladiátorjátékok olyan változata, ahol az egyik játékos három labdát dobál, miközben a társa a vállán viszi őt a küzdőtéren keresztül.
 
-![[../img/3-ball-piggyback-gladiators.jpg|300]]
+![3-ball-piggyback-gladiators](../img/3-ball-piggyback-gladiators.jpg){ width=300 }
 
 **Csoportméret**: 4-30 játékos
 **Nehézség**: nehéz
-**Anyag**: Három zsonglőr labda párként, kijelölt pálya
+**Anyag**: Páronként három zsonglőr labda, kijelölt küzdőtér
 **Időtartam**: kb. 5-10 perc
 
 ## Játék leírása
 
-A párok úgy lépnek be a pályára, hogy az egyik játékos hátán ül a másik. A hátán ülő játékos tartja a három labdás mintát, miközben a párok megpróbálják biztonságosan kiütni a többi csapatot.
+A párok úgy lépnek be a küzdőtérre, hogy az egyik játékos a hátán viszi a másikat. A hátra vitt játékos három labdával zsonglőrködik, miközben a párok megpróbálják kiütni a többi csapatot, miközben biztonságban maradnak.
 
 ## Előkészületek
 
-- Alakítsanak párokat, a cipeléshez tiszta beleegyezéssel.
-- Jelöljenek ki egy kis pályát, és tartsák távol a nézőket a szélektől.
-- Határozzák meg nagyon szigorúan a megengedett beavatkozást; a legbiztonságosabb változat csak a zsonglőrködést támadja, nem a cipelőt.
+- Alakítsatok párokat, a hordozásba mindenki egyértelműen egyezzen bele.
+- Jelöljetek ki egy kis küzdőteret, és tartsátok távol a nézőket a szélektől.
+- A megengedett beavatkozásokat nagyon szigorúan határozzátok meg; a legbiztonságosabb változat csak a zsonglőrködést támadja, nem a hordozót.
 
 ## Szabályok
 
-1. Minden pár egy cipelőből és egy hátán ülő zsonglőrből áll.
-2. A jelzésre a hátán ülő játékos elkezdi a három labdával való zsonglőrködést, a cipelő pedig mozog a pályán.
-3. A párok megpróbálják leejteni a labdákat a többi hátán ülő zsonglőrrel, miközben védik saját mintájukat.
-4. Egy pár kiesik, ha a zsonglőr leejti a labdát, a hátán ülő leesik, a cipelő veszélyes helyzetbe kerül, vagy tiltott érintkezés történik.
-5. Az utolsó, aktív három labdás mintával rendelkező pár nyer.
+1. Minden pár egy hordozóval és egy hátra vitt zsonglőrrel kezd.
+2. A jelzésre a hátra vitt játékos elkezdi a három labdával való zsonglőrködést, a hordozó pedig mozog a küzdőtéren.
+3. A párok megpróbálják leejteni a labdákat a többi zsonglőrrel, miközben védik a saját zsonglőrködésüket.
+4. Egy pár kiesik, ha a zsonglőr leejti a labdát, a hordozott játékos leesik, a hordozó veszélyes helyzetbe kerül, vagy szabálytalan érintkezés történik.
+5. Az utolsó, aktív három labdás zsonglőrködéssel rendelkező pár nyer.
 
 ## Változatok
 
-- Használjanak érintés nélküli szabályokat, és csak állóképesség alapján pontozzon.
-- Engedjék, hogy a cipelők minden kör után cseréljenek.
-- Használjanak egy labdás zsonglőrködést vegyes szintű csoportok számára.
+- Alkalmazzatok érintésmentes szabályokat, és csak állóképességgel pontozzatok.
+- A hordozók minden kör után cseréljenek.
+- Használjatok egy labdás zsonglőrködést vegyes szintű csoportok számára.
 
 ## Biztonsági megjegyzések
 
-Ezt egy haladó, konvenciós játékként kell kezelni. Kerüljék fáradt csoportokkal, kemény padlóval vagy nem egyforma erősségű cipelő párokkal.
+Ezt egy haladó szintű, konvenciós játékként kell kezelni. Kerüljétek fáradt csoportokkal, kemény padlóval vagy nem egyforma erősségű hordozó párokkal.
 
 ## Forrás
 
 - UCircus forráskártya: [3 Ball Piggyback Gladiators](https://ucircus.co.uk/resources-circus-games/)
 - UCircus órák: Labdák, Kiütés, Zsonglőrködés
 - Helyi forráskép: `../img/3-ball-piggyback-gladiators.jpg`
-- Forráskezelés: Nem találtunk pontos, független szabályforrást; ez az UCircus címéből/képéből és a szélesebb gladiátor formátumból következtethető.
+- Forráskezelés: Nem találtunk pontos, önálló szabályforrást; ez az UCircus címéből/képéből és a szélesebb gladiátorjáték formátumból következtethető.
 - További referencia: [JugglingWorld zsonglőr játékok](https://www.jugglingworld.biz/tricks/juggling-games/)
-- További referencia a gladiátor/harci kontextushoz: [Combat (juggling)](https://en.wikipedia.org/wiki/Combat_(juggling))
+- További referencia gladiátor/harci kontextushoz: [Combat (juggling)](https://en.wikipedia.org/wiki/Combat_(juggling))

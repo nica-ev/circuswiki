@@ -15,10 +15,12 @@ translation_source_hash: 292d9b11d2702e1968ddafd51626cd679309790387759ddd387b256
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-07T14:11:11+00:00
 translation_source_body_hash: 292d9b11d2702e1968ddafd51626cd679309790387759ddd387b2566e885c9a0
-translation_source_metadata_hash: 1b48e24970204b3a3c69fa0b8e221d6c03d755f574ed4a94bf6514ca5e0f8b48
+translation_source_metadata_hash: 4896d5ac3e96568cada3071344d2fdda640fa9030aade63267e4bed3d4330b5a
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T19:09:12+00:00
+translation_metadata_updated: 2026-06-14T16:22:10+00:00
+translation_source_localized_metadata_hash: 4896d5ac3e96568cada3071344d2fdda640fa9030aade63267e4bed3d4330b5a
+translation_source_structural_metadata_hash: 1be262ab0b488d0c76ecd4a490b8df5cb6c3e46653d326bff64d1429a9001c4d
 ---
 Una visión general de todas las etiquetas utilizadas en esta página y las páginas a las que están vinculadas.
 

@@ -13,8 +13,8 @@ authors:
 category:
   - action
   - kreisspiel
-Schwierigkeit: einfach
-Material: keines
+Schwierigkeit: fácil
+Material: nenhum
 Spieldauer: 5
 source: Tasifan Spielebuch
 group-min: 6
@@ -26,10 +26,12 @@ translation_source_hash: e2f81094cfbd641f760a74b9de1e368a91a75a6c61847fedde11165
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:37:32+00:00
 translation_source_body_hash: e2f81094cfbd641f760a74b9de1e368a91a75a6c61847fedde11165230ec124a
-translation_source_metadata_hash: 7dda2624c27e8b1a778efa27a4832d9b1a865c58af45cea56c6fec0b8cc48a2e
+translation_source_metadata_hash: a41bad3c735fe64a0edd8631912e5329bb34168d4a1a87963a3ec65a8ac176ab
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T19:12:56+00:00
+translation_metadata_updated: 2026-06-14T16:28:05+00:00
+translation_source_localized_metadata_hash: a41bad3c735fe64a0edd8631912e5329bb34168d4a1a87963a3ec65a8ac176ab
+translation_source_structural_metadata_hash: 87b54bff21e2a7c6179fca266757c88320bd49bb36692f3c64241c8fe0222dc8
 ---
 > [!info] Breve Descrição
 > Um jogo rápido de círculo de energia, onde impulsos são recebidos e passados com movimentos claros.

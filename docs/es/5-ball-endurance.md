@@ -10,16 +10,16 @@ tags:
   - endurance
 created: 2026-06-12 00:00:00
 update: 2026-06-12 22:42:05
-title: Resistencia de 5 Bolas
-description: Una competencia de resistencia de cinco bolas donde el último malabarista activo gana.
+title: Resistencia de 5 Pelotas
+description: Una competencia de resistencia de cinco pelotas donde el último malabarista activo gana.
 authors:
   - CircusWiki contributors
 category:
   - convention-games
   - juggling
   - endurance
-Schwierigkeit: "mittel"
-Material: "Five juggling balls per player"
+Schwierigkeit: media
+Material: Cinco pelotas de malabares por jugador
 Spieldauer: "3-15"
 group-min: 2
 group-max: 80
@@ -32,36 +32,38 @@ source_section: "Endurance Games/World Records"
 source_image_ucircus: "../img/5-ball-endurance.jpg"
 source_permission: "public-place images reviewed as reusable by project maintainer"
 translation_source: docs/en/5-ball-endurance.md
-translation_source_body_hash: b17598de91a37347e5486475e22925ed02b364e617a75dc5f58b6a7fefb8928f
-translation_source_hash: b17598de91a37347e5486475e22925ed02b364e617a75dc5f58b6a7fefb8928f
+translation_source_body_hash: 3561b6c9689150f5a3696121427ed284c9e5c4133e2cd413dc96624374af3ca9
+translation_source_hash: 3561b6c9689150f5a3696121427ed284c9e5c4133e2cd413dc96624374af3ca9
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-12T21:06:09+00:00
-translation_source_metadata_hash: a57fd646cb2885f517e04728dbb0e37765cd22193f1b76feb26934ed403991b0
+translation_updated: 2026-06-14T19:25:53+00:00
+translation_source_metadata_hash: e62644c948f874aca406cd8e5a6854ef7d71602526eab2c28eafda7e195c6e70
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T21:06:09+00:00
+translation_metadata_updated: 2026-06-14T19:25:53+00:00
+translation_source_localized_metadata_hash: e62644c948f874aca406cd8e5a6854ef7d71602526eab2c28eafda7e195c6e70
+translation_source_structural_metadata_hash: 63cf8e96bfe17a8c486c3cac063a16d87d86f882aaa2c65ee669a69e7c9532b6
 ---
 > [!info] Descripción Breve
-> Una competencia de resistencia con cinco pelotas en la que el último malabarista activo gana.
+> Una competición de resistencia con cinco pelotas en la que gana el último malabarista activo.
 
-![[../img/5-ball-endurance.jpg|300]]
+![5-ball-endurance](../img/5-ball-endurance.jpg){ width=300 }
 
-**Tamaño del grupo**: De 2 a 80 jugadores  
-**Dificultad**: Media  
-**Material**: Cinco pelotas de malabarismo por jugador  
+**Tamaño del grupo**: 2 a 80 jugadores  
+**Dificultad**: media  
+**Material**: Cinco pelotas de malabares por jugador  
 **Duración**: aprox. 3-15 minutos
 
 ## Descripción del Juego
 
-Todos los jugadores comienzan a hacer malabares con cinco pelotas al mismo tiempo. Quien deje caer, recoja, reinicie o detenga el patrón acordado de cinco pelotas queda eliminado. Los jugadores eliminados abandonan el área activa en silencio para que los malabaristas restantes tengan suficiente espacio.
+Todos los jugadores empiezan a hacer malabares con cinco pelotas al mismo tiempo. Quien deje caer, recoja, reinicie o detenga el patrón acordado de cinco pelotas queda eliminado. Los jugadores eliminados abandonan el área activa en silencio para que los malabaristas restantes tengan suficiente espacio.
 
-El último jugador que siga haciendo malabares gana. Si varios malabaristas fuertes permanecen durante mucho tiempo, establece un límite de tiempo y pasa a una ronda final con tareas adicionales.
+El último jugador que siga haciendo malabares gana. Si varios malabaristas fuertes permanecen durante mucho tiempo, establezcan un límite de tiempo y pasen a una ronda final con tareas adicionales.
 
 ## Preparación
 
 - Dale a cada jugador suficiente espacio para hacer malabares con cinco pelotas.
-- Acuerda si se permite cualquier patrón de cinco pelotas o si se requiere la cascada.
-- Decide si el juego es de eliminación o un desafío de resistencia de récord personal.
+- Acuerden si se permite cualquier patrón de cinco pelotas o si se requiere la cascada.
+- Decidan si el juego es por eliminación o un desafío de resistencia de mejor marca personal.
 
 ## Variaciones
 
@@ -71,11 +73,11 @@ El último jugador que siga haciendo malabares gana. Si varios malabaristas fuer
 
 ## Notas de Seguridad
 
-Este juego tiene poco contacto, pero las caídas de cinco pelotas se propagan rápidamente. Mantén a los espectadores y a los jugadores eliminados fuera del área activa de malabarismo.
+Este juego tiene poco contacto, pero las caídas de cinco pelotas se propagan rápidamente. Mantén a los espectadores y a los jugadores eliminados fuera del área activa de malabares.
 
 ## Fuente
 
-- [JugglingWorld - Juegos de Malabarismo](https://www.jugglingworld.biz/tricks/juggling-games/), sección: Juegos de Resistencia/Récords Mundiales.
-- [Página de juegos de circo de UCircus](https://ucircus.co.uk/resources-circus-games/), tarjeta de origen: Resistencia de 5 Pelotas.
-- Clases de UCircus: Pelotas, Eliminación, Resistencia, Malabarismo.
+- [JugglingWorld - Juggling Games](https://www.jugglingworld.biz/tricks/juggling-games/), sección: Endurance Games/World Records.
+- [Página de juegos de circo de UCircus](https://ucircus.co.uk/resources-circus-games/), tarjeta de origen: 5 Ball Endurance.
+- Clases de UCircus: Pelotas, Knockout, Resistencia, Malabares.
 - Imagen de referencia de UCircus: `../img/5-ball-endurance.jpg`.

@@ -17,10 +17,12 @@ translation_source_hash: 752042c394326b50ff6f8453ebe35f3ef4639202d2b22f834a7b9b9
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-06T23:16:01+00:00
 translation_source_body_hash: 752042c394326b50ff6f8453ebe35f3ef4639202d2b22f834a7b9b918814adc1
-translation_source_metadata_hash: 26c2b84dae157be0456501aec97f356719102bd204b7f9ba6cbcf47cc066d819
+translation_source_metadata_hash: 88cdd111c18a63f6ab700955c55ede62e1c8df43546560e08ae4d052f5678284
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:48:18+00:00
+translation_metadata_updated: 2026-06-14T15:51:02+00:00
+translation_source_localized_metadata_hash: 88cdd111c18a63f6ab700955c55ede62e1c8df43546560e08ae4d052f5678284
+translation_source_structural_metadata_hash: 91ff029cb94289cec75dee7a0dc2dad5b6d4e30e4de0e6b14f8aee1f0d5fcf6f
 ---
 # Functioneel Jongleren
 

@@ -7,13 +7,13 @@ tags:
 created: 2025-01-24 03:50:50
 update: 2025-03-17 02:47:46
 title: Cirkus prichádza do mesta
-description: Tematická hra na zapojenie, kde sa cirkusové príkazy spájajú s pohybmi a fázou chytania levov.
+description: Tematická hra na zapojenie, ktorá spája cirkusové príkazy s pohybmi a fázou chytania leva.
 authors:
   - Marc Bielert
 category:
   - sonstiges
-Schwierigkeit: einfach
-Material: Matte, markierte Bereiche
+Schwierigkeit: ľahká
+Material: Podložka, vyznačené plochy
 Spieldauer: 5-15
 source: unbekannt
 group-min: 10
@@ -25,10 +25,12 @@ translation_source_hash: dd3bdcabe0f7d217c7264ceaf0edb5b3cc732e10321472e49257dc2
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:32:15+00:00
 translation_source_body_hash: dd3bdcabe0f7d217c7264ceaf0edb5b3cc732e10321472e49257dc2e982183b1
-translation_source_metadata_hash: fd458f03b98f8ceb7e95f61955f0b3dee3b472162012acb29ef95867b5a21aed
+translation_source_metadata_hash: efccd112efe2e782ff232185b4fd123bdcd8cea0efdaae952eed1fd7d6774045
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:08:40+00:00
+translation_metadata_updated: 2026-06-14T15:45:32+00:00
+translation_source_localized_metadata_hash: efccd112efe2e782ff232185b4fd123bdcd8cea0efdaae952eed1fd7d6774045
+translation_source_structural_metadata_hash: 8720e25140d5cc2971f583fc0ff3076795859c7a8c0513e9ed2a87530c5db2d1
 ---
 > [!info] Stručný popis
 > Tematická interaktívna hra, pri ktorej sa cirkusové povely spájajú s pohybmi a fázou chytania levov.

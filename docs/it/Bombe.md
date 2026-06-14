@@ -7,14 +7,14 @@ tags:
 created: 2025-01-24 03:50:50
 update: 2025-03-17 02:22:02
 title: Bomba
-description: Un gioco di cerchio con la palla in cui una bomba che ticchetta viene passata e, quando esplode, crea nuovi ostacoli.
+description: Un gioco di cerchio con palla in cui una bomba che ticchetta viene passata e, quando esplode, crea nuovi ostacoli.
 authors:
   - Marc Bielert
 category:
   - action
   - kreisspiel
-Schwierigkeit: einfach
-Material: Ball
+Schwierigkeit: facile
+Material: Palla
 Spieldauer: 3-6
 source: Tasifan Spielebuch
 group-min: 7
@@ -26,10 +26,12 @@ translation_source_hash: 7550f72e35b94224a1263c3bc3b3fb67c0142ba42edb3d1ecf3d77b
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:28:10+00:00
 translation_source_body_hash: 7550f72e35b94224a1263c3bc3b3fb67c0142ba42edb3d1ecf3d77bb729f09f1
-translation_source_metadata_hash: 50e76177f0e14cd202df88370b231bf34f414d957cae5815bb7e8c8d6364032d
+translation_source_metadata_hash: 9c91b19f9b3dfd68612a169960ca407f18c0872698e41c5664d0cace336ed75b
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:04:35+00:00
+translation_metadata_updated: 2026-06-14T15:41:18+00:00
+translation_source_localized_metadata_hash: 9c91b19f9b3dfd68612a169960ca407f18c0872698e41c5664d0cace336ed75b
+translation_source_structural_metadata_hash: af93bc43853b64d624a8e754002c0e9cd0c8b26f206c1899a4fb9ea3b7aaa137
 ---
 > [!info] Breve descrizione
 > Un gioco di gruppo in cerchio con una palla, in cui viene passata una bomba che "ticchetta" e, quando esplode, crea nuovi ostacoli.

@@ -22,10 +22,12 @@ translation_source_hash: 3001eb3328c782c6cbe5de46e17a524a805e41247389021804d3652
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-08T16:35:42+00:00
 translation_source_body_hash: 3001eb3328c782c6cbe5de46e17a524a805e41247389021804d3652bae9bdd42
-translation_source_metadata_hash: e28d53f226ca407b253c2bcde9d2bd1cc39a923d5a6e25e2893018a4d9e14ca3
+translation_source_metadata_hash: b55f1821cd0b94f4a6c1829170e647ae05968667da9373164806d49952a367eb
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:59:37+00:00
+translation_metadata_updated: 2026-06-14T16:13:00+00:00
+translation_source_localized_metadata_hash: b55f1821cd0b94f4a6c1829170e647ae05968667da9373164806d49952a367eb
+translation_source_structural_metadata_hash: 86b5124dabf9a9e00f771b7cde91114ceae0520ffd771406fdf03ed8adb2a8a1
 ---
 # Monokyklo
 

@@ -9,12 +9,12 @@ tags:
 category:
   - cool-down
   - kreisspiel
-title: Αίτηση στον τσίρκο
-description: Ένα παιχνίδι κύκλου όπου ένας υποψήφιος πρέπει να βρει τον μυστικό διευθυντή του τσίρκου μέσω διακριτικών αλλαγών κίνησης.
+title: Αίτηση στο τσίρκο
+description: Ένα παιχνίδι κύκλου όπου ένας υποψήφιος πρέπει να βρει τον μυστικό διευθυντή του τσίρκου μέσω ανεπαίσθητων αλλαγών στην κίνηση.
 authors:
   - Marc Bielert
-Schwierigkeit: einfach
-Material: keines
+Schwierigkeit: εύκολο
+Material: κανένα
 Spieldauer: 5-10
 source: unbekannt
 group-min: 8
@@ -26,10 +26,12 @@ translation_source_hash: 356d60fc5fbdab3d5637d119570897dd5a2d0019b8bc6c822fdaf0c
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:26:15+00:00
 translation_source_body_hash: 356d60fc5fbdab3d5637d119570897dd5a2d0019b8bc6c822fdaf0cec915ebfd
-translation_source_metadata_hash: 83359a1bb6e48506b84a38e1c07acc78de5bbe1f88f7e8d8f86f31451c069253
+translation_source_metadata_hash: d45615c9c928229ac1a724914ee532b41780b10af2c9e91c7b66c1e423e6a0c1
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:03:34+00:00
+translation_metadata_updated: 2026-06-14T15:40:17+00:00
+translation_source_localized_metadata_hash: d45615c9c928229ac1a724914ee532b41780b10af2c9e91c7b66c1e423e6a0c1
+translation_source_structural_metadata_hash: 04481a9aca96db7f98f8274ee2b3d1be131118a21253e4152e7e8ceb401f84de
 ---
 > [!info] Σύντομη Περιγραφή
 > Ένα παιχνίδι σε κύκλο, όπου ένας υποψήφιος πρέπει να βρει τον μυστικό διευθυντή του τσίρκου, παρατηρώντας διακριτικές αλλαγές στις κινήσεις.

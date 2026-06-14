@@ -19,8 +19,8 @@ category:
   - miscellaneous
   - target
   - diabolo
-Schwierigkeit: "einfach"
-Material: "Toothbrushes, box or basket"
+Schwierigkeit: fácil
+Material: Cepillos de dientes, caja o canasta
 Spieldauer: "5-15"
 group-min: 2
 group-max: 40
@@ -35,10 +35,12 @@ translation_source_body_hash: b5edb11f3cf7887a2aadfa42b78d16575106420aa5da9d723d
 translation_source_hash: b5edb11f3cf7887a2aadfa42b78d16575106420aa5da9d723dcb17c39b7e3f6e
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-12T21:35:22+00:00
-translation_source_metadata_hash: 4628803ca8e934715c6b57a759eddd0d6d4a2cafffe6caa3f8f63bd5ee70bdad
+translation_source_metadata_hash: 9bfeb4842b9e015a6b1f26928f9976aea31a8e5ffd0bb09fedb5b3f8ec0f3777
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T21:35:22+00:00
+translation_metadata_updated: 2026-06-14T16:04:00+00:00
+translation_source_localized_metadata_hash: 9bfeb4842b9e015a6b1f26928f9976aea31a8e5ffd0bb09fedb5b3f8ec0f3777
+translation_source_structural_metadata_hash: 4793a8c677d72b40d512ddf5d5bfa03ed974c381f033d9eb678d42d82f80ea72
 ---
 > [!info] Descripción Breve
 > Los jugadores primero aprenden a hacer girar un cepillo de dientes y luego intentan lanzarlo a una caja en el centro de la sala.

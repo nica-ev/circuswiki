@@ -19,10 +19,12 @@ translation_source_hash: 54c996df3e97594ef3a9cbd9671c05ca36af2fe62c2a28b1ca0ac4e
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-06T23:13:04+00:00
 translation_source_body_hash: 54c996df3e97594ef3a9cbd9671c05ca36af2fe62c2a28b1ca0ac4e38aecf932
-translation_source_metadata_hash: 77907e02e6f6e10084bc09f03121754b4bb52c0bb5ebc94064b34a0a335ae901
+translation_source_metadata_hash: e32764302e50344978c63e56bc1d890da53ed995ce0235b3a0234b79aec67499
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:05:39+00:00
+translation_metadata_updated: 2026-06-14T15:42:20+00:00
+translation_source_localized_metadata_hash: e32764302e50344978c63e56bc1d890da53ed995ce0235b3a0234b79aec67499
+translation_source_structural_metadata_hash: 6fc812a2b8fdb385f37f7ae547d8188693405576ae3e9b638356ba56a085eb4a
 ---
 # **Rebuilding Grasp — Functioneel Jongleren en Handrevalidatie in Florence, Italië**
 

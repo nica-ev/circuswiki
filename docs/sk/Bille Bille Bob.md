@@ -7,13 +7,13 @@ tags:
 created: 2025-01-24 03:50:50
 update: 2026-06-07 00:06:17
 title: Bille Bille Bob
-description: Rýchla hra na reakciu, kde sa príkazy v kruhu odpovedajú slovami, gestami a skupinovými obrazcami.
+description: Rýchla hra na reakciu, kde sa povely v kruhu odpovedajú slovami, gestami a skupinovými obrazcami.
 authors:
   - Marc Bielert
 category:
   - action
-Schwierigkeit: mittel
-Material: keines
+Schwierigkeit: stredná
+Material: žiadny
 Spieldauer: 8
 source: Tasifan Spielebuch
 group-min: 6
@@ -25,10 +25,12 @@ translation_source_hash: 7ab9fa8dfb2baf9bbc03fd7112ca9709def1fc8280ff926d25c8548
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:27:59+00:00
 translation_source_body_hash: 7ab9fa8dfb2baf9bbc03fd7112ca9709def1fc8280ff926d25c8548581cf6fa4
-translation_source_metadata_hash: 22232ebdfdd191888bca0390d265d3bd356cc70749c23554774f4c9252713041
+translation_source_metadata_hash: 386031ae8e959d3aef3ae345386588292e3fd3441532dea2800d9bf752755545
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:03:55+00:00
+translation_metadata_updated: 2026-06-14T15:40:39+00:00
+translation_source_localized_metadata_hash: 386031ae8e959d3aef3ae345386588292e3fd3441532dea2800d9bf752755545
+translation_source_structural_metadata_hash: b4f5251f3ff7203ffb29216cd9c745f81a11d7c12135c0cd02095d1a85a20f11
 ---
 > [!info] Stručný popis
 > Rýchla reakčná hra, v ktorej sa na povely v kruhu reaguje slovami, gestami a skupinovými figúrami.

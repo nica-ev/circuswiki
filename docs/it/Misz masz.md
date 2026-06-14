@@ -8,14 +8,14 @@ tags:
   - gry
   - zonglerka
   - kooperacja
-title: Misz Masch
+title: Caos
 description: Gioco di gruppo con palline e altri attrezzi, che sviluppa integrazione, memoria dei nomi, coordinazione e cooperazione.
 authors:
   - Wiktoria Witenberg
 category:
   - kennenlernen
   - kooperacja
-Schwierigkeit: einfach - schwer
+Schwierigkeit: facile - difficile
 Material:
   - piłki
   - dowolne rekwizyty
@@ -28,10 +28,12 @@ translation_source_hash: bf6513b8bce6c9a2656eee8f51855e7f13faecafeb6d4eead9266a5
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-07T17:30:39+00:00
 translation_source_body_hash: bf6513b8bce6c9a2656eee8f51855e7f13faecafeb6d4eead9266a585ed51906
-translation_source_metadata_hash: 2a563994eb6a84199e9a6f0e0c61aa40d3c9ef515ab4be7ec8fbc83e904a73e3
+translation_source_metadata_hash: c07a6e126406d6f343812e2b7536be82b430d3f9f82685b6518b1a434ab08433
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:58:55+00:00
+translation_metadata_updated: 2026-06-14T16:12:13+00:00
+translation_source_localized_metadata_hash: c07a6e126406d6f343812e2b7536be82b430d3f9f82685b6518b1a434ab08433
+translation_source_structural_metadata_hash: c7213a556e432b36c945cc02c0d0bcaeaa1a865e2a64a116780d43d5168509a4
 ---
 # Mischmasch
 

@@ -10,16 +10,16 @@ tags:
   - endurance
 created: 2026-06-12 00:00:00
 update: 2026-06-12 22:42:05
-title: 5 Labdás Kitartás
-description: Öt labdával tartó verseny, ahol az utolsó aktív zsonglőr nyer.
+title: 5 Labda Kitartás
+description: Ötlabdás kitartási verseny, ahol az utolsó aktív zsonglőr nyer.
 authors:
   - CircusWiki contributors
 category:
   - convention-games
   - juggling
   - endurance
-Schwierigkeit: "mittel"
-Material: "Five juggling balls per player"
+Schwierigkeit: közepes
+Material: Öt zsonglőrlabda játékosonként
 Spieldauer: "3-15"
 group-min: 2
 group-max: 80
@@ -32,50 +32,52 @@ source_section: "Endurance Games/World Records"
 source_image_ucircus: "../img/5-ball-endurance.jpg"
 source_permission: "public-place images reviewed as reusable by project maintainer"
 translation_source: docs/en/5-ball-endurance.md
-translation_source_body_hash: b17598de91a37347e5486475e22925ed02b364e617a75dc5f58b6a7fefb8928f
-translation_source_hash: b17598de91a37347e5486475e22925ed02b364e617a75dc5f58b6a7fefb8928f
+translation_source_body_hash: 3561b6c9689150f5a3696121427ed284c9e5c4133e2cd413dc96624374af3ca9
+translation_source_hash: 3561b6c9689150f5a3696121427ed284c9e5c4133e2cd413dc96624374af3ca9
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-12T21:05:54+00:00
-translation_source_metadata_hash: a57fd646cb2885f517e04728dbb0e37765cd22193f1b76feb26934ed403991b0
+translation_updated: 2026-06-14T19:25:40+00:00
+translation_source_metadata_hash: e62644c948f874aca406cd8e5a6854ef7d71602526eab2c28eafda7e195c6e70
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T21:05:54+00:00
+translation_metadata_updated: 2026-06-14T19:25:40+00:00
+translation_source_localized_metadata_hash: e62644c948f874aca406cd8e5a6854ef7d71602526eab2c28eafda7e195c6e70
+translation_source_structural_metadata_hash: 63cf8e96bfe17a8c486c3cac063a16d87d86f882aaa2c65ee669a69e7c9532b6
 ---
 > [!info] Rövid leírás
 > Öt labdás állóképességi verseny, ahol az utolsó aktív zsonglőr nyer.
 
-![[../img/5-ball-endurance.jpg|300]]
+![5-ball-endurance](../img/5-ball-endurance.jpg){ width=300 }
 
-**Csoportméret**: 2–80 játékos
-**Nehézség**: közepes
-**Anyag**: Játékosonként öt zsonglőrlabda
-**Időtartam**: kb. 3–15 perc
+**Csoportméret**: 2-80 játékos  
+**Nehézség**: közepes  
+**Anyag**: Játékosonként öt zsonglőr labda  
+**Időtartam**: kb. 3-15 perc
 
-## Játékleírás
+## Játék leírása
 
-Minden játékos egyszerre kezdi el öt labdával a zsonglőrködést. Aki elejti a labdát, összeszedi, újraindítja vagy abbahagyja a megbeszélt ötlabdás mintát, az kiesik. A kiesett játékosok csendben hagyják el a játékteret, hogy a megmaradt zsonglőröknek elegendő helyük legyen.
+Minden játékos egyszerre kezd el öt labdával zsonglőrködni. Aki leejti a labdát, összeszedi, újraindítja vagy abbahagyja a megbeszélt ötlabdás mintát, az kiesik. A kiesett játékosok csendben hagyják el az aktív területet, hogy a megmaradó zsonglőröknek elegendő helyük legyen.
 
-Az utolsó, aki még zsonglőrködik, nyer. Ha sokáig több erős zsonglőr marad, állíts be időkorlátot, és tarts egy döntőt extra feladatokkal.
+Az utolsó, aki még zsonglőrködik, nyer. Ha sokáig több erős zsonglőr marad, állíts be egy időkorlátot, és egy döntő körrel folytassátok extra feladatokkal.
 
 ## Előkészületek
 
 - Biztosíts minden játékosnak elegendő helyet az ötlabdás zsonglőrködéshez.
-- Beszéljétek meg, hogy bármilyen ötlabdás minta megengedett-e, vagy csak a kaszkád a követelmény.
-- Döntsd el, hogy a játék kieséses rendszerű, vagy egyéni csúcsállításon alapuló állóképességi kihívás.
+- Beszéljétek meg, hogy bármilyen ötlabdás minta megengedett-e, vagy csak a kaszkád.
+- Döntsd el, hogy a játék kieséses rendszerű, vagy egyéni csúcsállító állóképességi kihívás.
 
 ## Változatok
 
-- Adj hozzá kötelező trükköket vagy mozgásokat egy meghatározott idő után.
-- Tarts előfutamokat és egy döntőt nagy létszámú csoportoknak.
-- Használd ugyanezt a formátumot más számú labdával vagy rekvizitummal.
+- Adjatok hozzá kötelező trükköket vagy mozgást egy meghatározott idő után.
+- Futassatok előfutamokat és egy döntőt nagy csoportok számára.
+- Használjátok ugyanezt a formátumot más számú vagy más eszközökkel.
 
 ## Biztonsági megjegyzések
 
-Ez egy alacsony fizikai kontaktussal járó játék, de az ötlabdás leesések gyorsan terjednek. Tartsd távol a nézőket és a kiesett játékosokat az aktív zsonglőrködési területtől.
+Ez alacsony fizikai kontaktussal jár, de az ötlabdás leesések gyorsan terjednek. Tartsátok a nézőket és a kiesett játékosokat az aktív zsonglőrködési területen kívül.
 
 ## Forrás
 
 - [JugglingWorld - Juggling Games](https://www.jugglingworld.biz/tricks/juggling-games/), szakasz: Endurance Games/World Records.
-- [UCircus circus games oldal](https://ucircus.co.uk/resources-circus-games/), forráskártya: 5 Ball Endurance.
+- [UCircus circus games page](https://ucircus.co.uk/resources-circus-games/), forráskártya: 5 Ball Endurance.
 - UCircus órák: Balls, Knockout, Endurance, Juggling.
-- UCircus referencia kép: `../img/5-ball-endurance.jpg`.
+- UCircus referenciakép: `../img/5-ball-endurance.jpg`.

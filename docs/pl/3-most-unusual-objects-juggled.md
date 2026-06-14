@@ -9,16 +9,16 @@ tags:
   - juggling
 created: 2026-06-12 00:00:00
 update: 2026-06-12 21:36:54
-title: 3 najbardziej niezwykłe przedmioty do żonglowania
-description: Uczestnicy prezentują niezwykłe przedmioty, którymi potrafią żonglować.
+title: 3 najbardziej niezwykłe żonglowane obiekty
+description: Uczestnicy prezentują niezwykłe obiekty, którymi potrafią żonglować.
 authors:
   - CircusWiki contributors
 category:
   - convention-games
   - miscellaneous
   - juggling
-Schwierigkeit: einfach
-Material: Unusual objects chosen by participants
+Schwierigkeit: łatwy
+Material: Niezwykłe obiekty wybrane przez uczestników
 Spieldauer: 5-15
 group-min: 2
 group-max: 40
@@ -33,10 +33,12 @@ translation_source_body_hash: cdc9bc3695bf9c80315eb485edf51cb6be5d0a16dd570d1f12
 translation_source_hash: cdc9bc3695bf9c80315eb485edf51cb6be5d0a16dd570d1f124ed0457a13f3ef
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-12T21:04:36+00:00
-translation_source_metadata_hash: 77d968098afff680067ee488735c8f7817a61cb44165bc114981eb1a104c6500
+translation_source_metadata_hash: 21b07de4087cdbc9a6c3b588bd127086da75831faeaed2a90579314660da8dd2
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T21:04:36+00:00
+translation_metadata_updated: 2026-06-14T15:54:52+00:00
+translation_source_localized_metadata_hash: 21b07de4087cdbc9a6c3b588bd127086da75831faeaed2a90579314660da8dd2
+translation_source_structural_metadata_hash: cc4b23d6e856d5d71cad2714fb37e2ffaa01cc3f7dfe7055883e0283df7c425b
 ---
 > [!info] Krótki opis
 > Uczestnicy prezentują niezwykłe przedmioty, którymi potrafią żonglować.

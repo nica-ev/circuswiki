@@ -12,8 +12,8 @@ authors:
   - Marc Bielert
 category:
   - Kooperation
-Schwierigkeit: einfach
-Material: Plane
+Schwierigkeit: lehká
+Material: Plachta
 Spieldauer: 3-10
 source: Tasifan Spielebuch
 group-min: 4
@@ -25,10 +25,12 @@ translation_source_hash: 950687c81cb5d5aacb251511ef1d5f93fece6d4e1c375a6981d468a
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:39:02+00:00
 translation_source_body_hash: 950687c81cb5d5aacb251511ef1d5f93fece6d4e1c375a6981d468a3559dcfb5
-translation_source_metadata_hash: 509ed896bedca9b7ca8e897158250cb57e8bc52780f799d1e090170dc173b29a
+translation_source_metadata_hash: 88c2332f7b02061611cdba30306e0991c38f890e9c7c46839ad4a03cf5e056f8
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:47:11+00:00
+translation_metadata_updated: 2026-06-14T15:49:54+00:00
+translation_source_localized_metadata_hash: 88c2332f7b02061611cdba30306e0991c38f890e9c7c46839ad4a03cf5e056f8
+translation_source_structural_metadata_hash: 02bc9d73b48800b1fce2dedc20656779ad7e510ebb2cd1fdad43cbc7c7879ad9
 ---
 > [!info] Stručný popis
 > Kooperativní úkol, při kterém skupina musí otočit plachtu, aniž by se dotkla země.

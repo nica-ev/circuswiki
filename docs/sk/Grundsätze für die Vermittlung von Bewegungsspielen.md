@@ -5,7 +5,7 @@ publish: true
 tags: 
 created: 2025-01-25 18:59:24
 update: 2025-03-11 02:29:22
-title: Princípy sprostredkovania pohybových hier
+title: Princípy pre sprostredkovanie pohybových hier
 description: 
 authors:
   - Marc Bielert
@@ -16,10 +16,12 @@ translation_source_hash: 25c0e285040dc876b7247bddaec06aab15cfeebdc118c18f677cb00
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-07T18:46:43+00:00
 translation_source_body_hash: 25c0e285040dc876b7247bddaec06aab15cfeebdc118c18f677cb00fd48ff705
-translation_source_metadata_hash: 9be525466be30344cff8145f0753af73097113f7947004269f1ee1432f7375b6
+translation_source_metadata_hash: 8ba62bccfed20c4fbc3c6afc4d742b3cc0a5bc31880aeac5e700244752f66190
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:49:21+00:00
+translation_metadata_updated: 2026-06-14T15:52:04+00:00
+translation_source_localized_metadata_hash: 8ba62bccfed20c4fbc3c6afc4d742b3cc0a5bc31880aeac5e700244752f66190
+translation_source_structural_metadata_hash: 97544c96de67490a7264ba77ff42b0415ef61784835954a622ec5f1bda6a46ce
 ---
 # Zásady pre vedenie pohybových hier
 

@@ -7,13 +7,13 @@ publish: true
 tags:
   - spiele
 title: Egyptská vrhací hra
-description: Vrhací hra pro malé týmy, kde je třeba házet na osobu, která neplácne.
+description: Vrhací hra pro malé týmy, kde musíte házet na osobu, která neplácne.
 authors:
   - Marc Bielert
 category:
   - sonstiges
-Schwierigkeit: mittel
-Material: Bälle
+Schwierigkeit: střední
+Material: Míče
 Spieldauer: 5 - 10
 source: unbekannt
 group-min: 4
@@ -26,10 +26,12 @@ translation_source_hash: 0600f516e559831bf62c9ae6492657f63f5321a280b381419d354e4
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:20:28+00:00
 translation_source_body_hash: 0600f516e559831bf62c9ae6492657f63f5321a280b381419d354e45dc361942
-translation_source_metadata_hash: 3eec85c092dc081bc0f78ce092232ef046e421aa3d4bff6d998f5b762ba4481e
+translation_source_metadata_hash: 589ff0eb48abc05c8586c7de8ee1b0725223701acbc10d0c450823062a11500d
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:01:18+00:00
+translation_metadata_updated: 2026-06-14T15:37:00+00:00
+translation_source_localized_metadata_hash: 589ff0eb48abc05c8586c7de8ee1b0725223701acbc10d0c450823062a11500d
+translation_source_structural_metadata_hash: 4db87222785d6a0bbf537638b210b27b34e4f2d487b10ac437095b8a598c4848
 ---
 > [!info] Stručný popis
 > Hodová hra pro malé týmy, při které se musí házet na osobu, která nezatleskala.

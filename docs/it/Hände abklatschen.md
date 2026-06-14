@@ -12,8 +12,8 @@ authors:
   - Marc Bielert
 category:
   - action
-Schwierigkeit: mittel
-Material: keines
+Schwierigkeit: medio
+Material: nessuno
 Spieldauer: 6
 source: Tasifan Spielebuch
 group-min: 5
@@ -25,10 +25,12 @@ translation_source_hash: 505958fb1bc718bfb475df1a7a31bfd332d5c2bddfc7e21c82525f0
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:43:20+00:00
 translation_source_body_hash: 505958fb1bc718bfb475df1a7a31bfd332d5c2bddfc7e21c82525f0eba1b647f
-translation_source_metadata_hash: 8a943359a4596b9dc94b418c26df9a4e00d97dfc704756239ce19a5e8859dd76
+translation_source_metadata_hash: 717d718e4f7b3a13d23248e6fc19c8168a17b14653f5aa61d73152726b10e730
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:50:07+00:00
+translation_metadata_updated: 2026-06-14T15:52:52+00:00
+translation_source_localized_metadata_hash: 717d718e4f7b3a13d23248e6fc19c8168a17b14653f5aa61d73152726b10e730
+translation_source_structural_metadata_hash: a36ff9ccae3c790e7efd9057ccdf0fa73ab79957afedc2e18a95a15153d20500
 ---
 > [!info] Breve descrizione
 > Un gioco di reazione in cerchio, in cui ci si dà il cinque a ritmo e si ritrae la mano al momento giusto.

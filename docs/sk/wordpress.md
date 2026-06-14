@@ -17,10 +17,12 @@ translation_source_hash: 24f5241dcb423766acc15757b42a7e7ce53a4692b230b0eabb53b3a
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-07T19:15:05+00:00
 translation_source_body_hash: 24f5241dcb423766acc15757b42a7e7ce53a4692b230b0eabb53b3a9f1d81a31
-translation_source_metadata_hash: a22c55b6e80606f9508418572f0579f43fa98caea3dcddefb2e8a4a0be3aeeb6
+translation_source_metadata_hash: e14701e43c2d32cb07b5b3cf964ea12a02863836c3027dc0449534235440a985
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T19:12:17+00:00
+translation_metadata_updated: 2026-06-14T16:27:18+00:00
+translation_source_localized_metadata_hash: e14701e43c2d32cb07b5b3cf964ea12a02863836c3027dc0449534235440a985
+translation_source_structural_metadata_hash: 7514b3914635330eca22042234fdd945928b4e6dcd6f2bde1443c8bf8812db5d
 ---
 # Wordpress
 
