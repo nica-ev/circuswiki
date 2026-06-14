@@ -10,16 +10,16 @@ tags:
   - endurance
 created: 2026-06-12 00:00:00
 update: 2026-06-12 20:51:32
-title: Resistencia de 5 Clavas
-description: Un concurso de resistencia de malabares con números donde los participantes mantienen cinco clavas en el aire el mayor tiempo posible.
+title: Resistencia de 5 Maces
+description: Un concurso de resistencia de malabares numéricos donde los jugadores mantienen cinco mazas en el aire el mayor tiempo posible.
 authors:
   - CircusWiki contributors
 category:
   - convention-games
   - juggling
   - endurance
-Schwierigkeit: schwer
-Material: Five juggling clubs per player
+Schwierigkeit: difícil
+Material: Cinco mazas de malabares por jugador
 Spieldauer: "3-15"
 group-min: 2
 group-max: 40
@@ -30,21 +30,23 @@ source_url: https://ucircus.co.uk/resources-circus-games/
 source_image: ../img/5-club-endurance.jpg
 source_permission: public group photo reviewed as reusable by project maintainer
 translation_source: docs/en/5-club-endurance.md
-translation_source_body_hash: b04b7d7ad53b43c0ea5d9d9deaf26a15fbd527751b0a85d5e615d214cac77e12
-translation_source_hash: b04b7d7ad53b43c0ea5d9d9deaf26a15fbd527751b0a85d5e615d214cac77e12
+translation_source_body_hash: 4452e91081cae79c6f43500c843c377f298fccc14d9c6750fd9409cee96b2142
+translation_source_hash: 4452e91081cae79c6f43500c843c377f298fccc14d9c6750fd9409cee96b2142
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-12T21:41:47+00:00
-translation_source_metadata_hash: c75f2c678376a8dc997b10f82c0fb5d6c8028556dadafc8d71cdb195f02d8253
+translation_updated: 2026-06-14T19:36:45+00:00
+translation_source_metadata_hash: ec03ef05e8f39855562be574670ef02657c963efbc50fe5b958f0d5f6b5830b6
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T21:41:47+00:00
+translation_metadata_updated: 2026-06-14T19:36:45+00:00
+translation_source_localized_metadata_hash: ec03ef05e8f39855562be574670ef02657c963efbc50fe5b958f0d5f6b5830b6
+translation_source_structural_metadata_hash: ab369ba399691c96a1856c79f7f214666aa3f6422917e39b65d5a48e81eed123
 ---
 > [!info] Descripción Breve
-> Un concurso de resistencia de malabares con números en el que los jugadores mantienen cinco mazas en el aire el mayor tiempo posible.
+> Un concurso de resistencia de malabares con números en el que los participantes mantienen cinco mazas en el aire el mayor tiempo posible.
 
-![[../img/5-club-endurance.jpg|300]]
+![5-club-endurance](../img/5-club-endurance.jpg){ width=300 }
 
-**Tamaño del grupo**: 2 a 40 jugadores
+**Tamaño del grupo**: De 2 a 40 jugadores
 **Dificultad**: Difícil
 **Material**: Cinco mazas de malabares por jugador
 **Duración**: aprox. 3-15 minutos
@@ -55,17 +57,17 @@ Todos los jugadores comienzan a hacer malabares con cinco mazas simultáneamente
 
 ## Preparación
 
-- Utiliza un espacio abierto y amplio con suficiente distancia entre los malabaristas.
-- Acuerda si se permite cualquier patrón con cinco mazas o solo un patrón de cascada/fuente.
+- Utiliza un espacio amplio y abierto con suficiente distancia entre los malabaristas.
+- Acuerda si se permite cualquier patrón de cinco mazas o solo un patrón de cascada/fuente.
 - Coloca a los jueces de manera que las caídas sean visibles.
 
 ## Reglas
 
 1. Los jugadores comienzan con cinco mazas al dar la señal.
-2. Un jugador permanece activo mientras las cinco mazas se mantengan continuamente en el patrón acordado.
-3. Una caída, recogida, reinicio o reducción del número pone fin al intento.
-4. Los jugadores eliminados se apartan del área activa.
-5. La racha más larga que permanezca gana.
+2. Un jugador permanece activo mientras las cinco mazas estén continuamente en el patrón acordado.
+3. Una caída, recogida, reinicio o reducción del número de mazas finaliza el intento.
+4. Los jugadores eliminados se retiran del área activa.
+5. La racha más larga restante gana.
 
 ## Variaciones
 
@@ -75,7 +77,7 @@ Todos los jugadores comienzan a hacer malabares con cinco mazas simultáneamente
 
 ## Notas de Seguridad
 
-Las rondas con cinco mazas requieren espacio. Mantén a los espectadores y a los jugadores eliminados fuera del área de recepción.
+Las rondas de cinco mazas requieren espacio. Mantén a los espectadores y a los jugadores eliminados fuera del área de recepción.
 
 ## Fuente
 

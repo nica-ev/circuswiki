@@ -10,15 +10,15 @@ tags:
   - gladiators
 created: 2026-06-12 00:00:00
 update: 2026-06-12 21:39:39
-title: Μοντελισμός Μπαλονιών Μονομάχοι
-description: Κάθε παίκτης φτιάχνει ένα μπαλόνι-ζώο που μπορεί να κρατήσει μια οδοντογλυφίδα.
+title: Μονομάχοι με Μπαλόνια
+description: Κάθε παίκτης φτιάχνει ένα ζώο από μπαλόνι που μπορεί να κρατήσει μια οδοντογλυφίδα.
 authors:
   - CircusWiki contributors
 category:
   - convention-games
   - gladiators
-Schwierigkeit: "mittel"
-Material: "Balloon animals, toothpicks"
+Schwierigkeit: μεσαίο
+Material: Ζώα από μπαλόνια, οδοντογλυφίδες
 Spieldauer: "5-15"
 group-min: 3
 group-max: 60
@@ -33,10 +33,12 @@ translation_source_body_hash: 7dafa2b9329f268bbb1ee0d3c49daa7a255061be004bc07d07
 translation_source_hash: 7dafa2b9329f268bbb1ee0d3c49daa7a255061be004bc07d07d32ec14a8e3582
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-12T21:08:06+00:00
-translation_source_metadata_hash: e67c526f0e9f86153c6ba19c782e68e1311cbf18c6b278c71358515effa11a47
+translation_source_metadata_hash: 513fcbebaafaa9bff0932796a3552335ca1e4dadbb8467e13c4e0a1df92bc566
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T21:08:06+00:00
+translation_metadata_updated: 2026-06-14T15:55:55+00:00
+translation_source_localized_metadata_hash: 513fcbebaafaa9bff0932796a3552335ca1e4dadbb8467e13c4e0a1df92bc566
+translation_source_structural_metadata_hash: 5e43789b24d635b9d384558f1faf9660cf8757e39cb91af2ddd3fabdb7c5759c
 ---
 > [!info] Σύντομη Περιγραφή
 > Κάθε παίκτης φτιάχνει ένα ζωάκι από μπαλόνι που μπορεί να κρατήσει μια οδοντογλυφίδα.

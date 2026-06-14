@@ -6,7 +6,7 @@ tags:
   - beigoma
 created: 2026-06-11 00:00:00
 update: 2026-06-11 17:32:11
-title: Facilitando Beigoma para Grupos Mistos
+title: Facilitar Beigoma para Grupos Mistos
 description: Notas de facilitação para usar Beigoma com grupos que misturam iniciantes, jogadores experientes, crianças, adultos e diferentes motivações.
 authors:
   - Marc Bielert
@@ -23,10 +23,12 @@ translation_source_body_hash: 42b5e3c9c97b13d69bb93a38caa06769d0494da0887ddba8a7
 translation_source_hash: 42b5e3c9c97b13d69bb93a38caa06769d0494da0887ddba8a757f3c32b00095f
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-11T15:38:12+00:00
-translation_source_metadata_hash: 7107b33e93f02020cab95025fcf1c3c0e50b98c3ae87c978994093fd7b160d60
+translation_source_metadata_hash: 7ad606a3baf0bbd8f3c1fb1166fc18d215c85d53019e5218e06e9196590d7e28
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-11T15:38:12+00:00
+translation_metadata_updated: 2026-06-14T15:48:43+00:00
+translation_source_localized_metadata_hash: 7ad606a3baf0bbd8f3c1fb1166fc18d215c85d53019e5218e06e9196590d7e28
+translation_source_structural_metadata_hash: b8ec48d6412a4c0e998d9901e5d7ffb38511bb3824cbd5a2c8ff3876846c5d19
 ---
 > [!info] Resumo
 > O Beigoma funciona melhor em grupos mistos quando o facilitador separa a prática da competição e escolhe formatos que mantêm os iniciantes envolvidos.

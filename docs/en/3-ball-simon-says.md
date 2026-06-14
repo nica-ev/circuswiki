@@ -36,11 +36,10 @@ source_permission: "public-place images reviewed as reusable by project maintain
 aliases:
   - Simon Says
 ---
-
 > [!info] Short Description
 > A command-and-reaction game where jugglers follow only valid Simon Says instructions while keeping three balls going.
 
-![[../img/3-ball-simon-says.jpg|300]]
+![3-ball-simon-says](../img/3-ball-simon-says.jpg){ width=300 }
 
 **Group Size**: 3 to 50 players  
 **Difficulty**: mittel  

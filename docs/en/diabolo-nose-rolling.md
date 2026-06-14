@@ -28,11 +28,10 @@ source_section: "Diabolo Games"
 source_image: "../img/game-diabolo-nose-rolling.jpg"
 source_permission: "public-place image reviewed as reusable by project maintainer"
 ---
-
 > [!info] Short Description
 > All diabolos start on the ground at a start line.
 
-![[../img/game-diabolo-nose-rolling.jpg|300]]
+![game-diabolo-nose-rolling](../img/game-diabolo-nose-rolling.jpg){ width=300 }
 
 **Group Size**: 2 to 40 players  
 **Difficulty**: einfach  

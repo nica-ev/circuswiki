@@ -7,13 +7,13 @@ tags:
 created: 2025-01-24 03:50:50
 update: 2025-03-17 02:14:29
 title: Haai en vis
-description: Een renspel waarbij vissen haaien moeten ontwijken en gevangen vissen zeewier worden.
+description: Een renspel waarbij vissen haaien moeten ontwijken en gevangen vissen algen worden.
 authors:
   - Marc Bielert
 category:
   - bewegung
-Schwierigkeit: einfach
-Material: keines
+Schwierigkeit: makkelijk
+Material: geen
 Spieldauer: 5
 source: Tasifan Spielebuch
 group-min: 10
@@ -25,10 +25,12 @@ translation_source_hash: 879dfe65647fc8aaf402cbdd4288fa45cf7210c63ccdeba969cac83
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:42:22+00:00
 translation_source_body_hash: 879dfe65647fc8aaf402cbdd4288fa45cf7210c63ccdeba969cac837c82acd0d
-translation_source_metadata_hash: 08ef8a08243b6ba89a59c53d6317010ba4aeac46717791be49ab3b4c4cc4846b
+translation_source_metadata_hash: 14c7dd92bf7dd5b3f0f10c963d23c432d5701d88baeddee127e75c3f03b138fa
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:49:44+00:00
+translation_metadata_updated: 2026-06-14T15:52:24+00:00
+translation_source_localized_metadata_hash: 14c7dd92bf7dd5b3f0f10c963d23c432d5701d88baeddee127e75c3f03b138fa
+translation_source_structural_metadata_hash: d09b7a54d953acfa32cd92ee9b99040eea27a9da5d1dd84a9f102cd0eafc18aa
 ---
 > [!info] Korte beschrijving
 > Een renspel waarbij vissen langs haaien moeten zien te komen en gevangen vissen algen worden.

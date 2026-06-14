@@ -11,8 +11,8 @@ tags:
   - reaction
 created: 2026-06-12 00:00:00
 update: 2026-06-12 22:43:38
-title: 3-Ball Simon Says
-description: Ein Befehl-und-Reaktions-Spiel, bei dem Jongleure nur gültigen Simon Says-Anweisungen folgen, während sie drei Bälle in der Luft halten.
+title: 3-Ball Simon Sagt
+description: Ein Kommando-Reaktionsspiel, bei dem Jongleure nur gültige Simon-Sagt-Anweisungen befolgen, während sie drei Bälle in der Luft halten.
 authors:
   - CircusWiki contributors
 category:
@@ -20,8 +20,8 @@ category:
   - ball-games
   - juggling
   - reaction-games
-Schwierigkeit: "mittel"
-Material: "Three juggling balls per player"
+Schwierigkeit: mittel
+Material: Drei Jonglierbälle pro Spieler
 Spieldauer: "5-10"
 group-min: 3
 group-max: 50
@@ -36,50 +36,52 @@ source_permission: "public-place images reviewed as reusable by project maintain
 aliases:
   - Simon Says
 translation_source: docs/en/3-ball-simon-says.md
-translation_source_body_hash: 5fb11f46f3cc26e55d1d3d9215dd37e0bdfe8633fc681c3424621faebd2541ef
-translation_source_hash: 5fb11f46f3cc26e55d1d3d9215dd37e0bdfe8633fc681c3424621faebd2541ef
+translation_source_body_hash: 419edad2f4a3fd7e8f047fb4f220af48b6de44209693363c94a4176170591763
+translation_source_hash: 419edad2f4a3fd7e8f047fb4f220af48b6de44209693363c94a4176170591763
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-12T21:03:28+00:00
-translation_source_metadata_hash: 81f617b320fb7c107726f83560b979933b3e7e3bdb593fc8b9b4fe4a0e8c9bf0
+translation_updated: 2026-06-14T19:24:10+00:00
+translation_source_metadata_hash: 0c704425aff40df6bf39bbbf2b8fe4485389932691ad1d3c98638b6dc5f8fd92
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T21:03:28+00:00
+translation_metadata_updated: 2026-06-14T19:24:10+00:00
+translation_source_localized_metadata_hash: 0c704425aff40df6bf39bbbf2b8fe4485389932691ad1d3c98638b6dc5f8fd92
+translation_source_structural_metadata_hash: c519c7f25f910824f98b765fd00f47085f441493c02c1fd8fdde294eaaa2a008
 ---
 > [!info] Kurzbeschreibung
-> Ein Kommando-und-Reaktionsspiel, bei dem Jongleur*innen nur gültige "Simon sagt"-Anweisungen befolgen, während sie drei Bälle in der Luft halten.
+> Ein Kommando-und-Reaktionsspiel, bei dem Jongleure nur gültige "Simon sagt"-Anweisungen befolgen, während sie drei Bälle in der Luft halten.
 
-![[../img/3-ball-simon-says.jpg|300]]
+![3-ball-simon-says](../img/3-ball-simon-says.jpg){ width=300 }
 
-**Gruppengröße**: 3 bis 50 Spieler*innen  
-**Schwierigkeitsgrad**: mittel  
-**Material**: Drei Jonglierbälle pro Spieler*in  
+**Gruppengröße**: 3 bis 50 Spieler
+**Schwierigkeit**: mittel
+**Material**: Drei Jonglierbälle pro Spieler
 **Dauer**: ca. 5-10 Minuten
 
 ## Spielbeschreibung
 
-Alle Spieler*innen jonglieren drei Bälle, während eine Person Kommandos für Bewegungen oder Tricks gibt. Die Spieler*innen befolgen nur Kommandos, die mit der vereinbarten Phrase beginnen, z. B. "Simon sagt". Wer ein falsches Kommando befolgt, ein gültiges ignoriert, einen Ball fallen lässt oder mit dem Jonglieren aufhört, scheidet aus.
+Alle Spieler jonglieren drei Bälle, während ein Ansager Bewegungs- oder Trickkommandos gibt. Die Spieler befolgen nur Kommandos, die mit der vereinbarten Phrase beginnen, z. B. „Simon sagt“. Wer ein falsches Kommando befolgt, ein gültiges ignoriert, einen Ball fallen lässt oder mit dem Jonglieren aufhört, scheidet aus.
 
-Mögliche Kommandos sind: sich umdrehen, hinsetzen, hinlegen, aufstehen, klatschen, das Muster wechseln, nach links oder rechts bewegen oder erstarren.
+Mögliche Kommandos sind: sich umdrehen, hinsetzen, hinlegen, aufstehen, klatschen, Muster wechseln, nach links oder rechts bewegen oder erstarren.
 
 ## Vorbereitung
 
-- Jede*r Spieler*in erhält drei Bälle und genügend persönlichen Freiraum.
-- Wählt eine Person als Ansager*in aus.
-- Vereinbart, ob Spieler*innen ausscheiden oder lustige Strafpunkte erhalten.
+- Gib jedem Spieler drei Bälle und genügend persönlichen Freiraum.
+- Wähle einen Ansager.
+- Vereinbart, ob die Spieler ausscheiden oder lustige Strafpunkte erhalten.
 
 ## Variationen
 
-- Für Anfänger*innen: Ein Ball oder Tücher verwenden.
-- Kooperativ gestalten: Zählt, wie viele Kommandos die gesamte Gruppe überleben kann.
-- Ausgeschiedene Spieler*innen können zu Co-Ansager*innen werden.
+- Für Anfänger: Verwende einen Ball oder Tücher.
+- Gestalte es kooperativ, indem du zählst, wie viele Kommandos die gesamte Gruppe überleben kann.
+- Lass ausgeschiedene Spieler zu Hilfsansagern werden.
 
 ## Sicherheitshinweise
 
-Vermeidet Kommandos, die Spieler*innen zum Tauchen, gegenseitigen Anrennen oder blinden Bewegungen zwingen, während sie ihre Jonglierobjekte im Auge behalten.
+Vermeide Kommandos, die die Spieler zum Tauchen, Zusammenstoßen oder blinden Bewegen zwingen, während sie ihre Objekte im Auge behalten.
 
 ## Quelle
 
 - [JugglingWorld - Juggling Games](https://www.jugglingworld.biz/tricks/juggling-games/), Abschnitt: Ball Games, Titel: Simon Says.
 - [UCircus circus games page](https://ucircus.co.uk/resources-circus-games/), Source Card: 3 Ball Simon Says.
-- UCircus Kurse: Bälle, Knockout, Jonglage.
+- UCircus Kurse: Bälle, Knockout, Jonglieren.
 - UCircus Referenzbild: `../img/3-ball-simon-says.jpg`.

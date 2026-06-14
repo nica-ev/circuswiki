@@ -7,13 +7,13 @@ tags:
 created: 2025-01-24 03:50:50
 update: 2025-03-17 02:14:29
 title: Rekin i ryba
-description: Gra zręcznościowa, w której ryby muszą unikać rekinów, a schwytane ryby stają się algami.
+description: Gra biegowa, w której ryby muszą unikać rekinów, a złapane ryby stają się algami.
 authors:
   - Marc Bielert
 category:
   - bewegung
-Schwierigkeit: einfach
-Material: keines
+Schwierigkeit: łatwy
+Material: brak
 Spieldauer: 5
 source: Tasifan Spielebuch
 group-min: 10
@@ -25,10 +25,12 @@ translation_source_hash: 879dfe65647fc8aaf402cbdd4288fa45cf7210c63ccdeba969cac83
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:42:15+00:00
 translation_source_body_hash: 879dfe65647fc8aaf402cbdd4288fa45cf7210c63ccdeba969cac837c82acd0d
-translation_source_metadata_hash: 08ef8a08243b6ba89a59c53d6317010ba4aeac46717791be49ab3b4c4cc4846b
+translation_source_metadata_hash: 14c7dd92bf7dd5b3f0f10c963d23c432d5701d88baeddee127e75c3f03b138fa
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:49:42+00:00
+translation_metadata_updated: 2026-06-14T15:52:21+00:00
+translation_source_localized_metadata_hash: 14c7dd92bf7dd5b3f0f10c963d23c432d5701d88baeddee127e75c3f03b138fa
+translation_source_structural_metadata_hash: d09b7a54d953acfa32cd92ee9b99040eea27a9da5d1dd84a9f102cd0eafc18aa
 ---
 > [!info] Krótki opis
 > Gra biegowa, w której ryby muszą przepłynąć obok rekinów, a złapane ryby stają się algami.

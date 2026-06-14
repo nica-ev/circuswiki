@@ -7,14 +7,14 @@ tags:
 created: 2025-01-24 03:50:51
 update: 2025-03-17 02:06:01
 title: Sorteren in de groep
-description: Een samenwerkingsopdracht waarbij de groep zich op stoelen sorteert op basis van criteria, zonder de grond te raken.
+description: Een samenwerkingsopdracht waarbij de groep zich op stoelen sorteert op basis van criteria, zonder de grond aan te raken.
 authors:
   - Marc Bielert
 category:
   - Kooperation
   - kreisspiel
-Schwierigkeit: mittel
-Material: Stühle oder Hocker
+Schwierigkeit: gemiddeld
+Material: Stoelen of krukken
 Spieldauer: 5-15
 source: unbekannt
 group-min: 5
@@ -26,10 +26,12 @@ translation_source_hash: b7b7dbb508f3f466e1666dac60277e22cf0ff9c853b2368c05e49bc
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:25:50+00:00
 translation_source_body_hash: b7b7dbb508f3f466e1666dac60277e22cf0ff9c853b2368c05e49bc1bcfa3416
-translation_source_metadata_hash: fc7a66a25a473598c4890cc861b6468e49312ee979838b6c6191d9f79d577616
+translation_source_metadata_hash: f30b497aa557617f5e25e7f083d9b8c0fe15d740a0f31439a1ac74ef7d409a7d
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T19:07:36+00:00
+translation_metadata_updated: 2026-06-14T16:20:34+00:00
+translation_source_localized_metadata_hash: f30b497aa557617f5e25e7f083d9b8c0fe15d740a0f31439a1ac74ef7d409a7d
+translation_source_structural_metadata_hash: 38bc49d2de377bf85cadcf11662a53402ed35fee6b853d24c8e1d3d3c8b2947f
 ---
 > [!info] Korte beschrijving
 > Een samenwerkingsopdracht waarbij de groep zich op stoelen sorteert volgens criteria, zonder de grond te raken.

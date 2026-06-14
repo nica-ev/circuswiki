@@ -15,10 +15,12 @@ translation_source_hash: f9fdb4da5122606df60bd40bdaf3117ed6ca028c5c2eaeb24c3d200
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-06T23:14:51+00:00
 translation_source_body_hash: f9fdb4da5122606df60bd40bdaf3117ed6ca028c5c2eaeb24c3d2005195bf4a6
-translation_source_metadata_hash: f30189f3dab0fb2281c175d254c634ca9d3bcf79a75afc871ab1e3a8ad586280
+translation_source_metadata_hash: a179fe68c6936cefa174c900180989e826166a8bbd0fabe2751f7150a0ab3545
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:10:18+00:00
+translation_metadata_updated: 2026-06-14T15:47:03+00:00
+translation_source_localized_metadata_hash: a179fe68c6936cefa174c900180989e826166a8bbd0fabe2751f7150a0ab3545
+translation_source_structural_metadata_hash: 76199508a4de0d7d717477bde7983c03c83809a1bc39772c880cb130645cc983
 ---
 We gebruiken MkDocs als systeem om onze processen, werkwijzen en procedures te documenteren en online beschikbaar te stellen.
 

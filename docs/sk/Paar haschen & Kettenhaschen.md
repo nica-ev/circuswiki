@@ -6,14 +6,14 @@ tags:
   - spiele
 created: 2025-01-24 03:50:51
 update: 2025-03-17 02:16:04
-title: Párové chytačky a reťazové chytačky
-description: Chytacia hra, v ktorej sa chytení hráči spoja do párov alebo reťazí a spoločne pokračujú v chytení ostatných.
+title: Pár chytačka & Reťazová chytačka
+description: Chytacia hra, kde sa chytení hráči spoja do párov alebo reťazí a spoločne pokračujú v chytení.
 authors:
   - Marc Bielert
 category:
   - bewegung
-Schwierigkeit: einfach
-Material: keines
+Schwierigkeit: ľahká
+Material: žiadny
 Spieldauer: 5
 source: Tasifan Spielebuch
 group-min: 15
@@ -25,10 +25,12 @@ translation_source_hash: 663524e4441585b9b5967710dddf9afa5a73a0a01e1de0cb09cff65
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:09:56+00:00
 translation_source_body_hash: 663524e4441585b9b5967710dddf9afa5a73a0a01e1de0cb09cff65d5b8dd31b
-translation_source_metadata_hash: 2aec176daa24f2d2b38c11de2e2212c7b59369087d2e937063f04dffd56da60d
+translation_source_metadata_hash: bfe349e73855f6358ba326de7cf3152d6333ea9f2152a0f741add3bec8ba2519
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T19:01:35+00:00
+translation_metadata_updated: 2026-06-14T16:14:50+00:00
+translation_source_localized_metadata_hash: bfe349e73855f6358ba326de7cf3152d6333ea9f2152a0f741add3bec8ba2519
+translation_source_structural_metadata_hash: 355dbe64a8dd4b22c4e577a6a50fe0c1aceab389f05d8c1773b4173ba4d81f85
 ---
 > [!info] Stručný popis
 > Hra na chytanie, pri ktorej chytení hráči tvoria páry alebo reťaze a spoločne pokračujú v chytení.

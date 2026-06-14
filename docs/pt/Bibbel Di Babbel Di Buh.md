@@ -12,8 +12,8 @@ authors:
   - Marc Bielert
 category:
   - kreisspiel
-Schwierigkeit: mittel
-Material: keines
+Schwierigkeit: médio
+Material: nenhum
 Spieldauer: 10-15
 source: unbekannt
 group-min: 6
@@ -25,10 +25,12 @@ translation_source_hash: 81eb2e7f78d60947724df79bcc9c60884142cf375d564195a4ca559
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:26:55+00:00
 translation_source_body_hash: 81eb2e7f78d60947724df79bcc9c60884142cf375d564195a4ca559597d61cb2
-translation_source_metadata_hash: 604d1c3b90e5cca7864e13a87bb674cfffbf129f464a620567b59f94f8262635
+translation_source_metadata_hash: cad5794c7c44eed0dc9d4fdea329c6a41cbcb2fd9d017f555ef9101c7806a318
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:03:44+00:00
+translation_metadata_updated: 2026-06-14T15:40:28+00:00
+translation_source_localized_metadata_hash: cad5794c7c44eed0dc9d4fdea329c6a41cbcb2fd9d017f555ef9101c7806a318
+translation_source_structural_metadata_hash: 35834de2c6cbf74b1954a09f560bb05858b010ea37c195d8dbec9953a5740a9c
 ---
 > [!info] Breve Descrição
 > Um jogo de reação em círculo, onde comandos são rapidamente respondidos com palavras, movimentos e pequenas figuras.

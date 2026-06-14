@@ -6,14 +6,14 @@ update: 2026-06-07 22:47:15
 publish: true
 tags:
   - spiele
-title: Over en Weer
-description: Een eenvoudig doorgeefspel waarbij voorwerpen om de beurt over het hoofd en door de benen worden doorgegeven.
+title: Over en weer
+description: Een eenvoudig doorgeefspel waarbij objecten om de beurt over het hoofd en tussen de benen worden doorgegeven.
 authors:
   - Marc Bielert
 category:
   - kreisspiel
-Schwierigkeit: einfach
-Material: Gegenstände
+Schwierigkeit: eenvoudig
+Material: Objecten
 Spieldauer: 5-10
 source: unbekannt
 group-min: 5
@@ -25,10 +25,12 @@ translation_source_hash: 6a8475753c9fe7f7c20980d10dcdaed20c89df9c568e93a82f28f98
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:35:21+00:00
 translation_source_body_hash: 6a8475753c9fe7f7c20980d10dcdaed20c89df9c568e93a82f28f98dca789069
-translation_source_metadata_hash: e49a8bc5b2340674b9960e8944cbc684975d6a2e5806e71de9adc507a636e4bc
+translation_source_metadata_hash: a078045d94e83afee94b9653f6500a26dfe666922ed5ab7bad5f2dede4856146
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:12:03+00:00
+translation_metadata_updated: 2026-06-14T15:47:44+00:00
+translation_source_localized_metadata_hash: a078045d94e83afee94b9653f6500a26dfe666922ed5ab7bad5f2dede4856146
+translation_source_structural_metadata_hash: 7e5021c294c23df424dd13d4d7dcae9688b50bd68c8176d1dcce23959b43161d
 ---
 > [!info] Korte beschrijving
 > Een eenvoudig doorgeefspel waarbij voorwerpen afwisselend over het hoofd en tussen de benen worden doorgegeven.

@@ -12,7 +12,7 @@ tags:
 created: 2026-06-12 00:00:00
 update: 2026-06-12 22:43:17
 title: Unicycle Gladiatoren
-description: Een conventie knockout-spel waarbij eenwielers proberen te blijven zitten terwijl ze anderen dwingen af te stappen.
+description: Een conventie knockout-spel waarbij eenwielers proberen gemonteerd te blijven terwijl ze anderen dwingen af te stappen.
 authors:
   - CircusWiki contributors
 category:
@@ -20,8 +20,8 @@ category:
   - balance
   - knockout
   - gladiators
-Schwierigkeit: "schwer"
-Material: "Unicycles, marked arena"
+Schwierigkeit: moeilijk
+Material: Eenwielers, gemarkeerde arena
 Spieldauer: "5-15"
 group-min: 4
 group-max: 60
@@ -35,46 +35,48 @@ source_image: "../img/game-ewan-unicycle-gladiators.jpg"
 source_image_ucircus: "../img/unicycle-gladiators.jpg"
 source_permission: "public-place images reviewed as reusable by project maintainer"
 translation_source: docs/en/unicycle-gladiators.md
-translation_source_body_hash: 30a7fed2b289182167c464bb3938325102c0f1a691cbfade01446b887e04f810
-translation_source_hash: 30a7fed2b289182167c464bb3938325102c0f1a691cbfade01446b887e04f810
+translation_source_body_hash: b0d01e5b9b750ece26a8d0c05b33e52e14a2a5bab1724a87bc01acb3620aef28
+translation_source_hash: b0d01e5b9b750ece26a8d0c05b33e52e14a2a5bab1724a87bc01acb3620aef28
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-12T21:37:18+00:00
-translation_source_metadata_hash: 1ffdae00a6033a9996ccadf58126f3b5e099d5634a27c388e01d236f3b77c65e
+translation_updated: 2026-06-14T19:32:14+00:00
+translation_source_metadata_hash: b52be78cff666aef65d25530420e8bad2c42819f22e3a7ec75004193edfdd79c
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T21:37:18+00:00
+translation_metadata_updated: 2026-06-14T19:32:14+00:00
+translation_source_localized_metadata_hash: b52be78cff666aef65d25530420e8bad2c42819f22e3a7ec75004193edfdd79c
+translation_source_structural_metadata_hash: 390447a60e2f5818821bf120f3302d1d9130cd7047e5855ecc6eddb46aaa862b
 ---
-> [!info] Korte beschrijving
-> Een conventioneel knock-outspel waarbij eenwielrijders proberen te blijven zitten terwijl ze anderen dwingen af te stappen.
+> [!info] Korte Beschrijving
+> Een knock-out spel waarbij eenwielers proberen te blijven zitten terwijl ze anderen dwingen af te stappen.
 
-![[../img/game-ewan-unicycle-gladiators.jpg|300]]
+![game-ewan-unicycle-gladiators](../img/game-ewan-unicycle-gladiators.jpg){ width=300 }
 
-**Groepsgrootte**: 4 tot 60 spelers
-**Moeilijkheidsgraad**: zwaar
-**Materiaal**: Eenwielers, afgebakende arena
+**Groepsgrootte**: 4 tot 60 spelers  
+**Moeilijkheidsgraad**: zwaar  
+**Materiaal**: Eenwielers, afgebakende arena  
 **Duur**: ca. 5-15 minuten
 
 ## Spelbeschrijving
 
-Eenwielrijders rijden binnen een afgebakende arena. Het doel is om langer te blijven zitten dan alle anderen, terwijl er gecontroleerde druk wordt uitgeoefend op de andere rijders.
+Eenwielers rijden in een afgebakende arena. Het doel is om langer te blijven zitten dan alle anderen, terwijl je gecontroleerde druk uitoefent op de andere rijders.
 
-Een rijder is uitgeschakeld als deze afstapt, de grond raakt met een voet of hand, de arena verlaat, of illegaal contact gebruikt. Uitgeschakelde rijders verlaten onmiddellijk de arena. De laatste rijder die nog op de eenwieler zit, wint.
+Een rijder is uitgeschakeld als deze afstapt, de grond raakt met een voet of hand, de arena verlaat, of illegaal contact gebruikt. Afgevallen rijders verlaten onmiddellijk de arena. De laatste rijder die nog op zijn eenwieler zit, wint.
 
 ## Opzet
 
-- Markeer een duidelijk rijgebied met voldoende ruimte aan de randen.
+- Baken een duidelijk rijgebied af met voldoende ruimte aan de randen.
 - Spreek de contactregels af voordat de ronde begint.
-- Zorg ervoor dat alle deelnemers zelfverzekerd kunnen rijden voordat ze deelnemen.
+- Zorg ervoor dat alle deelnemers zelfverzekerd kunnen rijden voordat ze meedoen.
 
 ## Variaties
 
 - Speel een versie zonder contact voor beginners, waarbij rijders alleen ruimte mogen blokkeren, maar geen contact mogen maken.
-- Gebruik teamkleuren en tel punten voor het team van de laatst overgebleven rijder.
+- Gebruik teamkleuren en tel de punten voor het team van de laatst overgebleven rijder.
 - Verklein de arena tussen de rondes voor ervaren rijders.
 
 ## Veiligheidsopmerkingen
 
-Gebruik alleen met zelfverzekerde eenwielrijders. Definieer de contactlimieten duidelijk. Houd voor openbaar gebruik het contact beperkt tot lichte schouder- of armdruk en verbied grijpen, wielblokkades en bodychecks.
+Gebruik alleen met zelfverzekerde eenwielers. Definieer de contactlimieten duidelijk. Voor openbaar gebruik, beperk contact tot lichte schouder- of armdruk en verbied grijpen, wielblokkades en bodychecks.
 
 ## Bron
 

@@ -7,7 +7,7 @@ tags:
 created: 2025-01-24 03:50:50
 update: 2025-03-17 05:36:43
 title: Jadę pociągiem
-description: Gra w zamianę imion i miejsc w kręgu, w której wolne miejsce przesuwa się przez wołanie i przesuwanie.
+description: Gra polegająca na zamianie miejsc i nazw w kręgu, w której wolne miejsce przesuwa się poprzez wołanie i przesuwanie się.
 authors:
   - Marc Bielert
 category:
@@ -16,8 +16,8 @@ source:
   - Tasifan Spielebuch
 group-min: "10"
 group-max: "30"
-Schwierigkeit: mittel
-Material: Stühle
+Schwierigkeit: średni
+Material: Krzesła
 Spieldauer: beliebig
 translation_status: machine-translated
 translation_source_lang: de
@@ -26,10 +26,12 @@ translation_source_hash: 04f227ef26a0694b93a348f2b6b56f64d0622a8ec27d6d4589e4908
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:44:11+00:00
 translation_source_body_hash: 04f227ef26a0694b93a348f2b6b56f64d0622a8ec27d6d4589e49084c7559fdb
-translation_source_metadata_hash: ddddbf47c8fff008fb4b73c407d305942890fe95ed24051209e616cadbd58b29
+translation_source_metadata_hash: ce7dab8c8e109d25f84886132048ddf6b7a8ae36ef21b36114b3b4cafeba4211
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:50:39+00:00
+translation_metadata_updated: 2026-06-14T15:53:24+00:00
+translation_source_localized_metadata_hash: ce7dab8c8e109d25f84886132048ddf6b7a8ae36ef21b36114b3b4cafeba4211
+translation_source_structural_metadata_hash: 6cbc067afa32f340f33940b36213b5a93d02186c5e4418096e032427c051c50c
 ---
 > [!info] Krótki opis
 > Gra polegająca na zamianie miejsc i imion w kręgu z krzeseł, w której wolne miejsce przesuwa się dzięki okrzykom i przesuwaniu się.

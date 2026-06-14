@@ -13,8 +13,8 @@ authors:
 category:
   - kennenlernen
   - kreisspiel
-Schwierigkeit: mittel
-Material: verschiedenes
+Schwierigkeit: medio
+Material: vario
 Spieldauer: 30-45
 source: unbekannt
 group-min: 2
@@ -27,10 +27,12 @@ translation_source_hash: e25f482caf815b5ebe6c134e37c50eac886dfca07cf963e7c3bff8e
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:34:17+00:00
 translation_source_body_hash: e25f482caf815b5ebe6c134e37c50eac886dfca07cf963e7c3bff8ef07db226e
-translation_source_metadata_hash: d083234b44995216257dbaa1c229d36b99c293c9f2d127cb81b3671014745f17
+translation_source_metadata_hash: d0cf0ae0282c74057d7c640e5a1bd361dfc17438e660aa6216a2b193ce4cd2ff
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T19:11:20+00:00
+translation_metadata_updated: 2026-06-14T16:26:13+00:00
+translation_source_localized_metadata_hash: d0cf0ae0282c74057d7c640e5a1bd361dfc17438e660aa6216a2b193ce4cd2ff
+translation_source_structural_metadata_hash: 561edc3b5f9a52f7e194b8f52811d5ed431a03df2898fc0beeacc093075db359
 ---
 > [!info] Breve descrizione
 > Un giro di presentazioni simbolico, in cui i percorsi personali vengono disposti e presentati con oggetti come linea del tempo.

@@ -12,6 +12,7 @@ __pycache__/
 .cache/
 .pub_min_cache/
 .trash/
+_bases/*.generated.base
 
 # Local secrets and sync state
 .env

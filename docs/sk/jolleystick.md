@@ -10,7 +10,7 @@ tags:
   - net-game
 created: 2026-06-12 00:00:00
 update: 2026-06-12 21:56:00
-title: Jolleystick
+title: Jojo
 description: Dvaja hráči hrajú sieťovú hru s diablovou paličkou.
 authors:
   - CircusWiki contributors
@@ -19,8 +19,8 @@ category:
   - miscellaneous
   - throwing
   - net-game
-Schwierigkeit: "schwer"
-Material: "Devil stick, handstick, net or court line"
+Schwierigkeit: ťažké
+Material: Diablová palička, ručná palička, sieť alebo čiará kurtu
 Spieldauer: "5-15"
 group-min: 2
 group-max: 20
@@ -35,10 +35,12 @@ translation_source_body_hash: 879564c951e2c5b47ae3f3308ce89a6ff4845e4e7c615d4ae8
 translation_source_hash: 879564c951e2c5b47ae3f3308ce89a6ff4845e4e7c615d4ae8f9315f4e312697
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-12T21:21:31+00:00
-translation_source_metadata_hash: 7afc7fb6fffe9039e247cbd055c7c4acbeca4ad3e2eba7e132f0c424ba01cfba
+translation_source_metadata_hash: ad844bf775a60d481863ec3f544b161294aa84f70df309406475b9db9f7cb013
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T21:21:31+00:00
+translation_metadata_updated: 2026-06-14T16:00:11+00:00
+translation_source_localized_metadata_hash: ad844bf775a60d481863ec3f544b161294aa84f70df309406475b9db9f7cb013
+translation_source_structural_metadata_hash: 339ecae51445851b004c20d1c9260c179887f63676991964e84c4dc1cb0e76c5
 ---
 > [!info] Stručný popis
 > Dvaja hráči hrajú sieťovú hru s diablovou paličkou.

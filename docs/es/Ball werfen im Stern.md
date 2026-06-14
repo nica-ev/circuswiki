@@ -6,14 +6,14 @@ tags:
   - spiele
 created: 2025-01-24 03:50:50
 update: 2026-06-07 00:02:19
-title: Lanzar la pelota en estrella
-description: Un juego de pelota en círculo que crea un patrón de lanzamiento fijo y se puede practicar con varias pelotas.
+title: Lanzamiento de pelota en estrella
+description: Un juego de pelota en círculo que crea un patrón de lanzamiento fijo y puede practicarse con varias pelotas.
 authors:
   - Marc Bielert
 category:
   - kreisspiel
-Schwierigkeit: einfach
-Material: Bälle
+Schwierigkeit: fácil
+Material: Pelotas
 Spieldauer: 5-10
 source: unbekannt
 group-min: 5
@@ -25,10 +25,12 @@ translation_source_hash: 93982ffac323ad0c6017929a0afc252a3bd040134fafc9af00a22ba
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:23:40+00:00
 translation_source_body_hash: 93982ffac323ad0c6017929a0afc252a3bd040134fafc9af00a22ba4b5a33e7f
-translation_source_metadata_hash: 5f65a7ddb2cde97cf661535eca2bca781c2da6b3e4024a78ca319e73c9d36b8c
+translation_source_metadata_hash: 912d104798c9cd2888414704a950fe37a4d7783e8187b29d917eb08efe35f6d6
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:02:25+00:00
+translation_metadata_updated: 2026-06-14T15:38:12+00:00
+translation_source_localized_metadata_hash: 912d104798c9cd2888414704a950fe37a4d7783e8187b29d917eb08efe35f6d6
+translation_source_structural_metadata_hash: 4fe2954daa628d6f040349e4fdbc7fe17054e59715f9d039afbebbc9742dd72b
 ---
 > [!info] Breve descripción
 > Un juego de pelota en círculo que crea un patrón de lanzamiento fijo y puede practicarse con varias pelotas.

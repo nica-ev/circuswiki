@@ -7,13 +7,13 @@ tags:
 created: 2025-01-24 03:50:50
 update: 2026-06-07 00:02:01
 title: Aquila - Coniglio - Cavolo
-description: Un gioco di corsa con aquila, coniglio e cavoli, in cui i ruoli cambiano continuamente toccando.
+description: Un gioco di corsa con aquila, coniglio e cavoli, in cui i ruoli cambiano continuamente tramite tocco.
 authors:
   - Marc Bielert
 category:
   - bewegung
-Schwierigkeit: mittel
-Material: keines
+Schwierigkeit: medio
+Material: nessuno
 Spieldauer: 5-15
 source: Tasifan Spielebuch
 group-min: 8
@@ -25,10 +25,12 @@ translation_source_hash: 3db1026d5904f2420e49f773b9c7dfd8013a3880c0f73c8edb9d4d4
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:19:58+00:00
 translation_source_body_hash: 3db1026d5904f2420e49f773b9c7dfd8013a3880c0f73c8edb9d4d4b92349e1a
-translation_source_metadata_hash: 830648447ec055f0b6154a4c66cbc9c26d3968ded136d6349c7b67d8001ce0eb
+translation_source_metadata_hash: 5ce2efe5a19f15abd9a55a0ed4d8740675ba85a16bf1307783e641ddea30aeb3
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:01:04+00:00
+translation_metadata_updated: 2026-06-14T15:36:48+00:00
+translation_source_localized_metadata_hash: 5ce2efe5a19f15abd9a55a0ed4d8740675ba85a16bf1307783e641ddea30aeb3
+translation_source_structural_metadata_hash: bb0009bb3bd7913c4902bfa99cb37a5da5b2009355d2ad0ba8cfed7fd6989905
 ---
 > [!info] Breve descrizione
 > Un gioco di corsa con aquila, lepre e cavoli, in cui i ruoli cambiano continuamente tramite un tocco.

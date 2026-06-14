@@ -35,11 +35,10 @@ source_permission: "public-place images reviewed as reusable by project maintain
 aliases:
   - Highest Throw
 ---
-
 > [!info] Short Description
 > A diabolo throwing contest where the highest clean throw and catch wins.
 
-![[../img/diabolo-highest-throw.jpg|300]]
+![diabolo-highest-throw](../img/diabolo-highest-throw.jpg){ width=300 }
 
 **Group Size**: 2 to 40 players  
 **Difficulty**: mittel  

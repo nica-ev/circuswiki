@@ -7,15 +7,15 @@ tags:
 created: 2025-01-24 03:50:50
 update: 2026-06-08 22:39:10
 title: Gyere, fuss el
-description: Körbenésű futójáték, ahol az érintett személyek parancsra futnak, vagy ellenkező irányban indulnak.
+description: Körben zajló futójáték, ahol az érintett személyek parancsra csatlakoznak a futáshoz vagy ellenkező irányba indulnak.
 authors:
   - Marc Bielert
 category:
   - fangen
   - warm-up
   - action
-Schwierigkeit: einfach
-Material: keines
+Schwierigkeit: könnyű
+Material: nincs
 Spieldauer: 5 - 15
 source: Tasifan Spielebuch, Unbekannt
 group-min: 5
@@ -28,10 +28,12 @@ translation_source_hash: 2476b7a61ee23ef8116254bff1c16af25a10fc53f3052f117594a63
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:50:23+00:00
 translation_source_body_hash: 2476b7a61ee23ef8116254bff1c16af25a10fc53f3052f117594a63ea17e5c06
-translation_source_metadata_hash: d42976c184bab7eed57911599b8a629b4094ebb91ec9f141393cb38d683f7492
+translation_source_metadata_hash: c8f60e757cc5a810b80c6f6ab6f12fc311d443663a1bafa5280f992bf72991c9
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:54:43+00:00
+translation_metadata_updated: 2026-06-14T16:08:17+00:00
+translation_source_localized_metadata_hash: c8f60e757cc5a810b80c6f6ab6f12fc311d443663a1bafa5280f992bf72991c9
+translation_source_structural_metadata_hash: b3853bbbf72fe32fab995653f1ffadf187b885b3430b8716e4f473881ea5f5a2
 ---
 > [!info] Rövid leírás
 > Körben futó játék, ahol az érintett személyek parancsra vagy csatlakoznak a futáshoz, vagy az ellenkező irányban indulnak el.

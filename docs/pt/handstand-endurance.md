@@ -11,15 +11,15 @@ tags:
 created: 2026-06-12 00:00:00
 update: 2026-06-12 22:42:58
 title: Resistência em Parada de Mãos
-description: Um desafio de equilíbrio onde o último a cair vence, com participantes mantendo a parada de mãos pelo maior tempo possível.
+description: Um desafio de equilíbrio 'último a cair' onde os participantes sustentam uma parada de mãos pelo maior tempo possível.
 authors:
   - CircusWiki contributors
 category:
   - convention-games
   - balance
   - endurance
-Schwierigkeit: "schwer"
-Material: "Soft floor, mats or grass"
+Schwierigkeit: difícil
+Material: Chão macio, tapetes ou grama
 Spieldauer: "3-10"
 group-min: 2
 group-max: 40
@@ -32,23 +32,25 @@ source_section: "Endurance Games/World Records"
 source_image_ucircus: "../img/handstand-endurance.jpg"
 source_permission: "public-place images reviewed as reusable by project maintainer"
 translation_source: docs/en/handstand-endurance.md
-translation_source_body_hash: 24a42a5d714ea12794b21a20d2aff4d776ee2c3c8d6bb1dec85d971e970288b1
-translation_source_hash: 24a42a5d714ea12794b21a20d2aff4d776ee2c3c8d6bb1dec85d971e970288b1
+translation_source_body_hash: 7939a11f1767281a23d627ec2a824a26c35bcf27ae9161ad6e6bdf048aa881c4
+translation_source_hash: 7939a11f1767281a23d627ec2a824a26c35bcf27ae9161ad6e6bdf048aa881c4
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-12T21:19:05+00:00
-translation_source_metadata_hash: 0d442386ef297fc4246d68bf7ce971a684dcf97cd86e20b995505636f1a5cbbd
+translation_updated: 2026-06-14T19:29:21+00:00
+translation_source_metadata_hash: 72495fc27163e079367bd3a70c98c62883733371de43527a4301bd9d4510b3c6
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T21:19:05+00:00
+translation_metadata_updated: 2026-06-14T19:29:21+00:00
+translation_source_localized_metadata_hash: 72495fc27163e079367bd3a70c98c62883733371de43527a4301bd9d4510b3c6
+translation_source_structural_metadata_hash: 006b2558d50fc9121b493e9127570eba6f434c981f1bca6abf1c42e17caa3b8f
 ---
 > [!info] Descrição Curta
-> Um desafio de equilíbrio do tipo "último a ficar" onde os participantes mantêm a parada de mãos o máximo de tempo possível.
+> Um desafio de equilíbrio do tipo "último a ficar de pé" onde os participantes se mantêm em parada de mãos o máximo de tempo possível.
 
-![[../img/handstand-endurance.jpg|300]]
+![handstand-endurance](../img/handstand-endurance.jpg){ width=300 }
 
 **Tamanho do Grupo**: 2 a 40 jogadores  
 **Dificuldade**: Difícil  
-**Material**: Chão macio, tapetes ou relva  
+**Material**: Piso macio, tapetes ou grama  
 **Duração**: aprox. 3-10 minutos
 
 ## Descrição do Jogo
@@ -59,19 +61,19 @@ A última pessoa que permanecer numa parada de mãos válida vence.
 
 ## Preparação
 
-- Escolha a forma permitida: parada de mãos livre, com apoio na parede, com ajuda de parceiro ou parada de mãos em movimento.
+- Escolha a forma permitida: parada de mãos livre, com apoio na parede, com auxílio de parceiro ou parada de mãos caminhada.
 - Utilize uma superfície segura e deixe espaço suficiente entre os participantes.
-- Decida se pequenas correções com as mãos no chão são permitidas.
+- Decida se pequenas correções com as mãos (caminhada) são permitidas.
 
 ## Variações
 
-- Realize rondas separadas para iniciantes e avançados.
+- Realize rodadas separadas para iniciantes e avançados.
 - Utilize paradas de mãos com apoio de parceiro para grupos inclusivos.
 - Adicione um tempo máximo e declare todos os jogadores restantes vencedores conjuntos.
 
 ## Notas de Segurança
 
-Aqueça primeiro os pulsos e os ombros. Não utilize pressão de eliminação com participantes que não consigam sair de uma parada de mãos em segurança.
+Aqueça primeiro os punhos e os ombros. Não utilize a pressão de eliminação com participantes que não consigam sair de uma parada de mãos em segurança.
 
 ## Fonte
 

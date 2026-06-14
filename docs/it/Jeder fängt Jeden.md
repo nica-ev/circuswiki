@@ -7,13 +7,13 @@ publish: true
 tags:
   - spiele
 title: Tutti prendono tutti
-description: Un breve gioco di presa in cui tutti catturano contemporaneamente e si può toccare solo tra le scapole.
+description: Un breve gioco di presa in cui tutti prendono contemporaneamente e si può toccare solo tra le scapole.
 authors:
   - Marc Bielert
 category:
   - bewegung
-Schwierigkeit: einfach
-Material: keines
+Schwierigkeit: facile
+Material: nessuno
 Spieldauer: 3
 source: Tasifan Spielebuch
 group-min: 10
@@ -25,10 +25,12 @@ translation_source_hash: 061ed40d1991928b23561a0850d44e92c539c1a3be16ba38ae23950
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:45:49+00:00
 translation_source_body_hash: 061ed40d1991928b23561a0850d44e92c539c1a3be16ba38ae239509e91511f9
-translation_source_metadata_hash: 1af336e02e337d7589d274fe55b768ad1321f1827fdb7d6f20cc0a7ae6272612
+translation_source_metadata_hash: 95933767133eeb9fd0d99668d08f321f785e700b7bee33d494d740e58728268e
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:51:31+00:00
+translation_metadata_updated: 2026-06-14T15:54:12+00:00
+translation_source_localized_metadata_hash: 95933767133eeb9fd0d99668d08f321f785e700b7bee33d494d740e58728268e
+translation_source_structural_metadata_hash: 1b0396771d49cc2e61748ca426a19b228f4e684a3cff193cd33e5cc46a8abbff
 ---
 > [!info] Breve descrizione
 > Un breve gioco di presa in cui tutti prendono contemporaneamente e si può toccare solo tra le scapole.

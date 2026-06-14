@@ -7,12 +7,12 @@ publish: true
 tags:
   - spiele
 title: Gdybym był królem...
-description: Gra improwizacyjna, w której jedna osoba wciela się w rolę króla i proponuje czynności, które reszta grupy natychmiast odgrywa.
+description: Gra improwizacyjna, w której jedna osoba wciela się w rolę króla i proponuje czynności, które grupa natychmiast odgrywa.
 authors:
   - Marc Bielert
 category:
   - sonstiges
-Schwierigkeit: einfach
+Schwierigkeit: łatwy
 Material: Podest
 Spieldauer: 5-10
 source: unbekannt
@@ -25,10 +25,12 @@ translation_source_hash: fbbb6065688dc8acf2b0084e52b54864a310bd055bcd29f3877e70e
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:36:39+00:00
 translation_source_body_hash: fbbb6065688dc8acf2b0084e52b54864a310bd055bcd29f3877e70e131f19ffb
-translation_source_metadata_hash: 2fb6eb06736761355f89d2d24143fb3710faee1b47ff55b52fd509431ea70561
+translation_source_metadata_hash: 587501054577d1d0a7b96bee6e3275841e207877b6d94f3c85c78bf1eb5909ec
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T19:11:43+00:00
+translation_metadata_updated: 2026-06-14T16:26:43+00:00
+translation_source_localized_metadata_hash: 587501054577d1d0a7b96bee6e3275841e207877b6d94f3c85c78bf1eb5909ec
+translation_source_structural_metadata_hash: 13ea5fb5ab90bd6f62485153613d82304a896224156bdc4650d4e4b185d98fd3
 ---
 > [!info] Krótki opis
 > Gra aktorska, w której jedna osoba wciela się w rolę króla i proponuje czynności, które grupa natychmiast odgrywa.

@@ -30,11 +30,10 @@ source_url: https://ucircus.co.uk/resources-circus-games/
 source_image: ../img/club-head-balance.jpg
 source_permission: public group photo reviewed as reusable by project maintainer
 ---
-
 > [!info] Short Description
 > A balance endurance game where players keep a juggling club balanced on the head or face.
 
-![[../img/club-head-balance.jpg|300]]
+![club-head-balance](../img/club-head-balance.jpg){ width=300 }
 
 **Group Size**: 2 to 40 players
 **Difficulty**: mittel

@@ -12,7 +12,7 @@ ROOT = Path(__file__).resolve().parents[2]
 STATIC = Path(__file__).resolve().parent / "static"
 sys.path.insert(0, str(ROOT / "tools"))
 
-from dev_console import routes_cleanup, routes_dynamic, routes_graph, routes_link_repair, routes_navigation, routes_obsidian, routes_translation  # noqa: E402
+from dev_console import routes_base_labels, routes_cleanup, routes_dynamic, routes_graph, routes_link_repair, routes_navigation, routes_obsidian, routes_translation  # noqa: E402
 
 
 class DevConsoleHandler(SimpleHTTPRequestHandler):
@@ -31,6 +31,7 @@ class DevConsoleHandler(SimpleHTTPRequestHandler):
             routes_graph,
             routes_obsidian,
             routes_dynamic,
+            routes_base_labels,
             routes_cleanup,
             routes_link_repair,
         ):
@@ -52,6 +53,7 @@ class DevConsoleHandler(SimpleHTTPRequestHandler):
             routes_graph,
             routes_obsidian,
             routes_dynamic,
+            routes_base_labels,
             routes_cleanup,
             routes_link_repair,
         ):

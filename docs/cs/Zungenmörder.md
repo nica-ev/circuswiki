@@ -6,15 +6,15 @@ update: 2025-03-18 01:15:32
 publish: true
 tags:
   - spiele
-title: Vrah jazyků
-description: Kruhová hra, ve které vrah tajně zabíjí ukazováním jazyka a detektiv ho musí odhalit.
+title: Zungenmörder
+description: Kruhová hra, kde vrah tajně vraždí ukazováním jazyka a detektiv ho musí odhalit.
 authors:
   - Marc Bielert
 category:
   - cool-down
   - kreisspiel
-Schwierigkeit: mittel
-Material: keines
+Schwierigkeit: střední
+Material: žádný
 Spieldauer: 5 - 10
 source: unbekannt
 group-min: 10
@@ -27,10 +27,12 @@ translation_source_hash: 0bf0e4527907297f7796b264512e7926af2c2ea2cede37c0b349db9
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:40:05+00:00
 translation_source_body_hash: 0bf0e4527907297f7796b264512e7926af2c2ea2cede37c0b349db920c8e7973
-translation_source_metadata_hash: 2fde513c32d9e8ab993e0217c5fc869ac97ed8ae585e0c012df005cd63c00358
+translation_source_metadata_hash: 67883bb1dc602746555f88dfd722c690a21f6598ed325c433998ab59c4f3d090
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T19:14:47+00:00
+translation_metadata_updated: 2026-06-14T16:30:33+00:00
+translation_source_localized_metadata_hash: 67883bb1dc602746555f88dfd722c690a21f6598ed325c433998ab59c4f3d090
+translation_source_structural_metadata_hash: 384479acab846847d94c5ce6783744889ad79ba103526d87dd869c4eea353273
 ---
 > [!info] Stručný popis
 > Kruhová hra, ve které vrah tajně „vraždí“ vyplazením jazyka a detektiv ho musí odhalit.

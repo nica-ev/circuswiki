@@ -7,13 +7,13 @@ tags:
 created: 2025-01-24 03:50:51
 update: 2025-03-17 02:26:12
 title: Γρήγορα, γρήγορα - στη θέση σου
-description: Ένα παιχνίδι αντίδρασης όπου οι ομάδες πρέπει να επιστρέψουν γρήγορα στην αρχική τους θέση μετά από οδηγίες του παίκτη που δίνει τις εντολές.
+description: Ένα παιχνίδι αντίδρασης όπου οι ομάδες πρέπει να επιστρέψουν γρήγορα στην αρχική τους θέση μετά από οδηγίες του οδηγού.
 authors:
   - Marc Bielert
 category:
   - sonstiges
-Schwierigkeit: mittel
-Material: keines
+Schwierigkeit: μεσαίο
+Material: κανένα
 Spieldauer: 5-10
 source: unbekannt
 group-min: 8
@@ -25,10 +25,12 @@ translation_source_hash: 5ba91e852ac29366b81b31f99b63c3c5ef84d653057d5ddb01999c1
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:15:18+00:00
 translation_source_body_hash: 5ba91e852ac29366b81b31f99b63c3c5ef84d653057d5ddb01999c1230cfd02d
-translation_source_metadata_hash: 54f3266e0c2c0c08adbec1e6d6c7708a81aa88be66ab08f075abba696670faf0
+translation_source_metadata_hash: 4f30c4dbbc74a977439129b6373af9d2d17d7f0199fccc489cb8342103bac7bb
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T19:05:28+00:00
+translation_metadata_updated: 2026-06-14T16:18:35+00:00
+translation_source_localized_metadata_hash: 4f30c4dbbc74a977439129b6373af9d2d17d7f0199fccc489cb8342103bac7bb
+translation_source_structural_metadata_hash: 3eb6f2cf763f35630f8920c5e734b75f8895df22a0c7b117cde34e78714a074f
 ---
 > [!info] Σύντομη περιγραφή
 > Ένα παιχνίδι αντίδρασης, όπου οι ομάδες επαναφέρουν γρήγορα την αρχική τους θέση μετά από περιστροφές του/της οδηγού του παιχνιδιού.

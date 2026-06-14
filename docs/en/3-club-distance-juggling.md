@@ -34,7 +34,7 @@ source_permission: public group photo reviewed as reusable by project maintainer
 > [!info] Short Description
 > A distance challenge where jugglers or pairs try to keep club juggling/passing alive over increasing distance.
 
-![[../img/3-club-distance-juggling.jpg|300]]
+![3-club-distance-juggling](../img/3-club-distance-juggling.jpg){ width=300 }
 
 **Group Size**: 2 to 40 players
 **Difficulty**: mittel

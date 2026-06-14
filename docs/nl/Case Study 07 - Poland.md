@@ -18,10 +18,12 @@ translation_source_hash: 997d51265674314af97db198af37abcb43c8a4348913c45aaabcb89
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-06T23:13:18+00:00
 translation_source_body_hash: 997d51265674314af97db198af37abcb43c8a4348913c45aaabcb8981b5c5f0f
-translation_source_metadata_hash: b782b4432251768766744a46bf4a7dc90ec32ccbc0d8df373b3c41b17f7d0025
+translation_source_metadata_hash: 6a8219e59f68031768b7837a667b261e99ec3da15a785aefc9231d4cace228fa
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:06:02+00:00
+translation_metadata_updated: 2026-06-14T15:42:41+00:00
+translation_source_localized_metadata_hash: 6a8219e59f68031768b7837a667b261e99ec3da15a785aefc9231d4cace228fa
+translation_source_structural_metadata_hash: 9e9b226cc3da29d44cd0a3945dda822fca3d448547a16e6abd8e0caa5fc210d3
 ---
 # **Verborgen therapie door spel: Functioneel jongleren met kinderen met autisme en hun begeleiders**
 

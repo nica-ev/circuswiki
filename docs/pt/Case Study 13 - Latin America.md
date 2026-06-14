@@ -6,7 +6,7 @@ update: 2026-06-06 21:49:31
 publish: false
 tags:
   - case-study
-title: Tecendo Rotinas em Confinamento
+title: Rotinas de Tecelagem em Confinamento
 description:
 authors:
   - Jael Rodriguez
@@ -19,10 +19,12 @@ translation_source_hash: a98d77fa03f44f19fe30ee3132674e267469eabb417b9523eb006ab
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-07T18:35:18+00:00
 translation_source_body_hash: a98d77fa03f44f19fe30ee3132674e267469eabb417b9523eb006ab76b7c41be
-translation_source_metadata_hash: df5bafc18aaff588393d18e33eafe0fee01b8a1239c257b41ef9e37a4a23c6ea
+translation_source_metadata_hash: 4d60828a6f71c716f7f1a69af2ed356aa872371221d95e55ed540355e8798cb1
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:06:54+00:00
+translation_metadata_updated: 2026-06-14T15:43:28+00:00
+translation_source_localized_metadata_hash: 4d60828a6f71c716f7f1a69af2ed356aa872371221d95e55ed540355e8798cb1
+translation_source_structural_metadata_hash: 8c9f312c4d75cc0c55a7e6ef76096759b5095f4213ee97ef25c7783b7b29b060
 ---
 # Tecendo Rotinas em Confinamento – Um Workshop Online de Hula Hoop (2021)
 

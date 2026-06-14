@@ -2,11 +2,10 @@
 lang: de
 translation_id: index
 created: 2025-01-21 18:09:55
-update: 2026-06-13 00:04:51
+update: 2026-06-14 02:50:55
 publish: true
 tags:
   - moc
-  - dynamic
 title: CircusWiki Home
 description: Einstieg in CircusWiki, eine offene und kuratierte Wissenssammlung für Zirkuspädagogik, Bewegungsspiele, inklusive Praxis und verwandte Themen.
 authors:

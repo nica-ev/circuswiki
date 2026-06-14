@@ -11,15 +11,15 @@ tags:
 created: 2026-06-12 00:00:00
 update: 2026-06-12 22:30:14
 title: Музичні стільці на одноколісному велосипеді
-description: "Адаптація гри \"музичні стільці\" для одноколісних велосипедів, де гравці змагаються, щоб сісти на один із вільних велосипедів, коли музика зупиняється."
+description: "Адаптація гри \"музичні стільці\" для одноколісних велосипедів, де гравці змагаються, щоб сісти на один із велосипедів, що залишилися, коли музика зупиняється."
 authors:
   - CircusWiki contributors
 category:
   - convention-games
   - unicycle
   - reaction
-Schwierigkeit: "schwer"
-Material: "Unicycles, music player, optional barriers"
+Schwierigkeit: складно
+Material: Одноколісні велосипеди, музичний програвач, опціонально бар'єри
 Spieldauer: "5-15"
 group-min: 4
 group-max: 30
@@ -34,10 +34,12 @@ translation_source_body_hash: f9bb53bee71dbddbf9b0e8518be9f7c4e3225f16a740e8f062
 translation_source_hash: f9bb53bee71dbddbf9b0e8518be9f7c4e3225f16a740e8f0624ea4741dc9b657
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-12T21:38:00+00:00
-translation_source_metadata_hash: 32a83b4c0b869687ed70f81ae477673fb0c599adee308c1a712fff7611458d89
+translation_source_metadata_hash: a95d4ffed3749b42ed6ef4e288497486e2195e24cdb97ba423da7514dd1fdaaf
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T21:38:00+00:00
+translation_metadata_updated: 2026-06-14T16:04:53+00:00
+translation_source_localized_metadata_hash: a95d4ffed3749b42ed6ef4e288497486e2195e24cdb97ba423da7514dd1fdaaf
+translation_source_structural_metadata_hash: e6be69e39cc80e5e3c4aa2ff9df5fdd73e64c41ee056ad8bb76a5a5b7fb42c68
 ---
 > [!info] Коротка Опис
 > Адаптація гри "Музичні стільці" для одноколісних велосипедів, де гравці змагаються, щоб сісти на один із вільних одноколісних велосипедів, коли музика зупиняється.

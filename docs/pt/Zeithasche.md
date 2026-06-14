@@ -12,8 +12,8 @@ authors:
   - Marc Bielert
 category:
   - fangen
-Schwierigkeit: mittel
-Material: keines
+Schwierigkeit: médio
+Material: nenhum
 Spieldauer: 15-20
 source: unbekannt
 group-min: 6
@@ -26,10 +26,12 @@ translation_source_hash: 3d275194aa01b8147dec89f3849fa2016d5a857d7f54a8be95c5697
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-07T19:33:25+00:00
 translation_source_body_hash: 3d275194aa01b8147dec89f3849fa2016d5a857d7f54a8be95c569715829d982
-translation_source_metadata_hash: 2a2a66a2f7ab22c212ca9034304193b64c28eb3916a3429db5d4a7b17b365f98
+translation_source_metadata_hash: b58e57a896e45e59f04e8b6964768ad2674b61383445bb648563689906dc38f0
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T19:13:15+00:00
+translation_metadata_updated: 2026-06-14T16:28:23+00:00
+translation_source_localized_metadata_hash: b58e57a896e45e59f04e8b6964768ad2674b61383445bb648563689906dc38f0
+translation_source_structural_metadata_hash: 1eedf8b8a7ad6d044a16f0c5894c06d1fb3f37380d56a25bf83ea067c849d38a
 ---
 > [!info] Breve Descrição
 > Um jogo de apanhada rápido para grupos pequenos a médios, onde duas equipas competem pelo melhor tempo de apanhada.

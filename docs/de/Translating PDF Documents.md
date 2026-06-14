@@ -66,7 +66,7 @@ This tutorial outlines a process for translating the content of PDF documents, p
 8.  Paste the copied Markdown text into a plain text editor (like Notepad, VS Code, Obsidian, etc.).
 9.  Save this content as a plain text file. Using `.txt` or `.md` (Markdown) extensions is recommended. The Markdown formatting helps preserve the document's structure (headings, lists).
 
-![Google AI Studio - Screenshot Transcription|600](../img/Screenshot-Google-AiStudio-Transcription.png)
+![Google AI Studio - Screenshot Transcription](../img/Screenshot-Google-AiStudio-Transcription.png){ width=600 }
 
 ## Step 3: Translating the Extracted Text using Google AI Studio
 
@@ -87,7 +87,7 @@ This tutorial outlines a process for translating the content of PDF documents, p
 5.  Submit the prompt. Translation may also take several minutes, comparable to the transcription time.
 6.  Once generated, copy the translated Markdown text using the methods described in Step 2 (interface copy button or manual selection).
 
-![Google AI Studio - Screenshot Translation|600](../img/Screenshot-Google-AiStudio-Translation.png)
+![Google AI Studio - Screenshot Translation](../img/Screenshot-Google-AiStudio-Translation.png){ width=600 }
 
 ## Step 4: Reformatting the Translated Text into a PDF Document
 

@@ -10,7 +10,7 @@ tags:
   - piggyback
   - gladiators
 created: 2026-06-12 00:00:00
-update: 2026-06-12 21:05:58
+update: 2026-06-14 21:44:17
 title: 3 Ball Piggyback Gladiators
 description: A team gladiators variant where a carried player juggles three balls while their partner moves them through the arena.
 authors:
@@ -35,7 +35,7 @@ source_permission: public group photo reviewed as reusable by project maintainer
 > [!info] Short Description
 > A team gladiators variant where a carried player juggles three balls while their partner moves them through the arena.
 
-![[../img/3-ball-piggyback-gladiators.jpg|300]]
+![3-ball-piggyback-gladiators](../img/3-ball-piggyback-gladiators.jpg){ width=300 }
 
 **Group Size**: 4 to 30 players
 **Difficulty**: schwer

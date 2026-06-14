@@ -6,14 +6,14 @@ tags:
   - spiele
 created: 2025-01-24 03:50:50
 update: 2026-06-07 00:01:36
-title: Smoki i krasnoludy
+title: Smoki i krasnoludki
 description: 
 authors:
   - Marc Bielert
 category:
   - fangen
-Schwierigkeit: einfach
-Material: Tücher
+Schwierigkeit: łatwy
+Material: Chusty
 Spieldauer: 5-10
 source: unbekannt
 group-min: 8
@@ -26,10 +26,12 @@ translation_source_hash: 53a06cbfc80afb5e5d7a48fa607fc236943a3e8eee17f967e7dc53d
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-06T22:29:35+00:00
 translation_source_body_hash: 53a06cbfc80afb5e5d7a48fa607fc236943a3e8eee17f967e7dc53d9ecfcdd89
-translation_source_metadata_hash: a7bf121f51a0c69ddd9879e51e1115e66701f5105993ebff7aa28d925c112dd2
+translation_source_metadata_hash: e0462aab903518f208034144bfd64ca67574b8fb6fbcc1031da39b974de0bad5
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:00:49+00:00
+translation_metadata_updated: 2026-06-14T15:36:29+00:00
+translation_source_localized_metadata_hash: e0462aab903518f208034144bfd64ca67574b8fb6fbcc1031da39b974de0bad5
+translation_source_structural_metadata_hash: 54423fbdfd0d5390b7eb111104611569a4727970667c45456f5ea121977b00f1
 ---
 # Smoki i Krasnoludy
 

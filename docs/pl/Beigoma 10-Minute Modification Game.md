@@ -7,14 +7,14 @@ tags:
   - beigoma
 created: 2026-06-11 00:00:00
 update: 2026-06-11 17:31:57
-title: Gra Modyfikacji Beigomy w 10 Minut
-description: Gra typu Beigoma w stylu „maker”, w której gracze mają krótki, ograniczony czas na modyfikację bączka przed przetestowaniem jego wydajności w obrocie lub walce.
+title: Beigoma: Gra z 10-minutową modyfikacją
+description: "Gra w stylu \"maker\" z Beigomą, w której gracze mają krótki, ograniczony czas na modyfikację bączka przed przetestowaniem jego stabilności lub wydajności w pojedynku."
 authors:
   - Marc Bielert
 category:
   - beigoma
-Schwierigkeit: schwer
-Material: Beigoma, strings, playing floor, files, sandpaper, safety equipment, timer
+Schwierigkeit: trudny
+Material: Beigoma, sznurki, podłoga do gry, pilniki, papier ścierny, sprzęt ochronny, stoper
 Spieldauer: 20-45
 source:
   - Tokyo Beigoma
@@ -30,10 +30,12 @@ translation_source_body_hash: 9f1dc51cc10e86474298c87409acad691121da59b6889a9628
 translation_source_hash: 9f1dc51cc10e86474298c87409acad691121da59b6889a9628521944ff92d154
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-11T15:32:59+00:00
-translation_source_metadata_hash: 2afeb60e63d771d8d6189e029e6521d2270bf630f533fbe45bf6b7bbc250376f
+translation_source_metadata_hash: 99fce950987aad27751065f67bdd78aa00cea03015b23938e27ef0e38711fa06
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-11T15:32:59+00:00
+translation_metadata_updated: 2026-06-14T15:38:45+00:00
+translation_source_localized_metadata_hash: 99fce950987aad27751065f67bdd78aa00cea03015b23938e27ef0e38711fa06
+translation_source_structural_metadata_hash: 8432d6e4150c4229fb29528b68bde74b91738375416eac646d0500046f61425e
 ---
 > [!info] Krótki opis
 > Gra typu „maker” z wykorzystaniem Beigoma, w której gracze mają krótki, ograniczony czas na modyfikację bączka, a następnie testują jego stabilność lub wyniki w pojedynku.

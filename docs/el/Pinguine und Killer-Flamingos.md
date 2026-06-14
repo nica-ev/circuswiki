@@ -12,8 +12,8 @@ authors:
   - Marc Bielert
 category:
   - fangen
-Schwierigkeit: einfach
-Material: keines
+Schwierigkeit: εύκολο
+Material: κανένα
 Spieldauer: 5 - 10
 source: unbekannt
 group-min: 5
@@ -26,10 +26,12 @@ translation_source_hash: 1df029f60561e63e3583fe82d8fcd6687cc0522eaf0b090e5cb6792
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-07T13:50:39+00:00
 translation_source_body_hash: 1df029f60561e63e3583fe82d8fcd6687cc0522eaf0b090e5cb679263ee74837
-translation_source_metadata_hash: 28423cc5c87b520c5c9a14d749ab3ff97a8cc717760a657da854904ef850419f
+translation_source_metadata_hash: 5ec12a87ecd84ad2fc17dce8ab45a6cd1f519a54c707721efdb628ada626cf4d
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T19:02:24+00:00
+translation_metadata_updated: 2026-06-14T16:15:44+00:00
+translation_source_localized_metadata_hash: 5ec12a87ecd84ad2fc17dce8ab45a6cd1f519a54c707721efdb628ada626cf4d
+translation_source_structural_metadata_hash: 2bb1a5a21508e22865835af7e194d031eed83ea018d0deb04080dcff753ac58f
 ---
 # Πιγκουίνοι και Φλαμίνγκο-δολοφόνοι
 

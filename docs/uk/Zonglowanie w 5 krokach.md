@@ -21,10 +21,12 @@ translation_source_hash: 9745e883ea4d1e5ff8fb8e9e3851133216719fd21675f46d529868b
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-07T17:33:24+00:00
 translation_source_body_hash: 9745e883ea4d1e5ff8fb8e9e3851133216719fd21675f46d529868b486963e8d
-translation_source_metadata_hash: 236a09064874bbaddbef50263e116b0876365312a7a2ed16f04bfe21d724b96f
+translation_source_metadata_hash: f944d87585b01fc189c33eae1e1c8854b4ca2d368aa289b6de42e1a3a6064c46
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T19:14:18+00:00
+translation_metadata_updated: 2026-06-14T16:29:55+00:00
+translation_source_localized_metadata_hash: f944d87585b01fc189c33eae1e1c8854b4ca2d368aa289b6de42e1a3a6064c46
+translation_source_structural_metadata_hash: f02c613a4a7d0074c971a96423cb89c59ccb35826f4227b786918a853b62e05f
 ---
 # Майстер-клас: Жонглювання за 5 кроків
 

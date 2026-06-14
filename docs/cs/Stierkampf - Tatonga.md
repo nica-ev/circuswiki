@@ -7,14 +7,14 @@ tags:
 created: 2025-01-24 03:50:51
 update: 2026-06-09 02:09:22
 title: Býčí zápas - Tatonga
-description: Kruhová hra s lanem, kde býk uprostřed tleská do rukou nebo se snaží lano shodit na zem.
+description: Kruhová hra s lanem, kde býk uprostřed tleská rukama nebo se snaží lano shodit na zem.
 authors:
   - Marc Bielert
 category:
   - action
   - kreisspiel
-Schwierigkeit: einfach
-Material: Seil
+Schwierigkeit: lehká
+Material: Lano
 Spieldauer: 5-10
 source: Tasifan Spielebuch
 group-min: 5
@@ -26,10 +26,12 @@ translation_source_hash: c3b926357f20f7229afcd955aa224e39cab76b358f5b61d3eb50859
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:29:13+00:00
 translation_source_body_hash: c3b926357f20f7229afcd955aa224e39cab76b358f5b61d3eb50859ed4c53771
-translation_source_metadata_hash: 8eb4fb73b7fa8f650dae9409f64c63454762b1f3a59fa1d5aa3d9fb0020b40ff
+translation_source_metadata_hash: 47be5bfaac6faf5ef238498d75010519beec2d3b1f082e456e77a67b4d73a5c0
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T19:08:39+00:00
+translation_metadata_updated: 2026-06-14T16:21:39+00:00
+translation_source_localized_metadata_hash: 47be5bfaac6faf5ef238498d75010519beec2d3b1f082e456e77a67b4d73a5c0
+translation_source_structural_metadata_hash: ad425dc921666fdde81025f7706862529f8cfd58fc92f68d9662bd82af1a53bc
 ---
 > [!info] Stručný popis
 > Kruhová hra s lanem, ve které se uprostřed snaží utéct býk.

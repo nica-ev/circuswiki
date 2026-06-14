@@ -2,7 +2,7 @@
 lang: it
 translation_id: kaskade-workspace
 created: 2025-01-21 18:09:55
-update: 2026-06-12 19:11:41
+update: 2026-06-14 19:03:29
 publish: true
 tags:
   - moc
@@ -14,24 +14,26 @@ authors:
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Kaskade Workspace.md
-translation_source_hash: 29a1552cf493836b4b474a5912aebdb63538c48b359b37de5a4b8b2e5b94d53f
+translation_source_hash: 631cf2907c40a3667c661ea1b6d881d859aab4729b277b6135718a058327fc01
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-12T17:33:11+00:00
-translation_source_body_hash: 29a1552cf493836b4b474a5912aebdb63538c48b359b37de5a4b8b2e5b94d53f
-translation_source_metadata_hash: e7f4ba685ffe753f20b46abef2ca8139d54bb761a72234a6398c888d59b39b90
+translation_updated: 2026-06-14T15:10:36+00:00
+translation_source_body_hash: 631cf2907c40a3667c661ea1b6d881d859aab4729b277b6135718a058327fc01
+translation_source_metadata_hash: 14f9eb7f2b84bdc2ea4e9bf614d19a3199b89138fa400f849f9e7789b6cd1ce0
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T17:33:11+00:00
+translation_metadata_updated: 2026-06-14T16:06:30+00:00
+translation_source_localized_metadata_hash: 14f9eb7f2b84bdc2ea4e9bf614d19a3199b89138fa400f849f9e7789b6cd1ce0
+translation_source_structural_metadata_hash: 0cfee3e1af3406a918bee8b26aa5fda5e8dd66e93b2d5c95c2c0fea35a4fc7a7
 ---
 >[!info]- Introduzione
->Sono cresciuto con Kaskade. Prima che esistesse YouTube, prima che potessimo trovare tutto su Internet, questa rivista è stata una delle prime fonti di informazione regolari che ho ricevuto sul tema del giocoleria, del circo e degli spettacoli.
->Quando la rivista è stata interrotta nel 2013, è sembrata la fine di un'era, almeno per me.
->Per diversi anni le riviste sono state ancora disponibili per il download in formato PDF; dal 2017 circa il sito è andato offline.
->Mi sono spesso ricordato di piccoli workshop, tutorial o articoli che mi avevano ispirato all'epoca. Ora, anni dopo, volendo rileggere qualcosa, non c'era più modo.
+>Sono cresciuto con "Kaskade". Prima che esistesse YouTube, prima che potessimo trovare tutto su Internet, questa rivista è stata una delle prime fonti di informazione regolari che ho avuto tra le mani sul tema del giocoleria, del circo e degli spettacoli.
+>Quando la rivista è stata interrotta nel 2013, mi è sembrata la fine di un'era, almeno per me.
+>Per diversi anni le riviste sono state disponibili per il download in formato PDF; dal 2017 circa il sito è andato offline.
+>Mi sono spesso ricordato di piccoli workshop, tutorial o articoli che mi avevano ispirato all'epoca. Ora, anni dopo, volendo rileggere qualcosa, non c'era più modo di farlo.
 >
->Fortunatamente, utilizzando la Wayback Machine (The Internet Archive), ho trovato un punto di salvataggio del 2017 con i download completi (cosa non sempre scontata, soprattutto trattandosi di circa 3 GB di PDF), completi di edizioni tedesca, inglese e francese.
+>Fortunatamente, tramite la Wayback Machine (The Internet Archive), ho trovato un punto di salvataggio del 2017 con i download completi (cosa non sempre scontata, soprattutto trattandosi di circa 3 GB di PDF), completo di edizioni tedesca, inglese e francese.
 >
->Riguardandoli, mi sono reso conto che, sebbene ci fossero molti articoli e tutorial fantastici nascosti nelle riviste, al giorno d'oggi difficilmente qualcuno sfoglierebbe 112 riviste semplicemente fotocopiate. Beh, a meno che non si abbia un interesse nostalgico =P
+>Riguardando il materiale, mi sono reso conto che, sebbene ci fossero molti articoli e tutorial fantastici nascosti nelle riviste, ai giorni nostri difficilmente qualcuno sfoglierebbe 112 riviste semplicemente fotocopiate. Beh, a meno che non si abbia un interesse nostalgico =P
 >
 >Dato che sarebbe un peccato perdere queste conoscenze, ho voluto provare a digitalizzare il tutto utilizzando la tecnologia attuale in modo che sia ancora utile oggi.
 
@@ -39,12 +41,12 @@ translation_metadata_updated: 2026-06-12T17:33:11+00:00
 >Innanzitutto, ho rimosso da ogni pagina del PDF quelle che non contenevano testi rilevanti.
 >
 >Per la trascrizione vera e propria (o OCR), ho utilizzato un modello linguistico multimodale di Google.
->Ho usato ```Gemini 2.0 Pro Experimental 02-05``` con il prompt
+>Ho usato ```Gemini 2.0 Pro Experimental 02-05``` con il prompt:
 >```
 >The attached PDF is a photocopy of a magazine. Extract all text, keep the document structure intact as much as possible, also extract single images and have them correctly in context.
 >```
->e il PDF con la rivista scansionata.
->Impostazioni: Temperatura 0.1 (Importante per evitare allucinazioni)
+>insieme al PDF con la rivista scansionata.
+>Impostazioni: Temperatura 0.1 (Importante per evitare allucinazioni).
 >
 >L'output viene poi ripulito con ```gemini-2.0-flash-exp``` e il seguente prompt (insieme al testo allegato che abbiamo estratto):
 >```
@@ -58,8 +60,7 @@ translation_metadata_updated: 2026-06-12T17:33:11+00:00
 >>[!Danger]+ Importante:
 >>L'obiettivo era estrarre articoli, workshop, interviste, ecc.
 >>Ho scartato contributi come, ad esempio, piccoli annunci, ecc.
->>L'estrazione e la pulizia dei testi sono state effettuate con LLM, quindi esiste sempre la possibilità che i testi non siano stati trascritti 1:1 o che il contenuto differisca leggermente dall'originale. Ho cercato di mantenere la percentuale di errore il più bassa possibile confrontando a campione parti di testo.
-
+>>L'estrazione e la pulizia dei testi sono state effettuate con LLM, quindi esiste sempre la possibilità che i testi non siano stati trascritti 1:1 o che il contenuto differisca leggermente dall'originale. Ho cercato di mantenere il tasso di errore il più basso possibile confrontando a campione parti di testo.
 <!-- dynamic:start
 engine: obsidian-base
 base: _bases/Spiele-Base.base
@@ -69,52 +70,46 @@ format: list
 <!-- dynamic:content -->
 <!-- Generated by tools/dynamic_pages.py; edit the dynamic block config, not this list. -->
 
-- [Cascata 001 - 1984](<Kaskade%20001.md>)
-- [Cascata 002 - 1984](<Kaskade%20002.md>)
-- [Cascata 003](<Kaskade%20003.md>)
-- [Cascata 004 - 1985](<Kaskade%20004.md>)
-- [Cascata 005 - 1985](<Kaskade%20005.md>)
+- [Kaskade 001](<Kaskade%20001.md>)
+- [Kaskade 002](<Kaskade%20002.md>)
+- [Kaskade 003](<Kaskade%20003.md>)
+- [Kaskade 004](<Kaskade%20004.md>)
+- [Kaskade 005](<Kaskade%20005.md>)
 
-<!-- dynamic:end -->
-
-# Articoli
-
+<!-- dynamic:end --># Articolo
 <!-- dynamic:start
 engine: obsidian-base
 base: _bases/Spiele-Base.base
 view: Kaskade Artikel
 format: table
-columns: file, authors, type, sub-type, source
 -->
 <!-- dynamic:content -->
 <!-- Generated by tools/dynamic_pages.py; edit the dynamic block config, not this table. -->
 
-| file                                                                                   | authors                  | type     | sub-type | source      |
-| -------------------------------------------------------------------------------------- | ------------------------ | -------- | -------- | ----------- |
-| [Workshop Cascade - La pagina delle colonne](<Die%20S%C3%A4ulen-Seite.md>)                                                         | Dr. P. Luftiko           | Tutorial | Palle    | Kaskade 001 |
-| [Una nuova rivista per l'Europa](<Eine%20neue%20Zeitschrift%20f%C3%BCr%20Europa.md>)          | Gabi Keaton, Paul Keaton | Articolo | -        | Kaskade 001 |
-| [Il sorriso supera la gravità](<L%C3%A4cheln%20%C3%BCberwindet%20Schwerkraft.md>)                 | Toby Philpott            | Articolo | -        | Kaskade 001 |
-| [Workshop Cascata - Barare!](<Schummeln%21.md>)                                                                | Dr. P. Luftiko           | Tutorial | Palle    | Kaskade 001 |
-| [Gravità - e allora!](<Schwerkraft%20-%20na%20und%21.md>)                                  | Christoph Schmitt        | Articolo | -        | Kaskade 001 |
-| [Circo cercasi!](<Zirkus%20gesucht%21.md>)                                                | Kattrin & Uli            | Articolo | -        | Kaskade 001 |
+| Collegamento                                                                         | authors                  | type     | sub-type | source      |
+| ------------------------------------------------------------------------------------ | ------------------------ | -------- | -------- | ----------- |
+| [Workshop Cascata - Il Lato della Colonna](<Die%20S%C3%A4ulen-Seite.md>)             | Dr. P. Luftiko           | Tutorial | Bälle    | Kaskade 001 |
+| [Una nuova rivista per l'Europa](<Eine%20neue%20Zeitschrift%20f%C3%BCr%20Europa.md>) | Gabi Keaton, Paul Keaton | Artikel  | -        | Kaskade 001 |
+| [Il sorriso supera la gravità](<L%C3%A4cheln%20%C3%BCberwindet%20Schwerkraft.md>)    | Toby Philpott            | Artikel  | -        | Kaskade 001 |
+| [Workshop Cascata - Barare!](<Schummeln%21.md>)                                      | Dr. P. Luftiko           | Tutorial | Bälle    | Kaskade 001 |
+| [Gravità - e allora!](<Schwerkraft%20-%20na%20und%21.md>)                            | Christoph Schmitt        | Artikel  | -        | Kaskade 001 |
+| [Circo cercasi!](<Zirkus%20gesucht%21.md>)                                           | Kattrin & Uli            | Artikel  | -        | Kaskade 001 |
 
-<!-- dynamic:end -->
+<!-- dynamic:end -->---
 
----
-
->[!info]- Edizioni nominate erroneamente / raggruppate (002 - 004)
+>[!info]- Edizioni denominate/raggruppate in modo errato (002 - 004)
 >
->Kaskade 002:
->Nell'originale PDF tedesco, le edizioni 2 e 3 sono unite.
+>Cascata 002:
+>Nel PDF originale tedesco, le edizioni 2 e 3 sono raggruppate insieme.
 >
->Kaskade 003:
->Nell'originale PDF tedesco, qui si trova l'edizione 004.
+>Cascata 003:
+>In questo punto del PDF originale tedesco si trova l'edizione 004.
 >
->Kaskade 004:
->Qui manca la copertina, non sono ancora riuscito a capire a cosa appartenga...
->Sembra una copia dell'edizione 009, senza copertina.
+>Cascata 004:
+>Manca la pagina del titolo, non sono ancora riuscito a capire a cosa appartenga...
+>Sembra una copia dell'edizione 009, senza pagina del titolo.
 >
 >Correzione:
->Ho diviso il PDF di Kaskade 002 (originale) in 002 e 003.
->Ho rinominato Kaskade 003 (originale) in Kaskade 004.
->E ho eliminato Kaskade 004 (originale).
+>Ho diviso il PDF della Cascata 002 (originale) in 002 e 003.
+>Rinominato la Cascata 003 (originale) in Cascata 004.
+>E cancellato la Cascata 004 (originale).

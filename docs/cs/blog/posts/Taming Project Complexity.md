@@ -6,7 +6,7 @@ update: 2025-05-03 22:54:32
 date: 2025-05-03T11:00:00
 publish: true
 tags: 
-title: Krocení složitosti projektu - Sága
+title: Zvládání složitosti projektu - Sága
 description: Cesta k efektivní správě verzí složitého vývojového prostředí bez znečištění hlavního repozitáře projektu.
 authors:
   - Marc Bielert
@@ -19,10 +19,12 @@ translation_source_hash: 40282a58c37a5a74d5d1057009bfb53d11f763e5c6ffb18bbe51adb
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-07T18:30:16+00:00
 translation_source_body_hash: 40282a58c37a5a74d5d1057009bfb53d11f763e5c6ffb18bbe51adba7cee476a
-translation_source_metadata_hash: cde5454e151683f226e749e3b47c96a603e443051b6d2d3c3dd3035878254b49
+translation_source_metadata_hash: 326d746cf3f5ea2edc1d4adef6bfcba4e454202b335675ecfc6d363623d01f6b
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:04:24+00:00
+translation_metadata_updated: 2026-06-14T15:41:07+00:00
+translation_source_localized_metadata_hash: 326d746cf3f5ea2edc1d4adef6bfcba4e454202b335675ecfc6d363623d01f6b
+translation_source_structural_metadata_hash: 6be66a2d5c4cf84d2025d2de231c2a43257a55f773a5faa74703a0519f2b4c56
 ---
 # Zkrocení složitosti projektu – Sága
 **Správa verzí vývojového prostředí bez znečištění vašeho hlavního repozitáře**

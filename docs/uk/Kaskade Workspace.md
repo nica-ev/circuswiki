@@ -2,51 +2,53 @@
 lang: uk
 translation_id: kaskade-workspace
 created: 2025-01-21 18:09:55
-update: 2026-06-12 19:11:41
+update: 2026-06-14 19:03:29
 publish: true
 tags:
   - moc
   - dynamic
-title: Транскрипти журналу Каскад
+title: "Транскрипти журналу \"Каскад\""
 description: 
 authors:
   - Marc Bielert
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Kaskade Workspace.md
-translation_source_hash: 29a1552cf493836b4b474a5912aebdb63538c48b359b37de5a4b8b2e5b94d53f
+translation_source_hash: 631cf2907c40a3667c661ea1b6d881d859aab4729b277b6135718a058327fc01
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-12T17:33:35+00:00
-translation_source_body_hash: 29a1552cf493836b4b474a5912aebdb63538c48b359b37de5a4b8b2e5b94d53f
-translation_source_metadata_hash: e7f4ba685ffe753f20b46abef2ca8139d54bb761a72234a6398c888d59b39b90
+translation_updated: 2026-06-14T15:11:00+00:00
+translation_source_body_hash: 631cf2907c40a3667c661ea1b6d881d859aab4729b277b6135718a058327fc01
+translation_source_metadata_hash: 14f9eb7f2b84bdc2ea4e9bf614d19a3199b89138fa400f849f9e7789b6cd1ce0
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T17:33:35+00:00
+translation_metadata_updated: 2026-06-14T16:06:32+00:00
+translation_source_localized_metadata_hash: 14f9eb7f2b84bdc2ea4e9bf614d19a3199b89138fa400f849f9e7789b6cd1ce0
+translation_source_structural_metadata_hash: 0cfee3e1af3406a918bee8b26aa5fda5e8dd66e93b2d5c95c2c0fea35a4fc7a7
 ---
 >[!info]- Вступ
->Я виріс на журналі "Kaskade". До появи YouTube, до того, як ми могли знайти все в Інтернеті, цей журнал був одним із перших регулярних джерел інформації про жонглювання, цирк, шоу, які я отримував.
->Коли журнал припинив виходити у 2013 році, це відчувалося як кінець епохи – принаймні для мене.
+>Я виріс на «Каскаді». До появи YouTube, до того, як ми могли знайти все в Інтернеті — цей журнал був одним із перших регулярних джерел інформації про жонглювання, цирк, шоу, до яких я мав доступ.
+>Коли журнал припинив виходити у 2013 році, це відчувалося як кінець епохи — принаймні для мене.
 >Кілька років журнали були доступні для завантаження у форматі PDF, але приблизно з 2017 року сайт перестав працювати.
->Я часто згадував невеликі майстер-класи, навчальні посібники чи статті, які надихали мене тоді. Коли через роки я захотів щось перечитати – можливості вже не було.
+>Я часто згадував невеликі майстер-класи, навчальні посібники чи статті, які надихали мене тоді. Коли через роки я захотів щось перечитати — можливості вже не було.
 >
->На щастя, за допомогою Wayback Machine (The Internet Archive) я знайшов точку збереження від 2017 року з повними завантаженнями (це не завжди вдається, особливо враховуючи, що це було близько 3 ГБ PDF-файлів) – повністю з німецьким, англійським та французьким виданнями.
+>Завдяки Wayback Machine (The Internet Archive) мені пощастило знайти точку збереження за 2017 рік із повними завантаженнями (це не завжди вдається, особливо враховуючи, що це було близько 3 ГБ PDF-файлів) — повністю з німецьким, англійським та французьким виданнями.
 >
->Переглядаючи їх, я зрозумів, що хоча в журналах було багато чудових статей та навчальних посібників, у наш час навряд чи хтось буде переглядати 112 журналів, які просто скопійовані на ксероксі. Ну, хіба що з ностальгічних міркувань =P
+>Переглядаючи їх, я зрозумів, що хоча в журналах було багато чудових статей та навчальних посібників, у наш час навряд чи хтось буде переглядати 112 журналів, які були просто фотокопіями. Ну, хіба що з ностальгічних міркувань =P
 >
 >Але оскільки шкода втрачати ці знання, я хотів спробувати використати сучасні технології, щоб оцифрувати все це так, щоб воно було корисним і сьогодні.
 
 >[!info]- Як були транскрибовані журнали
->Спочатку я видалив усі сторінки з PDF, які не містили релевантного тексту.
+>Спочатку я видалив усі сторінки з PDF, які не містили релевантних текстів.
 >
 >Для власне транскрибування (або OCR) я використовував мультимодальну мовну модель від Google.
->Я використовую ```Gemini 2.0 Pro Experimental 02-05``` з підказкою
+>Я використовую ```Gemini 2.0 Pro Experimental 02-05``` із запитом:
 >```
 >The attached PDF is a photocopy of a magazine. Extract all text, keep the document structure intact as much as possible, also extract single images and have them correctly in context.
 >```
 >та PDF зі сканованим журналом.
->Налаштування: Temperature 0.1 (Важливо для уникнення галюцинацій)
+>Налаштування: Температура 0.1 (Важливо для уникнення галюцинацій)
 >
->Результат очищається за допомогою ```gemini-2.0-flash-exp``` та наступної підказки (а також доданого тексту, який ми витягли):
+>Результат очищується за допомогою ```gemini-2.0-flash-exp``` та наступного запиту (а також доданого тексту, який ми витягли):
 >```
 >The following text is extracted with OCR from an old magazin. Your task is to clean this up. Remove artifacts (like page-numbering, unneccessary linebreaks) or unneeded parts but keep the structure, articles etc. intact. Use a proper Markdown formatting to structure the text correctly.
 >
@@ -56,10 +58,9 @@ translation_metadata_updated: 2026-06-12T17:33:35+00:00
 >Результат потім ще раз переглядається вручну та виправляється.
 >
 >>[!Danger]+ Важливо:
->>Основна увага була зосереджена на витягненні статей, майстер-класів, інтерв'ю тощо.
+>>Фокус був на вилученні статей, майстер-класів, інтерв'ю тощо.
 >>Публікації, такі як, наприклад, приватні оголошення тощо, я відкинув.
->>Витягнення та очищення текстів проводилося за допомогою LLM, тому завжди існує ймовірність, що тексти не були транскрибовані 1:1 або зміст дещо відрізняється від оригіналу. Я намагався мінімізувати кількість помилок, порівнюючи фрагменти тексту вибірково.
-
+>>Вилучення та очищення текстів проводилося за допомогою LLM, тому завжди існує ймовірність, що тексти були транскрибовані не 1:1 або зміст дещо відрізняється від оригіналу. Я намагався мінімізувати кількість помилок, вибірково порівнюючи фрагменти тексту.
 <!-- dynamic:start
 engine: obsidian-base
 base: _bases/Spiele-Base.base
@@ -69,52 +70,46 @@ format: list
 <!-- dynamic:content -->
 <!-- Generated by tools/dynamic_pages.py; edit the dynamic block config, not this list. -->
 
-- [Каскад 001 - 1984](<Kaskade%20001.md>)
-- [Каскад 002 - 1984](<Kaskade%20002.md>)
-- [Каскад 003](<Kaskade%20003.md>)
-- [Каскад 004 - 1985](<Kaskade%20004.md>)
-- [Каскад 005 - 1985](<Kaskade%20005.md>)
+- [Kaskade 001](<Kaskade%20001.md>)
+- [Kaskade 002](<Kaskade%20002.md>)
+- [Kaskade 003](<Kaskade%20003.md>)
+- [Kaskade 004](<Kaskade%20004.md>)
+- [Kaskade 005](<Kaskade%20005.md>)
 
-<!-- dynamic:end -->
-
-# Статті
-
+<!-- dynamic:end --># Статті
 <!-- dynamic:start
 engine: obsidian-base
 base: _bases/Spiele-Base.base
 view: Kaskade Artikel
 format: table
-columns: file, authors, type, sub-type, source
 -->
 <!-- dynamic:content -->
 <!-- Generated by tools/dynamic_pages.py; edit the dynamic block config, not this table. -->
 
-| file                                                                                   | authors                  | type     | sub-type | source      |
-| -------------------------------------------------------------------------------------- | ------------------------ | -------- | -------- | ----------- |
-| [Майстерня Cascade - Сторінка стовпців](<Die%20S%C3%A4ulen-Seite.md>)                                       | Dr. P. Luftiko           | Tutorial | Bälle    | Kaskade 001 |
-| [Новий журнал для Європи](<Eine%20neue%20Zeitschrift%20f%C3%BCr%20Europa.md>) | Gabi Keaton, Paul Keaton | Artikel  | -        | Kaskade 001 |
-| [Посмішка долає гравітацію](<L%C3%A4cheln%20%C3%BCberwindet%20Schwerkraft.md>)    | Toby Philpott            | Artikel  | -        | Kaskade 001 |
-| [Майстер-клас \\"Каскад\\" - Шахрайство!](<Schummeln%21.md>)                                                        | Dr. P. Luftiko           | Tutorial | Bälle    | Kaskade 001 |
-| [Гравітація - і що з того!](<Schwerkraft%20-%20na%20und%21.md>)                            | Christoph Schmitt        | Artikel  | -        | Kaskade 001 |
-| [Цирк шукають!](<Zirkus%20gesucht%21.md>)                                            | Kattrin & Uli            | Artikel  | -        | Kaskade 001 |
+| Посилання                                                                      | authors                  | type     | sub-type | source      |
+| ------------------------------------------------------------------------------ | ------------------------ | -------- | -------- | ----------- |
+| [Майстер-клас Каскад - Сторінка Стовпа](<Die%20S%C3%A4ulen-Seite.md>)          | Dr. P. Luftiko           | Tutorial | Bälle    | Kaskade 001 |
+| [Новий журнал для Європи](<Eine%20neue%20Zeitschrift%20f%C3%BCr%20Europa.md>)  | Gabi Keaton, Paul Keaton | Artikel  | -        | Kaskade 001 |
+| [Посмішка долає гравітацію](<L%C3%A4cheln%20%C3%BCberwindet%20Schwerkraft.md>) | Toby Philpott            | Artikel  | -        | Kaskade 001 |
+| [Майстер-клас Каскад - Шахрайство!](<Schummeln%21.md>)                         | Dr. P. Luftiko           | Tutorial | Bälle    | Kaskade 001 |
+| [Гравітація - і що з того!](<Schwerkraft%20-%20na%20und%21.md>)                | Christoph Schmitt        | Artikel  | -        | Kaskade 001 |
+| [Шукаємо цирк!](<Zirkus%20gesucht%21.md>)                                      | Kattrin & Uli            | Artikel  | -        | Kaskade 001 |
 
-<!-- dynamic:end -->
-
----
+<!-- dynamic:end -->---
 
 >[!info]- Неправильно названі / об'єднані випуски (002 - 004)
 >
->Kaskade 002:
->В оригінальному німецькому PDF випуски 2+3 об'єднані.
+>Каскад 002:
+>У вихідному німецькому PDF випуски 2+3 об'єднані.
 >
->Kaskade 003:
->В оригінальному німецькому PDF тут знаходиться випуск 004.
+>Каскад 003:
+>У вихідному німецькому PDF тут знаходиться випуск 004.
 >
->Kaskade 004:
->Тут відсутня титульна сторінка, я ще не зміг з'ясувати, до чого вона належить...
->Вона виглядає як копія випуску 009, без титульної сторінки.
+>Каскад 004:
+>Тут відсутня титульна сторінка, я ще не з'ясував(ла), до чого вона належить...
+>Виглядає як копія випуску 009, без титульної сторінки.
 >
 >Виправлення:
->Я розділив PDF Kaskade 002 (оригінал) на 002 та 003.
->Kaskade 003 (оригінал) перейменував на Kaskade 004.
->А Kaskade 004 (оригінал) видалив.
+>Я розділив(ла) PDF випуску Каскад 002 (оригінал) на 002 та 003.
+>Перейменував(ла) Каскад 003 (оригінал) на Каскад 004.
+>А також видалив(ла) Каскад 004 (оригінал).

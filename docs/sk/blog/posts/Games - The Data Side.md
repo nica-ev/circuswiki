@@ -6,8 +6,8 @@ update: 2026-06-09 17:06:42
 date: 2025-03-18T02:14:00
 publish: true
 tags: 
-title: Hry - Dátová Stránka
-description: Ako boli popisy hier štandardizované a dynamizované pomocou metadát a pluginov Obsidian.
+title: Hry - Dátová stránka
+description: Ako boli popisy hier štandardizované a dynamickejšie pomocou metadát a pluginov Obsidian.
 authors:
   - Marc Bielert
 categories: 
@@ -18,11 +18,13 @@ translation_source: docs/de/blog/posts/Games - The Data Side.md
 translation_source_hash: b13a5e3bb0cc33ef0b3c6817aeb5e20eca7fb6f23d360373ed8cf7c5631dcff0
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-10T20:01:27+00:00
-translation_source_metadata_hash: 0ed13fb55f23b85f1bb5ca4bca88ee50390eb89cd36f00f18dbbf47854822850
+translation_source_metadata_hash: 262d87a742385ccade0b7f56eef78a0bd97b6bb6b9bb2f05168393c72df587fb
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T20:01:27+00:00
+translation_metadata_updated: 2026-06-14T15:40:59+00:00
 translation_source_body_hash: b13a5e3bb0cc33ef0b3c6817aeb5e20eca7fb6f23d360373ed8cf7c5631dcff0
+translation_source_localized_metadata_hash: 262d87a742385ccade0b7f56eef78a0bd97b6bb6b9bb2f05168393c72df587fb
+translation_source_structural_metadata_hash: 6d067079ae1d1598e9306f517260d15351df3045ab315112fd921ab0e185903b
 ---
 # **Hry – Dátová stránka**
 **Ako boli popisy hier štandardizované a dynamickejšie vďaka metadátam a pluginom Obsidianu.**

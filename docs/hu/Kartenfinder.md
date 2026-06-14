@@ -7,13 +7,13 @@ publish: true
 tags:
   - spiele
 title: Kártyakereső
-description: Kártyajátékkal játszott csapatjáték, ahol a csapatoknak meg kell találniuk és a lehető leggyorsabban össze kell gyűjteniük a saját kártyaszínüket.
+description: Kártyákkal játszható váltóverseny, ahol a csapatoknak meg kell találniuk és a lehető leggyorsabban össze kell gyűjteniük a saját kártyaszínüket.
 authors:
   - Marc Bielert
 category:
   - warm-up
-Schwierigkeit: einfach
-Material: Kartenspiel
+Schwierigkeit: könnyű
+Material: Játékkártyák
 Spieldauer: 10-15
 source: Tasifan Spielebuch
 group-min: 4
@@ -25,10 +25,12 @@ translation_source_hash: f39dcb4ebeb3c7ca469d4caef7d3208686dd5782cd26ae155480291
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:46:23+00:00
 translation_source_body_hash: f39dcb4ebeb3c7ca469d4caef7d3208686dd5782cd26ae15548029199bf70afd
-translation_source_metadata_hash: c05f74bc5b361bb87eaebc01ca1168832b4dac39afe1ad15580113000e9e845c
+translation_source_metadata_hash: 8ce5cfb63a90c1a268842bf3f5c0c08faa5ee524f00969d273cbaf387b4d7496
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:51:54+00:00
+translation_metadata_updated: 2026-06-14T16:05:25+00:00
+translation_source_localized_metadata_hash: 8ce5cfb63a90c1a268842bf3f5c0c08faa5ee524f00969d273cbaf387b4d7496
+translation_source_structural_metadata_hash: fdbfdda6ae279fe11afe3ccf21e1491b3f657e9c4a6bcebb73d2a2032b8a0d02
 ---
 > [!info] Rövid leírás
 > Váltóverseny kártyákkal, ahol a csapatok megtalálják és a lehető leggyorsabban összegyűjtik a saját kártyaszínüket.

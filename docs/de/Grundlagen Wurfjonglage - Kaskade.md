@@ -2,7 +2,7 @@
 lang: de
 translation_id: grundlagen-wurfjonglage-kaskade
 created: 2025-01-21 18:09:55
-update: 2026-06-10 03:32:52
+update: 2026-06-14 20:54:10
 publish: true
 tags:
   - tutorial

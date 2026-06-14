@@ -6,8 +6,8 @@ tags:
   - spiele
   - beigoma
 created: 2025-01-24 03:50:51
-update: 2026-06-11 17:31:23
-title: Torneo de Combate por Etiqueta
+update: 2026-06-12 19:27:33
+title: Torneo de Combate de Etiqueta
 description: 
 authors:
   - Marc Bielert
@@ -18,10 +18,12 @@ translation_source_hash: 84227a0a6c913d9fc704f0a6ef2c6450d6e763e15e562011c89231a
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-11T15:40:50+00:00
 translation_source_body_hash: 84227a0a6c913d9fc704f0a6ef2c6450d6e763e15e562011c89231a93904501e
-translation_source_metadata_hash: cc74342fb1b2837db74e76b27779926cd9a7c8d15f110637205f06f57ac7fd3b
+translation_source_metadata_hash: cb00ff834046b409f752881ac6bf986223c93bb351b867174822d526f8521284
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-11T15:40:50+00:00
+translation_metadata_updated: 2026-06-14T16:22:02+00:00
+translation_source_localized_metadata_hash: cb00ff834046b409f752881ac6bf986223c93bb351b867174822d526f8521284
+translation_source_structural_metadata_hash: fed07924ae85b0b3353dbed87d6d6990d1634385d1dfe2eb28aa2bde25dd7b64
 ---
 > [!info] Descripción Breve
 > Un torneo de Beigoma por equipos donde las parejas compiten en rondas de cuatro jugadores, y el primer equipo en alcanzar dos puntos avanza.

@@ -6,15 +6,15 @@ update: 2025-03-17 02:23:47
 publish: true
 tags:
   - spiele
-title: Gra w mordercę
-description: Niewerbalna gra fabularna, w której morderca zabija mrugnięciami, a grupa musi go wspólnie zdemaskować.
+title: Gra mordercy
+description: Cicha gra fabularna, w której morderca zabija mrugnięciem, a grupa musi go wspólnie zdemaskować.
 authors:
   - Marc Bielert
 category:
   - Taktik
   - cool-down
-Schwierigkeit: mittel
-Material: keines
+Schwierigkeit: średni
+Material: brak
 Spieldauer: 6
 source: Tasifan Spielebuch
 group-min: 8
@@ -26,10 +26,12 @@ translation_source_hash: 238e30cde424fbe939939e1dbcee16bf78fa1645f8eee2c5a74aa5a
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:07:39+00:00
 translation_source_body_hash: 238e30cde424fbe939939e1dbcee16bf78fa1645f8eee2c5a74aa5aab736467d
-translation_source_metadata_hash: a48c3576818751341c9fa383c87a19c951345b1ddf31205629e6bc4730880e61
+translation_source_metadata_hash: 636f22f0b8a4e0a73fc8e6eb45d939db64284242ffe4e1fa98bd95ec14f57f19
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:59:44+00:00
+translation_metadata_updated: 2026-06-14T16:13:06+00:00
+translation_source_localized_metadata_hash: 636f22f0b8a4e0a73fc8e6eb45d939db64284242ffe4e1fa98bd95ec14f57f19
+translation_source_structural_metadata_hash: 91d1e9b27fb6480f1b3e10c83faa77ab5fad24c609e5fa7b315249d7a8ab4155
 ---
 > [!info] Krótki opis
 > Cicha gra fabularna, w której morderca zabija mrugnięciem, a grupa musi go wspólnie zdemaskować.

@@ -9,16 +9,16 @@ tags:
   - race
 created: 2026-06-12 00:00:00
 update: 2026-06-12 21:36:26
-title: Závod troch klubov
-description: Párový pretek, pri ktorom si dvojice držia tri kluby medzi telami bez použitia rúk.
+title: Závod s 3 kužeľmi
+description: Párový závod s tromi kužeľmi držanými medzi telami bez použitia rúk.
 authors:
   - CircusWiki contributors
 category:
   - convention-games
   - club-games
   - race
-Schwierigkeit: mittel
-Material: Three clubs per pair, race course
+Schwierigkeit: stredná
+Material: Tri kužele na pár, prekážková dráha
 Spieldauer: 5-15
 group-min: 2
 group-max: 60
@@ -33,10 +33,12 @@ translation_source_body_hash: ac7077232d32f5fc6a207479f23ef49eb9e6b8bcf95137d652
 translation_source_hash: ac7077232d32f5fc6a207479f23ef49eb9e6b8bcf95137d652c8c10eb7a8cb82
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-12T21:04:31+00:00
-translation_source_metadata_hash: a2431a368f68ef385cb7e2476e2a15958a076393c91902df96b4d2374e82ca60
+translation_source_metadata_hash: c93f183205a0ec04a96b78ba02f2a232969a7276b1cb0ceb6308737fadd9fa12
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T21:04:31+00:00
+translation_metadata_updated: 2026-06-14T15:54:49+00:00
+translation_source_localized_metadata_hash: c93f183205a0ec04a96b78ba02f2a232969a7276b1cb0ceb6308737fadd9fa12
+translation_source_structural_metadata_hash: 7afe06cdae00da9eca6fcea7499de61cc8af56c2a3673bf27a8c62180d082970
 ---
 > [!info] Stručný popis
 > Dvojice súťažia v behu, pričom medzi svojimi telami držia tri kužele bez použitia rúk.

@@ -10,7 +10,7 @@ tags:
   - endurance
 created: 2026-06-12 00:00:00
 update: 2026-06-12 22:42:05
-title: 5-Ball-Ausdauer
+title: 5 Ball Ausdauer
 description: Ein Ausdauerwettbewerb mit fünf Bällen, bei dem der letzte aktive Jongleur gewinnt.
 authors:
   - CircusWiki contributors
@@ -18,8 +18,8 @@ category:
   - convention-games
   - juggling
   - endurance
-Schwierigkeit: "mittel"
-Material: "Five juggling balls per player"
+Schwierigkeit: mittel
+Material: Fünf Jonglierbälle pro Spieler
 Spieldauer: "3-15"
 group-min: 2
 group-max: 80
@@ -32,19 +32,21 @@ source_section: "Endurance Games/World Records"
 source_image_ucircus: "../img/5-ball-endurance.jpg"
 source_permission: "public-place images reviewed as reusable by project maintainer"
 translation_source: docs/en/5-ball-endurance.md
-translation_source_body_hash: b17598de91a37347e5486475e22925ed02b364e617a75dc5f58b6a7fefb8928f
-translation_source_hash: b17598de91a37347e5486475e22925ed02b364e617a75dc5f58b6a7fefb8928f
+translation_source_body_hash: 3561b6c9689150f5a3696121427ed284c9e5c4133e2cd413dc96624374af3ca9
+translation_source_hash: 3561b6c9689150f5a3696121427ed284c9e5c4133e2cd413dc96624374af3ca9
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-12T21:05:47+00:00
-translation_source_metadata_hash: a57fd646cb2885f517e04728dbb0e37765cd22193f1b76feb26934ed403991b0
+translation_updated: 2026-06-14T19:25:33+00:00
+translation_source_metadata_hash: e62644c948f874aca406cd8e5a6854ef7d71602526eab2c28eafda7e195c6e70
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T21:05:47+00:00
+translation_metadata_updated: 2026-06-14T19:25:33+00:00
+translation_source_localized_metadata_hash: e62644c948f874aca406cd8e5a6854ef7d71602526eab2c28eafda7e195c6e70
+translation_source_structural_metadata_hash: 63cf8e96bfe17a8c486c3cac063a16d87d86f882aaa2c65ee669a69e7c9532b6
 ---
 > [!info] Kurzbeschreibung
 > Ein Fünf-Ball-Ausdauerwettbewerb, bei dem der letzte aktive Jongleur gewinnt.
 
-![[../img/5-ball-endurance.jpg|300]]
+![5-ball-endurance](../img/5-ball-endurance.jpg){ width=300 }
 
 **Gruppengröße**: 2 bis 80 Spieler
 **Schwierigkeit**: mittel
@@ -53,29 +55,29 @@ translation_metadata_updated: 2026-06-12T21:05:47+00:00
 
 ## Spielbeschreibung
 
-Alle Spieler beginnen gleichzeitig, fünf Bälle zu jonglieren. Wer einen Ball fallen lässt, einen Ball aufhebt, das vereinbarte Fünf-Ball-Muster unterbricht oder stoppt, scheidet aus. Ausgeschiedene Spieler verlassen den aktiven Bereich leise, damit die verbleibenden Jongleure genügend Platz haben.
+Alle Spieler beginnen gleichzeitig, fünf Bälle zu jonglieren. Wer einen Ball fallen lässt, aufhebt, das vereinbarte Fünf-Ball-Muster unterbricht oder stoppt, scheidet aus. Ausgeschiedene Spieler verlassen den aktiven Bereich leise, damit die verbleibenden Jongleure genügend Platz haben.
 
-Der letzte Spieler, der noch jongliert, gewinnt. Wenn mehrere starke Jongleure lange durchhalten, kann eine Zeitbegrenzung festgelegt und eine Finalrunde mit zusätzlichen Aufgaben durchgeführt werden.
+Der letzte Spieler, der noch jongliert, gewinnt. Wenn viele starke Jongleure lange durchhalten, setzt ein Zeitlimit und geht in eine Finalrunde mit Zusatzaufgaben über.
 
-## Aufbau
+## Vorbereitung
 
 - Gib jedem Spieler genügend Platz für das Jonglieren von fünf Bällen.
-- Vereinbare, ob jedes beliebige Fünf-Ball-Muster erlaubt ist oder ob die Kaskade vorgeschrieben ist.
-- Entscheide, ob das Spiel ein Ausscheidungsspiel ist oder eine persönliche Bestzeit-Ausdauerherausforderung darstellt.
+- Vereinbart, ob jedes Fünf-Ball-Muster erlaubt ist oder ob die Kaskade vorgeschrieben ist.
+- Entscheidet, ob das Spiel ein Ausscheidungsspiel ist oder eine persönliche Bestzeit-Ausdauerherausforderung.
 
 ## Variationen
 
-- Füge nach einer festgelegten Zeit erforderliche Tricks oder Bewegungen hinzu.
+- Füge nach einer festgelegten Zeit geforderte Tricks oder Bewegungen hinzu.
 - Führe bei großen Gruppen Vorrunden und ein Finale durch.
-- Verwende dasselbe Format für andere Ballzahlen oder Requisiten.
+- Nutze dasselbe Format für andere Bälle oder Requisiten.
 
 ## Sicherheitshinweise
 
-Dies ist ein Spiel mit geringem Körperkontakt, aber fallengelassene Fünf-Ball-Muster breiten sich schnell aus. Halte Zuschauer und ausgeschiedene Spieler außerhalb des aktiven Jonglierbereichs.
+Dies ist ein Spiel mit geringem Körperkontakt, aber Fünf-Ball-Abwürfe können sich schnell ausbreiten. Halte Zuschauer und ausgeschiedene Spieler außerhalb des aktiven Jonglierbereichs.
 
 ## Quelle
 
 - [JugglingWorld - Juggling Games](https://www.jugglingworld.biz/tricks/juggling-games/), Abschnitt: Endurance Games/World Records.
-- [UCircus circus games page](https://ucircus.co.uk/resources-circus-games/), Quellkarte: 5 Ball Endurance.
-- UCircus Kurse: Bälle, Knockout, Ausdauer, Jonglage.
+- [UCircus circus games page](https://ucircus.co.uk/resources-circus-games/), Source Card: 5 Ball Endurance.
+- UCircus Klassen: Balls, Knockout, Endurance, Juggling.
 - UCircus Referenzbild: `../img/5-ball-endurance.jpg`.

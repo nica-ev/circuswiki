@@ -7,13 +7,13 @@ tags:
 created: 2025-01-24 03:50:50
 update: 2025-03-18 01:30:39
 title: Хороші сторони
-description: Цінна гра для знайомства, де вгадуються та обговорюються позитивні якості та навички.
+description: Цікава гра для знайомства, де учасники вгадують та обговорюють позитивні якості та навички.
 authors:
   - Marc Bielert
 category:
   - kennenlernen
-Schwierigkeit: einfach
-Material: Zettel, Stifte
+Schwierigkeit: легко
+Material: Папір, ручки
 Spieldauer: 10 -  30
 source: Portmann2009
 group-min: 6
@@ -26,10 +26,12 @@ translation_source_hash: ae87b4ad153ae48548cb8c7912ed6f45e84d57de06bf2d499c56078
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:41:48+00:00
 translation_source_body_hash: ae87b4ad153ae48548cb8c7912ed6f45e84d57de06bf2d499c5607847a95b357
-translation_source_metadata_hash: d3ee66b077bbacfeca813c35d999059c2e6315788557cbe3ca7347165c1e956e
+translation_source_metadata_hash: cb33c048cf1da646fc1128b4b759ccbd41df8ce901fb8b9428d30b12be6e38e7
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:49:29+00:00
+translation_metadata_updated: 2026-06-14T15:52:10+00:00
+translation_source_localized_metadata_hash: cb33c048cf1da646fc1128b4b759ccbd41df8ce901fb8b9428d30b12be6e38e7
+translation_source_structural_metadata_hash: 4af176ae8739eba24fa9c468edf13747f4ec0dbb8396cfe74c7a42be340fd59b
 ---
 > [!info] Короткий опис
 > Гра на знайомство, що базується на повазі, під час якої учасники вгадують та обговорюють позитивні риси та вміння.

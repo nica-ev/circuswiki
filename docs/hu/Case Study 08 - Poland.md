@@ -19,10 +19,12 @@ translation_source_hash: fdb5eb3a05ee66ddf407c650e4a325eed46d638cee6099a5ee9e9b5
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-06T22:36:21+00:00
 translation_source_body_hash: fdb5eb3a05ee66ddf407c650e4a325eed46d638cee6099a5ee9e9b5aec2fb24a
-translation_source_metadata_hash: 729d594fd51d86536e69620c52472697df28892533e11274468174d9f65fe687
+translation_source_metadata_hash: d4be6bb5ae1fd5c4292790bc495170206e5b6c6b7747a4c60a6e1ec62b47a8b3
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:06:10+00:00
+translation_metadata_updated: 2026-06-14T15:42:47+00:00
+translation_source_localized_metadata_hash: d4be6bb5ae1fd5c4292790bc495170206e5b6c6b7747a4c60a6e1ec62b47a8b3
+translation_source_structural_metadata_hash: 627725a9f26b231a3ad932c6f3197a5f80c02ab41b374ff5d3b1289bd43d4377
 ---
 # **Nincs Korhatár — Funkcionális Zsonglőrködés Idősekkel a Zárás Idején**
 

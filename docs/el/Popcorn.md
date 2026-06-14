@@ -6,14 +6,14 @@ tags:
   - spiele
 created: 2025-01-24 03:50:51
 update: 2025-03-25 22:42:25
-title: Ποπ κορν
+title: Popcorn
 description: 
 authors:
   - Marc Bielert
 category:
   - fangen
-Schwierigkeit: einfach
-Material: keines
+Schwierigkeit: εύκολο
+Material: κανένα
 Spieldauer: 5 - 15
 source: unbekannt
 group-min: 5
@@ -26,10 +26,12 @@ translation_source_hash: fe993d67b3c45d673aa584e58d6d8591666db47afbcc7fc8205b7dc
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-07T13:50:49+00:00
 translation_source_body_hash: fe993d67b3c45d673aa584e58d6d8591666db47afbcc7fc8205b7dcdad0ea696
-translation_source_metadata_hash: f65f305fc1c3a3325ab854f8c86166c8d47ad3cdbb35ef4c878e01714c95f4b8
+translation_source_metadata_hash: 37857274c78b75ac854fdf12180877c06aef7adc17e5978783d60d3bb4777396
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T19:03:09+00:00
+translation_metadata_updated: 2026-06-14T16:16:32+00:00
+translation_source_localized_metadata_hash: 37857274c78b75ac854fdf12180877c06aef7adc17e5978783d60d3bb4777396
+translation_source_structural_metadata_hash: 9269a7f47a6ff2ab4bffae25d5bca1302b2f335356841a20a3b0d4b1432ca834
 ---
 > [!info] Σύντομη Περιγραφή
 > Ένα δυναμικό παιχνίδι κυνηγητού για όλα τα μεγέθη ομάδων, ιδανικό ως παιχνίδι προθέρμανσης, όπου οι συμμετέχοντες μεταμορφώνονται από «σπόρους καλαμποκιού» σε «ποπ κορν» που αναπηδούν.

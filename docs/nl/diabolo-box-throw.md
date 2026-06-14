@@ -18,8 +18,8 @@ category:
   - convention-games
   - diabolo
   - target-games
-Schwierigkeit: "einfach"
-Material: "Diabolos, handsticks, box or basket"
+Schwierigkeit: makkelijk
+Material: Diabolos, handstokken, doos of mand
 Spieldauer: "5-10"
 group-min: 2
 group-max: 40
@@ -35,23 +35,25 @@ source_permission: "public-place images reviewed as reusable by project maintain
 aliases:
   - Diabolo in a Box
 translation_source: docs/en/diabolo-box-throw.md
-translation_source_body_hash: d2fb9084f072ba11601b7246e72fba9a0efd7bf2697da5947bb637e356b8d496
-translation_source_hash: d2fb9084f072ba11601b7246e72fba9a0efd7bf2697da5947bb637e356b8d496
+translation_source_body_hash: 2ffbebcdbfb4b7ab71dc47eb7618a79dabd72fb7870d517a6371a42af068a41b
+translation_source_hash: 2ffbebcdbfb4b7ab71dc47eb7618a79dabd72fb7870d517a6371a42af068a41b
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-12T21:14:49+00:00
-translation_source_metadata_hash: b962c2147100414303b6fc6966f23fc59faee0d5c05593c5d59f162d12ce806f
+translation_updated: 2026-06-14T19:27:31+00:00
+translation_source_metadata_hash: 45f623d0729380cf8b1b208c420697ba830b8061c36a19b1d16762f166fac65b
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T21:14:49+00:00
+translation_metadata_updated: 2026-06-14T19:27:31+00:00
+translation_source_localized_metadata_hash: 45f623d0729380cf8b1b208c420697ba830b8061c36a19b1d16762f166fac65b
+translation_source_structural_metadata_hash: b379e9799c5f4370effd35997caf8c75be342d03c1bc35b16ad57d4b659a6666
 ---
-> [!info] Korte beschrijving
+> [!info] Korte Beschrijving
 > Een doelspel waarbij spelers proberen een diabolo in een doos of mand te gooien.
 
-![[../img/game-diabolo-in-box.jpg|300]]
+![game-diabolo-in-box](../img/game-diabolo-in-box.jpg){ width=300 }
 
 **Groepsgrootte**: 2 tot 40 spelers  
 **Moeilijkheidsgraad**: eenvoudig  
-**Materiaal**: Diabolos, handstokken, doos of mand  
+**Materiaal**: Diabolos, diabolo-stokken, doos of mand  
 **Duur**: ca. 5-10 minuten
 
 ## Spelbeschrijving
@@ -72,9 +74,9 @@ Een diabolo scoort als deze in het doel belandt en daar blijft liggen. Succesvol
 - Laat beginners dichterbij staan en gevorderden verder weg.
 - Gebruik meerdere doelen met verschillende puntwaarden.
 
-## Veiligheidsaanwijzingen
+## Veiligheidsopmerkingen
 
-Een vast doel is het veiligst. Vermijd doelen die door mensen worden vastgehouden, tenzij iedereen die erbij betrokken is expliciet toestemming heeft gegeven en de worpen gecontroleerd worden.
+Een vast doel is het veiligst. Vermijd menselijke doelen, tenzij iedereen die erbij betrokken is hier expliciet mee heeft ingestemd en de worpen gecontroleerd worden.
 
 ## Bron
 

@@ -11,7 +11,7 @@ tags:
   - reaction
 created: 2026-06-12 00:00:00
 update: 2026-06-12 22:43:38
-title: 3 Bal Simon Says
+title: 3 Ball Simon Says
 description: Een commando-en-reactiespel waarbij jongleurs alleen geldige Simon Says-instructies volgen terwijl ze drie ballen in de lucht houden.
 authors:
   - CircusWiki contributors
@@ -20,8 +20,8 @@ category:
   - ball-games
   - juggling
   - reaction-games
-Schwierigkeit: "mittel"
-Material: "Three juggling balls per player"
+Schwierigkeit: gemiddeld
+Material: Drie jongleerballen per speler
 Spieldauer: "5-10"
 group-min: 3
 group-max: 50
@@ -36,19 +36,21 @@ source_permission: "public-place images reviewed as reusable by project maintain
 aliases:
   - Simon Says
 translation_source: docs/en/3-ball-simon-says.md
-translation_source_body_hash: 5fb11f46f3cc26e55d1d3d9215dd37e0bdfe8633fc681c3424621faebd2541ef
-translation_source_hash: 5fb11f46f3cc26e55d1d3d9215dd37e0bdfe8633fc681c3424621faebd2541ef
+translation_source_body_hash: 419edad2f4a3fd7e8f047fb4f220af48b6de44209693363c94a4176170591763
+translation_source_hash: 419edad2f4a3fd7e8f047fb4f220af48b6de44209693363c94a4176170591763
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-12T21:03:42+00:00
-translation_source_metadata_hash: 81f617b320fb7c107726f83560b979933b3e7e3bdb593fc8b9b4fe4a0e8c9bf0
+translation_updated: 2026-06-14T19:24:22+00:00
+translation_source_metadata_hash: 0c704425aff40df6bf39bbbf2b8fe4485389932691ad1d3c98638b6dc5f8fd92
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T21:03:42+00:00
+translation_metadata_updated: 2026-06-14T19:24:22+00:00
+translation_source_localized_metadata_hash: 0c704425aff40df6bf39bbbf2b8fe4485389932691ad1d3c98638b6dc5f8fd92
+translation_source_structural_metadata_hash: c519c7f25f910824f98b765fd00f47085f441493c02c1fd8fdde294eaaa2a008
 ---
-> [!info] Korte Beschrijving
-> Een commando-en-reactiespel waarbij jongleurs alleen geldige "Simon Says"-instructies volgen terwijl ze drie ballen in de lucht houden.
+> [!info] Korte beschrijving
+> Een commando-en-reactiespel waarbij jongleurs alleen geldige "Simon zegt"-instructies volgen terwijl ze drie ballen in de lucht houden.
 
-![[../img/3-ball-simon-says.jpg|300]]
+![3-ball-simon-says](../img/3-ball-simon-says.jpg){ width=300 }
 
 **Groepsgrootte**: 3 tot 50 spelers  
 **Moeilijkheidsgraad**: gemiddeld  
@@ -57,9 +59,9 @@ translation_metadata_updated: 2026-06-12T21:03:42+00:00
 
 ## Spelbeschrijving
 
-Alle spelers jongleren drie ballen terwijl een leider bewegings- of truccommando's geeft. Spelers volgen alleen commando's die beginnen met de afgesproken zin, bijvoorbeeld "Simon zegt". Iedereen die een vals commando volgt, een geldig commando negeert, een bal laat vallen of stopt met jongleren, valt af.
+Alle spelers jongleren drie ballen terwijl een leider bewegings- of truccommando's geeft. Spelers volgen alleen commando's die beginnen met de afgesproken zin, bijvoorbeeld "Simon zegt". Iedereen die een vals commando opvolgt, een geldig commando negeert, een bal laat vallen of stopt met jongleren, is af.
 
-Mogelijke commando's zijn: omdraaien, gaan zitten, gaan liggen, opstaan, klappen, patroon veranderen, naar links of rechts bewegen, of stil blijven staan.
+Mogelijke commando's zijn: omkeren, gaan zitten, gaan liggen, opstaan, klappen, patroon veranderen, naar links of rechts bewegen, of stil blijven staan.
 
 ## Opzet
 
@@ -69,11 +71,11 @@ Mogelijke commando's zijn: omdraaien, gaan zitten, gaan liggen, opstaan, klappen
 
 ## Variaties
 
-- Voor beginners: gebruik één bal of sjaaltjes.
+- Gebruik voor beginners één bal of sjaaltjes.
 - Maak het coöperatief door te tellen hoeveel commando's de hele groep kan overleven.
-- Laat afvallende spelers assistent-leiders worden.
+- Laat spelers die afvallen, assistent-leiders worden.
 
-## Veiligheidsopmerkingen
+## Veiligheidsaanwijzingen
 
 Vermijd commando's die spelers dwingen te duiken, tegen elkaar aan te rennen of blindelings te bewegen terwijl ze hun props in de gaten houden.
 

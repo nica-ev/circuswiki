@@ -7,13 +7,13 @@ tags:
 created: 2025-01-24 03:50:51
 update: 2025-03-17 02:15:16
 title: Hermanita, ayúdame
-description: Un juego de pareja en el que un corredor se une a una pareja, creando nuevos roles.
+description: Un juego de atrapar en pareja donde el corredor se une a una pareja, creando nuevos roles.
 authors:
   - Marc Bielert
 category:
   - bewegung
-Schwierigkeit: einfach
-Material: keines
+Schwierigkeit: fácil
+Material: ninguno
 Spieldauer: 5
 source: Tasifan Spielebuch
 group-min: 8
@@ -25,10 +25,12 @@ translation_source_hash: afebd668320b6783b95c40cc19488378a4b39b1eb0d42bc7480dbee
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:24:27+00:00
 translation_source_body_hash: afebd668320b6783b95c40cc19488378a4b39b1eb0d42bc7480dbee3c2adb3a5
-translation_source_metadata_hash: ab21af98bcc728a51d7837c0b03dcdf79f7a543d2a92aa3b01f74918a171e063
+translation_source_metadata_hash: 37d768db4362049f1c265bf35269148850428e570a9b0be557feeb7981b216c8
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T19:06:46+00:00
+translation_metadata_updated: 2026-06-14T16:19:43+00:00
+translation_source_localized_metadata_hash: 37d768db4362049f1c265bf35269148850428e570a9b0be557feeb7981b216c8
+translation_source_structural_metadata_hash: aa885bd6520ec223d943455187c56bcb094107a517ec7c1d76c56c1bb0a98a0a
 ---
 > [!info] Breve descripción
 > Un juego de persecución en parejas donde el corredor se une a una pareja y, de este modo, se crean nuevos roles.

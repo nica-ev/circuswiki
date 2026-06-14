@@ -3,7 +3,7 @@ lang: de
 translation_id: case-study-01-hungary
 created: 2025-08-30 18:53:22
 update: 2026-06-06 21:47:56
-publish: true
+publish: false
 tags:
   - case-study
 title: Unterstützung bei der Rehabilitation von Handgelenksfrakturen
@@ -19,10 +19,12 @@ translation_source_hash: 07e25f019eae12d3c8d7cb53d9ede4bc643f2babb277a567a3ce4ec
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-06T19:51:29+00:00
 translation_source_body_hash: 07e25f019eae12d3c8d7cb53d9ede4bc643f2babb277a567a3ce4ec505668a12
-translation_source_metadata_hash: 7bbb8c1b1c242efa80628663e150ec862c1b5f6cf627cca2f403596287ae0f9d
+translation_source_metadata_hash: 819092140f8a4bdeadd8d62a420efb07f03190dfc45d5d92626a9fcef1fff85b
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:05:13+00:00
+translation_metadata_updated: 2026-06-14T15:41:56+00:00
+translation_source_localized_metadata_hash: 819092140f8a4bdeadd8d62a420efb07f03190dfc45d5d92626a9fcef1fff85b
+translation_source_structural_metadata_hash: 216db219693469141e0796bcbed5dfa100e970abd40373a0d08a64a061698971
 ---
 # **Unterstützung der Rehabilitation von Handgelenksfrakturen mit funktionalen Jonglage-Werkzeugen**
 

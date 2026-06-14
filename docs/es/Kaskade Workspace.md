@@ -2,36 +2,38 @@
 lang: es
 translation_id: kaskade-workspace
 created: 2025-01-21 18:09:55
-update: 2026-06-12 19:11:41
+update: 2026-06-14 19:03:29
 publish: true
 tags:
   - moc
   - dynamic
-title: Transcripciones de la Revista Kaskade
+title: Transcripciones de la Revista Cascade
 description: 
 authors:
   - Marc Bielert
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Kaskade Workspace.md
-translation_source_hash: 29a1552cf493836b4b474a5912aebdb63538c48b359b37de5a4b8b2e5b94d53f
+translation_source_hash: 631cf2907c40a3667c661ea1b6d881d859aab4729b277b6135718a058327fc01
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-12T17:33:29+00:00
-translation_source_body_hash: 29a1552cf493836b4b474a5912aebdb63538c48b359b37de5a4b8b2e5b94d53f
-translation_source_metadata_hash: e7f4ba685ffe753f20b46abef2ca8139d54bb761a72234a6398c888d59b39b90
+translation_updated: 2026-06-14T15:10:54+00:00
+translation_source_body_hash: 631cf2907c40a3667c661ea1b6d881d859aab4729b277b6135718a058327fc01
+translation_source_metadata_hash: 14f9eb7f2b84bdc2ea4e9bf614d19a3199b89138fa400f849f9e7789b6cd1ce0
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T17:33:29+00:00
+translation_metadata_updated: 2026-06-14T16:06:32+00:00
+translation_source_localized_metadata_hash: 14f9eb7f2b84bdc2ea4e9bf614d19a3199b89138fa400f849f9e7789b6cd1ce0
+translation_source_structural_metadata_hash: 0cfee3e1af3406a918bee8b26aa5fda5e8dd66e93b2d5c95c2c0fea35a4fc7a7
 ---
 >[!info]- Introducción
->Crecí con Kaskade. Antes de que existiera YouTube, antes de que pudiéramos encontrar todo en Internet, esta revista fue una de las primeras fuentes regulares de información que tuve sobre malabares, circo y espectáculos.
->Cuando la revista cesó su publicación en 2013, sentí que era el fin de una era, al menos para mí.
->Durante varios años, las revistas estuvieron disponibles para descargar en formato PDF; desde aproximadamente 2017, la página dejó de estar en línea.
->A menudo recordaba pequeños talleres, tutoriales o artículos que me inspiraron en aquel entonces. Ahora, años después, cuando quise releer algo, ya no había forma de hacerlo.
+>Crecí con "Kaskade". Antes de que existiera YouTube, antes de que pudiéramos encontrar todo en Internet, esta revista fue una de las primeras fuentes regulares de información que tuve sobre malabares, circo y espectáculos.
+>Cuando la revista dejó de publicarse en 2013, sentí que era el fin de una era, al menos para mí.
+>Durante varios años, las revistas estuvieron disponibles para descargar en formato PDF. Aproximadamente desde 2017, la página dejó de estar en línea.
+>A menudo recordaba pequeños talleres, tutoriales o artículos que me inspiraron en aquel entonces. Cuando años después quise releer algo, ya no era posible.
 >
->Afortunadamente, con la ayuda de la Wayback Machine (The Internet Archive), encontré un punto de control de 2017 con las descargas completas (esto no siempre es así, especialmente porque eran aproximadamente 3 GB de PDFs), completas con las ediciones en alemán, inglés y francés.
+>Afortunadamente, con la ayuda de la Wayback Machine (The Internet Archive), encontré un punto de guardado de 2017 con las descargas completas (esto no siempre es así, especialmente porque eran unos 3 GB de PDFs), completas con ediciones en alemán, inglés y francés.
 >
->Al revisarlas, me di cuenta de que, si bien había muchos artículos y tutoriales geniales escondidos en las revistas, en la época actual, es poco probable que alguien revise 112 revistas que son meras fotocopias. Bueno, a menos que tengas un interés nostálgico =P
+>Al revisarlas, me di cuenta de que, si bien había muchos artículos y tutoriales geniales escondidos en las revistas, en la época actual, casi nadie se molestaría en revisar 112 revistas que son meras fotocopias. Bueno, a menos que tengan un interés nostálgico =P
 >
 >Sin embargo, como es una pena perder ese conocimiento, quise intentar digitalizarlo utilizando la tecnología actual para que siga siendo útil hoy en día.
 
@@ -44,7 +46,7 @@ translation_metadata_updated: 2026-06-12T17:33:29+00:00
 >The attached PDF is a photocopy of a magazine. Extract all text, keep the document structure intact as much as possible, also extract single images and have them correctly in context.
 >```
 >junto con el PDF de la revista escaneada.
->Configuración: Temperatura 0.1 (Importante para evitar alucinaciones).
+>Configuración: Temperatura 0.1 (importante para evitar alucinaciones).
 >
 >El resultado se limpia con ```gemini-2.0-flash-exp``` y el siguiente prompt (así como el texto adjunto que hemos extraído):
 >```
@@ -56,10 +58,9 @@ translation_metadata_updated: 2026-06-12T17:33:29+00:00
 >El resultado se revisa y corrige manualmente una vez más.
 >
 >>[!Danger]+ Importante:
->>El enfoque estuvo en la extracción de artículos, talleres, entrevistas, etc.
->>Descarté contribuciones como anuncios clasificados, etc.
->>La extracción y limpieza de los textos se realizó con LLMs, por lo que siempre existe la posibilidad de que los textos no se hayan transcrito 1:1 o que el contenido difiera ligeramente del original. Intenté mantener la tasa de error lo más baja posible comparando fragmentos de texto de forma selectiva.
-
+>>El enfoque estaba en la extracción de artículos, talleres, entrevistas, etc.
+>>He descartado contribuciones como anuncios clasificados, etc.
+>>La extracción y limpieza de los textos se realizó con LLMs, por lo que siempre existe la posibilidad de que los textos no se hayan transcrito 1:1 o que el contenido difiera ligeramente del original. He intentado mantener la tasa de error lo más baja posible comparando fragmentos de texto de forma selectiva.
 <!-- dynamic:start
 engine: obsidian-base
 base: _bases/Spiele-Base.base
@@ -69,52 +70,46 @@ format: list
 <!-- dynamic:content -->
 <!-- Generated by tools/dynamic_pages.py; edit the dynamic block config, not this list. -->
 
-- [Cascada 001 - 1984](<Kaskade%20001.md>)
-- [Cascada 002 - 1984](<Kaskade%20002.md>)
-- [Cascada 003](<Kaskade%20003.md>)
-- [Cascada 004 - 1985](<Kaskade%20004.md>)
-- [Cascada 005 - 1985](<Kaskade%20005.md>)
+- [Kaskade 001](<Kaskade%20001.md>)
+- [Kaskade 002](<Kaskade%20002.md>)
+- [Kaskade 003](<Kaskade%20003.md>)
+- [Kaskade 004](<Kaskade%20004.md>)
+- [Kaskade 005](<Kaskade%20005.md>)
 
-<!-- dynamic:end -->
-
-# Artículos
-
+<!-- dynamic:end --># Artículos
 <!-- dynamic:start
 engine: obsidian-base
 base: _bases/Spiele-Base.base
 view: Kaskade Artikel
 format: table
-columns: file, authors, type, sub-type, source
 -->
 <!-- dynamic:content -->
 <!-- Generated by tools/dynamic_pages.py; edit the dynamic block config, not this table. -->
 
-| file                                                                                   | authors                  | type     | sub-type | source      |
-| -------------------------------------------------------------------------------------- | ------------------------ | -------- | -------- | ----------- |
-| [Taller de Cascada - La página de pilares](<Die%20S%C3%A4ulen-Seite.md>)                                | Dr. P. Luftiko           | Tutorial | Pelotas  | Kaskade 001 |
-| [Una nueva revista para Europa](<Eine%20neue%20Zeitschrift%20f%C3%BCr%20Europa.md>) | Gabi Keaton, Paul Keaton | Artículo | -        | Kaskade 001 |
-| [La sonrisa vence a la gravedad](<L%C3%A4cheln%20%C3%BCberwindet%20Schwerkraft.md>)    | Toby Philpott            | Artículo | -        | Kaskade 001 |
-| [Taller de Cascadas - ¡Hacer trampa!](<Schummeln%21.md>)                                                        | Dr. P. Luftiko           | Tutorial | Pelotas  | Kaskade 001 |
-| [Gravedad - ¿y qué!](<Schwerkraft%20-%20na%20und%21.md>)                            | Christoph Schmitt        | Artículo | -        | Kaskade 001 |
-| [¡Se busca circo!](<Zirkus%20gesucht%21.md>)                                            | Kattrin & Uli            | Artículo | -        | Kaskade 001 |
+| Enlace                                                                              | authors                  | type     | sub-type | source      |
+| ----------------------------------------------------------------------------------- | ------------------------ | -------- | -------- | ----------- |
+| [Taller de Cascada - El Lado de la Columna](<Die%20S%C3%A4ulen-Seite.md>)           | Dr. P. Luftiko           | Tutorial | Bälle    | Kaskade 001 |
+| [Una nueva revista para Europa](<Eine%20neue%20Zeitschrift%20f%C3%BCr%20Europa.md>) | Gabi Keaton, Paul Keaton | Artikel  | -        | Kaskade 001 |
+| [Sonrisa que vence la gravedad](<L%C3%A4cheln%20%C3%BCberwindet%20Schwerkraft.md>)  | Toby Philpott            | Artikel  | -        | Kaskade 001 |
+| [Taller de cascadas - ¡Hacer trampa!](<Schummeln%21.md>)                            | Dr. P. Luftiko           | Tutorial | Bälle    | Kaskade 001 |
+| [Gravedad - ¡y qué!](<Schwerkraft%20-%20na%20und%21.md>)                            | Christoph Schmitt        | Artikel  | -        | Kaskade 001 |
+| [¡Se busca circo!](<Zirkus%20gesucht%21.md>)                                        | Kattrin & Uli            | Artikel  | -        | Kaskade 001 |
 
-<!-- dynamic:end -->
-
----
+<!-- dynamic:end -->---
 
 >[!info]- Ediciones mal nombradas / fusionadas (002 - 004)
 >
->Kaskade 002:
->En el PDF original en alemán, las ediciones 2 y 3 están juntas.
+>Cascada 002:
+>En el PDF original alemán, las ediciones 2 y 3 están juntas.
 >
->Kaskade 003:
->En el PDF original en alemán, aquí se encuentra la edición 004.
+>Cascada 003:
+>En el PDF original alemán, aquí se encuentra la edición 004.
 >
->Kaskade 004:
->Falta la portada; aún no he podido averiguar a qué pertenece...
+>Cascada 004:
+>Aquí falta la portada; aún no he podido averiguar a qué pertenece...
 >Parece una copia de la edición 009, sin portada.
 >
->Corrección:
->Dividí el PDF de Kaskade 002 (original) en 002 y 003.
->Renombré Kaskade 003 (original) a Kaskade 004.
->Y eliminé Kaskade 004 (original).
+>Solución:
+>He dividido el PDF de Cascada 002 (original) en 002 y 003.
+>He renombrado Cascada 003 (original) a Cascada 004.
+>Así como he eliminado Cascada 004 (original).

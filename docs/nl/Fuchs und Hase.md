@@ -13,8 +13,8 @@ authors:
 category:
   - fangen
   - warm-up
-Schwierigkeit: mittel
-Material: keines
+Schwierigkeit: gemiddeld
+Material: geen
 Spieldauer: 10 -  15
 source: unbekannt
 group-min: 8
@@ -27,10 +27,12 @@ translation_source_hash: 18b18527bc6c7db91a37c575559cfa04d36c49eddfc110c8b182602
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:40:09+00:00
 translation_source_body_hash: 18b18527bc6c7db91a37c575559cfa04d36c49eddfc110c8b182602329bc54a8
-translation_source_metadata_hash: 931c2020e15c9e4d7e9f7b38ebae97c8f83d0774aac2443496ae862574143ffd
+translation_source_metadata_hash: c99350c87d1390c875417230e3779f931b57fcada8efefb857ba4b1e40ab1bde
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:48:01+00:00
+translation_metadata_updated: 2026-06-14T15:50:44+00:00
+translation_source_localized_metadata_hash: c99350c87d1390c875417230e3779f931b57fcada8efefb857ba4b1e40ab1bde
+translation_source_structural_metadata_hash: 46be7f0d8fa59c86595fccf31b4d11c2aef1c660a70575e1edfc841d22604516
 ---
 > [!info] Korte beschrijving
 > Een vangspel in een kring, waarbij de vos en de haas, afhankelijk van de kijkrichting van de medespelers, verschillende routes kunnen nemen.

@@ -7,13 +7,13 @@ tags:
 created: 2025-01-24 03:50:51
 update: 2025-03-17 02:15:01
 title: Chytání čtyř barev
-description: Složitá hra na chytání barev, kde čtyři týmy v kruhovém principu chytají, utíkají a pamatují si své pořadí.
+description: Složitá hra na chytání barev, kde čtyři týmy chytají v kruhu, utíkají a musí si pamatovat své pořadí.
 authors:
   - Marc Bielert
 category:
   - bewegung
-Schwierigkeit: mittel
-Material: optional farbige Trikots
+Schwierigkeit: střední
+Material: volitelné barevné dresy
 Spieldauer: 10
 source: Tasifan Spielebuch
 group-min: 20
@@ -25,10 +25,12 @@ translation_source_hash: 3f76d9df140b07ac44c882f6c41d58cf3ccccc5323119d73acc9c65
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:33:55+00:00
 translation_source_body_hash: 3f76d9df140b07ac44c882f6c41d58cf3ccccc5323119d73acc9c65026b50a06
-translation_source_metadata_hash: 07170c7d8b88432c3f1846b8ea625337f920fcfc0690fdfdf6978bbe4899ced4
+translation_source_metadata_hash: 584c7ef54054e76668a79cf2c2435fef0e305a399b670927fe3f01616e6f8140
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T19:11:07+00:00
+translation_metadata_updated: 2026-06-14T16:25:58+00:00
+translation_source_localized_metadata_hash: 584c7ef54054e76668a79cf2c2435fef0e305a399b670927fe3f01616e6f8140
+translation_source_structural_metadata_hash: b05f934b97fbf489b87c6f27329e765476d9f61d316af342fda33125ae6be07d
 ---
 > [!info] Stručný popis
 > Komplexní hra na chytanou s barvami, kde čtyři týmy v kruhovém principu chytají, utíkají a musí si pamatovat své pořadí.

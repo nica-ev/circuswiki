@@ -16,10 +16,12 @@ translation_source_hash: 5fb031f53acb6323ec5fc7ce26f1b61ff59d0a6b4888b63ae45e356
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-07T19:05:13+00:00
 translation_source_body_hash: 5fb031f53acb6323ec5fc7ce26f1b61ff59d0a6b4888b63ae45e356a89f4f28c
-translation_source_metadata_hash: 2e520820f4491938c70590594cf5ba7af1bebb4a9419413589adc5218e962e98
+translation_source_metadata_hash: cbaafd5677ed627625f8644dffd6730ebf3052276657afa2a62a170a6674d03c
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:57:10+00:00
+translation_metadata_updated: 2026-06-14T16:10:56+00:00
+translation_source_localized_metadata_hash: cbaafd5677ed627625f8644dffd6730ebf3052276657afa2a62a170a6674d03c
+translation_source_structural_metadata_hash: eafa492f079aa996476cd6b4bca9eb714872bffa0f7be06b93a018ce7818885b
 ---
 Naše soubory markdown mají velmi specifickou strukturu a příkazy, které umožňují (a v některých případech rozšiřují standardní markdown)
 

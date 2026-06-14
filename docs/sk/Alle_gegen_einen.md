@@ -7,13 +7,13 @@ tags:
 created: 2025-01-24 03:50:50
 update: 2026-06-07 00:02:08
 title: Všetci proti jednému
-description: Strategická kooperatívna hra, v ktorej musí skupina zabrániť jednej osobe rýchlym obsadením voľných pneumatík.
+description: Strategická kooperatívna hra, v ktorej musí skupina zastaviť jednu osobu rýchlym obsadením voľných obručí.
 authors:
   - Marc Bielert
 category:
   - Kooperation
-Schwierigkeit: mittel
-Material: Reifen
+Schwierigkeit: stredná
+Material: Obruče
 Spieldauer: 10-15
 source: unbekannt
 group-min: 8
@@ -25,10 +25,12 @@ translation_source_hash: 19d7a00f54d541d268a23e462535053d0f74afc6c77b5bcb1ae4f99
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:21:19+00:00
 translation_source_body_hash: 19d7a00f54d541d268a23e462535053d0f74afc6c77b5bcb1ae4f99569ea71ad
-translation_source_metadata_hash: 917ff786b887268a1e78f657d3228badca6adb9c479468a92636c8b42cbc4f4a
+translation_source_metadata_hash: f94ea754051804dcd0b4541ee70feb77d2e29349ebff63ac470965e94580b16b
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:01:38+00:00
+translation_metadata_updated: 2026-06-14T15:37:17+00:00
+translation_source_localized_metadata_hash: f94ea754051804dcd0b4541ee70feb77d2e29349ebff63ac470965e94580b16b
+translation_source_structural_metadata_hash: b1e118898152911588b072e4d6d2f4c5ffab1aebb826750d6f7247069a35f969
 ---
 > [!info] Stručný popis
 > Strategická kooperatívna hra, v ktorej musí skupina zabrániť jednej osobe v rýchlom obsadení voľných obručí.

@@ -7,14 +7,14 @@ tags:
 created: 2025-01-24 03:50:51
 update: 2025-03-18 00:58:34
 title: Mrknutí
-description: Kruhová hra, ve které se osamocená osoba snaží mrknutím přilákat nového partnera.
+description: Kruhová hra, ve které se jedna osoba snaží přilákat nového partnera mrknutím.
 authors:
   - Marc Bielert
 category:
   - action
   - kreisspiel
-Schwierigkeit: mittel
-Material: keines
+Schwierigkeit: střední
+Material: žádný
 Spieldauer: "7"
 source:
   - Tasifan Spielebuch
@@ -28,10 +28,12 @@ translation_source_hash: de23855d3852232c3f32ec397666054eea25c16092f25eb8f36ec8f
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:40:24+00:00
 translation_source_body_hash: de23855d3852232c3f32ec397666054eea25c16092f25eb8f36ec8f0a55631f5
-translation_source_metadata_hash: a5b1fdb43ff296b4abbd1072cf7870e8d57a725bccd6178ca98a9558ca747dce
+translation_source_metadata_hash: 7e8ccc680493d7292de132045e770d5ee55384882b0720d574b75ab27b73e873
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T19:14:58+00:00
+translation_metadata_updated: 2026-06-14T16:30:42+00:00
+translation_source_localized_metadata_hash: 7e8ccc680493d7292de132045e770d5ee55384882b0720d574b75ab27b73e873
+translation_source_structural_metadata_hash: 319aa57b8cf6d6c431510226a88bb22f819285b7580dcc10c15c21d840977f51
 ---
 > [!info] Stručný popis
 > Kruhová hra, při které se jedna osamocená osoba snaží přilákat nového partnera mrknutím.

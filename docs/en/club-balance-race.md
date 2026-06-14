@@ -31,11 +31,10 @@ source_section: "Balancing Games"
 source_image: "../img/games-club-balance-guiness.jpg"
 source_permission: "public-place image reviewed as reusable by project maintainer"
 ---
-
 > [!info] Short Description
 > Players race while balancing a club or similar object on the chin.
 
-![[../img/games-club-balance-guiness.jpg|300]]
+![games-club-balance-guiness](../img/games-club-balance-guiness.jpg){ width=300 }
 
 **Group Size**: 3 to 60 players  
 **Difficulty**: mittel  

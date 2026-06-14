@@ -6,7 +6,7 @@ update: 2026-06-06 21:48:14
 publish: false
 tags:
   - case-study
-title: Jonglovací prkno ve školce
+title: Balancování na žonglovacím prkně ve školce
 description:
 authors:
   - Zsuzsa Székely
@@ -17,44 +17,46 @@ organisation:
 translation_status: machine-translated
 translation_source_lang: en
 translation_source: docs/en/Case Study 02 - Hungary.md
-translation_source_hash: f9257c5b5ab8683db46ddf6f2e8dc6050b6a9f263999263c6eecec0257c8f8e1
+translation_source_hash: f487e622e99d19b2bf2b367958e054cb202950e8298f348173d85d2128ebe5ff
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-07T18:31:37+00:00
-translation_source_body_hash: f9257c5b5ab8683db46ddf6f2e8dc6050b6a9f263999263c6eecec0257c8f8e1
-translation_source_metadata_hash: 6e42c7aaaaddfdb5588f97054a77cae1675badb7d77ded1ef6beabf40ffc4e8d
+translation_updated: 2026-06-14T19:22:42+00:00
+translation_source_body_hash: f487e622e99d19b2bf2b367958e054cb202950e8298f348173d85d2128ebe5ff
+translation_source_metadata_hash: 840be32d7c9269defada8d3415a6571fd660038f17ffe1f148eb122c867f915a
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:05:28+00:00
+translation_metadata_updated: 2026-06-14T19:22:42+00:00
+translation_source_localized_metadata_hash: 840be32d7c9269defada8d3415a6571fd660038f17ffe1f148eb122c867f915a
+translation_source_structural_metadata_hash: a671544da995c3212b3d538fca7b9822059e9bfb81e5186b5b313dc6474ba8a3
 ---
 # **Hra s balanční deskou ve školce**
 
 **Mateřská škola Almáskert – III. obvod, Budapešť, Maďarsko**
-*Autorka: Zsuzsa Székely, specialistka na somatické vzdělávání*
+*Napsala Zsuzsa Székely, specialistka na somatické vzdělávání*
 
 ---
 
 ## **Úvod**
 
-Před několika lety se v **mateřské škole Almáskert** v budapešťském III. obvodu konal krátký workshop, kde se speciální pedagogové, rozvojoví specialisté a zájemci z řad mateřských škol mohli seznámit se základy **balanční desky (Juggle Board)**. Sama jsem se tohoto školení zúčastnila jako speciální pedagožka a tyto dny pro mě byly nesmírně energizující a motivující.
+Před několika lety jsme v **mateřské škole Almáskert** v budapešťské III. městské části hostili krátký workshop, kde se speciální pedagogové, rozvojoví specialisté a zájemci z řad učitelů mateřských škol mohli seznámit se základy **balanční desky (Juggle Board)**. Sama jsem se tohoto školení zúčastnila jako speciální pedagožka a tyto dny pro mě byly nesmírně obohacující a motivující.
 
-Brzy poté vedení mateřské školy zakoupilo balanční desku pro každé ze tří pracovišť instituce. Tím začala i moje cesta – práce s balanční deskou v mateřské škole, která zahrnuje děti s **různorodými potřebami a speciálními vzdělávacími profily**.
+Brzy poté vedení školky zakoupilo balanční desku pro každé ze tří pracovišť instituce. Tak začala moje cesta – práce s balanční deskou v mateřské škole, která zahrnuje děti s **různorodými potřebami a speciálními vzdělávacími profily**.
 
 ---
 
 ## **Jak to začalo**
 
-S balanční deskou jsem začala integrovat **individuální nebo skupinové pohybové rozvojové lekce**, které probíhaly v samostatné místnosti během dopoledních hodin. Tyto lekce byly nabízeny dětem, jejichž individuální vzdělávací plány (dle doporučení odborné komise) zahrnovaly pohybový rozvoj nebo terapii – někdy jako **doplňkový terapeutický nástroj**.
+S balanční deskou jsem začala integrovat **individuální nebo malé skupinové pohybové rozvojové lekce**, které probíhaly v samostatné místnosti během dopoledních hodin. Tyto lekce byly určeny dětem, jejichž individuální vzdělávací plány (dle doporučení odborné komise) zahrnovaly pohybový rozvoj nebo terapii – někdy jako **doplňkový terapeutický nástroj**.
 
 ---
 
-![hungary-1-2.jpg|200](../img/hungary-1-2.jpg){ align=right }
+![hungary-1-2.jpg](../img/hungary-1-2.jpg){ align=right width=200 }
 ## **První zkušenosti a funkční využití**
 
-Balanční desku jsem nejprve použila s **dětmi s tělesným postižením**, konkrétně k podpoře **funkčního zlepšení**. U jedné dívky byly obě horní končetiny postiženy v důsledku poškození centrálního nervového systému, což ztěžovalo **pohyby flexe v rameni a ruce**. Balanční deska se pro ni stala vzrušujícím novým nástrojem.
+Balanční desku jsem poprvé použila u **dětí s tělesným postižením**, konkrétně k podpoře **funkčního zlepšení**. U jedné dívky byly obě horní končetiny postiženy v důsledku poškození centrálního nervového systému, což ztěžovalo **pohyby flexe v rameni a ruce**. Balanční deska se pro ni stala vzrušujícím novým nástrojem.
 
-Přestože vyžadované pohyby vyžadovaly stejnou **koncentraci a úsilí** jako u jiných terapeutických nástrojů, skutečnost, že se míčky **kutálely v pevně daných drážkách** a mohly být spuštěny **malými pohyby**, činila úspěch **dosažitelnějším**. To vedlo k silnějšímu pocitu úspěchu.
+Přestože vyžadované pohyby vyžadovaly stejnou míru **soustředění a úsilí** jako u jiných terapeutických nástrojů, skutečnost, že se kuličky **kutálely v pevně daných drážkách** a mohly být uvedeny do pohybu **malými pohyby**, způsobovala, že úspěch byl **dosažitelnější**. To vedlo k silnějšímu pocitu úspěchu.
 
-V tomto případě jsem se nezaměřovala na učení základního vzoru hry na desce. Místo toho jsem se soustředila na její **individuální rozvojové cíle**, jako například:
+V tomto případě jsem se nezaměřovala na učení základního vzoru desky. Místo toho jsem se soustředila na její **individuální rozvojové cíle**, jako například:
 
 * Posílení a protažení svalů rukou
 * Zlepšení držení těla
@@ -64,25 +66,25 @@ V tomto případě jsem se nezaměřovala na učení základního vzoru hry na d
 
 ---
 
-![hungary-1-1.jpg|200](../img/hungary-1-1.jpg){ align=left }
+![hungary-1-1.jpg](../img/hungary-1-1.jpg){ align=left width=200 }
 ## **Přizpůsobení pro zapojení dolních končetin**
 
-V jiném případě jsem pracovala s dítětem, které mělo výrazný **rozdíl v délce nohou**. Balanční desku jsme používali **nohama**. Naším cílem bylo **aktivovat kratší nohu**, která měla omezený pohyb kvůli ortéze a v běžném životě byla málo využívaná. Poté, co jsme našli správnou pozici, dítě hrálo **pouze postiženou nohou**.
+V jiném případě jsem pracovala s dítětem, které mělo výrazný **rozdíl v délce nohou**. Balanční desku jsme používali s **nohama**. Naším cílem bylo **aktivovat kratší nohu**, která měla omezený pohyb kvůli ortéze a v běžném životě byla málo využívaná. Poté, co jsme našli správnou polohu, dítě hrálo **pouze postiženou nohou**.
 
 Nebyla to snadná činnost – vyžadovala intenzivní úsilí a vedla k rychlé únavě – ale doprovázelo ji **hodně smíchu a malých vítězství**.
 
 ---
 
-## **Povědomí o těle a integrace**
+## **Povědomí o těle a jeho integrace**
 
-S dítětem, které mělo nedostatečně rozvinuté **povědomí o těle a tělesný obraz**, jsme si s balanční deskou hráli také **pouze nohama**. Toto dítě sotva vnímalo existenci svých nohou a mělo potíže s jejich samostatným pohybem. Instinktivně se během hry snažilo **znovu zapojit ruce**, ačkoli aktivita se soustředila na nohy.
+S dítětem, které mělo nedostatečně rozvinuté **povědomí o těle a tělesný obraz**, jsme si s balanční deskou hráli také **pouze nohama**. Toto dítě sotva vnímalo existenci svých nohou a mělo potíže s jejich samostatným pohybem. Instinktivně se snažilo **znovu zapojit ruce** během hry, i když se aktivita soustředila na nohy.
 
-Pomoci mu rozvinout vnímání celého těla – jeho částí, pohybů a pozice v prostoru – bylo pro jeho celkový rozvoj zásadní. Za jeho potížemi stála vzácná genetická porucha, která vedla k **velmi nerovnoměrnému kognitivnímu profilu**: vynikající verbální dovednosti, ale slabé soustředění a senzorická integrace.
+Pomoci mu rozvinout vnímání celého těla – jeho částí, pohybů a polohy v prostoru – bylo pro jeho celkový rozvoj zásadní. Za jeho problémy stála vzácná genetická porucha, která vedla k **velmi nerovnoměrnému kognitivnímu profilu**: vynikající verbální dovednosti, ale slabé soustředění a senzorická integrace.
 
 Nakonec jsme hru rozšířili o **kognitivní výzvy** pomocí stolní hry rukama. Například:
 
 * Vytváření a zapamatování **barevných sekvencí**
-* Přiřazení zvířecích identit k míčkům, které musely „vylézt ze svých jeskyní“, když byly zavolány – i když si vyměnily místa
+* Přiřazení zvířecích identit kuličkám, které musely „vyjít ze svých jeskyní“, když byly zavolány – i když si vyměnily místa
 
 Tyto aktivity se ukázaly jako účinné v kombinaci s jinými nástroji a jasně přispěly k **rozvoji a zrání** dítěte.
 
@@ -90,50 +92,50 @@ Tyto aktivity se ukázaly jako účinné v kombinaci s jinými nástroji a jasn�
 
 ## **Držení těla a skupinová práce**
 
-Balanční desku používáme také ve **skupinových lekcích pohybového rozvoje**, zejména pro **zlepšení držení těla a posílení zádových svalů**. V těchto případech děti hrají vleže na břiše.
+Balanční desku používáme také ve **skupinových pohybových rozvojových lekcích**, zejména pro **zlepšení držení těla a posílení zádových svalů**. V těchto případech děti hrají vleže na břiše.
 
 ---
 
-![hungary-1-3.jpg|200](../img/hungary-1-3.jpg){ align=left }
+![hungary-1-3.jpg](../img/hungary-1-3.jpg){ align=left width=200 }
 
 ## **Sociální integrace a pozorování**
 
-Kromě motorického a kognitivního rozvoje jsem si začala všímat potenciálu balanční desky pro posílení **sociální interakce**. Představili jsme ji dětem, které měly **potíže s navazováním kontaktů** – těm, které bojovaly se vzájemnou pozorností a spoluprací.
+Kromě motorického a kognitivního rozvoje jsem si začala všímat potenciálu balanční desky pro posílení **sociální interakce**. Představili jsme ji dětem, které měly **potíže s navazováním spojení** – těm, které bojovaly se vzájemnou pozorností a spoluprací.
 
 Během hry jsem pozorovala:
 
 * Zda se děti podívaly od desky na svého partnera
-* Zda si jakýmkoli způsobem vyžádaly míček
-* Zda uznaly přítomnost druhého hráče
+* Zda si jakýmkoli způsobem vyžádaly kuličku
+* Zda vnímaly přítomnost druhého hráče
 
-Pro strukturovanější spolupráci jsme hráli ve **trojicích**, s dvěma dětmi na jedné straně desky. Hra zahrnovala **jednoduchá pravidla**, která vyžadovala **společné řešení problémů**, například:
+Pro strukturovanější spolupráci jsme hráli v **trojicích**, kdy dva děti byly na jedné straně desky. Hra zahrnovala **jednoduchá pravidla**, která vyžadovala **společné řešení problémů**, například:
 
-* Jedno dítě mohlo kutálet pouze modré míčky, druhé pouze zelené
-* Míčky mohly přijít na jakoukoli dráhu
-* Musely si navzájem pomáhat s koordinací prostoru a načasování, aniž by se blokovaly
+* Jedno dítě mohlo kutálet pouze modré kuličky, druhé pouze zelené
+* Kuličky mohly přijít na jakoukoli dráhu
+* Musely si navzájem pomáhat s prostorem a načasováním, aniž by se blokovaly
 
-Tyto dynamiky byly **vysoce informativní**, jak pro mě jako facilitátora, tak pro pozorovatele.
+Tyto dynamiky byly **velmi informativní**, jak pro mě jako facilitátora, tak pro pozorovatele.
 
 ---
 
 ## **Případ kontroly a regulace**
 
-S jedním dítětem – které bylo často v konfliktu s vrstevníky i dospělými – jsme pomocí balanční desky pozorovali a jemně zpochybňovali **chování související s kontrolou**. Toto dítě mělo **silnou potřebu udržovat kontrolu** nad denními rutinními činnostmi a hrou.
+S jedním dítětem – které bylo často v konfliktu s vrstevníky i dospělými – jsme pomocí balanční desky pozorovali a jemně zpochybňovali **chování související s kontrolou**. Toto dítě mělo **silnou potřebu udržovat kontrolu** nad denními rutinami a hrou.
 
-Během hry na desce se zpočátku pokoušelo nenápadně, pak stále zjevněji převzít kontrolu nad lekcí – i při hře s jiným dítětem podle strukturovaných pravidel dokázalo během několika minut převzít kontrolu. Při hře se mnou se často rychle stáhlo, pokud aktivita nebyla plně podle jeho představ.
+Během hry na desce se zpočátku pokoušelo nenápadně, pak stále zjevněji převzít kontrolu nad lekcí – i když hrálo s jiným dítětem podle strukturovaných pravidel, během několika minut dokázalo převzít kontrolu. Při hře se mnou se často rychle stáhlo, pokud aktivita nebyla plně podle jeho představ.
 
 To představovalo příležitost: prostřednictvím **mikroúprav ve facilitaci** jsme začali budovat momenty, kdy mohlo zůstat ve hře, aniž by ohrozilo svůj pocit autonomie – vytvářejíce tak **rovnováhu mezi strukturou a volbou**.
 
 ---
 
-## **Průběžné využívání a profesní růst**
+## **Průběžné používání a profesní růst**
 
-Nyní balanční desku využíváme po celý akademický rok k hodnocení a posilování:
+Nyní používáme balanční desku po celý akademický rok k hodnocení a posilování:
 
 * Motorických dovedností
 * Kognitivních procesů
 * Sociálních schopností
 
-V každém případě jsem u zúčastněných dětí pozorovala jasné známky růstu a rozvoje.
+V každém případě jsem pozorovala jasné známky růstu a rozvoje u zúčastněných dětí.
 
-Pro mě osobně je neustálý rozvoj mé práce s balanční deskou podporován a inspirován účastí na odborných workshopech, kde mohu sdílet zkušenosti, učit se nové přístupy a obnovovat svou kreativní sadu nástrojů. Kdykoli se cítím zaseknutá nebo příliš zakořeněná ve známých vzorcích, tyto workshopy nabízejí nové perspektivy a novou energii – pomáhají mi vrátit se do třídy osvěžená a znovu inspirovaná.
+Pro mě je neustálý vývoj mé práce s balanční deskou podporován a inspirován účastí na odborných workshopech, kde mohu sdílet zkušenosti, učit se nové přístupy a obnovovat svůj tvůrčí nástrojový arzenál. Kdykoli se cítím zaseknutá nebo příliš ukotvená ve známých vzorcích, tyto workshopy nabízejí nové perspektivy a novou energii – pomáhají mi vrátit se do třídy osvěžená a znovu inspirovaná.

@@ -8,15 +8,15 @@ tags:
   - diabolo
 created: 2026-06-12 00:00:00
 update: 2026-06-12 21:59:14
-title: Najdłuższy grind na patyku
-description: Gracze wykonują grind diabolo na patyku, próbując utrzymać go jak najdłużej.
+title: Najdłuższy grind na kiju
+description: Gracze wykonują grind diabolo na kiju, starając się utrzymać go jak najdłużej.
 authors:
   - CircusWiki contributors
 category:
   - convention-games
   - diabolo
-Schwierigkeit: "mittel"
-Material: "Diabolo and handsticks, stopwatch"
+Schwierigkeit: średni
+Material: Diabolo i kije, stoper
 Spieldauer: "5-15"
 group-min: 2
 group-max: 40
@@ -31,10 +31,12 @@ translation_source_body_hash: 21465c75b837de4661ae2e756c4869dcb395d266a1cb1e83a4
 translation_source_hash: 21465c75b837de4661ae2e756c4869dcb395d266a1cb1e83a4c44d74b62d1aba
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-12T21:23:47+00:00
-translation_source_metadata_hash: c3c60fd7d5fedef7ef8966f3240543518c7cc331e597d7605f948464f101e191
+translation_source_metadata_hash: 6664e0ec28e6130f6f3a6032feace5ebacad0b46fda24530811630304e6ae243
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T21:23:47+00:00
+translation_metadata_updated: 2026-06-14T16:01:08+00:00
+translation_source_localized_metadata_hash: 6664e0ec28e6130f6f3a6032feace5ebacad0b46fda24530811630304e6ae243
+translation_source_structural_metadata_hash: d1fc6281167dd0f0875850acadd5205d4020fa2a7191100b196bc73663eafc3d
 ---
 > [!info] Krótki opis
 > Gracze utrzymują diabolo na pałeczce, próbując jak najdłużej utrzymać ciągłość ruchu.

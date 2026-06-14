@@ -18,8 +18,8 @@ category:
   - convention-games
   - juggling
   - endurance
-Schwierigkeit: "mittel"
-Material: "Five juggling balls per player"
+Schwierigkeit: media
+Material: Cinque palline da giocoliere per giocatore
 Spieldauer: "3-15"
 group-min: 2
 group-max: 80
@@ -32,21 +32,23 @@ source_section: "Endurance Games/World Records"
 source_image_ucircus: "../img/5-ball-endurance.jpg"
 source_permission: "public-place images reviewed as reusable by project maintainer"
 translation_source: docs/en/5-ball-endurance.md
-translation_source_body_hash: b17598de91a37347e5486475e22925ed02b364e617a75dc5f58b6a7fefb8928f
-translation_source_hash: b17598de91a37347e5486475e22925ed02b364e617a75dc5f58b6a7fefb8928f
+translation_source_body_hash: 3561b6c9689150f5a3696121427ed284c9e5c4133e2cd413dc96624374af3ca9
+translation_source_hash: 3561b6c9689150f5a3696121427ed284c9e5c4133e2cd413dc96624374af3ca9
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-12T21:05:58+00:00
-translation_source_metadata_hash: a57fd646cb2885f517e04728dbb0e37765cd22193f1b76feb26934ed403991b0
+translation_updated: 2026-06-14T19:25:43+00:00
+translation_source_metadata_hash: e62644c948f874aca406cd8e5a6854ef7d71602526eab2c28eafda7e195c6e70
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T21:05:58+00:00
+translation_metadata_updated: 2026-06-14T19:25:43+00:00
+translation_source_localized_metadata_hash: e62644c948f874aca406cd8e5a6854ef7d71602526eab2c28eafda7e195c6e70
+translation_source_structural_metadata_hash: 63cf8e96bfe17a8c486c3cac063a16d87d86f882aaa2c65ee669a69e7c9532b6
 ---
 > [!info] Breve Descrizione
-> Una gara di resistenza con cinque palline in cui l'ultimo giocoliere attivo vince.
+> Una gara di resistenza con cinque palline in cui vince l'ultimo giocoliere attivo.
 
-![[../img/5-ball-endurance.jpg|300]]
+![5-ball-endurance](../img/5-ball-endurance.jpg){ width=300 }
 
-**Numero di partecipanti**: da 2 a 80 giocatori  
+**Dimensioni del gruppo**: da 2 a 80 giocatori  
 **Difficoltà**: media  
 **Materiale**: Cinque palline da giocoleria per giocatore  
 **Durata**: circa 3-15 minuti
@@ -59,17 +61,17 @@ L'ultimo giocatore che continua a fare giocoleria vince. Se diversi giocolieri a
 
 ## Preparazione
 
-- Concedete a ogni giocatore spazio sufficiente per fare giocoleria con cinque palline.
-- Concordate se è permesso qualsiasi schema di giocoleria con cinque palline o se è richiesto lo schema a cascata.
-- Decidete se il gioco è a eliminazione o una sfida di resistenza basata sul record personale.
+- Fornite a ogni giocatore spazio sufficiente per fare giocoleria con cinque palline.
+- Concordate se è permesso qualsiasi schema di giocoleria con cinque palline o se è richiesta la cascata.
+- Decidete se il gioco è a eliminazione o una sfida di resistenza per il miglior risultato personale.
 
 ## Varianti
 
 - Aggiungete trucchi o movimenti obbligatori dopo un tempo prestabilito.
 - Organizzate batterie e una finale per gruppi numerosi.
-- Utilizzate lo stesso formato per altri numeri di palline o altri attrezzi.
+- Utilizzate lo stesso formato per altri numeri o attrezzi.
 
-## Note di Sicurezza
+## Note sulla Sicurezza
 
 Questo gioco prevede un contatto minimo, ma le palline che cadono si diffondono rapidamente. Tenete spettatori e giocatori eliminati al di fuori dell'area di giocoleria attiva.
 

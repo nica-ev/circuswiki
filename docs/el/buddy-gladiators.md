@@ -9,15 +9,15 @@ tags:
   - gladiators
 created: 2026-06-12 00:00:00
 update: 2026-06-12 21:40:02
-title: Buddy Gladiators
-description: Ένα παιχνίδι με ζεύγη μονομάχων όπου δύο παίκτες διατηρούν ζωντανό ένα κοινό μοτίβο ζογκλερικών.
+title: Μονομάχοι Συνεργασίας
+description: Ένα παιχνίδι για δύο μονομάχους όπου δύο παίκτες διατηρούν ζωντανό ένα κοινό μοτίβο ζογκλερικής.
 authors:
   - CircusWiki contributors
 category:
   - convention-games
   - gladiators
-Schwierigkeit: "mittel"
-Material: "Three balls per pair"
+Schwierigkeit: μεσαίο
+Material: Τρεις μπάλες ανά ζευγάρι
 Spieldauer: "5-15"
 group-min: 3
 group-max: 60
@@ -32,10 +32,12 @@ translation_source_body_hash: 55671aa43a1f2deee907182fd9eb9a6a0e1c99a913bb5c7e65
 translation_source_hash: 55671aa43a1f2deee907182fd9eb9a6a0e1c99a913bb5c7e6589f3c204ef63b5
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-12T21:09:29+00:00
-translation_source_metadata_hash: c5d877c43c9589a867e2a6823e7297cfa3f564a7008286b6728e47faec88c970
+translation_source_metadata_hash: c29a1bfa6d3489e19805e11343c5656efc2c2305c67c65c459c923774ecdf629
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T21:09:29+00:00
+translation_metadata_updated: 2026-06-14T15:56:23+00:00
+translation_source_localized_metadata_hash: c29a1bfa6d3489e19805e11343c5656efc2c2305c67c65c459c923774ecdf629
+translation_source_structural_metadata_hash: c9279d5bac3a76e78882a92c65d6c701ca0c6f70e6811af3d12387fd07c1ca4b
 ---
 > [!info] Σύντομη Περιγραφή
 > Ένα παιχνίδι για ζευγάρια, όπου δύο παίκτες διατηρούν ζωντανό ένα κοινό μοτίβο ζογκλερικών.

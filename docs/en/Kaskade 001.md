@@ -18,10 +18,12 @@ translation_source_hash: 0c65f4a229dd321c0a36cc325e3669eab1983cb64d11268b9e598a5
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-06T19:23:55+00:00
 translation_source_body_hash: 0c65f4a229dd321c0a36cc325e3669eab1983cb64d11268b9e598a5ee0e3ff73
-translation_source_metadata_hash: e5858370514bfba2de1affaedd067b550a13d5800d58c025ac905f524c085c48
+translation_source_metadata_hash: 58a648f3e7f6996953884b2120cdc92d61f4462c7e4386dda79fd53b6c534213
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:52:11+00:00
+translation_metadata_updated: 2026-06-14T16:05:43+00:00
+translation_source_localized_metadata_hash: 58a648f3e7f6996953884b2120cdc92d61f4462c7e4386dda79fd53b6c534213
+translation_source_structural_metadata_hash: 629ac730aabac4ff84b97725ff824ad96b56224b3f1957c8d43a0ea219ee10d2
 ---
 ## A New Magazine for Europe
 [A New Magazine for Europe](Eine%20neue%20Zeitschrift%20für%20Europa.md)

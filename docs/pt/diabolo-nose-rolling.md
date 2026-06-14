@@ -15,8 +15,8 @@ authors:
 category:
   - convention-games
   - diabolo
-Schwierigkeit: "einfach"
-Material: "Diabolos, start and finish line"
+Schwierigkeit: fácil
+Material: Diabolos, linha de partida e chegada
 Spieldauer: "5-15"
 group-min: 2
 group-max: 40
@@ -28,19 +28,21 @@ source_section: "Diabolo Games"
 source_image: "../img/game-diabolo-nose-rolling.jpg"
 source_permission: "public-place image reviewed as reusable by project maintainer"
 translation_source: docs/en/diabolo-nose-rolling.md
-translation_source_body_hash: 91261b1617d8ad472155d66fee8fee5baae956ee8c56452c32df6372236fc3f5
-translation_source_hash: 91261b1617d8ad472155d66fee8fee5baae956ee8c56452c32df6372236fc3f5
+translation_source_body_hash: e1be7bcfa6e9ab2c327a1c09364f61b2d898930e35447f3a21fb42d8f8c56bbf
+translation_source_hash: e1be7bcfa6e9ab2c327a1c09364f61b2d898930e35447f3a21fb42d8f8c56bbf
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-12T21:16:06+00:00
-translation_source_metadata_hash: 95a2c8b6814cd824882ac34b2ac3593dc8eec4b61a9afb443b7d77cc1ba4eb3c
+translation_updated: 2026-06-14T19:28:47+00:00
+translation_source_metadata_hash: 169851ee2ea0ab7b70375abd9189fe2ed5bf96fe4be44800eba20906c7f78fc9
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T21:16:06+00:00
+translation_metadata_updated: 2026-06-14T19:28:47+00:00
+translation_source_localized_metadata_hash: 169851ee2ea0ab7b70375abd9189fe2ed5bf96fe4be44800eba20906c7f78fc9
+translation_source_structural_metadata_hash: 872d50d5f1392aeaee766ab2e1205a113c840969bd76cdb8a9d81dc16ff7948b
 ---
 > [!info] Descrição Curta
 > Todos os diablos começam no chão, numa linha de partida.
 
-![[../img/game-diabolo-nose-rolling.jpg|300]]
+![game-diabolo-nose-rolling](../img/game-diabolo-nose-rolling.jpg){ width=300 }
 
 **Tamanho do Grupo**: 2 a 40 jogadores  
 **Dificuldade**: fácil  
@@ -57,8 +59,8 @@ Use baterias para grupos grandes. Mantenha o percurso curto e divertido em vez d
 
 ## Notas de Segurança
 
-Mantenha a área de jogo livre e defina os limites antes do início da ronda. Para jogos de contacto, direcione os adereços em vez dos corpos. Para jogos de lançamento, montada, equilíbrio ou acrobáticos, deixe espaço suficiente para tentativas falhadas e pare a ronda se o grupo começar a correr riscos inseguros.
+Mantenha a área de jogo livre e defina os limites antes de começar a ronda. Para jogos de contacto, mire nos adereços em vez dos corpos. Para jogos de lançamento, montada, equilíbrio ou acrobáticos, deixe espaço suficiente para tentativas falhadas e pare a ronda se o grupo começar a correr riscos inseguros.
 
 ## Fonte
 
-[JugglingWorld - Jogos de Malabarismo](https://www.jugglingworld.biz/tricks/juggling-games/), secção: Jogos de Diabolo.
+[JugglingWorld - Juggling Games](https://www.jugglingworld.biz/tricks/juggling-games/), secção: Diabolo Games.

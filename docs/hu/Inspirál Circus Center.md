@@ -23,10 +23,12 @@ translation_source_hash: de104a210bbedadd4bf9a04e2eff5c709d1dc88f247f2b19dd73f29
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-07T13:28:47+00:00
 translation_source_body_hash: de104a210bbedadd4bf9a04e2eff5c709d1dc88f247f2b19dd73f2980ba0d449
-translation_source_metadata_hash: f89f70d68ff83be4d378d7860d5805d342cb8a548357ec3105aec59a320c0265
+translation_source_metadata_hash: bb11b79bfe22cd6c609c53870fe7c9130541119176ea27f4c83b779d6ca8ed95
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:51:23+00:00
+translation_metadata_updated: 2026-06-14T15:54:03+00:00
+translation_source_localized_metadata_hash: bb11b79bfe22cd6c609c53870fe7c9130541119176ea27f4c83b779d6ca8ed95
+translation_source_structural_metadata_hash: 2acf1084e2c47c8c421b49719a8e5211f1bd848e929917fecc612b2b67cbbcbf
 ---
 ### **Inspirál Cirkusz Központ (Budapest, Magyarország)**
 

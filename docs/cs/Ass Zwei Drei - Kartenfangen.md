@@ -6,14 +6,14 @@ tags:
   - spiele
 created: 2025-01-24 03:50:50
 update: 2026-06-07 00:02:09
-title: Zadnice Tři - Chytání karet
-description: Taktická týmová hra s kartami, kde o vítězných kartách rozhodují hodnoty karet, komunikace a cílené souboje.
+title: Eso Král Dama - Chytání karet
+description: Taktická týmová hra s hracími kartami, kde o získané karty rozhoduje hodnota karet, komunikace a cílené souboje.
 authors:
   - Marc Bielert
 category:
   - Taktik
-Schwierigkeit: mittel
-Material: Kartenspiel
+Schwierigkeit: střední
+Material: Karetní hra
 Spieldauer: 10-15
 source: Tasifan Spielebuch
 group-min: 20
@@ -25,10 +25,12 @@ translation_source_hash: d9004de275bc91487be0fcee81cfe5c4415a5c3ab9a5120c54ff0ec
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:21:45+00:00
 translation_source_body_hash: d9004de275bc91487be0fcee81cfe5c4415a5c3ab9a5120c54ff0ecd47293f77
-translation_source_metadata_hash: 37b599f6a435f7f0c32bb5454cb77c0f2a135a44ceb5ddbd9dd5a71ef07eff33
+translation_source_metadata_hash: 690c844f8d790c90274d930fbcc9ed784018c3f30a46283845c85528934b7fbf
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:01:45+00:00
+translation_metadata_updated: 2026-06-14T15:37:25+00:00
+translation_source_localized_metadata_hash: 690c844f8d790c90274d930fbcc9ed784018c3f30a46283845c85528934b7fbf
+translation_source_structural_metadata_hash: f966a9b831989f552b3fee37230aaeae4b1c8e72be0a812b9795ac204316acfd
 ---
 > [!info] Stručný popis
 > Taktická týmová hra s hracími kartami, kde o získané karty rozhoduje hodnota karet, komunikace a cílená souboje.

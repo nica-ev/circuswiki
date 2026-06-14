@@ -13,14 +13,16 @@ authors:
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Translating PDF Documents.md
-translation_source_hash: 13f567c13646ec3eeddb4c012712d5c2f6081cdc7c1c91c8f11addf841b0da06
+translation_source_hash: 7bbc7641e762f3590c7d2e1804e38167ac9308ba9d7c1d8fc5254c7feff26d23
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T19:29:36+00:00
-translation_source_body_hash: 13f567c13646ec3eeddb4c012712d5c2f6081cdc7c1c91c8f11addf841b0da06
-translation_source_metadata_hash: a530aa8d544a977714beb1b4a853dc52b784bd5b26686255177e83d93a8ba7b4
+translation_updated: 2026-06-14T19:33:03+00:00
+translation_source_body_hash: 7bbc7641e762f3590c7d2e1804e38167ac9308ba9d7c1d8fc5254c7feff26d23
+translation_source_metadata_hash: 6785222fbc9a9243423a809c8415e44aa15130e8a66ad15714af391851b8b82f
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T19:09:51+00:00
+translation_metadata_updated: 2026-06-14T19:33:03+00:00
+translation_source_localized_metadata_hash: 6785222fbc9a9243423a809c8415e44aa15130e8a66ad15714af391851b8b82f
+translation_source_structural_metadata_hash: 2b0fe62dfc02049e3f55e308c77f83a911789c48b0827769d60d3f00737d38b6
 ---
 # Tutorial: Translating PDF Documents Using Large Language Models
 
@@ -75,7 +77,7 @@ This tutorial outlines a process for translating the content of PDF documents, p
 8.  Paste the copied Markdown text into a plain text editor (like Notepad, VS Code, Obsidian, etc.).
 9.  Save this content as a plain text file. Using `.txt` or `.md` (Markdown) extensions is recommended. The Markdown formatting helps preserve the document's structure (headings, lists).
 
-![Google AI Studio - Screenshot Transcription|600](../img/Screenshot-Google-AiStudio-Transcription.png)
+![Google AI Studio - Screenshot Transcription](../img/Screenshot-Google-AiStudio-Transcription.png){ width=600 }
 
 ## Step 3: Translating the Extracted Text using Google AI Studio
 
@@ -96,7 +98,7 @@ This tutorial outlines a process for translating the content of PDF documents, p
 5.  Submit the prompt. Translation may also take several minutes, comparable to the transcription time.
 6.  Once generated, copy the translated Markdown text using the methods described in Step 2 (interface copy button or manual selection).
 
-![Google AI Studio - Screenshot Translation|600](../img/Screenshot-Google-AiStudio-Translation.png)
+![Google AI Studio - Screenshot Translation](../img/Screenshot-Google-AiStudio-Translation.png){ width=600 }
 
 ## Step 4: Reformatting the Translated Text into a PDF Document
 

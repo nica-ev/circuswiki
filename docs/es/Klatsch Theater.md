@@ -6,14 +6,14 @@ tags:
   - spiele
 created: 2025-01-24 03:50:50
 update: 2025-03-17 02:11:06
-title: Teatro de Aplausos
-description: Un juego teatral donde las imágenes congeladas se modifican y expanden con aplausos.
+title: Teatro de Palmas
+description: Un juego de teatro donde las imágenes congeladas se modifican y amplían con aplausos.
 authors:
   - Marc Bielert
 category:
   - sonstiges
-Schwierigkeit: einfach
-Material: keines
+Schwierigkeit: fácil
+Material: ninguno
 Spieldauer: 7
 source: Tasifan Spielebuch
 group-min: 4
@@ -25,10 +25,12 @@ translation_source_hash: 7c0f2412254d85c8ecefc256b5f610632ded764c2a7831eb6590800
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:49:51+00:00
 translation_source_body_hash: 7c0f2412254d85c8ecefc256b5f610632ded764c2a7831eb65908004b152f235
-translation_source_metadata_hash: 81442248b57947c8540c9ba67fb09ca39c39411d28d31183286d770636d1b7f5
+translation_source_metadata_hash: 0b5588234fd1fb86f98ad1ea35133a038f07d77d7c48dd57e26a061912726c86
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:54:21+00:00
+translation_metadata_updated: 2026-06-14T16:07:54+00:00
+translation_source_localized_metadata_hash: 0b5588234fd1fb86f98ad1ea35133a038f07d77d7c48dd57e26a061912726c86
+translation_source_structural_metadata_hash: af77da05e820b4ab839c08c329bcde30ae97181847133b37b736f8059496fc07
 ---
 > [!info] Breve descripción
 > Un juego teatral en el que las imágenes congeladas se modifican y amplían mediante aplausos.

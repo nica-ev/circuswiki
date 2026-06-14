@@ -7,13 +7,13 @@ tags:
 created: 2025-01-24 03:50:50
 update: 2025-03-17 02:14:20
 title: Szpital
-description: Gra w łapanego, w której zarażone osoby są wspólnie przenoszone do szpitala przez innych i tam ratowane.
+description: Gra w łapanie, w której zarażone osoby są wspólnie przenoszone do szpitala i tam ratowane.
 authors:
   - Marc Bielert
 category:
   - bewegung
-Schwierigkeit: einfach
-Material: Matten
+Schwierigkeit: łatwy
+Material: maty
 Spieldauer: 5-10
 source: Tasifan Spielebuch
 group-min: 8
@@ -25,10 +25,12 @@ translation_source_hash: 2b6ebdab6b948c39b20a049ec54c0d07fba1973eb52a27f51fb29db
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:52:30+00:00
 translation_source_body_hash: 2b6ebdab6b948c39b20a049ec54c0d07fba1973eb52a27f51fb29db6b2753fb4
-translation_source_metadata_hash: e91ba8cece24f141a92b49d1ac205a3daae6b8f8739afff79acaea1bbf492bbc
+translation_source_metadata_hash: a86f3c39d0bc66dc04494fa1de5842eac0e822d74385f32d96836fdeec470047
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:55:22+00:00
+translation_metadata_updated: 2026-06-14T16:09:02+00:00
+translation_source_localized_metadata_hash: a86f3c39d0bc66dc04494fa1de5842eac0e822d74385f32d96836fdeec470047
+translation_source_structural_metadata_hash: 71ab7885b18a7dbd16efcc630935623bbc668c578b0723470c20a23d56184944
 ---
 > [!info] Krótki opis
 > Gra w łapanie, w której zarażone osoby są wspólnie przenoszone do szpitala przez inne osoby i tam ratowane.

@@ -18,8 +18,8 @@ category:
   - convention-games
   - juggling
   - endurance
-Schwierigkeit: schwer
-Material: Five juggling clubs per player
+Schwierigkeit: trudny
+Material: Pięć maczug do żonglerki na zawodnika
 Spieldauer: "3-15"
 group-min: 2
 group-max: 40
@@ -30,19 +30,21 @@ source_url: https://ucircus.co.uk/resources-circus-games/
 source_image: ../img/5-club-endurance.jpg
 source_permission: public group photo reviewed as reusable by project maintainer
 translation_source: docs/en/5-club-endurance.md
-translation_source_body_hash: b04b7d7ad53b43c0ea5d9d9deaf26a15fbd527751b0a85d5e615d214cac77e12
-translation_source_hash: b04b7d7ad53b43c0ea5d9d9deaf26a15fbd527751b0a85d5e615d214cac77e12
+translation_source_body_hash: 4452e91081cae79c6f43500c843c377f298fccc14d9c6750fd9409cee96b2142
+translation_source_hash: 4452e91081cae79c6f43500c843c377f298fccc14d9c6750fd9409cee96b2142
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-12T21:41:32+00:00
-translation_source_metadata_hash: c75f2c678376a8dc997b10f82c0fb5d6c8028556dadafc8d71cdb195f02d8253
+translation_updated: 2026-06-14T19:36:29+00:00
+translation_source_metadata_hash: ec03ef05e8f39855562be574670ef02657c963efbc50fe5b958f0d5f6b5830b6
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T21:41:32+00:00
+translation_metadata_updated: 2026-06-14T19:36:29+00:00
+translation_source_localized_metadata_hash: ec03ef05e8f39855562be574670ef02657c963efbc50fe5b958f0d5f6b5830b6
+translation_source_structural_metadata_hash: ab369ba399691c96a1856c79f7f214666aa3f6422917e39b65d5a48e81eed123
 ---
 > [!info] Krótki opis
 > Wytrzymałościowy konkurs żonglerki liczbami, w którym gracze utrzymują pięć maczóg w powietrzu tak długo, jak to możliwe.
 
-![[../img/5-club-endurance.jpg|300]]
+![5-club-endurance](../img/5-club-endurance.jpg){ width=300 }
 
 **Liczba graczy**: od 2 do 40
 **Poziom trudności**: trudny
@@ -51,37 +53,37 @@ translation_metadata_updated: 2026-06-12T21:41:32+00:00
 
 ## Opis gry
 
-Wszyscy gracze zaczynają wspólną żonglerkę pięcioma maczugami. Zwycięża ostatni gracz, który utrzyma ustalony wzór.
+Wszyscy gracze rozpoczynają wspólną żonglerkę pięcioma maczugami. Zwycięża ostatni gracz, który utrzyma ustalony wzór.
 
 ## Przygotowanie
 
-- Wykorzystaj dużą, otwartą przestrzeń, zapewniając wystarczający dystans między żonglerami.
-- Ustalcie, czy dozwolony jest dowolny wzór żonglerki pięcioma maczugami, czy tylko kaskada/fontanna.
+- Wykorzystaj dużą, otwartą przestrzeń z wystarczającą odległością między żonglerami.
+- Ustalcie, czy dozwolony jest dowolny wzór żonglerki pięcioma maczugami, czy tylko kaskada/studnia.
 - Ustaw sędziów tak, aby upadki były widoczne.
 
 ## Zasady
 
 1. Gracze rozpoczynają żonglerkę pięcioma maczugami na sygnał.
-2. Gracz pozostaje aktywny, dopóki pięć maczóg jest stale w ustalonym wzorze.
-3. Upuszczenie, zebranie, ponowne rozpoczęcie lub zmniejszenie liczby maczóg kończy próbę.
+2. Gracz pozostaje aktywny, dopóki pięć maczug jest stale w ustalonym wzorze.
+3. Upuszczenie, zebranie, ponowne rozpoczęcie lub zmniejszenie liczby maczug kończy próbę.
 4. Wyeliminowani gracze wycofują się z aktywnego obszaru.
-5. Najdłuższy pozostały czas wygrywa.
+5. Wygrywa najdłuższy pozostały czas.
 
-## Wariacje
+## Warianty
 
-- Zastosuj rundy czasowe, jeśli bierze udział wielu zaawansowanych żonglerów.
+- Użyj rund na czas, jeśli bierze udział wielu zaawansowanych żonglerów.
 - Wymagaj wykonania sztuczek lub ruchu po ustalonym czasie.
-- W przypadku warsztatów zamiast eliminacji, pozwól na próby bicia własnych rekordów.
+- W przypadku warsztatów zamiast eliminacji, pozwól na próby pobicia własnego rekordu.
 
 ## Wskazówki dotyczące bezpieczeństwa
 
-Żonglerka pięcioma maczugami wymaga przestrzeni. Widzów i wyeliminowanych graczy trzymaj z dala od strefy lądowania.
+Żonglerka pięcioma maczugami wymaga przestrzeni. Trzymaj widzów i wyeliminowanych graczy z dala od strefy lądowania.
 
 ## Źródło
 
 - Karta źródłowa UCircus: [5 Club Endurance](https://ucircus.co.uk/resources-circus-games/)
 - Zajęcia UCircus: Maczugi, Knockout, Wytrzymałość, Żonglerka
 - Lokalny obraz źródłowy: `../img/5-club-endurance.jpg`
-- Obsługa źródła: Wspierane przez UCircus i niezależne opisy gier konwentowych dotyczące zawodów liczbowych/wytrzymałościowych.
+- Obsługa źródła: Wspierane przez UCircus i niezależne opisy gier konwentowych dotyczące zawodów w żonglerce liczbami/wytrzymałościowej.
 - Dodatkowe odniesienie: [Gry żonglerskie JugglingWorld](https://www.jugglingworld.biz/tricks/juggling-games/)
 - Dodatkowe odniesienie do kontekstu gladiatorów/walki: [Combat (juggling)](https://en.wikipedia.org/wiki/Combat_(juggling))

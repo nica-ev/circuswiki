@@ -6,14 +6,14 @@ tags:
   - spiele
 created: 2025-01-24 03:50:51
 update: 2025-03-25 23:06:35
-title: Zombie - Hasche
+title: Zombie - Fogócska
 description: 
 authors:
   - Marc Bielert
 category:
   - fangen
-Schwierigkeit: einfach
-Material: keines
+Schwierigkeit: könnyű
+Material: nincs
 Spieldauer: 10 -  15
 source: unbekannt
 group-min: 10
@@ -26,10 +26,12 @@ translation_source_hash: 487317e4348a35d7b2d1e03f76fa26561a60662aa030dbc5972fd56
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-06T22:55:55+00:00
 translation_source_body_hash: 487317e4348a35d7b2d1e03f76fa26561a60662aa030dbc5972fd56360aeec48
-translation_source_metadata_hash: d315059938828deccebcc00b8bd5ddcd0df889731fcda6a3f5d9d3055ed01ae8
+translation_source_metadata_hash: 91b10fc50af630246ea7be618433ac0cd7f86652110bf9bda22f1634e7d351b3
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T19:13:51+00:00
+translation_metadata_updated: 2026-06-14T16:29:18+00:00
+translation_source_localized_metadata_hash: 91b10fc50af630246ea7be618433ac0cd7f86652110bf9bda22f1634e7d351b3
+translation_source_structural_metadata_hash: 9f7d810be7ae51b3fbf8da800f672023cc6e83e1805dcecbddfafc968b9d161e
 ---
 # Zombi – Fogócska
 

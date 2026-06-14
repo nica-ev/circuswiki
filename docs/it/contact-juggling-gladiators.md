@@ -12,8 +12,8 @@ tags:
   - gladiators
 created: 2026-06-12 00:00:00
 update: 2026-06-12 22:45:24
-title: Gladiatori del Giocoleria di Contatto
-description: Un gioco a eliminazione di giocoleria di contatto in cui i giocatori proteggono il proprio equilibrio di palla disturbando gli altri.
+title: Gladiatori del Contact Juggling
+description: Un gioco di eliminazione nel contact juggling dove i giocatori proteggono il proprio equilibrio di palla disturbando gli altri.
 authors:
   - CircusWiki contributors
 category:
@@ -21,8 +21,8 @@ category:
   - contact-juggling
   - knockout
   - gladiators
-Schwierigkeit: "mittel"
-Material: "Contact balls, usually four per player for a pyramid"
+Schwierigkeit: medio
+Material: Palle da contact juggling, solitamente quattro per giocatore per una piramide
 Spieldauer: "5-10"
 group-min: 3
 group-max: 30
@@ -37,50 +37,52 @@ source_permission: "public-place images reviewed as reusable by project maintain
 aliases:
   - Contact Ball Gladiators
 translation_source: docs/en/contact-juggling-gladiators.md
-translation_source_body_hash: 43bbbca8026a69da082567b0a62bd234ebdb046fdc7d7f2ac7c79f1b9992c278
-translation_source_hash: 43bbbca8026a69da082567b0a62bd234ebdb046fdc7d7f2ac7c79f1b9992c278
+translation_source_body_hash: a70f0e9aad83961b1c3efaf71aa5977c4e08e492babf33890a86ed8eb3ecb3b3
+translation_source_hash: a70f0e9aad83961b1c3efaf71aa5977c4e08e492babf33890a86ed8eb3ecb3b3
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-12T21:13:41+00:00
-translation_source_metadata_hash: 2031ecbd2bff1e6f316aa5420efa146b504d8126d74ab088b1ac60c287df9589
+translation_updated: 2026-06-14T19:26:50+00:00
+translation_source_metadata_hash: bcb1d24a0012784a743e1edc607dd9716713e0e7f268b5ab030f0a49082aa9c1
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T21:13:41+00:00
+translation_metadata_updated: 2026-06-14T19:26:50+00:00
+translation_source_localized_metadata_hash: bcb1d24a0012784a743e1edc607dd9716713e0e7f268b5ab030f0a49082aa9c1
+translation_source_structural_metadata_hash: a751a656eae0d52d6b87b4d0a151f743e6441cd8c99f336ea58a6774414c1d5d
 ---
 > [!info] Breve Descrizione
-> Un gioco a eliminazione di giocoleria di contatto in cui i giocatori proteggono il proprio equilibrio con le palline mentre disturbano quello degli altri.
+> Un gioco a eliminazione di contact juggling in cui i giocatori proteggono il proprio equilibrio con la palla mentre disturbano quello degli altri.
 
-![[../img/contact-ball-gladiators.jpg|300]]
+![contact-ball-gladiators](../img/contact-ball-gladiators.jpg){ width=300 }
 
 **Numero di partecipanti**: da 3 a 30 giocatori  
 **Difficoltà**: media  
-**Materiale**: Palline da giocoleria di contatto, solitamente quattro per giocatore per una piramide  
+**Materiale**: Palle da contact juggling, solitamente quattro per giocatore per una piramide  
 **Durata**: circa 5-10 minuti
 
 ## Descrizione del Gioco
 
-Ogni giocatore inizia con la forma concordata di palline di contatto. La versione documentata di JugglingWorld utilizza una piramide di quattro palline. I giocatori si muovono nell'arena e cercano di disturbare le forme degli altri giocatori mantenendo intatta la propria.
+Ogni giocatore inizia con la forma concordata di palle da contact juggling. La versione documentata di JugglingWorld utilizza una piramide di quattro palle. I giocatori si muovono nell'arena e cercano di disturbare le forme degli altri giocatori mantenendo intatta la propria.
 
-Un giocatore viene eliminato quando una pallina cade, la forma si rompe o utilizza un contatto illegale. Nella versione della piramide di quattro palline, i giocatori possono spingere la piramide di un altro giocatore solo con la propria piramide. Dita, mani libere, spinte del corpo e lanci non sono permessi. L'ultimo giocatore con la forma richiesta intatta vince.
+Un giocatore viene eliminato quando una palla cade, la forma si rompe o utilizza un contatto illegale. Nella versione della piramide di quattro palle, i giocatori possono urtare la piramide di un altro giocatore solo con la propria piramide. Dita, mani libere, spinte del corpo e lanci non sono permessi. Vince l'ultimo giocatore con la forma richiesta intatta.
 
 ## Preparazione
 
-- Concordare la forma richiesta, come una singola pallina in equilibrio o una piramide di quattro palline.
+- Concordare la forma richiesta, come una singola palla in equilibrio o una piramide di quattro palle.
 - Delimitare una piccola arena.
-- Definire il contatto legale prima dell'inizio del round.
+- Definire i contatti legali prima dell'inizio del round.
 
 ## Varianti
 
-- Utilizzare una singola pallina in equilibrio per i principianti.
-- Richiedere una piramide di quattro palline per i giocatori avanzati.
+- Utilizzare una singola palla in equilibrio per i principianti.
+- Richiedere una piramide di quattro palle per i giocatori avanzati.
 - Organizzare round lenti e silenziosi in cui la velocità non è permessa.
 
-## Note sulla Sicurezza
+## Note di Sicurezza
 
-Le palline di contatto possono essere pesanti. Mantenere il gioco lento e vietare lanci, colpi, spinte con le mani e contatti fisici.
+Le palle da contact juggling possono essere pesanti. Mantenere il gioco lento e vietare lanci, colpi, spinte con le mani e contatti fisici.
 
 ## Fonte
 
 - [JugglingWorld - Juggling Games](https://www.jugglingworld.biz/tricks/juggling-games/), sezione: Gladiators, titolo: Contact Juggling Gladiators.
-- [UCircus circus games page](https://ucircus.co.uk/resources-circus-games/), scheda sorgente: Contact Ball Gladiators.
-- Corsi UCircus: Contatto, Eliminazione, Equilibrio.
+- [UCircus circus games page](https://ucircus.co.uk/resources-circus-games/), scheda fonte: Contact Ball Gladiators.
+- Classi UCircus: Contact, Knockout, Balance.
 - Immagine di riferimento UCircus: `../img/contact-ball-gladiators.jpg`.

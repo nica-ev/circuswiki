@@ -12,8 +12,8 @@ authors:
   - Marc Bielert
 category:
   - sonstiges
-Schwierigkeit: einfach
-Material: keines
+Schwierigkeit: easy
+Material: "none"
 Spieldauer: 5-10
 source: unbekannt
 group-min: 5
@@ -25,10 +25,12 @@ translation_source_hash: 2e560f50acc4bfb851e0253b309f9ecadff47d791389947747e4ea4
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:54:34+00:00
 translation_source_body_hash: 2e560f50acc4bfb851e0253b309f9ecadff47d791389947747e4ea47e4991215
-translation_source_metadata_hash: 915556092bdf2820dd1e030b8098d22792d46105e574392f12f77409f13ed453
+translation_source_metadata_hash: 0f795ac5816dec10a3bf8b74751ecda8a17cd6e237b091b219d0b099c291e9f1
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:56:08+00:00
+translation_metadata_updated: 2026-06-14T16:09:45+00:00
+translation_source_localized_metadata_hash: 0f795ac5816dec10a3bf8b74751ecda8a17cd6e237b091b219d0b099c291e9f1
+translation_source_structural_metadata_hash: 1175e5ef517fd9e8afa0283c0c428b9fca704a69630de10898416c20646a0084
 ---
 > [!info] Brief Description
 > A reaction game where a group dodges slow, invisible sword movements and then reforms.

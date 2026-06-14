@@ -6,14 +6,14 @@ tags:
   - spiele
 created: 2025-01-24 03:50:51
 update: 2025-03-17 02:24:27
-title: Tiro alla fune umano
-description: Un gioco di squadra tattico in cui catene umane trascinano i giocatori avversari nella propria metà del campo.
+title: Tiro alla fune umana
+description: Un gioco di squadra tattico in cui catene umane tirano persone avversarie nella propria metà del campo.
 authors:
   - Marc Bielert
 category:
   - Taktik
-Schwierigkeit: mittel
-Material: keines
+Schwierigkeit: medio
+Material: nessuno
 Spieldauer: 5-9
 source: Tasifan Spielebuch
 group-min: 12
@@ -25,10 +25,12 @@ translation_source_hash: 2f94495eb3a404ccc4c25887c53605b68ccfc7c0f856f1b7940f6d9
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:06:44+00:00
 translation_source_body_hash: 2f94495eb3a404ccc4c25887c53605b68ccfc7c0f856f1b7940f6d975a0ef1ab
-translation_source_metadata_hash: 92f562face3923b26d134c38867c96dfc0a0a65b84b5fe58b396df331ca3ae82
+translation_source_metadata_hash: 7c42f4e1dc07e8a4afb820b96356fae72167874f8921d14cb2871c7944a0e48c
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:58:37+00:00
+translation_metadata_updated: 2026-06-14T16:11:56+00:00
+translation_source_localized_metadata_hash: 7c42f4e1dc07e8a4afb820b96356fae72167874f8921d14cb2871c7944a0e48c
+translation_source_structural_metadata_hash: 2f7a3bfc501bc8c1f2a97ceea8859d9923fe34628fca24d9522f87d513bc3b9f
 ---
 > [!info] Breve descrizione
 > Un gioco di squadra tattico in cui catene umane trascinano i giocatori avversari nella propria metà del campo.

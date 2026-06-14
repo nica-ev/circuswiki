@@ -10,8 +10,8 @@ tags:
   - catching
 created: 2026-06-12 00:00:00
 update: 2026-06-12 22:45:03
-title: Najvyšší hod diabola
-description: Súťaž v hádzaní diabola, kde vyhráva najvyšší čistý hod a chyt.
+title: Diabolo Najvyšší hod
+description: Súťaž v hádzaní diabola, kde vyhráva najvyšší čistý hod a chytenie.
 authors:
   - CircusWiki contributors
 category:
@@ -19,8 +19,8 @@ category:
   - diabolo
   - throwing
   - catching
-Schwierigkeit: "mittel"
-Material: "One diabolo and handsticks per player, open high space"
+Schwierigkeit: stredná
+Material: Jedno diabolo a paličky na hráča, otvorený vysoký priestor
 Spieldauer: "5-10"
 group-min: 2
 group-max: 40
@@ -35,19 +35,21 @@ source_permission: "public-place images reviewed as reusable by project maintain
 aliases:
   - Highest Throw
 translation_source: docs/en/diabolo-highest-throw.md
-translation_source_body_hash: c3162937bee4493f593c9f81cf481815c573d6987b324367766d1839ce477763
-translation_source_hash: c3162937bee4493f593c9f81cf481815c573d6987b324367766d1839ce477763
+translation_source_body_hash: b66ce9655589d49184595dfe9733a4b83b29ab92f9f4f1f161185325423ef411
+translation_source_hash: b66ce9655589d49184595dfe9733a4b83b29ab92f9f4f1f161185325423ef411
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-12T21:15:45+00:00
-translation_source_metadata_hash: f52f7c7bf3f1d71b41767f4bf71ce499aa0734345d320e3cbf10f98d2e04a397
+translation_updated: 2026-06-14T19:28:27+00:00
+translation_source_metadata_hash: b60fe45a1e155575c078bea0e94e472f0d7ed9e027c1bc8e12bdc70a5be66376
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T21:15:45+00:00
+translation_metadata_updated: 2026-06-14T19:28:27+00:00
+translation_source_localized_metadata_hash: b60fe45a1e155575c078bea0e94e472f0d7ed9e027c1bc8e12bdc70a5be66376
+translation_source_structural_metadata_hash: 28272c76a617bb54caa13fa874e48c644ad1f882db6519d1f0fd0a9cd7e08043
 ---
 > [!info] Stručný popis
 > Súťaž v hádzaní diabola, kde vyhráva najvyšší čistý hod a chyt.
 
-![[../img/diabolo-highest-throw.jpg|300]]
+![diabolo-highest-throw](../img/diabolo-highest-throw.jpg){ width=300 }
 
 **Veľkosť skupiny**: 2 až 40 hráčov
 **Obtiažnosť**: stredná
@@ -56,20 +58,20 @@ translation_metadata_updated: 2026-06-12T21:15:45+00:00
 
 ## Popis hry
 
-Všetci hráči súčasne hodia svoje diabolo vysoko do vzduchu a musia ho čisto chytiť, aby zostali v hre. Hráč vypadáva, ak je hod nebezpečný, nedá sa chytiť alebo nie je chytený čisto.
+Všetci hráči súčasne hodia svoje diabolo vysoko a musia ho čisto chytiť, aby zostali v hre. Hráč vypadáva, ak je hod nebezpečný, nedá sa chytiť alebo nie je chytený čisto.
 
 Opakujte kolá, kým nezostane len niekoľko hráčov. Vo finále vyhráva hráč, ktorý predvedie najvyšší bezpečný hod a zároveň ho aj chytí.
 
 ## Príprava
 
 - Použite vysokú vnútornú halu alebo vonkajší priestor bez prekážok nad hlavou.
-- Označte priestor na hádzanie a držte divákov ďaleko od zóny dopadu.
+- Vyznačte priestor na hádzanie a držte divákov ďaleko od zóny dopadu.
 - Rozhodnite sa, či hráči musia chytiť svoje vlastné diabolo, alebo môžu chytiť akékoľvek diabolo.
 
 ## Variácie
 
-- Povolenie chytiť akékoľvek diabolo pre chaotickú hru.
-- Požadovať od každého hráča, aby chytil svoje vlastné diabolo, pre prísnejšiu verziu.
+- Povoliť chytanie akéhokoľvek diabola pre chaotické skupinové hranie.
+- Vyžadovať od každého hráča, aby chytil svoje vlastné diabolo, pre prísnejšiu verziu.
 - Namiesto výšky použiť vzdialenosť od seba.
 - Povoliť chytanie v pároch pre tímovú verziu.
 

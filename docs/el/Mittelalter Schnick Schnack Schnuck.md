@@ -6,14 +6,14 @@ tags:
   - spiele
 created: 2025-01-24 03:50:51
 update: 2025-03-18 03:09:21
-title: Μεσαίωνας Ψιλοκομμένο Ψιλοκομμένο Ψιλοκομμένο
+title: Μεσαίωνας Σνικ Σνακ Σνουκ
 description: 
 authors:
   - Marc Bielert
 category:
   - fangen
-Schwierigkeit: einfach
-Material: keines
+Schwierigkeit: εύκολο
+Material: κανένα
 Spieldauer: 5 - 15
 source: unbekannt
 group-min: 6
@@ -26,10 +26,12 @@ translation_source_hash: 707aa42bec113838c1a7427c059d89efe9d634bd3feb29f274a1fd4
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-07T13:49:59+00:00
 translation_source_body_hash: 707aa42bec113838c1a7427c059d89efe9d634bd3feb29f274a1fd43ef6b7969
-translation_source_metadata_hash: 93c794f92c3d5e8b4e09e2f32b2143b707a24d1d778daebcea84a7ad73ae9570
+translation_source_metadata_hash: c7e74b701224255007ac9d56b85082b62471b12883e460d6b52f2496606c75e4
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:59:14+00:00
+translation_metadata_updated: 2026-06-14T16:12:37+00:00
+translation_source_localized_metadata_hash: c7e74b701224255007ac9d56b85082b62471b12883e460d6b52f2496606c75e4
+translation_source_structural_metadata_hash: 4ac33a282ae5f4ed1178162538fb1dcc27b6f471c6f2c714c8f96ebb6466235d
 ---
 # Μεσαίωνας Ψαλίδι-Πέτρα-Ψαλίδι
 

@@ -7,13 +7,13 @@ tags:
 created: 2025-01-24 03:50:50
 update: 2025-03-17 02:15:56
 title: Mačka a myš
-description: Náročná kruhová hra, v ktorej mačka a myš naháňajú a unikajú striedaním pozícií v kruhu.
+description: Náročná kruhová hra, v ktorej mačka a myš naháňajú a unikajú pomocou meniacej sa pozície v kruhu.
 authors:
   - Marc Bielert
 category:
   - bewegung
-Schwierigkeit: schwer
-Material: keines
+Schwierigkeit: ťažká
+Material: žiadny
 Spieldauer: 5-10
 source: Tasifan Spielebuch
 group-min: 10
@@ -25,10 +25,12 @@ translation_source_hash: 48db9fef26e9b65614d1fc36afd317e2ed04ff6795aded11e5d6625
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:47:47+00:00
 translation_source_body_hash: 48db9fef26e9b65614d1fc36afd317e2ed04ff6795aded11e5d6625732a3a4ab
-translation_source_metadata_hash: a519c6614951a5b2798de86772612f6a597177dd3ffa03f11671b76b50ca43d8
+translation_source_metadata_hash: 85d36c76feab8bd7dcab44a928573e2891a0d4111757256e91e832753c847d85
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:53:19+00:00
+translation_metadata_updated: 2026-06-14T16:06:54+00:00
+translation_source_localized_metadata_hash: 85d36c76feab8bd7dcab44a928573e2891a0d4111757256e91e832753c847d85
+translation_source_structural_metadata_hash: 9c771e42789e6ecd29eb52bb1274c0e6359c67c3cbc65b19a3bd5b0db6b80974
 ---
 > [!info] Stručný popis
 > Náročná kruhová hra, v ktorej mačka a myš medzi meniacimi sa pozíciami v kruhu naháňajú a utekajú.

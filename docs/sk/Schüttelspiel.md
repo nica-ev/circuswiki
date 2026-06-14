@@ -6,14 +6,14 @@ tags:
   - spiele
 created: 2025-02-01 02:28:21
 update: 2025-03-17 01:40:32
-title: Hádzacia hra
-description: Rečová a pohybová hra, pri ktorej sa skupiny navzájom vyzývajú na spoločné trasenie.
+title: Hra s trasením
+description: Rečová a pohybová hra, pri ktorej sa skupiny navzájom vyzývajú k spoločnému traseniu.
 authors:
   - Marc Bielert
 category:
   - warm-up
-Schwierigkeit: einfach
-Material: keines
+Schwierigkeit: ľahká
+Material: žiadne
 Spieldauer: 5-10
 source:
   - Tasifan Spielebuch
@@ -26,10 +26,12 @@ translation_source_hash: c9d82a6876e3a106b519554849b22ea5121f1b642bdd0b6612b7b12
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:22:32+00:00
 translation_source_body_hash: c9d82a6876e3a106b519554849b22ea5121f1b642bdd0b6612b7b123c6689f75
-translation_source_metadata_hash: 8ddc12ef17cbe6d405aae31a2a680606cbb6d8a9e78fe14513021ffbc74793de
+translation_source_metadata_hash: b3c6eb2ee7825b4f935709288b3a7ca15e2699e29d2481feccdd85ec36e6c8ed
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T19:06:22+00:00
+translation_metadata_updated: 2026-06-14T16:19:21+00:00
+translation_source_localized_metadata_hash: b3c6eb2ee7825b4f935709288b3a7ca15e2699e29d2481feccdd85ec36e6c8ed
+translation_source_structural_metadata_hash: 82774b69548346131777843b804dcee02d1738e0a2e4392d444ca8da08e9c363
 ---
 > [!info] Stručný popis
 > Rečová a pohybová hra, pri ktorej sa skupiny navzájom vyzývajú na spoločné „trieštenie“.

@@ -12,8 +12,8 @@ tags:
   - novelty-games
 created: 2026-06-12 00:00:00
 update: 2026-06-12 22:21:45
-title: Μονοκεροί Μονομάχοι
-description: Μια παραλλαγή κλασικών μονομάχων όπου οι παίκτες κάνουν ζογκλερικά ενώ φορούν ένα kendama ή ένα προεξέχον αξεσουάρ στο μέτωπο.
+title: Μονοκερμάντες Μονομάχοι
+description: Μια κλασική παραλλαγή μονομάχων όπου οι παίκτες κάνουν ζογκλερικά ενώ φορούν ένα kendama ή ένα κέρατο στο μέτωπο.
 authors:
   - CircusWiki contributors
 category:
@@ -21,8 +21,8 @@ category:
   - gladiators
   - juggling
   - novelty-games
-Schwierigkeit: "schwer"
-Material: "Three clubs or another gladiators prop per player, plus a kendama or safer soft horn substitute"
+Schwierigkeit: δύσκολο
+Material: Τρεις ρόπαλα ή άλλο αντικείμενο μονομάχων ανά παίκτη, συν ένα kendama ή ασφαλέστερο μαλακό υποκατάστατο κέρατου
 Spieldauer: "5-10"
 group-min: 3
 group-max: 30
@@ -37,10 +37,12 @@ translation_source_body_hash: d8689d0f1d167643ab6d0ef77e7f578bc9fd673b934a55457c
 translation_source_hash: d8689d0f1d167643ab6d0ef77e7f578bc9fd673b934a55457c1349007ab7dceb
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-12T21:36:43+00:00
-translation_source_metadata_hash: 327b3d547343a63ab8fb6efeeef544d5f4304bda2bda1b520a6a05cb72386902
+translation_source_metadata_hash: a0052916556719cdb54abc1d66bba32ea9e80516847a0e01c8002f0a35f9b03d
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T21:36:43+00:00
+translation_metadata_updated: 2026-06-14T16:04:29+00:00
+translation_source_localized_metadata_hash: a0052916556719cdb54abc1d66bba32ea9e80516847a0e01c8002f0a35f9b03d
+translation_source_structural_metadata_hash: 168d829fa6a5e56fa49799b5bd1a1b47e81bc76adc30df85856fe32ef2b34ec8
 ---
 > [!info] Σύντομη Περιγραφή
 > Μια παραλλαγή των κλασικών μονομάχων όπου οι παίκτες κάνουν ζογκλερικά ενώ φορούν ένα kendama ή ένα κέρατο στο μέτωπο.

@@ -6,14 +6,14 @@ tags:
   - spiele
 created: 2025-01-24 03:50:51
 update: 2025-03-17 05:43:02
-title: Robert, tulenící se tuleň
-description: Hra se jmény, při které se opakují a zapamatovávají si jména s odpovídajícím přídavným jménem a zvířetem nebo povoláním.
+title: Robert, plovoucí tulen
+description: Hra se jmény, kde se opakují a pamatují si jména s odpovídajícím přídavným jménem a zvířetem nebo povoláním.
 authors:
   - Marc Bielert
 category:
   - kennenlernen
-Schwierigkeit: einfach
-Material: keines
+Schwierigkeit: lehká
+Material: žádný
 Spieldauer: 3 - 10
 source:
   - Tasifan Spielebuch
@@ -26,10 +26,12 @@ translation_source_hash: c3e85c1d0d9ca01bc17bdc23ce68673bab80f74530a1ee51fc46320
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:13:19+00:00
 translation_source_body_hash: c3e85c1d0d9ca01bc17bdc23ce68673bab80f74530a1ee51fc463204db0bfb42
-translation_source_metadata_hash: a5fa54b841626d87766e6148db415bb58c2f718f8a832661308df4b84fcbe0a0
+translation_source_metadata_hash: cfcfbfe5a37a94f80dd37f904c610c5b7222bff3ef657bf1ece9311dea8ab6b2
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T19:04:19+00:00
+translation_metadata_updated: 2026-06-14T16:17:32+00:00
+translation_source_localized_metadata_hash: cfcfbfe5a37a94f80dd37f904c610c5b7222bff3ef657bf1ece9311dea8ab6b2
+translation_source_structural_metadata_hash: 77d538198a1532ab38a49a3ea4015daf75741305fca4ff4d8ba95a919f339f85
 ---
 > [!info] Stručný popis
 > Jmenná hra, při které se opakují a zapamatovávají jména s odpovídajícím přídavným jménem a zvířetem nebo povoláním.

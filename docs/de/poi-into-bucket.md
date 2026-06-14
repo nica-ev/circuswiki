@@ -10,7 +10,7 @@ tags:
   - target
 created: 2026-06-12 00:00:00
 update: 2026-06-12 22:00:07
-title: Poi in den Eimer
+title: Poi in Eimer
 description: Poi-Spinner beginnen mit einem Kreuz-und-Folge-Muster.
 authors:
   - CircusWiki contributors
@@ -19,8 +19,8 @@ category:
   - miscellaneous
   - throwing
   - target
-Schwierigkeit: "mittel"
-Material: "Poi, bucket"
+Schwierigkeit: mittel
+Material: Poi, Eimer
 Spieldauer: "5-15"
 group-min: 2
 group-max: 40
@@ -35,10 +35,12 @@ translation_source_body_hash: aea2b98e7d1443aa74b49e4998fc01bbb5d474114203164c3a
 translation_source_hash: aea2b98e7d1443aa74b49e4998fc01bbb5d474114203164c3ae568690ebbf8c0
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-12T21:29:57+00:00
-translation_source_metadata_hash: 92db2191c4c5563ce85428c97b545680878c385c1a87e06a24a9693e43b23bf0
+translation_source_metadata_hash: 5565dc2bdbb8ef3d2f6b1469e0ccd6c4c42e2e2bf1c95c4138336b3c69b8a1df
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T21:29:57+00:00
+translation_metadata_updated: 2026-06-14T16:02:09+00:00
+translation_source_localized_metadata_hash: 5565dc2bdbb8ef3d2f6b1469e0ccd6c4c42e2e2bf1c95c4138336b3c69b8a1df
+translation_source_structural_metadata_hash: 40b808e2fa5f7ae7bc0c8d1337b93b7885c5af1bcec218ebf186add698b84cb8
 ---
 > [!info] Kurzbeschreibung
 > Poi-Spinner beginnen mit einem Kreuz-und-Folge-Muster.

@@ -17,7 +17,6 @@ organisation:
 translation_status: original
 translation_source_lang: en
 ---
-
 # **The Juggle Board in Kindergarten**
 
 **Almáskert Kindergarten – District III, Budapest, Hungary**  
@@ -39,7 +38,7 @@ I began by integrating the Juggle Board into **individual or small-group movemen
 
 ---
 
-![hungary-1-2.jpg|200](../img/hungary-1-2.jpg){ align=right }
+![hungary-1-2.jpg](../img/hungary-1-2.jpg){ align=right width=200 }
 ## **Early Experiences and Functional Use**
 
 I first used the Juggle Board with **children with physical disabilities**, specifically to support **functional improvement**. For one girl, both upper limbs were affected due to central nervous system impairment, making **shoulder and hand flexion movements extremely difficult**. The Juggle Board proved to be an exciting new tool for her.
@@ -56,7 +55,7 @@ I often let her take the lead in the activity. I noticed that this **sense of co
 
 ---
 
-![hungary-1-1.jpg|200](../img/hungary-1-1.jpg){ align=left }
+![hungary-1-1.jpg](../img/hungary-1-1.jpg){ align=left width=200 }
 ## **Adapting for Lower Limb Engagement**
 
 In another case, I worked with a child who had significant **leg length discrepancy**. We used the Juggle Board with the **feet**. Our goal was to **activate the shorter leg**, which had limited movement due to an orthosis and was underused in daily life. After we found the right position, the child played using **only the affected leg**.
@@ -86,7 +85,7 @@ We also use the Juggle Board in **group movement development classes**, particul
 
 ---
 
-![hungary-1-3.jpg|200](../img/hungary-1-3.jpg){ align=left }
+![hungary-1-3.jpg](../img/hungary-1-3.jpg){ align=left width=200 }
 
 ## **Social Integration and Observation**
 

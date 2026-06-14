@@ -7,7 +7,7 @@ tags:
   - tutorial
 created: 2025-01-18 23:14:04
 update: 2026-06-12 18:26:00
-title: GitHub - direct meewerken in de repository
+title: GitHub - Direct meewerken in de repository
 authors:
   - Marc Bielert
 translation_status: machine-translated
@@ -17,10 +17,12 @@ translation_source_hash: 8125fe4a8331e806a2b0d103dd38dbfda6e82793ffa37265095b73a
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-12T17:31:23+00:00
 translation_source_body_hash: 8125fe4a8331e806a2b0d103dd38dbfda6e82793ffa37265095b73ad0217bdf2
-translation_source_metadata_hash: ac5f43c5c49905b729ab3c3f288e96be0cf997b5a5f1e94ca4f7eb6a77c1686f
+translation_source_metadata_hash: 2a66a70e78516539cd6e01bb623a9a0267cfab77111903ce6a9a9dd30aac506c
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T17:31:23+00:00
+translation_metadata_updated: 2026-06-14T15:51:17+00:00
+translation_source_localized_metadata_hash: 2a66a70e78516539cd6e01bb623a9a0267cfab77111903ce6a9a9dd30aac506c
+translation_source_structural_metadata_hash: 69966c4b32b093dc5fdaa8e7127a710d8477892c36f2859ba38215866bb73327
 ---
 > [!info] Kort samengevat
 > Deze pagina is bedoeld voor mensen die direct aan de Markdown-bestanden van CircusWiki willen werken. Voor normale bijdragen heb je deze weg niet nodig: je kunt materiaal ook gewoon per e-mail sturen.

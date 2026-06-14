@@ -12,8 +12,8 @@ authors:
   - Marc Bielert
 category:
   - kreisspiel
-Schwierigkeit: einfach
-Material: keines
+Schwierigkeit: легко
+Material: немає
 Spieldauer: 5-10
 source: unbekannt
 group-min: 5
@@ -25,10 +25,12 @@ translation_source_hash: b0d2f83e72ef53f355510fd756340f24783f56e277049f1f28985be
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:11:57+00:00
 translation_source_body_hash: b0d2f83e72ef53f355510fd756340f24783f56e277049f1f28985bed7e39e6e7
-translation_source_metadata_hash: f96b42e4ad8ef541c87a8f4c598d3e7ca4e3644e40479a078a761c1fe20a3de8
+translation_source_metadata_hash: 343c35e15e8ca9dd4b973cd165dd27af5d28eadb213f7522e1d932e932bbac03
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T19:03:02+00:00
+translation_metadata_updated: 2026-06-14T16:16:23+00:00
+translation_source_localized_metadata_hash: 343c35e15e8ca9dd4b973cd165dd27af5d28eadb213f7522e1d932e932bbac03
+translation_source_structural_metadata_hash: c43e2fbdfdaac761d880e512a043ff649e7b04b3a09044dffc469780260d4e7e
 ---
 > [!info] Короткий опис
 > Спокійна гра в колі, під час якої учасники за домовленістю через зоровий контакт міняються місцями, залишаючись уважними.

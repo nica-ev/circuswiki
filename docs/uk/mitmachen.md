@@ -5,7 +5,7 @@ publish: true
 tags:
 created: 2025-01-21 01:47:28
 update: 2026-06-12 18:17:45
-title: Долучитися
+title: Приєднуйтесь
 authors:
   - Marc Bielert
 translation_status: machine-translated
@@ -15,10 +15,12 @@ translation_source_hash: f45d78cb8502ac725da124cbc15aa0d1153c8ba1d911766dd644e19
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-12T17:34:41+00:00
 translation_source_body_hash: f45d78cb8502ac725da124cbc15aa0d1153c8ba1d911766dd644e193a1952c02
-translation_source_metadata_hash: 0a34ce364a442626bc2203bf465871433e38f68482a8053ea6eaf76ac38c43c8
+translation_source_metadata_hash: 586432ba9fd06e1a2aee20e87229a066aecb9ee63684c2f045c1c11a6288261c
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T17:34:41+00:00
+translation_metadata_updated: 2026-06-14T16:12:24+00:00
+translation_source_localized_metadata_hash: 586432ba9fd06e1a2aee20e87229a066aecb9ee63684c2f045c1c11a6288261c
+translation_source_structural_metadata_hash: 90f8b34ebfc86a98676062781de93f0106cc16f878e700db619a5243fcfcca67
 ---
 > [!info] Коротко кажучи
 > CircusWiki — це загальнодоступна, курована база знань з циркової педагогіки, рухливих ігор, інклюзивної практики та суміжних тем. Вона розвивається завдяки людям, які діляться своїм досвідом, матеріалами та ідеями.

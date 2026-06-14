@@ -7,13 +7,13 @@ tags:
 created: 2025-01-24 03:50:51
 update: 2025-03-17 05:43:02
 title: Robert la foca corredora
-description: Un juego de nombres donde se repiten y recuerdan nombres con adjetivos y animales o profesiones apropiados.
+description: Un juego de nombres donde se repiten y recuerdan nombres con adjetivo y animal o profesión adecuados.
 authors:
   - Marc Bielert
 category:
   - kennenlernen
-Schwierigkeit: einfach
-Material: keines
+Schwierigkeit: fácil
+Material: ninguno
 Spieldauer: 3 - 10
 source:
   - Tasifan Spielebuch
@@ -26,10 +26,12 @@ translation_source_hash: c3e85c1d0d9ca01bc17bdc23ce68673bab80f74530a1ee51fc46320
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:13:14+00:00
 translation_source_body_hash: c3e85c1d0d9ca01bc17bdc23ce68673bab80f74530a1ee51fc463204db0bfb42
-translation_source_metadata_hash: a5fa54b841626d87766e6148db415bb58c2f718f8a832661308df4b84fcbe0a0
+translation_source_metadata_hash: cfcfbfe5a37a94f80dd37f904c610c5b7222bff3ef657bf1ece9311dea8ab6b2
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T19:04:16+00:00
+translation_metadata_updated: 2026-06-14T16:17:29+00:00
+translation_source_localized_metadata_hash: cfcfbfe5a37a94f80dd37f904c610c5b7222bff3ef657bf1ece9311dea8ab6b2
+translation_source_structural_metadata_hash: 77d538198a1532ab38a49a3ea4015daf75741305fca4ff4d8ba95a919f339f85
 ---
 > [!info] Descripción breve
 > Un juego de nombres en el que se repiten y recuerdan nombres con un adjetivo y un animal o profesión a juego.

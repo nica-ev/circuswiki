@@ -27,6 +27,8 @@ class DynamicBlock:
             errors.append("missing base")
         if not self.config.get("view"):
             errors.append("missing view")
+        if self.config.get("columns"):
+            errors.append("columns is not supported; configure columns in the Obsidian Base view")
         return errors
 
 
@@ -110,3 +112,24 @@ def replace_block_contents(text: str, replacements: dict[int, str]) -> str:
         cursor = block.content_end
     pieces.append(text[cursor:])
     return "".join(pieces)
+
+
+def sync_block_markers(text: str, source_text: str) -> tuple[str, list[str]]:
+    blocks = parse_dynamic_blocks(text)
+    source_blocks = parse_dynamic_blocks(source_text)
+    warnings: list[str] = []
+    if not blocks or not source_blocks:
+        return text, warnings
+    if len(blocks) != len(source_blocks):
+        warnings.append(f"dynamic block count differs from source: target {len(blocks)}, source {len(source_blocks)}")
+        return text, warnings
+
+    pieces: list[str] = []
+    cursor = 0
+    for block, source_block in zip(blocks, source_blocks):
+        pieces.append(text[cursor:block.start])
+        pieces.append(source_block.marker_text)
+        pieces.append(text[block.start + len(block.marker_text):block.content_start])
+        cursor = block.content_start
+    pieces.append(text[cursor:])
+    return "".join(pieces), warnings

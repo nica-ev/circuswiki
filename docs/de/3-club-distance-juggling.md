@@ -12,7 +12,7 @@ tags:
 created: 2026-06-12 00:00:00
 update: 2026-06-12 20:51:32
 title: 3 Keulen Distanzjonglage
-description: Eine Distanzherausforderung, bei der einzelne Jongleure oder Paare versuchen, das Jonglieren/Passen mit drei Keulen über zunehmende Distanzen aufrechtzuerhalten.
+description: Eine Distanzherausforderung, bei der Einzelpersonen oder Paare versuchen, das Jonglieren/Passen mit drei Keulen über zunehmende Distanzen aufrechtzuerhalten.
 authors:
   - CircusWiki contributors
 category:
@@ -20,7 +20,7 @@ category:
   - juggling
   - distance
 Schwierigkeit: mittel
-Material: Juggling clubs, distance markers
+Material: Jonglierkeulen, Distanzmarkierungen
 Spieldauer: "5-15"
 group-min: 2
 group-max: 40
@@ -31,19 +31,21 @@ source_url: https://ucircus.co.uk/resources-circus-games/
 source_image: ../img/3-club-distance-juggling.jpg
 source_permission: public group photo reviewed as reusable by project maintainer
 translation_source: docs/en/3-club-distance-juggling.md
-translation_source_body_hash: e64ff8e6fb291ab2f6e07fe9464701c2c328761227d7fab9924773433ae7c2d4
-translation_source_hash: e64ff8e6fb291ab2f6e07fe9464701c2c328761227d7fab9924773433ae7c2d4
+translation_source_body_hash: 8ef1f3a322ba2b49eb57f080927c412aeb319ac10977cf8bbe39a6c87c409845
+translation_source_hash: 8ef1f3a322ba2b49eb57f080927c412aeb319ac10977cf8bbe39a6c87c409845
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-12T21:40:51+00:00
-translation_source_metadata_hash: 1282561472a4f46a221d523caf99715313967348cb591a20630cea59a3ff2c5a
+translation_updated: 2026-06-14T19:35:45+00:00
+translation_source_metadata_hash: 93631322638278a1fa231a1e1f32ed84a4a18a3577b0ddbc38b746b9680be084
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T21:40:51+00:00
+translation_metadata_updated: 2026-06-14T19:35:45+00:00
+translation_source_localized_metadata_hash: 93631322638278a1fa231a1e1f32ed84a4a18a3577b0ddbc38b746b9680be084
+translation_source_structural_metadata_hash: 3a2fe11404dd5c6f9c3543b3d3f7b628bed2e718a13c298bb3be52a62a632b77
 ---
 > [!info] Kurzbeschreibung
-> Eine Distanz-Herausforderung, bei der Einzelpersonen oder Paare versuchen, das Jonglieren/Passen mit Keulen über zunehmende Distanzen aufrechtzuerhalten.
+> Eine Distanz-Herausforderung, bei der Jongleure oder Paare versuchen, das Jonglieren/Passen mit Keulen über zunehmende Distanzen aufrechtzuerhalten.
 
-![[../img/3-club-distance-juggling.jpg|300]]
+![3-club-distance-juggling](../img/3-club-distance-juggling.jpg){ width=300 }
 
 **Gruppengröße**: 2 bis 40 Spieler
 **Schwierigkeitsgrad**: mittel
@@ -52,19 +54,19 @@ translation_metadata_updated: 2026-06-12T21:40:51+00:00
 
 ## Spielbeschreibung
 
-Die Spieler testen, wie viel Distanz sie aufbauen können, während sie Keulenwürfe kontrolliert halten. Der UCircus-Titel deutet auf eine Variante mit drei Keulen hin; das am nächsten dokumentierte Konventionsspiel ist das Weitdistanz-Keulenpassen.
+Die Spieler testen, welche Distanz sie unter Beibehaltung kontrollierter Keulenwürfe erreichen können. Der UCircus-Titel deutet auf eine Variante mit drei Keulen hin; das am nächsten dokumentierte Konventionsspiel ist das Weitdistanz-Keulenpassen.
 
 ## Aufbau
 
 - Eine Startlinie und Distanzmarkierungen festlegen.
-- Entscheiden, ob das Spiel solo oder im Paar gespielt wird.
+- Entscheiden, ob das Spiel einzeln oder zu zweit gespielt wird.
 - Den Spielern eine kurze Übungsrunde geben, um sich auf Wurfhöhe und Bewegung zu einigen.
 
 ## Regeln
 
 1. Spieler oder Paare beginnen mit der Startdistanz.
-2. In der Paarvariante passen sich die Partner die Keulen zu und treten weiter auseinander, während sie das Muster aufrechterhalten.
-3. In der Solo-Variante macht ein Spieler einen weiten Wurf, bewegt sich zum Fang und setzt das Jonglieren fort.
+2. In der Partnerversion passen sich die Partner die Keulen zu und treten weiter auseinander, während sie das Muster aufrechterhalten.
+3. In der Einzelversion wirft ein Spieler eine Keule weit, bewegt sich zum Fang und setzt das Jonglieren fort.
 4. Ein Fallenlassen oder ein fehlgeschlagener Fang beendet den Versuch und legt die Enddistanz fest.
 5. Die größte fehlerfreie Distanz gewinnt.
 
@@ -76,13 +78,13 @@ Die Spieler testen, wie viel Distanz sie aufbauen können, während sie Keulenw�
 
 ## Sicherheitshinweise
 
-Weite Keulenwürfe können unvorhersehbar fliegen. Halten Sie die Wurfbahn frei.
+Weite Keulenwürfe können unvorhersehbar sein. Halten Sie die Wurfbahn frei.
 
 ## Quelle
 
-- UCircus-Quellenkarte: [3 Club Distance Juggling](https://ucircus.co.uk/resources-circus-games/)
-- UCircus-Kurse: Keulen, Knockout, Jonglieren
+- UCircus-Karte: [3 Club Distance Juggling](https://ucircus.co.uk/resources-circus-games/)
+- UCircus-Kurse: Clubs, Knockout, Juggling
 - Lokales Quellbild: `../img/3-club-distance-juggling.jpg`
-- Quellenbearbeitung: Teilweise unterstützt durch Beschreibungen des Weitdistanz-Keulenpassens; die genaue UCircus-Variante mit drei Keulen muss bestätigt werden.
-- Zusätzliche Referenz: [JugglingWorld Jonglierspiele](https://www.jugglingworld.biz/tricks/juggling-games/)
-- Zusätzliche Referenz für Gladiatoren-/Kampfkontext: [Combat (Jonglieren)](https://en.wikipedia.org/wiki/Combat_(juggling))
+- Quellbearbeitung: Teilweise unterstützt durch Beschreibungen des Weitdistanz-Keulenpassens; die genaue UCircus-Variante mit drei Keulen muss noch bestätigt werden.
+- Zusätzlicher Verweis: [JugglingWorld Jonglierspiele](https://www.jugglingworld.biz/tricks/juggling-games/)
+- Zusätzlicher Verweis für Gladiatoren-/Kampfkontext: [Combat (Juggling)](https://en.wikipedia.org/wiki/Combat_(juggling))

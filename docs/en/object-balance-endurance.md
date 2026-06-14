@@ -31,11 +31,10 @@ source_section: "Balancing Games"
 source_image: "../img/games-club-balance-guiness.jpg"
 source_permission: "public-place image reviewed as reusable by project maintainer"
 ---
-
 > [!info] Short Description
 > Players balance an agreed object, such as a club or even a unicycle, on the chin or another defined balance point.
 
-![[../img/games-club-balance-guiness.jpg|300]]
+![games-club-balance-guiness](../img/games-club-balance-guiness.jpg){ width=300 }
 
 **Group Size**: 3 to 60 players  
 **Difficulty**: schwer  

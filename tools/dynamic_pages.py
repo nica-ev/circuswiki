@@ -21,11 +21,13 @@ def main() -> None:
     preview_parser = subparsers.add_parser("preview", help="Render without writing")
     preview_parser.add_argument("path", nargs="?")
     preview_parser.add_argument("--lang", default="")
+    preview_parser.add_argument("--all-languages", action="store_true", help="Preview all configured language folders")
 
     refresh_parser = subparsers.add_parser("refresh", help="Render and write dynamic blocks")
     refresh_parser.add_argument("path", nargs="?")
     refresh_parser.add_argument("--lang", default="")
     refresh_parser.add_argument("--all", action="store_true", help="Refresh all matching pages")
+    refresh_parser.add_argument("--all-languages", action="store_true", help="Refresh all configured language folders")
 
     args = parser.parse_args()
 
@@ -36,12 +38,26 @@ def main() -> None:
         print_json(check_dynamic_pages(path=args.path or "", language=args.lang))
         return
     if args.command == "preview":
-        print_json(refresh_dynamic_pages(path=args.path or "", language=args.lang, dry_run=True))
+        print_json(
+            refresh_dynamic_pages(
+                path=args.path or "",
+                language=args.lang,
+                dry_run=True,
+                all_languages=args.all_languages,
+            )
+        )
         return
     if args.command == "refresh":
-        if not args.path and not args.all:
+        if not args.path and not args.all and not args.all_languages:
             parser.error("refresh requires a path or --all")
-        print_json(refresh_dynamic_pages(path=args.path or "", language=args.lang, dry_run=False))
+        print_json(
+            refresh_dynamic_pages(
+                path=args.path or "",
+                language=args.lang,
+                dry_run=False,
+                all_languages=args.all_languages,
+            )
+        )
         return
 
 

@@ -31,11 +31,10 @@ source_url: https://ucircus.co.uk/resources-circus-games/
 source_image: ../img/club-gladiators.jpg
 source_permission: public group photo reviewed as reusable by project maintainer
 ---
-
 > [!info] Short Description
 > The classic convention combat game where club jugglers try to be the last person still juggling.
 
-![[../img/club-gladiators.jpg|300]]
+![club-gladiators](../img/club-gladiators.jpg){ width=300 }
 
 **Group Size**: 3 to 80 players
 **Difficulty**: schwer

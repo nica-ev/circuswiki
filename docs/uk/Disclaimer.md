@@ -15,10 +15,12 @@ translation_source_hash: 62fd006da79a6f1be92966ce1673099aeec028903369dcebe4c5727
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-07T14:21:20+00:00
 translation_source_body_hash: 62fd006da79a6f1be92966ce1673099aeec028903369dcebe4c572739241bd1a
-translation_source_metadata_hash: 1de61ea054e528aa7237d9f1b8307d78644c5c797dad2ee9ec81b62d8dc33de4
+translation_source_metadata_hash: 9ae43cb8cb5291bff611b7a3eb014245f3a6fc6a3961115db761d40228f1369e
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:10:11+00:00
+translation_metadata_updated: 2026-06-14T15:46:58+00:00
+translation_source_localized_metadata_hash: 9ae43cb8cb5291bff611b7a3eb014245f3a6fc6a3961115db761d40228f1369e
+translation_source_structural_metadata_hash: 76ce71964d0502772a82b44ad8b51ddd9aea752a5703372795077bdf8c99e29e
 ---
 ![EN_FundedbytheEU_RGB_POS.png](../img/EN_FundedbytheEU_RGB_POS.png)
 ## Про проєкти

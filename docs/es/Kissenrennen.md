@@ -12,8 +12,8 @@ authors:
   - Marc Bielert
 category:
   - action
-Schwierigkeit: mittel
-Material: Kissen
+Schwierigkeit: medio
+Material: Almohadas
 Spieldauer: 3
 source: Tasifan Spielebuch
 group-min: 10
@@ -25,10 +25,12 @@ translation_source_hash: 4e3e880998897cca69bef6acaa8f91240aa414857dc192752aa9dce
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:48:44+00:00
 translation_source_body_hash: 4e3e880998897cca69bef6acaa8f91240aa414857dc192752aa9dce3e5b81cbb
-translation_source_metadata_hash: eb096e6bbe2b2336bb7133128c0c9250f201d3633a92c39df16bd40a25a5c8a2
+translation_source_metadata_hash: 18ab9d73f5aa8e66d707b0964acb70f68dc9dcf9ddb19b4e6c0b5ba22f82eaac
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:53:53+00:00
+translation_metadata_updated: 2026-06-14T16:07:29+00:00
+translation_source_localized_metadata_hash: 18ab9d73f5aa8e66d707b0964acb70f68dc9dcf9ddb19b4e6c0b5ba22f82eaac
+translation_source_structural_metadata_hash: 7fb6412e00919b9df92bac05bf2bb4dde683c8cd88512bf0f0d6ed3c08d296f3
 ---
 > [!info] Breve descripción
 > Un juego rápido en equipo en círculo, en el que dos cojines se pasan dentro de los equipos y deben intentar alcanzarse mutuamente.

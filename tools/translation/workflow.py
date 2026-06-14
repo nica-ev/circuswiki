@@ -17,15 +17,18 @@ from core.languages import (
     language_codes,
     language_name as registry_language_name,
 )
+from dynamic.blocks import DynamicBlock, parse_dynamic_blocks
+from dynamic.workflow import render_block
 from .markdown import join_markdown, split_markdown
-from .metadata import ensure_scalars, frontmatter_blocks, missing_scalars, read_scalar, set_block, set_scalar
-from . import dynamic_link_labels, link_repair
+from .metadata import ensure_scalars, frontmatter_blocks, missing_scalars, read_scalar, remove_block, set_block, set_scalar
+from . import link_repair
 
 
 ROOT = Path(__file__).resolve().parents[2]
 DOCS = ROOT / "docs"
 DEFAULT_MODEL = "google/gemini-2.0-flash-001"
 DEFAULT_BASE_URL = "https://openrouter.ai/api/v1"
+TRANSLATION_METADATA_CONFIG = ROOT / "tools" / "config" / "translation_metadata.json"
 LANGUAGES = language_codes()
 DEFAULT_LANGUAGE = default_language()
 COMMON_FALLBACK_LANGUAGE = common_fallback_language()
@@ -40,15 +43,44 @@ BATCH_TRANSLATION_EXCLUDED_RELATIVE_PATHS = {
 MARKDOWN_LINK_RE = re.compile(r"(!?\[[^\]]*\]\()(?P<target>[^)\s]+(?:\s+\"[^\"]*\")?)(\))")
 WIKILINK_RE = re.compile(r"(!?\[\[)(?P<body>[^\]]+)(\]\])")
 LOCAL_LINK_RE = re.compile(r"^(?![a-z][a-z0-9+.-]*:|#|/|mailto:)(?P<path>[^#?]+?\.md)(?P<suffix>[#?].*)?$", re.IGNORECASE)
-TRANSLATABLE_METADATA_FIELDS = ("title", "description")
 BODY_HASH_FIELD = "translation_source_body_hash"
+LOCALIZED_METADATA_HASH_FIELD = "translation_source_localized_metadata_hash"
+STRUCTURAL_METADATA_HASH_FIELD = "translation_source_structural_metadata_hash"
 METADATA_HASH_FIELD = "translation_source_metadata_hash"
 LEGACY_HASH_FIELD = "translation_source_hash"
 TRANSLATION_FIELD_PREFIXES = ("translation_",)
+
+
+def language_name(language: str) -> str:
+    return registry_language_name(language)
+
+
+def load_translatable_metadata_fields() -> list[str]:
+    if not TRANSLATION_METADATA_CONFIG.is_file():
+        return ["title", "description"]
+
+    data = json.loads(TRANSLATION_METADATA_CONFIG.read_text(encoding="utf-8"))
+    fields = data.get("translatable_fields")
+    if not isinstance(fields, list):
+        raise ValueError("translation_metadata.json must contain a translatable_fields list")
+
+    normalized: list[str] = []
+    for field in fields:
+        if not isinstance(field, str) or not field.strip():
+            raise ValueError("translatable_fields entries must be non-empty strings")
+        value = field.strip()
+        if value not in normalized:
+            normalized.append(value)
+    return normalized
+
+
+TRANSLATABLE_METADATA_FIELDS = tuple(load_translatable_metadata_fields())
 TARGET_OWNED_METADATA_FIELDS = {
     "lang",
     *TRANSLATABLE_METADATA_FIELDS,
     BODY_HASH_FIELD,
+    LOCALIZED_METADATA_HASH_FIELD,
+    STRUCTURAL_METADATA_HASH_FIELD,
     METADATA_HASH_FIELD,
     LEGACY_HASH_FIELD,
     "translation_model",
@@ -58,10 +90,6 @@ TARGET_OWNED_METADATA_FIELDS = {
     "translation_metadata_status",
     "translation_metadata_updated",
 }
-
-
-def language_name(language: str) -> str:
-    return registry_language_name(language)
 
 
 @dataclass(frozen=True)
@@ -92,6 +120,8 @@ class VaultPage:
     title: str
     translation_source_body_hash: str = ""
     translation_source_metadata_hash: str = ""
+    translation_source_localized_metadata_hash: str = ""
+    translation_source_structural_metadata_hash: str = ""
 
 
 def rel(path: Path) -> str:
@@ -124,6 +154,17 @@ def source_body_hash(body: str) -> str:
     return hashlib.sha256(body.encode("utf-8")).hexdigest()
 
 
+def translatable_body(frontmatter: str, body: str) -> str:
+    blocks = parse_dynamic_blocks(body) if "dynamic" in frontmatter_tags(frontmatter) else []
+    if not blocks:
+        return body
+    return json.dumps(static_body_segments(body, blocks), ensure_ascii=False, separators=(",", ":"))
+
+
+def translatable_body_hash(frontmatter: str, body: str) -> str:
+    return source_body_hash(translatable_body(frontmatter, body))
+
+
 def legacy_source_hash(frontmatter: str, body: str) -> str:
     translation_id = read_scalar(frontmatter, "translation_id") or ""
     payload = f"translation_id={translation_id}\n\n{body}".encode("utf-8")
@@ -131,19 +172,19 @@ def legacy_source_hash(frontmatter: str, body: str) -> str:
 
 
 def source_hash(frontmatter: str, body: str) -> str:
-    return source_body_hash(body)
+    return translatable_body_hash(frontmatter, body)
 
 
-def source_metadata_payload(frontmatter: str) -> dict[str, str]:
+def source_localized_metadata_payload(frontmatter: str) -> dict[str, str]:
     return {
         key: read_scalar(frontmatter, key) or ""
         for key in TRANSLATABLE_METADATA_FIELDS
     }
 
 
-def source_metadata_hash(frontmatter: str) -> str:
+def source_localized_metadata_hash(frontmatter: str) -> str:
     payload = json.dumps(
-        source_metadata_payload(frontmatter),
+        source_localized_metadata_payload(frontmatter),
         ensure_ascii=False,
         sort_keys=True,
         separators=(",", ":"),
@@ -151,8 +192,26 @@ def source_metadata_hash(frontmatter: str) -> str:
     return hashlib.sha256(payload).hexdigest()
 
 
+def source_structural_metadata_hash(frontmatter: str) -> str:
+    payload = json.dumps(
+        source_owned_metadata_blocks(frontmatter),
+        ensure_ascii=False,
+        sort_keys=True,
+        separators=(",", ":"),
+    ).encode("utf-8")
+    return hashlib.sha256(payload).hexdigest()
+
+
+def source_metadata_hash(frontmatter: str) -> str:
+    return source_localized_metadata_hash(frontmatter)
+
+
 def stored_body_hash(page: VaultPage) -> str:
     return page.translation_source_body_hash or page.translation_source_hash
+
+
+def stored_localized_metadata_hash(page: VaultPage) -> str:
+    return page.translation_source_localized_metadata_hash or page.translation_source_metadata_hash
 
 
 def body_hash_matches(stored_hash: str, current_hash: str, legacy_hash: str) -> bool:
@@ -193,6 +252,8 @@ def read_vault_page(path: Path, language: str) -> VaultPage:
         title=read_scalar(document.frontmatter, "title") or path.stem,
         translation_source_body_hash=read_scalar(document.frontmatter, BODY_HASH_FIELD) or "",
         translation_source_metadata_hash=read_scalar(document.frontmatter, METADATA_HASH_FIELD) or "",
+        translation_source_localized_metadata_hash=read_scalar(document.frontmatter, LOCALIZED_METADATA_HASH_FIELD) or "",
+        translation_source_structural_metadata_hash=read_scalar(document.frontmatter, STRUCTURAL_METADATA_HASH_FIELD) or "",
     )
 
 
@@ -252,7 +313,7 @@ def vault_health_matrix() -> dict[str, object]:
         source_pages = pages_by_language.get(source_lang) or []
         source_page = primary_page(source_pages) if source_pages else None
         source_hash_value = (
-            source_body_hash(source_page.body)
+            translatable_body_hash(source_page.frontmatter, source_page.body)
             if source_page
             else ""
         )
@@ -261,7 +322,8 @@ def vault_health_matrix() -> dict[str, object]:
             if source_page
             else ""
         )
-        metadata_hash_value = source_metadata_hash(source_page.frontmatter) if source_page else ""
+        localized_metadata_hash_value = source_localized_metadata_hash(source_page.frontmatter) if source_page else ""
+        structural_metadata_hash_value = source_structural_metadata_hash(source_page.frontmatter) if source_page else ""
 
         title = (
             source_page.title
@@ -314,7 +376,6 @@ def vault_health_matrix() -> dict[str, object]:
                     "translation_source",
                     "translation_source_lang",
                     BODY_HASH_FIELD,
-                    METADATA_HASH_FIELD,
                     "translation_model",
                     "translation_status",
                     "translation_updated",
@@ -328,8 +389,20 @@ def vault_health_matrix() -> dict[str, object]:
                     issues.append("source_body_hash_mismatch")
                 if not page.translation_source_body_hash and page.translation_source_hash:
                     issues.append("legacy_source_hash")
-                if page.translation_source_metadata_hash and page.translation_source_metadata_hash != metadata_hash_value:
-                    issues.append("source_metadata_hash_mismatch")
+                page_localized_hash = stored_localized_metadata_hash(page)
+                if page_localized_hash and page_localized_hash != localized_metadata_hash_value:
+                    issues.append("source_localized_metadata_hash_mismatch")
+                if not page.translation_source_localized_metadata_hash and page.translation_source_metadata_hash:
+                    issues.append("legacy_metadata_hash")
+                if not page_localized_hash:
+                    issues.append(f"missing_{LOCALIZED_METADATA_HASH_FIELD}")
+                if page.translation_source_structural_metadata_hash and page.translation_source_structural_metadata_hash != structural_metadata_hash_value:
+                    issues.append("source_structural_metadata_hash_mismatch")
+                if not page.translation_source_structural_metadata_hash:
+                    issues.append(f"missing_{STRUCTURAL_METADATA_HASH_FIELD}")
+                source_owned_differences = source_owned_metadata_differences(source_page.frontmatter, page.frontmatter) if source_page else []
+                if source_owned_differences:
+                    issues.append("source_owned_metadata_mismatch")
                 if page.translation_status == "missing-translation":
                     issues.append("fallback_page")
 
@@ -408,7 +481,7 @@ def repair_vault_metadata(path: str | Path) -> dict[str, object]:
         # Do not fabricate quality-sensitive provenance. A missing or mismatched
         # source hash/model/timestamp should stay visible until translation is rerun
         # or manually reviewed.
-        for key in (BODY_HASH_FIELD, METADATA_HASH_FIELD, "translation_model", "translation_updated"):
+        for key in (BODY_HASH_FIELD, LOCALIZED_METADATA_HASH_FIELD, STRUCTURAL_METADATA_HASH_FIELD, "translation_model", "translation_updated"):
             if not read_scalar(frontmatter, key):
                 skipped.append(f"missing_{key}")
 
@@ -449,7 +522,7 @@ def deterministic_repair_remaining_issues(
         issues.append("translation_source_lang_mismatch")
     if source_page and read_scalar(page.frontmatter, "translation_source") != source_page.rel_path:
         issues.append("translation_source_mismatch")
-    for key in (BODY_HASH_FIELD, METADATA_HASH_FIELD, "translation_model", "translation_updated"):
+    for key in (BODY_HASH_FIELD, LOCALIZED_METADATA_HASH_FIELD, STRUCTURAL_METADATA_HASH_FIELD, "translation_model", "translation_updated"):
         if not read_scalar(page.frontmatter, key):
             issues.append(f"missing_{key}")
     return issues
@@ -503,7 +576,8 @@ def batch_translation_plan(
             continue
 
         source_page = primary_page(source_pages)
-        if max_source_chars is not None and len(source_page.body) > max_source_chars:
+        source_chars = len(translatable_body(source_page.frontmatter, source_page.body))
+        if max_source_chars is not None and source_chars > max_source_chars:
             skipped.append(
                 {
                     "translation_id": translation_id,
@@ -550,7 +624,7 @@ def batch_translation_plan(
                     }
                 )
                 continue
-            if reason != "all" and candidate_reason != reason:
+            if not metadata_reason_matches(reason, candidate_reason):
                 skipped.append(
                     {
                         "translation_id": translation_id,
@@ -570,7 +644,7 @@ def batch_translation_plan(
                     "target_language": language_name(candidate_target_lang),
                     "source_path": source_page.rel_path,
                     "target_path": rel(language_path(source_page.path, group_source_lang, candidate_target_lang)),
-                    "source_chars": len(source_page.body),
+                    "source_chars": source_chars,
                     "reason": candidate_reason,
                 }
             )
@@ -708,6 +782,11 @@ def metadata_batch_plan(
                     "target_title": read_scalar(target_page.frontmatter, "title") if target_page else "",
                     "source_has_description": bool(read_scalar(source_page.frontmatter, "description")),
                     "target_has_description": bool(read_scalar(target_page.frontmatter, "description")) if target_page else False,
+                    "source_owned_metadata_differences": (
+                        source_owned_metadata_differences(source_page.frontmatter, target_page.frontmatter)
+                        if target_page
+                        else []
+                    ),
                     "metadata_chars": source_metadata_chars,
                     "reason": candidate_reason,
                 }
@@ -744,9 +823,25 @@ def metadata_batch_plan(
     }
 
 
+def metadata_reason_matches(filter_reason: str, candidate_reason: str) -> bool:
+    if filter_reason == "all" or filter_reason == candidate_reason:
+        return True
+    aliases = {
+        "missing_metadata_hash": {"missing_localized_metadata_hash"},
+        "metadata_hash_mismatch": {"localized_metadata_hash_mismatch"},
+    }
+    return candidate_reason in aliases.get(filter_reason, set())
+
+
 def metadata_batch_candidate_reasons() -> list[str]:
     return [
         "all",
+        "missing_localized_metadata_hash",
+        "localized_metadata_hash_mismatch",
+        "missing_translatable_metadata",
+        "missing_structural_metadata_hash",
+        "structural_metadata_hash_mismatch",
+        "source_owned_metadata_mismatch",
         "missing_metadata_hash",
         "metadata_hash_mismatch",
         "missing_title",
@@ -762,16 +857,28 @@ def metadata_candidate_reason(
         return None
 
     source_metadata = source_metadata_for_translation(source_page.frontmatter)
-    if "title" in source_metadata and not read_scalar(target_page.frontmatter, "title"):
-        return "missing_title"
-    if "description" in source_metadata and not read_scalar(target_page.frontmatter, "description"):
-        return "missing_description"
+    for field in TRANSLATABLE_METADATA_FIELDS:
+        if field in source_metadata and not read_scalar(target_page.frontmatter, field):
+            if field == "title":
+                return "missing_title"
+            if field == "description":
+                return "missing_description"
+            return "missing_translatable_metadata"
 
-    current_metadata_hash = source_metadata_hash(source_page.frontmatter)
-    if not target_page.translation_source_metadata_hash:
-        return "missing_metadata_hash"
-    if target_page.translation_source_metadata_hash != current_metadata_hash:
-        return "metadata_hash_mismatch"
+    current_localized_hash = source_localized_metadata_hash(source_page.frontmatter)
+    page_localized_hash = stored_localized_metadata_hash(target_page)
+    if not page_localized_hash:
+        return "missing_localized_metadata_hash"
+    if page_localized_hash != current_localized_hash:
+        return "localized_metadata_hash_mismatch"
+
+    current_structural_hash = source_structural_metadata_hash(source_page.frontmatter)
+    if not target_page.translation_source_structural_metadata_hash:
+        return "missing_structural_metadata_hash"
+    if target_page.translation_source_structural_metadata_hash != current_structural_hash:
+        return "structural_metadata_hash_mismatch"
+    if source_owned_metadata_differences(source_page.frontmatter, target_page.frontmatter):
+        return "source_owned_metadata_mismatch"
     return None
 
 
@@ -804,7 +911,7 @@ def translation_candidate_reason(
     if target_page.translation_status == "missing-translation":
         return "fallback_page"
 
-    current_hash = source_body_hash(source_page.body)
+    current_hash = translatable_body_hash(source_page.frontmatter, source_page.body)
     legacy_hash = legacy_source_hash(source_page.frontmatter, source_page.body)
     page_body_hash = stored_body_hash(target_page)
     if page_body_hash and not body_hash_matches(page_body_hash, current_hash, legacy_hash):
@@ -872,9 +979,10 @@ def inspect_page(
     if read_scalar(source_doc.frontmatter, "lang") != source_lang:
         issues.append("source_lang_mismatch")
 
-    current_hash = source_body_hash(source_doc.body)
+    current_hash = translatable_body_hash(source_doc.frontmatter, source_doc.body)
     current_legacy_hash = legacy_source_hash(source_doc.frontmatter, source_doc.body)
-    current_metadata_hash = source_metadata_hash(source_doc.frontmatter)
+    current_localized_metadata_hash = source_localized_metadata_hash(source_doc.frontmatter)
+    current_structural_metadata_hash = source_structural_metadata_hash(source_doc.frontmatter)
     target_exists = target.exists()
     needs_translation = not target_exists
 
@@ -896,8 +1004,19 @@ def inspect_page(
             if not body_hash_matches(target_body_hash, current_hash, current_legacy_hash):
                 issues.append("target_body_outdated")
                 needs_translation = True
-            if read_scalar(target_doc.frontmatter, METADATA_HASH_FIELD) != current_metadata_hash:
-                issues.append("target_metadata_outdated")
+            target_localized_hash = (
+                read_scalar(target_doc.frontmatter, LOCALIZED_METADATA_HASH_FIELD)
+                or read_scalar(target_doc.frontmatter, METADATA_HASH_FIELD)
+                or ""
+            )
+            if target_localized_hash != current_localized_metadata_hash:
+                issues.append("target_localized_metadata_outdated")
+                needs_translation = True
+            if read_scalar(target_doc.frontmatter, STRUCTURAL_METADATA_HASH_FIELD) != current_structural_metadata_hash:
+                issues.append("target_structural_metadata_outdated")
+                needs_translation = True
+            if source_owned_metadata_differences(source_doc.frontmatter, target_doc.frontmatter):
+                issues.append("target_source_owned_metadata_mismatch")
                 needs_translation = True
             missing = missing_scalars(
                 target_doc.frontmatter,
@@ -905,7 +1024,6 @@ def inspect_page(
                     "translation_source",
                     "translation_source_lang",
                     BODY_HASH_FIELD,
-                    METADATA_HASH_FIELD,
                     "translation_model",
                     "translation_status",
                     "translation_updated",
@@ -946,12 +1064,40 @@ def source_metadata_for_translation(frontmatter: str) -> dict[str, str]:
     }
 
 
+def is_target_owned_metadata_field(key: str) -> bool:
+    return key in TARGET_OWNED_METADATA_FIELDS or key.startswith(TRANSLATION_FIELD_PREFIXES)
+
+
+def source_owned_metadata_blocks(frontmatter: str) -> dict[str, str]:
+    return {
+        key: block
+        for key, block in frontmatter_blocks(frontmatter).items()
+        if not is_target_owned_metadata_field(key)
+    }
+
+
+def source_owned_metadata_differences(source_frontmatter: str, target_frontmatter: str) -> list[str]:
+    source_blocks = source_owned_metadata_blocks(source_frontmatter)
+    target_blocks = source_owned_metadata_blocks(target_frontmatter)
+    return sorted(
+        key
+        for key in set(source_blocks) | set(target_blocks)
+        if source_blocks.get(key, "").strip() != target_blocks.get(key, "").strip()
+    )
+
+
 def merge_source_metadata(target_frontmatter: str, source_frontmatter: str) -> str:
     updated = target_frontmatter
-    for key, block in frontmatter_blocks(source_frontmatter).items():
-        if key in TARGET_OWNED_METADATA_FIELDS or key.startswith(TRANSLATION_FIELD_PREFIXES):
-            continue
+    source_blocks = source_owned_metadata_blocks(source_frontmatter)
+    target_blocks = source_owned_metadata_blocks(target_frontmatter)
+
+    for key in target_blocks:
+        if key not in source_blocks:
+            updated = remove_block(updated, key)
+
+    for key, block in source_blocks.items():
         updated = set_block(updated, key, block)
+
     return updated
 
 
@@ -961,6 +1107,149 @@ def apply_translated_metadata(frontmatter: str, values: dict[str, str]) -> str:
         if key in values:
             updated = set_scalar(updated, key, values[key])
     return updated
+
+
+def needs_localized_metadata_translation(source_frontmatter: str, target_frontmatter: str) -> bool:
+    source_metadata = source_metadata_for_translation(source_frontmatter)
+    for key in TRANSLATABLE_METADATA_FIELDS:
+        if key in source_metadata and not read_scalar(target_frontmatter, key):
+            return True
+    current_metadata_hash = source_localized_metadata_hash(source_frontmatter)
+    stored_hash = read_scalar(target_frontmatter, LOCALIZED_METADATA_HASH_FIELD) or read_scalar(target_frontmatter, METADATA_HASH_FIELD)
+    return stored_hash != current_metadata_hash
+
+
+def frontmatter_tags(frontmatter: str) -> list[str]:
+    tags: list[str] = []
+    lines = frontmatter.splitlines()
+    in_tags = False
+    for line in lines:
+        stripped = line.strip()
+        if stripped.startswith("tags:"):
+            in_tags = True
+            value = stripped.split(":", 1)[1].strip()
+            if value.startswith("[") and value.endswith("]"):
+                tags.extend(clean_tag(part) for part in value[1:-1].split(","))
+            elif value and value != "[]":
+                tags.append(clean_tag(value))
+            continue
+        if in_tags and line.startswith((" ", "\t")) and stripped.startswith("-"):
+            tags.append(clean_tag(stripped[1:]))
+            continue
+        if in_tags and stripped and not line.startswith((" ", "\t")):
+            in_tags = False
+    return sorted({tag for tag in tags if tag})
+
+
+def clean_tag(value: str) -> str:
+    return value.strip().strip('"\'').lstrip("#")
+
+
+def static_body_segments(body: str, blocks: list[DynamicBlock] | None = None) -> list[str]:
+    blocks = parse_dynamic_blocks(body) if blocks is None else blocks
+    if not blocks:
+        return [body]
+
+    segments: list[str] = []
+    cursor = 0
+    for block in blocks:
+        segments.append(body[cursor:block.start])
+        cursor = block.end
+    segments.append(body[cursor:])
+    return segments
+
+
+def translate_markdown_segment(
+    segment: str,
+    source_lang: str,
+    target_lang: str,
+    model: str,
+    prompt: str | None,
+) -> tuple[str, link_repair.LinkRepairResult]:
+    if not segment.strip():
+        return segment, link_repair.LinkRepairResult(body=segment, changed=False, repair_count=0, diagnostics=[])
+
+    translated = call_translation_model(
+        body=segment,
+        source_lang=source_lang,
+        target_lang=target_lang,
+        model=model,
+        prompt=prompt,
+    )
+    repair_result = link_repair.repair_link_targets(segment, translated)
+    return repair_result.body, repair_result
+
+
+def translate_body(
+    source_body: str,
+    target_path: Path,
+    source_lang: str,
+    target_lang: str,
+    model: str,
+    prompt: str | None,
+) -> tuple[str, link_repair.LinkRepairResult, list[dict[str, object]]]:
+    blocks = parse_dynamic_blocks(source_body)
+    if not blocks:
+        translated_body, link_result = translate_markdown_segment(
+            source_body,
+            source_lang=source_lang,
+            target_lang=target_lang,
+            model=model,
+            prompt=prompt,
+        )
+        return translated_body, link_result, []
+
+    pieces: list[str] = []
+    cursor = 0
+    repair_count = 0
+    diagnostics: list[link_repair.LinkRepairDiagnostic] = []
+    dynamic_results: list[dict[str, object]] = []
+
+    for block in blocks:
+        translated_segment, segment_result = translate_markdown_segment(
+            source_body[cursor:block.start],
+            source_lang=source_lang,
+            target_lang=target_lang,
+            model=model,
+            prompt=prompt,
+        )
+        pieces.append(translated_segment)
+        repair_count += segment_result.repair_count
+        diagnostics.extend(segment_result.diagnostics)
+
+        pieces.append(source_body[block.start:block.content_start])
+        block_result = render_block(target_path, block)
+        dynamic_results.append(block_result)
+        if not block_result.get("ok"):
+            errors = ", ".join(str(error) for error in block_result.get("errors", []))
+            raise RuntimeError(f"Dynamic block {block.index} render failed for {target_path}: {errors}")
+        pieces.append(str(block_result["markdown"]).strip("\n"))
+        pieces.append("\n\n")
+        pieces.append(source_body[block.content_end:block.end])
+        cursor = block.end
+
+    translated_tail, tail_result = translate_markdown_segment(
+        source_body[cursor:],
+        source_lang=source_lang,
+        target_lang=target_lang,
+        model=model,
+        prompt=prompt,
+    )
+    pieces.append(translated_tail)
+    repair_count += tail_result.repair_count
+    diagnostics.extend(tail_result.diagnostics)
+
+    translated_body = "".join(pieces)
+    return (
+        translated_body,
+        link_repair.LinkRepairResult(
+            body=translated_body,
+            changed=repair_count > 0,
+            repair_count=repair_count,
+            diagnostics=diagnostics,
+        ),
+        dynamic_results,
+    )
 
 
 def target_starting_frontmatter(source_doc, target: Path) -> str:
@@ -983,8 +1272,9 @@ def build_target_frontmatter(
     update_metadata_provenance: bool,
 ) -> str:
     translation_id = read_scalar(source_doc.frontmatter, "translation_id") or derive_translation_id(source)
-    current_body_hash = source_body_hash(source_doc.body)
-    current_metadata_hash = source_metadata_hash(source_doc.frontmatter)
+    current_body_hash = translatable_body_hash(source_doc.frontmatter, source_doc.body)
+    current_localized_metadata_hash = source_localized_metadata_hash(source_doc.frontmatter)
+    current_structural_metadata_hash = source_structural_metadata_hash(source_doc.frontmatter)
     frontmatter = target_starting_frontmatter(source_doc, target)
     frontmatter = merge_source_metadata(frontmatter, source_doc.frontmatter)
     frontmatter = apply_translated_metadata(frontmatter, translated_metadata)
@@ -1013,12 +1303,18 @@ def build_target_frontmatter(
     if update_metadata_provenance:
         values.update(
             {
-                METADATA_HASH_FIELD: current_metadata_hash,
+                LOCALIZED_METADATA_HASH_FIELD: current_localized_metadata_hash,
+                METADATA_HASH_FIELD: current_localized_metadata_hash,
                 "translation_metadata_model": model,
                 "translation_metadata_status": "machine-translated",
                 "translation_metadata_updated": datetime.now(UTC).isoformat(timespec="seconds"),
             }
         )
+    else:
+        existing_hash = read_scalar(frontmatter, METADATA_HASH_FIELD) or ""
+        if not read_scalar(frontmatter, LOCALIZED_METADATA_HASH_FIELD) and existing_hash == current_localized_metadata_hash:
+            values[LOCALIZED_METADATA_HASH_FIELD] = current_localized_metadata_hash
+    values[STRUCTURAL_METADATA_HASH_FIELD] = current_structural_metadata_hash
     return ensure_scalars(frontmatter, values)
 
 
@@ -1034,18 +1330,18 @@ def translate_page(
     source = (ROOT / source_path).resolve()
     target = language_path(source, source_lang, target_lang)
     source_doc = split_markdown(source.read_text(encoding="utf-8"))
-    current_body_hash = source_body_hash(source_doc.body)
-    current_metadata_hash = source_metadata_hash(source_doc.frontmatter)
+    current_body_hash = translatable_body_hash(source_doc.frontmatter, source_doc.body)
+    current_localized_metadata_hash = source_localized_metadata_hash(source_doc.frontmatter)
+    current_structural_metadata_hash = source_structural_metadata_hash(source_doc.frontmatter)
 
-    translated_body = call_translation_model(
-        body=source_doc.body,
+    translated_body, link_result, dynamic_results = translate_body(
+        source_body=source_doc.body,
+        target_path=target,
         source_lang=source_lang,
         target_lang=target_lang,
         model=model,
         prompt=prompt,
     )
-    link_result = link_repair.repair_link_targets(source_doc.body, translated_body)
-    translated_body = link_result.body
     translated_metadata = call_metadata_translation_model(
         metadata=source_metadata_for_translation(source_doc.frontmatter),
         source_lang=source_lang,
@@ -1064,13 +1360,7 @@ def translate_page(
         update_body_provenance=True,
         update_metadata_provenance=True,
     )
-    label_result = dynamic_link_labels.repair_dynamic_link_labels(
-        page_path=target,
-        frontmatter=target_frontmatter,
-        body=translated_body,
-        docs_root=DOCS,
-    )
-    translated_body = label_result.body
+    label_result = link_repair.LinkRepairResult(body=translated_body, changed=False, repair_count=0, diagnostics=[])
 
     output = join_markdown(target_frontmatter, translated_body)
     if not dry_run:
@@ -1083,11 +1373,15 @@ def translate_page(
         "model": model,
         "dry_run": dry_run,
         "source_body_hash": current_body_hash,
-        "source_metadata_hash": current_metadata_hash,
+        "source_metadata_hash": current_localized_metadata_hash,
+        "source_localized_metadata_hash": current_localized_metadata_hash,
+        "source_structural_metadata_hash": current_structural_metadata_hash,
         "translated_chars": len(translated_body),
         "translated_metadata_fields": sorted(translated_metadata),
         "link_repairs": link_result.repair_count,
         "dynamic_label_repairs": label_result.repair_count,
+        "dynamic_blocks": len(dynamic_results),
+        "dynamic_block_results": dynamic_results,
         "link_diagnostics": [item.__dict__ for item in link_result.diagnostics],
         "dynamic_label_diagnostics": [item.__dict__ for item in label_result.diagnostics],
     }
@@ -1108,11 +1402,17 @@ def translate_metadata_page(
 
     source_doc = split_markdown(source.read_text(encoding="utf-8"))
     target_doc = split_markdown(target.read_text(encoding="utf-8"))
-    translated_metadata = call_metadata_translation_model(
-        metadata=source_metadata_for_translation(source_doc.frontmatter),
-        source_lang=source_lang,
-        target_lang=target_lang,
-        model=model,
+    source_owned_differences = source_owned_metadata_differences(source_doc.frontmatter, target_doc.frontmatter)
+    translate_localized_metadata = needs_localized_metadata_translation(source_doc.frontmatter, target_doc.frontmatter)
+    translated_metadata = (
+        call_metadata_translation_model(
+            metadata=source_metadata_for_translation(source_doc.frontmatter),
+            source_lang=source_lang,
+            target_lang=target_lang,
+            model=model,
+        )
+        if translate_localized_metadata
+        else {}
     )
     target_frontmatter = build_target_frontmatter(
         source_doc=source_doc,
@@ -1123,7 +1423,7 @@ def translate_metadata_page(
         model=model,
         translated_metadata=translated_metadata,
         update_body_provenance=False,
-        update_metadata_provenance=True,
+        update_metadata_provenance=translate_localized_metadata,
     )
     output = join_markdown(target_frontmatter, target_doc.body)
     if not dry_run:
@@ -1134,8 +1434,12 @@ def translate_metadata_page(
         "target": rel(target),
         "model": model,
         "dry_run": dry_run,
-        "source_metadata_hash": source_metadata_hash(source_doc.frontmatter),
+        "source_metadata_hash": source_localized_metadata_hash(source_doc.frontmatter),
+        "source_localized_metadata_hash": source_localized_metadata_hash(source_doc.frontmatter),
+        "source_structural_metadata_hash": source_structural_metadata_hash(source_doc.frontmatter),
         "translated_metadata_fields": sorted(translated_metadata),
+        "localized_metadata_translated": translate_localized_metadata,
+        "source_owned_metadata_differences": source_owned_differences,
         "metadata_chars": sum(len(value) for value in source_metadata_for_translation(source_doc.frontmatter).values()),
     }
 

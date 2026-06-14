@@ -21,6 +21,7 @@
           <button class="tab" type="button" data-tab="original-graph">Original Graph</button>
           <button class="tab" type="button" data-tab="navigation">Navigation</button>
           <button class="tab" type="button" data-tab="dynamic">Dynamic Pages</button>
+          <button class="tab" type="button" data-tab="base-labels">Base Labels</button>
           <button class="tab" type="button" data-tab="link-repair">Link Repair</button>
           <button class="tab" type="button" data-tab="cleanup">Cleanup</button>
         </nav>
@@ -328,6 +329,42 @@
         </section>
       </section>
 
+      <section class="tab-panel" id="tab-base-labels">
+        <section class="panel health-panel">
+          <div class="toolbar health-toolbar">
+            <div>
+              <h2>Base Labels</h2>
+              <p class="hint">Translate Obsidian Base property display names. Dynamic page refresh consumes these labels but does not call the API.</p>
+            </div>
+            <div class="toolbar-actions">
+              <select id="base-label-base" title="Base file">
+                <option value="">All base files</option>
+              </select>
+              <select id="base-label-language" title="Target language">
+                <option value="all">All target languages</option>
+              </select>
+              <button id="base-label-scan" type="button">Scan</button>
+              <button id="base-label-plan" type="button">Plan</button>
+              <button id="base-label-translate" type="button" class="primary">Translate Missing</button>
+              <button id="base-label-materialize" type="button">Regenerate Bases</button>
+            </div>
+          </div>
+
+          <div id="base-label-summary" class="health-summary"></div>
+          <section class="base-label-workspace">
+            <aside>
+              <input id="base-label-filter" type="search" placeholder="Filter labels">
+              <div id="base-label-list" class="pages dynamic-pages"></div>
+            </aside>
+            <section>
+              <h2>Details</h2>
+              <div id="base-label-details" class="nav-diagnostics"></div>
+              <pre id="base-label-log" class="log health-details">Base label output.</pre>
+            </section>
+          </section>
+        </section>
+      </section>
+
       <section class="tab-panel" id="tab-cleanup">
         <section class="panel health-panel">
           <div class="toolbar health-toolbar">
@@ -385,6 +422,34 @@
               <h2>Selection</h2>
               <dl id="link-repair-details" class="details compact"></dl>
               <pre id="link-repair-log" class="log health-details">Link repair output.</pre>
+            </section>
+          </section>
+
+          <div class="toolbar health-toolbar subtoolbar">
+            <div>
+              <h2>Source Link Style</h2>
+              <p class="hint">Validate original/source files for Zensical-compatible image syntax and convert widths to attr_list.</p>
+            </div>
+            <div class="toolbar-actions">
+              <select id="source-link-style-language" title="Source language filter">
+                <option value="">All source languages</option>
+              </select>
+              <button id="source-link-style-scan" type="button">Scan Sources</button>
+              <button id="source-link-style-preview" type="button">Preview Selected</button>
+              <button id="source-link-style-selected" type="button" class="primary">Repair Selected</button>
+              <button id="source-link-style-all" type="button">Repair All Safe</button>
+            </div>
+          </div>
+
+          <div id="source-link-style-summary" class="health-summary"></div>
+          <section class="cleanup-workspace">
+            <aside>
+              <input id="source-link-style-filter" type="search" placeholder="Filter source style items">
+              <div id="source-link-style-list" class="cleanup-list"></div>
+            </aside>
+            <section>
+              <h2>Source Selection</h2>
+              <dl id="source-link-style-details" class="details compact"></dl>
             </section>
           </section>
         </section>

@@ -7,7 +7,7 @@ publish: draft
 tags:
   - tutorial
   - kaskade
-title: Εργαστήριο Cascade - Τεχνάσματα!
+title: Εργαστήριο Cascade - Κλεψιά!
 description: 
 authors:
   - Dr. P. Luftiko
@@ -21,10 +21,12 @@ translation_source_hash: 51da123493f3cd6c4f75bdf53185b294ba32b8d8f50bb215b5db018
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-07T13:51:30+00:00
 translation_source_body_hash: 51da123493f3cd6c4f75bdf53185b294ba32b8d8f50bb215b5db0189f99c4ad1
-translation_source_metadata_hash: caa9d864d0b3f161e86c02114b47388bebaca9dcda618ac37589014c01070525
+translation_source_metadata_hash: 5f653a0a669bf42098ff02c61d0f8200b11e6a77ed91e7621a6c3e1a4841f346
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T19:06:04+00:00
+translation_metadata_updated: 2026-06-14T16:19:08+00:00
+translation_source_localized_metadata_hash: 5f653a0a669bf42098ff02c61d0f8200b11e6a77ed91e7621a6c3e1a4841f346
+translation_source_structural_metadata_hash: d96f203b3fe276d74f028517ee8772fc9e68505f8d326fd744a1cf5034466efd
 ---
 ### Τεχνάσματα!
 Πηγή: [Kaskade 001](Kaskade%20001.md#Schummeln!)

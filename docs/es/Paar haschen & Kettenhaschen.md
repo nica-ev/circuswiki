@@ -7,13 +7,13 @@ tags:
 created: 2025-01-24 03:50:51
 update: 2025-03-17 02:16:04
 title: Atrapar en pareja y en cadena
-description: Un juego de persecución donde las personas atrapadas forman parejas o cadenas y continúan atrapando juntas.
+description: Un juego de persecución donde las personas atrapadas se convierten en parejas o cadenas y continúan atrapando juntas.
 authors:
   - Marc Bielert
 category:
   - bewegung
-Schwierigkeit: einfach
-Material: keines
+Schwierigkeit: fácil
+Material: ninguno
 Spieldauer: 5
 source: Tasifan Spielebuch
 group-min: 15
@@ -25,10 +25,12 @@ translation_source_hash: 663524e4441585b9b5967710dddf9afa5a73a0a01e1de0cb09cff65
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:09:50+00:00
 translation_source_body_hash: 663524e4441585b9b5967710dddf9afa5a73a0a01e1de0cb09cff65d5b8dd31b
-translation_source_metadata_hash: 2aec176daa24f2d2b38c11de2e2212c7b59369087d2e937063f04dffd56da60d
+translation_source_metadata_hash: bfe349e73855f6358ba326de7cf3152d6333ea9f2152a0f741add3bec8ba2519
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T19:01:32+00:00
+translation_metadata_updated: 2026-06-14T16:14:47+00:00
+translation_source_localized_metadata_hash: bfe349e73855f6358ba326de7cf3152d6333ea9f2152a0f741add3bec8ba2519
+translation_source_structural_metadata_hash: 355dbe64a8dd4b22c4e577a6a50fe0c1aceab389f05d8c1773b4173ba4d81f85
 ---
 > [!info] Breve descripción
 > Un juego de atrapar en el que las personas atrapadas forman parejas o cadenas y continúan atrapando juntas.

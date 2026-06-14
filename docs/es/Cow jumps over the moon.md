@@ -9,13 +9,13 @@ tags:
   - cwiczenie
   - zonglerka
 title: La vaca salta sobre la luna
-description: Ejercicio con pelota y aro que desarrolla la secuenciación bilateral en el método de malabares en 5 pasos.
+description: Ejercicio con balón y aro que desarrolla la secuenciación bilateral en el método de malabares en 5 pasos.
 authors:
   - Wiktoria Witenberg
 category:
   - technika
   - koordynacja
-Schwierigkeit: einfach
+Schwierigkeit: fácil
 Material:
   - piłka
   - obręcz
@@ -28,10 +28,12 @@ translation_source_hash: 75251f838d6d57b0d54ad857096ade3c4b5d4a2c3f4026150375d5c
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-07T17:32:29+00:00
 translation_source_body_hash: 75251f838d6d57b0d54ad857096ade3c4b5d4a2c3f4026150375d5c9390cebbd
-translation_source_metadata_hash: fa5f11f8b98db3ae36427290a6f0510facd780cfe6c411f4449d4769ffb12ca6
+translation_source_metadata_hash: 54db0650deb5be811de865ffe54d2707a37f28f460f56579580caa6865952c2a
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:07:30+00:00
+translation_metadata_updated: 2026-06-14T15:44:19+00:00
+translation_source_localized_metadata_hash: 54db0650deb5be811de865ffe54d2707a37f28f460f56579580caa6865952c2a
+translation_source_structural_metadata_hash: dd2baa9a79d1f9afef18066333d671c6e9a68708fda22e37cc81b11ab827693c
 ---
 # La vaca salta sobre la luna
 

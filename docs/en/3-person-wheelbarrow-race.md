@@ -37,11 +37,10 @@ source_permission: "public-place images reviewed as reusable by project maintain
 aliases:
   - Wheelbarrow Juggling
 ---
-
 > [!info] Short Description
 > A three-person race where two carriers steer a human wheelbarrow while keeping a shared three-ball cascade going.
 
-![[../img/wheelbarrow-juggling.jpg|300]]
+![wheelbarrow-juggling](../img/wheelbarrow-juggling.jpg){ width=300 }
 
 **Group Size**: 3 to 60 players  
 **Difficulty**: mittel  

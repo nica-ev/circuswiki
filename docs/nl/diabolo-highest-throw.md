@@ -10,8 +10,8 @@ tags:
   - catching
 created: 2026-06-12 00:00:00
 update: 2026-06-12 22:45:03
-title: Diabolo Hoogste Worp
-description: Een diabolo werkwedstrijd waarbij de hoogste schone worp en vangst wint.
+title: Hoogste Diabolosprong
+description: Een diabolo-werpwedstrijd waarbij de hoogste zuivere worp en vangst wint.
 authors:
   - CircusWiki contributors
 category:
@@ -19,8 +19,8 @@ category:
   - diabolo
   - throwing
   - catching
-Schwierigkeit: "mittel"
-Material: "One diabolo and handsticks per player, open high space"
+Schwierigkeit: gemiddeld
+Material: Eén diabolo en handstokken per speler, open hoge ruimte
 Spieldauer: "5-10"
 group-min: 2
 group-max: 40
@@ -35,19 +35,21 @@ source_permission: "public-place images reviewed as reusable by project maintain
 aliases:
   - Highest Throw
 translation_source: docs/en/diabolo-highest-throw.md
-translation_source_body_hash: c3162937bee4493f593c9f81cf481815c573d6987b324367766d1839ce477763
-translation_source_hash: c3162937bee4493f593c9f81cf481815c573d6987b324367766d1839ce477763
+translation_source_body_hash: b66ce9655589d49184595dfe9733a4b83b29ab92f9f4f1f161185325423ef411
+translation_source_hash: b66ce9655589d49184595dfe9733a4b83b29ab92f9f4f1f161185325423ef411
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-12T21:15:25+00:00
-translation_source_metadata_hash: f52f7c7bf3f1d71b41767f4bf71ce499aa0734345d320e3cbf10f98d2e04a397
+translation_updated: 2026-06-14T19:28:08+00:00
+translation_source_metadata_hash: b60fe45a1e155575c078bea0e94e472f0d7ed9e027c1bc8e12bdc70a5be66376
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T21:15:25+00:00
+translation_metadata_updated: 2026-06-14T19:28:08+00:00
+translation_source_localized_metadata_hash: b60fe45a1e155575c078bea0e94e472f0d7ed9e027c1bc8e12bdc70a5be66376
+translation_source_structural_metadata_hash: 28272c76a617bb54caa13fa874e48c644ad1f882db6519d1f0fd0a9cd7e08043
 ---
 > [!info] Korte beschrijving
-> Een diabolo-werpwedstrijd waarbij de hoogste schone vangst wint.
+> Een diabolo-werpwedstrijd waarbij de hoogste zuivere worp en vangst wint.
 
-![[../img/diabolo-highest-throw.jpg|300]]
+![diabolo-highest-throw](../img/diabolo-highest-throw.jpg){ width=300 }
 
 **Groepsgrootte**: 2 tot 40 spelers  
 **Moeilijkheidsgraad**: gemiddeld  
@@ -56,9 +58,9 @@ translation_metadata_updated: 2026-06-12T21:15:25+00:00
 
 ## Spelbeschrijving
 
-Alle spelers gooien tegelijkertijd hun diabolo hoog op en moeten deze schoon vangen om in het spel te blijven. Een speler valt af als de worp onveilig is, niet te vangen is of niet schoon wordt gevangen.
+Alle spelers gooien tegelijkertijd hun diabolo hoog op en moeten deze zuiver vangen om in het spel te blijven. Een speler valt af als de worp onveilig is, niet te vangen is of niet zuiver wordt gevangen.
 
-Herhaal de rondes totdat er nog maar een paar spelers over zijn. In de finale wint de speler die de hoogste veilige worp maakt en deze nog steeds vangt.
+Herhaal de rondes totdat er nog maar een paar spelers over zijn. In de finale wint de speler die de hoogste veilige worp maakt en deze toch nog vangt.
 
 ## Opzet
 
@@ -75,7 +77,7 @@ Herhaal de rondes totdat er nog maar een paar spelers over zijn. In de finale wi
 
 ## Veiligheidsopmerkingen
 
-Hoge diabolos zijn hard en onvoorspelbaar. Ruim het landingsgebied op en stop als worpen richting toeschouwers drijven.
+Hoge diabolos zijn hard en onvoorspelbaar. Ruim het landingsgebied op en stop als worpen richting toeschouwers afdrijven.
 
 ## Bron
 

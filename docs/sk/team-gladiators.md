@@ -9,15 +9,15 @@ tags:
   - gladiators
 created: 2026-06-12 00:00:00
 update: 2026-06-12 22:09:31
-title: Tím Gladiátorov
+title: Tímoví gladiátori
 description: Tímová verzia gladiátorov, kde preživší hráč boduje pre svoj tím.
 authors:
   - CircusWiki contributors
 category:
   - convention-games
   - gladiators
-Schwierigkeit: "mittel"
-Material: "Juggling clubs or agreed gladiator props"
+Schwierigkeit: stredná
+Material: Žonglovacie kyje alebo dohodnuté rekvizity gladiátorov
 Spieldauer: "5-15"
 group-min: 6
 group-max: 40
@@ -32,10 +32,12 @@ translation_source_body_hash: 0e1bafcc69b7bbe87e1404845fba9abe6c43948d6526a098eb
 translation_source_hash: 0e1bafcc69b7bbe87e1404845fba9abe6c43948d6526a098eba974f936a27d29
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-12T21:35:06+00:00
-translation_source_metadata_hash: 1d3dcf6db6608b2478aa3cbcd0ab85bec28bb81e679038524a63091ead0a0830
+translation_source_metadata_hash: 826b0fbdaa139226121a5c491c46e0f08f5cbd2b9173776777b20fe74f7aafdc
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T21:35:06+00:00
+translation_metadata_updated: 2026-06-14T16:03:54+00:00
+translation_source_localized_metadata_hash: 826b0fbdaa139226121a5c491c46e0f08f5cbd2b9173776777b20fe74f7aafdc
+translation_source_structural_metadata_hash: 04f5bdad01755bf8597224eaaf8dec39631d8621c9fb04a102ab348c7763343f
 ---
 > [!info] Krátky opis
 > Tímová verzia gladiátorov, kde preživší hráč boduje pre svoj tím.

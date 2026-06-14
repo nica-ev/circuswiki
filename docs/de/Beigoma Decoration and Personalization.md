@@ -7,7 +7,7 @@ tags:
 created: 2026-06-11 00:00:00
 update: 2026-06-11 17:32:05
 title: Beigoma-Dekoration und Personalisierung
-description: Ideen zur Dekoration und Personalisierung von Beigoma, damit Spieler ihre Kreisel identifizieren und kreativ mit der Aktivität umgehen können.
+description: Ideen zur Dekoration und Personalisierung von Beigoma, damit Spieler ihre Kreisel identifizieren und kreativ gestalten können.
 authors:
   - Marc Bielert
 source:
@@ -22,10 +22,12 @@ translation_source_body_hash: 281f84cae3f169a5f466df0b9ad54b28b5c723b6e130dedeb0
 translation_source_hash: 281f84cae3f169a5f466df0b9ad54b28b5c723b6e130dedeb0acde4a08617700
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-11T15:33:35+00:00
-translation_source_metadata_hash: acbbcc34122186a6ce334398d2758bc50e9a4bc31169c3a780f79a3add72c3e9
+translation_source_metadata_hash: 271ef13c24db2893921996dc2ea478a824e8ad9bb105a52529069278b09fd410
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-11T15:33:35+00:00
+translation_metadata_updated: 2026-06-14T15:38:54+00:00
+translation_source_localized_metadata_hash: 271ef13c24db2893921996dc2ea478a824e8ad9bb105a52529069278b09fd410
+translation_source_structural_metadata_hash: b75fcb61f6ae478568657ff60cfcc09ffd9796ee78d069bc0bc7aa9866d55290
 ---
 > [!info] Zusammenfassung
 > Das Verzieren von Beigoma bietet den Spielern einen kreativen Einstieg und erleichtert die Erkennung der eigenen Kreisel im Gruppenspiel.

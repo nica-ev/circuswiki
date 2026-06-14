@@ -6,7 +6,7 @@ update: 2026-06-06 21:49:38
 publish: false
 tags:
   - case-study
-title: Wspieranie biegłości w narzędziach pisarskich
+title: Doskonalenie umiejętności posługiwania się narzędziami do pisania
 description:
 authors:
   - Craig Quat
@@ -18,10 +18,12 @@ translation_source_hash: 6dee4135dc43dae1b8a0a64c869137be3d5839122b892e21bfa1d4c
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-06T20:10:34+00:00
 translation_source_body_hash: 6dee4135dc43dae1b8a0a64c869137be3d5839122b892e21bfa1d4cb0971620b
-translation_source_metadata_hash: a26c283eceeaf69efa2efebf77b2f4b3e61f2381c56f2d93ea98ecce91d4bc40
+translation_source_metadata_hash: 7c818b1398235378b2f635a50f90b658de059baf6283925676cc1d927cd1b111
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:06:56+00:00
+translation_metadata_updated: 2026-06-14T15:43:30+00:00
+translation_source_localized_metadata_hash: 7c818b1398235378b2f635a50f90b658de059baf6283925676cc1d927cd1b111
+translation_source_structural_metadata_hash: f660fc735ea6c2393fdd03c73761449f0146787a1d182d5dda8dd417989d6e12
 ---
 # **Jonglerka Funkcjonalna jako Narzędzie Wspierające Opanowanie Umiejętności Pisania u Dziecka z ADHD**
 

@@ -19,8 +19,8 @@ category:
   - diabolo
   - throwing
   - catching
-Schwierigkeit: "mittel"
-Material: "One diabolo and handsticks per player, open high space"
+Schwierigkeit: médio
+Material: Um diabolo e baquetas por jogador, espaço amplo e alto
 Spieldauer: "5-10"
 group-min: 2
 group-max: 40
@@ -35,51 +35,53 @@ source_permission: "public-place images reviewed as reusable by project maintain
 aliases:
   - Highest Throw
 translation_source: docs/en/diabolo-highest-throw.md
-translation_source_body_hash: c3162937bee4493f593c9f81cf481815c573d6987b324367766d1839ce477763
-translation_source_hash: c3162937bee4493f593c9f81cf481815c573d6987b324367766d1839ce477763
+translation_source_body_hash: b66ce9655589d49184595dfe9733a4b83b29ab92f9f4f1f161185325423ef411
+translation_source_hash: b66ce9655589d49184595dfe9733a4b83b29ab92f9f4f1f161185325423ef411
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-12T21:15:37+00:00
-translation_source_metadata_hash: f52f7c7bf3f1d71b41767f4bf71ce499aa0734345d320e3cbf10f98d2e04a397
+translation_updated: 2026-06-14T19:28:21+00:00
+translation_source_metadata_hash: b60fe45a1e155575c078bea0e94e472f0d7ed9e027c1bc8e12bdc70a5be66376
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T21:15:37+00:00
+translation_metadata_updated: 2026-06-14T19:28:21+00:00
+translation_source_localized_metadata_hash: b60fe45a1e155575c078bea0e94e472f0d7ed9e027c1bc8e12bdc70a5be66376
+translation_source_structural_metadata_hash: 28272c76a617bb54caa13fa874e48c644ad1f882db6519d1f0fd0a9cd7e08043
 ---
 > [!info] Descrição Curta
-> Um concurso de arremesso de diabolo onde o arremesso e a recepção limpa mais altos ganham.
+> Uma competição de arremesso de diabolos onde o arremesso e a recepção limpa mais altos vencem.
 
-![[../img/diabolo-highest-throw.jpg|300]]
+![diabolo-highest-throw](../img/diabolo-highest-throw.jpg){ width=300 }
 
-**Tamanho do Grupo**: 2 a 40 jogadores  
+**Tamanho do Grupo**: 2 a 40 participantes  
 **Dificuldade**: média  
-**Material**: Um diabolo e baquetas por jogador, espaço amplo e alto  
+**Material**: Um diablo e baquetas por participante, espaço amplo e alto  
 **Duração**: aprox. 5-10 minutos
 
 ## Descrição do Jogo
 
-Todos os jogadores arremessam os seus diabolos alto ao mesmo tempo e devem fazer uma recepção limpa para permanecer no jogo. Um jogador é eliminado se o arremesso for inseguro, impossível de apanhar ou não for apanhado de forma limpa.
+Todos os participantes arremessam seus diabolos para o alto ao mesmo tempo e devem pegá-los limpos para permanecer no jogo. Um participante é eliminado se o arremesso for inseguro, impossível de pegar ou não for pego de forma limpa.
 
-Repita as rodadas até que restem apenas alguns jogadores. Na final, o vencedor é o jogador que fizer o arremesso seguro mais alto e ainda assim o apanhar.
+Repita as rodadas até que restem poucos participantes. Na final, o vencedor é o participante que fizer o arremesso seguro mais alto e ainda assim conseguir pegá-lo.
 
 ## Preparação
 
-- Use um salão interno alto ou um espaço externo sem obstáculos aéreos.
-- Marque uma área de arremesso e mantenha os espectadores bem fora da zona de aterragem.
-- Decida se os jogadores devem apanhar o seu próprio diabolo ou se podem apanhar qualquer diabolo.
+- Utilize um salão interno alto ou um espaço externo sem obstáculos aéreos.
+- Marque uma área de arremesso e mantenha os espectadores bem afastados da zona de aterrissagem.
+- Decida se os participantes devem pegar o seu próprio diablo ou se podem pegar qualquer diablo.
 
 ## Variações
 
-- Permita apanhar qualquer diabolo para um jogo caótico e divertido.
-- Exija que cada jogador apanhe o seu próprio diabolo para uma versão mais rigorosa.
+- Permita pegar qualquer diablo para um jogo caótico e convencional.
+- Exija que cada participante pegue o seu próprio diablo para uma versão mais rigorosa.
 - Use a distância de si mesmo em vez da altura.
-- Permita recepções em dupla para uma versão em equipa.
+- Permita pegadas em dupla para uma versão em equipe.
 
 ## Notas de Segurança
 
-Diabolos arremessados alto são pesados e imprevisíveis. Limpe a área de aterragem e pare se os arremessos se desviarem em direção aos espectadores.
+Diabolos arremessados alto são pesados e imprevisíveis. Limpe a área de aterrissagem e pare se os arremessos se desviarem em direção aos espectadores.
 
 ## Fonte
 
-- [JugglingWorld - Juggling Games](https://www.jugglingworld.biz/tricks/juggling-games/), secção: Diabolo Games, título: Highest Throw.
+- [JugglingWorld - Juggling Games](https://www.jugglingworld.biz/tricks/juggling-games/), seção: Diabolo Games, título: Highest Throw.
 - [Página de jogos de circo da UCircus](https://ucircus.co.uk/resources-circus-games/), cartão de origem: Diabolo Highest Throw.
 - Aulas UCircus: Diabolo.
 - Imagem de referência UCircus: `../img/diabolo-highest-throw.jpg`.

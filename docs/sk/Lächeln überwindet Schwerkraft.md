@@ -19,10 +19,12 @@ translation_source_hash: 8f37b521ddd75bd04e37f4cc39cb7eac57cb14e7bf75bab60ab1e5e
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-07T19:01:52+00:00
 translation_source_body_hash: 8f37b521ddd75bd04e37f4cc39cb7eac57cb14e7bf75bab60ab1e5e23c4458da
-translation_source_metadata_hash: 45c7fbcfbdd1a344bf7465d5257f499bb575e34b078d4468f9db56751b18faf1
+translation_source_metadata_hash: 37070a8881fa54b678ad221b13cde923affab93dc4181e57ba8343ebdadf22e1
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:56:06+00:00
+translation_metadata_updated: 2026-06-14T16:09:44+00:00
+translation_source_localized_metadata_hash: 37070a8881fa54b678ad221b13cde923affab93dc4181e57ba8343ebdadf22e1
+translation_source_structural_metadata_hash: 405cddd8ba2423b993e0dc496809cc1a6a548a182b6cd6c4213ae88c4c361277
 ---
 ## **Úsmev prekonáva gravitáciu**
 **List od Tobyho Philpotta, Európskeho riaditeľa IJA**

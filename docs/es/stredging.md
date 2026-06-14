@@ -11,7 +11,7 @@ tags:
 created: 2026-06-12 00:00:00
 update: 2026-06-12 22:08:58
 title: Stredging
-description: Una carrera en pareja donde un jugador patea pelotas desde el suelo y el otro las atrapa.
+description: Una carrera en pareja donde un jugador lanza pelotas desde el suelo y el otro las atrapa.
 authors:
   - CircusWiki contributors
 category:
@@ -19,8 +19,8 @@ category:
   - ball-games
   - throwing
   - catching
-Schwierigkeit: "einfach"
-Material: "Five balls per team, optional bin or sack"
+Schwierigkeit: fácil
+Material: Cinco pelotas por equipo, cubo o saco opcional
 Spieldauer: "5-15"
 group-min: 2
 group-max: 40
@@ -32,37 +32,39 @@ source_section: "Ball Games"
 source_image: "../img/games-stredging.jpg"
 source_permission: "public-place image reviewed as reusable by project maintainer"
 translation_source: docs/en/stredging.md
-translation_source_body_hash: 3a0a36a5dac9b3e098811bbeeb830c974096e0322da21b6587ecbaffd6cedadf
-translation_source_hash: 3a0a36a5dac9b3e098811bbeeb830c974096e0322da21b6587ecbaffd6cedadf
+translation_source_body_hash: 862dfd2e952c4774f8243265eb59e8dfb8e29eddd8e8ca69fb8c082931c49ac2
+translation_source_hash: 862dfd2e952c4774f8243265eb59e8dfb8e29eddd8e8ca69fb8c082931c49ac2
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-12T21:34:08+00:00
-translation_source_metadata_hash: 25c199a23a88d0df969376e691566a4d2494ba9cffa135b69398badf4fde29a9
+translation_updated: 2026-06-14T19:31:46+00:00
+translation_source_metadata_hash: 2a88d3049e32a3aad43e4b0fdcfaf916ebf2bf80ad1d8042cdf2e0c6b7399e3d
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T21:34:08+00:00
+translation_metadata_updated: 2026-06-14T19:31:46+00:00
+translation_source_localized_metadata_hash: 2a88d3049e32a3aad43e4b0fdcfaf916ebf2bf80ad1d8042cdf2e0c6b7399e3d
+translation_source_structural_metadata_hash: 26ca6b1dd24bccd83eb2944dd1bb52e1c22140e3cea9ac8a1e9ff8412e9697fb
 ---
-> [!info] Descripción Breve
+> [!info] Descripción breve
 > Una carrera en parejas donde un jugador lanza pelotas desde el suelo y el otro las atrapa.
 
-![[../img/games-stredging.jpg|300]]
+![games-stredging](../img/games-stredging.jpg){ width=300 }
 
-**Tamaño del grupo**: De 2 a 40 jugadores  
-**Dificultad**: Fácil  
+**Tamaño del grupo**: 2 a 40 jugadores  
+**Dificultad**: fácil  
 **Material**: Cinco pelotas por equipo, cubo o saco opcional  
 **Duración**: aprox. 5-15 minutos
 
-## Descripción del Juego
+## Descripción del juego
 
-Un juego en parejas para equipos de dos. Se colocan cinco pelotas en fila en el suelo. Un jugador impulsa o patea las pelotas hacia arriba desde el suelo, mientras que su compañero las atrapa con la mano o en un recipiente. Gana el equipo que atrape todas las pelotas más rápido.
+Un juego en parejas para equipos de dos. Se colocan cinco pelotas en fila en el suelo. Un jugador lanza o patea las pelotas desde el suelo, mientras que su compañero las atrapa con la mano o en un recipiente. Gana el equipo que atrape todas las pelotas más rápido.
 
 ## Variaciones
 
-Los roles se pueden intercambiar después de la primera fila de pelotas. Para una carrera de relevos más larga, monta dos filas para que ambos jugadores deban ser lanzador y receptor una vez.
+Se pueden intercambiar los roles después de la primera fila de pelotas. Para una carrera de relevos más larga, se pueden colocar dos filas para que ambos jugadores deban ser lanzador y receptor una vez.
 
-## Notas de Seguridad
+## Notas de seguridad
 
-Mantén el área de juego despejada y define los límites antes de que comience la ronda. Para juegos de contacto, apunta a objetos en lugar de a personas. Para juegos de lanzamiento, de montar, de equilibrio o acrobáticos, deja suficiente espacio para los intentos fallidos y detén la ronda si el grupo comienza a asumir riesgos inseguros.
+Mantén el área de juego despejada y define los límites antes de que comience la ronda. En los juegos de contacto, apunta a objetos en lugar de a personas. En los juegos de lanzamiento, de montar, de equilibrio o acrobáticos, deja suficiente espacio para los intentos fallidos y detén la ronda si el grupo comienza a asumir riesgos inseguros.
 
 ## Fuente
 
-[JugglingWorld - Juegos de Malabares](https://www.jugglingworld.biz/tricks/juggling-games/), sección: Juegos de Pelotas.
+[JugglingWorld - Juegos de malabares](https://www.jugglingworld.biz/tricks/juggling-games/), sección: Juegos de pelotas.

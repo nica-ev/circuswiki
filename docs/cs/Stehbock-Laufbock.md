@@ -6,14 +6,14 @@ tags:
   - spiele
 created: 2025-01-24 03:50:51
 update: 2025-03-17 02:20:19
-title: Běh s oporou
-description: Hra na přikrčení a reakci, kde se smí běhat pouze tehdy, když se hlídač nedívá.
+title: Běžec na místě
+description: Hra na přiblížení a reakci, kde se smí běhat pouze tehdy, když se hlídající nedívá.
 authors:
   - Marc Bielert
 category:
   - action
-Schwierigkeit: einfach
-Material: keines
+Schwierigkeit: lehká
+Material: žádný
 Spieldauer: 3
 source: Tasifan Spielebuch
 group-min: 6
@@ -25,10 +25,12 @@ translation_source_hash: 9e3e02385ad59a008fd7d6b72b3ac44ba0cda630a2547acdd0dba71
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:28:50+00:00
 translation_source_body_hash: 9e3e02385ad59a008fd7d6b72b3ac44ba0cda630a2547acdd0dba71eccc4a37c
-translation_source_metadata_hash: 58a23b750d37d49347eda4c31cee8f7e9ff64ee8d9fbc8a4ffa25c9945c0eeee
+translation_source_metadata_hash: d11658462dddd7c2456b2a47ad74aa6b8c5f993bba26c4cc9e775c25dd51b382
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T19:08:32+00:00
+translation_metadata_updated: 2026-06-14T16:21:26+00:00
+translation_source_localized_metadata_hash: d11658462dddd7c2456b2a47ad74aa6b8c5f993bba26c4cc9e775c25dd51b382
+translation_source_structural_metadata_hash: 561bdb37d9935b7f588dcd6cc22955a92c12695e10981493caaa99100cf092ee
 ---
 > [!info] Stručný popis
 > Hra na plížení a reakci, při které se smí hráči pohybovat pouze tehdy, když se na ně "dozorčí" nedívá.

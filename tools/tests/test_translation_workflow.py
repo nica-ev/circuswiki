@@ -15,11 +15,18 @@ from translation.workflow import (  # noqa: E402
     batch_translation_plan,
     find_group_source_language,
     merge_source_metadata,
+    needs_localized_metadata_translation,
     restore_markdown_link_targets,
     restore_wikilink_targets,
     source_body_hash,
     source_metadata_hash,
+    source_metadata_for_translation,
+    source_owned_metadata_differences,
+    source_structural_metadata_hash,
+    translatable_body_hash,
+    translate_body,
 )
+from unittest.mock import patch
 
 
 class TranslationWorkflowTests(unittest.TestCase):
@@ -72,16 +79,42 @@ class TranslationWorkflowTests(unittest.TestCase):
         self.assertEqual(source_body_hash("Body\n"), source_body_hash("Body\n"))
         self.assertNotEqual(source_body_hash("Body\n"), source_body_hash("Changed\n"))
 
-    def test_metadata_hash_tracks_title_and_description(self) -> None:
+    def test_metadata_hash_tracks_configured_translatable_fields(self) -> None:
         first = "title: Test\ndescription: One\ncustom: ignored\n"
         second = "title: Test\ndescription: Two\ncustom: ignored\n"
         third = "title: Test\ndescription: One\ncustom: changed\n"
+        fourth = "title: Test\ndescription: One\nSchwierigkeit: einfach\ncustom: ignored\n"
         self.assertNotEqual(source_metadata_hash(first), source_metadata_hash(second))
         self.assertEqual(source_metadata_hash(first), source_metadata_hash(third))
+        self.assertNotEqual(source_metadata_hash(first), source_metadata_hash(fourth))
+
+    def test_source_metadata_for_translation_uses_configured_fields(self) -> None:
+        metadata = source_metadata_for_translation(
+            "title: Test\ndescription: One\nSchwierigkeit: einfach\nMaterial: Bälle\ncustom: ignored\n"
+        )
+        self.assertEqual(
+            metadata,
+            {
+                "title": "Test",
+                "description": "One",
+                "Schwierigkeit": "einfach",
+                "Material": "Bälle",
+            },
+        )
+
+    def test_localized_and_structural_metadata_hashes_are_independent(self) -> None:
+        base = "title: Test\ndescription: One\nupdate: 2026-06-14\ncustom: source\n"
+        structural_changed = "title: Test\ndescription: One\nupdate: 2026-06-15\ncustom: source\n"
+        localized_changed = "title: Test\ndescription: Two\nupdate: 2026-06-14\ncustom: source\n"
+
+        self.assertEqual(source_metadata_hash(base), source_metadata_hash(structural_changed))
+        self.assertNotEqual(source_metadata_hash(base), source_metadata_hash(localized_changed))
+        self.assertNotEqual(source_structural_metadata_hash(base), source_structural_metadata_hash(structural_changed))
+        self.assertEqual(source_structural_metadata_hash(base), source_structural_metadata_hash(localized_changed))
 
     def test_metadata_merge_preserves_target_translated_fields(self) -> None:
         source = "title: Quelle\ndescription: Deutsch\ntags:\n  - spiel\nauthors:\n  - Marc\n"
-        target = "title: Existing English\ndescription: Existing description\nlocal_note: keep\n"
+        target = "title: Existing English\ndescription: Existing description\ntags:\n  - translated-tag\nlocal_note: remove\n"
         merged = merge_source_metadata(target, source)
         translated = apply_translated_metadata(
             merged,
@@ -89,9 +122,35 @@ class TranslationWorkflowTests(unittest.TestCase):
         )
         self.assertEqual(read_scalar(translated, "title"), "Source")
         self.assertEqual(read_scalar(translated, "description"), "English description")
-        self.assertEqual(read_scalar(translated, "local_note"), "keep")
+        self.assertIsNone(read_scalar(translated, "local_note"))
         self.assertIn("tags:\n  - spiel", translated)
+        self.assertNotIn("translated-tag", translated)
         self.assertIn("authors:\n  - Marc", translated)
+
+    def test_metadata_merge_removes_target_tags_when_source_has_none(self) -> None:
+        source = "title: Quelle\ndescription: Deutsch\n"
+        target = "title: Existing English\ntags:\n  - translated-tag\nlocal_note: keep\n"
+        merged = merge_source_metadata(target, source)
+        self.assertNotIn("tags:", merged)
+        self.assertNotIn("local_note:", merged)
+
+    def test_source_owned_metadata_differences_detect_unknown_and_update_drift(self) -> None:
+        source = "title: Quelle\ndescription: Deutsch\nupdate: 2026-06-14\ntags:\n  - moc\ncustom: source\n"
+        target = "title: Target\ndescription: English\nupdate: 2026-06-13\ntags:\n  - moc\n  - dynamic\ncustom: target\nextra: remove\n"
+        self.assertEqual(
+            source_owned_metadata_differences(source, target),
+            ["custom", "extra", "tags", "update"],
+        )
+
+    def test_structural_only_metadata_drift_does_not_require_api_translation(self) -> None:
+        source = "title: Quelle\ndescription: Deutsch\nupdate: 2026-06-14\n"
+        target = (
+            "title: Target\n"
+            "description: English\n"
+            "update: 2026-06-13\n"
+            f"translation_source_metadata_hash: {source_metadata_hash(source)}\n"
+        )
+        self.assertFalse(needs_localized_metadata_translation(source, target))
 
     def test_markdown_link_targets_are_restored_without_touching_external_links(self) -> None:
         source = "See [Spiel](spiele/original.md#regeln) and [Site](https://example.org).\n"
@@ -106,6 +165,108 @@ class TranslationWorkflowTests(unittest.TestCase):
         result = restore_wikilink_targets(source, translated)
         self.assertIn("[[Spiele/Fangen|Tag]]", result)
         self.assertIn("![[img/original.png]]", result)
+
+    def test_dynamic_body_hash_ignores_generated_content(self) -> None:
+        frontmatter = "tags:\n  - dynamic\n"
+        first = """Intro
+<!-- dynamic:start
+engine: obsidian-base
+base: _bases/Spiele-Base.base
+view: Liste aller Spiele
+-->
+<!-- dynamic:content -->
+old generated table
+<!-- dynamic:end -->
+Outro
+"""
+        second = first.replace("old generated table", "new generated table")
+        self.assertEqual(
+            translatable_body_hash(frontmatter, first),
+            translatable_body_hash(frontmatter, second),
+        )
+
+    def test_translate_body_renders_dynamic_blocks_without_sending_them_to_model(self) -> None:
+        body = """Intro
+<!-- dynamic:start
+engine: obsidian-base
+base: _bases/Spiele-Base.base
+view: Liste aller Spiele
+-->
+<!-- dynamic:content -->
+old generated table
+<!-- dynamic:end -->
+Outro
+"""
+
+        def fake_translate(body: str, **_kwargs: object) -> str:
+            self.assertNotIn("old generated table", body)
+            self.assertNotIn("dynamic:start", body)
+            return body.replace("Intro", "Translated intro").replace("Outro", "Translated outro")
+
+        with (
+            patch("translation.workflow.call_translation_model", side_effect=fake_translate) as translate,
+            patch(
+                "translation.workflow.render_block",
+                return_value={"ok": True, "index": 0, "markdown": "fresh generated table", "warnings": []},
+            ) as render,
+        ):
+            translated, _link_result, dynamic_results = translate_body(
+                source_body=body,
+                target_path=ROOT / "docs" / "es" / "Liste aller Spiele.md",
+                source_lang="de",
+                target_lang="es",
+                model="test-model",
+                prompt=None,
+            )
+
+        self.assertEqual(translate.call_count, 2)
+        render.assert_called_once()
+        self.assertIn("Translated intro", translated)
+        self.assertIn("fresh generated table", translated)
+        self.assertIn("Translated outro", translated)
+        self.assertIn("<!-- dynamic:end -->", translated)
+        self.assertNotIn("old generated table", translated)
+        self.assertEqual(len(dynamic_results), 1)
+
+    def test_translate_body_does_not_count_dynamic_table_links_as_repairs(self) -> None:
+        body = """Intro
+<!-- dynamic:start
+engine: obsidian-base
+base: _bases/Spiele-Base.base
+view: Liste aller Spiele
+-->
+<!-- dynamic:content -->
+| file |
+| --- |
+| [Spiel A](Spiel%20A.md) |
+| [Spiel B](Spiel%20B.md) |
+<!-- dynamic:end -->
+Outro
+"""
+
+        with (
+            patch("translation.workflow.call_translation_model", side_effect=lambda body, **_kwargs: body),
+            patch(
+                "translation.workflow.render_block",
+                return_value={
+                    "ok": True,
+                    "index": 0,
+                    "markdown": "| file |\n| --- |\n| [Game A](Game%20A.md) |",
+                    "warnings": [],
+                },
+            ),
+        ):
+            _translated, link_result, _dynamic_results = translate_body(
+                source_body=body,
+                target_path=ROOT / "docs" / "en" / "Liste aller Spiele.md",
+                source_lang="de",
+                target_lang="en",
+                model="test-model",
+                prompt=None,
+            )
+
+        self.assertEqual(link_result.repair_count, 0)
+        self.assertEqual(link_result.diagnostics, [])
 
     def page(self, language: str, status: str) -> VaultPage:
         return VaultPage(

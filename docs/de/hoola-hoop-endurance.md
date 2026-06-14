@@ -10,15 +10,15 @@ tags:
 created: 2026-06-12 00:00:00
 update: 2026-06-12 21:55:16
 title: Hula-Hoop Ausdauer
-description: Spieler beginnen, den Hula-Hoop um die Taille zu kreisen.
+description: Spieler beginnen, sich mit dem Hula-Hoop um die Taille zu drehen.
 authors:
   - CircusWiki contributors
 category:
   - convention-games
   - miscellaneous
   - endurance
-Schwierigkeit: "einfach"
-Material: "Hula hoops"
+Schwierigkeit: einfach
+Material: Hula-Hoops
 Spieldauer: "5-15"
 group-min: 3
 group-max: 60
@@ -33,10 +33,12 @@ translation_source_body_hash: a6164bc2486066f1054458bd9120413cf3f55b0ed07190a3f3
 translation_source_hash: a6164bc2486066f1054458bd9120413cf3f55b0ed07190a3f3bf2829e5c2c55c
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-12T21:19:39+00:00
-translation_source_metadata_hash: fa2d89168dacd82601aabffe287b54128a690ea93ff9252f607093d3a6817d9a
+translation_source_metadata_hash: 4de74109193feba09c746197d910c0a683085581fb160bbfb1b20bc47cf11601
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T21:19:39+00:00
+translation_metadata_updated: 2026-06-14T15:59:33+00:00
+translation_source_localized_metadata_hash: 4de74109193feba09c746197d910c0a683085581fb160bbfb1b20bc47cf11601
+translation_source_structural_metadata_hash: 7b99c58330c98e55e12894663caa409c740b3368562f7127cbbe6852e4757d72
 ---
 > [!info] Kurzbeschreibung
 > Ein Hula-Hoop-Ausdauer-Spiel mit zusätzlichen Herausforderungen.

@@ -7,13 +7,13 @@ tags:
 created: 2025-01-24 03:50:51
 update: 2025-03-17 05:43:26
 title: Zombie
-description: Un juego de reacción de nombres en círculo donde un zombi lento es desviado por miradas rápidas y llamadas de nombres.
+description: Un juego de reacción en círculo donde un zombie lento es desviado por miradas rápidas y llamadas de nombres.
 authors:
   - Marc Bielert
 category:
   - kennenlernen
-Schwierigkeit: mittel
-Material: keines
+Schwierigkeit: medio
+Material: ninguno
 Spieldauer: 5-10
 source:
   - Tasifan Spielebuch
@@ -26,10 +26,12 @@ translation_source_hash: 98b190f371857458bfe57539649537882611949607ff6ca9df8c2ca
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:38:53+00:00
 translation_source_body_hash: 98b190f371857458bfe57539649537882611949607ff6ca9df8c2cae1404fb17
-translation_source_metadata_hash: a51c4b601b9caef02524c2bb405d2a0a14fd476976b624414b120afcff7fd6c7
+translation_source_metadata_hash: 26eb55ad4e490dba44832f78fcb135e092f353e7f55223bc828f8655be5824d9
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T19:13:45+00:00
+translation_metadata_updated: 2026-06-14T16:29:06+00:00
+translation_source_localized_metadata_hash: 26eb55ad4e490dba44832f78fcb135e092f353e7f55223bc828f8655be5824d9
+translation_source_structural_metadata_hash: 08da1e3c1b1c5972ad2f025609d8b59c0d1e437abfc266bab827e1ff24b993fb
 ---
 > [!info] Breve descripción
 > Un juego de reacción con nombres en círculo, en el que un zombi lento es desviado con miradas rápidas y llamadas de nombres.

@@ -10,16 +10,16 @@ tags:
   - juggling
 created: 2026-06-12 00:00:00
 update: 2026-06-12 21:39:05
-title: Gladiators με οποιοδήποτε αντικείμενο
-description: Ένα παιχνίδι gladiators με μικτά αντικείμενα όπου όλοι επιλέγουν ένα αντικείμενο που μπορούν να διατηρήσουν ενεργό με ασφάλεια.
+title: Μονομάχοι με οποιοδήποτε αντικείμενο
+description: Ένα παιχνίδι μονομάχων με μικτά αντικείμενα, όπου ο καθένας επιλέγει ένα αντικείμενο που μπορεί να διατηρεί ενεργό με ασφάλεια.
 authors:
   - CircusWiki contributors
 category:
   - convention-games
   - gladiators
   - juggling
-Schwierigkeit: "mittel"
-Material: "Any circus prop that can be kept active safely"
+Schwierigkeit: μεσαίο
+Material: Οποιοδήποτε ακροβατικό αντικείμενο που μπορεί να διατηρείται ενεργό με ασφάλεια
 Spieldauer: "5-15"
 group-min: 3
 group-max: 60
@@ -34,10 +34,12 @@ translation_source_body_hash: 8bffbcaa909ab65ed2ff5426716e6f4014fcf2bfdfb45bcd0d
 translation_source_hash: 8bffbcaa909ab65ed2ff5426716e6f4014fcf2bfdfb45bcd0d509143a7c21b7d
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-12T21:07:07+00:00
-translation_source_metadata_hash: c5a61224db227b3306aa78a988e57561a7a3a80dd91758dfb44c263e31788528
+translation_source_metadata_hash: a8ab8654a7ebf23daa1f2f581bc9cbe979303db484d26c4fc2a78da50aade319
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T21:07:07+00:00
+translation_metadata_updated: 2026-06-14T15:55:35+00:00
+translation_source_localized_metadata_hash: a8ab8654a7ebf23daa1f2f581bc9cbe979303db484d26c4fc2a78da50aade319
+translation_source_structural_metadata_hash: 6dd8cac438ddae0a72b7b013d83ac879510c1e9cc73a0d457c35c259e6db7c61
 ---
 > [!info] Σύντομη Περιγραφή
 > Ένα παιχνίδι μονομάχων με διάφορα αντικείμενα, όπου ο καθένας επιλέγει ένα αντικείμενο που μπορεί να διατηρεί σε κίνηση με ασφάλεια.

@@ -30,11 +30,10 @@ source_url: https://ucircus.co.uk/resources-circus-games/
 source_image: ../img/human-surfing.jpg
 source_permission: public group photo reviewed as reusable by project maintainer
 ---
-
 > [!info] Short Description
 > A team balance game where one person balances on a moving human base.
 
-![[../img/human-surfing.jpg|300]]
+![human-surfing](../img/human-surfing.jpg){ width=300 }
 
 **Group Size**: 4 to 24 players
 **Difficulty**: schwer

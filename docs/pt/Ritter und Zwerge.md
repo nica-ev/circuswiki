@@ -14,8 +14,8 @@ category:
   - warm-up
 source:
   - unbekannt
-Schwierigkeit: einfach
-Material: Besenstiel
+Schwierigkeit: fácil
+Material: Cabo de vassoura
 Spieldauer: 5-10
 group-min: 8
 group-max: 20
@@ -26,10 +26,12 @@ translation_source_hash: e81fedc52579c485387d59a34a843c90a4cf326a57e8349642ba1af
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:12:59+00:00
 translation_source_body_hash: e81fedc52579c485387d59a34a843c90a4cf326a57e8349642ba1af7f2915c5c
-translation_source_metadata_hash: 8d19fec8d83ad813235c38106be8e55f58e36b77c3e04547c7fdb5ccd6f2ea55
+translation_source_metadata_hash: 4f94d1003f2b3c1a3f139c147adc7508537c734ff3ca8fa463811686fbde0ad3
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T19:04:01+00:00
+translation_metadata_updated: 2026-06-14T16:17:13+00:00
+translation_source_localized_metadata_hash: 4f94d1003f2b3c1a3f139c147adc7508537c734ff3ca8fa463811686fbde0ad3
+translation_source_structural_metadata_hash: afead32bc389603d6f22ca7d5c4b7fc3cec2efbaad938742b16e29f96f6ca19f
 ---
 > [!info] Descrição Curta
 > Um jogo de reação onde um grupo de anões reage a movimentos de bastão do cavaleiro, agachando-se, saltando e desviando.

@@ -7,15 +7,15 @@ tags:
 created: 2025-01-24 03:50:50
 update: 2025-03-17 05:48:21
 title: Kataflasch
-description: Un gioco ritmico in cerchio in cui il gruppo lavora sempre più a stretto contatto con parole, passi e movimenti.
+description: Un gioco ritmico di gruppo in cerchio, in cui il gruppo lavora sempre più a stretto contatto con parole, passi e movimenti.
 authors:
   - Marc Bielert
 category:
   - warm-up
 source:
   - Tasifan Spielebuch
-Schwierigkeit: einfach
-Material: keines
+Schwierigkeit: facile
+Material: nessuno
 Spieldauer: "5"
 group-min: 10
 group-max: 99
@@ -26,10 +26,12 @@ translation_source_hash: 1a6555ad46f76fad7f76efb761ae8c425b8f30e4ac0f2f1fcff3b38
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:47:02+00:00
 translation_source_body_hash: 1a6555ad46f76fad7f76efb761ae8c425b8f30e4ac0f2f1fcff3b38b154d8829
-translation_source_metadata_hash: ddd4c6fc2178744e466ea043883c0e73bf46c7a7f299f60bc00827f4994b4600
+translation_source_metadata_hash: f5414151d8a4eb74daff2dea52eefb931bfab692bc7db3d5591f79041d470849
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:53:03+00:00
+translation_metadata_updated: 2026-06-14T16:06:38+00:00
+translation_source_localized_metadata_hash: f5414151d8a4eb74daff2dea52eefb931bfab692bc7db3d5591f79041d470849
+translation_source_structural_metadata_hash: 148582cfddbeecf3e068250c35c8c056d48281309afb75ffa886d71af31b6041
 ---
 > [!info] Breve descrizione
 > Un gioco ritmico in cerchio in cui il gruppo collabora sempre più strettamente attraverso parole, passi e movimenti.

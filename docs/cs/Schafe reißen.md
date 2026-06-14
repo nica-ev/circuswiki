@@ -6,14 +6,14 @@ tags:
   - spiele
 created: 2025-01-25 01:47:08
 update: 2025-03-17 02:15:09
-title: Ovce trhají
-description: Běhací a honička, kde vlci táhnou nebo nesou ovce přes cílovou čáru a tím je proměňují.
+title: Trhání ovcí
+description: Běhací a honičková hra, kde vlci táhnou nebo nesou ovce přes cílovou čáru a tím je proměňují.
 authors:
   - Marc Bielert
 category:
   - bewegung
-Schwierigkeit: einfach
-Material: keines
+Schwierigkeit: lehká
+Material: žádný
 Spieldauer: 3-5
 source: Tasifan Spielebuch
 group-min: 10
@@ -25,10 +25,12 @@ translation_source_hash: a20d7bb1b164002f930b1b38356845eee4999ac01ba4d8f0b3a2794
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:14:21+00:00
 translation_source_body_hash: a20d7bb1b164002f930b1b38356845eee4999ac01ba4d8f0b3a2794448521428
-translation_source_metadata_hash: a905e5a7615540ed3224add58f7b0e8ea27b8355f14e331c5ac52629766c9371
+translation_source_metadata_hash: 1b6f688b3abd0608bc001a9abadfb6f6e9da306d378720f8f68d97114c2923c1
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T19:04:51+00:00
+translation_metadata_updated: 2026-06-14T16:18:03+00:00
+translation_source_localized_metadata_hash: 1b6f688b3abd0608bc001a9abadfb6f6e9da306d378720f8f68d97114c2923c1
+translation_source_structural_metadata_hash: 141190999b11508b8371fe47348dba2be7323b284d956c6ccb5b687db6d5bf66
 ---
 > [!info] Stručný popis
 > Hra na honěnou, při které vlci přetahují nebo odnášejí ovce přes svou cílovou čáru a tím je proměňují.

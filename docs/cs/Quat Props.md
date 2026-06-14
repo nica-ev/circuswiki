@@ -22,10 +22,12 @@ translation_source_hash: a1dea2a88efed6bf01bb87009b9f3ea74f6862373c3a1bad26e152e
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-08T16:36:46+00:00
 translation_source_body_hash: a1dea2a88efed6bf01bb87009b9f3ea74f6862373c3a1bad26e152e0ab2db1d6
-translation_source_metadata_hash: 256d410a116627aeeb49573f74211ff586732125ad567001d3ce7d9eae18af19
+translation_source_metadata_hash: b0196727158466d0a8ed37f78078ec70bede3cbb0cc9a82ff7b4ff6a1b2b671c
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T19:03:23+00:00
+translation_metadata_updated: 2026-06-14T16:16:41+00:00
+translation_source_localized_metadata_hash: b0196727158466d0a8ed37f78078ec70bede3cbb0cc9a82ff7b4ff6a1b2b671c
+translation_source_structural_metadata_hash: d7d85ef72fe30727d902818d281d1b29a6166a874bec6a0b588637a9ee2860c4
 ---
 # Quat Props
 Společnost Quat Props, založená Craigem Quatem, je mezinárodní iniciativou zaměřenou na podporu dostupnosti a inkluze prostřednictvím žonglování. Vývojem inovativních nástrojů, jako je Juggle Board, projekt přetváří žonglování z pouhé performance na prostředek pro vzdělávání, terapii a sociální zapojení. Jeho pedagogický rámec klade důraz na funkční hru, přizpůsobivost a emoční učení, což umožňuje různým komunitám využívat žonglování jako cestu k regulaci, spolupráci a kreativnímu vyjádření.

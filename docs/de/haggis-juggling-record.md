@@ -19,8 +19,8 @@ category:
   - novelty-games
   - endurance
   - juggling
-Schwierigkeit: "mittel"
-Material: "Soft haggis-shaped substitute objects, or well-wrapped novelty props"
+Schwierigkeit: mittel
+Material: Weiche, haggisförmige Ersatzobjekte oder gut verpackte neuartige Requisiten
 Spieldauer: "5-15"
 group-min: 2
 group-max: 40
@@ -35,10 +35,12 @@ translation_source_body_hash: d911aea76337fb564862601d2a4c22f7a3ec0e6fbd0f4866c2
 translation_source_hash: d911aea76337fb564862601d2a4c22f7a3ec0e6fbd0f4866c204acee652e9274
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-12T21:17:35+00:00
-translation_source_metadata_hash: c2f7b2db0058119dedb7ca67af454147c36b9d1b0fb7daf73719ecf0704a892c
+translation_source_metadata_hash: 475d78b5bcca87bd25d3d7793e5b6de771a874ad39b1c7d1cb675814f5379e98
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T21:17:35+00:00
+translation_metadata_updated: 2026-06-14T15:58:57+00:00
+translation_source_localized_metadata_hash: 475d78b5bcca87bd25d3d7793e5b6de771a874ad39b1c7d1cb675814f5379e98
+translation_source_structural_metadata_hash: 6a943790f6133046c72bd1ef33f1abbf4a3892bf40846c3b02f32d1da84b662b
 ---
 > [!info] Kurzbeschreibung
 > Ein neuartiges Jonglier-Rekordspiel, inspiriert vom Haggis, einem traditionellen schottischen Gericht, das normalerweise mit weichen Ersatzobjekten gespielt wird.

@@ -10,17 +10,17 @@ tags:
   - piggyback
   - gladiators
 created: 2026-06-12 00:00:00
-update: 2026-06-12 21:05:58
-title: 3 Piłki Gladiators z Przenoszeniem
-description: Wariant gry w gladiators, w którym przenoszony zawodnik żongluje trzema piłkami, podczas gdy jego partner przemieszcza go po arenie.
+update: 2026-06-14 21:44:17
+title: 3 Piłki w Wariancie Gladiators
+description: Wariant drużynowy gladiators, w którym niesiony gracz żongluje trzema piłkami, podczas gdy jego partner przemieszcza go po arenie.
 authors:
   - CircusWiki contributors
 category:
   - convention-games
   - juggling
   - partner-games
-Schwierigkeit: schwer
-Material: Three juggling balls per pair, marked arena
+Schwierigkeit: trudny
+Material: Trzy piłki do żonglowania na parę, wyznaczona arena
 Spieldauer: "5-10"
 group-min: 4
 group-max: 30
@@ -31,41 +31,43 @@ source_url: https://ucircus.co.uk/resources-circus-games/
 source_image: ../img/3-ball-piggyback-gladiators.jpg
 source_permission: public group photo reviewed as reusable by project maintainer
 translation_source: docs/en/3-ball-piggyback-gladiators.md
-translation_source_body_hash: e243d0af57f3b126837fea6988bc30fcd7ce1b91e50ccf021caeecacc18e64ea
-translation_source_hash: e243d0af57f3b126837fea6988bc30fcd7ce1b91e50ccf021caeecacc18e64ea
+translation_source_body_hash: 2ed42bd435a73bc1eb007ca04cf5be9b38e9095f2738c3dab173c1d5c87f196f
+translation_source_hash: 2ed42bd435a73bc1eb007ca04cf5be9b38e9095f2738c3dab173c1d5c87f196f
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-12T21:39:30+00:00
-translation_source_metadata_hash: b65c0ac6e9167b0d6841bb93b04b1b35979a4b914cb64220474d236b1b623bba
+translation_updated: 2026-06-14T19:34:22+00:00
+translation_source_metadata_hash: f9e4ae967c2381b3d8754708f05a85a4e44928355fec69bc00c822f163242a11
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T21:39:30+00:00
+translation_metadata_updated: 2026-06-14T19:34:22+00:00
+translation_source_localized_metadata_hash: f9e4ae967c2381b3d8754708f05a85a4e44928355fec69bc00c822f163242a11
+translation_source_structural_metadata_hash: 2707735df02da212fa2bd39afc4173dff72a12139949578f9e534d9d23e3c389
 ---
 > [!info] Krótki opis
-> Wariant gry "Gladiatorzy w parach", w którym niesiony zawodnik żongluje trzema piłkami, podczas gdy jego partner porusza się z nim po arenie.
+> Wariant gry "Gladiatorzy w parach", w którym niesiony gracz żongluje trzema piłkami, podczas gdy jego partner przemieszcza go po arenie.
 
-![[../img/3-ball-piggyback-gladiators.jpg|300]]
+![3-ball-piggyback-gladiators](../img/3-ball-piggyback-gladiators.jpg){ width=300 }
 
 **Liczba graczy**: od 4 do 30
 **Poziom trudności**: trudny
-**Materiały**: Trzy piłki do żonglerki na parę, wyznaczona arena
+**Materiały**: Trzy piłki do żonglowania na parę, wyznaczona arena
 **Czas trwania**: ok. 5-10 minut
 
 ## Opis gry
 
-Pary wchodzą na arenę, gdzie jedna osoba niesie drugą na barana. Niesiona osoba utrzymuje wzór żonglerki trzema piłkami, podczas gdy pary próbują bezpiecznie wyeliminować inne drużyny.
+Pary wchodzą na arenę, gdzie jeden gracz niesie drugiego na plecach. Niesiony gracz utrzymuje rytm żonglerki trzema piłkami, podczas gdy pary próbują bezpiecznie wyeliminować inne drużyny.
 
 ## Przygotowanie
 
-- Utwórz pary, upewniając się, że obie osoby wyraziły zgodę na niesienie.
+- Uformuj pary, uzyskując wyraźną zgodę na noszenie.
 - Wyznacz niewielką arenę i trzymaj widzów z dala od jej krawędzi.
 - Bardzo rygorystycznie określ zasady dopuszczalnej ingerencji; najbezpieczniejsza wersja polega na atakowaniu jedynie wzoru żonglerki, a nie osoby niosącej.
 
 ## Zasady
 
-1. Każda para zaczyna z jedną osobą niosącą i jedną żonglującą na barana.
-2. Na sygnał, osoba niesiona zaczyna żonglować trzema piłkami, a osoba niosąca porusza się po arenie.
-3. Pary próbują sprawić, by inne osoby żonglujące na barana upuściły piłki, jednocześnie chroniąc własny wzór żonglerki.
-4. Para odpada, jeśli żongler upuści piłkę, osoba na barana spadnie, osoba niosąca znajdzie się w niebezpiecznej sytuacji lub dojdzie do niedozwolonego kontaktu.
+1. Każda para zaczyna z jednym noszącym i jednym żonglującym na plecach.
+2. Na sygnał niesiony gracz zaczyna żonglować trzema piłkami, a osoba niosąca porusza się po arenie.
+3. Pary próbują sprawić, by inni żonglerzy na plecach upuścili piłki, jednocześnie chroniąc własny wzór żonglerki.
+4. Para odpada, jeśli żongler upuści piłkę, osoba niesiona spadnie, osoba niosąca znajdzie się w niebezpiecznej sytuacji lub dojdzie do niedozwolonego kontaktu.
 5. Ostatnia para z aktywnym wzorem żonglerki trzema piłkami wygrywa.
 
 ## Warianty
@@ -74,15 +76,15 @@ Pary wchodzą na arenę, gdzie jedna osoba niesie drugą na barana. Niesiona oso
 - Pozwól osobom niosącym na zmianę ról po każdej rundzie.
 - Użyj żonglerki jedną piłką dla grup o zróżnicowanym poziomie umiejętności.
 
-## Wskazówki dotyczące bezpieczeństwa
+## Uwagi dotyczące bezpieczeństwa
 
-Należy traktować tę grę jako zaawansowaną grę konwencjonalną. Unikaj jej w przypadku zmęczonych grup, na twardych podłogach lub gdy pary są niedopasowane pod względem siły do noszenia.
+Należy traktować tę grę jako zaawansowaną grę konwencjonalną. Unikaj jej w przypadku zmęczonych grup, twardych podłóg lub niedopasowanych par pod względem możliwości noszenia.
 
 ## Źródło
 
 - Karta źródłowa UCircus: [3 Ball Piggyback Gladiators](https://ucircus.co.uk/resources-circus-games/)
 - Zajęcia UCircus: Piłki, Eliminacja, Żonglerka
 - Lokalny obraz źródłowy: `../img/3-ball-piggyback-gladiators.jpg`
-- Obsługa źródła: Nie znaleziono dokładnego, niezależnego źródła zasad; zasady zostały wywnioskowane z tytułu/obrazu UCircus oraz ogólnego formatu gry "Gladiatorzy".
+- Obsługa źródła: Nie znaleziono dokładnego, niezależnego źródła zasad; zasady zostały wywnioskowane z tytułu/obrazu UCircus oraz szerszego formatu gry "Gladiatorzy".
 - Dodatkowe odniesienie: [Gry żonglerskie JugglingWorld](https://www.jugglingworld.biz/tricks/juggling-games/)
-- Dodatkowe odniesienie do kontekstu gladiatorskiego/walki: [Walka (żonglerka)](https://en.wikipedia.org/wiki/Combat_(juggling))
+- Dodatkowe odniesienie do kontekstu gladiatorów/walki: [Combat (juggling)](https://en.wikipedia.org/wiki/Combat_(juggling))

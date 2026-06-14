@@ -7,13 +7,13 @@ publish: true
 tags:
   - spiele
 title: Whiskeymixer
-description: Un gioco di parole e reazione in cerchio in cui parole difficili vengono passate senza ridere o commettere errori.
+description: Un gioco di parole e reazione in cerchio in cui parole difficili vengono passate senza ridere o sbagliare.
 authors:
   - Marc Bielert
 category:
   - sonstiges
-Schwierigkeit: mittel
-Material: keines
+Schwierigkeit: medio
+Material: nessuno
 Spieldauer: 3-10
 source: Tasifan Spielebuch
 group-min: 5
@@ -25,10 +25,12 @@ translation_source_hash: 876337b17fab3e8461b44b6938a5c81aeeb0138132fbd0f9dce2d1d
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:36:57+00:00
 translation_source_body_hash: 876337b17fab3e8461b44b6938a5c81aeeb0138132fbd0f9dce2d1d8faab35b0
-translation_source_metadata_hash: e4c81abc8c09896ad11d021685e26300ac395932a4dd79a7e426a21462ce46dc
+translation_source_metadata_hash: 3bd61f0fd11b13e6660ddbcc5f96e93d83cdb86d5e5f2737721c62741ba3bb82
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T19:11:53+00:00
+translation_metadata_updated: 2026-06-14T16:26:55+00:00
+translation_source_localized_metadata_hash: 3bd61f0fd11b13e6660ddbcc5f96e93d83cdb86d5e5f2737721c62741ba3bb82
+translation_source_structural_metadata_hash: 878ee5f01945e8e6cdc446e758389aabbf3c589aa6d5d3709a14e4305d06a951
 ---
 > [!info] Breve descrizione
 > Un gioco di parole e reazione in cerchio, in cui parole difficili vengono passate senza ridere o commettere errori.

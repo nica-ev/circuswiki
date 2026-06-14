@@ -10,8 +10,8 @@ tags:
   - target
 created: 2026-06-12 00:00:00
 update: 2026-06-12 22:00:07
-title: Poi na Balde
-description: Spinners de poi começam com um padrão de cruzamento e acompanhamento.
+title: Poi no Balde
+description: Spinners de Poi começam com um padrão de cruzamento e seguimento.
 authors:
   - CircusWiki contributors
 category:
@@ -19,8 +19,8 @@ category:
   - miscellaneous
   - throwing
   - target
-Schwierigkeit: "mittel"
-Material: "Poi, bucket"
+Schwierigkeit: médio
+Material: Poi, balde
 Spieldauer: "5-15"
 group-min: 2
 group-max: 40
@@ -35,10 +35,12 @@ translation_source_body_hash: aea2b98e7d1443aa74b49e4998fc01bbb5d474114203164c3a
 translation_source_hash: aea2b98e7d1443aa74b49e4998fc01bbb5d474114203164c3ae568690ebbf8c0
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-12T21:30:16+00:00
-translation_source_metadata_hash: 92db2191c4c5563ce85428c97b545680878c385c1a87e06a24a9693e43b23bf0
+translation_source_metadata_hash: 5565dc2bdbb8ef3d2f6b1469e0ccd6c4c42e2e2bf1c95c4138336b3c69b8a1df
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T21:30:16+00:00
+translation_metadata_updated: 2026-06-14T16:02:16+00:00
+translation_source_localized_metadata_hash: 5565dc2bdbb8ef3d2f6b1469e0ccd6c4c42e2e2bf1c95c4138336b3c69b8a1df
+translation_source_structural_metadata_hash: 40b808e2fa5f7ae7bc0c8d1337b93b7885c5af1bcec218ebf186add698b84cb8
 ---
 > [!info] Descrição Curta
 > Os praticantes de poi começam com um padrão de cruzamento e seguimento.

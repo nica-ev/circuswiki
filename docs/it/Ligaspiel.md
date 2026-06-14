@@ -6,7 +6,7 @@ tags:
   - spiele
   - beigoma
 created: 2025-01-24 03:50:50
-update: 2026-06-11 17:29:51
+update: 2026-06-12 19:28:10
 title: Partita di Lega
 description: 
 authors:
@@ -18,10 +18,12 @@ translation_source_hash: 4317cbd876e1d86e7e648dfc554afc8ea070a828c173b681a6f36d1
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-11T15:39:21+00:00
 translation_source_body_hash: 4317cbd876e1d86e7e648dfc554afc8ea070a828c173b681a6f36d1bdcd1827e
-translation_source_metadata_hash: d35e67bcd9f8f74aa728d37684212afe09afbaaa6c6ac928344435185177e0d7
+translation_source_metadata_hash: 694a0cdaa899c8de76c2faf158540d3136af9a17dfdc45ddcf3e4e96defdc617
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-11T15:39:21+00:00
+translation_metadata_updated: 2026-06-14T16:10:04+00:00
+translation_source_localized_metadata_hash: 694a0cdaa899c8de76c2faf158540d3136af9a17dfdc45ddcf3e4e96defdc617
+translation_source_structural_metadata_hash: 20dd11dd61d69b4b1b1f52c6366a12764c19f46455c209139efe4bd98011f6fd
 ---
 > [!info] Breve Descrizione
 > Un formato Beigoma a girone all'italiana in cui i giocatori competono in piccoli gruppi e confrontano i punteggi.

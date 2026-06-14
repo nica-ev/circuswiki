@@ -17,8 +17,8 @@ category:
   - convention-games
   - miscellaneous
   - juggling
-Schwierigkeit: "mittel"
-Material: "Three coins per player, collection hat"
+Schwierigkeit: середній
+Material: Три монети на гравця, капелюх для збору
 Spieldauer: "5-15"
 group-min: 2
 group-max: 40
@@ -30,36 +30,38 @@ source_section: "Miscellaneous!"
 source_image: "../img/game-moneyjuggling_prize.jpg"
 source_permission: "public-place image reviewed as reusable by project maintainer"
 translation_source: docs/en/money-juggling.md
-translation_source_body_hash: 7176c35630ed3382d9eeb28d175dc0b8250f2b5bf87f6039039d6bf42b5fa8d1
-translation_source_hash: 7176c35630ed3382d9eeb28d175dc0b8250f2b5bf87f6039039d6bf42b5fa8d1
+translation_source_body_hash: dc8a325afc6bcb39814cad676a6387026f7734f7ae1f9740a9191e48caac6f8a
+translation_source_hash: dc8a325afc6bcb39814cad676a6387026f7734f7ae1f9740a9191e48caac6f8a
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-12T21:28:57+00:00
-translation_source_metadata_hash: 96d67ed6f2c3c5be111b2d2e4c0798e422030deeb67c68e703ef347d8a4f5ecd
+translation_updated: 2026-06-14T19:29:48+00:00
+translation_source_metadata_hash: 5e7701704dadccc0be203fc06ba9a8d3eb6be511fef764aa3ac47395ff2a3ec5
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T21:28:57+00:00
+translation_metadata_updated: 2026-06-14T19:29:48+00:00
+translation_source_localized_metadata_hash: 5e7701704dadccc0be203fc06ba9a8d3eb6be511fef764aa3ac47395ff2a3ec5
+translation_source_structural_metadata_hash: b69280b0514b833c5768777a289387d7174f8b7174329cdf2586b9b2260dc979
 ---
-> [!info] Коротка Опис
-> Кожен гравець робить внесок трьома монетами та жонглює ними.
+> [!info] Короткий опис
+> Кожен гравець вносить три монети та жонглює ними.
 
-![[../img/game-moneyjuggling_prize.jpg|300]]
+![game-moneyjuggling_prize](../img/game-moneyjuggling_prize.jpg){ width=300 }
 
-**Кількість гравців**: від 2 до 40  
+**Кількість гравців**: від 2 до 40 осіб  
 **Складність**: середня  
 **Матеріали**: Три монети на гравця, капелюх для збору  
 **Тривалість**: приблизно 5-15 хвилин
 
 ## Опис гри
 
-Кожен гравець робить внесок трьома монетами та жонглює ними. Коли гравець впускає монету, він кладе свої монети до центрального капелюха чи горщика. Останній гравець, який продовжує жонглювати, виграє зібрані монети.
+Кожен гравець вносить три монети та жонглює ними. Коли гравець впускає монету, він кладе свої монети до центрального капелюха або горщика. Останній гравець, який продовжує жонглювати, виграє зібрані монети.
 
-## Варіанти
+## Варіації
 
 Використовуйте жетони замість справжніх грошей для дітей або на публічних майстер-класах.
 
 ## Заходи безпеки
 
-Тримайте ігровий майданчик вільним і визначте його межі перед початком раунду. У контактних іграх цільтеся в реквізит, а не в тіла. У іграх, що передбачають кидання, їзду, балансування або акробатику, залишайте достатньо місця для невдалих спроб і припиняйте раунд, якщо група починає йти на небезпечний ризик.
+Тримайте ігровий майданчик вільним і визначте межі перед початком раунду. У контактних іграх цільтеся в реквізит, а не в тіла. У іграх з кидками, їздою, балансуванням або акробатикою залишайте достатньо місця для невдалих спроб і зупиняйте раунд, якщо група починає йти на небезпечний ризик.
 
 ## Джерело
 

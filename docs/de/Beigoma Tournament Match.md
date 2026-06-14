@@ -8,13 +8,13 @@ tags:
 created: 2026-06-11 00:00:00
 update: 2026-06-11 17:31:52
 title: Beigoma-Turnierkampf
-description: Ein anfängerfreundliches Beigoma-Turnierformat, bei dem Einzelkämpfe durch Erreichen von zwei Siegen entschieden werden.
+description: Ein anfängerfreundliches Beigoma-Turnierformat, bei dem Einzelkämpfe durch zwei Siege entschieden werden.
 authors:
   - Marc Bielert
 category:
   - beigoma
 Schwierigkeit: mittel
-Material: Beigoma, strings, playing floor, tournament bracket
+Material: Beigoma, Schnüre, Spielfläche, Turnierbaum
 Spieldauer: 15-60
 source:
   - Tokyo Beigoma
@@ -28,10 +28,12 @@ translation_source_body_hash: c4fa1218dcc72803c97319cc66febb08712ee72d8d40e8ba87
 translation_source_hash: c4fa1218dcc72803c97319cc66febb08712ee72d8d40e8ba87bb61bc753e1dff
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-11T15:36:23+00:00
-translation_source_metadata_hash: 7855aa4e09a9e54adab492648bebda921e07d9410fadd15c286ad392d289d3cc
+translation_source_metadata_hash: ba2a219a550bcf8775e03449564511a0862337f4d2e4e12fcaf8e4f12557ebf5
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-11T15:36:23+00:00
+translation_metadata_updated: 2026-06-14T15:39:42+00:00
+translation_source_localized_metadata_hash: ba2a219a550bcf8775e03449564511a0862337f4d2e4e12fcaf8e4f12557ebf5
+translation_source_structural_metadata_hash: 86649c35a16fe1812311cc1b1e35d5d09031338bebe878e0796edadc8879bd65
 ---
 > [!info] Kurzbeschreibung
 > Ein anfängerfreundliches Beigoma-Turnierformat, bei dem Einzelkämpfe durch zwei Siege entschieden werden.

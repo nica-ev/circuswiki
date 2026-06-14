@@ -25,9 +25,15 @@ let state = {
   navigationPreview: null,
   dynamicScan: null,
   dynamicSelected: null,
+  baseLabelScan: null,
+  baseLabelPlan: null,
+  baseLabelSelected: null,
   linkRepairScan: null,
   linkRepairSelected: null,
   linkRepairChecked: new Set(),
+  sourceLinkStyleScan: null,
+  sourceLinkStyleSelected: null,
+  sourceLinkStyleChecked: new Set(),
   cleanupScan: null,
   cleanupSelected: null,
   cleanupChecked: new Set(),
@@ -53,7 +59,9 @@ async function loadConfig() {
   $("prompt").value = config.default_prompt;
   renderFileLanguageOptions(config);
   renderDynamicLanguageOptions(config);
+  renderBaseLabelLanguageOptions(config);
   renderLinkRepairLanguageOptions(config);
+  renderSourceLinkStyleLanguageOptions(config);
 }
 
 async function loadHealth() {
@@ -552,6 +560,18 @@ function renderDynamicLanguageOptions(config) {
   ].join("");
 }
 
+function renderBaseLabelLanguageOptions(config) {
+  const select = $("base-label-language");
+  if (!select) {
+    return;
+  }
+  const languages = config.languages || [];
+  select.innerHTML = [
+    '<option value="all">All target languages</option>',
+    ...languages.map((language) => `<option value="${escapeHtml(language.code)}">${escapeHtml(languageLabel(language.code, language.name))}</option>`),
+  ].join("");
+}
+
 function renderLinkRepairLanguageOptions(config) {
   const select = $("link-repair-language");
   if (!select) {
@@ -560,6 +580,18 @@ function renderLinkRepairLanguageOptions(config) {
   const languages = config.languages || [];
   select.innerHTML = [
     '<option value="">All languages</option>',
+    ...languages.map((language) => `<option value="${escapeHtml(language.code)}">${escapeHtml(languageLabel(language.code, language.name))}</option>`),
+  ].join("");
+}
+
+function renderSourceLinkStyleLanguageOptions(config) {
+  const select = $("source-link-style-language");
+  if (!select) {
+    return;
+  }
+  const languages = config.languages || [];
+  select.innerHTML = [
+    '<option value="">All source languages</option>',
     ...languages.map((language) => `<option value="${escapeHtml(language.code)}">${escapeHtml(languageLabel(language.code, language.name))}</option>`),
   ].join("");
 }
@@ -836,6 +868,7 @@ function activeLog(value) {
     "original-graph": graphLog,
     navigation: navLog,
     dynamic: dynamicLog,
+    "base-labels": baseLabelLog,
     cleanup: cleanupLog,
     "link-repair": linkRepairLog,
   };
@@ -849,6 +882,11 @@ function navLog(value) {
 
 function dynamicLog(value) {
   $("dynamic-log").textContent =
+    typeof value === "string" ? value : JSON.stringify(value, null, 2);
+}
+
+function baseLabelLog(value) {
+  $("base-label-log").textContent =
     typeof value === "string" ? value : JSON.stringify(value, null, 2);
 }
 
@@ -1278,6 +1316,199 @@ function renderDynamicDetails() {
   `;
 }
 
+async function loadBaseLabelScan() {
+  setBusy(true);
+  baseLabelLog("Scanning base display names...");
+  try {
+    const scan = await api("/api/base-labels/scan");
+    state.baseLabelScan = scan;
+    updateBaseLabelBaseOptions();
+    renderBaseLabelScan();
+    baseLabelLog(scan);
+  } catch (error) {
+    baseLabelLog(error.message);
+  } finally {
+    setBusy(false);
+  }
+}
+
+async function planBaseLabels() {
+  setBusy(true);
+  baseLabelLog("Planning base label translations...");
+  try {
+    const params = new URLSearchParams();
+    if ($("base-label-base").value) {
+      params.set("base", $("base-label-base").value);
+    }
+    params.set("target_lang", $("base-label-language").value || "all");
+    const plan = await api(`/api/base-labels/plan?${params.toString()}`);
+    state.baseLabelPlan = plan;
+    renderBaseLabelPlan();
+    baseLabelLog(plan);
+  } catch (error) {
+    baseLabelLog(error.message);
+  } finally {
+    setBusy(false);
+  }
+}
+
+async function translateBaseLabels() {
+  setBusy(true);
+  baseLabelLog("Translating missing/stale base labels...");
+  try {
+    const result = await api("/api/base-labels/translate", {
+      method: "POST",
+      body: JSON.stringify({
+        base: $("base-label-base").value,
+        target_lang: $("base-label-language").value || "all",
+        model: $("model").value.trim(),
+      }),
+    });
+    baseLabelLog(result);
+    await loadBaseLabelScan();
+  } catch (error) {
+    baseLabelLog(error.message);
+  } finally {
+    setBusy(false);
+  }
+}
+
+async function materializeBaseLabels() {
+  setBusy(true);
+  baseLabelLog("Regenerating localized generated base files...");
+  try {
+    const result = await api("/api/base-labels/materialize", {
+      method: "POST",
+      body: JSON.stringify({
+        base: $("base-label-base").value,
+        target_lang: $("base-label-language").value || "all",
+      }),
+    });
+    baseLabelLog(result);
+  } catch (error) {
+    baseLabelLog(error.message);
+  } finally {
+    setBusy(false);
+  }
+}
+
+function updateBaseLabelBaseOptions() {
+  const select = $("base-label-base");
+  if (!select || !state.baseLabelScan) {
+    return;
+  }
+  const current = select.value;
+  select.innerHTML = [
+    '<option value="">All base files</option>',
+    ...state.baseLabelScan.bases.map((base) => `<option value="${escapeHtml(base.path)}">${escapeHtml(base.path)}</option>`),
+  ].join("");
+  if (!current || state.baseLabelScan.bases.some((base) => base.path === current)) {
+    select.value = current;
+  }
+}
+
+function baseLabelRows() {
+  const scan = state.baseLabelScan;
+  if (!scan) {
+    return [];
+  }
+  const selectedBase = $("base-label-base").value;
+  const filter = $("base-label-filter").value.toLowerCase();
+  const rows = [];
+  for (const base of scan.bases) {
+    if (selectedBase && base.path !== selectedBase) {
+      continue;
+    }
+    for (const property of base.properties) {
+      const row = { ...property, base: base.path, source_lang: base.source_lang };
+      const haystack = `${row.base} ${row.key} ${row.source} ${row.missing_languages.join(" ")} ${row.stale_languages.join(" ")}`.toLowerCase();
+      if (!filter || haystack.includes(filter)) {
+        rows.push(row);
+      }
+    }
+  }
+  return rows;
+}
+
+function renderBaseLabelScan() {
+  const scan = state.baseLabelScan;
+  if (!scan) {
+    $("base-label-summary").innerHTML = "";
+    $("base-label-list").innerHTML = "";
+    $("base-label-details").innerHTML = "";
+    return;
+  }
+  const baseCount = scan.bases.length;
+  const propertyCount = scan.bases.reduce((sum, base) => sum + base.property_count, 0);
+  const missingCount = scan.bases.reduce((sum, base) => sum + base.missing_count, 0);
+  const staleCount = scan.bases.reduce((sum, base) => sum + base.stale_count, 0);
+  $("base-label-summary").innerHTML = `
+    <span class="pill">Bases: <strong>${baseCount}</strong></span>
+    <span class="pill">Properties: <strong>${propertyCount}</strong></span>
+    <span class="pill ${missingCount ? "yellow" : "green"}">Missing: <strong>${missingCount}</strong></span>
+    <span class="pill ${staleCount ? "yellow" : "green"}">Stale: <strong>${staleCount}</strong></span>
+    <span class="pill">Config: <strong>${escapeHtml(scan.config_path)}</strong></span>
+  `;
+  const rows = baseLabelRows();
+  $("base-label-list").innerHTML = "";
+  rows.forEach((row) => {
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = "page";
+    const id = `${row.base}::${row.key}`;
+    if (state.baseLabelSelected === id) {
+      button.classList.add("active");
+    }
+    button.textContent = `${row.key} | ${row.source}`;
+    button.title = row.base;
+    button.addEventListener("click", () => {
+      state.baseLabelSelected = id;
+      renderBaseLabelScan();
+      baseLabelLog(row);
+    });
+    $("base-label-list").appendChild(button);
+  });
+  renderBaseLabelDetails();
+}
+
+function renderBaseLabelDetails() {
+  const rows = baseLabelRows();
+  const row = rows.find((item) => `${item.base}::${item.key}` === state.baseLabelSelected);
+  if (!row) {
+    $("base-label-details").innerHTML = "";
+    return;
+  }
+  $("base-label-details").innerHTML = `
+    <article class="nav-card">
+      <strong>${escapeHtml(row.key)}</strong>
+      <p>${escapeHtml(row.base)}</p>
+      <p>Source (${escapeHtml(row.source_lang)}): ${escapeHtml(row.source)}</p>
+      <p>Translated languages: ${row.translation_count}</p>
+      <p>Missing: ${escapeHtml(row.missing_languages.join(", ") || "none")}</p>
+      <p>Stale: ${escapeHtml(row.stale_languages.join(", ") || "none")}</p>
+    </article>
+  `;
+}
+
+function renderBaseLabelPlan() {
+  const plan = state.baseLabelPlan;
+  if (!plan) {
+    return;
+  }
+  $("base-label-summary").innerHTML = `
+    <span class="pill">Planned: <strong>${plan.candidate_count}</strong></span>
+    <span class="pill">Target: <strong>${escapeHtml(plan.target_lang)}</strong></span>
+    <span class="pill">Base: <strong>${escapeHtml(plan.base || "all")}</strong></span>
+  `;
+  $("base-label-details").innerHTML = plan.candidates.slice(0, 80).map((item) => `
+    <article class="nav-card">
+      <strong>${escapeHtml(item.property)} -> ${escapeHtml(item.target_lang)}</strong>
+      <p>${escapeHtml(item.base)}</p>
+      <p>${escapeHtml(item.source)} <span class="pill yellow">${escapeHtml(item.reason)}</span></p>
+    </article>
+  `).join("") || '<article class="nav-card"><strong>No missing or stale labels.</strong></article>';
+}
+
 async function loadLinkRepairScan() {
   setBusy(true);
   linkRepairLog("Scanning translated link targets...");
@@ -1455,6 +1686,183 @@ function renderLinkRepairDetails() {
     <dt>Safe</dt><dd><span class="pill ${selected.safe_repair ? "yellow" : "red"}">${selected.safe_repair ? "yes" : "no"}</span></dd>
     <dt>Reasons</dt><dd>${escapeHtml(selected.reasons.join(", ") || "-")}</dd>
     <dt>Checked</dt><dd>${state.linkRepairChecked.size}</dd>
+  `;
+}
+
+async function loadSourceLinkStyleScan() {
+  setBusy(true);
+  linkRepairLog("Scanning original source link styles...");
+  try {
+    const language = $("source-link-style-language").value || "";
+    const query = language ? `?language=${encodeURIComponent(language)}` : "";
+    const scan = await api(`/api/source-link-style/scan${query}`);
+    state.sourceLinkStyleScan = scan;
+    const currentPaths = new Set(scan.items.map((item) => item.path));
+    state.sourceLinkStyleChecked = new Set([...state.sourceLinkStyleChecked].filter((path) => currentPaths.has(path)));
+    if (state.sourceLinkStyleSelected && !currentPaths.has(state.sourceLinkStyleSelected)) {
+      state.sourceLinkStyleSelected = null;
+    }
+    renderSourceLinkStyleScan();
+    linkRepairLog(scan);
+  } catch (error) {
+    linkRepairLog(error.message);
+  } finally {
+    setBusy(false);
+  }
+}
+
+async function previewSourceLinkStyleSelected() {
+  if (!state.sourceLinkStyleSelected) {
+    linkRepairLog("Select a source style item first.");
+    return;
+  }
+  setBusy(true);
+  linkRepairLog("Previewing source link style repair...");
+  try {
+    const result = await api(`/api/source-link-style/preview?path=${encodeURIComponent(state.sourceLinkStyleSelected)}`);
+    linkRepairLog({
+      ...result,
+      current_body: result.current_body.slice(0, 4000),
+      repaired_body: result.repaired_body.slice(0, 4000),
+      truncated: result.current_body.length > 4000 || result.repaired_body.length > 4000,
+    });
+  } catch (error) {
+    linkRepairLog(error.message);
+  } finally {
+    setBusy(false);
+  }
+}
+
+async function repairSelectedSourceLinkStyles() {
+  const paths = [...state.sourceLinkStyleChecked];
+  if (!paths.length) {
+    linkRepairLog("Select at least one source style item first.");
+    return;
+  }
+  if (!window.confirm(`Repair source image syntax in ${paths.length} original file(s)?`)) {
+    return;
+  }
+  setBusy(true);
+  linkRepairLog("Repairing selected source link styles...");
+  try {
+    const result = await api("/api/source-link-style/repair", {
+      method: "POST",
+      body: JSON.stringify({ paths }),
+    });
+    state.sourceLinkStyleChecked.clear();
+    linkRepairLog(result);
+    await loadSourceLinkStyleScan();
+  } catch (error) {
+    linkRepairLog(error.message);
+  } finally {
+    setBusy(false);
+  }
+}
+
+async function repairAllSafeSourceLinkStyles() {
+  const count = state.sourceLinkStyleScan?.safe_count || 0;
+  if (!count) {
+    linkRepairLog("No safe source style repairs found.");
+    return;
+  }
+  if (!window.confirm(`Repair all ${count} original source file(s)?`)) {
+    return;
+  }
+  setBusy(true);
+  linkRepairLog("Repairing all safe source link styles...");
+  try {
+    const result = await api("/api/source-link-style/repair-all", {
+      method: "POST",
+      body: JSON.stringify({ language: $("source-link-style-language").value || "" }),
+    });
+    state.sourceLinkStyleChecked.clear();
+    linkRepairLog(result);
+    await loadSourceLinkStyleScan();
+  } catch (error) {
+    linkRepairLog(error.message);
+  } finally {
+    setBusy(false);
+  }
+}
+
+function renderSourceLinkStyleScan() {
+  const scan = state.sourceLinkStyleScan;
+  if (!scan) {
+    $("source-link-style-summary").innerHTML = "";
+    $("source-link-style-list").innerHTML = "";
+    $("source-link-style-details").innerHTML = "";
+    return;
+  }
+
+  $("source-link-style-summary").innerHTML = `
+    <span class="pill">Items: <strong>${scan.total}</strong></span>
+    <span class="pill ${scan.safe_count ? "yellow" : "green"}">Safe files: <strong>${scan.safe_count}</strong></span>
+    <span class="pill">Total repairs: <strong>${scan.repair_count}</strong></span>
+  `;
+
+  const filter = $("source-link-style-filter").value.toLowerCase();
+  const items = scan.items.filter((item) =>
+    `${item.path} ${item.reasons.join(" ")} ${item.translation_id}`.toLowerCase().includes(filter)
+  );
+  $("source-link-style-list").innerHTML = "";
+  items.forEach((item) => {
+    const row = document.createElement("div");
+    row.className = "cleanup-item";
+    if (state.sourceLinkStyleSelected === item.path) {
+      row.classList.add("active");
+    }
+
+    const checkbox = document.createElement("input");
+    checkbox.type = "checkbox";
+    checkbox.disabled = !item.safe_repair;
+    checkbox.checked = state.sourceLinkStyleChecked.has(item.path);
+    checkbox.title = item.safe_repair ? "Select for repair" : "Not safely repairable";
+    checkbox.addEventListener("change", () => {
+      if (checkbox.checked) {
+        state.sourceLinkStyleChecked.add(item.path);
+      } else {
+        state.sourceLinkStyleChecked.delete(item.path);
+      }
+      renderSourceLinkStyleDetails();
+    });
+
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = "cleanup-item-main";
+    button.innerHTML = `
+      <strong>${escapeHtml(item.path)}</strong>
+      <span>${escapeHtml(item.reasons.join(", ") || "source_image_style")} | repairs: ${item.repair_count} | ${escapeHtml(item.translation_id || "-")}</span>
+    `;
+    button.addEventListener("click", () => {
+      state.sourceLinkStyleSelected = item.path;
+      renderSourceLinkStyleScan();
+      linkRepairLog(item);
+    });
+
+    row.appendChild(checkbox);
+    row.appendChild(button);
+    $("source-link-style-list").appendChild(row);
+  });
+  renderSourceLinkStyleDetails();
+}
+
+function renderSourceLinkStyleDetails() {
+  const selected = state.sourceLinkStyleScan?.items.find((item) => item.path === state.sourceLinkStyleSelected);
+  if (!selected) {
+    $("source-link-style-details").innerHTML = `
+      <dt>Checked</dt><dd>${state.sourceLinkStyleChecked.size}</dd>
+    `;
+    return;
+  }
+  $("source-link-style-details").innerHTML = `
+    <dt>Path</dt><dd>${pathWithObsidianButton(selected.path)}</dd>
+    <dt>Status</dt><dd>${escapeHtml(selected.status || "-")}</dd>
+    <dt>ID</dt><dd>${escapeHtml(selected.translation_id || "-")}</dd>
+    <dt>Repairs</dt><dd>${selected.repair_count}</dd>
+    <dt>Diagnostics</dt><dd>${selected.diagnostic_count}</dd>
+    <dt>Safe</dt><dd><span class="pill ${selected.safe_repair ? "yellow" : "red"}">${selected.safe_repair ? "yes" : "no"}</span></dd>
+    <dt>Reasons</dt><dd>${escapeHtml(selected.reasons.join(", ") || "-")}</dd>
+    <dt>Checked</dt><dd>${state.sourceLinkStyleChecked.size}</dd>
   `;
 }
 
@@ -2113,8 +2521,14 @@ function switchTab(tabName) {
   if (tabName === "dynamic" && !state.dynamicScan) {
     loadDynamicScan().catch((error) => dynamicLog(error.message));
   }
+  if (tabName === "base-labels" && !state.baseLabelScan) {
+    loadBaseLabelScan().catch((error) => baseLabelLog(error.message));
+  }
   if (tabName === "link-repair" && !state.linkRepairScan) {
     loadLinkRepairScan().catch((error) => linkRepairLog(error.message));
+  }
+  if (tabName === "link-repair" && !state.sourceLinkStyleScan) {
+    loadSourceLinkStyleScan().catch((error) => linkRepairLog(error.message));
   }
   if (tabName === "cleanup" && !state.cleanupScan) {
     loadCleanupScan().catch((error) => cleanupLog(error.message));
@@ -2144,10 +2558,18 @@ function setBusy(isBusy) {
   $("dynamic-preview").disabled = isBusy;
   $("dynamic-refresh-selected").disabled = isBusy;
   $("dynamic-refresh-all").disabled = isBusy;
+  $("base-label-scan").disabled = isBusy;
+  $("base-label-plan").disabled = isBusy;
+  $("base-label-translate").disabled = isBusy;
+  $("base-label-materialize").disabled = isBusy;
   $("link-repair-scan").disabled = isBusy;
   $("link-repair-preview").disabled = isBusy;
   $("link-repair-selected").disabled = isBusy;
   $("link-repair-all").disabled = isBusy;
+  $("source-link-style-scan").disabled = isBusy;
+  $("source-link-style-preview").disabled = isBusy;
+  $("source-link-style-selected").disabled = isBusy;
+  $("source-link-style-all").disabled = isBusy;
   $("cleanup-scan").disabled = isBusy;
   $("cleanup-delete-selected").disabled = isBusy;
   $("cleanup-delete-all").disabled = isBusy;
@@ -2265,6 +2687,26 @@ $("dynamic-language").addEventListener("change", () => {
   loadDynamicScan().catch((error) => dynamicLog(error.message));
 });
 $("dynamic-filter").addEventListener("input", renderDynamicScan);
+$("base-label-scan").addEventListener("click", () => {
+  loadBaseLabelScan().catch((error) => baseLabelLog(error.message));
+});
+$("base-label-plan").addEventListener("click", () => {
+  planBaseLabels().catch((error) => baseLabelLog(error.message));
+});
+$("base-label-translate").addEventListener("click", () => {
+  translateBaseLabels().catch((error) => baseLabelLog(error.message));
+});
+$("base-label-materialize").addEventListener("click", () => {
+  materializeBaseLabels().catch((error) => baseLabelLog(error.message));
+});
+$("base-label-base").addEventListener("change", () => {
+  state.baseLabelSelected = null;
+  renderBaseLabelScan();
+});
+$("base-label-language").addEventListener("change", () => {
+  state.baseLabelPlan = null;
+});
+$("base-label-filter").addEventListener("input", renderBaseLabelScan);
 $("link-repair-scan").addEventListener("click", () => {
   loadLinkRepairScan().catch((error) => linkRepairLog(error.message));
 });
@@ -2283,6 +2725,24 @@ $("link-repair-language").addEventListener("change", () => {
   loadLinkRepairScan().catch((error) => linkRepairLog(error.message));
 });
 $("link-repair-filter").addEventListener("input", renderLinkRepairScan);
+$("source-link-style-scan").addEventListener("click", () => {
+  loadSourceLinkStyleScan().catch((error) => linkRepairLog(error.message));
+});
+$("source-link-style-preview").addEventListener("click", () => {
+  previewSourceLinkStyleSelected().catch((error) => linkRepairLog(error.message));
+});
+$("source-link-style-selected").addEventListener("click", () => {
+  repairSelectedSourceLinkStyles().catch((error) => linkRepairLog(error.message));
+});
+$("source-link-style-all").addEventListener("click", () => {
+  repairAllSafeSourceLinkStyles().catch((error) => linkRepairLog(error.message));
+});
+$("source-link-style-language").addEventListener("change", () => {
+  state.sourceLinkStyleSelected = null;
+  state.sourceLinkStyleChecked.clear();
+  loadSourceLinkStyleScan().catch((error) => linkRepairLog(error.message));
+});
+$("source-link-style-filter").addEventListener("input", renderSourceLinkStyleScan);
 $("cleanup-scan").addEventListener("click", () => {
   loadCleanupScan().catch((error) => cleanupLog(error.message));
 });

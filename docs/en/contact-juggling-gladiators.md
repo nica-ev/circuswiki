@@ -37,11 +37,10 @@ source_permission: "public-place images reviewed as reusable by project maintain
 aliases:
   - Contact Ball Gladiators
 ---
-
 > [!info] Short Description
 > A contact-juggling knockout game where players protect their own ball balance while disturbing others.
 
-![[../img/contact-ball-gladiators.jpg|300]]
+![contact-ball-gladiators](../img/contact-ball-gladiators.jpg){ width=300 }
 
 **Group Size**: 3 to 30 players  
 **Difficulty**: mittel  

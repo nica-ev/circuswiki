@@ -9,15 +9,15 @@ tags:
   - gladiators
 created: 2026-06-12 00:00:00
 update: 2026-06-12 21:47:17
-title: Gandini Gladiators
+title: Gandini Gladiatoren
 description: Spieler arrangieren Jonglierkeulen zu einer hutähnlichen Struktur auf ihrem Kopf.
 authors:
   - CircusWiki contributors
 category:
   - convention-games
   - gladiators
-Schwierigkeit: "schwer"
-Material: "Juggling clubs"
+Schwierigkeit: schwer
+Material: Jonglierkeulen
 Spieldauer: "5-15"
 group-min: 3
 group-max: 60
@@ -32,10 +32,12 @@ translation_source_body_hash: f1ce734251c23c810181d12855f00b64ebaa7cac36e00386fc
 translation_source_hash: f1ce734251c23c810181d12855f00b64ebaa7cac36e00386fc2ed6a049811a9b
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-12T21:17:08+00:00
-translation_source_metadata_hash: a32fcd678b451b2aca6ee50b00e508d35efba5c3bf7ff4552cbde7506a0b5795
+translation_source_metadata_hash: 4b986f73b6326970369665a4a42ea5ea09bcf43923380dee89ae3d2472b2c074
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T21:17:08+00:00
+translation_metadata_updated: 2026-06-14T15:58:48+00:00
+translation_source_localized_metadata_hash: 4b986f73b6326970369665a4a42ea5ea09bcf43923380dee89ae3d2472b2c074
+translation_source_structural_metadata_hash: 5411ee4a87118d11f4bce2f9cdfc8a3347b20981d84aaf67c502c47c46cc4337
 ---
 > [!info] Kurzbeschreibung
 > Die Spielerinnen und Spieler bauen mit Jonglierkeulen eine hutähnliche Struktur auf ihren Köpfen auf.

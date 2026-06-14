@@ -7,13 +7,13 @@ tags:
 created: 2025-01-24 03:50:51
 update: 2025-03-17 02:14:03
 title: Camiseta na Calça
-description: Um jogo de pega-pega com bola onde o time que pega só pode tocar com a posse da bola e cresce gradualmente.
+description: Um jogo de pega-pega com bola onde o time pegador só pode tocar com a posse da bola e cresce gradualmente.
 authors:
   - Marc Bielert
 category:
   - bewegung
-Schwierigkeit: mittel
-Material: Ball
+Schwierigkeit: médio
+Material: Bola
 Spieldauer: 5-15
 source: Tasifan Spielebuch
 group-min: 6
@@ -25,10 +25,12 @@ translation_source_hash: 5bbd7b6cc033a30c192371ddb7b65903d5f1cf956b1f7f161f0b2ec
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:29:58+00:00
 translation_source_body_hash: 5bbd7b6cc033a30c192371ddb7b65903d5f1cf956b1f7f161f0b2ec4b3fd2677
-translation_source_metadata_hash: 12daf312c7632230f15de1dbd9ef8e2c612126ab50d0393984e45426dad93d56
+translation_source_metadata_hash: 7e218e092b2db1c80baf2ce1b2f03c5c89730de7da6488a1e47b89fc7e411815
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T19:08:57+00:00
+translation_metadata_updated: 2026-06-14T16:21:56+00:00
+translation_source_localized_metadata_hash: 7e218e092b2db1c80baf2ce1b2f03c5c89730de7da6488a1e47b89fc7e411815
+translation_source_structural_metadata_hash: d1d4acf351ef0b06ca7b758eca6cb3643abb878e0187bfddb152357934c6fe5f
 ---
 > [!info] Breve Descrição
 > Um jogo de apanhada com bola, em que a equipa apanhadora só pode tocar nos outros jogadores enquanto tem a posse da bola e que vai crescendo gradualmente.

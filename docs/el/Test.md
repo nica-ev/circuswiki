@@ -10,10 +10,12 @@ translation_source_hash: 8402c58d616ce7f6b5ad40be50170377d0a7bff15644855b2d4ef2e
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-07T13:55:33+00:00
 translation_source_body_hash: 8402c58d616ce7f6b5ad40be50170377d0a7bff15644855b2d4ef2e33c7c900c
-translation_source_metadata_hash: 8a69138cb2e3409b9e45ac70ac7550fbf5f1a4a6a471fbb7b38bec43cb380037
+translation_source_metadata_hash: a549a7fc8f107b2d3d9d4bff18748df1087180aa7f8547f248ba06a76a03bf98
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T19:09:42+00:00
+translation_metadata_updated: 2026-06-14T16:22:38+00:00
+translation_source_localized_metadata_hash: a549a7fc8f107b2d3d9d4bff18748df1087180aa7f8547f248ba06a76a03bf98
+translation_source_structural_metadata_hash: d90a7bd2c833fec1d0943faa40a4f711254d83c820b1b991e6d63925144cd5c9
 ---
 # Πλέγματα & Καρτέλες
 

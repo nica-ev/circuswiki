@@ -33,11 +33,10 @@ source_section: "Miscellaneous!"
 source_image: "../img/game-quidditch.jpg"
 source_permission: "public-place image reviewed as reusable by project maintainer"
 ---
-
 > [!info] Short Description
 > A large team game that turns Quidditch-style roles into a juggling and target-throwing convention game.
 
-![[../img/game-quidditch.jpg|300]]
+![game-quidditch](../img/game-quidditch.jpg){ width=300 }
 
 **Group Size**: 10 to 40 players  
 **Difficulty**: mittel  

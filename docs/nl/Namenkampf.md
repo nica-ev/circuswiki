@@ -6,15 +6,15 @@ tags:
   - spiele
 created: 2025-01-24 03:50:51
 update: 2025-03-18 01:20:00
-title: Namenstrijd
+title: Naamgevecht
 description: Een naamgevecht met zichtbarrière waarbij twee teams proberen de naam van de tegenstander sneller te noemen.
 authors:
   - Marc Bielert
 category:
   - sonstiges
   - kennenlernen
-Schwierigkeit: einfach
-Material: großes Tuch
+Schwierigkeit: makkelijk
+Material: grote doek
 Spieldauer: 10 -  15
 source: unbekannt
 group-min: 10
@@ -27,10 +27,12 @@ translation_source_hash: 40ee229239ae905930273c35fa1d7fb1500de0aedfe011368bf1693
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:08:32+00:00
 translation_source_body_hash: 40ee229239ae905930273c35fa1d7fb1500de0aedfe011368bf16936d90a5c41
-translation_source_metadata_hash: 38cbf8a4e56ffce502ad4460bce50b25dbf9a7e943d30f31a1127f0a99faff9e
+translation_source_metadata_hash: 24962c6ac782d00720f8f14c1dc049ff1ed70cd02343eac62d4863184ae75879
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T19:00:09+00:00
+translation_metadata_updated: 2026-06-14T16:13:26+00:00
+translation_source_localized_metadata_hash: 24962c6ac782d00720f8f14c1dc049ff1ed70cd02343eac62d4863184ae75879
+translation_source_structural_metadata_hash: cb250f5a862a8c03ee9b6c0f149dc252c136acfd4aeda3efcf79320a463f9069
 ---
 > [!info] Korte beschrijving
 > Een naam-duel met een zichtbarrière, waarbij twee teams proberen de naam van de tegenstander sneller te noemen.

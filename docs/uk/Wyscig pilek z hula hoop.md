@@ -2,20 +2,20 @@
 lang: uk
 translation_id: wyscig-pilek-z-hula-hoop
 created: 2026-06-07 18:55:00
-update: 2026-06-07 18:55:00
+update: 2026-06-12 18:59:34
 publish: true
 tags:
   - gry
   - rozgrzewka
   - hula-hoop
-title: Гонка з хула-хупами
-description: Командна активність з хула-хупами, де команди переносять предмети через низку обручів.
+title: Гонка з хула-хупом
+description: Командна активність з хула-хупом, де команди переносять предмети через низку обручів.
 authors:
   - Wiktoria Witenberg
 category:
   - rozgrzewka
   - kooperacja
-Schwierigkeit: einfach - mittel
+Schwierigkeit: легко - середньо
 Material:
   - hula hoop
   - piłki
@@ -29,10 +29,12 @@ translation_source_hash: 660ff8734e3eae9ae71d0dd79b13bd07693f15182032d884729aebc
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-07T17:33:18+00:00
 translation_source_body_hash: 660ff8734e3eae9ae71d0dd79b13bd07693f15182032d884729aebc46af1817b
-translation_source_metadata_hash: 3eab11a5926caf38701a01ba27038b18db36d8c5fe8424c1aff6ad093df26a4d
+translation_source_metadata_hash: 2de7c4836d0313174f26d526da6874808e979609583334c293d6830f410735ea
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T19:12:45+00:00
+translation_metadata_updated: 2026-06-14T16:27:56+00:00
+translation_source_localized_metadata_hash: 2de7c4836d0313174f26d526da6874808e979609583334c293d6830f410735ea
+translation_source_structural_metadata_hash: 23567c3dda62a85ed2a8bc2961e7d79f66763ef24204b4b88f3e62d908230cba
 ---
 # Перегони з м'ячами та хула-хупами
 

@@ -30,11 +30,10 @@ source_url: https://ucircus.co.uk/resources-circus-games/
 source_image: ../img/hula-hoop-gladiators.jpg
 source_permission: public group photo reviewed as reusable by project maintainer
 ---
-
 > [!info] Short Description
 > A hula-hoop knockout game based on the gladiators convention-game format.
 
-![[../img/hula-hoop-gladiators.jpg|300]]
+![hula-hoop-gladiators](../img/hula-hoop-gladiators.jpg){ width=300 }
 
 **Group Size**: 4 to 40 players
 **Difficulty**: mittel

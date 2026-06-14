@@ -6,14 +6,14 @@ tags:
   - spiele
 created: 2025-01-24 03:50:50
 update: 2025-03-17 02:11:47
-title: O circo chegou à cidade
-description: Um jogo interativo de contação de histórias de circo onde comandos, movimentos e momentos curtos de captura são incorporados a uma narrativa.
+title: O Circo Chegou à Cidade
+description: Um jogo interativo de narração de circo onde comandos, movimentos e breves momentos de captura são incorporados a uma história.
 authors:
   - Marc Bielert
 category:
   - sonstiges
-Schwierigkeit: einfach
-Material: keines
+Schwierigkeit: fácil
+Material: nenhum
 Spieldauer: 5-15
 source: Tasifan Spielebuch
 group-min: 10
@@ -25,10 +25,12 @@ translation_source_hash: c68726cc5f9ea570995d4c1cdd60acca782ce146ab57337cff4091c
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:31:36+00:00
 translation_source_body_hash: c68726cc5f9ea570995d4c1cdd60acca782ce146ab57337cff4091c75b787861
-translation_source_metadata_hash: 2292a3574d035acf01949a1021168f1edcb113f7e954a71545dab85dc874077e
+translation_source_metadata_hash: a4581397551771e28e44d90d663bd4b19ca644d2357b4a7ce74397c8c23851c7
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:08:30+00:00
+translation_metadata_updated: 2026-06-14T15:45:23+00:00
+translation_source_localized_metadata_hash: a4581397551771e28e44d90d663bd4b19ca644d2357b4a7ce74397c8c23851c7
+translation_source_structural_metadata_hash: 4f5a46fe7ab23f8dc6d4c79970173b070bd766a807e66af7a45b0cb649b94426
 ---
 > [!info] Descrição Curta
 > Um jogo interativo de narração circense, onde comandos, movimentos e breves momentos de "apanhar" são integrados numa história.

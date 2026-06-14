@@ -18,8 +18,8 @@ category:
   - convention-games
   - diabolo
   - target-games
-Schwierigkeit: "einfach"
-Material: "Diabolos, handsticks, box or basket"
+Schwierigkeit: facile
+Material: Diabolo, bacchette, scatola o cesto
 Spieldauer: "5-10"
 group-min: 2
 group-max: 40
@@ -35,30 +35,32 @@ source_permission: "public-place images reviewed as reusable by project maintain
 aliases:
   - Diabolo in a Box
 translation_source: docs/en/diabolo-box-throw.md
-translation_source_body_hash: d2fb9084f072ba11601b7246e72fba9a0efd7bf2697da5947bb637e356b8d496
-translation_source_hash: d2fb9084f072ba11601b7246e72fba9a0efd7bf2697da5947bb637e356b8d496
+translation_source_body_hash: 2ffbebcdbfb4b7ab71dc47eb7618a79dabd72fb7870d517a6371a42af068a41b
+translation_source_hash: 2ffbebcdbfb4b7ab71dc47eb7618a79dabd72fb7870d517a6371a42af068a41b
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-12T21:14:47+00:00
-translation_source_metadata_hash: b962c2147100414303b6fc6966f23fc59faee0d5c05593c5d59f162d12ce806f
+translation_updated: 2026-06-14T19:27:27+00:00
+translation_source_metadata_hash: 45f623d0729380cf8b1b208c420697ba830b8061c36a19b1d16762f166fac65b
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T21:14:47+00:00
+translation_metadata_updated: 2026-06-14T19:27:27+00:00
+translation_source_localized_metadata_hash: 45f623d0729380cf8b1b208c420697ba830b8061c36a19b1d16762f166fac65b
+translation_source_structural_metadata_hash: b379e9799c5f4370effd35997caf8c75be342d03c1bc35b16ad57d4b659a6666
 ---
 > [!info] Breve Descrizione
-> Un gioco di mira in cui i giocatori cercano di lanciare un diabolico in una scatola o in un cesto.
+> Un gioco di mira in cui i giocatori cercano di lanciare un diabolo in una scatola o in un cesto.
 
-![[../img/game-diabolo-in-box.jpg|300]]
+![game-diabolo-in-box](../img/game-diabolo-in-box.jpg){ width=300 }
 
 **Numero di partecipanti**: da 2 a 40 giocatori  
 **Difficoltà**: facile  
-**Materiale**: Diabolici, bacchette, scatola o cesto  
+**Materiale**: Diaboli, bacchette, scatola o cesto  
 **Durata**: circa 5-10 minuti
 
 ## Descrizione del Gioco
 
-I giocatori si posizionano dietro una linea di lancio, fanno girare i loro diabolici e cercano di lanciarli in una scatola, un secchio o un cesto posizionato dall'altra parte della sala. I lanci possono avvenire uno alla volta o a un segnale comune.
+I giocatori si posizionano dietro una linea di lancio, fanno girare i propri diabolos e cercano di lanciarli in una scatola, un secchio o un cesto posto dall'altra parte della sala. I lanci possono avvenire uno alla volta o a un segnale comune.
 
-Un diabolico conta se atterra nel bersaglio e vi rimane. I lanci riusciti assegnano punti o fanno avanzare i giocatori al turno successivo. Per creare una finale, aumentare la distanza, ridurre le dimensioni del bersaglio o richiedere diversi lanci riusciti.
+Un diabolo conta se atterra nel bersaglio e vi rimane. I lanci riusciti assegnano punti o fanno passare i giocatori al turno successivo. Per creare una finale, aumentare la distanza, ridurre le dimensioni del bersaglio o richiedere diversi lanci riusciti.
 
 ## Preparazione
 
@@ -69,17 +71,17 @@ Un diabolico conta se atterra nel bersaglio e vi rimane. I lanci riusciti assegn
 ## Varianti
 
 - Utilizzare squadre e contare il numero totale di lanci riusciti.
-- Far posizionare i principianti più vicini e i giocatori esperti più lontani.
-- Utilizzare più bersagli con diversi valori in punti.
+- Far posizionare i principianti più vicini e i giocatori più esperti più lontani.
+- Utilizzare diversi bersagli con valori in punti differenti.
 
 ## Note sulla Sicurezza
 
-Un bersaglio fisso è la soluzione più sicura. Evitare bersagli tenuti da persone, a meno che tutte le persone coinvolte non abbiano esplicitamente acconsentito e i lanci siano controllati.
+Un bersaglio fisso è la soluzione più sicura. Evitare bersagli tenuti da persone, a meno che tutti i partecipanti non abbiano esplicitamente acconsentito e i lanci siano controllati.
 
 ## Fonte
 
 - [JugglingWorld - Juggling Games](https://www.jugglingworld.biz/tricks/juggling-games/), sezione: Diabolo Games, titolo: Diabolo in a box.
 - [Pagina dei giochi di circo di UCircus](https://ucircus.co.uk/resources-circus-games/), scheda fonte: Diabolo Box Throw.
-- Corsi UCircus: Diabolico.
+- Corsi UCircus: Diabolo.
 - Immagine di riferimento JugglingWorld: `../img/game-diabolo-in-box.jpg`.
 - Immagine di riferimento UCircus: `../img/diabolo-box-throw.jpg`.

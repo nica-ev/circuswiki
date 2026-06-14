@@ -2,7 +2,7 @@
 lang: el
 translation_id: kaskade-workspace
 created: 2025-01-21 18:09:55
-update: 2026-06-12 19:11:41
+update: 2026-06-14 19:03:29
 publish: true
 tags:
   - moc
@@ -14,52 +14,53 @@ authors:
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Kaskade Workspace.md
-translation_source_hash: 29a1552cf493836b4b474a5912aebdb63538c48b359b37de5a4b8b2e5b94d53f
+translation_source_hash: 631cf2907c40a3667c661ea1b6d881d859aab4729b277b6135718a058327fc01
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-12T17:33:23+00:00
-translation_source_body_hash: 29a1552cf493836b4b474a5912aebdb63538c48b359b37de5a4b8b2e5b94d53f
-translation_source_metadata_hash: e7f4ba685ffe753f20b46abef2ca8139d54bb761a72234a6398c888d59b39b90
+translation_updated: 2026-06-14T15:10:48+00:00
+translation_source_body_hash: 631cf2907c40a3667c661ea1b6d881d859aab4729b277b6135718a058327fc01
+translation_source_metadata_hash: 14f9eb7f2b84bdc2ea4e9bf614d19a3199b89138fa400f849f9e7789b6cd1ce0
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T17:33:23+00:00
+translation_metadata_updated: 2026-06-14T16:06:31+00:00
+translation_source_localized_metadata_hash: 14f9eb7f2b84bdc2ea4e9bf614d19a3199b89138fa400f849f9e7789b6cd1ce0
+translation_source_structural_metadata_hash: 0cfee3e1af3406a918bee8b26aa5fda5e8dd66e93b2d5c95c2c0fea35a4fc7a7
 ---
 >[!info]- Εισαγωγή
->Μεγάλωσα με το "Kaskade". Πριν υπήρχε το YouTube, πριν μπορούσαμε να βρούμε τα πάντα στο διαδίκτυο – αυτό το περιοδικό ήταν από τις πρώτες τακτικές πηγές πληροφοριών που έφτασαν στα χέρια μου σχετικά με το αντικείμενο του ζογκλερικού, του τσίρκου, των παραστάσεων.
+>Μεγάλωσα με το "Kaskade". Πριν υπήρχε το Youtube, πριν μπορούσαμε να βρούμε τα πάντα στο διαδίκτυο – αυτό το περιοδικό ήταν από τις πρώτες τακτικές πηγές πληροφοριών που έφτασαν στα χέρια μου σχετικά με το ζογκλερικό, το τσίρκο, τις παραστάσεις.
 >Όταν το περιοδικό σταμάτησε να εκδίδεται το 2013, ένιωσα σαν το τέλος μιας εποχής – τουλάχιστον για μένα.
->Για αρκετά χρόνια τα τεύχη ήταν διαθέσιμα για λήψη σε μορφή PDF, αλλά περίπου από το 2017 η ιστοσελίδα τέθηκε εκτός λειτουργίας.
->Συχνά θυμόμουν μικρά εργαστήρια, οδηγούς ή άρθρα που με είχαν εμπνεύσει τότε. Όταν, χρόνια αργότερα, θέλησα να διαβάσω κάτι ξανά – δεν υπήρχε πλέον τρόπος.
+>Για αρκετά χρόνια, τα τεύχη ήταν διαθέσιμα για λήψη σε μορφή PDF, αλλά περίπου από το 2017 η ιστοσελίδα τέθηκε εκτός λειτουργίας.
+>Συχνά θυμόμουν μικρά εργαστήρια, οδηγούς ή άρθρα που με είχαν εμπνεύσει τότε. Όταν, χρόνια αργότερα, θέλησα να ξαναδιαβάσω κάτι – δεν υπήρχε πλέον τρόπος.
 >
->Με τη βοήθεια της Wayback Machine (The Internet Archive) ευτυχώς βρήκα ένα σημείο ελέγχου από το 2017 με τις πλήρεις λήψεις (αυτό δεν συμβαίνει πάντα, ειδικά αφού ήταν περίπου 3 GB σε PDF) – πλήρες με γερμανική, αγγλική και γαλλική έκδοση.
+>Με τη βοήθεια του Wayback Machine (The Internet Archive), ευτυχώς βρήκα ένα σημείο ελέγχου από το 2017 με τις πλήρεις λήψεις (αυτό δεν συμβαίνει πάντα, ειδικά επειδή ήταν περίπου 3 GB σε αρχεία PDF) – πλήρες με γερμανική, αγγλική και γαλλική έκδοση.
 >
->Κατά την ανασκόπηση, συνειδητοποίησα ότι ενώ υπήρχαν πολλά υπέροχα άρθρα και οδηγοί κρυμμένα στα περιοδικά – στη σημερινή εποχή, δύσκολα θα ξεφύλλιζε κανείς 112 περιοδικά που είναι απλώς φωτοτυπημένα. Λοιπόν, εκτός αν έχει κανείς νοσταλγικό ενδιαφέρον =P
+>Κατά την επισκόπηση, συνειδητοποίησα ότι ενώ υπήρχαν πολλά υπέροχα άρθρα και οδηγοί κρυμμένα στα περιοδικά – στη σημερινή εποχή, δύσκολα θα ξεφύλλιζε κανείς 112 περιοδικά που είναι απλώς φωτοτυπημένα. Λοιπόν, εκτός αν έχει κανείς νοσταλγικό ενδιαφέρον =P
 >
->Επειδή όμως είναι κρίμα να χαθεί η γνώση, θέλησα να προσπαθήσω, με τη βοήθεια της σύγχρονης τεχνολογίας, να ψηφιοποιήσω τα πάντα με τέτοιο τρόπο ώστε να είναι χρήσιμα και σήμερα.
+>Επειδή όμως είναι κρίμα να χαθεί η γνώση, θέλησα να προσπαθήσω, με τη βοήθεια της σύγχρονης τεχνολογίας, να ψηφιοποιήσω τα πάντα με τρόπο που να είναι χρήσιμος και σήμερα.
 
->[!info]- Πώς μεταγράφηκαν τα περιοδικά
->Αρχικά, αφαίρεσα όλες τις σελίδες από τα PDF που δεν περιείχαν σχετικό κείμενο.
+>[!info]- Πώς έγινε η μεταγραφή των περιοδικών
+>Αρχικά, αφαίρεσα από το PDF όλες τις σελίδες που δεν περιείχαν σχετικό κείμενο.
 >
 >Για την πραγματική μεταγραφή (ή OCR) χρησιμοποίησα ένα πολυτροπικό γλωσσικό μοντέλο της Google.
->Χρησιμοποιώ το ```Gemini 2.0 Pro Experimental 02-05``` με το prompt
+>Χρησιμοποιώ το ```Gemini 2.0 Pro Experimental 02-05``` με το prompt:
 >```
 >The attached PDF is a photocopy of a magazine. Extract all text, keep the document structure intact as much as possible, also extract single images and have them correctly in context.
 >```
 >καθώς και το PDF με το σαρωμένο περιοδικό.
->Ρυθμίσεις: Temperature 0.1 (Σημαντικό για την αποφυγή παραισθήσεων)
+>Ρυθμίσεις: Temperature 0.1 (Σημαντικό για την αποφυγή ψευδαισθήσεων)
 >
->Το αποτέλεσμα καθαρίζεται με το ```gemini-2.0-flash-exp``` και το ακόλουθο prompt (καθώς και το συνημμένο κείμενο που εξάγαμε):
+>Η έξοδος καθαρίζεται με το ```gemini-2.0-flash-exp``` και το ακόλουθο prompt (καθώς και το συνημμένο κείμενο που εξάγαμε):
 >```
 >The following text is extracted with OCR from an old magazin. Your task is to clean this up. Remove artifacts (like page-numbering, unneccessary linebreaks) or unneeded parts but keep the structure, articles etc. intact. Use a proper Markdown formatting to structure the text correctly.
 >
 >Text:
 >```
 >
->Το αποτέλεσμα ελέγχεται ξανά χειροκίνητα και διορθώνεται.
+>Το αποτέλεσμα ελέγχεται στη συνέχεια ξανά χειροκίνητα και διορθώνεται.
 >
 >>[!Danger]+ Σημαντικό:
 >>Η εστίαση ήταν στην εξαγωγή άρθρων, εργαστηρίων, συνεντεύξεων κ.λπ.
->>Ανέθεσα άρθρα όπως π.χ. αγγελίες κ.λπ.
->>Η εξαγωγή και ο καθαρισμός των κειμένων έγιναν με LLMs, επομένως υπάρχει πάντα η πιθανότητα τα κείμενα να μην μεταγράφηκαν 1:1 ή το περιεχόμενο να αποκλίνει ελαφρώς από το πρωτότυπο. Προσπάθησα να κρατήσω το ποσοστό σφάλματος όσο το δυνατόν χαμηλότερο, συγκρίνοντας τυχαία σημεία του κειμένου.
-
+>>Ανέβαλα δημοσιεύσεις όπως π.χ. αγγελίες κ.λπ.
+>>Η εξαγωγή και ο καθαρισμός των κειμένων έγιναν με LLMs, επομένως υπάρχει πάντα η πιθανότητα τα κείμενα να μην έχουν μεταγραφεί 1:1 ή το περιεχόμενο να αποκλίνει ελαφρώς από το πρωτότυπο. Προσπάθησα να διατηρήσω το ποσοστό σφάλματος όσο το δυνατόν χαμηλότερο, συγκρίνοντας τυχαία τμήματα κειμένου.
 <!-- dynamic:start
 engine: obsidian-base
 base: _bases/Spiele-Base.base
@@ -69,52 +70,46 @@ format: list
 <!-- dynamic:content -->
 <!-- Generated by tools/dynamic_pages.py; edit the dynamic block config, not this list. -->
 
-- [Καταρράκτης 001 - 1984](<Kaskade%20001.md>)
-- [Cascade 002 - 1984](<Kaskade%20002.md>)
-- [Καταρράκτης 003](<Kaskade%20003.md>)
-- [Cascade 004 - 1985](<Kaskade%20004.md>)
-- [Κάσκαντ 005 - 1985](<Kaskade%20005.md>)
+- [Kaskade 001](<Kaskade%20001.md>)
+- [Kaskade 002](<Kaskade%20002.md>)
+- [Kaskade 003](<Kaskade%20003.md>)
+- [Kaskade 004](<Kaskade%20004.md>)
+- [Kaskade 005](<Kaskade%20005.md>)
 
-<!-- dynamic:end -->
-
-# Άρθρα
-
+<!-- dynamic:end --># Άρθρα
 <!-- dynamic:start
 engine: obsidian-base
 base: _bases/Spiele-Base.base
 view: Kaskade Artikel
 format: table
-columns: file, authors, type, sub-type, source
 -->
 <!-- dynamic:content -->
 <!-- Generated by tools/dynamic_pages.py; edit the dynamic block config, not this table. -->
 
-| file                                                                                   | authors                  | type     | sub-type | source      |
+| Σύνδεσμος                                                                              | authors                  | type     | sub-type | source      |
 | -------------------------------------------------------------------------------------- | ------------------------ | -------- | -------- | ----------- |
-| [Εργαστήριο Cascade - Η σελίδα στήλης](<Die%20S%C3%A4ulen-Seite.md>)                                       | Dr. P. Luftiko           | Tutorial | Bälle    | Kaskade 001 |
-| [Μια νέα επιθεώρηση για την Ευρώπη](<Eine%20neue%20Zeitschrift%20f%C3%BCr%20Europa.md>) | Gabi Keaton, Paul Keaton | Artikel  | -        | Kaskade 001 |
-| [Το χαμόγελο νικά τη βαρύτητα](<L%C3%A4cheln%20%C3%BCberwindet%20Schwerkraft.md>)    | Toby Philpott            | Artikel  | -        | Kaskade 001 |
-| [Εργαστήριο Cascade - Τεχνάσματα!](<Schummeln%21.md>)                                                        | Dr. P. Luftiko           | Tutorial | Bälle    | Kaskade 001 |
-| [Βαρύτητα - κι εμ;!](<Schwerkraft%20-%20na%20und%21.md>)                            | Christoph Schmitt        | Artikel  | -        | Kaskade 001 |
-| [Ζητείται τσίρκο!](<Zirkus%20gesucht%21.md>)                                            | Kattrin & Uli            | Artikel  | -        | Kaskade 001 |
+| [Εργαστήριο Cascade - Η πλευρά του στύλου](<Die%20S%C3%A4ulen-Seite.md>)               | Dr. P. Luftiko           | Tutorial | Bälle    | Kaskade 001 |
+| [Μια νέα εφημερίδα για την Ευρώπη](<Eine%20neue%20Zeitschrift%20f%C3%BCr%20Europa.md>) | Gabi Keaton, Paul Keaton | Artikel  | -        | Kaskade 001 |
+| [Το χαμόγελο νικά τη βαρύτητα](<L%C3%A4cheln%20%C3%BCberwindet%20Schwerkraft.md>)      | Toby Philpott            | Artikel  | -        | Kaskade 001 |
+| [Εργαστήριο Cascade - Κλεψιά!](<Schummeln%21.md>)                                      | Dr. P. Luftiko           | Tutorial | Bälle    | Kaskade 001 |
+| [Βαρύτητα - και τι έγινε!](<Schwerkraft%20-%20na%20und%21.md>)                         | Christoph Schmitt        | Artikel  | -        | Kaskade 001 |
+| [Ζητείται τσίρκο!](<Zirkus%20gesucht%21.md>)                                           | Kattrin & Uli            | Artikel  | -        | Kaskade 001 |
 
-<!-- dynamic:end -->
+<!-- dynamic:end -->---
 
----
-
->[!info]- Λανθασμένα ονομασμένες / συνενωμένες εκδόσεις (002 - 004)
+>[!info]- Λανθασμένες/Συνοπτικές εκδόσεις (002 - 004)
 >
->Kaskade 002:
->Στο πρωτότυπο γερμανικό PDF, οι εκδόσεις 2+3 είναι μαζί.
+>Κασκάντ 002:
+>Στο αρχικό γερμανικό PDF, οι εκδόσεις 2+3 είναι μαζί.
 >
->Kaskade 003:
->Στο πρωτότυπο γερμανικό PDF, εδώ βρίσκεται η έκδοση 004.
+>Κασκάντ 003:
+>Στο αρχικό γερμανικό PDF, εδώ βρίσκεται η έκδοση 004.
 >
->Kaskade 004:
->Εδώ λείπει η σελίδα τίτλου, δεν έχω καταφέρει ακόμα να ανακαλύψω σε τι ανήκει...
+>Κασκάντ 004:
+>Εδώ λείπει η σελίδα τίτλου, δεν έχω καταφέρει ακόμα να βρω σε τι ανήκει...
 >Μοιάζει με αντίγραφο της έκδοσης 009, χωρίς σελίδα τίτλου.
 >
 >Διόρθωση:
->Έχω χωρίσει το PDF του Kaskade 002 (πρωτότυπο) σε 002 και 003.
->Μετονόμασα το Kaskade 003 (πρωτότυπο) σε Kaskade 004.
->Και διέγραψα το Kaskade 004 (πρωτότυπο).
+>Έχω χωρίσει το PDF της Κασκάντ 002 (πρωτότυπο) σε 002 και 003.
+>Μετονόμασα την Κασκάντ 003 (πρωτότυπο) σε Κασκάντ 004.
+>Καθώς και διέγραψα την Κασκάντ 004 (πρωτότυπο).

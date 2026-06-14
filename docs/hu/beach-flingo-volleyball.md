@@ -9,16 +9,16 @@ tags:
   - net-game
 created: 2026-06-12 00:00:00
 update: 2026-06-12 21:39:45
-title: Beach Flingo Röplabda
-description: Csapatok röplabdához hasonló játékot játszanak Beach Flingo atléták vagy dobó-fogó kendők és egy labda segítségével.
+title: Strand Flingo Röplabda
+description: Csapatok röplabdához hasonló játékot játszanak Strand Flingo mellények vagy dobó-fogó kendők és egy labda segítségével.
 authors:
   - CircusWiki contributors
 category:
   - convention-games
   - miscellaneous
   - net-game
-Schwierigkeit: "schwer"
-Material: "Beach Flingo bibs or throw-catch cloths, ball, net or court line"
+Schwierigkeit: nehéz
+Material: Strand Flingo mellények vagy dobó-fogó kendők, labda, háló vagy pályavonal
 Spieldauer: "5-15"
 group-min: 2
 group-max: 40
@@ -33,10 +33,12 @@ translation_source_body_hash: 61741d62c00b818602a7404c27915ceb621f19c3113ec093cb
 translation_source_hash: 61741d62c00b818602a7404c27915ceb621f19c3113ec093cbdf6c781bf4a07d
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-12T21:08:26+00:00
-translation_source_metadata_hash: b2ce11bc951f0e0d3dadfeb996a1d83d7f3f7615ed8878a51e8c338f3b600d27
+translation_source_metadata_hash: 683cdef10ef83b886e8729e833a57e62f36513eab744ebfff3ddace546f184a2
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T21:08:26+00:00
+translation_metadata_updated: 2026-06-14T15:56:01+00:00
+translation_source_localized_metadata_hash: 683cdef10ef83b886e8729e833a57e62f36513eab744ebfff3ddace546f184a2
+translation_source_structural_metadata_hash: 54c71bce7b2e3a5c2f5f1f903f1631c7660851b2ecc05d6af766325bb81db7f2
 ---
 > [!info] Rövid leírás
 > Csapatok röplabdához hasonló játékot játszanak Beach Flingo mellények vagy dobó-fogó kendők és egy labda segítségével.

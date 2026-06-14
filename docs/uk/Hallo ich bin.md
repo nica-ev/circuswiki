@@ -7,14 +7,14 @@ tags:
 created: 2025-01-24 03:50:50
 update: 2025-03-18 01:39:56
 title: Привіт, я
-description: Коротка вправа на знайомство в колі, де імена поєднуються з індивідуальними рухами.
+description: Коротка вправа для знайомства в колі, де імена поєднуються з індивідуальними рухами.
 authors:
   - Marc Bielert
 category:
   - kennenlernen
   - kreisspiel
-Schwierigkeit: einfach
-Material: keines
+Schwierigkeit: легко
+Material: немає
 Spieldauer: 2-10
 source: unbekannt
 group-min: 4
@@ -27,10 +27,12 @@ translation_source_hash: 4f75c8e44e08ce66613f2cfa923da0ae436644bfbeb796a263947a0
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:42:47+00:00
 translation_source_body_hash: 4f75c8e44e08ce66613f2cfa923da0ae436644bfbeb796a263947a01285d3b9a
-translation_source_metadata_hash: 5b35dc686547834b627f93574fb8670c866b9bf631d1809ff22fa8d9ce653cf4
+translation_source_metadata_hash: f4372ec2948c4a3028c39cad8f52b5eb14a23aed4f168ee81137c2343e8c3f84
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:49:53+00:00
+translation_metadata_updated: 2026-06-14T15:52:38+00:00
+translation_source_localized_metadata_hash: f4372ec2948c4a3028c39cad8f52b5eb14a23aed4f168ee81137c2343e8c3f84
+translation_source_structural_metadata_hash: 7ca911336cc281f9b7efdb083f194a8c8f46877ca71cefa5ad366486e51a1d70
 ---
 > [!info] Короткий опис
 > Коротка вправа на знайомство в колі, де імена поєднуються з індивідуальними рухами.

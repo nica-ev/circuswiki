@@ -6,8 +6,8 @@ tags:
   - beigoma
 created: 2026-06-11 00:00:00
 update: 2026-06-11 16:36:12
-title: Basisprincipes van Beigoma-modificatie
-description: Overzicht van de doelen van Beigoma-modificatie, waaronder lange spin, aanvalsgedrag, stabiliteit, polijsten en veilige omgang in de werkplaats.
+title: Basisprincipes van Beigoma Modificatie
+description: Overzicht van de doelen van Beigoma modificatie, waaronder lange spin, aanvalsgedrag, stabiliteit, polijsten en veilige omgang in de werkplaats.
 authors:
   - Marc Bielert
 source:
@@ -23,10 +23,12 @@ translation_source_body_hash: e2e958c767cddd7bc00280c4e82ea8bd9fc5e3004b867c0787
 translation_source_hash: e2e958c767cddd7bc00280c4e82ea8bd9fc5e3004b867c07871f7ee1e5240832
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-11T14:57:16+00:00
-translation_source_metadata_hash: 8df8e5724708796d4e8a0d5a0fc1ba7461b0d4295720c2ae6b740ca1d8a6ef99
+translation_source_metadata_hash: e25077127497b0d600ad667213dde6baeef2e2d1444603a50dde45c0e52a6e54
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-11T14:57:16+00:00
+translation_metadata_updated: 2026-06-14T15:39:13+00:00
+translation_source_localized_metadata_hash: e25077127497b0d600ad667213dde6baeef2e2d1444603a50dde45c0e52a6e54
+translation_source_structural_metadata_hash: be5a1517b3fe53ba78b4e1e47aa6052b34e5600ed498f533bb6defb1cf330648
 ---
 > [!info] Samenvatting
 > Beigoma-aanpassing gaat niet alleen over winnen. Het is een manier om balans, wrijving, gewicht, draaitijd, aanvalsgedrag en persoonlijk vakmanschap te verkennen.

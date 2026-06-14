@@ -32,11 +32,10 @@ source_section: "Ball Games"
 source_image: "../img/games-stredging.jpg"
 source_permission: "public-place image reviewed as reusable by project maintainer"
 ---
-
 > [!info] Short Description
 > A partner race where one player kicks balls up from the floor and the other catches them.
 
-![[../img/games-stredging.jpg|300]]
+![games-stredging](../img/games-stredging.jpg){ width=300 }
 
 **Group Size**: 2 to 40 players  
 **Difficulty**: einfach  

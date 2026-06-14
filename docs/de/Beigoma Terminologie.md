@@ -7,7 +7,7 @@ tags:
 created: 2025-02-01 02:31:52
 update: 2026-06-11 17:22:26
 title: Beigoma-Terminologie
-description: Glossar gebräuchlicher Beigoma-Begriffe für das Aufziehen, verschiedene Top-Typen, Wettkampfregeln und Spielkultur.
+description: Glossar gängiger Beigoma-Begriffe für das Aufwickeln, Top-Typen, Spielregeln und die Spielkultur.
 authors:
   - Marc Bielert
 source:
@@ -20,10 +20,12 @@ translation_source_body_hash: 27928971eba11de4f7a6c3dc41061ec4fe144e768cf62baad4
 translation_source_hash: 27928971eba11de4f7a6c3dc41061ec4fe144e768cf62baad48e2310418ac2bf
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-11T15:35:33+00:00
-translation_source_metadata_hash: 72bff203f2113613015aab5289be3aa7eb964a6cbf29210a35af8c2c72cd058b
+translation_source_metadata_hash: 933df37f5cc708c8975ba454d9d3dc7d05e99cfea64e531f7197061b3a4f8ad0
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-11T15:35:33+00:00
+translation_metadata_updated: 2026-06-14T15:39:33+00:00
+translation_source_localized_metadata_hash: 933df37f5cc708c8975ba454d9d3dc7d05e99cfea64e531f7197061b3a4f8ad0
+translation_source_structural_metadata_hash: 55b983ebe8717330008188a01f600f6f257fefa5c44e6749bec181f60e807433
 ---
 > [!info] Zusammenfassung
 > Dieses Glossar behält die japanischen Beigoma-Begriffe bei und erklärt sie in praxisorientiertem Englisch für Workshops und Spielanleitungen.

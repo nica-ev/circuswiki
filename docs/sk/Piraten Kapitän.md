@@ -7,13 +7,13 @@ publish: true
 tags:
   - spiele
 title: Kapitán pirátov
-description: Tematická veliteľská hra na pirátskej lodi, kde piráti reagujú a utekajú pred žralokmi.
+description: Tematická hra na velenie na pirátskej lodi, kde piráti reagujú a utekajú pred žralokmi.
 authors:
   - Marc Bielert
 category:
   - sonstiges
-Schwierigkeit: einfach
-Material: Matte
+Schwierigkeit: ľahká
+Material: Podložka
 Spieldauer: 5-15
 source: unbekannt
 group-min: 5
@@ -25,10 +25,12 @@ translation_source_hash: fe54897ebd06a862ac5e592f44e91f65ac61794dbfbe8216b1a1b1b
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:11:23+00:00
 translation_source_body_hash: fe54897ebd06a862ac5e592f44e91f65ac61794dbfbe8216b1a1b1bd480dc863
-translation_source_metadata_hash: 3d2f69ceccee33de33a25d393609c9a1908d89da35dd03b954f8e02f05d21089
+translation_source_metadata_hash: e409e2057f72ed281b4ae9d55c6d3ad4075ab5ef16579bdbae741ed1cf139c89
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T19:02:45+00:00
+translation_metadata_updated: 2026-06-14T16:16:05+00:00
+translation_source_localized_metadata_hash: e409e2057f72ed281b4ae9d55c6d3ad4075ab5ef16579bdbae741ed1cf139c89
+translation_source_structural_metadata_hash: 2d83721a3f43966a9558572e4d1100f9d0329b7d6eb11b9c1d76ae3f75ca1a78
 ---
 > [!info] Stručný popis
 > Tematická veliteľská hra na pirátskej lodi, kde piráti reagujú a utekajú pred žralokmi.

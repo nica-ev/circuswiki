@@ -7,13 +7,13 @@ tags:
 created: 2025-01-24 03:50:51
 update: 2025-03-17 01:39:30
 title: Roubo de Material
-description: Um jogo em equipe onde grupos pegam materiais do centro e uns dos outros para completar tarefas anunciadas primeiro.
+description: Um jogo em equipe onde grupos pegam material do centro e uns dos outros para completar tarefas anunciadas primeiro.
 authors:
   - Marc Bielert
 category:
   - warm-up
-Schwierigkeit: mittel
-Material: Reifen und verschiedene Kleingeräte
+Schwierigkeit: médio
+Material: Aros e vários equipamentos pequenos
 Spieldauer: 10-15
 source: unbekannt
 group-min: 16
@@ -25,10 +25,12 @@ translation_source_hash: 82271a760297368bef9d3546f59d66f605460ef2a0b0d60004dd94f
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:05:38+00:00
 translation_source_body_hash: 82271a760297368bef9d3546f59d66f605460ef2a0b0d60004dd94f3a6e2d494
-translation_source_metadata_hash: 1c195baff4b6da0d843222bb52567602d3503e154e319695097e5ec1e8799234
+translation_source_metadata_hash: 8f2f492011efee1f5a59eceb0577ea9e18b4bf9b41fc39d13f988c523285f2d6
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:57:36+00:00
+translation_metadata_updated: 2026-06-14T16:11:24+00:00
+translation_source_localized_metadata_hash: 8f2f492011efee1f5a59eceb0577ea9e18b4bf9b41fc39d13f988c523285f2d6
+translation_source_structural_metadata_hash: 53975e22b0902c05eda2e766cc4ed4ac7d21244da12024f049e7b4d65e045e05
 ---
 > [!info] Breve Descrição
 > Um jogo de equipa em que os grupos recolhem material do centro e uns dos outros para cumprir primeiro as tarefas anunciadas.

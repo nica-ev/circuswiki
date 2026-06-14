@@ -7,13 +7,13 @@ tags:
 created: 2025-01-24 03:50:50
 update: 2025-03-17 02:22:37
 title: Εντολή
-description: Ένα παιχνίδι αντίδρασης με αλλαγές θέσεων, όπου οι παίκτες αναζητούν γρήγορα νέες θέσεις για να ταιριάξουν με τις κατάλληλες εντολές.
+description: Παιχνίδι αντίδρασης με αλλαγές θέσεων, όπου οι συμμετέχοντες βρίσκουν γρήγορα νέες θέσεις σύμφωνα με τις κατάλληλες εντολές.
 authors:
   - Marc Bielert
 category:
   - action
-Schwierigkeit: einfach
-Material: Matten oder Sitzplatzmarkierungen
+Schwierigkeit: εύκολο
+Material: Χαλάκια ή σημάδια θέσεων
 Spieldauer: 4-7
 source: Tasifan Spielebuch
 group-min: 6
@@ -25,10 +25,12 @@ translation_source_hash: 5f5ed834f8a5d0e0c842238a3d2f39b423343b2fad5e5178371306e
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:50:56+00:00
 translation_source_body_hash: 5f5ed834f8a5d0e0c842238a3d2f39b423343b2fad5e5178371306e7ee3c36cd
-translation_source_metadata_hash: c8f81c682514642f72204860fbc3c333e5168f7ceca88940dd601e9216ce4362
+translation_source_metadata_hash: 22bbf395765e3b4a839a3c2684ec1723a5b62562e375cf7f5c292ad003eae9ce
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:54:54+00:00
+translation_metadata_updated: 2026-06-14T16:08:28+00:00
+translation_source_localized_metadata_hash: 22bbf395765e3b4a839a3c2684ec1723a5b62562e375cf7f5c292ad003eae9ce
+translation_source_structural_metadata_hash: d4d07ffc5e9194d05d34e122cf33a614b2e25064d6882c90dbc8868391b23264
 ---
 > [!info] Σύντομη Περιγραφή
 > Ένα παιχνίδι αντίδρασης με αλλαγές θέσεων, όπου οι συμμετέχοντες αναζητούν γρήγορα νέες θέσεις με βάση κατάλληλες εντολές.

@@ -10,15 +10,15 @@ tags:
 created: 2026-06-12 00:00:00
 update: 2026-06-12 22:10:00
 title: Festival trikov!
-description: Jeden hráč predvedie a pomenúva čo najviac platných trikov v časovom limite.
+description: Jeden hráč predvádza a pomenúva čo najviac platných trikov v časovom limite.
 authors:
   - CircusWiki contributors
 category:
   - convention-games
   - miscellaneous
   - challenge
-Schwierigkeit: "mittel"
-Material: "Poi, staff or agreed trick props, stopwatch"
+Schwierigkeit: stredná
+Material: Poi, tyč alebo dohodnuté rekvizity na triky, stopky
 Spieldauer: "5-15"
 group-min: 2
 group-max: 40
@@ -33,10 +33,12 @@ translation_source_body_hash: e2b239ec7dafd7ada4494e22c9b5aff6500a56d68ebde32ace
 translation_source_hash: e2b239ec7dafd7ada4494e22c9b5aff6500a56d68ebde32acedca7e10d550dd0
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-12T21:36:19+00:00
-translation_source_metadata_hash: 1eb0faca7ef9a755b0f60b7bf9a3f68b34d0ed8f624a40d94086343ff99454af
+translation_source_metadata_hash: eded1aed2098ce5ee8bf12b439051c00b90f6f2d650ea1ae58848dab4983fcc3
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T21:36:19+00:00
+translation_metadata_updated: 2026-06-14T16:04:23+00:00
+translation_source_localized_metadata_hash: eded1aed2098ce5ee8bf12b439051c00b90f6f2d650ea1ae58848dab4983fcc3
+translation_source_structural_metadata_hash: 74e6c5b8333227d8d0a9e39e0170841172eb72a0dfcf73e619aa2478a4677ce6
 ---
 > [!info] Stručný popis
 > Jeden hráč predvedie a pomenúva čo najviac platných trikov v stanovenom časovom limite.

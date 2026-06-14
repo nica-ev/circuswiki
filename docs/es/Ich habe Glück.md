@@ -6,15 +6,15 @@ update: 2025-03-18 02:51:28
 publish: true
 tags:
   - spiele
-title: Tengo suerte
-description: Un juego de persecución en equipos de dos, donde un momento de piedra, papel o tijera decide quién persigue a continuación.
+title: Tengo Suerte
+description: Un juego de atrapar en parejas donde un momento de piedra, papel o tijera decide quién sigue atrapando.
 authors:
   - Marc Bielert
 category:
   - fangen
   - warm-up
-Schwierigkeit: einfach
-Material: keines
+Schwierigkeit: fácil
+Material: ninguno
 Spieldauer: 5 - 10
 source: Lorenzo Cincinotti
 group-min: 6
@@ -27,10 +27,12 @@ translation_source_hash: 62727bcde4ee924ddc1ad058f40fd6e91be8e2445472b20bde529bd
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:44:45+00:00
 translation_source_body_hash: 62727bcde4ee924ddc1ad058f40fd6e91be8e2445472b20bde529bd78b89d765
-translation_source_metadata_hash: b3b209e10f2f83c68acc23c4ffe34b3fa892954daaedfcf87ce9257c0fc16af7
+translation_source_metadata_hash: 1bc447d8617fa642273a3a1999203c48855c69b6629535fac49a0ddf5777845e
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:50:54+00:00
+translation_metadata_updated: 2026-06-14T15:53:38+00:00
+translation_source_localized_metadata_hash: 1bc447d8617fa642273a3a1999203c48855c69b6629535fac49a0ddf5777845e
+translation_source_structural_metadata_hash: 24b8e2996a7f16e113ddaf46b6fa2d7efc60d8cc22d6b035393eaeaedcf23086
 ---
 > [!info] Breve descripción
 > Un juego de persecución por equipos de dos, donde un momento de piedra, papel o tijera decide quién persigue a continuación.

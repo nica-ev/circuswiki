@@ -15,8 +15,8 @@ authors:
 category:
   - improwizacja
   - kooperacja
-Schwierigkeit: mittel
-Material: rekwizyty cyrkowe
+Schwierigkeit: media
+Material: accesorios de circo
 source: KPC - Hula hoop
 source_file: _inbox/Hula hoop - materiały KPC.pdf
 translation_status: machine-translated
@@ -26,10 +26,12 @@ translation_source_hash: a53d3c4b80bd8a205635d3743c520480a68f400089cc545bbdd0aa9
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-07T17:32:27+00:00
 translation_source_body_hash: a53d3c4b80bd8a205635d3743c520480a68f400089cc545bbdd0aa9324b62c5d
-translation_source_metadata_hash: faa6a2443f799422f6311bd823488cb941742102fa3e86ee400d5ac44c2c262e
+translation_source_metadata_hash: 3c1498644de5ef67affbf807ffa280a4bd0f2eaf92430fdf2faa877722f85d2c
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:05:09+00:00
+translation_metadata_updated: 2026-06-14T15:41:52+00:00
+translation_source_localized_metadata_hash: 3c1498644de5ef67affbf807ffa280a4bd0f2eaf92430fdf2faa877722f85d2c
+translation_source_structural_metadata_hash: ea97bb59dd290e2b3e4d8ea9190d5a6b87fa2ab3b76b73a40c53ffea78a87d74
 ---
 # Construcción de máquinas
 

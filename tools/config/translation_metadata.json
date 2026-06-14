@@ -1,0 +1,8 @@
+{
+  "translatable_fields": [
+    "title",
+    "description",
+    "Schwierigkeit",
+    "Material"
+  ]
+}

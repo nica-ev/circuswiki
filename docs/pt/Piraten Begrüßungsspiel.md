@@ -7,13 +7,13 @@ publish: true
 tags:
   - spiele
 title: Jogo de Boas-Vindas Pirata
-description: Um jogo de boas-vindas temático que acompanha uma canção pirata com gestos e ações em dupla.
+description: Um jogo de boas-vindas temático onde uma canção pirata é acompanhada por gestos e ações em dupla.
 authors:
   - Marc Bielert
 category:
   - sonstiges
-Schwierigkeit: einfach
-Material: keines
+Schwierigkeit: fácil
+Material: nenhum
 Spieldauer: 5-10
 source: unbekannt
 group-min: 4
@@ -25,10 +25,12 @@ translation_source_hash: d922946f8d2aa168b25af0b3f98fbd27f820b75cd709abbd3cf55b6
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:10:54+00:00
 translation_source_body_hash: d922946f8d2aa168b25af0b3f98fbd27f820b75cd709abbd3cf55b61d2839e34
-translation_source_metadata_hash: d00c4a196dabad94c487696103d6b22e7c8cefc89db63febf9ac58351b8eafac
+translation_source_metadata_hash: 53c4cd737a502442fdba95dcafcf11d2f1bcfa8e87ec2cf4c54e0bb7c21ab1c7
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T19:02:35+00:00
+translation_metadata_updated: 2026-06-14T16:15:55+00:00
+translation_source_localized_metadata_hash: 53c4cd737a502442fdba95dcafcf11d2f1bcfa8e87ec2cf4c54e0bb7c21ab1c7
+translation_source_structural_metadata_hash: e0c9c6a1fceeff462c995596d4dcdba687dbce0b79fff4bcffd7eb92d3f13c26
 ---
 > [!info] Breve Descrição
 > Um jogo temático de boas-vindas onde uma canção de piratas é acompanhada por gestos e ações em dupla.

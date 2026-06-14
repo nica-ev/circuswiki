@@ -6,7 +6,7 @@ tags:
   - spiele
   - beigoma
 created: 2025-01-24 03:50:50
-update: 2026-06-11 17:28:52
+update: 2026-06-12 20:25:46
 title: Jogo de Blocos
 description: 
 authors:
@@ -18,10 +18,12 @@ translation_source_hash: feba559e9d0aa64ee5f6f9fb6b0b7648397c4978b6acdba1fb54928
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-11T15:37:30+00:00
 translation_source_body_hash: feba559e9d0aa64ee5f6f9fb6b0b7648397c4978b6acdba1fb549286dc46366a
-translation_source_metadata_hash: c3fb57ba13e0517992cf588c2c001e2b5a447e4689fca0b654c9e91d66c1dab7
+translation_source_metadata_hash: bee6b02e7c376333bea9cfe15efd137dbc4a5940b15c19e2ce95e7d6cd896ecd
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-11T15:37:30+00:00
+translation_metadata_updated: 2026-06-14T15:40:44+00:00
+translation_source_localized_metadata_hash: bee6b02e7c376333bea9cfe15efd137dbc4a5940b15c19e2ce95e7d6cd896ecd
+translation_source_structural_metadata_hash: 853c35b16486a7aa94116383e872911cff08ae43f030ccde7c6489c63a335f99
 ---
 > [!info] Breve Descrição
 > Um formato flexível de cartão de pontos de Beigoma onde os jogadores completam várias rodadas dentro de um limite de tempo.

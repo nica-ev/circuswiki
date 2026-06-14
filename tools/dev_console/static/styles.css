@@ -200,6 +200,12 @@ h2 {
   margin-bottom: 8px;
 }
 
+.subtoolbar {
+  margin-top: 18px;
+  border-top: 1px solid var(--line);
+  padding-top: 12px;
+}
+
 .health-toolbar {
   align-items: start;
 }
@@ -463,6 +469,13 @@ label {
 .dynamic-workspace {
   display: grid;
   grid-template-columns: minmax(320px, 0.55fr) minmax(520px, 1.45fr);
+  gap: 10px;
+  align-items: start;
+}
+
+.base-label-workspace {
+  display: grid;
+  grid-template-columns: minmax(360px, 0.7fr) minmax(520px, 1.3fr);
   gap: 10px;
   align-items: start;
 }

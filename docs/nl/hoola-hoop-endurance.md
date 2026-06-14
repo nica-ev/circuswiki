@@ -9,16 +9,16 @@ tags:
   - endurance
 created: 2026-06-12 00:00:00
 update: 2026-06-12 21:55:16
-title: Hula-Hoop Uithoudingsvermogen
-description: Spelers beginnen met hoelahoepen rond de middel.
+title: Hula-Hoep Uithoudingsvermogen
+description: Spelers beginnen met hula-hoepen rond de middel.
 authors:
   - CircusWiki contributors
 category:
   - convention-games
   - miscellaneous
   - endurance
-Schwierigkeit: "einfach"
-Material: "Hula hoops"
+Schwierigkeit: makkelijk
+Material: Hula hoep
 Spieldauer: "5-15"
 group-min: 3
 group-max: 60
@@ -33,10 +33,12 @@ translation_source_body_hash: a6164bc2486066f1054458bd9120413cf3f55b0ed07190a3f3
 translation_source_hash: a6164bc2486066f1054458bd9120413cf3f55b0ed07190a3f3bf2829e5c2c55c
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-12T21:19:49+00:00
-translation_source_metadata_hash: fa2d89168dacd82601aabffe287b54128a690ea93ff9252f607093d3a6817d9a
+translation_source_metadata_hash: 4de74109193feba09c746197d910c0a683085581fb160bbfb1b20bc47cf11601
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T21:19:49+00:00
+translation_metadata_updated: 2026-06-14T15:59:36+00:00
+translation_source_localized_metadata_hash: 4de74109193feba09c746197d910c0a683085581fb160bbfb1b20bc47cf11601
+translation_source_structural_metadata_hash: 7b99c58330c98e55e12894663caa409c740b3368562f7127cbbe6852e4757d72
 ---
 > [!info] Korte beschrijving
 > Een Hula-Hoop uithoudingsspel met extra uitdagingen.

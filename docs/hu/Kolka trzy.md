@@ -9,13 +9,13 @@ tags:
   - hula-hoop
   - kooperacja
 title: Három karika
-description: Háromfős hulahopp karikás játék, ahol a csoport a cél felé halad, a karikát a középső személyen átadva.
+description: Háromfős hula hoop játék, ahol a csoport a cél felé halad, a karikát a középső személy elé helyezve.
 authors:
   - Wiktoria Witenberg
 category:
   - kooperacja
   - ruch
-Schwierigkeit: einfach
+Schwierigkeit: könnyű
 Material: hula hoop
 source: KPC - Hula hoop
 source_file: _inbox/Hula hoop - materiały KPC.pdf
@@ -26,10 +26,12 @@ translation_source_hash: e86e02a7f091681c3c9c12f07df670148a58805a0e87994c3e7fbe1
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-07T17:30:00+00:00
 translation_source_body_hash: e86e02a7f091681c3c9c12f07df670148a58805a0e87994c3e7fbe10d527e9be
-translation_source_metadata_hash: 3c18cd22f5af5cbae13d6066f73322a6d805deef9e818ab169af242bfa30b987
+translation_source_metadata_hash: 1e40e8efda991e57503c51681723e62ae087b1038af48ed909773589f609cdfe
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:54:35+00:00
+translation_metadata_updated: 2026-06-14T16:08:08+00:00
+translation_source_localized_metadata_hash: 1e40e8efda991e57503c51681723e62ae087b1038af48ed909773589f609cdfe
+translation_source_structural_metadata_hash: 31f5d334ad645b46d40b76b9b39ccde675e4caf3bc8c7e9c99584c35b4213319
 ---
 # Három karika
 

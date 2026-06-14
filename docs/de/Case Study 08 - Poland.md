@@ -3,7 +3,7 @@ lang: de
 translation_id: case-study-08-poland
 created: 2025-08-30 20:51:10
 update: 2026-06-06 21:49:02
-publish: true
+publish: false
 tags:
   - case-study
 title: Keine Altersgrenze
@@ -19,10 +19,12 @@ translation_source_hash: fdb5eb3a05ee66ddf407c650e4a325eed46d638cee6099a5ee9e9b5
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-06T19:52:09+00:00
 translation_source_body_hash: fdb5eb3a05ee66ddf407c650e4a325eed46d638cee6099a5ee9e9b5aec2fb24a
-translation_source_metadata_hash: 729d594fd51d86536e69620c52472697df28892533e11274468174d9f65fe687
+translation_source_metadata_hash: d4be6bb5ae1fd5c4292790bc495170206e5b6c6b7747a4c60a6e1ec62b47a8b3
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:06:08+00:00
+translation_metadata_updated: 2026-06-14T15:42:46+00:00
+translation_source_localized_metadata_hash: d4be6bb5ae1fd5c4292790bc495170206e5b6c6b7747a4c60a6e1ec62b47a8b3
+translation_source_structural_metadata_hash: 627725a9f26b231a3ad932c6f3197a5f80c02ab41b374ff5d3b1289bd43d4377
 ---
 # **Kein Alter als Grenze – Funktionelles Jonglieren mit Senioren während des Lockdowns**
 

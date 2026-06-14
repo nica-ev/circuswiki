@@ -19,8 +19,8 @@ category:
   - convention-games
   - juggling
   - knockout
-Schwierigkeit: schwer
-Material: Three juggling clubs per player, marked arena
+Schwierigkeit: těžká
+Material: Tři žonglovací kužely na hráče, vyznačená aréna
 Spieldauer: "5-15"
 group-min: 3
 group-max: 80
@@ -31,50 +31,52 @@ source_url: https://ucircus.co.uk/resources-circus-games/
 source_image: ../img/club-gladiators.jpg
 source_permission: public group photo reviewed as reusable by project maintainer
 translation_source: docs/en/club-gladiators.md
-translation_source_body_hash: 296d08c1d535a61873b2727cbcc7549166194b0cabbc71410016ca7caedc6e73
-translation_source_hash: 296d08c1d535a61873b2727cbcc7549166194b0cabbc71410016ca7caedc6e73
+translation_source_body_hash: 1c9ae1f0d108f500d94ef984d282b32ae110117fe8b971443ce8471d4aee8682
+translation_source_hash: 1c9ae1f0d108f500d94ef984d282b32ae110117fe8b971443ce8471d4aee8682
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-12T21:43:12+00:00
-translation_source_metadata_hash: bbffbeb7fd5c6525894d04346e31e95324cc01144a7c3429c0aa1f7b6f1f9641
+translation_updated: 2026-06-14T19:38:09+00:00
+translation_source_metadata_hash: 50547229720e7c79def6b0f4e4e90d0937c38baa7852bd1a89efbafacb65caf8
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T21:43:12+00:00
+translation_metadata_updated: 2026-06-14T19:38:09+00:00
+translation_source_localized_metadata_hash: 50547229720e7c79def6b0f4e4e90d0937c38baa7852bd1a89efbafacb65caf8
+translation_source_structural_metadata_hash: 0ee621f211b20bf84157d307c4b078c04f1a9f9b28b33253269cbbce862f6fc0
 ---
 > [!info] Stručný popis
-> Klasická bojová hra, kde žongléři s kuželkami se snaží zůstat poslední, kdo žongluje.
+> Klasická konvenční bojová hra, kde žongléři s kuželkami se snaží zůstat posledními, kdo žonglují.
 
-![[../img/club-gladiators.jpg|300]]
+![club-gladiators](../img/club-gladiators.jpg){ width=300 }
 
-**Počet hráčů**: 3 až 80
-**Obtížnost**: Těžká
-**Materiál**: Tři žonglérské kuželky na hráče, vyznačená aréna
-**Délka**: přibližně 5-15 minut
+**Velikost skupiny**: 3 až 80 hráčů
+**Obtížnost**: těžká
+**Materiál**: Tři žonglovací kuželky na hráče, vyznačené hřiště
+**Délka**: cca 5-15 minut
 
 ## Popis hry
 
-Všichni žonglují se třemi kuželkami ve stejné aréně. Hráči útočí na žonglérské vzorce soupeřů a zároveň udržují svůj vlastní vzorec.
+Všichni žonglují se třemi kuželkami na stejném hřišti. Hráči útočí na žonglovací vzorce soupeřů a zároveň udržují svůj vlastní vzorec.
 
 ## Příprava
 
-- Vyznačte jasnou arénu s prostorem pro bezpečný odchod vyřazených hráčů.
+- Vyznačte jasné hřiště s prostorem pro bezpečný odchod vyřazených hráčů.
 - Dohodněte se, že útoky směřují na náčiní, nikoli na těla.
-- Zapojte pouze hráče, kteří dokáží udržet stabilní vzorec tří kuželek při pohybu.
+- Zahrňte pouze hráče, kteří dokáží udržet stabilní vzorec tří kuželek při pohybu.
 
 ## Pravidla
 
 1. Všichni hráči začnou společně žonglovat se třemi kuželkami.
-2. Hráči se pohybují po aréně a snaží se donutit soupeře upustit kuželky narušením jejich žonglérských vzorců.
-3. Hráč je vyřazen, když upustí kuželku, sebere ji, přestane žonglovat nebo již nemá požadované tři kuželky ve vzorci.
+2. Hráči se pohybují po hřišti a snaží se donutit soupeře upustit kuželky narušením jejich žonglovacích vzorců.
+3. Hráč je vyřazen, když upustí kuželku, sebere ji, přestane žonglovat, nebo již nemá požadované tři kuželky ve vzorci.
 4. Vyřazení hráči okamžitě přestanou zasahovat a opustí hřiště.
 5. Poslední hráč, který stále žongluje, vyhrává kolo.
 
 ## Varianty
 
-- Uspořádejte týmové gladiátorské hry a udělte body vítěznému týmu.
+- Hrajte týmové gladiátory a udělujte body týmu vítěze.
 - Přidejte pravidla pro znevýhodnění velmi silných hráčů.
-- Použijte pravidlo o zákazu kontaktu s tělem pro bezpečnější hru smíšené úrovně.
+- Použijte pravidlo bez kontaktu s tělem pro bezpečnější hru smíšené úrovně.
 
-## Bezpečnostní pokyny
+## Bezpečnostní poznámky
 
 Veřejná pravidla by měla výslovně zakazovat útoky na těla a nebezpečné hody do obličeje.
 
@@ -85,4 +87,4 @@ Veřejná pravidla by měla výslovně zakazovat útoky na těla a nebezpečné 
 - Lokální zdroj obrázku: `../img/club-gladiators.jpg`
 - Zpracování zdroje: Dobře podpořeno zdroji o bojových hrách/gladiátorech a obrázkem/kartou UCircus.
 - Další reference: [Žonglérské hry JugglingWorld](https://www.jugglingworld.biz/tricks/juggling-games/)
-- Další reference pro kontext gladiátorů/bojových her: [Boj (žonglování)](https://en.wikipedia.org/wiki/Combat_(juggling))
+- Další reference pro kontext gladiátorů/bojových her: [Bojové žonglování (juggling)](https://en.wikipedia.org/wiki/Combat_(juggling))

@@ -7,7 +7,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / "tools"))
 
-from translation.link_repair import repair_link_targets  # noqa: E402
+from translation.link_repair import repair_link_targets, repair_source_link_styles  # noqa: E402
 
 
 class LinkRepairTests(unittest.TestCase):
@@ -106,6 +106,39 @@ class LinkRepairTests(unittest.TestCase):
         self.assertEqual(result.repair_count, 0)
         self.assertIn("[A](wrong-a.md)", result.body)
         self.assertEqual(result.diagnostics[0].kind, "link_count_mismatch")
+
+    def test_repairs_obsidian_image_embed_to_attr_list_markdown_image(self) -> None:
+        source = "Intro\n![[../img/game-photo.jpg|300]]\n"
+
+        result = repair_source_link_styles(source)
+
+        self.assertTrue(result.changed)
+        self.assertEqual(result.repair_count, 1)
+        self.assertIn("![game-photo](../img/game-photo.jpg){ width=300 }", result.body)
+        self.assertEqual(result.diagnostics[0].kind, "obsidian_image_embed")
+
+    def test_repairs_markdown_image_alt_width_to_attr_list_width(self) -> None:
+        source = "![Game photo|300](../img/game-photo.jpg)\n"
+
+        result = repair_source_link_styles(source)
+
+        self.assertTrue(result.changed)
+        self.assertIn("![Game photo](../img/game-photo.jpg){ width=300 }", result.body)
+        self.assertEqual(result.diagnostics[0].kind, "markdown_image_alt_width")
+
+    def test_repairs_markdown_image_alt_width_and_preserves_existing_attrs(self) -> None:
+        source = "![Game photo|300](../img/game-photo.jpg){ align=left }\n"
+
+        result = repair_source_link_styles(source)
+
+        self.assertIn("![Game photo](../img/game-photo.jpg){ align=left width=300 }", result.body)
+
+    def test_does_not_repair_source_image_styles_inside_fenced_code(self) -> None:
+        source = "```md\n![[../img/game-photo.jpg|300]]\n```\n"
+
+        result = repair_source_link_styles(source)
+
+        self.assertFalse(result.changed)
 
 
 if __name__ == "__main__":

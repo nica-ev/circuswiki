@@ -10,7 +10,7 @@ tags:
   - target
 created: 2026-06-12 00:00:00
 update: 2026-06-12 22:44:00
-title: Lanzamiento de Diábolo a la Caja
+title: Lanzamiento de Diábolo a Caja
 description: Un juego de puntería donde los jugadores intentan lanzar un diábolo a una caja o canasta.
 authors:
   - CircusWiki contributors
@@ -18,8 +18,8 @@ category:
   - convention-games
   - diabolo
   - target-games
-Schwierigkeit: "einfach"
-Material: "Diabolos, handsticks, box or basket"
+Schwierigkeit: fácil
+Material: Diábolos, palos, caja o canasta
 Spieldauer: "5-10"
 group-min: 2
 group-max: 40
@@ -35,19 +35,21 @@ source_permission: "public-place images reviewed as reusable by project maintain
 aliases:
   - Diabolo in a Box
 translation_source: docs/en/diabolo-box-throw.md
-translation_source_body_hash: d2fb9084f072ba11601b7246e72fba9a0efd7bf2697da5947bb637e356b8d496
-translation_source_hash: d2fb9084f072ba11601b7246e72fba9a0efd7bf2697da5947bb637e356b8d496
+translation_source_body_hash: 2ffbebcdbfb4b7ab71dc47eb7618a79dabd72fb7870d517a6371a42af068a41b
+translation_source_hash: 2ffbebcdbfb4b7ab71dc47eb7618a79dabd72fb7870d517a6371a42af068a41b
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-12T21:14:55+00:00
-translation_source_metadata_hash: b962c2147100414303b6fc6966f23fc59faee0d5c05593c5d59f162d12ce806f
+translation_updated: 2026-06-14T19:27:37+00:00
+translation_source_metadata_hash: 45f623d0729380cf8b1b208c420697ba830b8061c36a19b1d16762f166fac65b
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T21:14:55+00:00
+translation_metadata_updated: 2026-06-14T19:27:37+00:00
+translation_source_localized_metadata_hash: 45f623d0729380cf8b1b208c420697ba830b8061c36a19b1d16762f166fac65b
+translation_source_structural_metadata_hash: b379e9799c5f4370effd35997caf8c75be342d03c1bc35b16ad57d4b659a6666
 ---
 > [!info] Descripción Breve
 > Un juego de puntería en el que los jugadores intentan lanzar un diábolo a una caja o canasta.
 
-![[../img/game-diabolo-in-box.jpg|300]]
+![game-diabolo-in-box](../img/game-diabolo-in-box.jpg){ width=300 }
 
 **Tamaño del grupo**: 2 a 40 jugadores  
 **Dificultad**: fácil  
@@ -56,14 +58,14 @@ translation_metadata_updated: 2026-06-12T21:14:55+00:00
 
 ## Descripción del Juego
 
-Los jugadores se colocan detrás de una línea de lanzamiento, hacen girar sus diábolos e intentan lanzarlos a una caja, cubo o canasta colocada al otro lado del espacio. Los lanzamientos pueden hacerse uno a uno o con una señal compartida.
+Los jugadores se colocan detrás de una línea de lanzamiento, hacen girar sus diábolos e intentan lanzarlos a una caja, cubo o canasta colocada al otro lado del salón. Los lanzamientos pueden hacerse uno a uno o con una señal conjunta.
 
-Un diábolo puntúa si cae en el objetivo y permanece allí. Los lanzamientos exitosos suman puntos o permiten a los jugadores pasar a la siguiente ronda. Para crear una final, aumenta la distancia, reduce el tamaño del objetivo o exige varios lanzamientos exitosos.
+Un diábolo puntúa si cae en el objetivo y permanece allí. Los lanzamientos exitosos otorgan puntos o permiten a los jugadores pasar a la siguiente ronda. Para crear una final, aumenta la distancia, reduce el tamaño del objetivo o exige varios lanzamientos exitosos.
 
 ## Preparación
 
 - Coloca una caja o canasta a una distancia adecuada de la línea de lanzamiento.
-- Proporciona a todos los jugadores suficiente espacio para lanzar de forma segura.
+- Da a todos los jugadores suficiente espacio para lanzar de forma segura.
 - Decide si los jugadores lanzan uno a uno o todos juntos.
 
 ## Variaciones
@@ -78,8 +80,8 @@ Un objetivo fijo es lo más seguro. Evita objetivos sostenidos por personas a me
 
 ## Fuente
 
-- [JugglingWorld - Juegos de Malabares](https://www.jugglingworld.biz/tricks/juggling-games/), sección: Juegos de Diábolo, título: Diábolo en una caja.
-- [Página de juegos de circo de UCircus](https://ucircus.co.uk/resources-circus-games/), tarjeta de fuente: Lanzamiento de Diábolo a Caja.
+- [JugglingWorld - Juggling Games](https://www.jugglingworld.biz/tricks/juggling-games/), sección: Diabolo Games, título: Diabolo in a box.
+- [Página de juegos de circo de UCircus](https://ucircus.co.uk/resources-circus-games/), tarjeta de fuente: Diabolo Box Throw.
 - Clases de UCircus: Diábolo.
 - Imagen de referencia de JugglingWorld: `../img/game-diabolo-in-box.jpg`.
 - Imagen de referencia de UCircus: `../img/diabolo-box-throw.jpg`.

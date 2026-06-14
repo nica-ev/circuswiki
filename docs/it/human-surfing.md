@@ -18,8 +18,8 @@ category:
   - convention-games
   - balance
   - partner-games
-Schwierigkeit: schwer
-Material: Soft floor or grass, optional cones
+Schwierigkeit: difficile
+Material: Pavimento morbido o erba, coni opzionali
 Spieldauer: "5-10"
 group-min: 4
 group-max: 24
@@ -30,34 +30,36 @@ source_url: https://ucircus.co.uk/resources-circus-games/
 source_image: ../img/human-surfing.jpg
 source_permission: public group photo reviewed as reusable by project maintainer
 translation_source: docs/en/human-surfing.md
-translation_source_body_hash: dd4d77eb8f293d2db7bcb391d7833fa951a7900042467233455cfb87d6a9d5f6
-translation_source_hash: dd4d77eb8f293d2db7bcb391d7833fa951a7900042467233455cfb87d6a9d5f6
+translation_source_body_hash: 5c6fe4ad904e4d37f95998817b0ec9ef5ede4e7a39b75d4d6e1791404a70e568
+translation_source_hash: 5c6fe4ad904e4d37f95998817b0ec9ef5ede4e7a39b75d4d6e1791404a70e568
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-12T21:44:42+00:00
-translation_source_metadata_hash: 58064fedeba82563b1e3cb4e04f3199f707519b59da5a4ef6ab448f49fc53386
+translation_updated: 2026-06-14T19:39:45+00:00
+translation_source_metadata_hash: 4f008dc4b10a383ef925658127cbe64f5d0222b41bfc6e9399ee060f77c1f3dc
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T21:44:42+00:00
+translation_metadata_updated: 2026-06-14T19:39:45+00:00
+translation_source_localized_metadata_hash: 4f008dc4b10a383ef925658127cbe64f5d0222b41bfc6e9399ee060f77c1f3dc
+translation_source_structural_metadata_hash: c8553d0b1f48315cc140b7384ac4c4804e1b37350520e0ae5d1305d7b52e1948
 ---
-> [!info] Breve Descrizione
+> [!info] Descrizione Breve
 > Un gioco di equilibrio di squadra in cui una persona si bilancia su una base umana in movimento.
 
-![[../img/human-surfing.jpg|300]]
+![human-surfing](../img/human-surfing.jpg){ width=300 }
 
-**Numero di partecipanti**: da 4 a 24 giocatori
+**Dimensioni del gruppo**: da 4 a 24 giocatori
 **Difficoltà**: difficile
 **Materiale**: Pavimento morbido o erba, coni opzionali
 **Durata**: circa 5-10 minuti
 
 ## Descrizione del Gioco
 
-Un giocatore diventa il surfista e si bilancia su un partner o una piccola squadra che funge da tavola. La squadra cerca di percorrere la maggiore distanza o di resistere il più a lungo possibile senza che il surfista scenda.
+Un giocatore diventa il surfista e si bilancia su un partner o una piccola squadra che funge da tavola. La squadra cerca di percorrere la maggior distanza o di resistere il più a lungo possibile senza che il surfista scenda.
 
 ## Preparazione
 
 - Utilizzare una superficie morbida e antiscivolo.
-- Concordare la posizione di base consentita, ad esempio a quattro zampe, in quadrupedia o in ginocchio basso.
-- Prevedere assistenti per tutte le versioni di equilibrio in piedi.
+- Concordare la posizione di base consentita, ad esempio a gattoni, a quattro zampe o in ginocchio basso.
+- Aggiungere assistenti per tutte le versioni di equilibrio in piedi.
 
 ## Regole
 
@@ -65,23 +67,23 @@ Un giocatore diventa il surfista e si bilancia su un partner o una piccola squad
 2. Il surfista assume la posizione di equilibrio concordata sulla base.
 3. Al segnale, la base si muove lentamente lungo il percorso mentre il surfista mantiene l'equilibrio.
 4. Il tentativo termina quando il surfista tocca terra, scende o la posizione di base diventa insicura.
-5. Il punteggio si basa sulla distanza percorsa, sul tempo o sulla velocità nel completare il percorso senza errori.
+5. Il punteggio si basa sulla distanza, sul tempo o sul completamento più veloce del percorso senza errori.
 
 ## Varianti
 
-- Svolgerlo come sfida cooperativa: quanto lontano può arrivare l'intero gruppo in più tentativi?
+- Organizzarlo come una sfida cooperativa: quanta distanza può percorrere l'intero gruppo in più tentativi?
 - Utilizzare una versione in ginocchio basso per i gruppi più giovani.
-- Per acrobati esperti, aggiungere giri o un percorso a slalom.
+- Per acrobati esperti, aggiungere rotazioni o un percorso a slalom.
 
-## Note sulla Sicurezza
+## Note di Sicurezza
 
 Mantenere l'equilibrio basso a meno che non siano presenti assistenti addestrati. Evitare di stare in piedi sulla schiena senza un'adeguata supervisione acrobatica.
 
 ## Fonte
 
-- Scheda gioco UCircus: [Human Surfing](https://ucircus.co.uk/resources-circus-games/)
+- Fonte UCircus: [Human Surfing](https://ucircus.co.uk/resources-circus-games/)
 - Corsi UCircus: Equilibrio
 - Immagine locale: `../img/human-surfing.jpg`
 - Gestione della fonte: Non è stata trovata una fonte di regole indipendente esatta; questa è dedotta dal titolo e dall'immagine di UCircus.
 - Riferimento aggiuntivo: [Giochi di giocoleria JugglingWorld](https://www.jugglingworld.biz/tricks/juggling-games/)
-- Riferimento aggiuntivo per contesto gladiatori/combattimento: [Combat (juggling)](https://en.wikipedia.org/wiki/Combat_(juggling))
+- Riferimento aggiuntivo per il contesto gladiatori/combattimento: [Combat (juggling)](https://en.wikipedia.org/wiki/Combat_(juggling))

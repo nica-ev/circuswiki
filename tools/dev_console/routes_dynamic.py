@@ -40,6 +40,7 @@ def handle_post(handler, path: str, payload: dict[str, object]) -> bool:
                     path=str(payload.get("path") or ""),
                     language=str(payload.get("language") or ""),
                     dry_run=True,
+                    all_languages=bool(payload.get("all_languages")),
                 )
             )
         except Exception as exc:
@@ -52,6 +53,7 @@ def handle_post(handler, path: str, payload: dict[str, object]) -> bool:
                     path=str(payload.get("path") or ""),
                     language=str(payload.get("language") or ""),
                     dry_run=False,
+                    all_languages=bool(payload.get("all_languages")),
                 )
             )
         except Exception as exc:

@@ -6,21 +6,23 @@ update: 2025-05-03 22:24:12
 publish: true
 tags:
   - tutorial
-title: Tradurre documenti PDF con modelli linguistici di grandi dimensioni
+title: Traduzione di documenti PDF tramite modelli linguistici di grandi dimensioni
 description: 
 authors:
   - Marc Bielert
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Translating PDF Documents.md
-translation_source_hash: 13f567c13646ec3eeddb4c012712d5c2f6081cdc7c1c91c8f11addf841b0da06
+translation_source_hash: 7bbc7641e762f3590c7d2e1804e38167ac9308ba9d7c1d8fc5254c7feff26d23
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T23:09:24+00:00
-translation_source_body_hash: 13f567c13646ec3eeddb4c012712d5c2f6081cdc7c1c91c8f11addf841b0da06
-translation_source_metadata_hash: a530aa8d544a977714beb1b4a853dc52b784bd5b26686255177e83d93a8ba7b4
+translation_updated: 2026-06-14T19:33:26+00:00
+translation_source_body_hash: 7bbc7641e762f3590c7d2e1804e38167ac9308ba9d7c1d8fc5254c7feff26d23
+translation_source_metadata_hash: 6785222fbc9a9243423a809c8415e44aa15130e8a66ad15714af391851b8b82f
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T19:09:53+00:00
+translation_metadata_updated: 2026-06-14T19:33:26+00:00
+translation_source_localized_metadata_hash: 6785222fbc9a9243423a809c8415e44aa15130e8a66ad15714af391851b8b82f
+translation_source_structural_metadata_hash: 2b0fe62dfc02049e3f55e308c77f83a911789c48b0827769d60d3f00737d38b6
 ---
 # Tutorial: Tradurre Documenti PDF Utilizzando Grandi Modelli Linguistici
 
@@ -36,7 +38,7 @@ Questo tutorial delinea un processo per tradurre il contenuto di documenti PDF, 
 
 ## Fase 1: Preparazione del Documento PDF
 
-**Obiettivo:** Ridurre le dimensioni del file PDF per ottimizzarlo all'elaborazione da parte dell'LLM, mantenendo al contempo la leggibilità del testo. Gli LLM hanno spesso limiti sulla dimensione dell'input e i file più piccoli vengono elaborati in modo più efficiente.
+**Obiettivo:** Ridurre le dimensioni del file PDF per ottimizzarlo per l'elaborazione da parte dell'LLM, mantenendo al contempo la leggibilità del testo. Gli LLM hanno spesso limiti di dimensione dell'input e i file più piccoli vengono elaborati in modo più efficiente.
 
 **Considerazioni:**
 
@@ -47,8 +49,8 @@ Questo tutorial delinea un processo per tradurre il contenuto di documenti PDF, 
 
 1.  Apri il tuo documento PDF in uno strumento come pdf24 Creator ([https://www.pdf24.org/](https://www.pdf24.org/)).
 2.  Utilizza le funzionalità di compressione o riduzione delle dimensioni. Impostazioni efficaci comuni includono:
-    *   Abilitare l'ottimizzazione per il web.
-    *   Convertire i colori in scala di grigi.
+    *   Abilitazione dell'ottimizzazione per il web.
+    *   Conversione dei colori in scala di grigi.
 3.  Sperimenta con i livelli di compressione, puntando a una dimensione del file inferiore a **5 MB**, assicurandoti che il testo rimanga chiaro e leggibile.
 4.  Salva il file PDF ottimizzato.
 
@@ -63,11 +65,11 @@ Questo tutorial delinea un processo per tradurre il contenuto di documenti PDF, 
 3.  Allega il file PDF ottimizzato alla tua sessione (ad es. utilizzando il pulsante di allegato o trascinando e rilasciando).
 4.  Inserisci il seguente prompt nell'area del messaggio utente:
     ```
-    Si prega di trascrivere il PDF allegato. Contiene immagini con testo, che richiedono l'OCR. Emettere la trascrizione in formato Markdown corretto, utilizzando intestazioni ed elenchi per creare una struttura che imiti da vicino il layout del documento originale.
+    Per favore, trascrivi il PDF allegato. Contiene immagini con testo, che richiedono l'OCR. Emetti la trascrizione in formato Markdown corretto, utilizzando intestazioni ed elenchi per creare una struttura che imiti da vicino il layout del documento originale.
     ```
 5.  Configura le impostazioni del modello:
     *   Mantieni le impostazioni predefinite a meno che tu non abbia requisiti specifici.
-    *   Imposta la **Temperatura** su **0.1**. Una temperatura più bassa incoraggia un output più deterministico e meno creativo, il che è adatto per una trascrizione accurata.
+    *   Imposta la **Temperatura** su **0.1**. Una temperatura più bassa incoraggia un output più deterministico e meno creativo, adatto per una trascrizione accurata.
 6.  Invia il prompt. Il processo di trascrizione potrebbe richiedere diversi minuti (potenzialmente 4-6 minuti o più, a seconda delle dimensioni e della complessità del PDF).
 7.  Una volta completata la generazione, copia il testo Markdown risultante.
     *   *Metodo 1:* Utilizza l'opzione di copia spesso fornita all'interno dell'interfaccia (ad es. tramite un menu associato alla risposta).
@@ -75,7 +77,7 @@ Questo tutorial delinea un processo per tradurre il contenuto di documenti PDF, 
 8.  Incolla il testo Markdown copiato in un editor di testo semplice (come Blocco note, VS Code, Obsidian, ecc.).
 9.  Salva questo contenuto come file di testo semplice. Si consiglia di utilizzare le estensioni `.txt` o `.md` (Markdown). La formattazione Markdown aiuta a preservare la struttura del documento (intestazioni, elenchi).
 
-![Google AI Studio - Screenshot Trascrizione|600](../img/Screenshot-Google-AiStudio-Transcription.png)
+![Google AI Studio - Screenshot Trascrizione](../img/Screenshot-Google-AiStudio-Transcription.png){ width=600 }
 
 ## Fase 3: Traduzione del Testo Estratto tramite Google AI Studio
 
@@ -87,16 +89,16 @@ Questo tutorial delinea un processo per tradurre il contenuto di documenti PDF, 
 2.  Allega il file `.txt` o `.md` salvato contenente il testo Markdown estratto.
 3.  Inserisci un prompt di traduzione, specificando le lingue di origine e di destinazione. Esempio da inglese a italiano:
     ```
-    Si prega di tradurre il file Markdown allegato (inglese) in italiano. Mantenere precisamente la struttura, la formattazione, il tono e lo stile di conversazione originali.
+    Per favore, traduci il file Markdown allegato (inglese) in italiano. Mantieni precisamente la struttura, la formattazione, il tono e lo stile di conversazione originali.
     ```
-    *   **Modifica il prompt** in base alle tue lingue di origine e di destinazione specifiche (ad es. "...tradurre il file Markdown allegato (tedesco) in spagnolo..."). La qualità della traduzione può variare a seconda della coppia linguistica.
+    *   **Modifica il prompt** in base alle tue lingue di origine e di destinazione specifiche (ad es. "...traduci il file Markdown allegato (tedesco) in spagnolo..."). La qualità della traduzione può variare a seconda della coppia linguistica.
 4.  Configura le impostazioni del modello:
     *   Assicurati che le impostazioni predefinite siano appropriate.
     *   Imposta la **Temperatura** su **0.1** per promuovere la fedeltà al testo e alla struttura di origine durante la traduzione.
-5.  Invia il prompt. La traduzione potrebbe anche richiedere diversi minuti, paragonabile al tempo di trascrizione.
-6.  Una volta generato, copia il testo Markdown tradotto utilizzando i metodi descritti nella Fase 2 (pulsante di copia dell'interfaccia o selezione manuale).
+5.  Invia il prompt. Anche la traduzione potrebbe richiedere diversi minuti, paragonabile al tempo di trascrizione.
+6.  Una volta generato, copia il testo Markdown tradotto utilizzando i metodi descritti nella Fase 2 (pulsante di copia nell'interfaccia o selezione manuale).
 
-![Google AI Studio - Screenshot Traduzione|600](../img/Screenshot-Google-AiStudio-Translation.png)
+![Google AI Studio - Screenshot Traduzione](../img/Screenshot-Google-AiStudio-Translation.png){ width=600 }
 
 ## Fase 4: Riformattazione del Testo Tradotto in un Documento PDF
 
@@ -114,4 +116,4 @@ Questo tutorial delinea un processo per tradurre il contenuto di documenti PDF, 
 
 ## Conclusione
 
-Questo tutorial ha dimostrato un flusso di lavoro per sfruttare Google AI Studio per trascrivere e tradurre documenti PDF, inclusi quelli che richiedono l'OCR. Preparando il PDF, estraendo il testo utilizzando un LLM configurato, traducendo il risultato e riformattandolo, gli utenti possono ottenere versioni tradotte dei loro documenti. Sebbene questo metodo offra una soluzione gratuita o a basso costo, gli utenti dovrebbero essere consapevoli delle potenziali variazioni nell'accuratezza dell'OCR e nella qualità della traduzione, in particolare per layout complessi o lingue meno comuni. I tempi di elaborazione dipendono in modo significativo dalle dimensioni del documento e dal carico del server.
+Questo tutorial ha dimostrato un flusso di lavoro per sfruttare Google AI Studio per trascrivere e tradurre documenti PDF, inclusi quelli che richiedono l'OCR. Preparando il PDF, estraendo il testo utilizzando un LLM configurato, traducendo il risultato e riformattandolo, gli utenti possono ottenere versioni tradotte dei propri documenti. Sebbene questo metodo offra una soluzione gratuita o a basso costo, gli utenti dovrebbero essere consapevoli delle potenziali variazioni nell'accuratezza dell'OCR e nella qualità della traduzione, in particolare per layout complessi o lingue meno comuni. I tempi di elaborazione dipendono in modo significativo dalle dimensioni del documento e dal carico del server.

@@ -6,7 +6,7 @@ update: 2026-06-06 21:49:43
 publish: false
 tags:
   - case-study
-title: Sociale Integratie in een Context van Jobtraining
+title: Sociale Integratie in een Jobtrainingscontext
 description:
 authors:
   - Craig Quat
@@ -18,10 +18,12 @@ translation_source_hash: 4302360b6710feef9d9f62c7df64118b591b6af04102cbb9a78db07
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-06T23:14:05+00:00
 translation_source_body_hash: 4302360b6710feef9d9f62c7df64118b591b6af04102cbb9a78db07ab83dd27e
-translation_source_metadata_hash: d21ce88f36dcb00f5e10e55b31ef0b884c702df3a12fec6c18ac952cfeb71137
+translation_source_metadata_hash: a3eb3f36d2d25bbd5e6e29b3cd84d8975a1abe9fdfc9a0625b0f2a5fa6b37ce8
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:07:07+00:00
+translation_metadata_updated: 2026-06-14T15:43:38+00:00
+translation_source_localized_metadata_hash: a3eb3f36d2d25bbd5e6e29b3cd84d8975a1abe9fdfc9a0625b0f2a5fa6b37ce8
+translation_source_structural_metadata_hash: 92eceeb179ca033a6451841f0110d0727621940d9adc4c03074a608ec969b2ea
 ---
 # **Functioneel Jongleren als Hulpmiddel voor Motorische Ontwikkeling en Sociale Integratie in een Werkopleidingscontext**
 

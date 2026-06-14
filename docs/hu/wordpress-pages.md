@@ -17,10 +17,12 @@ translation_source_hash: 172db702654e913f2b641fffd126e0ccdbae876825b67644c7eb14c
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-06T22:55:14+00:00
 translation_source_body_hash: 172db702654e913f2b641fffd126e0ccdbae876825b67644c7eb14cb3a45b2b6
-translation_source_metadata_hash: b7b14e2dc89acdda1afc01caef09e617744445a2faee86b0f4b3d52ffa1e523d
+translation_source_metadata_hash: abe64f9a224d064ced886f7fb6f6a055b7f6f2ca648d71f5e6feca6b810e6ced
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T19:12:19+00:00
+translation_metadata_updated: 2026-06-14T16:27:20+00:00
+translation_source_localized_metadata_hash: abe64f9a224d064ced886f7fb6f6a055b7f6f2ca648d71f5e6feca6b810e6ced
+translation_source_structural_metadata_hash: ef2e4594352bb749c96a5083d87bed9f90ad8c5c465e07a187a59612104255b6
 ---
 # Új oldal létrehozása a WordPressben
 

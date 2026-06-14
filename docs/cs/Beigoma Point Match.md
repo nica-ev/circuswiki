@@ -7,14 +7,14 @@ tags:
   - beigoma
 created: 2026-06-11 00:00:00
 update: 2026-06-11 17:31:48
-title: Bodový zápas Beigoma
+title: Beigoma Bodový Zápas
 description: Formát bodování Beigoma pro individuální nebo týmovou hru, kde různé typy výher mají různou bodovou hodnotu.
 authors:
   - Marc Bielert
 category:
   - beigoma
-Schwierigkeit: mittel
-Material: Beigoma, strings, playing floor, score sheet, pens
+Schwierigkeit: střední
+Material: Beigoma, provázky, hrací plocha, bodovací list, pera
 Spieldauer: 10-15
 source:
   - Tokyo Beigoma
@@ -28,10 +28,12 @@ translation_source_body_hash: e9b85092372a1b27f5cc9c8b8356bf24ddd0b8daeb66d46157
 translation_source_hash: e9b85092372a1b27f5cc9c8b8356bf24ddd0b8daeb66d46157434cc2b20ef6ad
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-11T15:34:49+00:00
-translation_source_metadata_hash: 61fa1fe541f1642348ffc2b7e054852fb10dbd71762e678a940820c06f2ff684
+translation_source_metadata_hash: 7bd40f5e3d00ab6ce64ad1973647869466bcac9e709c4c2b8ad3e0ae0b647a42
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-11T15:34:49+00:00
+translation_metadata_updated: 2026-06-14T15:39:26+00:00
+translation_source_localized_metadata_hash: 7bd40f5e3d00ab6ce64ad1973647869466bcac9e709c4c2b8ad3e0ae0b647a42
+translation_source_structural_metadata_hash: 8d4dc3365e751937a3cdd025c155fc18c4372dc7272321f3d7bba9a59cd3322b
 ---
 > [!info] Stručný popis
 > Bodovací systém pro Beigoma pro individuální nebo týmovou hru, kde různé typy vítězství mají různou bodovou hodnotu.

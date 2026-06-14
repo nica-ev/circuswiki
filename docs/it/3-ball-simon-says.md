@@ -11,8 +11,8 @@ tags:
   - reaction
 created: 2026-06-12 00:00:00
 update: 2026-06-12 22:43:38
-title: Simon Dice con 3 Palline
-description: Un gioco di comando e reazione in cui i giocolieri seguono solo le istruzioni valide di Simon Dice mantenendo tre palline in aria.
+title: Simon Dice a 3 Palline
+description: Un gioco di comando e reazione in cui i giocolieri seguono solo le istruzioni valide di Simon Dice mantenendo in aria tre palline.
 authors:
   - CircusWiki contributors
 category:
@@ -20,8 +20,8 @@ category:
   - ball-games
   - juggling
   - reaction-games
-Schwierigkeit: "mittel"
-Material: "Three juggling balls per player"
+Schwierigkeit: medio
+Material: Tre palline da giocoleria per giocatore
 Spieldauer: "5-10"
 group-min: 3
 group-max: 50
@@ -36,23 +36,25 @@ source_permission: "public-place images reviewed as reusable by project maintain
 aliases:
   - Simon Says
 translation_source: docs/en/3-ball-simon-says.md
-translation_source_body_hash: 5fb11f46f3cc26e55d1d3d9215dd37e0bdfe8633fc681c3424621faebd2541ef
-translation_source_hash: 5fb11f46f3cc26e55d1d3d9215dd37e0bdfe8633fc681c3424621faebd2541ef
+translation_source_body_hash: 419edad2f4a3fd7e8f047fb4f220af48b6de44209693363c94a4176170591763
+translation_source_hash: 419edad2f4a3fd7e8f047fb4f220af48b6de44209693363c94a4176170591763
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-12T21:03:40+00:00
-translation_source_metadata_hash: 81f617b320fb7c107726f83560b979933b3e7e3bdb593fc8b9b4fe4a0e8c9bf0
+translation_updated: 2026-06-14T19:24:19+00:00
+translation_source_metadata_hash: 0c704425aff40df6bf39bbbf2b8fe4485389932691ad1d3c98638b6dc5f8fd92
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T21:03:40+00:00
+translation_metadata_updated: 2026-06-14T19:24:19+00:00
+translation_source_localized_metadata_hash: 0c704425aff40df6bf39bbbf2b8fe4485389932691ad1d3c98638b6dc5f8fd92
+translation_source_structural_metadata_hash: c519c7f25f910824f98b765fd00f47085f441493c02c1fd8fdde294eaaa2a008
 ---
 > [!info] Breve Descrizione
-> Un gioco di comando e reazione in cui i giocolieri seguono solo le istruzioni valide di "Simone dice", mantenendo in aria tre palline.
+> Un gioco di comando e reazione in cui i giocolieri seguono solo le istruzioni valide di "Simone dice", mantenendo tre palline in aria.
 
-![[../img/3-ball-simon-says.jpg|300]]
+![3-ball-simon-says](../img/3-ball-simon-says.jpg){ width=300 }
 
-**Numero di partecipanti**: da 3 a 50 giocatori
-**Difficoltà**: media
-**Materiale**: Tre palline da giocoleria per giocatore
+**Dimensioni del gruppo**: da 3 a 50 giocatori  
+**Difficoltà**: media  
+**Materiale**: Tre palline da giocoleria per giocatore  
 **Durata**: circa 5-10 minuti
 
 ## Descrizione del Gioco
@@ -75,11 +77,11 @@ I comandi possibili includono girarsi, sedersi, sdraiarsi, alzarsi in piedi, bat
 
 ## Note sulla Sicurezza
 
-Evita comandi che costringano i giocatori a tuffarsi, a correre l'uno contro l'altro o a muoversi alla cieca mentre tengono d'occhio i loro attrezzi.
+Evita comandi che costringano i giocatori a tuffarsi, a scontrarsi tra loro o a muoversi alla cieca mentre tengono d'occhio i loro attrezzi.
 
 ## Fonte
 
 - [JugglingWorld - Juggling Games](https://www.jugglingworld.biz/tricks/juggling-games/), sezione: Ball Games, titolo: Simon Says.
-- [Pagina dei giochi di circo di UCircus](https://ucircus.co.uk/resources-circus-games/), scheda sorgente: 3 Ball Simon Says.
+- [Pagina dei giochi di circo di UCircus](https://ucircus.co.uk/resources-circus-games/), scheda fonte: 3 Ball Simon Says.
 - Corsi UCircus: Palle, Knockout, Giocoleria.
 - Immagine di riferimento UCircus: `../img/3-ball-simon-says.jpg`.

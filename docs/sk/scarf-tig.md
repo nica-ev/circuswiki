@@ -20,8 +20,8 @@ category:
   - miscellaneous
   - tag
   - hopping
-Schwierigkeit: "einfach"
-Material: "One juggling scarf per player"
+Schwierigkeit: ľahká
+Material: Jedna žonglovacia šatka na hráča
 Spieldauer: "5-15"
 group-min: 2
 group-max: 40
@@ -36,10 +36,12 @@ translation_source_body_hash: c5a5b7c9144bb22456d8835998dbb052827e0e68eeb932356f
 translation_source_hash: c5a5b7c9144bb22456d8835998dbb052827e0e68eeb932356fb492178f20315d
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-12T21:33:00+00:00
-translation_source_metadata_hash: 03aa256ad451de42d11151d0151b943deaac5a3d2c4b8337e9b9688f5567e6e5
+translation_source_metadata_hash: 1fd7a59e74bb060e3740839edf4e9fea9e654751da69b1cafb1c09ee1e5b58c5
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T21:33:00+00:00
+translation_metadata_updated: 2026-06-14T16:03:03+00:00
+translation_source_localized_metadata_hash: 1fd7a59e74bb060e3740839edf4e9fea9e654751da69b1cafb1c09ee1e5b58c5
+translation_source_structural_metadata_hash: e8007603a0ce31cb0dff11365b7beedf3e09b529bbab2ca1484a60815b9a53ea
 ---
 > [!info] Stručný popis
 > Každý hráč si jeden koniec žonglovacieho šálu zastrčí za oblečenie.

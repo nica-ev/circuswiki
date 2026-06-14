@@ -8,15 +8,15 @@ tags:
   - diabolo
 created: 2026-06-12 00:00:00
 update: 2026-06-12 21:46:55
-title: Diábolo de nariz
+title: Diábolo rodando sobre la nariz
 description: Todos los diábolos comienzan en el suelo en una línea de salida.
 authors:
   - CircusWiki contributors
 category:
   - convention-games
   - diabolo
-Schwierigkeit: "einfach"
-Material: "Diabolos, start and finish line"
+Schwierigkeit: fácil
+Material: Diábolos, línea de salida y meta
 Spieldauer: "5-15"
 group-min: 2
 group-max: 40
@@ -28,22 +28,24 @@ source_section: "Diabolo Games"
 source_image: "../img/game-diabolo-nose-rolling.jpg"
 source_permission: "public-place image reviewed as reusable by project maintainer"
 translation_source: docs/en/diabolo-nose-rolling.md
-translation_source_body_hash: 91261b1617d8ad472155d66fee8fee5baae956ee8c56452c32df6372236fc3f5
-translation_source_hash: 91261b1617d8ad472155d66fee8fee5baae956ee8c56452c32df6372236fc3f5
+translation_source_body_hash: e1be7bcfa6e9ab2c327a1c09364f61b2d898930e35447f3a21fb42d8f8c56bbf
+translation_source_hash: e1be7bcfa6e9ab2c327a1c09364f61b2d898930e35447f3a21fb42d8f8c56bbf
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-12T21:16:01+00:00
-translation_source_metadata_hash: 95a2c8b6814cd824882ac34b2ac3593dc8eec4b61a9afb443b7d77cc1ba4eb3c
+translation_updated: 2026-06-14T19:28:43+00:00
+translation_source_metadata_hash: 169851ee2ea0ab7b70375abd9189fe2ed5bf96fe4be44800eba20906c7f78fc9
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T21:16:01+00:00
+translation_metadata_updated: 2026-06-14T19:28:43+00:00
+translation_source_localized_metadata_hash: 169851ee2ea0ab7b70375abd9189fe2ed5bf96fe4be44800eba20906c7f78fc9
+translation_source_structural_metadata_hash: 872d50d5f1392aeaee766ab2e1205a113c840969bd76cdb8a9d81dc16ff7948b
 ---
 > [!info] Descripción Breve
 > Todos los diábolos comienzan en el suelo, en una línea de salida.
 
-![[../img/game-diabolo-nose-rolling.jpg|300]]
+![game-diabolo-nose-rolling](../img/game-diabolo-nose-rolling.jpg){ width=300 }
 
 **Tamaño del grupo**: 2 a 40 jugadores  
-**Dificultad**: fácil  
+**Dificultad**: Fácil  
 **Material**: Diábolos, línea de salida y meta  
 **Duración**: aprox. 5-15 minutos
 
@@ -53,11 +55,11 @@ Todos los diábolos comienzan en el suelo, en una línea de salida. Los jugadore
 
 ## Variaciones
 
-Utiliza rondas eliminatorias para grupos grandes. Mantén el recorrido corto y divertido en lugar de físicamente agotador.
+Utiliza rondas para grupos grandes. Mantén el recorrido corto y divertido en lugar de físicamente agotador.
 
 ## Notas de Seguridad
 
-Mantén el área de juego despejada y define los límites antes de que comience la ronda. Para juegos de contacto, apunta a los objetos en lugar de a los cuerpos. Para juegos de lanzar, montar, equilibrar o acrobáticos, deja suficiente espacio para los intentos fallidos y detén la ronda si el grupo comienza a asumir riesgos inseguros.
+Mantén el área de juego despejada y define los límites antes de que comience la ronda. En los juegos de contacto, apunta a los accesorios en lugar de a los cuerpos. Para juegos de lanzamiento, de montar, de equilibrio o acrobáticos, deja suficiente espacio para los intentos fallidos y detén la ronda si el grupo comienza a asumir riesgos inseguros.
 
 ## Fuente
 

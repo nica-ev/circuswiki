@@ -10,16 +10,16 @@ tags:
   - balance
 created: 2026-06-12 00:00:00
 update: 2026-06-12 21:59:42
-title: Балансування об'єкта на витривалість
-description: Гравці балансують узгоджений об'єкт, наприклад, булаву або навіть моноцикл, на підборідді чи іншій визначеній точці балансування.
+title: Стійкість об'єкта в рівновазі
+description: Гравці утримують в рівновазі узгоджений предмет (наприклад, булаву або навіть моноцикл) на підборідді чи іншій визначеній точці рівноваги.
 authors:
   - CircusWiki contributors
 category:
   - convention-games
   - endurance
   - balance
-Schwierigkeit: "schwer"
-Material: "Clubs, unicycles or other balance objects"
+Schwierigkeit: складно
+Material: Булави, моноцикли або інші предмети для рівноваги
 Spieldauer: "5-15"
 group-min: 3
 group-max: 60
@@ -31,36 +31,38 @@ source_section: "Balancing Games"
 source_image: "../img/games-club-balance-guiness.jpg"
 source_permission: "public-place image reviewed as reusable by project maintainer"
 translation_source: docs/en/object-balance-endurance.md
-translation_source_body_hash: 084f4fa7aed1a528d38a466c706922afd98c607031bd3b67d11141ee0d8bf6dc
-translation_source_hash: 084f4fa7aed1a528d38a466c706922afd98c607031bd3b67d11141ee0d8bf6dc
+translation_source_body_hash: 6e35f9a216b24c16461b1735cc5d44861b18146f024132b5bdb7558230c9b62a
+translation_source_hash: 6e35f9a216b24c16461b1735cc5d44861b18146f024132b5bdb7558230c9b62a
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-12T21:29:23+00:00
-translation_source_metadata_hash: 87fb57cb88f6322f1ad908fae0c71bce2af0f789a13d46252bbf4baa270265f8
+translation_updated: 2026-06-14T19:30:20+00:00
+translation_source_metadata_hash: 3384f478fe4b9c67a3db88b20b3fecf134df4d40edbcbbd9c5604c12c7b9c2e0
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T21:29:23+00:00
+translation_metadata_updated: 2026-06-14T19:30:20+00:00
+translation_source_localized_metadata_hash: 3384f478fe4b9c67a3db88b20b3fecf134df4d40edbcbbd9c5604c12c7b9c2e0
+translation_source_structural_metadata_hash: 152e8a0d347c6c224dd3963056555e9edc5c8afc5a3e11660258b8581ebf5626
 ---
 > [!info] Короткий опис
-> Гравці балансують узгоджений предмет, наприклад, булаву або навіть моноцикл, на підборідді чи іншій визначеній точці балансування.
+> Гравці утримують на підборідді або іншій визначеній точці рівноваги узгоджений предмет, наприклад, булаву чи навіть моноколесо.
 
-![[../img/games-club-balance-guiness.jpg|300]]
+![games-club-balance-guiness](../img/games-club-balance-guiness.jpg){ width=300 }
 
 **Кількість гравців**: від 3 до 60  
-**Складність**: складно  
-**Матеріал**: Булави, моноцикли або інші предмети для балансування  
+**Складність**: складна  
+**Матеріал**: Булави, моноколеса або інші предмети для балансування  
 **Тривалість**: приблизно 5-15 хвилин
 
 ## Опис гри
 
-Гравці балансують узгоджений предмет, наприклад, булаву або навіть моноцикл, на підборідді чи іншій визначеній точці балансування. Перемагає останній гравець, який утримав баланс.
+Гравці утримують на підборідді або іншій визначеній точці рівноваги узгоджений предмет, наприклад, булаву чи навіть моноколесо. Перемагає останній гравець, який зумів утримати предмет.
 
 ## Варіанти
 
-Додайте рух або невелику смугу перешкод, якщо базове балансування здається занадто легким.
+Додайте рухи або невелику смугу перешкод, якщо базове балансування здається занадто легким.
 
 ## Заходи безпеки
 
-Тримайте ігрову зону вільною та визначте межі перед початком раунду. У контактних іграх цільтеся в реквізит, а не в тіла. У іграх з кидками, їздою, балансуванням або акробатикою залишайте достатньо місця для невдалих спроб і зупиняйте раунд, якщо група починає наражатися на небезпечні ризики.
+Тримайте ігровий майданчик вільним і визначте його межі перед початком раунду. У контактних іграх цільтеся в реквізит, а не в тіла гравців. У іграх, що передбачають кидання, їзду, балансування або акробатику, залишайте достатньо місця для невдалих спроб і припиняйте раунд, якщо група починає йти на небезпечний ризик.
 
 ## Джерело
 

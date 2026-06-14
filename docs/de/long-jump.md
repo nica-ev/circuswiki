@@ -17,8 +17,8 @@ category:
   - convention-games
   - unicycle
   - jumping
-Schwierigkeit: "schwer"
-Material: "Unicycles, takeoff marker, measuring tape"
+Schwierigkeit: schwer
+Material: Einräder, Absprungmarkierung, Maßband
 Spieldauer: "5-15"
 group-min: 2
 group-max: 40
@@ -33,10 +33,12 @@ translation_source_body_hash: 6d810d81598bae0094418ea1e2529327bf0032cd45fb9bca66
 translation_source_hash: 6d810d81598bae0094418ea1e2529327bf0032cd45fb9bca66e316559741c79a
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-12T21:23:18+00:00
-translation_source_metadata_hash: c225f12486c3b016954d7fe246155a5cb5690a03dee9087a2304f4a1e6846f33
+translation_source_metadata_hash: e0b649b61eedc9b9aa550dce21fd0907f2d82b54340c49d083d106b177f94631
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T21:23:18+00:00
+translation_metadata_updated: 2026-06-14T16:00:56+00:00
+translation_source_localized_metadata_hash: e0b649b61eedc9b9aa550dce21fd0907f2d82b54340c49d083d106b177f94631
+translation_source_structural_metadata_hash: 0e98c39c0992154b8188c5eae0e903a859463dbcc84637abdac99a23085151f8
 ---
 > [!info] Kurzbeschreibung
 > Einradfahrer stellen sich an einer Absprungmarkierung auf und springen so weit wie möglich.

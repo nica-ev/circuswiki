@@ -6,14 +6,14 @@ tags:
   - spiele
 created: 2025-01-24 03:50:50
 update: 2025-03-17 02:03:53
-title: Cerchio Energetico
-description: Un gioco veloce in cerchio in cui un impulso di battito di mani viene trasmesso da persona a persona nel modo più fluido possibile.
+title: Cerchio di schiaffi energetico
+description: Un veloce gioco di cerchio in cui un impulso di schiaffi viene trasmesso da persona a persona nel modo più fluido possibile.
 authors:
   - Marc Bielert
 category:
   - kreisspiel
-Schwierigkeit: einfach
-Material: keines
+Schwierigkeit: facile
+Material: nessuno
 Spieldauer: 2-5
 source: unbekannt
 group-min: 5
@@ -25,10 +25,12 @@ translation_source_hash: 38a5c8bb040eaf3b7af0b03cc5f3b79b4a156874ae79aaa3a718adc
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:36:16+00:00
 translation_source_body_hash: 38a5c8bb040eaf3b7af0b03cc5f3b79b4a156874ae79aaa3a718adcf411eec3a
-translation_source_metadata_hash: 2102c60024306170108e7c4617b65a59a400991e212ac2cab1d1819b5a8648a4
+translation_source_metadata_hash: 41624104d93710b3e30472df1d752c256333d0ef4eb3b87df1164dad978d1d50
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:45:45+00:00
+translation_metadata_updated: 2026-06-14T15:48:22+00:00
+translation_source_localized_metadata_hash: 41624104d93710b3e30472df1d752c256333d0ef4eb3b87df1164dad978d1d50
+translation_source_structural_metadata_hash: 73e5505c940b78a943b5c964384bb7c474327da426ab0d2b645b3c57ea3ea309
 ---
 > [!info] Breve descrizione
 > Un gioco veloce in cerchio, in cui un impulso di battito di mani viene trasmesso di persona in persona nel modo più fluido possibile.

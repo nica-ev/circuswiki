@@ -20,8 +20,8 @@ category:
   - ball-games
   - juggling
   - reaction-games
-Schwierigkeit: "mittel"
-Material: "Three juggling balls per player"
+Schwierigkeit: średni
+Material: Trzy piłki do żonglerki na gracza
 Spieldauer: "5-10"
 group-min: 3
 group-max: 50
@@ -36,30 +36,32 @@ source_permission: "public-place images reviewed as reusable by project maintain
 aliases:
   - Simon Says
 translation_source: docs/en/3-ball-simon-says.md
-translation_source_body_hash: 5fb11f46f3cc26e55d1d3d9215dd37e0bdfe8633fc681c3424621faebd2541ef
-translation_source_hash: 5fb11f46f3cc26e55d1d3d9215dd37e0bdfe8633fc681c3424621faebd2541ef
+translation_source_body_hash: 419edad2f4a3fd7e8f047fb4f220af48b6de44209693363c94a4176170591763
+translation_source_hash: 419edad2f4a3fd7e8f047fb4f220af48b6de44209693363c94a4176170591763
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-12T21:03:33+00:00
-translation_source_metadata_hash: 81f617b320fb7c107726f83560b979933b3e7e3bdb593fc8b9b4fe4a0e8c9bf0
+translation_updated: 2026-06-14T19:24:13+00:00
+translation_source_metadata_hash: 0c704425aff40df6bf39bbbf2b8fe4485389932691ad1d3c98638b6dc5f8fd92
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-12T21:03:33+00:00
+translation_metadata_updated: 2026-06-14T19:24:13+00:00
+translation_source_localized_metadata_hash: 0c704425aff40df6bf39bbbf2b8fe4485389932691ad1d3c98638b6dc5f8fd92
+translation_source_structural_metadata_hash: c519c7f25f910824f98b765fd00f47085f441493c02c1fd8fdde294eaaa2a008
 ---
 > [!info] Krótki opis
-> Gra polegająca na wydawaniu poleceń i reagowaniu na nie, w której żonglerzy wykonują tylko prawidłowe polecenia „Simon mówi”, utrzymując jednocześnie trzy piłki w powietrzu.
+> Gra polegająca na wydawaniu poleceń i reagowaniu na nie, w której żonglerzy wykonują tylko prawidłowe polecenia „Simon mówi”, utrzymując jednocześnie żonglerkę trzema piłkami.
 
-![[../img/3-ball-simon-says.jpg|300]]
+![3-ball-simon-says](../img/3-ball-simon-says.jpg){ width=300 }
 
-**Liczba graczy**: od 3 do 50 osób
-**Poziom trudności**: średni
-**Materiały**: Trzy piłki do żonglowania na gracza
+**Liczba graczy**: od 3 do 50 osób  
+**Poziom trudności**: średni  
+**Materiały**: Trzy piłki do żonglerki na gracza  
 **Czas trwania**: ok. 5-10 minut
 
 ## Opis gry
 
-Wszyscy gracze żonglują trzema piłkami, podczas gdy osoba prowadząca wydaje polecenia dotyczące ruchu lub trików. Gracze wykonują tylko te polecenia, które zaczynają się od ustalonego zwrotu, na przykład „Simon mówi”. Każdy, kto wykona fałszywe polecenie, zignoruje prawidłowe polecenie, upuści piłkę lub przestanie żonglować, odpada z gry.
+Wszyscy gracze żonglują trzema piłkami, podczas gdy osoba prowadząca wydaje polecenia dotyczące ruchu lub trików. Gracze wykonują tylko te polecenia, które zaczynają się od ustalonego zwrotu, na przykład „Simon mówi”. Kto wykona fałszywe polecenie, zignoruje prawidłowe polecenie, upuści piłkę lub przestanie żonglować, odpada z gry.
 
-Przykładowe polecenia mogą obejmować: obrócenie się, usiądź, połóż się, wstań, klaszcz, zmień wzór, przesuń się w lewo lub w prawo, albo zamarznij.
+Przykładowe polecenia mogą obejmować: obrót, siadanie, kładzenie się, wstawanie, klaskanie, zmianę wzoru żonglerki, ruch w lewo lub w prawo, czy zamarcie w miejscu.
 
 ## Przygotowanie
 
@@ -67,19 +69,19 @@ Przykładowe polecenia mogą obejmować: obrócenie się, usiądź, połóż si�
 - Wybierz osobę prowadzącą.
 - Ustal, czy gracze są eliminowani, czy otrzymują zabawne punkty karne.
 
-## Warianty
+## Wariacje
 
 - Dla początkujących użyj jednej piłki lub chusteczek.
-- Zmień grę we współpracę, licząc, ile poleceń cała grupa jest w stanie przetrwać.
+- Zmień grę we współpracującą, licząc, ile poleceń cała grupa jest w stanie przetrwać.
 - Pozwól wyeliminowanym graczom zostać pomocnikami osoby prowadzącej.
 
 ## Wskazówki dotyczące bezpieczeństwa
 
-Unikaj poleceń, które zmuszają graczy do rzucania się, wpadania na siebie lub poruszania się na oślep podczas obserwowania swoich rekwizytów.
+Unikaj poleceń, które zmuszają graczy do rzucania się, wpadania na siebie lub poruszania się na ślepo podczas obserwowania swoich rekwizytów.
 
 ## Źródło
 
 - [JugglingWorld - Juggling Games](https://www.jugglingworld.biz/tricks/juggling-games/), sekcja: Ball Games, tytuł: Simon Says.
 - [Strona z grami cyrkowymi UCircus](https://ucircus.co.uk/resources-circus-games/), karta źródłowa: 3 Ball Simon Says.
-- Zajęcia UCircus: Piłki, Knockout, Żonglowanie.
+- Zajęcia UCircus: Piłki, Knockout, Żonglerka.
 - Obraz referencyjny UCircus: `../img/3-ball-simon-says.jpg`.

@@ -7,13 +7,13 @@ tags:
 created: 2025-01-25 01:57:09
 update: 2026-06-07 01:14:58
 title: Цвяхи на ногах
-description: Рухлива гра, в якій усі намагаються прибити ноги інших гравців, залишаючись при цьому мобільними.
+description: Рухлива гра, в якій усі намагаються забити цвяхи на ноги іншим людям, залишаючись при цьому рухливими.
 authors:
   - Marc Bielert
 category:
   - bewegung
-Schwierigkeit: einfach
-Material: keines
+Schwierigkeit: легко
+Material: немає
 Spieldauer: 5-10
 source: Tasifan Spielebuch
 group-min: 5
@@ -25,10 +25,12 @@ translation_source_hash: e4f89679f44090b3b2c1e977779d02233459dfa5af50237e46ef713
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T01:39:55+00:00
 translation_source_body_hash: e4f89679f44090b3b2c1e977779d02233459dfa5af50237e46ef713d9f86363c
-translation_source_metadata_hash: 57d30060e37291f89e931c7e19b33ae48c267fc055dd5ab4e62f9a532cc1eabb
+translation_source_metadata_hash: 8af17027beac320f4e0d9d1f66de0227a3210705e81ed622bb4dccc1abe1826f
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:47:54+00:00
+translation_metadata_updated: 2026-06-14T15:50:35+00:00
+translation_source_localized_metadata_hash: 8af17027beac320f4e0d9d1f66de0227a3210705e81ed622bb4dccc1abe1826f
+translation_source_structural_metadata_hash: 14070c6c5efe3fd7a5c25ecc84314673ce4917de9bed2c0bd78e1ef8443fed5c
 ---
 > [!info] Короткий опис
 > Рухлива гра, в якій усі намагаються "прибити" ноги інших учасників, залишаючись при цьому мобільними.

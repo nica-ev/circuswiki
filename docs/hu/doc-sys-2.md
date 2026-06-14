@@ -16,10 +16,12 @@ translation_source_hash: abdfb6fee5c5acdbc79aba5e10b9842bc9bded85e1122eb2b3ee32e
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-06T22:38:28+00:00
 translation_source_body_hash: abdfb6fee5c5acdbc79aba5e10b9842bc9bded85e1122eb2b3ee32e88e92a418
-translation_source_metadata_hash: f30189f3dab0fb2281c175d254c634ca9d3bcf79a75afc871ab1e3a8ad586280
+translation_source_metadata_hash: a179fe68c6936cefa174c900180989e826166a8bbd0fabe2751f7150a0ab3545
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T18:10:24+00:00
+translation_metadata_updated: 2026-06-14T15:47:08+00:00
+translation_source_localized_metadata_hash: a179fe68c6936cefa174c900180989e826166a8bbd0fabe2751f7150a0ab3545
+translation_source_structural_metadata_hash: 12f0cb572b5daceba17f262576f82a2900f2588e247dd6c9743ac6c09aba134f
 ---
 [Manifest](doc-sys-manifest.md){ .md-button }
 [Obsidian beállítása](Obsidian%20Setup.md){ .md-button }

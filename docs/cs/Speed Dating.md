@@ -12,8 +12,8 @@ authors:
   - Marc Bielert
 category:
   - sonstiges
-Schwierigkeit: einfach
-Material: Zettel, Stifte
+Schwierigkeit: lehká
+Material: Papírky, tužky
 Spieldauer: 10-20
 source: unbekannt
 group-min: 6
@@ -25,10 +25,12 @@ translation_source_hash: ef472f0e6321c0d0d5406b95675cb04734f3ebd1b4436859d8178dc
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-09T02:26:17+00:00
 translation_source_body_hash: ef472f0e6321c0d0d5406b95675cb04734f3ebd1b4436859d8178dc91aa9db5a
-translation_source_metadata_hash: 1b0564a839ab0d3f8bc4c10874cafe5b20e55115ffa68fa5fb1e5ced6d7d2c30
+translation_source_metadata_hash: 04d149c9aec13c160ebbd06f93d650da987db87c335adcce15040fff9ff8dadf
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-10T19:07:50+00:00
+translation_metadata_updated: 2026-06-14T16:20:49+00:00
+translation_source_localized_metadata_hash: 04d149c9aec13c160ebbd06f93d650da987db87c335adcce15040fff9ff8dadf
+translation_source_structural_metadata_hash: 8ae9d5c0c2d7c116804a3eaa3e434abc2666c08f35aad8803e227cc409c66251
 ---
 > [!info] Stručný popis
 > Formát pro vzájemné poznávání s vnitřním a vnějším kruhem, kde se krátké rozhovory opakovaně střídají a později si je účastníci vybavují.
