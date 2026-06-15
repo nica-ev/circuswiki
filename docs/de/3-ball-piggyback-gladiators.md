@@ -10,7 +10,7 @@ tags:
   - piggyback
   - gladiators
 created: 2026-06-12 00:00:00
-update: 2026-06-14 21:44:17
+update: 2026-06-14 23:15:30
 title: 3 Ball Piggyback Gladiators
 description: Eine Variante von Team-Gladiators, bei der ein getragener Spieler drei Bälle jongliert, während sein Partner ihn durch die Arena bewegt.
 authors:
@@ -42,6 +42,7 @@ translation_metadata_updated: 2026-06-14T19:34:18+00:00
 translation_source_localized_metadata_hash: f9e4ae967c2381b3d8754708f05a85a4e44928355fec69bc00c822f163242a11
 translation_source_structural_metadata_hash: 2707735df02da212fa2bd39afc4173dff72a12139949578f9e534d9d23e3c389
 ---
+
 > [!info] Kurzbeschreibung
 > Eine Variante von Team-Gladiatoren, bei der ein getragener Spieler drei Bälle jongliert, während sein Partner ihn durch die Arena bewegt.
 

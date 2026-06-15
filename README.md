@@ -313,6 +313,7 @@ python tools/translation_cli.py metadata-plan --target-lang en --source-lang all
 ```
 
 Translation writes only target files. It splits Markdown into frontmatter and body. Full translation translates the Markdown body, repairs local link targets, translates frontmatter `title` and `description`, copies non-translation source metadata, and preserves target-local fields where possible.
+Translation `--dry-run` commands still call the configured translation API; they skip writing the target file.
 
 Body and metadata freshness are tracked separately:
 

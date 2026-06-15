@@ -58,6 +58,17 @@ class RouteRegistryTests(unittest.TestCase):
         self.assertTrue(registry.dispatch(method="GET", handler=handler, path="/boom"))
         self.assertEqual(handler.responses, [(500, {"error": "boom"})])
 
+    def test_dispatch_converts_value_errors_to_bad_request(self) -> None:
+        registry = RouteRegistry()
+
+        def route(_request):
+            raise ValueError("bad input")
+
+        registry.get("/bad-input", route)
+        handler = FakeHandler()
+        self.assertTrue(registry.dispatch(method="GET", handler=handler, path="/bad-input"))
+        self.assertEqual(handler.responses, [(400, {"error": "bad input"})])
+
     def test_required_query_value_reports_missing_value(self) -> None:
         registry = RouteRegistry()
         registry.get("/needs-query", lambda request: request.required_query_value("path") or True)

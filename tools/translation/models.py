@@ -34,3 +34,6 @@ class VaultPage:
     translation_source_metadata_hash: str = ""
     translation_source_localized_metadata_hash: str = ""
     translation_source_structural_metadata_hash: str = ""
+    translation_model: str = ""
+    translation_updated: str = ""
+    authors: list[str] | None = None

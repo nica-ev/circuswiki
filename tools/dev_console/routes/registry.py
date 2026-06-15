@@ -67,6 +67,10 @@ class RouteRegistry:
         request = Request(handler=handler, path=path, query_string=query_string, payload=payload)
         try:
             result = route(request)
+        except ValueError as exc:
+            return handler.send_error_json(400, str(exc))
+        except FileNotFoundError as exc:
+            return handler.send_error_json(404, str(exc))
         except Exception as exc:
             return handler.send_error_json(500, str(exc))
         if result is True:

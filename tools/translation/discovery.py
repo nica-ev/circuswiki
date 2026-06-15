@@ -36,6 +36,27 @@ def list_sources(source_lang: str) -> list[str]:
     )
 
 
+def read_list(frontmatter: str, key: str) -> list[str]:
+    lines = frontmatter.splitlines()
+    values: list[str] = []
+
+    for index, line in enumerate(lines):
+        if line.strip() != f"{key}:":
+            continue
+
+        for item in lines[index + 1 :]:
+            if not item.startswith((" ", "\t")):
+                break
+
+            stripped = item.strip()
+            if stripped.startswith("- "):
+                values.append(stripped[2:].strip().strip("\"'"))
+
+        break
+
+    return values
+
+
 def derive_translation_id(path: Path) -> str:
     stem = path.stem.lower()
     return (
@@ -74,6 +95,9 @@ def read_vault_page(path: Path, language: str) -> VaultPage:
         translation_source_metadata_hash=read_scalar(document.frontmatter, METADATA_HASH_FIELD) or "",
         translation_source_localized_metadata_hash=read_scalar(document.frontmatter, LOCALIZED_METADATA_HASH_FIELD) or "",
         translation_source_structural_metadata_hash=read_scalar(document.frontmatter, STRUCTURAL_METADATA_HASH_FIELD) or "",
+        translation_model=read_scalar(document.frontmatter, "translation_model") or "",
+        translation_updated=read_scalar(document.frontmatter, "translation_updated") or "",
+        authors=read_list(document.frontmatter, "authors"),
     )
 
 

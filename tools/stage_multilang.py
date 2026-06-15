@@ -14,8 +14,7 @@ from core.languages import (
     language_codes_re,
     language_name,
 )
-from translation.markdown import split_markdown
-from translation.metadata import read_scalar
+from translation.discovery import discover_vault_pages, find_group_source_language, primary_page
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -134,77 +133,44 @@ def admonition_type(value: str) -> str:
     return "note"
 
 
-def read_list(frontmatter: str, key: str) -> list[str]:
-    lines = frontmatter.splitlines()
-    values: list[str] = []
-
-    for index, line in enumerate(lines):
-        if line.strip() != f"{key}:":
-            continue
-
-        for item in lines[index + 1 :]:
-            if not item.startswith((" ", "\t")):
-                break
-
-            stripped = item.strip()
-            if stripped.startswith("- "):
-                values.append(stripped[2:].strip().strip("\"'"))
-
-        break
-
-    return values
-
-
-def read_page_metadata(path: Path, language: str) -> dict[str, str]:
-    document = split_markdown(path.read_text(encoding="utf-8"))
-    metadata = {
-        "path": rel(path),
-        "relative_path": path.relative_to(DOCS / language).as_posix(),
-        "lang": read_scalar(document.frontmatter, "lang") or language,
-        "translation_id": read_scalar(document.frontmatter, "translation_id")
-        or derive_translation_id(path, language),
-        "translation_status": read_scalar(document.frontmatter, "translation_status") or "",
-        "translation_source_lang": read_scalar(document.frontmatter, "translation_source_lang")
-        or "",
-        "translation_source": read_scalar(document.frontmatter, "translation_source") or "",
-        "translation_model": read_scalar(document.frontmatter, "translation_model") or "",
-        "translation_updated": read_scalar(document.frontmatter, "translation_updated") or "",
-        "title": read_scalar(document.frontmatter, "title") or path.stem,
-        "authors": read_list(document.frontmatter, "authors"),
+def page_metadata(page) -> dict[str, object]:
+    return {
+        "path": page.rel_path,
+        "relative_path": page.relative_path,
+        "lang": page.language,
+        "translation_id": page.translation_id,
+        "translation_status": page.translation_status,
+        "translation_source_lang": page.translation_source_lang,
+        "translation_source": page.translation_source,
+        "translation_model": page.translation_model,
+        "translation_updated": page.translation_updated,
+        "title": page.title,
+        "authors": page.authors or [],
     }
-    return metadata
 
 
 def discover_translation_groups() -> dict[str, dict[str, object]]:
     groups: dict[str, dict[str, object]] = {}
+    _languages, discovered = discover_vault_pages()
 
-    for language in LANGUAGES:
-        language_root = DOCS / language
-        if not language_root.exists():
+    for translation_id, pages_by_language in discovered.items():
+        source_lang = find_group_source_language(pages_by_language)
+        source_pages = pages_by_language.get(source_lang) or []
+        source_page = primary_page(source_pages) if source_pages else primary_page(next(iter(pages_by_language.values())))
+        pages = {
+            language: page_metadata(primary_page(pages))
+            for language, pages in pages_by_language.items()
+            if language in LANGUAGES and pages
+        }
+        if not pages:
             continue
-
-        for markdown_file in language_root.rglob("*.md"):
-            page = read_page_metadata(markdown_file, language)
-            translation_id = page["translation_id"]
-            group = groups.setdefault(
-                translation_id,
-                {
-                    "translation_id": translation_id,
-                    "relative_path": page["relative_path"],
-                    "title": page["title"],
-                    "source_lang": "",
-                    "pages": {},
-                },
-            )
-            group["pages"][language] = page
-
-            if not group.get("title") and page["title"]:
-                group["title"] = page["title"]
-
-    for group in groups.values():
-        pages = group["pages"]
-        source_lang = find_source_language(pages)
-        group["source_lang"] = source_lang
+        groups[translation_id] = {
+            "translation_id": translation_id,
+            "relative_path": source_page.relative_path,
+            "title": source_page.title,
+            "source_lang": source_lang,
+            "pages": pages,
+        }
 
     return groups
 

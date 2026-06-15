@@ -81,6 +81,11 @@ class TranslationWorkflowTests(unittest.TestCase):
         self.assertEqual(read_scalar(result.frontmatter, "custom_field"), "keep me")
         self.assertEqual(read_scalar(result.frontmatter, "lang"), "en")
 
+    def test_read_scalar_uses_yaml_for_quoted_and_folded_values(self) -> None:
+        frontmatter = 'title: "A \\"quoted\\" title"\ndescription: >\n  first line\n  second line\n'
+        self.assertEqual(read_scalar(frontmatter, "title"), 'A "quoted" title')
+        self.assertEqual(read_scalar(frontmatter, "description"), "first line second line")
+
     def test_body_hash_ignores_metadata_changes(self) -> None:
         self.assertEqual(source_body_hash("Body\n"), source_body_hash("Body\n"))
         self.assertNotEqual(source_body_hash("Body\n"), source_body_hash("Changed\n"))
