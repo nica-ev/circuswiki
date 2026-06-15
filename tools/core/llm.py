@@ -4,6 +4,7 @@ import json
 import urllib.error
 import urllib.request
 from typing import Any
+from urllib.parse import urlparse
 
 from core.env import env_value
 
@@ -38,6 +39,9 @@ def chat_completion(
     timeout: int = 180,
 ) -> dict[str, Any]:
     url = chat_completions_url(base_url or default_base_url())
+    scheme = urlparse(url).scheme.lower()
+    if scheme not in {"http", "https"}:
+        raise ValueError(f"Unsupported chat completions URL scheme: {scheme or '<missing>'}")
     request = urllib.request.Request(
         url,
         data=json.dumps(

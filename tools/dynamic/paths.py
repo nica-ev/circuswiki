@@ -2,8 +2,7 @@ from __future__ import annotations
 
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parents[2]
-DOCS = ROOT / "docs"
+from core.paths import DOCS, ROOT
 
 
 def rel(path: Path) -> str:

@@ -2,6 +2,7 @@ from __future__ import annotations
 
 from collections.abc import Callable
 from dataclasses import dataclass
+import logging
 from typing import Any
 from urllib.parse import parse_qs
 
@@ -72,6 +73,7 @@ class RouteRegistry:
         except FileNotFoundError as exc:
             return handler.send_error_json(404, str(exc))
         except Exception as exc:
+            logging.exception("Unhandled dev-console route error for %s %s", method, path)
             return handler.send_error_json(500, str(exc))
         if result is True:
             return True

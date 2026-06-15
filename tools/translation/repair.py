@@ -48,9 +48,11 @@ def repair_vault_metadata(path: str | Path) -> dict[str, object]:
         if not read_scalar(frontmatter, "translation_status"):
             assign("translation_status", "needs-review", "set_missing_translation_status")
 
-        for key in (BODY_HASH_FIELD, LOCALIZED_METADATA_HASH_FIELD, STRUCTURAL_METADATA_HASH_FIELD, "translation_model", "translation_updated"):
-            if not read_scalar(frontmatter, key):
-                skipped.append(f"missing_{key}")
+        skipped.extend(
+            f"missing_{key}"
+            for key in (BODY_HASH_FIELD, LOCALIZED_METADATA_HASH_FIELD, STRUCTURAL_METADATA_HASH_FIELD, "translation_model", "translation_updated")
+            if not read_scalar(frontmatter, key)
+        )
 
     if frontmatter != page.frontmatter:
         output = join_markdown(frontmatter, page.body)
@@ -89,7 +91,9 @@ def deterministic_repair_remaining_issues(
         issues.append("translation_source_lang_mismatch")
     if source_page and read_scalar(page.frontmatter, "translation_source") != source_page.rel_path:
         issues.append("translation_source_mismatch")
-    for key in (BODY_HASH_FIELD, LOCALIZED_METADATA_HASH_FIELD, STRUCTURAL_METADATA_HASH_FIELD, "translation_model", "translation_updated"):
-        if not read_scalar(page.frontmatter, key):
-            issues.append(f"missing_{key}")
+    issues.extend(
+        f"missing_{key}"
+        for key in (BODY_HASH_FIELD, LOCALIZED_METADATA_HASH_FIELD, STRUCTURAL_METADATA_HASH_FIELD, "translation_model", "translation_updated")
+        if not read_scalar(page.frontmatter, key)
+    )
     return issues

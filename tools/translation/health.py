@@ -53,7 +53,6 @@ def source_reference_hashes(source_page: VaultPage | None) -> dict[str, str]:
 def common_page_issues(
     page: VaultPage,
     pages: list[VaultPage],
-    language: str,
     relative_path: str,
 ) -> list[str]:
     issues: list[str] = []
@@ -155,7 +154,7 @@ def vault_health_matrix() -> dict[str, object]:
                 totals["red"] += 1
                 continue
 
-            issues = common_page_issues(page, pages, language, relative_path)
+            issues = common_page_issues(page, pages, relative_path)
 
             if language == source_lang:
                 issues.extend(source_page_issues(page, source_lang))

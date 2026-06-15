@@ -10,6 +10,7 @@ def register(registry) -> None:
 
 
 def translate(request) -> dict[str, object] | bool:
+    payload = request.payload or {}
     source_path = request.payload_value("path")
     if not source_path:
         return request.handler.send_error_json(400, "Missing path")
@@ -21,9 +22,9 @@ def translate(request) -> dict[str, object] | bool:
         source_path=source_path,
         source_lang=source_lang,
         target_lang=target_lang,
-        model=request.payload.get("model") or None,
-        prompt=request.payload.get("prompt") or None,
-        dry_run=bool(request.payload.get("dry_run")),
+        model=payload.get("model") or None,
+        prompt=payload.get("prompt") or None,
+        dry_run=bool(payload.get("dry_run")),
     )
 
 

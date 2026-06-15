@@ -11,7 +11,7 @@ from core.languages import normalize_base_path
 
 ROOT = Path(__file__).resolve().parents[1]
 SITE = ROOT / "site"
-URL_PREFIX = normalize_base_path(os.getenv("CIRCUSWIKI_SITE_BASE_PATH"))
+URL_PREFIX = "/"
 
 
 class PrefixedSiteHandler(SimpleHTTPRequestHandler):

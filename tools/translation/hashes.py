@@ -29,7 +29,7 @@ def translatable_body_hash(frontmatter: str, body: str) -> str:
 
 def legacy_source_hash(frontmatter: str, body: str) -> str:
     translation_id = read_scalar(frontmatter, "translation_id") or ""
-    payload = f"translation_id={translation_id}\n\n{body}".encode("utf-8")
+    payload = f"translation_id={translation_id}\n\n{body}".encode()
     return hashlib.sha256(payload).hexdigest()
 
 

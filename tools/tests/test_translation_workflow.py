@@ -282,7 +282,7 @@ Outro
     def test_health_common_page_rules_report_identity_issues(self) -> None:
         page = self.page("en", "machine-translated")
         duplicate = [page, page]
-        issues = common_page_issues(page, duplicate, "de", "source.md")
+        issues = common_page_issues(page, duplicate, "source.md")
 
         self.assertEqual(
             issues,

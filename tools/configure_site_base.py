@@ -63,8 +63,9 @@ def main() -> None:
     parser.add_argument("--base-url", default=os.getenv("CIRCUSWIKI_SITE_URL") or DEFAULT_BASE_URL)
     args = parser.parse_args()
 
+    output_path = Path(args.output_dir)
     result = materialize_configs(
-        output_dir=(ROOT / args.output_dir).resolve() if not Path(args.output_dir).is_absolute() else Path(args.output_dir),
+        output_dir=output_path if output_path.is_absolute() else (ROOT / output_path).resolve(),
         base_path=args.base_path,
         base_url=args.base_url,
     )

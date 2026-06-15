@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+from core.languages import language_name
 from translation.workflow import default_model, list_languages
 
 from .discovery import PageInfo, discover_pages, read_page_info, rel
@@ -47,7 +48,6 @@ from .service import (
     nav_scan,
     read_config_nav,
 )
-from .workflow_language import language_name
 
 __all__ = [
     "PageInfo",

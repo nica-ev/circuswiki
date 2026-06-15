@@ -5,6 +5,8 @@ import tomllib
 from pathlib import Path
 from typing import Any
 
+from core.languages import language_name
+
 from .config import CONFIGS, DEFAULT_LANGUAGE, MODEL_PATH
 from .discovery import PageInfo, discover_pages, rel
 from .model import (
@@ -21,7 +23,6 @@ from .render import (
     model_missing_targets,
     model_page_set,
 )
-from .workflow_language import language_name
 
 
 def read_config_nav(language: str) -> list[dict[str, Any]]:

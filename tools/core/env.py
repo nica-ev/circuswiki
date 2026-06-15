@@ -8,7 +8,7 @@ from core.paths import ROOT
 
 def load_local_env(env_file: Path | None = None) -> None:
     path = env_file or ROOT / ".env"
-    if not path.exists():
+    if not path.is_file():
         return
     for raw_line in path.read_text(encoding="utf-8").splitlines():
         line = raw_line.strip()

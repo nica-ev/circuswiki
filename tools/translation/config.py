@@ -45,7 +45,7 @@ def load_translatable_metadata_fields() -> list[str]:
     data = json.loads(TRANSLATION_METADATA_CONFIG.read_text(encoding="utf-8"))
     fields = data.get("translatable_fields")
     if not isinstance(fields, list):
-        raise ValueError("translation_metadata.json must contain a translatable_fields list")
+        raise TypeError("translation_metadata.json must contain a translatable_fields list")
 
     normalized: list[str] = []
     for field in fields:

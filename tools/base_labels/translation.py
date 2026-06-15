@@ -26,7 +26,10 @@ def call_label_translation_model(labels: dict[str, str], source_lang: str, targe
     except (KeyError, IndexError, json.JSONDecodeError) as exc:
         raise RuntimeError(f"Base label translation response was not valid JSON: {data}") from exc
     if not isinstance(translated, dict):
-        raise RuntimeError(f"Base label translation response must be a JSON object: {translated}")
+        raise TypeError(f"Base label translation response must be a JSON object: {translated}")
+    missing = [key for key in labels if key not in translated]
+    if missing:
+        raise RuntimeError(f"Base label translation response missing keys: {', '.join(missing)}")
     return {key: str(translated[key]).strip() for key in labels if key in translated}
 
 

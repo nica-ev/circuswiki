@@ -11,14 +11,22 @@ from .models import VaultPage
 
 
 def rel(path: Path) -> str:
-    return path.resolve().relative_to(ROOT).as_posix()
+    resolved = path.resolve()
+    try:
+        return resolved.relative_to(ROOT).as_posix()
+    except ValueError as exc:
+        raise ValueError(f"Path is outside repository root {ROOT}: {resolved}") from exc
 
 
 def language_path(path: str | Path, source_lang: str, target_lang: str) -> Path:
     source = (ROOT / path).resolve() if not Path(path).is_absolute() else Path(path)
     source_root = (DOCS / source_lang).resolve()
     target_root = (DOCS / target_lang).resolve()
-    relative = source.resolve().relative_to(source_root)
+    resolved_source = source.resolve()
+    try:
+        relative = resolved_source.relative_to(source_root)
+    except ValueError as exc:
+        raise ValueError(f"Source path is outside docs/{source_lang}: {resolved_source}") from exc
     return target_root / relative
 
 

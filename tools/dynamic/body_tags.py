@@ -8,8 +8,6 @@ def frontmatter_tags(frontmatter: str) -> list[str]:
     for line in lines:
         stripped = line.strip()
         if not stripped:
-            if in_tags:
-                continue
             continue
         if stripped.startswith("tags:"):
             in_tags = True
@@ -19,7 +17,7 @@ def frontmatter_tags(frontmatter: str) -> list[str]:
             elif value and value not in {"[]", ""}:
                 tags.append(clean_tag(value))
             continue
-        if in_tags and (line.startswith(" ") or line.startswith("\t")) and stripped.startswith("-"):
+        if in_tags and line.startswith((" ", "\t")) and stripped.startswith("-"):
             tags.append(clean_tag(stripped[1:]))
             continue
         if in_tags and not line.startswith((" ", "\t")):

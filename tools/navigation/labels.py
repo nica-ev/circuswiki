@@ -3,13 +3,13 @@ from __future__ import annotations
 import json
 from typing import Any
 
+from core.languages import language_name
 from core.llm import chat_completion, chat_message_content
 from translation.workflow import default_model
 
 from .discovery import PageInfo, discover_pages
 from .model import load_nav_model, normalized_model
 from .render import configured_languages, nav_label, navigation_preview
-from .workflow_language import language_name
 
 
 def flattened_model_labels(

@@ -156,7 +156,10 @@ def discover_translation_groups() -> dict[str, dict[str, object]]:
     for translation_id, pages_by_language in discovered.items():
         source_lang = find_group_source_language(pages_by_language)
         source_pages = pages_by_language.get(source_lang) or []
-        source_page = primary_page(source_pages) if source_pages else primary_page(next(iter(pages_by_language.values())))
+        fallback_pages = next((pages for pages in pages_by_language.values() if pages), [])
+        if not source_pages and not fallback_pages:
+            continue
+        source_page = primary_page(source_pages or fallback_pages)
         pages = {
             language: page_metadata(primary_page(pages))
             for language, pages in pages_by_language.items()

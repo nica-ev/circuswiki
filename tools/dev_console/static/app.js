@@ -24,8 +24,14 @@ const panels = createPanelStore($("app-main"));
 async function loadConfig() {
   const config = await getConfig();
   state.config = config;
-  $("model").value = config.default_model;
-  $("prompt").value = config.default_prompt;
+  const modelInput = $("model");
+  const promptInput = $("prompt");
+  if (modelInput) {
+    modelInput.value = config.default_model;
+  }
+  if (promptInput) {
+    promptInput.value = config.default_prompt;
+  }
   configureFeatures(config);
 }
 
@@ -105,8 +111,8 @@ const featureContext = {
   getDefaultTargetLang: () => state.config?.default_target_lang || "",
   getDefaultSourceLang: () => state.config?.default_source_lang || "",
   getConfiguredLanguageNames: () => Object.fromEntries((state.config?.languages || []).map((language) => [language.code, language.name])),
-  getModelName: () => $("model").value.trim(),
-  getPrompt: () => $("prompt").value.trim(),
+  getModelName: () => $("model")?.value.trim() || "",
+  getPrompt: () => $("prompt")?.value.trim() || "",
   refreshTranslationState: async () => refreshTranslationState(featureContext),
 };
 mountFeature(state.activeTab, featureContext);

@@ -29,7 +29,7 @@ def base_view_columns(config: dict[str, str], page_path: Path, rows: list[dict[s
     language = page_language(page_path)
     try:
         localized_labels = labels_for_language(base_path, language) if language else {}
-    except Exception:
+    except (OSError, ValueError, KeyError):
         localized_labels = {}
     try:
         source_labels = extract_display_names(base_path.read_text(encoding="utf-8"))

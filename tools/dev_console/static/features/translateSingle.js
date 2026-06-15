@@ -36,7 +36,7 @@ export function mountTranslateSingleFeature(nextContext) {
     loadSingleFileHealth().catch((error) => singleFileLog(error.message));
   });
   eventScope.listen($("dry-run"), "click", () => runTranslation(true));
-  eventScope.listen($("translate-metadata"), "click", () => runMetadataTranslation(false));
+  eventScope.listen($("translate-metadata"), "click", () => runMetadataTranslation());
   eventScope.listen($("translate"), "click", () => runTranslation(false));
   renderPages();
   renderDetails();
@@ -161,21 +161,20 @@ async function runTranslation(dryRun) {
   }
 }
 
-async function runMetadataTranslation(dryRun) {
+async function runMetadataTranslation() {
   if (!selectedPath) {
     singleFileLog("Select a source page first.");
     return;
   }
 
   setBusy(true);
-  singleFileLog(dryRun ? "Running metadata dry run..." : "Translating metadata...");
+  singleFileLog("Translating metadata...");
   try {
     const result = await translateMetadata({
       path: selectedPath,
       source_lang: fileSourceLang(),
       target_lang: fileTargetLang(),
       model: $("model").value.trim(),
-      dry_run: dryRun,
     });
     singleFileLog(result);
     await loadSingleFileHealth();

@@ -38,7 +38,7 @@ def refresh_dynamic_pages(
 def refresh_dynamic_page(path: Path, dry_run: bool = True) -> dict[str, Any]:
     text = path.read_text(encoding="utf-8")
     document = split_markdown(text)
-    body, sync_warnings = sync_dynamic_block_config(path, document.frontmatter, document.body)
+    body, sync_warnings = sync_dynamic_block_config(document.frontmatter, document.body)
     blocks = parse_dynamic_blocks(document.body)
     if body != document.body:
         document = type(document)(frontmatter=document.frontmatter, body=body, has_frontmatter=document.has_frontmatter)
@@ -91,7 +91,7 @@ def refresh_dynamic_page(path: Path, dry_run: bool = True) -> dict[str, Any]:
     }
 
 
-def sync_dynamic_block_config(path: Path, frontmatter: str, body: str) -> tuple[str, list[str]]:
+def sync_dynamic_block_config(frontmatter: str, body: str) -> tuple[str, list[str]]:
     source = read_scalar(frontmatter, "translation_source") or ""
     status = read_scalar(frontmatter, "translation_status") or ""
     if not source or status == "original":

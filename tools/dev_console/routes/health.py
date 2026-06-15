@@ -11,17 +11,19 @@ def register(registry) -> None:
 
 
 def pages(request) -> dict[str, object] | bool:
-    source_lang = request.required_query_value("source_lang")
+    source_lang = request.query_value("source_lang")
     if not source_lang:
-        return True
+        return request.handler.send_error_json(400, "Missing source_lang")
     return {"pages": list_sources(source_lang)}
 
 
 def health(request) -> dict[str, object] | bool:
-    source_lang = request.required_query_value("source_lang")
-    target_lang = request.required_query_value("target_lang")
-    if not source_lang or not target_lang:
-        return True
+    source_lang = request.query_value("source_lang")
+    if not source_lang:
+        return request.handler.send_error_json(400, "Missing source_lang")
+    target_lang = request.query_value("target_lang")
+    if not target_lang:
+        return request.handler.send_error_json(400, "Missing target_lang")
     return health_summary(source_lang, target_lang)
 
 
@@ -33,8 +35,10 @@ def page(request) -> dict[str, object] | bool:
     source_path = request.query_value("path")
     if not source_path:
         return request.handler.send_error_json(400, "Missing path")
-    source_lang = request.required_query_value("source_lang")
-    target_lang = request.required_query_value("target_lang")
-    if not source_lang or not target_lang:
-        return True
+    source_lang = request.query_value("source_lang")
+    if not source_lang:
+        return request.handler.send_error_json(400, "Missing source_lang")
+    target_lang = request.query_value("target_lang")
+    if not target_lang:
+        return request.handler.send_error_json(400, "Missing target_lang")
     return inspect_page(source_path, source_lang, target_lang).__dict__

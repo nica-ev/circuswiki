@@ -29,7 +29,7 @@ body {
   min-height: 100vh;
   color: var(--ink);
   background: var(--bg);
-  font-family: "Aptos", "Segoe UI", sans-serif;
+  font-family: Aptos, Segoe UI, sans-serif;
   font-size: 13px;
 }
 

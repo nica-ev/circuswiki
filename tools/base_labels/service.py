@@ -18,7 +18,7 @@ def load_config(path: Path | None = None) -> dict[str, Any]:
         return {"version": 1, "bases": {}}
     data = json.loads(path.read_text(encoding="utf-8-sig"))
     if not isinstance(data, dict):
-        raise ValueError("base_display_names.json must contain a JSON object")
+        raise TypeError("base_display_names.json must contain a JSON object")
     data.setdefault("version", 1)
     data.setdefault("bases", {})
     return data

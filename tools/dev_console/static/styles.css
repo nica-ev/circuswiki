@@ -1,6 +1,6 @@
-@import url('./styles/tokens.css');
-@import url('./styles/shell.css');
-@import url('./styles/controls.css');
-@import url('./styles/panes.css');
-@import url('./styles/tables.css');
-@import url('./styles/features.css');
+@import './styles/tokens.css';
+@import './styles/shell.css';
+@import './styles/controls.css';
+@import './styles/panes.css';
+@import './styles/tables.css';
+@import './styles/features.css';

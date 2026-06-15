@@ -57,7 +57,7 @@ class DevConsoleHandler(SimpleHTTPRequestHandler):
             return self.send_index()
 
         if ROUTES.dispatch(method="GET", handler=self, path=parsed.path, query_string=parsed.query):
-            return
+            return None
 
         return super().do_GET()
 
@@ -69,7 +69,7 @@ class DevConsoleHandler(SimpleHTTPRequestHandler):
             return self.send_error_json(400, "Invalid JSON")
 
         if ROUTES.dispatch(method="POST", handler=self, path=parsed.path, payload=payload):
-            return
+            return None
 
         return self.send_error_json(404, "Unknown endpoint")
 

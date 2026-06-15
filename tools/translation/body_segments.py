@@ -30,6 +30,12 @@ def clean_tag(value: str) -> str:
 
 
 def static_body_segments(body: str, blocks: list[DynamicBlock] | None = None) -> list[str]:
+    """Return body sections outside dynamic blocks.
+
+    Blocks must be sorted by ascending start position; callers preserve parser
+    order so each slice can advance a single cursor. Empty strings are kept
+    intentionally when blocks are adjacent or touch text boundaries.
+    """
     blocks = parse_dynamic_blocks(body) if blocks is None else blocks
     if not blocks:
         return [body]

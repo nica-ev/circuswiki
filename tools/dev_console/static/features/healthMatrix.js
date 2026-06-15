@@ -151,7 +151,7 @@ function renderVaultHealth() {
     <span class="pill green">Green: <strong>${health.totals.green}</strong></span>
     <span class="pill yellow">Yellow: <strong>${health.totals.yellow}</strong></span>
     <span class="pill red">Red: <strong>${health.totals.red}</strong></span>
-    <span class="pill">Languages: <strong>${health.languages.join(", ")}</strong></span>
+    <span class="pill">Languages: <strong>${health.languages.map((language) => escapeHtml(language)).join(", ")}</strong></span>
   `;
 
   const query = $("health-filter").value.toLowerCase();
