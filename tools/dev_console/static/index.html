@@ -7,25 +7,21 @@
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <main class="shell">
-      <header class="topbar">
+    <main class="app-shell shell">
+      <header class="app-header topbar">
         <div>
           <p class="eyebrow">CircusWiki Local Tooling</p>
           <h1>Translation Console</h1>
         </div>
-        <nav class="tabs" aria-label="Console sections">
-          <button class="tab active" type="button" data-tab="file-test">Individual File Test</button>
-          <button class="tab" type="button" data-tab="vault-health">Vault Health</button>
-          <button class="tab" type="button" data-tab="batch-translate">Batch Translate</button>
-          <button class="tab" type="button" data-tab="batch-metadata">Batch Metadata</button>
-          <button class="tab" type="button" data-tab="original-graph">Original Graph</button>
-          <button class="tab" type="button" data-tab="navigation">Navigation</button>
-          <button class="tab" type="button" data-tab="dynamic">Dynamic Pages</button>
-          <button class="tab" type="button" data-tab="base-labels">Base Labels</button>
-          <button class="tab" type="button" data-tab="link-repair">Link Repair</button>
-          <button class="tab" type="button" data-tab="cleanup">Cleanup</button>
-        </nav>
+        <div class="app-nav-shell" aria-label="Tools">
+          <nav class="tabs app-nav" id="app-secondary-nav" aria-label="Tools in selected group"></nav>
+        </div>
       </header>
+
+      <aside class="app-sidebar" aria-label="Console sections">
+        <p class="sidebar-label">Sections</p>
+        <nav class="app-primary-nav" id="app-primary-nav" aria-label="Tool groups"></nav>
+      </aside>
 
       <section class="panel metrics" id="metrics">
         <div>
@@ -50,18 +46,20 @@
         </div>
       </section>
 
+      <section class="app-main" id="app-main" aria-live="polite">
       <section class="tab-panel active" id="tab-file-test">
-        <section class="workspace">
-          <aside class="panel file-list">
-            <div class="toolbar">
+
+        <section class="tool-body workspace">
+          <aside class="tool-panel panel file-list">
+            <div class="tool-header toolbar">
               <h2>Pages</h2>
               <button id="refresh" type="button">Refresh</button>
             </div>
-            <input id="filter" type="search" placeholder="Filter pages">
+            <input id="filter" type="search" placeholder="Filter pages" aria-label="Filter pages">
             <div id="pages" class="pages"></div>
           </aside>
 
-          <section class="panel inspector">
+          <section class="tool-panel panel inspector">
             <h2>Selected Page</h2>
             <dl id="details" class="details compact"></dl>
 
@@ -93,14 +91,14 @@
               <button id="translate" type="button" class="primary">Translate File</button>
             </div>
 
-            <pre id="log" class="log">Ready.</pre>
+            <pre id="log" class="tool-output log">Ready.</pre>
           </section>
         </section>
       </section>
 
       <section class="tab-panel" id="tab-vault-health">
-        <section class="panel health-panel">
-          <div class="toolbar health-toolbar">
+        <section class="tool-panel panel health-panel">
+          <div class="tool-header toolbar health-toolbar">
             <div>
               <h2>Vault Health Matrix</h2>
               <p class="hint">Compact overview: languages are vertical, notes run horizontally. Click a pixel for details.</p>
@@ -138,13 +136,13 @@
           <div class="matrix-wrap">
             <table class="matrix" id="health-matrix"></table>
           </div>
-          <pre id="health-details" class="log health-details">Select a matrix cell.</pre>
+          <pre id="health-details" class="tool-output log health-details">Select a matrix cell.</pre>
         </section>
       </section>
 
       <section class="tab-panel" id="tab-batch-translate">
-        <section class="panel health-panel">
-          <div class="toolbar health-toolbar">
+        <section class="tool-panel panel health-panel">
+          <div class="tool-header toolbar health-toolbar">
             <div>
               <h2>Batch Translate</h2>
               <p class="hint">Plan first. Planning does not call the API. Running processes only the planned files.</p>
@@ -171,13 +169,13 @@
           <div class="batch-list-wrap">
             <table class="batch-list" id="batch-list"></table>
           </div>
-          <pre id="batch-log" class="log health-details">Batch output.</pre>
+          <pre id="batch-log" class="tool-output log health-details">Batch output.</pre>
         </section>
       </section>
 
       <section class="tab-panel" id="tab-batch-metadata">
-        <section class="panel health-panel">
-          <div class="toolbar health-toolbar">
+        <section class="tool-panel panel health-panel">
+          <div class="tool-header toolbar health-toolbar">
             <div>
               <h2>Batch Metadata</h2>
               <p class="hint">Translate only frontmatter fields that need localization, currently title and description. Planning does not call the API.</p>
@@ -203,13 +201,13 @@
           <div class="batch-list-wrap">
             <table class="batch-list" id="metadata-list"></table>
           </div>
-          <pre id="metadata-log" class="log health-details">Metadata batch output.</pre>
+          <pre id="metadata-log" class="tool-output log health-details">Metadata batch output.</pre>
         </section>
       </section>
 
       <section class="tab-panel" id="tab-original-graph">
-        <section class="panel health-panel">
-          <div class="toolbar health-toolbar">
+        <section class="tool-panel panel graph-panel">
+          <div class="tool-header toolbar graph-toolbar">
             <div>
               <h2>Original Graph</h2>
               <p class="hint">Explicit Markdown and wikilinks from canonical original files, normalized to canonical original target nodes.</p>
@@ -222,7 +220,6 @@
             </div>
           </div>
 
-          <div id="graph-summary" class="health-summary"></div>
           <div class="graph-controls">
             <label class="inline-check">
               <input id="graph-labels" type="checkbox" checked>
@@ -247,22 +244,23 @@
               <input id="graph-edge-length" type="range" min="60" max="360" step="10" value="190">
               <span id="graph-edge-length-value">190</span>
             </label>
+            <div id="graph-summary" class="graph-summary"></div>
           </div>
-          <div class="graph-workspace">
+          <div class="tool-body graph-workspace">
             <div id="original-graph-chart" class="graph-chart"></div>
             <aside class="graph-side">
               <h2>Selection</h2>
-              <pre id="graph-details" class="log graph-log">Select a node or edge.</pre>
+              <pre id="graph-details" class="tool-output log graph-log">Select a node or edge.</pre>
               <h2>Diagnostics</h2>
-              <pre id="graph-diagnostics" class="log graph-log">Graph diagnostics.</pre>
+              <pre id="graph-diagnostics" class="tool-output log graph-log">Graph diagnostics.</pre>
             </aside>
           </div>
         </section>
       </section>
 
       <section class="tab-panel" id="tab-navigation">
-        <section class="panel health-panel">
-          <div class="toolbar health-toolbar">
+        <section class="tool-panel panel health-panel">
+          <div class="tool-header toolbar health-toolbar">
             <div>
               <h2>Navigation</h2>
               <p class="hint">Canonical nav model, drift detection, LLM proposal, preview, and apply.</p>
@@ -278,26 +276,30 @@
           </div>
 
           <div id="nav-summary" class="health-summary"></div>
-          <div class="nav-workspace">
-            <section>
+          <div class="tool-body nav-workspace">
+            <section class="nav-pane nav-editor-pane">
               <h2>Canonical Model</h2>
               <p class="hint">JSON model. Apply writes this model and regenerates nav blocks in all Zensical configs.</p>
               <textarea id="nav-model" class="nav-model-editor" spellcheck="false"></textarea>
             </section>
-            <section>
-              <h2>Diagnostics</h2>
-              <div id="nav-diagnostics" class="nav-diagnostics"></div>
-              <h2>Preview</h2>
-              <div id="nav-preview-output" class="nav-diagnostics"></div>
+            <section class="nav-pane nav-output-pane">
+              <div class="nav-output-section">
+                <h2>Diagnostics</h2>
+                <div id="nav-diagnostics" class="nav-diagnostics"></div>
+              </div>
+              <div class="nav-output-section">
+                <h2>Preview</h2>
+                <div id="nav-preview-output" class="nav-diagnostics"></div>
+              </div>
             </section>
           </div>
-          <pre id="nav-log" class="log health-details">Navigation output.</pre>
+          <pre id="nav-log" class="tool-output log health-details">Navigation output.</pre>
         </section>
       </section>
 
       <section class="tab-panel" id="tab-dynamic">
-        <section class="panel health-panel">
-          <div class="toolbar health-toolbar">
+        <section class="tool-panel panel health-panel">
+          <div class="tool-header toolbar health-toolbar">
             <div>
               <h2>Dynamic Pages</h2>
               <p class="hint">Refresh marker-gated dynamic blocks through Obsidian Bases. Existing Dataview blocks are ignored.</p>
@@ -315,23 +317,23 @@
           </div>
 
           <div id="dynamic-summary" class="health-summary"></div>
-          <section class="dynamic-workspace">
+          <section class="tool-body dynamic-workspace">
             <aside>
-              <input id="dynamic-filter" type="search" placeholder="Filter dynamic pages">
+              <input id="dynamic-filter" type="search" placeholder="Filter dynamic pages" aria-label="Filter dynamic pages">
               <div id="dynamic-pages" class="pages dynamic-pages"></div>
             </aside>
             <section>
               <h2>Selected Dynamic Page</h2>
               <dl id="dynamic-details" class="details compact"></dl>
-              <pre id="dynamic-log" class="log health-details">Dynamic page output.</pre>
+              <pre id="dynamic-log" class="tool-output log health-details">Dynamic page output.</pre>
             </section>
           </section>
         </section>
       </section>
 
       <section class="tab-panel" id="tab-base-labels">
-        <section class="panel health-panel">
-          <div class="toolbar health-toolbar">
+        <section class="tool-panel panel health-panel">
+          <div class="tool-header toolbar health-toolbar">
             <div>
               <h2>Base Labels</h2>
               <p class="hint">Translate Obsidian Base property display names. Dynamic page refresh consumes these labels but does not call the API.</p>
@@ -351,52 +353,80 @@
           </div>
 
           <div id="base-label-summary" class="health-summary"></div>
-          <section class="base-label-workspace">
+          <section class="tool-body base-label-workspace">
             <aside>
-              <input id="base-label-filter" type="search" placeholder="Filter labels">
+              <input id="base-label-filter" type="search" placeholder="Filter labels" aria-label="Filter labels">
               <div id="base-label-list" class="pages dynamic-pages"></div>
             </aside>
             <section>
               <h2>Details</h2>
               <div id="base-label-details" class="nav-diagnostics"></div>
-              <pre id="base-label-log" class="log health-details">Base label output.</pre>
+              <pre id="base-label-log" class="tool-output log health-details">Base label output.</pre>
             </section>
           </section>
         </section>
       </section>
 
       <section class="tab-panel" id="tab-cleanup">
-        <section class="panel health-panel">
-          <div class="toolbar health-toolbar">
+        <section class="tool-panel panel health-panel">
+          <div class="tool-header toolbar health-toolbar">
             <div>
               <h2>Cleanup</h2>
               <p class="hint">Find machine-translated files whose declared source no longer exists. Deletion is limited to safe, metadata-backed orphan translations.</p>
             </div>
             <div class="toolbar-actions">
               <button id="cleanup-scan" type="button">Scan Orphans</button>
-              <button id="cleanup-delete-selected" type="button" class="primary">Delete Selected</button>
-              <button id="cleanup-delete-all" type="button">Delete All Deletable</button>
+              <button id="cleanup-delete-selected" type="button" class="danger">Delete Selected</button>
+              <button id="cleanup-delete-all" type="button" class="danger">Delete All Deletable</button>
             </div>
           </div>
 
           <div id="cleanup-summary" class="health-summary"></div>
-          <section class="cleanup-workspace">
+          <section class="tool-body cleanup-workspace">
             <aside>
-              <input id="cleanup-filter" type="search" placeholder="Filter orphan files">
+              <input id="cleanup-filter" type="search" placeholder="Filter orphan files" aria-label="Filter orphan files">
               <div id="cleanup-list" class="cleanup-list"></div>
             </aside>
             <section>
               <h2>Selection</h2>
               <dl id="cleanup-details" class="details compact"></dl>
-              <pre id="cleanup-log" class="log health-details">Cleanup output.</pre>
+              <pre id="cleanup-log" class="tool-output log health-details">Cleanup output.</pre>
+            </section>
+          </section>
+        </section>
+      </section>
+
+      <section class="tab-panel" id="tab-obsidian">
+        <section class="tool-panel panel health-panel">
+          <div class="tool-header toolbar health-toolbar">
+            <div>
+              <h2>Obsidian</h2>
+              <p class="hint">Check the optional Obsidian CLI bridge and open a vault path for manual inspection.</p>
+            </div>
+            <div class="toolbar-actions">
+              <button id="obsidian-status-refresh" type="button">Refresh Status</button>
+              <button id="obsidian-open-path" type="button" class="primary">Open Path</button>
+            </div>
+          </div>
+
+          <div id="obsidian-summary" class="health-summary"></div>
+          <section class="tool-body workspace">
+            <section class="tool-panel panel inspector">
+              <h2>Vault Path</h2>
+              <p class="hint">Use a repository-relative path such as docs/de/index.md.</p>
+              <label>
+                Path
+                <input id="obsidian-path" type="text" placeholder="docs/de/index.md">
+              </label>
+              <pre id="obsidian-log" class="tool-output log health-details">Obsidian output.</pre>
             </section>
           </section>
         </section>
       </section>
 
       <section class="tab-panel" id="tab-link-repair">
-        <section class="panel health-panel">
-          <div class="toolbar health-toolbar">
+        <section class="tool-panel panel health-panel">
+          <div class="tool-header toolbar health-toolbar">
             <div>
               <h2>Link Repair</h2>
               <p class="hint">Compare translated files with their original source and restore local Markdown/wikilink targets without changing translated labels.</p>
@@ -413,19 +443,19 @@
           </div>
 
           <div id="link-repair-summary" class="health-summary"></div>
-          <section class="cleanup-workspace">
+          <section class="tool-body cleanup-workspace">
             <aside>
-              <input id="link-repair-filter" type="search" placeholder="Filter link repair items">
+              <input id="link-repair-filter" type="search" placeholder="Filter link repair items" aria-label="Filter link repair items">
               <div id="link-repair-list" class="cleanup-list"></div>
             </aside>
             <section>
               <h2>Selection</h2>
               <dl id="link-repair-details" class="details compact"></dl>
-              <pre id="link-repair-log" class="log health-details">Link repair output.</pre>
+              <pre id="link-repair-log" class="tool-output log health-details">Link repair output.</pre>
             </section>
           </section>
 
-          <div class="toolbar health-toolbar subtoolbar">
+          <div class="tool-header toolbar health-toolbar subtoolbar">
             <div>
               <h2>Source Link Style</h2>
               <p class="hint">Validate original/source files for Zensical-compatible image syntax and convert widths to attr_list.</p>
@@ -442,7 +472,7 @@
           </div>
 
           <div id="source-link-style-summary" class="health-summary"></div>
-          <section class="cleanup-workspace">
+          <section class="tool-body cleanup-workspace">
             <aside>
               <input id="source-link-style-filter" type="search" placeholder="Filter source style items">
               <div id="source-link-style-list" class="cleanup-list"></div>
@@ -454,9 +484,14 @@
           </section>
         </section>
       </section>
+      </section>
     </main>
 
     <script src="https://cdn.jsdelivr.net/npm/echarts@6/dist/echarts.min.js"></script>
     <script type="module" src="app.js"></script>
   </body>
 </html>
+
+
+
+

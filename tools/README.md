@@ -81,8 +81,8 @@ Current endpoint contracts:
 - `GET /api/health?source_lang=<code>&target_lang=<code>`: returns the file-pair health summary for the explicit language pair. Missing language parameters return `400`.
 - `GET /api/page?path=<repo-path>&source_lang=<code>&target_lang=<code>`: inspects one explicit source/target pair. Missing `path`, `source_lang`, or `target_lang` returns `400`.
 - `GET /api/vault-health`: returns the multilingual translation matrix using canonical source detection per translation group.
-- `POST /api/translate`: translates one full file body plus localized metadata. JSON body requires `path`, `source_lang`, and `target_lang`; optional fields are `model`, `prompt`, and `dry_run`.
-- `POST /api/translate-metadata`: translates only target frontmatter `title` and `description` for an existing target file. JSON body requires `path`, `source_lang`, and `target_lang`; optional fields are `model` and `dry_run`.
+- `POST /api/translate`: translates one full file body plus localized metadata. JSON body requires `path`, `source_lang`, and `target_lang`; optional fields are `model`, `prompt`, and `dry_run`. `dry_run` still calls the translation API; it only skips writing the target file.
+- `POST /api/translate-metadata`: translates only target frontmatter `title` and `description` for an existing target file. JSON body requires `path`, `source_lang`, and `target_lang`; optional fields are `model` and `dry_run`. `dry_run` still calls the metadata translation API when metadata is stale or missing; it only skips writing the target file.
 - `POST /api/repair-metadata`: deterministic metadata repair for one file. JSON body requires `path`.
 - `POST /api/batch-plan`: plans batch candidates without API calls. JSON body uses `target_lang`, `max_files`, optional `source_lang` (`all` allowed), optional `reason`, optional `max_source_chars`, and optional `path_filter`.
 - `POST /api/batch-translate-file`: translates one planned batch item. JSON body uses `source_path`, `source_lang`, `target_lang`, and optional `model`/`prompt`.

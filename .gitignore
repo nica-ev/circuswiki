@@ -1,6 +1,7 @@
 # Zensical output
 site/
 .build/
+.zensical-build.*.toml
 
 # Local Python environments and caches
 .venv/

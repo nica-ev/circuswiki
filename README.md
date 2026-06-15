@@ -239,6 +239,18 @@ Open:
 http://127.0.0.1:8787
 ```
 
+Run a quick console smoke test:
+
+```powershell
+python tools/dev_console_smoke.py
+```
+
+Run a static frontend check:
+
+```powershell
+python tools/dev_console_static_check.py
+```
+
 The local console can:
 
 - list source pages for the selected source language
@@ -301,6 +313,7 @@ python tools/translation_cli.py metadata-plan --target-lang en --source-lang all
 ```
 
 Translation writes only target files. It splits Markdown into frontmatter and body. Full translation translates the Markdown body, repairs local link targets, translates frontmatter `title` and `description`, copies non-translation source metadata, and preserves target-local fields where possible.
+Translation `--dry-run` commands still call the configured translation API; they skip writing the target file.
 
 Body and metadata freshness are tracked separately:
 

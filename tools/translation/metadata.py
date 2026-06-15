@@ -3,15 +3,45 @@ from __future__ import annotations
 import re
 from collections.abc import Iterable
 
+import yaml
+
 
 SCALAR_RE = re.compile(r"^(?P<key>[A-Za-z_][A-Za-z0-9_-]*):(?P<value>.*)$")
 
 
 def read_scalar(frontmatter: str, key: str) -> str | None:
-    for line in frontmatter.splitlines():
+    lines = frontmatter.splitlines()
+    for index, line in enumerate(lines):
         match = SCALAR_RE.match(line)
         if match and match.group("key") == key:
-            return match.group("value").strip().strip('"')
+            raw_value = match.group("value").strip()
+            if needs_yaml_scalar_parse(raw_value):
+                return read_yaml_scalar_block(lines, index, key)
+            return raw_value.strip('"')
+    return None
+
+
+def needs_yaml_scalar_parse(raw_value: str) -> bool:
+    return raw_value.startswith(("'", '"', ">", "|")) or raw_value in {"", ">", "|", ">-", "|-"}
+
+
+def read_yaml_scalar_block(lines: list[str], index: int, key: str) -> str | None:
+    block = [lines[index]]
+    for line in lines[index + 1 :]:
+        if SCALAR_RE.match(line) and not line.startswith((" ", "\t")):
+            break
+        block.append(line)
+    try:
+        data = yaml.safe_load("\n".join(block))
+    except yaml.YAMLError:
+        return None
+    if not isinstance(data, dict) or key not in data:
+        return None
+    value = data.get(key)
+    if value is None:
+        return ""
+    if isinstance(value, (str, int, float, bool)):
+        return str(value)
     return None
 
 

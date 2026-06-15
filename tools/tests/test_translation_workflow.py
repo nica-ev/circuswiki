@@ -9,6 +9,12 @@ sys.path.insert(0, str(ROOT / "tools"))
 
 from translation.markdown import join_markdown, split_markdown  # noqa: E402
 from translation.metadata import ensure_scalars, read_scalar  # noqa: E402
+from translation.health import (  # noqa: E402
+    common_page_issues,
+    source_page_issues,
+    source_reference_hashes,
+    translated_page_issues,
+)
 from translation.workflow import (  # noqa: E402
     VaultPage,
     apply_translated_metadata,
@@ -74,6 +80,11 @@ class TranslationWorkflowTests(unittest.TestCase):
         result = split_markdown(output)
         self.assertEqual(read_scalar(result.frontmatter, "custom_field"), "keep me")
         self.assertEqual(read_scalar(result.frontmatter, "lang"), "en")
+
+    def test_read_scalar_uses_yaml_for_quoted_and_folded_values(self) -> None:
+        frontmatter = 'title: "A \\"quoted\\" title"\ndescription: >\n  first line\n  second line\n'
+        self.assertEqual(read_scalar(frontmatter, "title"), 'A "quoted" title')
+        self.assertEqual(read_scalar(frontmatter, "description"), "first line second line")
 
     def test_body_hash_ignores_metadata_changes(self) -> None:
         self.assertEqual(source_body_hash("Body\n"), source_body_hash("Body\n"))
@@ -204,9 +215,9 @@ Outro
             return body.replace("Intro", "Translated intro").replace("Outro", "Translated outro")
 
         with (
-            patch("translation.workflow.call_translation_model", side_effect=fake_translate) as translate,
+            patch("translation.body_translation.call_translation_model", side_effect=fake_translate) as translate,
             patch(
-                "translation.workflow.render_block",
+                "translation.body_translation.render_block",
                 return_value={"ok": True, "index": 0, "markdown": "fresh generated table", "warnings": []},
             ) as render,
         ):
@@ -245,9 +256,9 @@ Outro
 """
 
         with (
-            patch("translation.workflow.call_translation_model", side_effect=lambda body, **_kwargs: body),
+            patch("translation.body_translation.call_translation_model", side_effect=lambda body, **_kwargs: body),
             patch(
-                "translation.workflow.render_block",
+                "translation.body_translation.render_block",
                 return_value={
                     "ok": True,
                     "index": 0,
@@ -267,6 +278,101 @@ Outro
 
         self.assertEqual(link_result.repair_count, 0)
         self.assertEqual(link_result.diagnostics, [])
+
+    def test_health_common_page_rules_report_identity_issues(self) -> None:
+        page = self.page("en", "machine-translated")
+        duplicate = [page, page]
+        issues = common_page_issues(page, duplicate, "source.md")
+
+        self.assertEqual(
+            issues,
+            [
+                "duplicate_translation_id_in_language",
+                "missing_translation_id",
+                "relative_path_mismatch",
+            ],
+        )
+
+    def test_health_source_page_rules_report_original_metadata_issues(self) -> None:
+        page = self.page("de", "machine-translated")
+
+        self.assertEqual(
+            source_page_issues(page, "de"),
+            ["source_status_not_original", "source_missing_translation_source_lang"],
+        )
+
+    def test_health_translated_page_rules_report_hash_and_metadata_issues(self) -> None:
+        source = VaultPage(
+            path=ROOT / "docs" / "de" / "example.md",
+            rel_path="docs/de/example.md",
+            language="de",
+            relative_path="example.md",
+            frontmatter=(
+                "lang: de\n"
+                "title: Quelle\n"
+                "description: Deutsch\n"
+                "update: 2026-06-14\n"
+                "tags:\n"
+                "  - spiel\n"
+                "translation_id: example\n"
+                "translation_status: original\n"
+                "translation_source_lang: de\n"
+            ),
+            body="Source body",
+            has_frontmatter=True,
+            translation_id="example",
+            translation_status="original",
+            translation_source_lang="de",
+            translation_source="",
+            translation_source_hash="",
+            title="Quelle",
+        )
+        target = VaultPage(
+            path=ROOT / "docs" / "en" / "example.md",
+            rel_path="docs/en/example.md",
+            language="en",
+            relative_path="example.md",
+            frontmatter=(
+                "lang: en\n"
+                "title: Source\n"
+                "description: English\n"
+                "update: 2026-06-13\n"
+                "translation_id: example\n"
+                "translation_source_lang: pl\n"
+                "translation_source_hash: legacy\n"
+                "translation_source_metadata_hash: legacy\n"
+                "translation_status: missing-translation\n"
+            ),
+            body="Target body",
+            has_frontmatter=True,
+            translation_id="example",
+            translation_status="missing-translation",
+            translation_source_lang="pl",
+            translation_source="",
+            translation_source_hash="legacy",
+            title="Source",
+            translation_source_metadata_hash="legacy",
+        )
+
+        issues = translated_page_issues(target, source, "de", source_reference_hashes(source))
+
+        self.assertEqual(
+            issues,
+            [
+                "missing_translation_source",
+                "missing_translation_source_body_hash",
+                "missing_translation_model",
+                "missing_translation_updated",
+                "translation_source_lang_mismatch",
+                "source_body_hash_mismatch",
+                "legacy_source_hash",
+                "source_localized_metadata_hash_mismatch",
+                "legacy_metadata_hash",
+                "missing_translation_source_structural_metadata_hash",
+                "source_owned_metadata_mismatch",
+                "fallback_page",
+            ],
+        )
 
     def page(self, language: str, status: str) -> VaultPage:
         return VaultPage(
@@ -288,3 +394,4 @@ Outro
 
 if __name__ == "__main__":
     unittest.main()
+

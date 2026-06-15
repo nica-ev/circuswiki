@@ -31,14 +31,14 @@ def main() -> None:
     translate_parser.add_argument("--target-lang", required=True)
     translate_parser.add_argument("--model")
     translate_parser.add_argument("--prompt")
-    translate_parser.add_argument("--dry-run", action="store_true")
+    translate_parser.add_argument("--dry-run", action="store_true", help="Call the translation API and show the result metadata without writing the target file.")
 
     metadata_parser = subcommands.add_parser("translate-metadata", help="Translate target frontmatter title/description only")
     metadata_parser.add_argument("path")
     metadata_parser.add_argument("--source-lang", required=True)
     metadata_parser.add_argument("--target-lang", required=True)
     metadata_parser.add_argument("--model")
-    metadata_parser.add_argument("--dry-run", action="store_true")
+    metadata_parser.add_argument("--dry-run", action="store_true", help="Call the metadata translation API and show the result metadata without writing the target file.")
 
     metadata_plan_parser = subcommands.add_parser("metadata-plan", help="Plan batch metadata translation")
     metadata_plan_parser.add_argument("--target-lang", required=True)

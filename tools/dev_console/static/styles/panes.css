@@ -1,0 +1,102 @@
+.workspace {
+  display: grid;
+  grid-template-columns: minmax(300px, 0.75fr) minmax(520px, 1.25fr);
+  gap: 10px;
+  align-items: stretch;
+  min-height: 0;
+  overflow: hidden;
+}
+
+.file-list,
+.inspector,
+.health-panel {
+  min-height: 0;
+  padding: 10px;
+  overflow: hidden;
+}
+
+.file-list,
+.inspector {
+  display: grid;
+  grid-template-rows: auto auto minmax(0, 1fr);
+}
+
+.inspector {
+  grid-template-rows: auto auto minmax(0, auto) auto minmax(96px, 0.32fr);
+}
+
+.pages {
+  display: grid;
+  gap: 4px;
+  min-height: 0;
+  max-height: none;
+  margin-top: 8px;
+  overflow: auto;
+}
+
+.page {
+  width: 100%;
+  border-color: transparent;
+  padding: 0.42rem 0.5rem;
+  text-align: left;
+  color: var(--ink);
+  background: var(--panel-2);
+}
+
+.page.active {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.details {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  gap: 0.35rem 0.75rem;
+  margin: 8px 0 0;
+}
+
+.details dt {
+  color: var(--muted);
+  font-family: "Cascadia Mono", "Courier New", monospace;
+}
+
+.details dd {
+  margin: 0;
+  overflow-wrap: anywhere;
+}
+
+.path-action {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  align-items: center;
+}
+
+.log {
+  min-height: 0;
+  margin: 10px 0 0;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 0.75rem;
+  overflow: auto;
+  background: var(--code);
+  color: #d8e8d9;
+  font-family: "Cascadia Mono", "Courier New", monospace;
+  font-size: 0.78rem;
+  white-space: pre-wrap;
+}
+
+.health-summary {
+  margin: 8px 0;
+}
+
+.health-details {
+  min-height: 120px;
+  max-height: none;
+}
+
+@media (max-width: 900px) {
+  .workspace {
+    grid-template-columns: 1fr;
+  }
+}

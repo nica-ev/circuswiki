@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "-file:\"Liste aller Spiele.md\" ",
+  "search": "-file:\"Liste aller Spiele.md\" [\"lang\":de ",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -32,6 +32,6 @@
   "repelStrength": 20,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 0.20022585485369696,
+  "scale": 0.10186728345708566,
   "close": false
 }

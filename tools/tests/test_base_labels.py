@@ -86,10 +86,10 @@ class BaseLabelTests(unittest.TestCase):
                 encoding="utf-8",
             )
             with (
-                patch.object(base_labels, "ROOT", root),
-                patch.object(base_labels, "BASES", bases),
-                patch.object(base_labels, "CONFIG_PATH", config),
-                patch.object(base_labels, "language_codes", return_value=["de", "en"]),
+                patch.object(base_labels.config, "ROOT", root),
+                patch.object(base_labels.config, "BASES", bases),
+                patch.object(base_labels.config, "CONFIG_PATH", config),
+                patch("base_labels.service.language_codes", return_value=["de", "en"]),
             ):
                 plan = base_labels.plan_base_label_translation("_bases/Test.base", "en")
 
@@ -131,9 +131,9 @@ class BaseLabelTests(unittest.TestCase):
                 encoding="utf-8",
             )
             with (
-                patch.object(base_labels, "ROOT", root),
-                patch.object(base_labels, "BASES", bases),
-                patch.object(base_labels, "CONFIG_PATH", config),
+                patch.object(base_labels.config, "ROOT", root),
+                patch.object(base_labels.config, "BASES", bases),
+                patch.object(base_labels.config, "CONFIG_PATH", config),
                 patch("dynamic.obsidian_backend.ROOT", root),
                 patch("dynamic.obsidian_backend.GENERATED_BASE_ROOT", bases),
             ):

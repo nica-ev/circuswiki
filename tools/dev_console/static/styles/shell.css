@@ -1,0 +1,279 @@
+.shell {
+  width: min(1900px, calc(100vw - 20px));
+  margin: 0 auto;
+  padding: 10px 0;
+}
+
+.topbar {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 10px;
+}
+
+.panel {
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--panel);
+}
+
+.metrics {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.metrics div {
+  border-right: 1px solid var(--line);
+  padding: 8px 10px;
+  background: var(--panel-2);
+}
+
+.metrics div:last-child {
+  border-right: 0;
+}
+
+.metric-label {
+  display: block;
+  color: var(--muted);
+  font-family: "Cascadia Mono", "Courier New", monospace;
+  font-size: 0.68rem;
+  text-transform: uppercase;
+}
+
+.metrics strong {
+  display: block;
+  margin-top: 2px;
+  font-size: 1.35rem;
+}
+
+.tab-panel {
+  display: none;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  min-height: 0;
+}
+
+.app-shell,
+.shell {
+  display: grid;
+  grid-template-columns: 164px minmax(0, 1fr);
+  grid-template-rows: auto auto minmax(0, 1fr);
+  height: 100dvh;
+  min-width: min(100vw, var(--app-target-width));
+  min-height: min(100dvh, var(--app-target-height));
+  overflow: hidden;
+}
+
+.app-header,
+.topbar {
+  grid-column: 1 / -1;
+  align-items: stretch;
+}
+
+.app-sidebar {
+  grid-column: 1;
+  grid-row: 2 / 4;
+  display: grid;
+  grid-template-rows: auto minmax(0, 1fr);
+  gap: 8px;
+  min-height: 0;
+  margin-right: 10px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 10px;
+  overflow: hidden;
+  background: rgba(11, 14, 12, 0.38);
+}
+
+.sidebar-label {
+  margin: 0;
+  color: var(--muted);
+  font-family: "Cascadia Mono", "Courier New", monospace;
+  font-size: 0.64rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.app-main {
+  display: grid;
+  min-height: 0;
+  overflow: hidden;
+}
+
+.metrics,
+.app-main {
+  grid-column: 2;
+}
+
+body.graph-mode .metrics {
+  display: none;
+}
+
+body.graph-mode .app-main {
+  grid-row: 2 / 4;
+}
+
+.app-nav {
+  align-items: stretch;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  max-width: min(1120px, 68vw);
+}
+
+.app-nav-shell {
+  display: flex;
+  align-items: start;
+  justify-items: end;
+  gap: 6px;
+  max-width: min(1120px, 68vw);
+}
+
+.app-primary-nav {
+  display: grid;
+  align-content: start;
+  gap: 6px;
+  min-height: 0;
+  overflow: auto;
+}
+
+.primary-tab {
+  width: 100%;
+  border-radius: 999px;
+  padding: 0.32rem 0.68rem;
+  text-align: left;
+  color: var(--muted);
+  background: rgba(11, 14, 12, 0.45);
+}
+
+.primary-tab.active {
+  border-color: var(--accent);
+  color: #15100a;
+  background: var(--accent);
+  font-weight: 700;
+}
+
+.app-nav-shell .app-nav {
+  max-width: none;
+}
+
+.tab-panel {
+  min-height: 0;
+  overflow: hidden;
+}
+
+.tab-panel.active {
+  display: grid;
+  min-height: 0;
+}
+
+.tab-panel > .panel,
+.tab-panel > .workspace {
+  min-height: 0;
+  overflow: hidden;
+}
+
+.tool-panel {
+  min-height: 0;
+  overflow: hidden;
+}
+
+.tool-header {
+  min-height: 0;
+}
+
+.tool-body {
+  min-height: 0;
+  overflow: hidden;
+}
+
+.tool-output {
+  min-height: 0;
+  overflow: auto;
+}
+
+.workspace,
+.health-panel,
+.nav-workspace,
+.dynamic-workspace,
+.cleanup-workspace,
+.graph-workspace {
+  min-height: 0;
+}
+
+.health-panel {
+  display: grid;
+  grid-template-rows: auto auto minmax(0, auto) minmax(0, 1fr) minmax(96px, 0.28fr);
+  max-height: 100%;
+  overflow: hidden;
+}
+
+.pages,
+.batch-list-wrap,
+.matrix-wrap,
+.dynamic-list,
+.cleanup-list,
+.nav-diagnostics,
+.graph-log,
+.log,
+.health-details {
+  overscroll-behavior: contain;
+}
+
+@media (max-width: 1100px) {
+  body {
+    overflow: auto;
+  }
+
+  .app-shell,
+  .shell {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto minmax(0, 1fr);
+    height: auto;
+    min-height: 100vh;
+    overflow: visible;
+  }
+
+  .app-sidebar {
+    grid-column: 1;
+    grid-row: auto;
+    margin: 0 0 10px;
+    overflow: visible;
+  }
+
+  .metrics,
+  .app-main {
+    grid-column: 1;
+    overflow: visible;
+  }
+
+  .app-nav {
+    max-width: none;
+    justify-content: stretch;
+  }
+
+  .app-nav-shell {
+    max-width: none;
+    justify-items: stretch;
+  }
+
+  .app-primary-nav {
+    display: flex;
+    flex-wrap: wrap;
+    overflow: visible;
+  }
+
+  .primary-tab {
+    width: auto;
+  }
+}
+

@@ -12,7 +12,38 @@ ROOT = Path(__file__).resolve().parents[2]
 STATIC = Path(__file__).resolve().parent / "static"
 sys.path.insert(0, str(ROOT / "tools"))
 
-from dev_console import routes_base_labels, routes_cleanup, routes_dynamic, routes_graph, routes_link_repair, routes_navigation, routes_obsidian, routes_translation  # noqa: E402
+from dev_console.routes import (  # noqa: E402
+    base_labels,
+    cleanup,
+    config,
+    dynamic,
+    graph,
+    health,
+    links,
+    metadata,
+    navigation,
+    obsidian,
+    translation,
+)
+from dev_console.routes.registry import RouteRegistry, register_all  # noqa: E402
+
+ROUTES = RouteRegistry()
+register_all(
+    ROUTES,
+    [
+        config,
+        health,
+        translation,
+        metadata,
+        dynamic,
+        base_labels,
+        links,
+        navigation,
+        graph,
+        cleanup,
+        obsidian,
+    ],
+)
 
 
 class DevConsoleHandler(SimpleHTTPRequestHandler):
@@ -25,18 +56,8 @@ class DevConsoleHandler(SimpleHTTPRequestHandler):
         if parsed.path in {"/", "/index.html"}:
             return self.send_index()
 
-        for routes in (
-            routes_translation,
-            routes_navigation,
-            routes_graph,
-            routes_obsidian,
-            routes_dynamic,
-            routes_base_labels,
-            routes_cleanup,
-            routes_link_repair,
-        ):
-            if routes.handle_get(self, parsed.path, parsed.query):
-                return
+        if ROUTES.dispatch(method="GET", handler=self, path=parsed.path, query_string=parsed.query):
+            return None
 
         return super().do_GET()
 
@@ -47,18 +68,8 @@ class DevConsoleHandler(SimpleHTTPRequestHandler):
         if payload is None:
             return self.send_error_json(400, "Invalid JSON")
 
-        for routes in (
-            routes_translation,
-            routes_navigation,
-            routes_graph,
-            routes_obsidian,
-            routes_dynamic,
-            routes_base_labels,
-            routes_cleanup,
-            routes_link_repair,
-        ):
-            if routes.handle_post(self, parsed.path, payload):
-                return
+        if ROUTES.dispatch(method="POST", handler=self, path=parsed.path, payload=payload):
+            return None
 
         return self.send_error_json(404, "Unknown endpoint")
 
@@ -70,16 +81,17 @@ class DevConsoleHandler(SimpleHTTPRequestHandler):
         except Exception:
             return None
 
-    def send_json(self, payload: object, status: int = 200) -> None:
+    def send_json(self, payload: object, status: int = 200) -> bool:
         data = json.dumps(payload, ensure_ascii=False, indent=2).encode("utf-8")
         self.send_response(status)
         self.send_header("Content-Type", "application/json; charset=utf-8")
         self.send_header("Content-Length", str(len(data)))
         self.end_headers()
         self.wfile.write(data)
+        return True
 
-    def send_error_json(self, status: int, message: str) -> None:
-        self.send_json({"error": message}, status=status)
+    def send_error_json(self, status: int, message: str) -> bool:
+        return self.send_json({"error": message}, status=status)
 
     def send_index(self) -> None:
         path = STATIC / "index.html"

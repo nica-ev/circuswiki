@@ -1,1 +1,2 @@
 zensical
+PyYAML==6.0.2

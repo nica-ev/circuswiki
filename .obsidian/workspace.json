@@ -13,13 +13,23 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/de/3-ball-piggyback-gladiators.md",
+                "file": "DEV_CONSOLE_REFACTOR_PLAN.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "3-ball-piggyback-gladiators"
+              "title": "DEV_CONSOLE_REFACTOR_PLAN"
+            }
+          },
+          {
+            "id": "672f03c672d0b9b6",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph-Ansicht"
             }
           }
         ]
@@ -96,7 +106,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -128,13 +138,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/de/3-ball-piggyback-gladiators.md",
+                "file": "DEV_CONSOLE_REFACTOR_PLAN.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Gliederung von 3-ball-piggyback-gladiators"
+              "title": "Gliederung von DEV_CONSOLE_REFACTOR_PLAN"
             }
           },
           {
@@ -223,27 +233,30 @@
   },
   "active": "cfaaeb82fbaabbd1",
   "lastOpenFiles": [
-    "site/sk/Finger-Fechten/index.html",
-    "site/sk/Finger-Fechten",
-    "site/sk/Figurenfangen/index.html",
-    "site/sk/Figurenfangen",
-    "site/sk/Feuer Wasser Sand/index.html",
-    "site/sk/Feuer Wasser Sand",
-    "site/sk/Festnageln/index.html",
-    "site/sk/Festnageln",
-    "site/sk/fastest-balloon-dog/index.html",
-    "site/sk/fastest-balloon-dog",
-    "site/sk/Farbenhasche/index.html",
-    "site/sk/assets/images/favicon.png",
-    "site/sk/img/wheelbarrow-juggling.jpg",
-    "site/sk/img/unicycle-gladiators.jpg",
-    "site/sk/img/Screenshot-Google-AiStudio-Translation.png",
-    "site/sk/img/Screenshot-Google-AiStudio-Transcription.png",
-    "site/sk/img/poland-03.jpg",
-    "site/sk/img/poland-02.jpg",
-    "site/sk/img/poland-01.jpg",
-    "site/sk/img/nica-logo-simple-small-150x150.png",
-    "site/sk/img/nica-background.jpg",
+    "site/es/blog/posts/Zettelkasten, Wiki, and Beyond/index.html",
+    "site/es/blog/posts/Taming Project Complexity/index.html",
+    "site/es/blog/posts/Games - The Data Side/index.html",
+    "site/es/assets/stylesheets/modern/palette.dfe2e883.min.css",
+    "site/es/assets/stylesheets/classic/palette.7dc9a0ad.min.css",
+    "site/es/assets/stylesheets/modern/main.53a7feaf.min.css",
+    "site/es/assets/stylesheets/classic/main.96fc3bb8.min.css",
+    "site/es/assets/javascripts/workers/search.e2d2d235.min.js",
+    "site/es/blog/posts/Zettelkasten, Wiki, and Beyond",
+    "site/es/blog/posts/Taming Project Complexity",
+    "site/es/assets/javascripts/LICENSE",
+    "site/es/assets/images/favicon.png",
+    "site/es/img/wheelbarrow-juggling.jpg",
+    "site/es/img/unicycle-gladiators.jpg",
+    "site/es/img/Screenshot-Google-AiStudio-Translation.png",
+    "site/es/img/Screenshot-Google-AiStudio-Transcription.png",
+    "site/es/img/poland-03.jpg",
+    "site/es/img/poland-02.jpg",
+    "site/es/img/poland-01.jpg",
+    "site/es/img/nica-logo-simple-small-150x150.png",
+    "site/es/img/nica-background.jpg",
+    "_system/dev-console-tooling-architecture.md",
+    "DEV_CONSOLE_REFACTOR_PLAN.md",
+    "docs/de/3-ball-piggyback-gladiators.md",
     "docs/de/workshops-und-artikel.md",
     "docs/it/Aufwärmspiele MOC.md",
     "docs/it/convention-games.md",
@@ -255,7 +268,6 @@
     "docs/cs/3-ball-piggyback-gladiators.md",
     "docs/cs/Aufwärmspiele MOC.md",
     "docs/de/Aufwärmspiele MOC.md",
-    "docs/de/3-ball-piggyback-gladiators.md",
     "docs/de/Grundlagen Wurfjonglage - Kaskade.md",
     "docs/cs/Grundlagen Wurfjonglage - Kaskade.md",
     "docs/cs/Liste aller Spiele.md",
@@ -267,8 +279,6 @@
     "docs/de/Kreisspiele MOC.md",
     "docs/de/Kooperationsspiele.md",
     "docs/de/Klatschspiele MOC.md",
-    "docs/de/Kaskade Workspace.md",
-    "docs/de/Inklusion-Spiele.md",
     "_canvas/Trebor Aufgaben.canvas",
     "_canvas/Unbenannt.canvas",
     "_canvas/IT Infrastruktur.canvas",
