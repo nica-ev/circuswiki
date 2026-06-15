@@ -1,0 +1,130 @@
+.matrix-wrap {
+  width: 100%;
+  min-width: 0;
+  min-height: 0;
+  max-height: none;
+  overflow-x: hidden;
+  overflow-y: auto;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--code);
+}
+
+.matrix-wrap .matrix {
+  width: max(100%, calc(var(--matrix-label-width) + var(--matrix-min-plot-width)));
+}
+
+.batch-list-wrap {
+  min-height: 0;
+  max-height: none;
+  overflow: auto;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--code);
+}
+
+.batch-list {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: "Cascadia Mono", "Courier New", monospace;
+  font-size: 0.75rem;
+}
+
+.batch-list th,
+.batch-list td {
+  border: 1px solid #263129;
+  padding: 4px 6px;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.batch-list thead th {
+  position: sticky;
+  top: 0;
+  background: #222a23;
+  color: var(--muted);
+}
+
+.matrix {
+  width: auto;
+  min-width: 0;
+  border-collapse: collapse;
+  table-layout: fixed;
+  font-family: "Cascadia Mono", "Courier New", monospace;
+  font-size: 0.68rem;
+}
+
+.matrix th,
+.matrix td {
+  border: 1px solid #1a221c;
+  padding: 0;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.matrix thead th {
+  position: sticky;
+  top: 0;
+  z-index: 3;
+  background: #222a23;
+  color: var(--muted);
+}
+
+.sticky-col {
+  position: sticky;
+  left: 0;
+  z-index: 2;
+  background: #192019;
+  box-shadow: 1px 0 0 #263129;
+}
+
+.matrix thead .sticky-col {
+  z-index: 4;
+}
+
+.lang-col {
+  width: var(--matrix-label-width);
+  min-width: var(--matrix-label-width);
+  max-width: var(--matrix-label-width);
+  padding: 0 8px !important;
+  text-align: left !important;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: var(--muted);
+}
+
+.note-index {
+  width: var(--matrix-cell-width, 15px);
+  min-width: var(--matrix-cell-width, 15px);
+  max-width: var(--matrix-cell-width, 15px);
+  overflow: hidden;
+  color: #5e6b61 !important;
+  font-size: 0.52rem;
+  font-weight: 400;
+}
+
+.status-cell {
+  display: block;
+  width: calc(var(--matrix-cell-width, 15px) - 1px);
+  min-width: 2px;
+  height: 14px;
+  padding: 0;
+  border-radius: 2px;
+  color: transparent;
+  font-size: 0;
+}
+
+.status-cell.green {
+  background: var(--green);
+  border-color: var(--green);
+}
+
+.status-cell.yellow {
+  background: var(--yellow);
+  border-color: var(--yellow);
+}
+
+.status-cell.red {
+  background: var(--red);
+  border-color: var(--red);
+}

@@ -164,7 +164,7 @@ Outro
     def test_inferred_localized_base_display_names_render_links_and_values(self) -> None:
         page_path = ROOT / "docs" / "it" / "convention-games.md"
         with patch(
-            "dynamic.render.labels_for_language",
+            "dynamic.base_schema.labels_for_language",
             return_value={
                 "formula.link-title": "Collegamento",
                 "note.group-min": "Giocatori Min",
@@ -268,9 +268,11 @@ source table
                 return {"ok": True, "index": block.index, "config": block.config, "markdown": "new target table"}
 
             with (
-                patch.object(workflow, "ROOT", root),
-                patch.object(workflow, "DOCS", docs),
-                patch.object(workflow, "render_block", side_effect=fake_render),
+                patch("dynamic.paths.ROOT", root),
+                patch("dynamic.paths.DOCS", docs),
+                patch("dynamic.refresh.ROOT", root),
+                patch("dynamic.refresh.DOCS", docs),
+                patch("dynamic.refresh.render_block", side_effect=fake_render),
             ):
                 result = workflow.refresh_dynamic_page(target, dry_run=False)
 

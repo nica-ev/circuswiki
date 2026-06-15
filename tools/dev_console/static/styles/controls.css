@@ -1,0 +1,255 @@
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+button,
+select,
+input,
+textarea {
+  border: 1px solid var(--line);
+  border-radius: var(--control-radius);
+  color: var(--ink);
+  background: var(--code);
+}
+
+button {
+  min-height: var(--control-height-md);
+  padding: 0.38rem 0.7rem;
+  cursor: pointer;
+}
+
+button:hover,
+button.active {
+  border-color: var(--accent);
+}
+
+button.primary,
+button.action-primary {
+  color: #15100a;
+  background: var(--accent);
+  border-color: var(--accent);
+  font-weight: 700;
+}
+
+button.safe,
+button.action-safe {
+  color: #07150d;
+  background: var(--green);
+  border-color: var(--green);
+  font-weight: 700;
+}
+
+button.danger,
+button.action-danger,
+button.destructive {
+  color: #fff4f2;
+  background: #6c211d;
+  border-color: var(--red);
+  font-weight: 700;
+}
+
+button:disabled {
+  cursor: wait;
+  opacity: 0.55;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  min-height: var(--control-height-md);
+  padding: 0.42rem 0.55rem;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.tabs,
+.actions,
+.toolbar-actions {
+  display: flex;
+  align-items: center;
+  gap: var(--density-gap);
+}
+
+.tab {
+  color: var(--muted);
+  background: var(--panel);
+}
+
+.tab.active {
+  color: var(--ink);
+  border-color: var(--accent);
+  background: var(--panel-2);
+}
+.toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.subtoolbar {
+  margin-top: 18px;
+  border-top: 1px solid var(--line);
+  padding-top: 12px;
+}
+
+.health-toolbar {
+  align-items: start;
+}
+
+.hint {
+  margin: 4px 0 0;
+  color: var(--muted);
+}
+
+label {
+  display: grid;
+  gap: 4px;
+  margin-top: 10px;
+  color: var(--muted);
+  font-family: "Cascadia Mono", "Courier New", monospace;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+}
+
+.mini-button {
+  padding: 0.16rem 0.42rem;
+  font-size: 0.72rem;
+}
+
+.issue,
+.pill {
+  display: inline-block;
+  margin: 0 0.25rem 0.25rem 0;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 0.18rem 0.45rem;
+  background: var(--panel-2);
+  font-size: 0.78rem;
+}
+
+.issue {
+  color: #ffe3dc;
+  border-color: #74413b;
+  background: #3b1d1b;
+}
+
+.ok,
+.pill.green {
+  color: var(--green);
+}
+
+.pill.yellow {
+  color: var(--yellow);
+}
+
+.pill.red {
+  color: var(--red);
+}
+
+.repair-panel {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 8px 0;
+  color: var(--muted);
+  font-family: "Cascadia Mono", "Courier New", monospace;
+  font-size: 0.75rem;
+}
+
+.repair-panel progress {
+  width: min(520px, 45vw);
+  height: 12px;
+  accent-color: var(--accent);
+}
+
+.matrix-controls {
+  display: grid;
+  gap: 7px;
+  margin: 8px 0;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 8px;
+  background: var(--code);
+}
+
+.matrix-control-labels {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  color: var(--muted);
+  font-family: "Cascadia Mono", "Courier New", monospace;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+}
+
+.matrix-control-labels strong {
+  color: var(--accent);
+  font-weight: 700;
+}
+
+.matrix-range {
+  position: relative;
+  height: 24px;
+  touch-action: none;
+}
+
+.matrix-range-track,
+.matrix-range-selection {
+  position: absolute;
+  top: 10px;
+  right: 0;
+  left: 0;
+  height: 4px;
+  border-radius: 999px;
+  background: #263129;
+}
+
+.matrix-range-selection {
+  right: auto;
+  left: var(--range-left, 0%);
+  width: var(--range-width, 100%);
+  background: var(--accent);
+  cursor: grab;
+}
+
+.matrix-range-selection:active {
+  cursor: grabbing;
+}
+
+.matrix-range-handle {
+  position: absolute;
+  top: 4px;
+  left: var(--handle-left, 0%);
+  width: 16px;
+  height: 16px;
+  margin-left: -8px;
+  border: 2px solid var(--accent);
+  border-radius: 50%;
+  padding: 0;
+  background: var(--panel-2);
+  cursor: ew-resize;
+}
+
+.matrix-range-handle:hover,
+.matrix-range-handle.active {
+  border-color: #ffd487;
+  background: var(--accent);
+}
+
+@media (max-width: 900px) {
+  .toolbar,
+  .health-toolbar,
+  .toolbar-actions {
+    align-items: stretch;
+    flex-direction: column;
+  }
+}
+

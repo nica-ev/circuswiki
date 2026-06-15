@@ -239,6 +239,18 @@ Open:
 http://127.0.0.1:8787
 ```
 
+Run a quick console smoke test:
+
+```powershell
+python tools/dev_console_smoke.py
+```
+
+Run a static frontend check:
+
+```powershell
+python tools/dev_console_static_check.py
+```
+
 The local console can:
 
 - list source pages for the selected source language
