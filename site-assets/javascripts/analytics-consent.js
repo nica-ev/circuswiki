@@ -5,6 +5,7 @@
   var SETTINGS_ID = "cw-analytics-settings";
   var BANNER_ID = "cw-analytics-consent";
   var loaded = false;
+  var memoryConsent = null;
 
   var TEXT = {
     de: {
@@ -40,13 +41,15 @@
 
   function storedConsent() {
     try {
-      return window.localStorage.getItem(CONSENT_KEY);
+      memoryConsent = window.localStorage.getItem(CONSENT_KEY);
+      return memoryConsent;
     } catch (error) {
-      return null;
+      return memoryConsent;
     }
   }
 
   function storeConsent(value) {
+    memoryConsent = value;
     try {
       window.localStorage.setItem(CONSENT_KEY, value);
     } catch (error) {
@@ -59,7 +62,7 @@
   }
 
   function sendPageView() {
-    if (!loaded || typeof window.gtag !== "function") {
+    if (!loaded || storedConsent() !== "accepted" || typeof window.gtag !== "function") {
       return;
     }
 
@@ -71,8 +74,15 @@
   }
 
   function loadAnalytics() {
+    window["ga-disable-" + MEASUREMENT_ID] = false;
+
     if (loaded || document.getElementById(GA_SCRIPT_ID)) {
       loaded = true;
+      if (typeof window.gtag === "function") {
+        window.gtag("consent", "update", {
+          analytics_storage: "granted",
+        });
+      }
       sendPageView();
       return;
     }
@@ -82,6 +92,9 @@
       window.dataLayer.push(arguments);
     };
     window.gtag("js", new Date());
+    window.gtag("consent", "default", {
+      analytics_storage: "granted",
+    });
     window.gtag("config", MEASUREMENT_ID, { send_page_view: false });
 
     var script = document.createElement("script");
@@ -105,7 +118,8 @@
   }
 
   function deleteAnalyticsCookies() {
-    var names = ["_ga", "_gid", "_gat", "_gat_gtag_" + MEASUREMENT_ID.replace(/-/g, "_")];
+    var normalizedId = MEASUREMENT_ID.replace(/-/g, "_");
+    var names = ["_ga", "_ga_" + normalizedId, "_gid", "_gat", "_gat_gtag_" + normalizedId];
     var hostname = window.location.hostname;
     var domains = ["", hostname, "." + hostname];
     var paths = ["/", window.location.pathname.replace(/[^/]*$/, "") || "/"];
@@ -117,6 +131,16 @@
         });
       });
     });
+  }
+
+  function disableAnalytics() {
+    window["ga-disable-" + MEASUREMENT_ID] = true;
+    if (typeof window.gtag === "function") {
+      window.gtag("consent", "update", {
+        analytics_storage: "denied",
+      });
+    }
+    deleteAnalyticsCookies();
   }
 
   function removeBanner() {
@@ -134,7 +158,7 @@
     if (value === "accepted") {
       loadAnalytics();
     } else {
-      deleteAnalyticsCookies();
+      disableAnalytics();
     }
   }
 
@@ -161,17 +185,26 @@
     banner.id = BANNER_ID;
     banner.className = "cw-analytics-consent";
     banner.setAttribute("aria-labelledby", BANNER_ID + "-title");
-    banner.innerHTML = [
-      '<div class="cw-analytics-consent__body">',
-      '<h2 id="' + BANNER_ID + '-title">' + text.title + "</h2>",
-      "<p>" + text.description + "</p>",
-      "</div>",
-      '<div class="cw-analytics-consent__actions"></div>',
-    ].join("");
 
-    var actions = banner.querySelector(".cw-analytics-consent__actions");
+    var body = document.createElement("div");
+    body.className = "cw-analytics-consent__body";
+
+    var title = document.createElement("h2");
+    title.id = BANNER_ID + "-title";
+    title.textContent = text.title;
+
+    var description = document.createElement("p");
+    description.textContent = text.description;
+
+    var actions = document.createElement("div");
+    actions.className = "cw-analytics-consent__actions";
+
+    body.appendChild(title);
+    body.appendChild(description);
     actions.appendChild(button(text.decline, "cw-analytics-consent__button cw-analytics-consent__button--secondary", "declined"));
     actions.appendChild(button(text.accept, "cw-analytics-consent__button cw-analytics-consent__button--primary", "accepted"));
+    banner.appendChild(body);
+    banner.appendChild(actions);
     document.body.appendChild(banner);
   }
 
@@ -249,7 +282,7 @@
     } else if (!storedConsent()) {
       showBanner(false);
     } else {
-      deleteAnalyticsCookies();
+      disableAnalytics();
     }
   }
 
