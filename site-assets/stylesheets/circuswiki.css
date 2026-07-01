@@ -891,3 +891,94 @@ body.circuswiki-hero .md-content__inner > h2 {
     width: 100%;
   }
 }
+
+.cw-analytics-consent {
+  position: fixed;
+  right: clamp(0.75rem, 3vw, 1.4rem);
+  bottom: clamp(0.75rem, 3vw, 1.4rem);
+  z-index: 20;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 1rem;
+  width: min(42rem, calc(100vw - 1.5rem));
+  padding: 1rem;
+  border: 1px solid var(--cw-line);
+  border-radius: 1rem;
+  background: var(--cw-panel-solid);
+  box-shadow: 0 1.2rem 3rem rgba(30, 38, 33, 0.22);
+  color: var(--cw-ink);
+}
+
+.cw-analytics-consent__body h2 {
+  margin: 0 0 0.3rem;
+  color: var(--cw-ink);
+  font-size: 1rem;
+  line-height: 1.2;
+}
+
+.cw-analytics-consent__body p {
+  margin: 0;
+  color: var(--cw-muted);
+  font-size: 0.78rem;
+  line-height: 1.45;
+}
+
+.cw-analytics-consent__actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.5rem;
+}
+
+.cw-analytics-consent__button,
+.cw-analytics-settings {
+  border: 1px solid var(--cw-line);
+  border-radius: 999px;
+  font: inherit;
+  font-size: 0.74rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.cw-analytics-consent__button {
+  padding: 0.46rem 0.75rem;
+}
+
+.cw-analytics-consent__button--primary {
+  border-color: var(--cw-success);
+  background: var(--cw-success);
+  color: var(--cw-paper);
+}
+
+.cw-analytics-consent__button--secondary {
+  background: transparent;
+  color: var(--cw-muted);
+}
+
+.cw-analytics-settings {
+  margin: 0.45rem 0 0.45rem 0.75rem;
+  padding: 0.32rem 0.62rem;
+  background: transparent;
+  color: inherit;
+}
+
+.cw-analytics-consent__button:focus-visible,
+.cw-analytics-settings:focus-visible {
+  outline: 0.16rem solid var(--cw-focus);
+  outline-offset: 0.15rem;
+}
+
+@media (max-width: 44rem) {
+  .cw-analytics-consent {
+    grid-template-columns: 1fr;
+  }
+
+  .cw-analytics-consent__actions {
+    justify-content: stretch;
+  }
+
+  .cw-analytics-consent__button {
+    flex: 1 1 8rem;
+  }
+}

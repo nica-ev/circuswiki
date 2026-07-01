@@ -9,7 +9,7 @@ repo_name = "nica-ev/circuswiki"
 docs_dir = ".build/it"
 site_dir = "site/it"
 extra_css = ["stylesheets/circuswiki.css"]
-extra_javascript = ["javascripts/site-theme.js", "javascripts/table-sorter.js", "javascripts/language-switcher.js", "javascripts/translation-status.js"]
+extra_javascript = ["javascripts/site-theme.js", "javascripts/table-sorter.js", "javascripts/language-switcher.js", "javascripts/translation-status.js", "javascripts/analytics-consent.js"]
 
 nav = [
   { "Home" = "index.md" },
