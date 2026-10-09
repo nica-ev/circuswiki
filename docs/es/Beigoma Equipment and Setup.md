@@ -7,7 +7,7 @@ tags:
 created: 2026-06-11 00:00:00
 update: 2026-06-11 16:37:50
 title: Equipo y Montaje de Beigoma
-description: Resumen práctico del equipo básico necesario para Beigoma: peonzas, cuerdas, suelos de juego, material de puntuación y montaje de talleres.
+description: "Resumen práctico del equipo básico necesario para Beigoma: peonzas, cuerdas, suelos de juego, material de puntuación y montaje de talleres."
 authors:
   - Marc Bielert
 source:

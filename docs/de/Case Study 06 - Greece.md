@@ -6,7 +6,7 @@ update: 2026-06-06 21:48:48
 publish: false
 tags:
   - case-study
-title: Sicherheit: Ein Schlüssel für Autismus
+title: "Sicherheit: Ein Schlüssel für Autismus"
 description:
 authors:
   - Eva Parlani

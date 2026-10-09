@@ -6,7 +6,7 @@ update: 2026-06-06 21:48:48
 publish: false
 tags:
   - case-study
-title: Veilig Gevoel: Een Sleutel voor Autisme
+title: "Veilig Gevoel: Een Sleutel voor Autisme"
 description:
 authors:
   - Eva Parlani

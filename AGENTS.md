@@ -1,6 +1,6 @@
 ﻿---
 created: 2026-06-06 18:48:28
-update: 2026-06-07 23:30:00
+update: 2026-10-09 22:40:00
 ---
 
 # AGENTS.md
@@ -206,6 +206,7 @@ GitHub Pages deployment:
 
 - Read `README.md` first for current setup.
 - Check relevant source files before making implementation claims.
+- Always use the available Playwright MCP for browser-based testing. For interactive site changes, test the relevant behavior in an actual browser against the appropriate local preview; source inspection alone is not sufficient.
 - Assume the working tree may contain user changes. Do not revert unrelated changes.
 - Use `rg` for searching when available.
 - Prefer small, reviewable changes.

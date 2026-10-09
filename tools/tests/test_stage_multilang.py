@@ -79,6 +79,27 @@ class StagingWorkflowTests(unittest.TestCase):
         self.assertIn("    Erste Zeile", result)
         self.assertIn("> [!warning] not a callout", result)
 
+    def test_combined_markdown_normalization_applies_all_rewrites(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            page = root / "folder" / "page.md"
+            page.parent.mkdir()
+            page.write_text(
+                "[Target](docs/en/target.md)\n"
+                "![Image](../../img/example.png)\n"
+                "> [!tip] Note\n"
+                "> Body\n",
+                encoding="utf-8",
+            )
+
+            processed = stage_multilang.normalize_markdown_files(root)
+
+            result = page.read_text(encoding="utf-8")
+            self.assertEqual(processed, 1)
+            self.assertIn("[Target](target.md)", result)
+            self.assertIn("![Image](../img/example.png)", result)
+            self.assertIn('!!! tip "Note"', result)
+
 
 if __name__ == "__main__":
     unittest.main()

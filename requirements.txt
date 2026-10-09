@@ -1,2 +1,2 @@
-zensical
+zensical==0.0.68
 PyYAML==6.0.2

@@ -7,7 +7,7 @@ tags:
   - beigoma
 created: 2026-06-11 00:00:00
 update: 2026-06-11 17:31:57
-title: Beigoma: Hra s 10-minútovou úpravou
+title: "Beigoma: Hra s 10-minútovou úpravou"
 description: Hra typu Beigoma v štýle „maker“, kde hráči majú krátku časovo obmedzenú fázu na úpravu vrchnej časti pred testovaním jej výkonu pri točení alebo v súboji.
 authors:
   - Marc Bielert

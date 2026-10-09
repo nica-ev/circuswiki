@@ -7,7 +7,7 @@ tags:
   - beigoma
 created: 2026-06-11 00:00:00
 update: 2026-06-11 17:31:57
-title: Beigoma: Gra z 10-minutową modyfikacją
+title: "Beigoma: Gra z 10-minutową modyfikacją"
 description: "Gra w stylu \"maker\" z Beigomą, w której gracze mają krótki, ograniczony czas na modyfikację bączka przed przetestowaniem jego stabilności lub wydajności w pojedynku."
 authors:
   - Marc Bielert

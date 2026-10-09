@@ -5,7 +5,7 @@ created: 2025-03-17 00:18:32
 update: 2025-03-17 00:19:48
 publish: true
 tags: 
-title: Тема майстер-класу: Пірати
+title: "Тема майстер-класу: Пірати"
 description: 
 authors:
   - Marc Bielert

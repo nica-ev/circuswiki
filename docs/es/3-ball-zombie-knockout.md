@@ -11,7 +11,7 @@ tags:
   - knockout
 created: 2026-06-12 00:00:00
 update: 2026-06-12 21:06:55
-title: 3 Bolas: Eliminación Zombie
+title: "3 Bolas: Eliminación Zombie"
 description: Un juego temático de eliminación de malabares donde malabaristas de tres bolas intentan sobrevivir a una persecución estilo zombie.
 authors:
   - CircusWiki contributors

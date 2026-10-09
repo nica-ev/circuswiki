@@ -6,7 +6,7 @@ update: 2026-06-06 21:48:48
 publish: false
 tags:
   - case-study
-title: Sentirse Seguro: Una Clave para el Autismo
+title: "Sentirse Seguro: Una Clave para el Autismo"
 description:
 authors:
   - Eva Parlani

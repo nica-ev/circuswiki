@@ -6,7 +6,7 @@ update: 2026-06-06 21:48:48
 publish: false
 tags:
   - case-study
-title: Pocit bezpečia: Kľúč pre autizmus
+title: "Pocit bezpečia: Kľúč pre autizmus"
 description:
 authors:
   - Eva Parlani

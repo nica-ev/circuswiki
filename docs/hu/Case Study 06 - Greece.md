@@ -6,7 +6,7 @@ update: 2026-06-06 21:48:48
 publish: false
 tags:
   - case-study
-title: Biztonságérzet: Kulcs az autizmushoz
+title: "Biztonságérzet: Kulcs az autizmushoz"
 description:
 authors:
   - Eva Parlani

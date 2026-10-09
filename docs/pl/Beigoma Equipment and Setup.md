@@ -7,7 +7,7 @@ tags:
 created: 2026-06-11 00:00:00
 update: 2026-06-11 16:37:50
 title: Sprzęt i przygotowanie do Beigomy
-description: Praktyczny przegląd podstawowego sprzętu potrzebnego do Beigomy: bączków, sznurków, podłóg do gry, materiałów punktacji i wyposażenia warsztatów.
+description: "Praktyczny przegląd podstawowego sprzętu potrzebnego do Beigomy: bączków, sznurków, podłóg do gry, materiałów punktacji i wyposażenia warsztatów."
 authors:
   - Marc Bielert
 source:

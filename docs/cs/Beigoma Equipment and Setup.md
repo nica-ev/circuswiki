@@ -7,7 +7,7 @@ tags:
 created: 2026-06-11 00:00:00
 update: 2026-06-11 16:37:50
 title: Vybavení a příprava pro Beigoma
-description: Praktický přehled základního vybavení potřebného pro Beigoma: káči, provázky, hrací plochy, bodovací materiál a příprava dílny.
+description: "Praktický přehled základního vybavení potřebného pro Beigoma: káči, provázky, hrací plochy, bodovací materiál a příprava dílny."
 authors:
   - Marc Bielert
 source:

@@ -6,7 +6,7 @@ update: 2026-06-06 21:48:48
 publish: false
 tags:
   - case-study
-title: Poczucie Bezpieczeństwa: Klucz dla Autyzmu
+title: "Poczucie Bezpieczeństwa: Klucz dla Autyzmu"
 description:
 authors:
   - Eva Parlani

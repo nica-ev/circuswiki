@@ -9,7 +9,7 @@ repo_name = "nica-ev/circuswiki"
 docs_dir = ".build/es"
 site_dir = "site/es"
 extra_css = ["stylesheets/circuswiki.css"]
-extra_javascript = ["javascripts/site-theme.js", "javascripts/table-sorter.js", "javascripts/language-switcher.js", "javascripts/translation-status.js", "javascripts/analytics-consent.js"]
+extra_javascript = ["javascripts/site-theme.js", "javascripts/table-sorter.js", "javascripts/language-switcher.js", "javascripts/translation-status.js", "javascripts/analytics-consent.js", "javascripts/circusfinder.js"]
 
 nav = [
   { "Inicio" = "index.md" },
@@ -17,6 +17,7 @@ nav = [
   { "Juegos de Movimiento" = "Bewegungs-Spiele.md" },
   { "Lista de Todos los Juegos" = "Liste aller Spiele.md" },
   { "Proyecto Erasmus+" = "Lets-talk-about-inclusive-circus-practice.md" },
+  { "CircusFinder" = "circusfinder/index.md" },
   { "Participar" = "mitmachen.md" },
 ]
 
