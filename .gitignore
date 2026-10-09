@@ -24,3 +24,6 @@ sync.ffs_db
 Thumbs.db
 .idea/
 .vscode/
+
+# Temporary folders
+_temp/

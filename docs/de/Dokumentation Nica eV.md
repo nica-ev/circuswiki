@@ -36,7 +36,7 @@ translation_source_lang: de
 
     Wie unsere Buchhaltung funktioniert und welche Systeme wir dafür nutzen
 
-    [:octicons-arrow-right-24: Buchhaltung](buchhaltung.md){  .md-button }
+    [:octicons-arrow-right-24: Buchhaltung](beancount/00-bookkeeping-home.md){  .md-button }
 
 -   :fontawesome-brands-markdown:{ .lg .middle } __Digitale Infrastruktur__
 
@@ -79,4 +79,3 @@ translation_source_lang: de
     [:octicons-arrow-right-24: Workflow LLMs](Workflows%20Sprachmodelle.md){  .md-button }
 
 </div>
-
