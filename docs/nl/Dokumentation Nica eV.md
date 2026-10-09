@@ -13,10 +13,10 @@ authors:
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Dokumentation Nica eV.md
-translation_source_hash: d454ffd24b6e35848a4a2a1fbae1a610c5e4708ab1a96ad4db3673d9432145d2
+translation_source_hash: 5995b5c79767d9ded277b7221ea5ce60cfc22e8f1c9c11286b2bd75ed7e3ba70
 translation_model: google/gemini-2.5-flash-lite
 translation_updated: 2026-06-06T23:15:02+00:00
-translation_source_body_hash: d454ffd24b6e35848a4a2a1fbae1a610c5e4708ab1a96ad4db3673d9432145d2
+translation_source_body_hash: 5995b5c79767d9ded277b7221ea5ce60cfc22e8f1c9c11286b2bd75ed7e3ba70
 translation_source_metadata_hash: 8b2a9c4c46fb684816656abe557a3fb6c2af4fcf02c1fc2483851fafe76bf771
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
@@ -47,7 +47,7 @@ translation_source_structural_metadata_hash: 97a6d4185e2ac9532d2f585528a2d3958f8
 
     Hoe onze boekhouding werkt en welke systemen we daarvoor gebruiken
 
-    [:octicons-arrow-right-24: Boekhouding](buchhaltung.md){  .md-button }
+    [:octicons-arrow-right-24: Boekhouding](beancount/00-bookkeeping-home.md){  .md-button }
 
 -   :fontawesome-brands-markdown:{ .lg .middle } __Digitale Infrastructuur__
 
