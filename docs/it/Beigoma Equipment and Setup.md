@@ -7,7 +7,7 @@ tags:
 created: 2026-06-11 00:00:00
 update: 2026-06-11 16:37:50
 title: Attrezzatura e allestimento Beigoma
-description: Panoramica pratica dell'attrezzatura di base necessaria per il Beigoma: trottole, corde, piste di gioco, materiale per punteggi e allestimento del laboratorio.
+description: "Panoramica pratica dell'attrezzatura di base necessaria per il Beigoma: trottole, corde, piste di gioco, materiale per punteggi e allestimento del laboratorio."
 authors:
   - Marc Bielert
 source:

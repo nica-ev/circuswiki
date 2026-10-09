@@ -6,7 +6,7 @@ update: 2025-02-25 00:18:42
 publish: true
 tags:
   - jonglage
-title: Парні вправи: каскад з метанням келихів
+title: "Парні вправи: каскад з метанням келихів"
 description: 
 authors:
   - Marc Bielert

@@ -7,7 +7,7 @@ tags:
 created: 2026-06-11 00:00:00
 update: 2026-06-11 16:37:50
 title: Beigoma Materiaal en Opstelling
-description: Praktisch overzicht van het basis materiaal dat nodig is voor Beigoma: tollen, touwen, speelvloeren, scoremateriaal en workshopopstelling.
+description: "Praktisch overzicht van het basis materiaal dat nodig is voor Beigoma: tollen, touwen, speelvloeren, scoremateriaal en workshopopstelling."
 authors:
   - Marc Bielert
 source:

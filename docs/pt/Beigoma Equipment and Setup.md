@@ -7,7 +7,7 @@ tags:
 created: 2026-06-11 00:00:00
 update: 2026-06-11 16:37:50
 title: Equipamento e Montagem de Beigoma
-description: Visão geral prática do equipamento básico necessário para Beigoma: piões, cordas, pisos de jogo, material de pontuação e montagem de oficina.
+description: "Visão geral prática do equipamento básico necessário para Beigoma: piões, cordas, pisos de jogo, material de pontuação e montagem de oficina."
 authors:
   - Marc Bielert
 source:

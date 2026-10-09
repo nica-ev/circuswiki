@@ -4,6 +4,7 @@ import json
 import re
 import shutil
 import os
+import time
 from pathlib import Path
 from urllib.parse import quote
 
@@ -14,6 +15,7 @@ from core.languages import (
     language_codes_re,
     language_name,
 )
+from circusfinder import export_datasets
 from translation.discovery import discover_vault_pages, find_group_source_language, primary_page
 
 
@@ -471,23 +473,65 @@ def convert_obsidian_callouts_in_markdown(language_root: Path) -> None:
             markdown_file.write_text(updated, encoding="utf-8", newline="")
 
 
+def normalize_markdown_files(language_root: Path) -> int:
+    """Apply all staged-Markdown rewrites in a single filesystem pass."""
+    processed = 0
+    for markdown_file in language_root.rglob("*.md"):
+        text = markdown_file.read_text(encoding="utf-8")
+
+        def replace_doc_link(match: re.Match[str]) -> str:
+            return f"{match.group('prefix')}{match.group('path')}"
+
+        updated = DOC_LINK_RE.sub(replace_doc_link, text)
+        replacement_path = os.path.relpath(
+            language_root / "img", markdown_file.parent
+        ).replace("\\", "/").rstrip("/") + "/"
+
+        def replace_image_link(match: re.Match[str]) -> str:
+            return f"{match.group('prefix')}{replacement_path}"
+
+        updated = IMAGE_LINK_RE.sub(replace_image_link, updated)
+        updated = convert_obsidian_callouts(updated)
+        if updated != text:
+            markdown_file.write_text(updated, encoding="utf-8", newline="")
+        processed += 1
+    return processed
+
+
 def main() -> None:
+    started = time.perf_counter()
+    print("[staging] Preparing multilingual content...", flush=True)
     if BUILD.exists():
+        print("[staging] Removing previous .build output...", flush=True)
         shutil.rmtree(BUILD)
 
+    print("[staging] Discovering translation groups...", flush=True)
     groups = discover_translation_groups()
 
-    for language in LANGUAGES:
-        language_root = copy_language(language)
+    for index, language in enumerate(LANGUAGES, start=1):
+        print(
+            f"[staging] Copying language {language} ({index}/{len(LANGUAGES)})...",
+            flush=True,
+        )
+        copy_language(language)
 
+    print("[staging] Creating fallback pages and translation maps...", flush=True)
     create_fallback_pages(groups)
     write_translation_map(groups)
 
-    for language in LANGUAGES:
+    for index, language in enumerate(LANGUAGES, start=1):
+        print(
+            f"[staging] Normalizing language {language} ({index}/{len(LANGUAGES)})...",
+            flush=True,
+        )
         language_root = BUILD / language
-        normalize_internal_doc_links(language_root)
-        normalize_image_links(language_root)
-        convert_obsidian_callouts_in_markdown(language_root)
+        processed = normalize_markdown_files(language_root)
+        print(f"[staging]   Processed {processed} Markdown files.", flush=True)
+
+    print("[staging] Validating and exporting CircusFinder data...", flush=True)
+    export_datasets(DOCS, BUILD)
+    elapsed = time.perf_counter() - started
+    print(f"[staging] Complete in {elapsed:.1f}s.", flush=True)
 
 
 if __name__ == "__main__":

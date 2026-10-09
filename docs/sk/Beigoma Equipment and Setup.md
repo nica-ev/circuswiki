@@ -7,7 +7,7 @@ tags:
 created: 2026-06-11 00:00:00
 update: 2026-06-11 16:37:50
 title: Vybavenie a príprava pre Beigoma
-description: Praktický prehľad základného vybavenia potrebného pre Beigoma: topy, šnúrky, hracie plochy, bodovací materiál a príprava dielne.
+description: "Praktický prehľad základného vybavenia potrebného pre Beigoma: topy, šnúrky, hracie plochy, bodovací materiál a príprava dielne."
 authors:
   - Marc Bielert
 source:

@@ -133,7 +133,9 @@ http://127.0.0.1:8000/circuswiki/
 Use this command when checking the language switcher, translated pages, fallback
 pages, hover previews, or the same URL shape used on GitHub Pages. It builds all
 language configs first, augments the generated sitemaps, then serves the generated
-`site/` directory with `/circuswiki/` mapped locally.
+`site/` directory with `/circuswiki/` mapped locally. The initial build processes
+all configured languages and can take several minutes; progress is printed before
+the server starts accepting connections.
 
 Available options:
 
@@ -170,6 +172,37 @@ Build all language sites:
 ```powershell
 powershell -ExecutionPolicy Bypass -File tools/build_multilang.ps1
 ```
+
+## CircusFinder Prototype
+
+The experimental CircusFinder directory stores its source entries as Markdown
+under `docs/<lang>/circusfinder/places/`. Multilingual staging validates those
+entries and writes a generated dataset to
+`.build/<lang>/data/circusfinder.v1.json`. Structural data comes from the
+canonical original entry, while translated versions may supply localized titles
+and descriptions.
+
+Validate the source entries without building the site:
+
+```powershell
+python tools/circusfinder_cli.py validate
+```
+
+After a multilingual build, open the interactive static prototype at:
+
+```text
+http://127.0.0.1:8000/circuswiki/circusfinder/
+```
+
+The initial fictional records remain as unpublished schema examples. Public
+directory records can contain multiple contact people and email addresses,
+network classifications, exact street addresses, schedule links, and city- or
+region-level coordinates. Exact places use blue markers. Approximate coordinates
+use orange markers and must not be treated as street addresses.
+
+The prototype ships Leaflet 1.9.4 with the static assets so its interface does
+not depend on a JavaScript CDN at runtime. The upstream MIT license is retained
+at `site-assets/vendor/leaflet/LICENSE`.
 
 ## GitHub Pages
 

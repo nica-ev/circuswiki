@@ -7,7 +7,7 @@ tags:
 created: 2026-06-11 00:00:00
 update: 2026-06-11 16:37:50
 title: Beigoma Ausrüstung und Aufbau
-description: Praktischer Überblick über die Grundausstattung für Beigoma: Kreisel, Schnüre, Spielflächen, Punktematerial und Werkstatteinrichtung.
+description: "Praktischer Überblick über die Grundausstattung für Beigoma: Kreisel, Schnüre, Spielflächen, Punktematerial und Werkstatteinrichtung."
 authors:
   - Marc Bielert
 source:

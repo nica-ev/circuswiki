@@ -6,7 +6,7 @@ update: 2026-06-06 21:48:48
 publish: false
 tags:
   - case-study
-title: Ασφάλεια: Κλειδί για τον Αυτισμό
+title: "Ασφάλεια: Κλειδί για τον Αυτισμό"
 description:
 authors:
   - Eva Parlani

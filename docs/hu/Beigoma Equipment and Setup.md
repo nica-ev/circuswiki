@@ -7,7 +7,7 @@ tags:
 created: 2026-06-11 00:00:00
 update: 2026-06-11 16:37:50
 title: Beigoma Felszerelés és Beállítás
-description: Gyakorlati áttekintés a Beigomához szükséges alapvető felszerelésekről: pörgettyűk, zsinórok, játéktér, pontozóanyag és műhelyfelszerelés.
+description: "Gyakorlati áttekintés a Beigomához szükséges alapvető felszerelésekről: pörgettyűk, zsinórok, játéktér, pontozóanyag és műhelyfelszerelés."
 authors:
   - Marc Bielert
 source:

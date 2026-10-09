@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-06-07T15:18:29+00:00",
+  "updated": "2026-10-09T20:04:45+00:00",
   "description": "Canonical CircusWiki navigation model. Edit items, then preview/apply from the dev console.",
   "items": [
     {
@@ -91,6 +91,24 @@
         "pt": "Projeto Erasmus+",
         "cs": "Projekt Erasmus+",
         "sk": "Projekt Erasmus+"
+      }
+    },
+    {
+      "id": "circusfinder",
+      "page": "circusfinder/index.md",
+      "labels": {
+        "de": "CircusFinder",
+        "en": "CircusFinder",
+        "pl": "CircusFinder",
+        "hu": "CircusFinder",
+        "it": "CircusFinder",
+        "nl": "CircusFinder",
+        "el": "CircusFinder",
+        "es": "CircusFinder",
+        "uk": "CircusFinder",
+        "pt": "CircusFinder",
+        "cs": "CircusFinder",
+        "sk": "CircusFinder"
       }
     },
     {

@@ -6,7 +6,7 @@ update: 2026-06-06 21:48:48
 publish: false
 tags:
   - case-study
-title: Почуття безпеки: ключ до аутизму
+title: "Почуття безпеки: ключ до аутизму"
 description:
 authors:
   - Eva Parlani

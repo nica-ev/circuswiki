@@ -5,7 +5,7 @@ created: 2025-03-17 00:18:32
 update: 2025-03-17 00:19:48
 publish: true
 tags: 
-title: Θέμα Εργαστηρίου: Πειρατές
+title: "Θέμα Εργαστηρίου: Πειρατές"
 description: 
 authors:
   - Marc Bielert

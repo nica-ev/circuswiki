@@ -5,7 +5,7 @@ created: 2025-03-17 00:18:32
 update: 2025-03-17 00:19:48
 publish: true
 tags: 
-title: Téma workshopu: Piráti
+title: "Téma workshopu: Piráti"
 description: 
 authors:
   - Marc Bielert

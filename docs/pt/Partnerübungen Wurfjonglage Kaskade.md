@@ -6,7 +6,7 @@ update: 2025-02-25 00:18:42
 publish: true
 tags:
   - jonglage
-title: Exercícios de Arremesso em Dupla: Cascata
+title: "Exercícios de Arremesso em Dupla: Cascata"
 description: 
 authors:
   - Marc Bielert

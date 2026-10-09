@@ -6,7 +6,7 @@ update: 2026-06-06 21:48:48
 publish: false
 tags:
   - case-study
-title: Sentirsi Sicuri: Una Chiave per l'Autismo
+title: "Sentirsi Sicuri: Una Chiave per l'Autismo"
 description:
 authors:
   - Eva Parlani
