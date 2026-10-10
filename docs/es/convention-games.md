@@ -15,14 +15,14 @@ translation_status: machine-translated
 translation_id: convention-games
 translation_source: docs/de/convention-games.md
 translation_source_lang: de
-translation_source_body_hash: 14c0788623d74c2d7d38eaa4293c118e223ba9c7dfb54108a599c254b3f88cd7
-translation_source_hash: 14c0788623d74c2d7d38eaa4293c118e223ba9c7dfb54108a599c254b3f88cd7
+translation_source_body_hash: f1ca23a5b076ce79bd582b476ff93479aa620bfad258e9a79ba37b9d47e94b46
+translation_source_hash: f1ca23a5b076ce79bd582b476ff93479aa620bfad258e9a79ba37b9d47e94b46
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-14T19:24:04+00:00
+translation_updated: 2026-10-10T00:46:09+00:00
 translation_source_metadata_hash: 793935fa0bcc99b7aa20a6f53925d3f51c123cfcc0b05eafe54d8e28f4484f5b
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-14T19:24:04+00:00
+translation_metadata_updated: 2026-10-10T00:46:09+00:00
 translation_source_localized_metadata_hash: 793935fa0bcc99b7aa20a6f53925d3f51c123cfcc0b05eafe54d8e28f4484f5b
 translation_source_structural_metadata_hash: f9b6300bf4148fc4552f3ed93683661672cf6d2543bd537203a0674deb021708
 ---
@@ -39,6 +39,7 @@ format: table
 | ------------------------------------------------------------------------------------------------ | ---------------------------------------------------------- | ------------- | ------------- | ---------- | --------------------------------------------------------------------------------------------------------------- | -------- |
 | [3 Bolas Gladiadores Piggyback](<3-ball-piggyback-gladiators.md>)                                | convention-games, juggling, partner-games                  | 30            | 4             | difícil    | Tres pelotas de malabares por pareja, arena marcada                                                             | 5-10     |
 | [Simon Says con 3 Pelotas](<3-ball-simon-says.md>)                                               | convention-games, ball-games, juggling, reaction-games     | 50            | 3             | intermedio | Tres pelotas de malabares por jugador                                                                           | 5-10     |
+| [3 Bolas: Eliminación Zombie](<3-ball-zombie-knockout.md>)                                       | convention-games, juggling, tag-games                      | 40            | 5             | medio      | Tres pelotas de malabares por jugador activo, área marcada                                                      | 5-10     |
 | [Malabarismo de Distancia con 3 Maces](<3-club-distance-juggling.md>)                            | convention-games, juggling, distance                       | 40            | 2             | intermedio | Maces de malabarismo, marcadores de distancia                                                                   | 5-15     |
 | [Carrera de 3 Mazas](<3-club-race.md>)                                                           | convention-games, club-games, race                         | 60            | 2             | media      | Tres mazas por pareja, recorrido de carrera                                                                     | 5-15     |
 | [Los 3 objetos más inusuales para malabares](<3-most-unusual-objects-juggled.md>)                | convention-games, miscellaneous, juggling                  | 40            | 2             | fácil      | Objetos inusuales elegidos por los participantes                                                                | 5-15     |

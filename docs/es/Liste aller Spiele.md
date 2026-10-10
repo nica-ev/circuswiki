@@ -14,14 +14,14 @@ authors:
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Liste aller Spiele.md
-translation_source_hash: 8946e1179c03ea1938629b77e282e2fd76adf3d1a790b429ea64822ae3ad1a07
+translation_source_hash: c6776afcb84053fee488ced91c7604e59fe85a1923fbeab7753cfc383f0c9fd8
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-14T19:32:49+00:00
-translation_source_body_hash: 8946e1179c03ea1938629b77e282e2fd76adf3d1a790b429ea64822ae3ad1a07
+translation_updated: 2026-10-10T00:46:21+00:00
+translation_source_body_hash: c6776afcb84053fee488ced91c7604e59fe85a1923fbeab7753cfc383f0c9fd8
 translation_source_metadata_hash: 1048047186f06e75dc548d1931eeb14384e77ad004616d6b714565ab697713a4
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-14T19:32:49+00:00
+translation_metadata_updated: 2026-10-10T00:46:21+00:00
 translation_source_localized_metadata_hash: 1048047186f06e75dc548d1931eeb14384e77ad004616d6b714565ab697713a4
 translation_source_structural_metadata_hash: e214f427b1fd7d3c3be1f23ae6f234c1b4e981a85cdf4d5ce8a24ff18fe00a33
 ---
@@ -41,6 +41,7 @@ format: table
 | [Tres en raya](<3%20gewinnt.md>)                                                                           | 4             | 30            | medio               | 9 aros, 6 objetos de colores, marca de inicio                                                                   | 5-20     |
 | [3 Bolas Gladiadores Piggyback](<3-ball-piggyback-gladiators.md>)                                          | 4             | 30            | difícil             | Tres pelotas de malabares por pareja, arena marcada                                                             | 5-10     |
 | [Simon Says con 3 Pelotas](<3-ball-simon-says.md>)                                                         | 3             | 50            | intermedio          | Tres pelotas de malabares por jugador                                                                           | 5-10     |
+| [3 Bolas: Eliminación Zombie](<3-ball-zombie-knockout.md>)                                                 | 5             | 40            | medio               | Tres pelotas de malabares por jugador activo, área marcada                                                      | 5-10     |
 | [Malabarismo de Distancia con 3 Maces](<3-club-distance-juggling.md>)                                      | 2             | 40            | intermedio          | Maces de malabarismo, marcadores de distancia                                                                   | 5-15     |
 | [Carrera de 3 Mazas](<3-club-race.md>)                                                                     | 2             | 60            | media               | Tres mazas por pareja, recorrido de carrera                                                                     | 5-15     |
 | [Los 3 objetos más inusuales para malabares](<3-most-unusual-objects-juggled.md>)                          | 2             | 40            | fácil               | Objetos inusuales elegidos por los participantes                                                                | 5-15     |

@@ -14,14 +14,14 @@ authors:
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Liste aller Spiele.md
-translation_source_hash: 8946e1179c03ea1938629b77e282e2fd76adf3d1a790b429ea64822ae3ad1a07
+translation_source_hash: c6776afcb84053fee488ced91c7604e59fe85a1923fbeab7753cfc383f0c9fd8
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-14T19:32:40+00:00
-translation_source_body_hash: 8946e1179c03ea1938629b77e282e2fd76adf3d1a790b429ea64822ae3ad1a07
+translation_updated: 2026-10-10T00:46:15+00:00
+translation_source_body_hash: c6776afcb84053fee488ced91c7604e59fe85a1923fbeab7753cfc383f0c9fd8
 translation_source_metadata_hash: 1048047186f06e75dc548d1931eeb14384e77ad004616d6b714565ab697713a4
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-14T19:32:40+00:00
+translation_metadata_updated: 2026-10-10T00:46:15+00:00
 translation_source_localized_metadata_hash: 1048047186f06e75dc548d1931eeb14384e77ad004616d6b714565ab697713a4
 translation_source_structural_metadata_hash: e214f427b1fd7d3c3be1f23ae6f234c1b4e981a85cdf4d5ce8a24ff18fe00a33
 ---
@@ -65,6 +65,7 @@ format: table
 | [Wirujący Kłębek](<B%C3%A4llewirrwarr.md>)                                                                   | 5          | 15         | łatwy - trudny    | Piłki                                                                                                           | 10       |
 | [Gladiatorzy z balonów](<balloon-modelling-gladiators.md>)                                                   | 3          | 60         | średni            | Zwierzątka z balonów, wykałaczki                                                                                | 5-15     |
 | [Siatkówka Beach Flingo](<beach-flingo-volleyball.md>)                                                       | 2          | 40         | trudny            | Bibi lub chusty do rzucania Beach Flingo, piłka, siatka lub linia boiska                                        | 5-15     |
+| [Beigoma: Gra z 10-minutową modyfikacją](<Beigoma%2010-Minute%20Modification%20Game.md>)                     | 2          | 20         | trudny            | Beigoma, sznurki, podłoga do gry, pilniki, papier ścierny, sprzęt ochronny, stoper                              | 20-45    |
 | [Beigoma Point Match](<Beigoma%20Point%20Match.md>)                                                          | 2          | 40         | średni            | Beigoma, sznurki, podłoga do gry, karta wyników, długopisy                                                      | 10-15    |
 | [Mecz Turniejowy Beigoma](<Beigoma%20Tournament%20Match.md>)                                                 | 4          | 64         | średni            | Beigoma, sznurki, podłoga do gry, drabinka turniejowa                                                           | 15-60    |
 | [Prędkość](<Beigoma-Spiel-Speed.md>)                                                                         | -          | -          | -                 | -                                                                                                               | -        |
