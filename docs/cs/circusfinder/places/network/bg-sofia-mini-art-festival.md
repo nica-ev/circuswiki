@@ -40,8 +40,12 @@ translation_source_metadata_hash: d521314b657d796bd0839647971ee86f403da83a034a03
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
 translation_metadata_updated: 2026-10-10T00:13:51+00:00
-translation_source_structural_metadata_hash: c3df9bc6700f0041fc1c1837c10000ef4b4709d74a2514466cb7a01692d62b36
+translation_source_structural_metadata_hash: d94ab72034f0ecb00ca3de2e90304df07078a41d0835ec84622eb26ce4517899
+source:
+  - name: "QuatProps Collective"
+    url: "https://quatprops.com/"
 ---
+
 # Mini Art Festival
 
 Mini Art Festival je uveden jako **Místní partner** v Sofii v Bulharsku.

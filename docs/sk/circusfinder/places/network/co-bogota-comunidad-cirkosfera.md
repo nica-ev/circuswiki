@@ -41,8 +41,12 @@ translation_source_metadata_hash: b82474de85907d3d73f0f36bf7365f5b08031474d2d0f3
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
 translation_metadata_updated: 2026-10-10T00:16:51+00:00
-translation_source_structural_metadata_hash: c0640ae84147995b4a45aaaa77c2ed77a38c4a458acd7d4387eb6d5c17e339b6
+translation_source_structural_metadata_hash: f75917a8a24e3ed062fe190234d44a445aa9942d30a79fd55b11ecc360f621b7
+source:
+  - name: "QuatProps Collective"
+    url: "https://quatprops.com/"
 ---
+
 # Komunita CirKósfera
 
 Comunidad CirKósfera je uvedená ako **Miestny partner** v Bogote, Kolumbia.

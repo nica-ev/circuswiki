@@ -47,8 +47,12 @@ translation_source_metadata_hash: 3947dcf741a69767a399ba50f57dfcd5561b61789b9d72
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
 translation_metadata_updated: 2026-10-10T00:10:38+00:00
-translation_source_structural_metadata_hash: 2a36c0607dc1fda1c91ebd297dbf45c02f9941bda7576550557198ec2f39c45c
+translation_source_structural_metadata_hash: 334223ce7a5c42674389894cc86a2cc8ff2baafc141fe5ef26d44066dbf3eead
+source:
+  - name: "NICA e.V."
+    url: "https://nica.network/"
 ---
+
 # Αίθουσα EigenArts
 
 Η Αίθουσα EigenArts προσφέρει **Aerial Yoga** στον αθλητικό χώρο του Ιατρικού Κέντρου. Η αίθουσα προπόνησης βρίσκεται στον δεύτερο όροφο του πίσω κτιρίου. Η προπόνηση με τον ιμάντα συνδυάζει δύναμη, ευλυγισία, ισορροπία και χαλάρωση.

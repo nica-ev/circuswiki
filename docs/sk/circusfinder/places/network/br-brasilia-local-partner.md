@@ -35,8 +35,12 @@ translation_source_metadata_hash: 602565bc4f7136db3070e4068da5088df471ae3673fb82
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
 translation_metadata_updated: 2026-10-10T00:14:08+00:00
-translation_source_structural_metadata_hash: 06d5bfdcfd54a71f357babfc59010f9bce4c04dde633fe287abb23de795cf694
+translation_source_structural_metadata_hash: 119b5996bf99506420914d45adec6dfcf74e2acb57b5cac3180b8949fedc2b56
+source:
+  - name: "QuatProps Collective"
+    url: "https://quatprops.com/"
 ---
+
 # Kontakt na miestneho partnera — Brasília
 
 Kontakt na miestneho partnera — Brasília je uvedený ako **Miestny partner** v Brasílii, Brazília.

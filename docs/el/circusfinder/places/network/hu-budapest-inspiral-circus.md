@@ -40,8 +40,12 @@ translation_source_metadata_hash: ae498117b4f6747cb7af2cea4834a5df0243b128fc5cfd
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
 translation_metadata_updated: 2026-10-10T00:22:05+00:00
-translation_source_structural_metadata_hash: 4ae27eedad029000b397637c0ec8db3614e61d9abdceb3c625b3f25e06383acb
+translation_source_structural_metadata_hash: 13ab950beb5b627e648adaa91f51d32714e669fd6e60ffc912885e8e3a9900cf
+source:
+  - name: "QuatProps Collective"
+    url: "https://quatprops.com/"
 ---
+
 # INspiral Circus
 
 Η INspiral Circus αναφέρεται ως **Global Partner - European** στη Βουδαπέστη της Ουγγαρίας.

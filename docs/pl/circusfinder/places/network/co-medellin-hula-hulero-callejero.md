@@ -40,8 +40,12 @@ translation_source_metadata_hash: 807a8a9b6c83bf51113055377279cb07c71f3b1730352d
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
 translation_metadata_updated: 2026-10-10T00:17:34+00:00
-translation_source_structural_metadata_hash: c633389b78d2a86c7d6b1023b2088bfc867a955592f49702ac3dc7bb144845c3
+translation_source_structural_metadata_hash: a0498aa86b739a039ba0e90410f122277ff6c68e56951885347dd9deeda312f8
+source:
+  - name: "QuatProps Collective"
+    url: "https://quatprops.com/"
 ---
+
 # Hula Hulero Callejero
 
 Hula Hulero Callejero jest wymieniony jako **Lokalny Partner** w Medellín w Kolumbii.

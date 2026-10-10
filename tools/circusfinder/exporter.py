@@ -5,6 +5,7 @@ from dataclasses import dataclass
 from datetime import date, datetime
 from pathlib import Path
 from typing import Any
+from urllib.parse import urlparse
 
 import yaml
 
@@ -73,6 +74,28 @@ def _number(value: Any) -> float | None:
         return None
 
 
+def _sources(value: Any) -> list[dict[str, str]]:
+    if not isinstance(value, list):
+        return []
+    sources: list[dict[str, str]] = []
+    for item in value:
+        if not isinstance(item, dict):
+            continue
+        source = {
+            key: _string(item.get(key))
+            for key in ("name", "url", "dataset_url", "record_name", "retrieved", "batch_id")
+            if _string(item.get(key))
+        }
+        if source:
+            sources.append(source)
+    return sources
+
+
+def _is_http_url(value: str) -> bool:
+    parsed = urlparse(value)
+    return parsed.scheme in {"http", "https"} and bool(parsed.netloc)
+
+
 def _frontmatter(path: Path) -> dict[str, Any]:
     document = split_markdown(path.read_text(encoding="utf-8-sig"))
     if not document.has_frontmatter:
@@ -94,6 +117,23 @@ def _validate_entry(entry: DirectoryEntry, docs_root: Path) -> list[str]:
     for key in ("directory_id", "translation_id", "translation_status", "translation_source_lang", "title"):
         if not _string(data.get(key)):
             issues.append(f"{label}: missing {key}")
+
+    raw_sources = data.get("source")
+    sources = _sources(raw_sources)
+    if not isinstance(raw_sources, list) or not sources:
+        issues.append(f"{label}: source must be a non-empty list of mappings")
+    elif len(sources) != len(raw_sources):
+        issues.append(f"{label}: every source item must be a non-empty mapping")
+    else:
+        for index, source in enumerate(sources):
+            if not source.get("name"):
+                issues.append(f"{label}: source[{index}] is missing name")
+            if not source.get("url"):
+                issues.append(f"{label}: source[{index}] is missing url")
+            for key in ("url", "dataset_url"):
+                value = source.get(key)
+                if value and not _is_http_url(value):
+                    issues.append(f"{label}: source[{index}].{key} must be an HTTP(S) URL")
 
     if _string(data.get("lang")) != entry.language:
         issues.append(f"{label}: lang must match the '{entry.language}' folder")
@@ -267,6 +307,7 @@ def _record(
         "opening_hours": _string_list(data.get("opening_hours")),
         "schedule_note": _string(data.get("schedule_note")),
         "schedule_url": _string(data.get("schedule_url")),
+        "source": _sources(data.get("source")),
         "source_urls": _string_list(data.get("source_urls")),
         "last_verified": _string(data.get("last_verified")),
         "verification_status": _string(data.get("verification_status")),
@@ -278,10 +319,15 @@ def _record(
     }
 
 
-def write_datasets(entries: list[DirectoryEntry], build_root: Path) -> dict[str, int]:
+def write_datasets(
+    entries: list[DirectoryEntry],
+    build_root: Path,
+    target_languages: tuple[str, ...] | None = None,
+) -> dict[str, int]:
     groups = _group_entries(entries)
     counts: dict[str, int] = {}
-    for language in language_codes():
+    languages = language_codes() if target_languages is None else target_languages
+    for language in languages:
         records = []
         for versions in groups.values():
             canonical = next(entry for entry in versions if entry.is_original)
@@ -302,5 +348,13 @@ def write_datasets(entries: list[DirectoryEntry], build_root: Path) -> dict[str,
     return counts
 
 
-def export_datasets(docs_root: Path, build_root: Path) -> dict[str, int]:
-    return write_datasets(load_entries(docs_root), build_root)
+def export_datasets(
+    docs_root: Path,
+    build_root: Path,
+    target_languages: tuple[str, ...] | None = None,
+) -> dict[str, int]:
+    return write_datasets(
+        load_entries(docs_root),
+        build_root,
+        target_languages=target_languages,
+    )

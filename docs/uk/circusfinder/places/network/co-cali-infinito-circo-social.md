@@ -40,8 +40,12 @@ translation_source_metadata_hash: 5e7d0e05af46e952fe348b2d19d681a431445bc258caab
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
 translation_metadata_updated: 2026-10-10T00:17:14+00:00
-translation_source_structural_metadata_hash: 72739d9336581ba23f2cb26769112aa6f2d5d752149c61f49f070e99a56b44b7
+translation_source_structural_metadata_hash: 06f296dbad51ea4a43aaf111f50c54adaa336e4dcfe1353d971d5a0ceb527a72
+source:
+  - name: "QuatProps Collective"
+    url: "https://quatprops.com/"
 ---
+
 # Infinito Circo Social
 
 Infinito Circo Social вказано як **Місцевий партнер** у Калі, Колумбія.

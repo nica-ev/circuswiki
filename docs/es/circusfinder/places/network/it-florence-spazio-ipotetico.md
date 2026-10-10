@@ -40,8 +40,12 @@ translation_source_metadata_hash: 97244a06c39bcc017307dcd7c787519fa0bba65b9d94ee
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
 translation_metadata_updated: 2026-10-10T00:23:47+00:00
-translation_source_structural_metadata_hash: b92860da2a4aadd37fd026b79fa8f06d2734e5d96db875eb37a0ea40f0cf6837
+translation_source_structural_metadata_hash: 9e2b7814ae2da4857d3cbfd209f4b9bcaed2551785fbb4bafcab06f7b3b3c718
+source:
+  - name: "QuatProps Collective"
+    url: "https://quatprops.com/"
 ---
+
 # Spazio Ipotetico
 
 Spazio Ipotetico aparece listado como **Socio Local** en Florencia, Italia.

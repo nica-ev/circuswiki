@@ -41,8 +41,12 @@ translation_source_metadata_hash: c7b1db3c7f9785e4153f904d5286c5d1dccbdb471f4e2e
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
 translation_metadata_updated: 2026-10-10T00:12:16+00:00
-translation_source_structural_metadata_hash: 01b86ec1537301f166ced32b34a916082f6edd32466a2f8f3c20de8cac6bfd77
+translation_source_structural_metadata_hash: 31363e918d8fb77055a461ed4cd2486a348d316468a47d33e8bb26756b0110cf
+source:
+  - name: "QuatProps Collective"
+    url: "https://quatprops.com/"
 ---
+
 # Quat Props Argentina
 
 Quat Props Argentina вказано як **Регіональний партнер** у Буенос-Айресі, Аргентина.

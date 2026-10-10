@@ -40,8 +40,12 @@ translation_source_metadata_hash: 38ad593792fe06a2504115fc29cc81e86ef567cb938348
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
 translation_metadata_updated: 2026-10-10T00:26:14+00:00
-translation_source_structural_metadata_hash: 521552d15adc70e34872392bac3212178e3b86db051a7498d348dd914843867e
+translation_source_structural_metadata_hash: de59fe4b8cf70bfd4333cf3abb28109d0e81796475f27c3e9319efcf6375962a
+source:
+  - name: "QuatProps Collective"
+    url: "https://quatprops.com/"
 ---
+
 # Edwin Gonzalez
 
 Edwin Gonzalez è indicato come **Partner Locale** a Città del Messico, Messico.

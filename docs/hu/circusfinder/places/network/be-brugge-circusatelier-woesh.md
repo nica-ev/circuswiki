@@ -41,8 +41,12 @@ translation_source_metadata_hash: 2240d76812dbff7effd6103e4e7e36b7555ec82bf45f5e
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
 translation_metadata_updated: 2026-10-10T00:13:03+00:00
-translation_source_structural_metadata_hash: 4f62dc541993c2b891fb552ec499894a7ef2d9a7b932f59f40f45f70aced38de
+translation_source_structural_metadata_hash: 94d5e64de14e89918faefcd44085fe21501608a0f0f9a072a3c4492d3f705c2d
+source:
+  - name: "QuatProps Collective"
+    url: "https://quatprops.com/"
 ---
+
 # Circusatelier Woesh
 
 A Circusatelier Woesh Brugge-ban, Belgiumban található, mint **Globális Partner – Európa**.

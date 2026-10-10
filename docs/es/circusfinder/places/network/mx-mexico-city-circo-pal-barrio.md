@@ -40,8 +40,12 @@ translation_source_metadata_hash: d05105e95161a8aeac60008907eb713259654bdbbb4265
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
 translation_metadata_updated: 2026-10-10T00:25:50+00:00
-translation_source_structural_metadata_hash: a2e1f8bcf5f06fa5501c6e03ee4bc01e7e49ec1d6cec82138774ecf5dd0e003b
+translation_source_structural_metadata_hash: 4f55c874a91841d0175d70f0ecb53e5daa23df98d3bb4bec1de555153191ab2a
+source:
+  - name: "QuatProps Collective"
+    url: "https://quatprops.com/"
 ---
+
 # Circo Pa’l Barrio
 
 Circo Pa’l Barrio está listado como **Socio Local** en Ciudad de México, México.

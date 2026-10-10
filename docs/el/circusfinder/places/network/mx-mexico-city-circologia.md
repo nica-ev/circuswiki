@@ -40,8 +40,12 @@ translation_source_metadata_hash: f3ae10c427983470097a16e74fb131bf0793e7b4d97a27
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
 translation_metadata_updated: 2026-10-10T00:26:03+00:00
-translation_source_structural_metadata_hash: 355866b05ba2e4eb80f17690c36859435b53a367127895f3a6f997e120e912b1
+translation_source_structural_metadata_hash: 210ead3382bc0ef8f6fb3da1e8f098fdeba90b4be4c64186943110af71572e93
+source:
+  - name: "QuatProps Collective"
+    url: "https://quatprops.com/"
 ---
+
 # Circologia
 
 Η Circologia αναφέρεται ως **Περιφερειακός Συνεργάτης** στην Πόλη του Μεξικού, Μεξικό.

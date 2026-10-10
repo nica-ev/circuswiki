@@ -40,8 +40,12 @@ translation_source_metadata_hash: a21714f4172a324ec103d59c1dea272231635005b332d5
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
 translation_metadata_updated: 2026-10-10T00:16:57+00:00
-translation_source_structural_metadata_hash: 272b54ba9afe4cfd64e308fc4a2f5d3411f14de1aa014f760f7b51f23c6268a6
+translation_source_structural_metadata_hash: 7a38c1f9736a1ea92c103900617584dbb79ff07ba37e815dbb7af44a3d6f73a1
+source:
+  - name: "QuatProps Collective"
+    url: "https://quatprops.com/"
 ---
+
 # Circo Herencias
 
 Circo Herencias staat vermeld als **Lokale Partner** in Cali, Colombia.

@@ -45,6 +45,9 @@ source_urls:
   - "https://zirkusklatschmohn.de/zirkus-klatschmohn/"
   - "https://zirkusklatschmohn.de/"
   - "https://www.kulturfalter.de/veranstaltungsorte/detail/Halle/zirkuszelt-am-rossplatz/332/"
+source:
+  - name: "NICA e.V."
+    url: "https://nica.network/"
 ---
 
 # Zirkus Klatschmohn

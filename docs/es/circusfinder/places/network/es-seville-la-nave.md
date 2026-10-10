@@ -40,8 +40,12 @@ translation_source_metadata_hash: 776345999fb0f3ebbac79d7a0bf49a2a4df690b73e540c
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
 translation_metadata_updated: 2026-10-10T00:20:30+00:00
-translation_source_structural_metadata_hash: 24a5ee858e96f9bece659036a55d119f3e44ce1caeb5bc904d8bdad10290a540
+translation_source_structural_metadata_hash: 66daf503049e844788b5e66abf83c12ad2d34802b71676537183923e2b04a6e4
+source:
+  - name: "QuatProps Collective"
+    url: "https://quatprops.com/"
 ---
+
 # La Nave
 
 La Nave figura como **Socio Local** en Sevilla, España.

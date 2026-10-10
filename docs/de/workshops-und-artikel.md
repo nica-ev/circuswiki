@@ -14,7 +14,6 @@ authors:
 translation_status: original
 translation_source_lang: de
 ---
-
 <!-- dynamic:start
 engine: obsidian-base
 base: _bases/Resourcen.base

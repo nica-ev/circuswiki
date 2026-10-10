@@ -41,8 +41,12 @@ translation_source_metadata_hash: 56c69a8487c05dc75686aa48a37639810e06ef147c5a17
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
 translation_metadata_updated: 2026-10-10T00:15:10+00:00
-translation_source_structural_metadata_hash: 929da7a02018546440af377fa411aaa5ab427e1f632062167b8913fefe6ea6dc
+translation_source_structural_metadata_hash: 7ca5d9bc2535a312bba12b2db7c198804ce1859f4de59e716401a2f4ff7bee42
+source:
+  - name: "QuatProps Collective"
+    url: "https://quatprops.com/"
 ---
+
 # École de Cirque de Québec
 
 Η École de Cirque de Québec αναφέρεται ως **Περιφερειακός Συνεργάτης** στην πόλη του Κεμπέκ, Κεμπέκ, Καναδάς.

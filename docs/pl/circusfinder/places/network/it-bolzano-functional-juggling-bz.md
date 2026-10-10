@@ -40,8 +40,12 @@ translation_source_metadata_hash: 7b0aa71776b8a9f85100a845805df3b20aab976ae46e2d
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
 translation_metadata_updated: 2026-10-10T00:23:10+00:00
-translation_source_structural_metadata_hash: 3ed48b1cdefaab8e6a6a145021f9bbecc00f219fbdba19eb31ff4ef32a89a5be
+translation_source_structural_metadata_hash: 5081e9218fbe37af2b50bf4f9d000ef342f3b204c38f291ecffe72d689c8597c
+source:
+  - name: "QuatProps Collective"
+    url: "https://quatprops.com/"
 ---
+
 # Funkcjonalne Żonglowanie BZ
 
 Funkcjonalne Żonglowanie BZ jest wymienione jako **Lokalny Partner** w Bolzano we Włoszech.

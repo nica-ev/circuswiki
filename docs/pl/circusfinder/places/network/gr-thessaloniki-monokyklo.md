@@ -40,8 +40,12 @@ translation_source_metadata_hash: d6300a95bf88a15fada11e050cb1d4e531d5468948cfb0
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
 translation_metadata_updated: 2026-10-10T00:21:46+00:00
-translation_source_structural_metadata_hash: a1c0c862964cb059a08265e69690aa141f3e4c292d34ac1ab976dc360ce58392
+translation_source_structural_metadata_hash: e7e6791d1a7822acf5d388ee9de1f50fb77e6aab2ae71399faf77746c07fbf3a
+source:
+  - name: "QuatProps Collective"
+    url: "https://quatprops.com/"
 ---
+
 # Monokyklo
 
 Monokyklo jest wymienione jako **Lokalny Partner** w Salonikach w Grecji.

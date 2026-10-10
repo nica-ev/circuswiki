@@ -40,8 +40,12 @@ translation_source_metadata_hash: 80b413d8d117dc3ebf07900d18d16de6129bc19165dae7
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
 translation_metadata_updated: 2026-10-10T00:28:13+00:00
-translation_source_structural_metadata_hash: aa9b2922e049bd51738dc684a0c19bd9acc77593393267d79a241a90d9474484
+translation_source_structural_metadata_hash: 5e347aff5c9966d27a67d4b34b2873e4c7c3ba31bc2c05b3723ec965ceee0a36
+source:
+  - name: "QuatProps Collective"
+    url: "https://quatprops.com/"
 ---
+
 # Cirkus Fuskabo
 
 Το Cirkus Fuskabo αναφέρεται ως **Τοπικός Συνεργάτης** στη Λιουμπλιάνα της Σλοβενίας.

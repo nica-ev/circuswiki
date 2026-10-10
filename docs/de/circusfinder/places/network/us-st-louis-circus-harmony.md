@@ -41,8 +41,12 @@ translation_source_metadata_hash: 7b83b980309b7e61c9e771dcd06a6abdd76ffa43654c65
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
 translation_metadata_updated: 2026-10-10T00:29:33+00:00
-translation_source_structural_metadata_hash: 3beff70b3125a9258f4a4d76d8d72e651ccf700560330c2e93b82b7cf4856fda
+translation_source_structural_metadata_hash: 840dff32ed644ffbb4de30e8232e69f7391a7c3fbb3ee994fa0440489af8a2eb
+source:
+  - name: "QuatProps Collective"
+    url: "https://quatprops.com/"
 ---
+
 # Circus Harmony
 
 Circus Harmony ist als **lokaler Partner** in St. Louis, Missouri, USA, aufgeführt.

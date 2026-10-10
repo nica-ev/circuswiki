@@ -40,8 +40,12 @@ translation_source_metadata_hash: 0587829b6e4e179ebca60563a39274a68b61e50fee9318
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
 translation_metadata_updated: 2026-10-10T00:28:47+00:00
-translation_source_structural_metadata_hash: 71fbda5ff1d3a46dbc39edecb925c9550eb17552b86ae87a2266a5c4c7f8c706
+translation_source_structural_metadata_hash: 6755e1f17dcf759989b570947c4b97f36cbdf438a8708798e001366fe25fa652
+source:
+  - name: "QuatProps Collective"
+    url: "https://quatprops.com/"
 ---
+
 # Cadir Studyo
 
 Cadir Studyo je uvedený ako **Miestny partner** v Istanbule v Turecku.

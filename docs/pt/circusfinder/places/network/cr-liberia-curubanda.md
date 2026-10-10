@@ -40,8 +40,12 @@ translation_source_metadata_hash: 04cbb214511ba107556d47ab61a443e4627aaf79df0739
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
 translation_metadata_updated: 2026-10-10T00:17:56+00:00
-translation_source_structural_metadata_hash: 31bcd8dbce5b93b84c48e3aacf3c98371ce20a26d47c983fcc7e3d790310dbd0
+translation_source_structural_metadata_hash: 1d2e2f1cff34a7ad145021ff237840f794396128190250ad398d4ab7223b15ce
+source:
+  - name: "QuatProps Collective"
+    url: "https://quatprops.com/"
 ---
+
 # Curubanda
 
 Curubanda é listada como **Parceiro Local** na Libéria, Costa Rica.

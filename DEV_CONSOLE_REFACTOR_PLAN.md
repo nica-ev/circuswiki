@@ -1,6 +1,6 @@
 ---
 created: 2026-06-14 23:15:13
-update: 2026-06-15 04:02:00
+update: 2026-10-10 02:44:36
 status: draft
 scope: tools, tools/dev_console
 ---
@@ -576,20 +576,4 @@ Manual UI smoke checklist:
   - [x] `python tools/dev_console_static_check.py`
   - [x] `python -m unittest discover -s tools/tests`
   - [x] `python tools/dev_console_smoke.py`
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

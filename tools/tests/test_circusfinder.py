@@ -25,6 +25,7 @@ def entry_text(**overrides: object) -> str:
         "location_precision": "exact",
         "latitude": 52.5,
         "longitude": 13.4,
+        "source": [{"name": "Example source", "url": "https://example.org/data"}],
     }
     values.update(overrides)
     import yaml
@@ -49,6 +50,20 @@ class CircusFinderExportTests(unittest.TestCase):
             self.assertEqual(payload["records"][0]["id"], "demo")
             self.assertTrue(payload["records"][0]["translation_missing"])
 
+    def test_dataset_export_can_target_one_language(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            source = root / "docs" / "de" / "circusfinder" / "places" / "demo.md"
+            source.parent.mkdir(parents=True)
+            source.write_text(entry_text(), encoding="utf-8")
+
+            entries = load_entries(root / "docs")
+            counts = write_datasets(entries, root / ".build", target_languages=("de",))
+
+            self.assertEqual(counts, {"de": 1})
+            self.assertTrue((root / ".build" / "de" / "data" / "circusfinder.v1.json").exists())
+            self.assertFalse((root / ".build" / "en").exists())
+
     def test_invalid_coordinates_fail_validation(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
@@ -61,6 +76,19 @@ class CircusFinderExportTests(unittest.TestCase):
                     load_entries(root / "docs")
 
             self.assertIn("latitude must be between -90 and 90", str(error.exception))
+
+    def test_missing_source_fails_validation(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            source = root / "docs" / "de" / "circusfinder" / "places" / "demo.md"
+            source.parent.mkdir(parents=True)
+            source.write_text(entry_text(source=None), encoding="utf-8")
+
+            with patch("circusfinder.exporter.language_codes", return_value=("de",)):
+                with self.assertRaises(DirectoryValidationError) as error:
+                    load_entries(root / "docs")
+
+            self.assertIn("source must be a non-empty list of mappings", str(error.exception))
 
     def test_translation_localizes_text_but_not_structural_data(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:
@@ -145,6 +173,13 @@ class CircusFinderExportTests(unittest.TestCase):
                     schedule_note="Aktuelle Termine vor dem Besuch prüfen.",
                     schedule_url="https://example.org/schedule",
                     source_urls=["https://example.org/contact"],
+                    source=[
+                        {
+                            "name": "Example directory",
+                            "url": "https://example.org/directory",
+                            "record_name": "Example studio",
+                        }
+                    ],
                 ),
                 encoding="utf-8",
             )
@@ -160,6 +195,8 @@ class CircusFinderExportTests(unittest.TestCase):
             self.assertEqual(record["contact"]["phone"], "+49 345 123456")
             self.assertEqual(record["opening_hours"], ["Sonntag 17:30–20:30 Uhr"])
             self.assertEqual(record["schedule_url"], "https://example.org/schedule")
+            self.assertEqual(record["source"][0]["name"], "Example directory")
+            self.assertEqual(record["source"][0]["record_name"], "Example studio")
             self.assertEqual(record["source_urls"], ["https://example.org/contact"])
 
 

@@ -40,8 +40,12 @@ translation_source_metadata_hash: 945708d909ea04856f25ff59eb693c9377bdc5fd7c2952
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
 translation_metadata_updated: 2026-10-10T00:18:00+00:00
-translation_source_structural_metadata_hash: 39d3111d9e4bbb0ab850b75719113f6c42a5db49af7fe262114bcf5407f29585
+translation_source_structural_metadata_hash: 2b8cd2228b6c1266cbd00f11de7c55ef6a2955e560cde3cf42f8702c5c90a311
+source:
+  - name: "QuatProps Collective"
+    url: "https://quatprops.com/"
 ---
+
 # Circo FantazzTico
 
 Circo FantazzTico jest wymieniony jako **Lokalny Partner** w San Isidro de El General, Kostaryka.

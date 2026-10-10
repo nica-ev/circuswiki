@@ -40,8 +40,12 @@ translation_source_metadata_hash: 45850fbf0855abf028ea0a384dc300823d7038fb6f1976
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
 translation_metadata_updated: 2026-10-10T00:24:35+00:00
-translation_source_structural_metadata_hash: 6372b73cfa7865be00eb38e5917beae053a544e567ef595347ef39465092cacf
+translation_source_structural_metadata_hash: 3a393c04913bf0d82955128f2a0abf16e2776ee67eeb098f4d06f8d1f579141e
+source:
+  - name: "QuatProps Collective"
+    url: "https://quatprops.com/"
 ---
+
 # SELF APS
 
 SELF APS ist als **Regionaler Partner** in Turin, Italien, aufgeführt.

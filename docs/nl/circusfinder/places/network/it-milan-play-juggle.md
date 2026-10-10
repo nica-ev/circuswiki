@@ -40,8 +40,12 @@ translation_source_metadata_hash: 0a49cd9e324fdeab0b0f68735fe747bafa0b3ea7cf9fdd
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
 translation_metadata_updated: 2026-10-10T00:24:12+00:00
-translation_source_structural_metadata_hash: 52aad72e487fa3cd16d56098f75ff052dd8b09cf88f1ae58634c2458fa8f2d3f
+translation_source_structural_metadata_hash: 942ed9900625bb48a0da9b8a59ef085427596d2d0737d698fe813c0b58fb7c6e
+source:
+  - name: "QuatProps Collective"
+    url: "https://quatprops.com/"
 ---
+
 # Play Juggle
 
 Play Juggle staat vermeld als **Distributeur** in Milaan, Italië.

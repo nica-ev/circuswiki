@@ -160,11 +160,10 @@ python -m pip install -r requirements.txt
 Preview the default/German site only:
 
 ```powershell
-python tools/stage_multilang.py
-zensical serve
+powershell -ExecutionPolicy Bypass -File tools/serve_language.ps1
 ```
 
-This serves only `zensical.toml` and does not run multilingual post-build steps. Do not use it to verify language switching, fallback pages, or hover previews.
+This scans and stages only the selected language and runs Zensical from the repository `.venv`. Pass `-Language <code>` for another configured language. It does not run multilingual post-build steps. Do not use it to verify language switching, fallback pages, or hover previews.
 
 Preview compiled multilingual site with the deployed `/circuswiki/` URL prefix:
 
@@ -179,6 +178,8 @@ Build all language sites:
 ```powershell
 powershell -ExecutionPolicy Bypass -File tools/build_multilang.ps1
 ```
+
+Local builds are for development and verification, not a deployment prerequisite. Choose the smallest verification scope that is proportionate to the change: targeted checks or a single-language preview may be sufficient for isolated content work, while shared configuration, staging, navigation, URL, or multilingual changes may justify a complete multilingual build. Do not run an additional full local build solely because a change is about to be pushed or merged. The GitHub Pages workflow performs the authoritative clean deployment build from `main`, and generated `.build/` and `site/` output is not committed.
 
 Run tooling checks:
 

@@ -35,8 +35,12 @@ translation_source_metadata_hash: db4d0df9e66fafe7531f2e040ddf9490526ee89dc2ea4a
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
 translation_metadata_updated: 2026-10-10T00:14:38+00:00
-translation_source_structural_metadata_hash: 3ab745045b2f689a1fd1cc08fd26e408d8e4aa922699eea3c6682a6afeccefb0
+translation_source_structural_metadata_hash: 4c624ad726b49ac67ac05922e84adff5e81a08a1b1af73093233aa83126be28d
+source:
+  - name: "QuatProps Collective"
+    url: "https://quatprops.com/"
 ---
+
 # Helyi partner kapcsolattartó — Santa Catarina állam
 
 A „Helyi partner kapcsolattartó — Santa Catarina állam” bejegyzés a brazíliai Santa Catarina államban található **Helyi Partner**ként van feltüntetve.

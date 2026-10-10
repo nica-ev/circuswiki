@@ -40,8 +40,12 @@ translation_source_metadata_hash: 71674408e7bebc32af1384f7f3e36600a740bcb7cc8641
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
 translation_metadata_updated: 2026-10-10T00:21:40+00:00
-translation_source_structural_metadata_hash: 8ad8f23c3de4da1f83c4cdf73defe8df16c6a86a441804cff5b746567bdc0afb
+translation_source_structural_metadata_hash: bacae72490a52385eb307051d517c92154119a55fb2b8ed0ef9bc732adaf0f56
+source:
+  - name: "QuatProps Collective"
+    url: "https://quatprops.com/"
 ---
+
 # Цирковий Каміно
 
 Цирковий Каміно вказаний як **Глобальний партнер – Європа** на Криті, Греція.

@@ -40,8 +40,12 @@ translation_source_metadata_hash: 200c941f60e6a21a97502059f247ce8a5c1b09ca054004
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
 translation_metadata_updated: 2026-10-10T00:22:59+00:00
-translation_source_structural_metadata_hash: a0d8e3c6ab4655201099075bd52be638466f128654e39b3a0c6e42ec38a42279
+translation_source_structural_metadata_hash: 63932a8ec6c7921c4d5e231b2a69fb5449a6d838a4d24cc835b320d3d860223a
+source:
+  - name: "QuatProps Collective"
+    url: "https://quatprops.com/"
 ---
+
 # Hringleikur
 
 Hringleikur è elencato come **Partner Locale** a Reykjavík, Islanda.

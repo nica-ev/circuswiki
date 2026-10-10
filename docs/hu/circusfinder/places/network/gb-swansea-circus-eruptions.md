@@ -40,8 +40,12 @@ translation_source_metadata_hash: 948f28dd89699bc101f1715982ecb5055db475578929ef
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
 translation_metadata_updated: 2026-10-10T00:21:20+00:00
-translation_source_structural_metadata_hash: 04cd2da652d3780a7ca01edf2a82be59c1f4db9eb213fdf9d9ec971f244972f3
+translation_source_structural_metadata_hash: c048dc9bbf9a5937078ba41bb7839c513fff9d9f8ae6d364228bec651206de93
+source:
+  - name: "QuatProps Collective"
+    url: "https://quatprops.com/"
 ---
+
 # Circus Eruptions
 
 A Circus Eruptions nevű szervezet Swansea-ben, Egyesült Királyságban **Helyi Partnerként** van nyilvántartva.

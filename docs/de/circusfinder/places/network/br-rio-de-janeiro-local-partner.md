@@ -35,8 +35,12 @@ translation_source_metadata_hash: f9184706a2c9cd50a1a34f9fb9398f6f77745db460306e
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
 translation_metadata_updated: 2026-10-10T00:14:22+00:00
-translation_source_structural_metadata_hash: 0e494a7838482f112e62455a0fd7daaef597a9bdb215a59a19b56fa4c772eb90
+translation_source_structural_metadata_hash: 605101dfd83fce68678d9454f86a195385620993ff65084acb428753975a45b7
+source:
+  - name: "QuatProps Collective"
+    url: "https://quatprops.com/"
 ---
+
 # Kontakt lokaler Partner – Rio de Janeiro
 
 Kontakt lokaler Partner – Rio de Janeiro ist als **Lokaler Partner** in Rio de Janeiro, Brasilien, aufgeführt.

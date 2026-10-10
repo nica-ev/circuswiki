@@ -1,0 +1,50 @@
+---
+lang: es
+translation_id: circusfinder/places/diversability/carre-magique
+created: '2026-10-10'
+update: '2026-10-10'
+publish: true
+tags:
+- circusfinder
+- inclusive-circus
+- diversability-circus
+title: "Carré Magique"
+description: "\"Un rond dans un carré – du cirque à l’IME\" es un proyecto colaborativo iniciado por el Institut Médico-Éducatif (IME) Jeannine Le Bouder en Minihy-Tréguier y Carré Magique, Pôle National Cirque en Bretagne, en colaboración con Galapiat Cirque."
+translation_status: machine-translated
+translation_source_lang: en
+directory_id: diversability-carre-magique
+entry_kinds:
+- organization
+directory_status: active
+latitude: 48.7319267
+longitude: -3.4545548
+location_precision: approximate
+organization: Carré Magique
+last_verified: '2026-10-10'
+verification_status: imported_public_map
+source:
+- name: DiversAbility Circus
+  url: https://diversabilitycircus.org/map/
+  dataset_url: https://www.google.com/maps/d/kml?mid=1y-Kcn2lBvxyfpTKRxYjVg7o8eK9g1Po&forcekml=1
+  record_name: Carré Magique
+  retrieved: '2026-10-10'
+  batch_id: diversability-circus-map-2026-10-10
+translation_source: docs/en/circusfinder/places/diversability/carre-magique.md
+translation_source_body_hash: 00515a72c8ada4f09a5a40845096d9d6755e58a5cba085c36e4d6e2cd35be58b
+translation_source_hash: 00515a72c8ada4f09a5a40845096d9d6755e58a5cba085c36e4d6e2cd35be58b
+translation_model: google/gemini-2.5-flash-lite
+translation_updated: 2026-10-10T16:52:28+00:00
+translation_source_localized_metadata_hash: be767864a9ac6748ea6e4f3070dab2d8f8732b11d47813783f2ca2174927ff52
+translation_source_metadata_hash: be767864a9ac6748ea6e4f3070dab2d8f8732b11d47813783f2ca2174927ff52
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-10-10T16:52:28+00:00
+translation_source_structural_metadata_hash: 27f389c87da76db179f0925f84d7e76b14e5762e03e5a7b54951a08acc0e1701
+---
+# Carré Magique
+
+"Un rond dans un carré – du cirque à l’IME" es un proyecto colaborativo iniciado por el Institut Médico-Éducatif (IME) Jeannine Le Bouder en Minihy-Tréguier y Carré Magique, Pôle National Cirque en Bretagne, en colaboración con Galapiat Cirque. Programada del 7 al 27 de abril de 2025, esta iniciativa tiene como objetivo ofrecer una experiencia artística inmersiva para los jóvenes del Programa Infantil de Trégor, sus familias y la comunidad local. Durante este período, se instalará una carpa de circo en el IME, que albergará talleres y espectáculos dirigidos por los artistas de circo Sébastien Wojdan, Elise Abonce Muhonen, Sylvain Briani Colin, el músico Jean-Philippe Sureau y la productora de proyectos de radio Anouk Edmont. Los participantes se involucrarán en diversas disciplinas circenses, como acrobacia, malabares y la rueda de la muerte, centrándose en temas como la asunción de riesgos, la autoconfianza y la confianza mutua.
+
+## Fuente
+
+Importado del [DiversAbility Circus Map](https://diversabilitycircus.org/map/) el 2026-10-10. La posición en el mapa se considera aproximada porque la fuente no proporciona un campo estructurado de precisión de ubicación.

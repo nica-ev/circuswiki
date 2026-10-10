@@ -40,8 +40,12 @@ translation_source_metadata_hash: e91ef214276cdb5a4e4a432f8b204cc4e20791b09307a5
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
 translation_metadata_updated: 2026-10-10T00:22:17+00:00
-translation_source_structural_metadata_hash: 4bb6031544efa7979ecc4f8a2de092f667811fade72e0af97e0f6ff06f67d684
+translation_source_structural_metadata_hash: dfdb6412879f9fdaa41c4b1374181d62ef2e4699f15ce59eafe19d4ee4e92245
+source:
+  - name: "QuatProps Collective"
+    url: "https://quatprops.com/"
 ---
+
 # Cloughjordan Circus Club
 
 Cloughjordan Circus Club staat vermeld als **Lokale Partner** in Cloughjordan, Republiek Ierland.

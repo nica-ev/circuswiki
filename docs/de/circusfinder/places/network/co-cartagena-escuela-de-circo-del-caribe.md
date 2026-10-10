@@ -40,8 +40,12 @@ translation_source_metadata_hash: 4b5fa2cbae862e58220aba81ade0d0c2da832feff105d9
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
 translation_metadata_updated: 2026-10-10T00:17:19+00:00
-translation_source_structural_metadata_hash: 14bfb61f7c6e643ce2972df5fba042351f002f0ffce2811ffc74bfec465a6d24
+translation_source_structural_metadata_hash: 494168014693d9518b25a7b51146a3064c889dc0d03091884d1382f3d6875964
+source:
+  - name: "QuatProps Collective"
+    url: "https://quatprops.com/"
 ---
+
 # Zirkusschule des Karibik
 
 Die Escuela de Circo del Caribe ist als **lokaler Partner** in Cartagena, Kolumbien, aufgeführt.

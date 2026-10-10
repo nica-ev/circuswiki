@@ -40,8 +40,12 @@ translation_source_metadata_hash: 7306506c7f56b980e2cd7b79d373ae48b5a0f0f4984280
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
 translation_metadata_updated: 2026-10-10T00:12:25+00:00
-translation_source_structural_metadata_hash: bcc65f1657da75d3038ba0e3644dce9c0711329d525b107064a20cc35c3d9bfb
+translation_source_structural_metadata_hash: c30338ddc0951f0f583825b3770e5271591b0624befcb21c35d20817e409774d
+source:
+  - name: "QuatProps Collective"
+    url: "https://quatprops.com/"
 ---
+
 # Conve Argentina de Malabares
 
 Conve Argentina de Malabares staat vermeld als **Lokale Partner** in Córdoba, Argentinië.

@@ -55,8 +55,12 @@ translation_source_metadata_hash: 77be2df4f1dbbcae0df14408b1d6f13bea615e3abdf3e9
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
 translation_metadata_updated: 2026-10-10T00:11:25+00:00
-translation_source_structural_metadata_hash: 736d00b35f2dd8f17218d667115d17eb0fa055d969b00a5d8e738f0ced316e40
+translation_source_structural_metadata_hash: 8fab9d167db33518df8f1f4b46c78001afe7d8f5128a5ff9d87e0a535d189475
+source:
+  - name: "NICA e.V."
+    url: "https://nica.network/"
 ---
+
 # Zirkus Pipacs
 
 A Zirkus Pipacs fűtött cirkuszsátraiban, a Rossplatzon, egész évben heti rendszerességgel tart kurzusokat gyerekeknek, fiataloknak és felnőtteknek. A kínálatban többek között szerepel légartistika, akrobatika, egyensúlyozás és zsonglőrködés.

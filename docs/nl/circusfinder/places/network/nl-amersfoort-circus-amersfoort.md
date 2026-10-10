@@ -40,8 +40,12 @@ translation_source_metadata_hash: c6056000ce56b38370c485311273af223cc4f73be7b369
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
 translation_metadata_updated: 2026-10-10T00:26:57+00:00
-translation_source_structural_metadata_hash: 8ed6ff902d1da6a158dfbce2b579656bf81df90989cab5321a25c45f13970540
+translation_source_structural_metadata_hash: c0a4999a9217c0870c00541c8b9d17c12b35c228b530a455b02e107238dcec44
+source:
+  - name: "QuatProps Collective"
+    url: "https://quatprops.com/"
 ---
+
 # Circus Amersfoort
 
 Circus Amersfoort staat vermeld als **Regionale Partner** in Amersfoort, Nederland.

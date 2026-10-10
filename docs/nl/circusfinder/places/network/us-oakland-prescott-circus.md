@@ -41,8 +41,12 @@ translation_source_metadata_hash: 99391eb103e050f10f527d89133db67c9a0234e03710fc
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
 translation_metadata_updated: 2026-10-10T00:29:24+00:00
-translation_source_structural_metadata_hash: 2df07ace004430381334bd976ea41ca00289ad91a27015bfb0159dff31200887
+translation_source_structural_metadata_hash: a87109100c2441e0f57f36e37d59f80be027942c051dc8fe7207034e4ecb82a5
+source:
+  - name: "QuatProps Collective"
+    url: "https://quatprops.com/"
 ---
+
 # Prescott Circus
 
 Prescott Circus staat vermeld als **Lokale Partner** in Oakland, Californië, Verenigde Staten.

@@ -17,6 +17,7 @@ nav = [
   { "Bewegingsspellen" = "Bewegungs-Spiele.md" },
   { "Lijst van alle spellen" = "Liste aller Spiele.md" },
   { "Erasmus+ Project" = "Lets-talk-about-inclusive-circus-practice.md" },
+  { "Blog" = "blog/index.md" },
   { "CircusFinder" = "circusfinder/index.md" },
   { "Meedoen" = "mitmachen.md" },
 ]
@@ -49,6 +50,11 @@ features = [
   "search.suggest",
   "search.highlight",
 ]
+
+[project.plugins.blog]
+blog_dir = "blog"
+post_url_format = "{date}/{file}"
+authors_profiles = true
 
 [project.markdown_extensions.nl2br]
 

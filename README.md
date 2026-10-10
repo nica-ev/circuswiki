@@ -109,14 +109,18 @@ python -m pip install -r requirements.txt
 Preview the default/German site only:
 
 ```powershell
-python tools/stage_multilang.py
-zensical serve
+powershell -ExecutionPolicy Bypass -File tools/serve_language.ps1
 ```
 
-This is useful for quick checks, but it serves only `zensical.toml` and does not
-run the multilingual post-build steps. Do not use plain `zensical serve` to test
-language switching, fallback pages, or hover previews; hover previews depend on
-the augmented generated sitemap.
+This scans and stages only German and starts Zensical from the repository `.venv`,
+making it the quickest workflow for checking content, navigation, styling, and the blog.
+Use `-Language en` to preview another configured language and `-Port 8765` when
+port 8000 is intentionally occupied. The command reports an existing listener
+instead of silently pointing you at another local server.
+
+The quick preview does not run multilingual post-build steps. Do not use it to
+test language switching, fallback pages, or hover previews; hover previews depend
+on the augmented generated sitemap.
 
 Preview the compiled multilingual site:
 
@@ -199,6 +203,14 @@ directory records can contain multiple contact people and email addresses,
 network classifications, exact street addresses, schedule links, and city- or
 region-level coordinates. Exact places use blue markers. Approximate coordinates
 use orange markers and must not be treated as street addresses.
+
+Every published directory record has a `source` list in its YAML frontmatter.
+Each source contains at least a human-readable `name` and an HTTP(S) `url`;
+imported datasets may additionally record their dataset URL, original record
+name, retrieval date, and import batch ID. The generated JSON and CircusFinder
+interface retain and display this provenance. DiversAbility imports live below
+`docs/en/circusfinder/places/diversability/` so that batch can be reviewed,
+updated, or removed independently.
 
 The prototype ships Leaflet 1.9.4 with the static assets so its interface does
 not depend on a JavaScript CDN at runtime. The upstream MIT license is retained

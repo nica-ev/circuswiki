@@ -40,8 +40,12 @@ translation_source_metadata_hash: 9d06e81671c205b4246137690d849ddb96eea63e3c0527
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
 translation_metadata_updated: 2026-10-10T00:28:31+00:00
-translation_source_structural_metadata_hash: 17f474b9d7f67af309530add95c94a20baba99f4ce2423a85bb181ee1086896e
+translation_source_structural_metadata_hash: 0f4e8d729d2108eafbe1bf5dfc3242961eaae96ac6371421d70b1d7834795798
+source:
+  - name: "QuatProps Collective"
+    url: "https://quatprops.com/"
 ---
+
 # Trapiti
 
 Trapiti вказано як **Місцевий партнер** в АНДОВЦІ / НОВЕ ЗАМКИ, Словаччина.

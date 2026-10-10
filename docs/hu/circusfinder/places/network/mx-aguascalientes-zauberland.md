@@ -40,8 +40,12 @@ translation_source_metadata_hash: 0847463035db304d657c34465efce123f4ce9a6a866ffc
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
 translation_metadata_updated: 2026-10-10T00:25:06+00:00
-translation_source_structural_metadata_hash: 1a8d4ceee276cca30982d5cebc7b3dc0ca7745ada15fea4aeb760e8f374d6d78
+translation_source_structural_metadata_hash: a65de84cb43259e8156c88b3ad860af5cb0289e3899b2b3b3aa1b5cd42fe8039
+source:
+  - name: "QuatProps Collective"
+    url: "https://quatprops.com/"
 ---
+
 # Zauberland
 
 A Zauberland **Helyi Partnerként** van feltüntetve Aguascalientesben, Mexikóban.

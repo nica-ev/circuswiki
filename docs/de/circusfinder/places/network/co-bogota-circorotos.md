@@ -40,8 +40,12 @@ translation_source_metadata_hash: ecfe2539a7ca7bdd352ec1d96dd9af44974f51f1983f7a
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
 translation_metadata_updated: 2026-10-10T00:16:24+00:00
-translation_source_structural_metadata_hash: e457bdd6f216ae964f8e12f97813ee17647913b41c6760eecb95b6efd97b1331
+translation_source_structural_metadata_hash: 28948f39e0ba9a72b9b9ae8fd45fa1ea3f7e354e27b91dcd0c32a731d9dcd6d4
+source:
+  - name: "QuatProps Collective"
+    url: "https://quatprops.com/"
 ---
+
 # Circorotos
 
 Circorotos ist als **lokaler Partner** in Bogotá, Kolumbien, aufgeführt.

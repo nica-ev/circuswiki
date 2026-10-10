@@ -40,8 +40,12 @@ translation_source_metadata_hash: 2ae6417fd46f2d42cb24f9e1868dcb5b06ee43aba0afa7
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
 translation_metadata_updated: 2026-10-10T00:11:39+00:00
-translation_source_structural_metadata_hash: 9128c9254010b6240cc65a8cc7adcd800cb55662957baf05b83445d3cde88cdf
+translation_source_structural_metadata_hash: 070155c1e8cb514291b005881e789fe23b33bbfd66d67d13c442679e57cce170
+source:
+  - name: "QuatProps Collective"
+    url: "https://quatprops.com/"
 ---
+
 # Hula Hoop Integral
 
 Hula Hoop Integral ist als **Global Partner - World-Wide** in Buenos Aires, Argentinien, aufgeführt.
