@@ -40,8 +40,12 @@ translation_source_metadata_hash: 6de5e48b118bfabc3bf2e9f15f7f9b0abfd799de0cfc1b
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
 translation_metadata_updated: 2026-10-10T00:14:12+00:00
-translation_source_structural_metadata_hash: feba44998d40aa016c1001c215ef5b8eb8bb3e0d753c7badbd86253cf3d11adb
+translation_source_structural_metadata_hash: d7df93dbd46e32b0c8b5a4c8ca7a5898f7306b2168b0bb3a356316ae26e64d2d
+source:
+  - name: "QuatProps Collective"
+    url: "https://quatprops.com/"
 ---
+
 # Circo Hibrido
 
 Circo Hibrido è elencato come **Partner Regionale** a Porto Alegre, Brasile.

@@ -40,8 +40,12 @@ translation_source_metadata_hash: 814e77aa1984a0956492d903a64b0db108bec647fcc420
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
 translation_metadata_updated: 2026-10-10T00:28:50+00:00
-translation_source_structural_metadata_hash: 41737bb52d8f7759e8be3213e9fd3648f200c45a3e0ef9185770a195effb584d
+translation_source_structural_metadata_hash: 0981e964c53ee19b6b155951dad9b017a8b77772bd0134f2aaeb297f52bba13b
+source:
+  - name: "QuatProps Collective"
+    url: "https://quatprops.com/"
 ---
+
 # Projekt Cyrku Dostępnego
 
 Projekt Cyrku Dostępnego (Accessible Circus Project) jest wymieniony jako **Partner Lokalny** w Buffalo w stanie Nowy Jork, Stany Zjednoczone.

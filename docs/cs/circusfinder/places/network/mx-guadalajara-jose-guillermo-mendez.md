@@ -40,8 +40,12 @@ translation_source_metadata_hash: 9529bb2ce556f6d481318c20197379454ccc234badf253
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
 translation_metadata_updated: 2026-10-10T00:25:40+00:00
-translation_source_structural_metadata_hash: 263f1ff5655c8db421357a5e504c965cf92bf274685170e424b8db7fc47608a3
+translation_source_structural_metadata_hash: 97d98f9860ca87ade1b2ad85fe504a844499389e37644db9ee4af03aaea958fc
+source:
+  - name: "QuatProps Collective"
+    url: "https://quatprops.com/"
 ---
+
 # José Guillermo Méndez
 
 José Guillermo Méndez je uveden jako **místní partner** v Guadalajaře v Mexiku.

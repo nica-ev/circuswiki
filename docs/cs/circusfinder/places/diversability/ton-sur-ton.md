@@ -1,0 +1,50 @@
+---
+lang: cs
+translation_id: circusfinder/places/diversability/ton-sur-ton
+created: '2026-10-10'
+update: '2026-10-10'
+publish: true
+tags:
+- circusfinder
+- inclusive-circus
+- diversability-circus
+title: "Ton sur Ton"
+description: "Ton sur Ton, se sídlem v La Chaux-de-Fonds ve Švýcarsku, je nadace zaměřená na podporu inkluzivních kulturních praktik v různých uměleckých oborech, včetně cirkusových umění."
+translation_status: machine-translated
+translation_source_lang: en
+directory_id: diversability-ton-sur-ton
+entry_kinds:
+- organization
+directory_status: active
+latitude: 46.9901138
+longitude: 6.9225503
+location_precision: approximate
+organization: Ton sur Ton
+last_verified: '2026-10-10'
+verification_status: imported_public_map
+source:
+- name: DiversAbility Circus
+  url: https://diversabilitycircus.org/map/
+  dataset_url: https://www.google.com/maps/d/kml?mid=1y-Kcn2lBvxyfpTKRxYjVg7o8eK9g1Po&forcekml=1
+  record_name: Ton sur Ton
+  retrieved: '2026-10-10'
+  batch_id: diversability-circus-map-2026-10-10
+translation_source: docs/en/circusfinder/places/diversability/ton-sur-ton.md
+translation_source_body_hash: e419980037bcb703ec563aa73249ebf574bbf3efc827037769606234f0bbde4e
+translation_source_hash: e419980037bcb703ec563aa73249ebf574bbf3efc827037769606234f0bbde4e
+translation_model: google/gemini-2.5-flash-lite
+translation_updated: 2026-10-10T17:14:00+00:00
+translation_source_localized_metadata_hash: 23ad1d8bcd153d6f223b44ab235a2f016391a2813436777c50f8476b5ac2db09
+translation_source_metadata_hash: 23ad1d8bcd153d6f223b44ab235a2f016391a2813436777c50f8476b5ac2db09
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-10-10T17:14:00+00:00
+translation_source_structural_metadata_hash: 1966e7ad915ad671f8330be29f0820246c82bb36543a4f94ed71622cec78b59b
+---
+# Ton sur Ton
+
+Ton sur Ton, se sídlem v La Chaux-de-Fonds ve Švýcarsku, je nadace, která se věnuje podpoře inkluzivních kulturních praktik v různých uměleckých oborech, včetně cirkusového umění. Ve spolupráci s organizací Procap nabízejí týdenní kurz „handicirque“ určený pro osoby s postižením i bez něj. Tyto lekce vede profesionální cirkusový instruktor s bakalářským titulem v oboru sociální práce, což zajišťuje, že aktivity jsou umělecky obohacující i sociálně podpůrné. Program si klade za cíl rozvíjet kreativitu, sebevědomí a sociální integraci účastníků. Kromě toho se Ton sur Ton aktivně zapojuje do diskusí a akcí zaměřených na kulturní inkluzi, například pořádáním debat a workshopů o vývoji inkluzivních kulturních označení.
+
+## Zdroj
+
+Importováno z [mapy DiversAbility Circus Map](https://diversabilitycircus.org/map/) dne 10. 10. 2026. Pozice na mapě je považována za přibližnou, protože zdroj neposkytuje pole pro strukturovanou přesnost polohy.

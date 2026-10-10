@@ -30,6 +30,9 @@ website: "https://benjaminberry.com/accessiblecircus"
 last_verified: 2026-10-09
 verification_status: imported_public_list
 source_note: "Imported from an openly accessible contact list supplied to CircusWiki."
+source:
+  - name: "QuatProps Collective"
+    url: "https://quatprops.com/"
 ---
 
 # Accessible Circus Project

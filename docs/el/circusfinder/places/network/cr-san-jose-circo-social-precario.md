@@ -40,8 +40,12 @@ translation_source_metadata_hash: 114f7acba2ed65ce6f5286a8f28dc33ffa535770d96e38
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
 translation_metadata_updated: 2026-10-10T00:18:19+00:00
-translation_source_structural_metadata_hash: 87b14162867ac11ebe883e719906b30bd8d796dea6a926b5663f4ef73e22aea4
+translation_source_structural_metadata_hash: ae568e8d02219368e92c08ec3e902329bb5794d9ed53f7ec9fbd49c186f9c7d4
+source:
+  - name: "QuatProps Collective"
+    url: "https://quatprops.com/"
 ---
+
 # Circo Social Precario
 
 Το Circo Social Precario αναφέρεται ως **Περιφερειακός Συνεργάτης** στο Σαν Χοσέ της Κόστα Ρίκα.

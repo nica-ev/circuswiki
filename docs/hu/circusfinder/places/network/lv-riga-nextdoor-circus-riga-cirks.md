@@ -40,8 +40,12 @@ translation_source_metadata_hash: 92d2b7a83baa0a60a4ca0a0926a020b6491de024581a31
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
 translation_metadata_updated: 2026-10-10T00:24:51+00:00
-translation_source_structural_metadata_hash: 0a0bb2e2487e8fef9a4cfb41056eb97acb286a9f0dee7e22be0905c8cba30040
+translation_source_structural_metadata_hash: e9227ebecfa5081856de6097c452f7a8a46b1833d9817bc4e130694f6d2ff21f
+source:
+  - name: "QuatProps Collective"
+    url: "https://quatprops.com/"
 ---
+
 # Szomszéd Cirkusz / Riga Cirks
 
 A Szomszéd Cirkusz / Riga Cirks **Helyi Partnerként** van feltüntetve Rigában, Lettországban.

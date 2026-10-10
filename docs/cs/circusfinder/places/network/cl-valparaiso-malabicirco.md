@@ -41,8 +41,12 @@ translation_source_metadata_hash: 3448d457d1ed1e065583dda5866dd58aea4cf924b86030
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
 translation_metadata_updated: 2026-10-10T00:15:56+00:00
-translation_source_structural_metadata_hash: f4c09831d2ce67421d6f9dc69991fd5c0e8fab0b246d4355caffef49ad0a729c
+translation_source_structural_metadata_hash: b77a35d745c569b9c5593c4425d0a1026532049b0857a5cdace989f49766607b
+source:
+  - name: "QuatProps Collective"
+    url: "https://quatprops.com/"
 ---
+
 # Malabicirco
 
 Malabicirco je uveden jako **Místní partner** ve Valparaíso v Chile.

@@ -40,8 +40,12 @@ translation_source_metadata_hash: a0fc970ce81e33bce25107e0d413afde721db82002aac7
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
 translation_metadata_updated: 2026-10-10T00:20:16+00:00
-translation_source_structural_metadata_hash: 7a5362768416365077a82976a73601cbd05ecc93ffeb7971db5cf63f890c709a
+translation_source_structural_metadata_hash: 332a33ad95212d5072abf7c0fb519030efbb1286872146c7e066ac01249b484a
+source:
+  - name: "QuatProps Collective"
+    url: "https://quatprops.com/"
 ---
+
 # Circo Despacio / Cantón y Prada
 
 Το Circo Despacio / Cantón y Prada αναφέρεται ως **Τοπικός Συνεργάτης** στη Σεβίλλη της Ισπανίας.

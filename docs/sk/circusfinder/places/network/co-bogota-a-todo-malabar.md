@@ -40,8 +40,12 @@ translation_source_metadata_hash: 181ac9ef332b2e97254cd6d25994536f68efb721f29f8f
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
 translation_metadata_updated: 2026-10-10T00:16:10+00:00
-translation_source_structural_metadata_hash: 93e7acb2722d238cb3e064b16e97e13d24308ccb85b0a190940f6459d9477f58
+translation_source_structural_metadata_hash: 4cff16615a84747adb65f8b26952d857f1146e48be016f71ca9b2fa76ddbf870
+source:
+  - name: "QuatProps Collective"
+    url: "https://quatprops.com/"
 ---
+
 # A Todo Malabar
 
 A Todo Malabar je uvedený ako **Miestny partner** v Bogote, Kolumbia.

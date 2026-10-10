@@ -44,6 +44,9 @@ source_urls:
   - "https://www.poledancehalle.de/ariaarte/"
   - "https://www.poledancehalle.de/ariaarte/kurse/"
   - "https://www.poledancehalle.de/ariaarte/kontakt/"
+source:
+  - name: "NICA e.V."
+    url: "https://nica.network/"
 ---
 
 # Studio aria arte

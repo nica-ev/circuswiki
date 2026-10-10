@@ -40,8 +40,12 @@ translation_source_metadata_hash: a5c6012e8b50e7130aaa136b689ab007a37caf78f017e9
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
 translation_metadata_updated: 2026-10-10T00:20:52+00:00
-translation_source_structural_metadata_hash: 016a058ec5eae2a15b218ace018ecb7a6cf9777b1b9284b20bd0d46909ba6c2e
+translation_source_structural_metadata_hash: de86ff724e477964cf74342099d0cddf07af2be48147f215ec4008bb519d7dfa
+source:
+  - name: "QuatProps Collective"
+    url: "https://quatprops.com/"
 ---
+
 # Circusful / Streetwise Community Circus
 
 A Circusful / Streetwise Community Circus **helyi partnerként** van nyilvántartva Belfastban, az Egyesült Királyságban.

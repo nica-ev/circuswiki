@@ -38,8 +38,12 @@ translation_source_metadata_hash: a20586b5ae80260b4556d592c4de49107bc1b913167713
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
 translation_metadata_updated: 2026-10-10T00:20:07+00:00
-translation_source_structural_metadata_hash: 617a90025e8f6b05abec7f45638465187f84559a5f610aa32078439e2d5bdfd5
+translation_source_structural_metadata_hash: bd3f1da871a96376cb8b5bb458488d29e9a6ce56fc8a52a910cbe7b38080e123
+source:
+  - name: "QuatProps Collective"
+    url: "https://quatprops.com/"
 ---
+
 # Ilaria Cieri
 
 Ilaria Cieri je uvedena jako **regionální partnerka** v Nomadic, Španělsko.

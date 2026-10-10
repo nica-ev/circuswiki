@@ -54,8 +54,12 @@ translation_source_metadata_hash: d70167bdb3c5ac6a1ea6e184d51288a5c656beefd06af6
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
 translation_metadata_updated: 2026-10-10T00:10:59+00:00
-translation_source_structural_metadata_hash: 8f8206f2afbb09855e85812ed93ae6f1e0321602226fbc20d66039edee46e812
+translation_source_structural_metadata_hash: 7a9e8fc40c93bd70e8c6cde9366c38a93fe4c1eb9bfe58e23d7a49389373c909
+source:
+  - name: "NICA e.V."
+    url: "https://nica.network/"
 ---
+
 # Studio aria arte
 
 **Studio aria arte** nabízí pole dance, aerial hoop, aerial silk, stretching, body power a také kurzy pro děti a mládež.

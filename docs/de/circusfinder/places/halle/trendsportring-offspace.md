@@ -42,6 +42,9 @@ verification_status: verified_official_sources
 source_urls:
   - "https://trendsportring-halle.de/"
   - "https://nica.network/events/open-circus-space/"
+source:
+  - name: "NICA e.V."
+    url: "https://nica.network/"
 ---
 
 # TrendsportRing Halle – Trendsporthalle Offspace

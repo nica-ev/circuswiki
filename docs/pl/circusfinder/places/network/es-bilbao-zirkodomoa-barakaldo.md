@@ -41,8 +41,12 @@ translation_source_metadata_hash: d426c9061000c0930a093b61116df6b5da83be8e5e7d92
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
 translation_metadata_updated: 2026-10-10T00:19:30+00:00
-translation_source_structural_metadata_hash: 3a9a817007fef814febcd0649e9c7faf611031c0957b15195e8dc29c3b7aafdd
+translation_source_structural_metadata_hash: b20bf3ea442c98fdcb429dd9bf34c0e03eb71498ff58dc49976881c9a5e06dc0
+source:
+  - name: "QuatProps Collective"
+    url: "https://quatprops.com/"
 ---
+
 # Zirkodomoa Barakaldo
 
 Zirkodomoa Barakaldo jest wymieniony jako **Partner Lokalny** w Bilbao, Kraju Basków, Hiszpania.

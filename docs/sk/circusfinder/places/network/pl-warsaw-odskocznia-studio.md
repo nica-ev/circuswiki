@@ -43,8 +43,12 @@ translation_source_metadata_hash: 526b20c5c1ece79dd6182ca10ca430940d029bd4e2c66f
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
 translation_metadata_updated: 2026-10-10T00:27:35+00:00
-translation_source_structural_metadata_hash: f0f884d3375c0f58fccd19d4f85a403d76e34bb1e9c6a11994ea28d883ce1a03
+translation_source_structural_metadata_hash: 97b338030818636d1a449391dc12a1a8113ff00033398e583922d973598307d3
+source:
+  - name: "QuatProps Collective"
+    url: "https://quatprops.com/"
 ---
+
 # Odskocznia Studio
 
 Odskocznia Studio je uvedené ako **Globálny partner – Európa** vo Varšave, Poľsko.

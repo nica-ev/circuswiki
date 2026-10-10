@@ -40,8 +40,12 @@ translation_source_metadata_hash: 59898e2ae87cd693883e849f8f7c9b6f8ff56dfec0ff09
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
 translation_metadata_updated: 2026-10-10T00:27:44+00:00
-translation_source_structural_metadata_hash: 6f6f58ff54f508b91963cb8d8d1686bfc8c4d976477b9535cc8211231d24b134
+translation_source_structural_metadata_hash: 5636d8f389a672cecb4086b97378879a83016d1e4846acdf0c284a0e2c041c24
+source:
+  - name: "QuatProps Collective"
+    url: "https://quatprops.com/"
 ---
+
 # Cirkoneo / Kreativni Pogon / Ludifico
 
 Cirkoneo / Kreativni Pogon / Ludifico aparece listado como **Socio Local** en Novi Sad, Serbia.

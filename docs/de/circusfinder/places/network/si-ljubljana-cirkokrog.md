@@ -40,8 +40,12 @@ translation_source_metadata_hash: d7ee444401db746a2046f46990d8ab2a53f46b6d089974
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
 translation_metadata_updated: 2026-10-10T00:27:51+00:00
-translation_source_structural_metadata_hash: b3a6168380a350e140db5f24fd805259bc754d7264bc61c3da1af76caae6ca4c
+translation_source_structural_metadata_hash: a983d80b549b108a11f7a76029fba348a705af1a66ca66519d80a305f4b8a384
+source:
+  - name: "QuatProps Collective"
+    url: "https://quatprops.com/"
 ---
+
 # Cirkokrog
 
 Cirkokrog ist als **Lokaler Partner** in Ljubljana, Slowenien, aufgeführt.

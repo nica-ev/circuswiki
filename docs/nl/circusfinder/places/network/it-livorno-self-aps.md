@@ -40,8 +40,12 @@ translation_source_metadata_hash: 0edde3f01b0394b663fc73ea48fc283d45855e0e1c21c8
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
 translation_metadata_updated: 2026-10-10T00:23:58+00:00
-translation_source_structural_metadata_hash: 95323977f103f5e748d78c0742cbefb87ecb361a1d23535a8c069721c3adba32
+translation_source_structural_metadata_hash: fd2fb08c19d1f3170e3801e09f61da789a18fc8567a885f1c83d4cc04621c7c8
+source:
+  - name: "QuatProps Collective"
+    url: "https://quatprops.com/"
 ---
+
 # SELF APS
 
 SELF APS staat vermeld als **Regionale Partner** in Livorno, Italië.

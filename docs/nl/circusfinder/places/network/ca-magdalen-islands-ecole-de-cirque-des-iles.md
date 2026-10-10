@@ -40,8 +40,12 @@ translation_source_metadata_hash: ccf3c656bb8a2c220648129f9aff8a05f1afa58aa25b2d
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
 translation_metadata_updated: 2026-10-10T00:14:55+00:00
-translation_source_structural_metadata_hash: 72057fd0f0fcbf19ca23f5e65f778eab30870f5bbcfd00274f21573e6cb6c3f2
+translation_source_structural_metadata_hash: 5488e4f0ac8540b499b0444127caca668319edaa948ad45f8af41d7d76f0c8d8
+source:
+  - name: "QuatProps Collective"
+    url: "https://quatprops.com/"
 ---
+
 # École de Cirque des Îles
 
 École de Cirque des Îles staat vermeld als **Lokale Partner** op de Magdalen Eilanden, Canada.

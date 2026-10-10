@@ -3,6 +3,7 @@
   "ignoredFolders": [],
   "disableAutomaticUpdates": false,
   "showRefreshButton": true,
+  "hideQueryText": true,
   "foldersToForceUpdate": [],
   "showErrorNotifications": true,
   "debugLogging": false,

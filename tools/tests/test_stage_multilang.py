@@ -14,6 +14,24 @@ import stage_multilang  # noqa: E402
 
 
 class StagingWorkflowTests(unittest.TestCase):
+    def test_single_language_stage_discovers_other_languages_for_fallbacks(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            build = Path(tmp)
+            with (
+                patch.object(sys, "argv", ["stage_multilang.py", "--language", "de"]),
+                patch.object(stage_multilang, "BUILD", build),
+                patch.object(stage_multilang, "discover_translation_groups", return_value={}) as discover,
+                patch.object(stage_multilang, "copy_language"),
+                patch.object(stage_multilang, "create_fallback_pages") as create_fallbacks,
+                patch.object(stage_multilang, "write_translation_map"),
+                patch.object(stage_multilang, "normalize_markdown_files", return_value=0),
+                patch.object(stage_multilang, "export_datasets"),
+            ):
+                stage_multilang.main()
+
+            discover.assert_called_once_with()
+            create_fallbacks.assert_called_once_with({}, ("de",))
+
     def test_page_url_default_and_non_default_language(self) -> None:
         with patch.dict(os.environ, {"CIRCUSWIKI_SITE_BASE_PATH": "/example/"}):
             self.assertEqual(stage_multilang.page_url("de", "index.md"), "/example/")
@@ -55,6 +73,58 @@ class StagingWorkflowTests(unittest.TestCase):
             data = (build / "de" / "javascripts" / "translation-map.json").read_text(encoding="utf-8")
             self.assertIn('"languages"', data)
             self.assertIn('"sk"', data)
+
+    def test_translation_map_can_be_written_for_one_staged_language(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            build = Path(tmp)
+            groups = {
+                "index": {
+                    "translation_id": "index",
+                    "source_lang": "de",
+                    "title": "Index",
+                    "relative_path": "index.md",
+                    "pages": {
+                        "de": {
+                            "relative_path": "index.md",
+                            "translation_status": "original",
+                            "translation_model": "",
+                            "translation_updated": "",
+                            "path": "docs/de/index.md",
+                            "translation_source": "",
+                            "translation_source_lang": "de",
+                            "authors": [],
+                        }
+                    },
+                }
+            }
+            with patch.object(stage_multilang, "BUILD", build):
+                stage_multilang.write_translation_map(groups, ("de",))
+
+            self.assertTrue((build / "de" / "javascripts" / "translation-map.json").exists())
+            self.assertFalse((build / "en").exists())
+
+    def test_copy_language_inherits_default_blog_authors(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            docs = root / "docs"
+            build = root / ".build"
+            assets = root / "site-assets"
+            (docs / "de" / "blog").mkdir(parents=True)
+            (docs / "en" / "blog").mkdir(parents=True)
+            assets.mkdir()
+            authors = "authors:\n  editor:\n    name: Editor\n"
+            (docs / "de" / "blog" / ".authors.yml").write_text(authors, encoding="utf-8")
+
+            with (
+                patch.object(stage_multilang, "DOCS", docs),
+                patch.object(stage_multilang, "BUILD", build),
+                patch.object(stage_multilang, "SITE_ASSETS", assets),
+                patch.object(stage_multilang, "DEFAULT_LANGUAGE", "de"),
+            ):
+                stage_multilang.copy_language("en")
+
+            inherited = build / "en" / "blog" / ".authors.yml"
+            self.assertEqual(inherited.read_text(encoding="utf-8"), authors)
 
     def test_internal_doc_link_normalization_removes_language_prefix(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:

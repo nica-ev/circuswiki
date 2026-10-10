@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import argparse
 import json
 import re
 import shutil
@@ -151,9 +152,11 @@ def page_metadata(page) -> dict[str, object]:
     }
 
 
-def discover_translation_groups() -> dict[str, dict[str, object]]:
+def discover_translation_groups(
+    scan_languages: tuple[str, ...] | None = None,
+) -> dict[str, dict[str, object]]:
     groups: dict[str, dict[str, object]] = {}
-    _languages, discovered = discover_vault_pages()
+    _languages, discovered = discover_vault_pages(scan_languages)
 
     for translation_id, pages_by_language in discovered.items():
         source_lang = find_group_source_language(pages_by_language)
@@ -256,14 +259,17 @@ def fallback_body(
 """
 
 
-def create_fallback_pages(groups: dict[str, dict[str, object]]) -> None:
+def create_fallback_pages(
+    groups: dict[str, dict[str, object]],
+    target_languages: tuple[str, ...] = LANGUAGES,
+) -> None:
     for group in groups.values():
         pages = group["pages"]
         source_language = group["source_lang"]
         relative_path = group["relative_path"]
         title = group["title"]
 
-        for language in LANGUAGES:
+        for language in target_languages:
             if language in pages:
                 continue
 
@@ -290,7 +296,10 @@ def create_fallback_pages(groups: dict[str, dict[str, object]]) -> None:
             target.write_text(f"---\n{frontmatter}\n---\n{body}", encoding="utf-8", newline="\n")
 
 
-def write_translation_map(groups: dict[str, dict[str, object]]) -> None:
+def write_translation_map(
+    groups: dict[str, dict[str, object]],
+    target_languages: tuple[str, ...] = LANGUAGES,
+) -> None:
     manifest = {
         "default_language": DEFAULT_LANGUAGE,
         "common_fallback_language": COMMON_FALLBACK_LANGUAGE,
@@ -353,7 +362,7 @@ def write_translation_map(groups: dict[str, dict[str, object]]) -> None:
         manifest["groups"][translation_id] = group_entry
 
     data = json.dumps(manifest, ensure_ascii=False, indent=2)
-    for language in LANGUAGES:
+    for language in target_languages:
         target = BUILD / language / "javascripts" / "translation-map.json"
         target.parent.mkdir(parents=True, exist_ok=True)
         target.write_text(data + "\n", encoding="utf-8")
@@ -367,6 +376,15 @@ def copy_language(language: str) -> Path:
         raise FileNotFoundError(f"Missing language source directory: {source}")
 
     shutil.copytree(source, target)
+
+    # Blog authors are shared editorial metadata. Languages can provide a
+    # localized registry, while otherwise inheriting the default one.
+    blog_authors = source / "blog" / ".authors.yml"
+    default_blog_authors = DOCS / DEFAULT_LANGUAGE / "blog" / ".authors.yml"
+    if not blog_authors.exists() and default_blog_authors.exists():
+        target_blog = target / "blog"
+        target_blog.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(default_blog_authors, target_blog / ".authors.yml")
 
     shared_img = DOCS / "img"
     if shared_img.exists():
@@ -499,29 +517,46 @@ def normalize_markdown_files(language_root: Path) -> int:
 
 
 def main() -> None:
+    parser = argparse.ArgumentParser(description="Stage CircusWiki content for Zensical.")
+    parser.add_argument(
+        "--language",
+        choices=LANGUAGES,
+        help="Stage only one configured language instead of the complete multilingual site.",
+    )
+    args = parser.parse_args()
+    target_languages = (args.language,) if args.language else LANGUAGES
+
     started = time.perf_counter()
-    print("[staging] Preparing multilingual content...", flush=True)
-    if BUILD.exists():
+    scope = args.language or "all languages"
+    print(f"[staging] Preparing content for {scope}...", flush=True)
+    if args.language:
+        target = BUILD / args.language
+        if target.exists():
+            print(f"[staging] Removing previous .build/{args.language} output...", flush=True)
+            shutil.rmtree(target)
+    elif BUILD.exists():
         print("[staging] Removing previous .build output...", flush=True)
         shutil.rmtree(BUILD)
 
     print("[staging] Discovering translation groups...", flush=True)
+    # A one-language preview still needs to discover originals in the other
+    # language folders so it can stage fallback pages for those entries.
     groups = discover_translation_groups()
 
-    for index, language in enumerate(LANGUAGES, start=1):
+    for index, language in enumerate(target_languages, start=1):
         print(
-            f"[staging] Copying language {language} ({index}/{len(LANGUAGES)})...",
+            f"[staging] Copying language {language} ({index}/{len(target_languages)})...",
             flush=True,
         )
         copy_language(language)
 
     print("[staging] Creating fallback pages and translation maps...", flush=True)
-    create_fallback_pages(groups)
-    write_translation_map(groups)
+    create_fallback_pages(groups, target_languages)
+    write_translation_map(groups, target_languages)
 
-    for index, language in enumerate(LANGUAGES, start=1):
+    for index, language in enumerate(target_languages, start=1):
         print(
-            f"[staging] Normalizing language {language} ({index}/{len(LANGUAGES)})...",
+            f"[staging] Normalizing language {language} ({index}/{len(target_languages)})...",
             flush=True,
         )
         language_root = BUILD / language
@@ -529,7 +564,7 @@ def main() -> None:
         print(f"[staging]   Processed {processed} Markdown files.", flush=True)
 
     print("[staging] Validating and exporting CircusFinder data...", flush=True)
-    export_datasets(DOCS, BUILD)
+    export_datasets(DOCS, BUILD, target_languages=target_languages)
     elapsed = time.perf_counter() - started
     print(f"[staging] Complete in {elapsed:.1f}s.", flush=True)
 

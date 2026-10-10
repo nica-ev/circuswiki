@@ -40,8 +40,12 @@ translation_source_metadata_hash: f41f02c592ad12d98438a826be4c110596c642d7dd3a4f
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
 translation_metadata_updated: 2026-10-10T00:22:48+00:00
-translation_source_structural_metadata_hash: a0f7a5317d28b7d3018c6a9295582b6c85377b35a0422094591ed13d0a3188cf
+translation_source_structural_metadata_hash: 1803a24185ed3e89c2e38412ee95ec08fa2eb38c9996439156d5cef8f86bc733
+source:
+  - name: "QuatProps Collective"
+    url: "https://quatprops.com/"
 ---
+
 # Dublin Circus Project
 
 Το Dublin Circus Project αναφέρεται ως **Τοπικός Συνεργάτης** στο Δουβλίνο, Δημοκρατία της Ιρλανδίας.

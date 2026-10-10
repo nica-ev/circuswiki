@@ -40,8 +40,12 @@ translation_source_metadata_hash: ffac3044fa303c6bab21a9c0d8e36fbd6ed630d6f6c167
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
 translation_metadata_updated: 2026-10-10T00:22:41+00:00
-translation_source_structural_metadata_hash: 78ed11e1e2d36212cfa94e748dc74c1aab4ad1be527300655c39057ddd4495ee
+translation_source_structural_metadata_hash: a1cb32dc65ba1299fc56d75b1ad311f5e45bbb5fe95909051c2baf23bd923892
+source:
+  - name: "QuatProps Collective"
+    url: "https://quatprops.com/"
 ---
+
 # Cormac Mohally
 
 Cormac Mohally je uvedený ako **Miestny partner** v Corku, Írska republika.

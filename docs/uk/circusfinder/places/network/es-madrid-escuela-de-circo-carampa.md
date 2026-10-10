@@ -40,8 +40,12 @@ translation_source_metadata_hash: b1572c07206f9f36a5598f623c919312a541f580a73d87
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
 translation_metadata_updated: 2026-10-10T00:19:52+00:00
-translation_source_structural_metadata_hash: ffcd55b9d4d247b09e16cd3bab7148ff4a2fd97fe6b8c8d9f61473566577db7d
+translation_source_structural_metadata_hash: 6a6975f803a16d1813ffeaa38c412a71f89b67161c3e92a91cf6ae487919da04
+source:
+  - name: "QuatProps Collective"
+    url: "https://quatprops.com/"
 ---
+
 # Циркова школа Carampa
 
 Циркова школа Carampa вказана як **Місцевий партнер** у Мадриді, Іспанія.

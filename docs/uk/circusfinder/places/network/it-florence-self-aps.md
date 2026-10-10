@@ -40,8 +40,12 @@ translation_source_metadata_hash: d875d450c779de137e33d8d53b2d6db0168c8c48d8e341
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
 translation_metadata_updated: 2026-10-10T00:23:33+00:00
-translation_source_structural_metadata_hash: d20a0f58f85a19c6b257576abe003d16d0809ee712a272bc0041305e68bd2e67
+translation_source_structural_metadata_hash: 826642fb525f344c04ccd9f16cc9afa90b90669a9e660ffa747fb40e0eb26a89
+source:
+  - name: "QuatProps Collective"
+    url: "https://quatprops.com/"
 ---
+
 # SELF APS
 
 SELF APS вказано як **Глобальний партнер – Світовий** у Флоренції, Італія.

@@ -43,8 +43,12 @@ translation_source_metadata_hash: 953b41cbbda6ef3dfce73b64ff6f888441f7c2ef307d25
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
 translation_metadata_updated: 2026-10-10T00:21:12+00:00
-translation_source_structural_metadata_hash: 443f464b864e517159752eef398116ef01b504755f270feb72a0f261519eee11
+translation_source_structural_metadata_hash: 53ecf2cebc4e960ef7d78264e0c3f6be57e07625aba03c6c9204b5f760ff2fa9
+source:
+  - name: "QuatProps Collective"
+    url: "https://quatprops.com/"
 ---
+
 # Stiklings
 
 Stiklings вказано як **Регіональний партнер** та **Дистриб'ютор** у Манчестері, Велика Британія.

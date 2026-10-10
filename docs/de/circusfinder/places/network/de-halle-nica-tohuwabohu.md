@@ -55,8 +55,12 @@ translation_source_metadata_hash: 9b94bf1d41e25e7182761d55e0af21f6be2a3eb962bf12
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
 translation_metadata_updated: 2026-10-10T00:18:55+00:00
-translation_source_structural_metadata_hash: 524809ddf5bcf72342e6132905f9e66d6c282450f16724ae1f3a94aa8a969cb1
+translation_source_structural_metadata_hash: 279c057fd75c0777f12613fdafa8ba0bcee0887f962f1b39ea372c5ad49bbb6f
+source:
+  - name: "NICA e.V."
+    url: "https://nica.network/"
 ---
+
 # NICA e.V. / Tohuwabohu Halle e.V.
 
 NICA e.V. ist ein Zirkusnetzwerk und eine Organisation mit Sitz in Halle (Saale). Sie entwickelt inklusive Zirkusmethoden, vernetzt Praktizierende und Organisationen und stellt Ressourcen für die Zirkuspädagogik bereit. Tohuwabohu Halle e.V. ist die zugehörige lokale Organisation hinter den praktischen Zirkusaktivitäten und der Tohuwabohu-Tagung.

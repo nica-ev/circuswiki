@@ -40,8 +40,12 @@ translation_source_metadata_hash: 6267559cec49f5791b972bfbeba4450146ef5447b68612
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
 translation_metadata_updated: 2026-10-10T00:19:16+00:00
-translation_source_structural_metadata_hash: 5bab4e188dbf6967748bf9fead81f4ea35d1e603962f74454ab1d6750d207d20
+translation_source_structural_metadata_hash: 1e8449f9ac41b94253c08b8aea6624652344944ad452cbc96c16d366aadab031
+source:
+  - name: "QuatProps Collective"
+    url: "https://quatprops.com/"
 ---
+
 # CircA Asociación Artistas / Moduláris Zsonglőrködés
 
 A CircA Asociación Artistas / Moduláris Zsonglőrködés **Globális Partner – Európa** kategóriában szerepel Barcelonában, Spanyolországban.

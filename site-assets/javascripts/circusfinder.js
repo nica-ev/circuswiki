@@ -38,6 +38,7 @@
       approximateMarker: "Orangefarbener Marker: ungefähre Position",
       contact: "Kontakt",
       schedule: "Zeiten",
+      source: "Quelle",
       scheduleLink: "Aktuelle Termine",
       loadError: "CircusFinder konnte nicht geladen werden.",
       training_space: "Trainingsort",
@@ -78,6 +79,7 @@
       approximateMarker: "Orange marker: approximate position",
       contact: "Contact",
       schedule: "Schedule",
+      source: "Source",
       scheduleLink: "Current schedule",
       loadError: "CircusFinder could not be loaded.",
       training_space: "Training space",
@@ -230,8 +232,22 @@
       record.contact && record.contact.phone,
       (record.offers || []).join(" "),
       (record.opening_hours || []).join(" "),
-      record.schedule_note
+      record.schedule_note,
+      (record.source || []).map(function (source) { return source.name || ""; }).join(" ")
     ].join(" ").toLocaleLowerCase();
+  }
+
+  function sourceHtml(record, labels) {
+    var sources = (record.source || []).map(function (source) {
+      var name = escapeHtml(source.name || "");
+      var url = safeHttpUrl(source.url);
+      return url
+        ? '<a href="' + escapeHtml(url) + '" target="_blank" rel="noopener noreferrer">' + name + "</a>"
+        : name;
+    }).filter(Boolean);
+    return sources.length
+      ? '<span class="cw-finder__source"><strong>' + escapeHtml(labels.source) + ":</strong> " + sources.join(" / ") + "</span>"
+      : "";
   }
 
   function hasCoordinates(record) {
@@ -309,6 +325,7 @@
       people ? '<span class="cw-finder-popup__contact"><strong>' + escapeHtml(labels.contact) + ":</strong> " + escapeHtml(people) + "</span>" : "",
       hours ? '<span class="cw-finder-popup__schedule"><strong>' + escapeHtml(labels.schedule) + ":</strong> " + escapeHtml(hours) + "</span>" : "",
       record.description ? "<p>" + escapeHtml(record.description) + "</p>" : "",
+      sourceHtml(record, labels),
       '<span class="cw-finder-popup__actions">' + recordActions(record, labels) + "</span>",
       "</article>"
     ].join("");
@@ -340,6 +357,7 @@
       hours ? '<p class="cw-finder-card__schedule"><strong>' + escapeHtml(labels.schedule) + ":</strong> " + escapeHtml(hours) + "</p>" : "",
       record.schedule_note ? '<p class="cw-finder-card__schedule-note">' + escapeHtml(record.schedule_note) + "</p>" : "",
       record.description ? "<p>" + escapeHtml(record.description) + "</p>" : "",
+      sourceHtml(record, labels),
       '<div class="cw-finder-card__actions">' + recordActions(record, labels) + "</div>",
       "</article>"
     ].join("");

@@ -40,8 +40,12 @@ translation_source_metadata_hash: f4d23efe7ec40aa2c1ba92c0ef19095589bd06ebbec541
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
 translation_metadata_updated: 2026-10-10T00:15:39+00:00
-translation_source_structural_metadata_hash: 22500ecfc6098113be84d236cc45349ff7b1630fd6b69d7e0a1d10a39444db06
+translation_source_structural_metadata_hash: 6c0b3cd69515849ff147401e0fc5ab4aa3019eee3d9af2fc28a3e9aaf514d6f8
+source:
+  - name: "QuatProps Collective"
+    url: "https://quatprops.com/"
 ---
+
 # Функціональний жонглер
 
 «Функціональний жонглер» (Malabarismo Funcional) вказано як **Регіональний партнер** у Сантьяго, Чилі.

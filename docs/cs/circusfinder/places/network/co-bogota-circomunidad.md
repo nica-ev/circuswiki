@@ -40,8 +40,12 @@ translation_source_metadata_hash: 8aec785d5e2923075d4eb4ea4aee803d0f465d043b2ef8
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
 translation_metadata_updated: 2026-10-10T00:16:22+00:00
-translation_source_structural_metadata_hash: 81c4af04cc2e73e9b2a80177c2a0242e2e1fbabd763096ac1d27710941a12376
+translation_source_structural_metadata_hash: eb5166ce5b81d4340b923f36b37bf4ce6fb98d3766b4d7471792c6e5357b49fa
+source:
+  - name: "QuatProps Collective"
+    url: "https://quatprops.com/"
 ---
+
 # Circomunidad
 
 Circomunidad je uveden jako **Místní partner** v Bogotě v Kolumbii.

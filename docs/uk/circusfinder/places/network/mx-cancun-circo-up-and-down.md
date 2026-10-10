@@ -40,8 +40,12 @@ translation_source_metadata_hash: c7d6c7087abd56dfdac22ddb78ac545e47bb51d4017b34
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
 translation_metadata_updated: 2026-10-10T00:25:25+00:00
-translation_source_structural_metadata_hash: 6f58307b077e873e9d28648fd54f5289873f0f8ef8018455ed43b307e3f9aef1
+translation_source_structural_metadata_hash: 00f3bf2aacc4f0b61db4e36ce26d88372110d91246030ea79b321a34923a5d15
+source:
+  - name: "QuatProps Collective"
+    url: "https://quatprops.com/"
 ---
+
 # Circo Up & Down
 
 Circo Up & Down вказано як **Місцевий партнер** у Канкуні, Мексика.

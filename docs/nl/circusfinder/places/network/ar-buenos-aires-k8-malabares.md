@@ -40,8 +40,12 @@ translation_source_metadata_hash: 96c911cb105f975539dc15ea2502cc72281fda381b79d2
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
 translation_metadata_updated: 2026-10-10T00:11:58+00:00
-translation_source_structural_metadata_hash: 7bbb7ffe0483f30595a7cc028f418d3a0d3b66595b0d3642a4089eea3c0256c2
+translation_source_structural_metadata_hash: 7e9a54b63b1f58e22845406ec5ffffd12a5a5de7d4c733240f3bbc6294e10799
+source:
+  - name: "QuatProps Collective"
+    url: "https://quatprops.com/"
 ---
+
 # K8 Malabares
 
 K8 Malabares staat vermeld als **Distributeur** in Buenos Aires, Argentinië.

@@ -41,8 +41,12 @@ translation_source_metadata_hash: b86320d4fc67a22f90d3f8a90c0ab4537626cda981214d
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
 translation_metadata_updated: 2026-10-10T00:20:43+00:00
-translation_source_structural_metadata_hash: 580bf7cedbb3ba41a8a6a4273b251f32534087a3362bc9126ccfa43b8e3dfd7c
+translation_source_structural_metadata_hash: 8abe257e7269f07a6319eaf95ab2be1b488ad52f7e2446f5f731cadd7b77779d
+source:
+  - name: "QuatProps Collective"
+    url: "https://quatprops.com/"
 ---
+
 # AZIRKARTE
 
 AZIRKARTE figura como **Socio Local** en Vitoria-Gasteiz, País Vasco, España.

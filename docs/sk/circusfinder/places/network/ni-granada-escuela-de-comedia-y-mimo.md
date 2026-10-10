@@ -40,8 +40,12 @@ translation_source_metadata_hash: 429f99153861db9b9751365fc52e2b97a69af695e8e5e1
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
 translation_metadata_updated: 2026-10-10T00:26:50+00:00
-translation_source_structural_metadata_hash: 8a00a937530a32f6c9215ed7b8395c2a5b580100214728d3e827fa439892eaf6
+translation_source_structural_metadata_hash: 66b613525ee79b646d6d92476c83283fcfc138ce09f391b25ee69bc81f063065
+source:
+  - name: "QuatProps Collective"
+    url: "https://quatprops.com/"
 ---
+
 # Škola komédie a pantomímy
 
 Escuela de Comedia y Mimo je uvedená ako **Miestny partner** v Granade, Nikaragua.

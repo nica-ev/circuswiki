@@ -37,6 +37,9 @@ last_verified: 2026-10-10
 verification_status: verified_official_source
 source_urls:
   - "https://eigenarts-halle.de/"
+source:
+  - name: "NICA e.V."
+    url: "https://nica.network/"
 ---
 
 # EigenArts Halle

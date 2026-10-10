@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+from collections.abc import Iterable
 from pathlib import Path
 
 from core.languages import extra_docs_language_codes
@@ -109,8 +110,10 @@ def read_vault_page(path: Path, language: str) -> VaultPage:
     )
 
 
-def discover_vault_pages() -> tuple[list[str], dict[str, dict[str, list[VaultPage]]]]:
-    languages = list_languages()
+def discover_vault_pages(
+    selected_languages: Iterable[str] | None = None,
+) -> tuple[list[str], dict[str, dict[str, list[VaultPage]]]]:
+    languages = list(selected_languages) if selected_languages is not None else list_languages()
     groups: dict[str, dict[str, list[VaultPage]]] = {}
 
     for language in languages:

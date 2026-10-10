@@ -40,8 +40,12 @@ translation_source_metadata_hash: 18e7e445d5d13edf15b54e1d77b4a25f71632dd6d1c6d1
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
 translation_metadata_updated: 2026-10-10T00:13:25+00:00
-translation_source_structural_metadata_hash: 53e6c03c840bc807f01594d5573fcf3a3fcf28e48050ab60da499a8939674f47
+translation_source_structural_metadata_hash: 9d5bcbbbae74e3f6690a49dca18c777d0d7953d2ad4275d291edfc3837c4f7bf
+source:
+  - name: "QuatProps Collective"
+    url: "https://quatprops.com/"
 ---
+
 # Ecole de Cirque de Bruxelles
 
 Ecole de Cirque de Bruxelles je uveden jako **Místní partner** v Bruselu v Belgii.

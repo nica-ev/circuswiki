@@ -38,8 +38,12 @@ translation_source_metadata_hash: e0f0360e575ddf12b36f2f44ee6fad3eca540c07d26507
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
 translation_metadata_updated: 2026-10-10T00:27:09+00:00
-translation_source_structural_metadata_hash: 61862fd25fb585efbaf6c2f9e887da5fbe15b535cd85660a75a2f819db40f97d
+translation_source_structural_metadata_hash: e9ec2af3718db1b068bcae93d995c84e9b71d9ea4bdbd9c07adbb1cee99e3acf
+source:
+  - name: "QuatProps Collective"
+    url: "https://quatprops.com/"
 ---
+
 # Circus Kiko
 
 Circus Kiko è elencato come **Partner Locale** a Nijmegen, Paesi Bassi.

@@ -40,8 +40,12 @@ translation_source_metadata_hash: 73dbb55d1503b7d968b725afdc6ddad822205f32704e80
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
 translation_metadata_updated: 2026-10-10T00:26:28+00:00
-translation_source_structural_metadata_hash: 588c0aa77c158f26abf089f0e71789c81989cf896086065c988ab2e3eb3276ec
+translation_source_structural_metadata_hash: 008b74c82972cfb2f77222fea62a6300df62908361abda42d2a9ec396f41d38a
+source:
+  - name: "QuatProps Collective"
+    url: "https://quatprops.com/"
 ---
+
 # Artsanti Circo
 
 Artsanti Circo staat vermeld als **Regionale Partner** in Querétaro, Mexico.

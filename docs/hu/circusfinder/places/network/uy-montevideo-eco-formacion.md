@@ -40,8 +40,12 @@ translation_source_metadata_hash: 2e43eff627fc13e8b8b56353d046aac520bebe1acfeaee
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
 translation_metadata_updated: 2026-10-10T00:29:50+00:00
-translation_source_structural_metadata_hash: b9543fa85cfc07afeb2e08f6fc28e9bddea4b833673935118ac2b7024b509c0c
+translation_source_structural_metadata_hash: d7b518a6be03b09c217355c552025a04d24ca9512322fb66e085af0f4b642654
+source:
+  - name: "QuatProps Collective"
+    url: "https://quatprops.com/"
 ---
+
 # Eco Formacion
 
 Az Eco Formacion Montevideo-ban, Uruguay-ban található **Helyi Partnerként** van feltüntetve.

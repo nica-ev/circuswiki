@@ -39,8 +39,12 @@ translation_source_metadata_hash: ae5d503b99260e53c2b21657db011ab629c476c78acb36
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
 translation_metadata_updated: 2026-10-10T00:12:41+00:00
-translation_source_structural_metadata_hash: 240d85e4cbf78929021d77623b13dd1cfbfd18696e605e87b8ef233add1be5a3
+translation_source_structural_metadata_hash: 5f021be43706c2900f8ce27408869c7ee4cfed16c2af7334b0c45d4151ec2167
+source:
+  - name: "QuatProps Collective"
+    url: "https://quatprops.com/"
 ---
+
 # Thomas Lang
 
 Thomas Lang figura como **Socio Local** en Viena, Austria.

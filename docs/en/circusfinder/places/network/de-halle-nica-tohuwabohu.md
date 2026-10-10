@@ -45,6 +45,9 @@ source_urls:
   - "https://nica.network/kontakt/"
   - "https://nica.network/ueber-uns/"
   - "https://nica.network/tohuwabohu/"
+source:
+  - name: "NICA e.V."
+    url: "https://nica.network/"
 ---
 
 # NICA e.V. / Tohuwabohu Halle e.V.

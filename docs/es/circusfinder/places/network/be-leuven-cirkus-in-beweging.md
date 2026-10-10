@@ -40,8 +40,12 @@ translation_source_metadata_hash: 06b964550dde08d52d1945bcf5a69a8f865fcd22f25ec9
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
 translation_metadata_updated: 2026-10-10T00:13:35+00:00
-translation_source_structural_metadata_hash: 1d35f1dd13c41cdff96fc492a245e2d5a3f499cb78b528a7d12578eb33b80660
+translation_source_structural_metadata_hash: b16de27d2b499f3eddaf33df217a1f76076376bb5cab1d8649b71a1b90f0a686
+source:
+  - name: "QuatProps Collective"
+    url: "https://quatprops.com/"
 ---
+
 # Cirkus in Beweging
 
 Cirkus in Beweging figura como **Socio Local** en Lovaina, Bélgica.

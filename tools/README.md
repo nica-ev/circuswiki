@@ -11,12 +11,18 @@ Local tooling supports multilingual staging, translation workflow experiments, n
 
 ```powershell
 python tools/stage_multilang.py
+powershell -ExecutionPolicy Bypass -File tools/serve_language.ps1
 powershell -ExecutionPolicy Bypass -File tools/build_multilang.ps1
 powershell -ExecutionPolicy Bypass -File tools/serve_multilang.ps1
 powershell -ExecutionPolicy Bypass -File tools/dev_console.ps1
 powershell -ExecutionPolicy Bypass -File tools/check.ps1
 python tools/sync_configs.py
 ```
+
+`serve_language.ps1` scans, stages, and previews only one language (`de` by default)
+using Zensical from the repository `.venv`. Pass `-Language en` for another
+configured language. Use the slower multilingual server when verifying language
+switching, fallback pages, hover previews, or deployed URL behavior.
 
 Translation CLI:
 

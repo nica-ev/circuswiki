@@ -52,8 +52,12 @@ translation_source_metadata_hash: d682c22902529569e3a85791b8782bef02c93c4c71d834
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
 translation_metadata_updated: 2026-10-10T00:11:11+00:00
-translation_source_structural_metadata_hash: 06cf4d22bf3ceff1935c4a53db5dfe968b9e23828d3f1de5946bd5128832423e
+translation_source_structural_metadata_hash: 5024f2b638c841965c4e3dfc97f00075a035c9d63b72ea789c6c6ce4159b3c25
+source:
+  - name: "NICA e.V."
+    url: "https://nica.network/"
 ---
+
 # TrendsportRing Halle – Αθλητικός Χώρος "Offspace"
 
 Ο αθλητικός χώρος "Offspace" είναι ένας τοπικός χώρος προπόνησης και συνάντησης του TrendsportRing Halle, υπό τη διαχείριση του congrav new sports e.V.

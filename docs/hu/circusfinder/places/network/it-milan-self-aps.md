@@ -40,8 +40,12 @@ translation_source_metadata_hash: 99976fa920d83d4dabe7ec36466e975cc3d2a14b8849b5
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
 translation_metadata_updated: 2026-10-10T00:24:23+00:00
-translation_source_structural_metadata_hash: a57d1e9126ed3c315a405b2b4cd44698f5869e387472c7792ff90a74a9fc0137
+translation_source_structural_metadata_hash: de39f02c7e7beeed9de193b867691109cbadb51aea324c115753fb6809c09e79
+source:
+  - name: "QuatProps Collective"
+    url: "https://quatprops.com/"
 ---
+
 # SELF APS
 
 A SELF APS **Regionális Partnerként** van feltüntetve Milánóban, Olaszországban.
