@@ -4,6 +4,8 @@ import sys
 import unittest
 from pathlib import Path
 
+import yaml
+
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / "tools"))
 
@@ -85,6 +87,12 @@ class TranslationWorkflowTests(unittest.TestCase):
         frontmatter = 'title: "A \\"quoted\\" title"\ndescription: >\n  first line\n  second line\n'
         self.assertEqual(read_scalar(frontmatter, "title"), 'A "quoted" title')
         self.assertEqual(read_scalar(frontmatter, "description"), "first line second line")
+
+    def test_ensure_scalars_quotes_values_that_are_not_safe_plain_yaml(self) -> None:
+        title = "Taking Flight: Education & Performance"
+        updated = ensure_scalars("title: Existing\n", {"title": title})
+
+        self.assertEqual(yaml.safe_load(updated)["title"], title)
 
     def test_body_hash_ignores_metadata_changes(self) -> None:
         self.assertEqual(source_body_hash("Body\n"), source_body_hash("Body\n"))
@@ -394,4 +402,3 @@ Outro
 
 if __name__ == "__main__":
     unittest.main()
-

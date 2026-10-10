@@ -1,0 +1,53 @@
+---
+lang: hu
+translation_id: circusfinder/places/aerial-training-map/aerial-silk-mannheim
+created: '2026-10-10'
+update: '2026-10-10'
+publish: true
+tags:
+- circusfinder
+- aerial-arts
+- training-space
+- aerial-training-map
+title: Aerial Silk Mannheim
+description: Az Aerial Silk Mannheim egy nyitott légtorna vagy cirkusz edzőhelyként szerepel a világ cirkusztermeinek/iskoláinak közösségi térképén.
+translation_status: machine-translated
+translation_source_lang: en
+directory_id: aerial-map-aerial-silk-mannheim
+entry_kinds:
+- training_space
+directory_status: active
+location_precision: approximate
+organization: Aerial Silk Mannheim
+last_verified: '2026-10-10'
+verification_status: imported_public_map
+source:
+- name: Circus Gyms / Schools Around the World
+  url: https://datastudio.google.com/reporting/2ff68cae-8df4-46f2-b2e6-8ef6d0e328c1/page/Gj9BE
+  record_name: Aerial Silk Mannheim
+  retrieved: '2026-10-10'
+  batch_id: aerial-training-map-2026-10-10
+latitude: 49.5262695353614
+longitude: 8.42705177181991
+website: https://www.aerialsilkmannheim.com
+translation_source: docs/en/circusfinder/places/aerial-training-map/aerial-silk-mannheim.md
+translation_source_body_hash: 056b5d993e9ae3639b59c6603a2482d5edc8462129d05bef0d6c4dbaef35f897
+translation_source_hash: 056b5d993e9ae3639b59c6603a2482d5edc8462129d05bef0d6c4dbaef35f897
+translation_model: google/gemini-2.5-flash-lite
+translation_updated: 2026-10-10T21:06:53+00:00
+translation_source_localized_metadata_hash: 03197869ff9dac4efd721d6453ea1fcd345e1499555e084a2b344c6a1ce22745
+translation_source_metadata_hash: 03197869ff9dac4efd721d6453ea1fcd345e1499555e084a2b344c6a1ce22745
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-10-10T21:06:53+00:00
+translation_source_structural_metadata_hash: 1566ee8356abb5f39a03eedf5465127f0a2ae944cc766bb27aecc97217437519
+---
+# Aerial Silk Mannheim
+
+Az Aerial Silk Mannheim egy nyitott légtorna vagy cirkusz edzőhelyként szerepel a "Circus Gyms / Schools Around the World" (Cirkusztermek / Iskolák a világ körül) crowdsourcing alapon működő térképen.
+
+Weboldal: [https://www.aerialsilkmannheim.com](https://www.aerialsilkmannheim.com)
+
+## Forrás
+
+A "Circus Gyms / Schools Around the World" jelentésből importálva, 2026-10-10-én. Csak a "nyitott" jelöléssel ellátott forrásrekordok kerültek közzétételre ebben a tételben. A térképen jelölt helyszín hozzávetőlegesnek tekintendő, mivel a koordináták egy crowdsourcing alapú térképről származnak.

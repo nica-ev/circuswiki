@@ -2,7 +2,7 @@
 lang: en
 translation_id: blog/posts/taming-project-complexity
 created: 2025-05-02 04:37:37
-update: 2025-05-03 22:54:32
+update: 2026-10-10 20:09:23
 date: 2025-05-03T11:00:00
 publish: true
 tags: 
@@ -15,16 +15,16 @@ categories:
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/blog/posts/Taming Project Complexity.md
-translation_source_hash: 40282a58c37a5a74d5d1057009bfb53d11f763e5c6ffb18bbe51adba7cee476a
+translation_source_hash: 15300a3605c6b0a1fbd64d24db3d47f664d6814dc7ad022e57bdace07abf1462
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-06T19:19:49+00:00
-translation_source_body_hash: 40282a58c37a5a74d5d1057009bfb53d11f763e5c6ffb18bbe51adba7cee476a
+translation_updated: 2026-10-10T20:54:07+00:00
+translation_source_body_hash: 15300a3605c6b0a1fbd64d24db3d47f664d6814dc7ad022e57bdace07abf1462
 translation_source_metadata_hash: 326d746cf3f5ea2edc1d4adef6bfcba4e454202b335675ecfc6d363623d01f6b
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-14T15:41:00+00:00
+translation_metadata_updated: 2026-10-10T20:54:07+00:00
 translation_source_localized_metadata_hash: 326d746cf3f5ea2edc1d4adef6bfcba4e454202b335675ecfc6d363623d01f6b
-translation_source_structural_metadata_hash: 6be66a2d5c4cf84d2025d2de231c2a43257a55f773a5faa74703a0519f2b4c56
+translation_source_structural_metadata_hash: e3d56cc63df642dafa063d27bdc292098f6ac52159e83b1249537b0aebc40ffb
 ---
 # Taming Project Complexity - The Saga
 **Versioning the Dev Environment Without Polluting Your Main Repo**

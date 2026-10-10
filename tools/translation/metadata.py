@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import json
 import re
 from collections.abc import Iterable
 
@@ -150,11 +151,10 @@ def missing_scalars(frontmatter: str, keys: Iterable[str]) -> list[str]:
 def format_scalar(value: str) -> str:
     if value == "":
         return ""
-    if any(char in value for char in ['"', "\n"]):
-        escaped = value.replace("\\", "\\\\").replace('"', '\\"')
-        return f'"{escaped}"'
-    if value.lower() in {"true", "false", "null", "none"}:
-        return f'"{value}"'
-    if value.startswith((" ", "-", "@", "#")) or value.endswith(" "):
-        return f'"{value}"'
-    return value
+    try:
+        parsed = yaml.safe_load(value)
+    except yaml.YAMLError:
+        parsed = None
+    if isinstance(parsed, str) and parsed == value:
+        return value
+    return json.dumps(value, ensure_ascii=False)

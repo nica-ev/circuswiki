@@ -1035,52 +1035,72 @@ body.circuswiki-finder-page .md-content__inner > h1:first-of-type {
 }
 
 .cw-finder__toolbar {
-  display: grid;
-  grid-template-columns: minmax(12rem, 1fr) minmax(9rem, 0.42fr) auto;
-  gap: 0.65rem;
-  padding: 0.75rem;
-  border: 1px solid var(--cw-line);
-  border-radius: 1rem;
-  background: var(--cw-panel-solid);
-  box-shadow: 0 0.65rem 1.8rem rgba(30, 38, 33, 0.08);
+  position: absolute;
+  z-index: 1000;
+  top: 10px;
+  left: 50%;
+  display: flex;
+  width: min(22rem, calc(100% - 6rem));
+  height: 2rem;
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.65);
+  color: #333;
+  transform: translateX(-50%);
 }
 
-.cw-finder__search,
+.cw-finder__search {
+  flex: 1 1 11rem;
+  min-width: 0;
+}
+
 .cw-finder__kind {
-  display: block;
+  flex: 0 1 8.5rem;
+  min-width: 6.5rem;
 }
 
 .cw-finder__search input,
 .cw-finder__kind select,
 .cw-finder__nearby {
+  display: block;
   width: 100%;
-  min-height: 2.65rem;
-  border: 1px solid var(--cw-line);
-  border-radius: 0.7rem;
+  height: 2rem;
+  min-height: 2rem;
+  border: 0;
+  border-right: 1px solid #ccc;
+  border-radius: 0;
   font: inherit;
-  font-size: 0.78rem;
+  font-size: 0.68rem;
 }
 
 .cw-finder__search input,
 .cw-finder__kind select {
-  padding: 0.55rem 0.75rem;
-  background: var(--cw-paper);
-  color: var(--cw-ink);
+  padding: 0 0.55rem;
+  background: #fff;
+  color: #333;
+}
+
+.cw-finder__search input {
+  border-radius: 4px 0 0 4px;
 }
 
 .cw-finder__nearby {
-  padding: 0.55rem 0.9rem;
-  border-color: var(--cw-success);
-  background: transparent;
-  color: var(--cw-success);
-  font-weight: 700;
+  display: grid;
+  flex: 0 0 2rem;
+  width: 2rem;
+  padding: 0;
+  place-items: center;
+  border-right: 0;
+  border-radius: 0 4px 4px 0;
+  background: #fff;
+  color: #2f6f5e;
   cursor: pointer;
 }
 
 .cw-finder__nearby:hover,
 .cw-finder__nearby--active {
-  background: var(--cw-success);
-  color: var(--cw-paper);
+  background: #2f6f5e;
+  color: #fff;
 }
 
 .cw-finder__nearby:disabled {
@@ -1090,17 +1110,44 @@ body.circuswiki-finder-page .md-content__inner > h1:first-of-type {
 
 .cw-finder__search input:focus-visible,
 .cw-finder__kind select:focus-visible,
-.cw-finder__nearby:focus-visible,
+.cw-finder__nearby:focus-visible {
+  outline: 0.16rem solid var(--cw-focus);
+  outline-offset: -0.18rem;
+}
+
 .cw-finder-card:focus-visible {
   outline: 0.16rem solid var(--cw-focus);
   outline-offset: 0.12rem;
 }
 
+.cw-finder__nearby svg {
+  width: 1rem;
+  height: 1rem;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: round;
+  stroke-width: 1.8;
+}
+
 .cw-finder__status {
-  min-height: 1.2rem;
-  margin: 0.3rem 0;
-  color: var(--cw-muted);
-  font-size: 0.72rem;
+  position: absolute;
+  top: calc(100% + 0.35rem);
+  left: 50%;
+  width: max-content;
+  max-width: min(20rem, calc(100vw - 2rem));
+  padding: 0.28rem 0.48rem;
+  border-radius: 0.35rem;
+  background: rgba(255, 255, 255, 0.94);
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.28);
+  color: #555;
+  font-size: 0.65rem;
+  line-height: 1.3;
+  text-align: center;
+  transform: translateX(-50%);
+}
+
+.cw-finder__status:empty {
+  display: none;
 }
 
 .cw-finder__map-note {
@@ -1462,12 +1509,15 @@ html.cw-finder-map-expanded {
 }
 
 @media (max-width: 44rem) {
-  .cw-finder__toolbar {
-    grid-template-columns: 1fr;
-  }
-
   .cw-finder__map {
     height: 18rem;
     min-height: 18rem;
+  }
+}
+
+@media (max-width: 30rem) {
+  .cw-finder__toolbar {
+    top: 3.15rem;
+    width: calc(100% - 1rem);
   }
 }

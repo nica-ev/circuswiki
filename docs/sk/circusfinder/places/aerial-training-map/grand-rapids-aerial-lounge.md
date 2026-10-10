@@ -1,0 +1,53 @@
+---
+lang: sk
+translation_id: circusfinder/places/aerial-training-map/grand-rapids-aerial-lounge
+created: '2026-10-10'
+update: '2026-10-10'
+publish: true
+tags:
+- circusfinder
+- aerial-arts
+- training-space
+- aerial-training-map
+title: Grand Rapids Aerial Lounge
+description: Grand Rapids Aerial Lounge je uvedený ako otvorené miesto na tréning aerialu alebo cirkusu v mapách cirkusových telocviční / škôl po celom svete.
+translation_status: machine-translated
+translation_source_lang: en
+directory_id: aerial-map-grand-rapids-aerial-lounge
+entry_kinds:
+- training_space
+directory_status: active
+location_precision: approximate
+organization: Grand Rapids Aerial Lounge
+last_verified: '2026-10-10'
+verification_status: imported_public_map
+source:
+- name: Circus Gyms / Schools Around the World
+  url: https://datastudio.google.com/reporting/2ff68cae-8df4-46f2-b2e6-8ef6d0e328c1/page/Gj9BE
+  record_name: Grand Rapids Aerial Lounge
+  retrieved: '2026-10-10'
+  batch_id: aerial-training-map-2026-10-10
+latitude: 42.9351266662522
+longitude: -85.5350980684642
+website: https://www.grandrapidsaeriallounge.com/
+translation_source: docs/en/circusfinder/places/aerial-training-map/grand-rapids-aerial-lounge.md
+translation_source_body_hash: 12340519a229fa0ee71e71f97284b74f7e1bbb7f101c498f1ede23049fbdb76f
+translation_source_hash: 12340519a229fa0ee71e71f97284b74f7e1bbb7f101c498f1ede23049fbdb76f
+translation_model: google/gemini-2.5-flash-lite
+translation_updated: 2026-10-10T21:49:12+00:00
+translation_source_localized_metadata_hash: c5cc501515931d1f4a42191c11ae822bb22678d7c1cf0c3e220493b2ec79a437
+translation_source_metadata_hash: c5cc501515931d1f4a42191c11ae822bb22678d7c1cf0c3e220493b2ec79a437
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-10-10T21:49:12+00:00
+translation_source_structural_metadata_hash: 29740607890491afccc75c734f2715f9546a7d70a0091c0abba86211693915f6
+---
+# Grand Rapids Aerial Lounge
+
+Grand Rapids Aerial Lounge je uvedený ako miesto na tréning akrobacie vo vzduchu alebo cirkusu v **mapách cirkusových telocviční / škôl po celom svete**, ktoré sú zostavované komunitou.
+
+Webstránka: [https://www.grandrapidsaeriallounge.com/](https://www.grandrapidsaeriallounge.com/)
+
+## Zdroj
+
+Importované zo správy [Cirkusové telocvične / školy po celom svete](https://datastudio.google.com/reporting/2ff68cae-8df4-46f2-b2e6-8ef6d0e328c1/page/Gj9BE) dňa 10.10.2026. V tejto dávke sú zverejnené iba záznamy označené ako otvorené. Poloha na mape je považovaná za približnú, pretože súradnice pochádzajú z mapy zostavenej komunitou.

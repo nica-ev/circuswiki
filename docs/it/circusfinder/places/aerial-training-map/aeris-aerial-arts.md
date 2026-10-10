@@ -1,0 +1,53 @@
+---
+lang: it
+translation_id: circusfinder/places/aerial-training-map/aeris-aerial-arts
+created: '2026-10-10'
+update: '2026-10-10'
+publish: true
+tags:
+- circusfinder
+- aerial-arts
+- training-space
+- aerial-training-map
+title: Aeris Aerial Arts
+description: Aeris Aerial Arts è elencata come una sede di allenamento aereo o circense aperta nella mappa crowdsourced di Palestre / Scuole di Circo in tutto il mondo.
+translation_status: machine-translated
+translation_source_lang: en
+directory_id: aerial-map-aeris-aerial-arts
+entry_kinds:
+- training_space
+directory_status: active
+location_precision: approximate
+organization: Aeris Aerial Arts
+last_verified: '2026-10-10'
+verification_status: imported_public_map
+source:
+- name: Circus Gyms / Schools Around the World
+  url: https://datastudio.google.com/reporting/2ff68cae-8df4-46f2-b2e6-8ef6d0e328c1/page/Gj9BE
+  record_name: Aeris Aerial Arts
+  retrieved: '2026-10-10'
+  batch_id: aerial-training-map-2026-10-10
+latitude: 40.5969
+longitude: -111.9014
+website: http://www.aerisaerial.com/
+translation_source: docs/en/circusfinder/places/aerial-training-map/aeris-aerial-arts.md
+translation_source_body_hash: 23048bb945228388166a1ad361fde99971eb235da56cf059ba562f0172b6528a
+translation_source_hash: 23048bb945228388166a1ad361fde99971eb235da56cf059ba562f0172b6528a
+translation_model: google/gemini-2.5-flash-lite
+translation_updated: 2026-10-10T21:08:56+00:00
+translation_source_localized_metadata_hash: 726b34d97e08caf84f4d4bc51c0ac4faadf3ac2431c237a4ed7469d7a2f6d77f
+translation_source_metadata_hash: 726b34d97e08caf84f4d4bc51c0ac4faadf3ac2431c237a4ed7469d7a2f6d77f
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-10-10T21:08:56+00:00
+translation_source_structural_metadata_hash: 73f939374b5ab79f472d8d7f637757b3eca48d61e94b2aeff834e2da48eb4dd6
+---
+# Aeris Aerial Arts
+
+Aeris Aerial Arts è elencata come una sede aperta per l'allenamento aereo o circense nella mappa crowdsourced "Circus Gyms / Schools Around the World".
+
+Sito web: [http://www.aerisaerial.com/](http://www.aerisaerial.com/)
+
+## Fonte
+
+Importato dal report [Circus Gyms / Schools Around the World](https://datastudio.google.com/reporting/2ff68cae-8df4-46f2-b2e6-8ef6d0e328c1/page/Gj9BE) in data 10/10/2026. Solo i record sorgente contrassegnati come "aperti" sono pubblicati in questo lotto. La posizione sulla mappa è considerata approssimativa poiché le coordinate provengono da una mappa crowdsourced.

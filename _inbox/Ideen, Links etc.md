@@ -31,3 +31,13 @@ https://dotcursorrules.com/mcps/interactive-feedback
 
 https://www.caravancircusnetwork.eu/resources/
 https://games4cirk.com/
+
+
+# Ideas
+
+CircusFinder:
+- we should copy the functionality/UX from the implementation diversecircus did
+- full window map view
+- small images for the preview info possible
+- icons for the markers possible (see the greek implementation)
+- scroll wheel on hover works as zoom
