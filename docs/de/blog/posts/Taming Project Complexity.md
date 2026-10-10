@@ -2,7 +2,7 @@
 lang: de
 translation_id: blog/posts/taming-project-complexity
 created: 2025-05-02 04:37:37
-update: 2025-05-03 22:54:32
+update: 2026-10-10 20:09:23
 date: 2025-05-03T11:00:00
 publish: true
 tags: 
@@ -15,6 +15,7 @@ categories:
 translation_status: original
 translation_source_lang: de
 ---
+
 # Taming Project Complexity - The Saga
 **Versioning the Dev Environment Without Polluting Your Main Repo**
 

@@ -32,30 +32,34 @@ last_verified: 2026-10-09
 verification_status: imported_public_list
 source_note: "Imported from an openly accessible contact list supplied to CircusWiki."
 translation_source: docs/en/circusfinder/places/network/us-oakland-prescott-circus.md
-translation_source_body_hash: 1634d99de4e51de9443038499c8f63896a2a93a992eefda8f7ceb2c1b9fde4f2
-translation_source_hash: 1634d99de4e51de9443038499c8f63896a2a93a992eefda8f7ceb2c1b9fde4f2
+translation_source_body_hash: ea634e40410a0aec38187b6faf64eb19b50e7e5a6ed000307648c30f78bfc5b6
+translation_source_hash: ea634e40410a0aec38187b6faf64eb19b50e7e5a6ed000307648c30f78bfc5b6
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-10-10T00:29:21+00:00
+translation_updated: 2026-10-10T22:44:07+00:00
 translation_source_localized_metadata_hash: 99391eb103e050f10f527d89133db67c9a0234e03710fc72ddee3a941112c151
 translation_source_metadata_hash: 99391eb103e050f10f527d89133db67c9a0234e03710fc72ddee3a941112c151
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-10-10T00:29:21+00:00
-translation_source_structural_metadata_hash: a87109100c2441e0f57f36e37d59f80be027942c051dc8fe7207034e4ecb82a5
+translation_metadata_updated: 2026-10-10T22:44:07+00:00
+translation_source_structural_metadata_hash: b5748da77d2a4a0f2dd44af3e4e2bb2b5f410c34261a693d36cf213552089220
 source:
-  - name: "QuatProps Collective"
-    url: "https://quatprops.com/"
+- name: QuatProps Collective
+  url: https://quatprops.com/
+- name: Circus Gyms / Schools Around the World
+  url: https://datastudio.google.com/reporting/2ff68cae-8df4-46f2-b2e6-8ef6d0e328c1/page/Gj9BE
+  record_name: Prescott Circus Theatre
+  retrieved: '2026-10-10'
+  batch_id: aerial-training-map-2026-10-10
 ---
-
 # Prescott Circus
 
 A Prescott Circus **Helyi Partnerként** van feltüntetve Oaklandben, Kalifornia államban, Egyesült Államokban.
 
-A térképen látható jelölő csak a város vagy a regionális központ hozzávetőleges helyét mutatja, nem pedig utcanévvel pontos címet.
+A térképen jelölt pont csak a város vagy a regionális központ hozzávetőleges helyét mutatja, nem pedig utcai címet.
 
 ## Közönségkapcsolat
 
 - Kapcsolattartó: David Hunt
 - E-mail: [info@prescottcircus.org](mailto:info@prescottcircus.org)
 
-Az információ a CircusWiki számára elérhető, nyilvánosan hozzáférhető kapcsolati listából lett importálva.
+A CircusWiki rendelkezésére bocsátott, szabadon hozzáférhető kapcsolati listából importálva.

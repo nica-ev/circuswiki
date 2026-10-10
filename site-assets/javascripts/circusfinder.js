@@ -266,7 +266,7 @@
 
     function invalidateMapSize() {
       window.requestAnimationFrame(function () {
-        map.invalidateSize({ animate: false, pan: false });
+        map.invalidateSize({ animate: false, pan: true });
       });
     }
 
@@ -523,19 +523,22 @@
 
   function renderShell(container, labels) {
     container.innerHTML = [
-      '<div class="cw-finder__toolbar">',
+      '<div class="cw-finder__layout">',
+      '<div class="cw-finder__map-column">',
+      '<div class="cw-finder__map" data-cw-map role="region" aria-label="' + escapeHtml(labels.mapLabel) + '">',
+      '<div class="cw-finder__toolbar" data-cw-toolbar role="search" aria-label="' + escapeHtml(labels.searchLabel) + '">',
       '<label class="cw-finder__search">',
       '<span class="cw-sr-only">' + escapeHtml(labels.searchLabel) + "</span>",
       '<input type="search" data-cw-search placeholder="' + escapeHtml(labels.search) + '" autocomplete="off">',
       "</label>",
       '<label class="cw-finder__kind"><span class="cw-sr-only">' + escapeHtml(labels.allKinds) + "</span>",
       '<select data-cw-kind><option value="">' + escapeHtml(labels.allKinds) + "</option></select></label>",
-      '<button type="button" class="cw-finder__nearby" data-cw-nearby>' + escapeHtml(labels.nearby) + "</button>",
+      '<button type="button" class="cw-finder__nearby" data-cw-nearby aria-label="' + escapeHtml(labels.nearby) + '" title="' + escapeHtml(labels.nearby) + '">',
+      '<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="4"/><path d="M12 2v4M12 18v4M2 12h4M18 12h4"/></svg>',
+      "</button>",
+      '<span class="cw-finder__status" data-cw-status aria-live="polite"></span>',
       "</div>",
-      '<p class="cw-finder__status" data-cw-status aria-live="polite"></p>',
-      '<div class="cw-finder__layout">',
-      '<div class="cw-finder__map-column">',
-      '<div class="cw-finder__map" data-cw-map role="region" aria-label="' + escapeHtml(labels.mapLabel) + '"></div>',
+      "</div>",
       '<p class="cw-finder__map-note"><span class="cw-finder__map-key"><span class="cw-finder__marker-swatch cw-finder__marker--exact" aria-hidden="true"></span>' + escapeHtml(labels.exactMarker) + '</span><span class="cw-finder__map-key"><span class="cw-finder__marker-swatch cw-finder__marker--approximate" aria-hidden="true"></span>' + escapeHtml(labels.approximateMarker) + "</span></p>",
       "</div>",
       '<section class="cw-finder__results" aria-label="' + escapeHtml(labels.listLabel) + '">',
@@ -558,6 +561,7 @@
     var count = container.querySelector("[data-cw-count]");
     var cards = container.querySelector("[data-cw-cards]");
     var mapElement = container.querySelector("[data-cw-map]");
+    var toolbar = container.querySelector("[data-cw-toolbar]");
     mapElement.id = mapElement.id || "circusfinder-map";
     var origin = null;
     var userLayer = null;
@@ -573,6 +577,9 @@
     });
 
     var map = L.map(mapElement, { scrollWheelZoom: true }).setView([51.15, 10.45], 5);
+    L.DomEvent.disableClickPropagation(toolbar);
+    L.DomEvent.disableScrollPropagation(toolbar);
+    L.DomEvent.on(toolbar, "keydown", L.DomEvent.stopPropagation);
     L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
       maxZoom: 19,
       attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>'
@@ -662,7 +669,7 @@
       mapElement.scrollIntoView({ behavior: "smooth", block: "nearest" });
     }
 
-    function render() {
+    function render(fitMap) {
       var filtered = filteredRecords();
       markerLayer.clearLayers();
       markers = {};
@@ -694,7 +701,7 @@
       if (origin) {
         bounds.push([origin.latitude, origin.longitude]);
       }
-      if (bounds.length) {
+      if (fitMap === true && bounds.length) {
         map.fitBounds(bounds, { padding: [32, 32], maxZoom: 11 });
       }
 
@@ -715,8 +722,8 @@
       });
     }
 
-    search.addEventListener("input", render);
-    kind.addEventListener("change", render);
+    search.addEventListener("input", function () { render(false); });
+    kind.addEventListener("change", function () { render(false); });
     nearby.addEventListener("click", function () {
       if (!navigator.geolocation) {
         status.textContent = labels.locationError;
@@ -742,14 +749,14 @@
         status.textContent = "";
         nearby.disabled = false;
         nearby.classList.add("cw-finder__nearby--active");
-        render();
+        render(false);
       }, function () {
         status.textContent = labels.locationError;
         nearby.disabled = false;
       }, { enableHighAccuracy: false, timeout: 10000, maximumAge: 300000 });
     });
 
-    render();
+    render(true);
     window.setTimeout(function () { map.invalidateSize(); }, 0);
     container._circusFinderMap = map;
   }
