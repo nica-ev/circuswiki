@@ -32,10 +32,14 @@ last_verified: 2026-10-09
 verification_status: imported_public_list
 source_note: "Imported from an openly accessible contact list supplied to CircusWiki."
 source:
-  - name: "QuatProps Collective"
-    url: "https://quatprops.com/"
+- name: QuatProps Collective
+  url: https://quatprops.com/
+- name: Circus Gyms / Schools Around the World
+  url: https://datastudio.google.com/reporting/2ff68cae-8df4-46f2-b2e6-8ef6d0e328c1/page/Gj9BE
+  record_name: Prescott Circus Theatre
+  retrieved: '2026-10-10'
+  batch_id: aerial-training-map-2026-10-10
 ---
-
 # Prescott Circus
 
 Prescott Circus is listed as **Local Partner** in Oakland, California, United States.

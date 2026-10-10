@@ -10,6 +10,8 @@
     ? document.currentScript.src
     : "";
   var leafletPromise;
+  var markerClusterPromise;
+  var expandedMapController;
 
   var TRANSLATIONS = {
     de: {
@@ -24,6 +26,8 @@
       manyResults: "{count} Ergebnisse",
       noResults: "Keine passenden Einträge gefunden.",
       mapLabel: "Karte mit CircusFinder-Einträgen",
+      expandMap: "Karte im ganzen Browserfenster anzeigen",
+      collapseMap: "Große Kartenansicht schließen",
       listLabel: "CircusFinder-Ergebnisse",
       website: "Website",
       details: "Wiki-Eintrag",
@@ -36,6 +40,7 @@
       networkNotice: "Ohne Kartenposition",
       exactMarker: "Blauer Marker: genaue Adresse",
       approximateMarker: "Orangefarbener Marker: ungefähre Position",
+      cluster: "{count} Orte",
       contact: "Kontakt",
       schedule: "Zeiten",
       source: "Quelle",
@@ -65,6 +70,8 @@
       manyResults: "{count} results",
       noResults: "No matching entries found.",
       mapLabel: "Map of CircusFinder entries",
+      expandMap: "Expand map to fill the browser window",
+      collapseMap: "Close expanded map",
       listLabel: "CircusFinder results",
       website: "Website",
       details: "Wiki entry",
@@ -77,6 +84,7 @@
       networkNotice: "No map position",
       exactMarker: "Blue marker: exact address",
       approximateMarker: "Orange marker: approximate position",
+      cluster: "{count} locations",
       contact: "Contact",
       schedule: "Schedule",
       source: "Source",
@@ -118,6 +126,10 @@
 
   function leafletAssetUrl(path) {
     return new URL("vendor/leaflet/" + path, assetRoot()).toString();
+  }
+
+  function markerClusterAssetUrl(path) {
+    return new URL("vendor/leaflet.markercluster/" + path, assetRoot()).toString();
   }
 
   function ensureLeafletCss() {
@@ -166,13 +178,159 @@
     });
   }
 
+  function ensureMarkerClusterCss() {
+    var existing = document.querySelector('link[data-cw-marker-cluster="true"]');
+    if (existing) {
+      if (existing.sheet) {
+        return Promise.resolve();
+      }
+      return new Promise(function (resolve, reject) {
+        existing.addEventListener("load", resolve, { once: true });
+        existing.addEventListener("error", function () {
+          reject(new Error("Map clustering stylesheet request failed: " + existing.href));
+        }, { once: true });
+      });
+    }
+    var link = document.createElement("link");
+    link.rel = "stylesheet";
+    link.href = markerClusterAssetUrl("MarkerCluster.css");
+    link.setAttribute("data-cw-marker-cluster", "true");
+    var loaded = new Promise(function (resolve, reject) {
+      link.addEventListener("load", resolve, { once: true });
+      link.addEventListener("error", function () {
+        reject(new Error("Map clustering stylesheet request failed: " + link.href));
+      }, { once: true });
+    });
+    document.head.appendChild(link);
+    return loaded;
+  }
+
+  function loadMapLibraries() {
+    return loadLeaflet().then(function (L) {
+      return ensureMarkerClusterCss().then(function () {
+        if (L.markerClusterGroup) {
+          return L;
+        }
+        if (markerClusterPromise) {
+          return markerClusterPromise;
+        }
+        markerClusterPromise = new Promise(function (resolve, reject) {
+          var script = document.createElement("script");
+          script.src = markerClusterAssetUrl("leaflet.markercluster.js");
+          script.onload = function () {
+            if (L.markerClusterGroup) {
+              resolve(L);
+              return;
+            }
+            reject(new Error("Map clustering library loaded without registering itself."));
+          };
+          script.onerror = function () {
+            reject(new Error("Map clustering library request failed: " + script.src));
+          };
+          document.head.appendChild(script);
+        });
+        return markerClusterPromise;
+      });
+    });
+  }
+
+  function mapExpandIcon(expanded) {
+    if (expanded) {
+      return [
+        '<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">',
+        '<path d="M9 3v6H3M15 3v6h6M9 21v-6H3M15 21v-6h6"/>',
+        "</svg>"
+      ].join("");
+    }
+    return [
+      '<svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">',
+      '<path d="M9 3H3v6M15 3h6v6M9 21H3v-6M15 21h6v-6"/>',
+      "</svg>"
+    ].join("");
+  }
+
+  function addExpandControl(L, map, mapElement, labels) {
+    var expanded = false;
+    var button;
+    var placeholder;
+    var control = L.control({ position: "topright" });
+
+    function updateButton() {
+      var label = expanded ? labels.collapseMap : labels.expandMap;
+      button.innerHTML = mapExpandIcon(expanded);
+      button.setAttribute("aria-label", label);
+      button.setAttribute("title", label);
+      button.setAttribute("aria-expanded", String(expanded));
+      button.setAttribute("aria-controls", mapElement.id);
+    }
+
+    function invalidateMapSize() {
+      window.requestAnimationFrame(function () {
+        map.invalidateSize({ animate: false, pan: false });
+      });
+    }
+
+    function setExpanded(nextExpanded, returnFocus) {
+      if (expanded === nextExpanded) {
+        return;
+      }
+      if (nextExpanded && expandedMapController && expandedMapController.collapse !== collapse) {
+        expandedMapController.collapse(false);
+      }
+      expanded = nextExpanded;
+      if (expanded) {
+        placeholder = document.createComment("CircusFinder map position");
+        mapElement.parentNode.insertBefore(placeholder, mapElement);
+        document.body.appendChild(mapElement);
+      } else if (placeholder && placeholder.parentNode) {
+        placeholder.parentNode.insertBefore(mapElement, placeholder);
+        placeholder.remove();
+        placeholder = null;
+      }
+      mapElement.classList.toggle("cw-finder__map--expanded", expanded);
+      document.documentElement.classList.toggle("cw-finder-map-expanded", expanded);
+      document.body.classList.toggle("cw-finder-map-expanded", expanded);
+      expandedMapController = expanded ? { mapElement: mapElement, collapse: collapse } : null;
+      updateButton();
+      invalidateMapSize();
+      if (!expanded && returnFocus) {
+        button.focus();
+      }
+    }
+
+    function collapse(returnFocus) {
+      setExpanded(false, returnFocus);
+    }
+
+    control.onAdd = function () {
+      var wrapper = L.DomUtil.create("div", "leaflet-bar cw-finder__expand-control");
+      button = L.DomUtil.create("button", "cw-finder__expand-button", wrapper);
+      button.type = "button";
+      updateButton();
+      L.DomEvent.disableClickPropagation(wrapper);
+      L.DomEvent.disableScrollPropagation(wrapper);
+      L.DomEvent.on(button, "click", function () {
+        setExpanded(!expanded, false);
+      });
+      return wrapper;
+    };
+    control.addTo(map);
+
+    document.addEventListener("keydown", function (event) {
+      if (expanded && event.key === "Escape") {
+        event.preventDefault();
+        collapse(true);
+      }
+    });
+  }
+
   function restoreFinder(container) {
     var map = container._circusFinderMap;
     if (!map) {
       container.removeAttribute("data-cw-ready");
       return false;
     }
-    ensureLeafletCss().then(function () {
+    Promise.all([ensureLeafletCss(), ensureMarkerClusterCss()]).then(function () {
       window.requestAnimationFrame(function () {
         map.invalidateSize({ animate: false, pan: false });
       });
@@ -400,6 +558,7 @@
     var count = container.querySelector("[data-cw-count]");
     var cards = container.querySelector("[data-cw-cards]");
     var mapElement = container.querySelector("[data-cw-map]");
+    mapElement.id = mapElement.id || "circusfinder-map";
     var origin = null;
     var userLayer = null;
     var markers = {};
@@ -413,12 +572,30 @@
       kind.appendChild(option);
     });
 
-    var map = L.map(mapElement, { scrollWheelZoom: false }).setView([51.15, 10.45], 5);
+    var map = L.map(mapElement, { scrollWheelZoom: true }).setView([51.15, 10.45], 5);
     L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
       maxZoom: 19,
       attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>'
     }).addTo(map);
-    var markerLayer = L.layerGroup().addTo(map);
+    addExpandControl(L, map, mapElement, labels);
+    var markerLayer = L.markerClusterGroup({
+      chunkedLoading: true,
+      maxClusterRadius: 64,
+      removeOutsideVisibleBounds: true,
+      showCoverageOnHover: false,
+      spiderfyDistanceMultiplier: 1.2,
+      iconCreateFunction: function (cluster) {
+        var childCount = cluster.getChildCount();
+        var tier = childCount < 10 ? "small" : childCount < 100 ? "medium" : "large";
+        var size = tier === "small" ? 36 : tier === "medium" ? 42 : 48;
+        return L.divIcon({
+          className: "cw-finder__cluster cw-finder__cluster--" + tier,
+          html: '<span aria-hidden="true">' + childCount + '</span><span class="cw-sr-only">' +
+            escapeHtml(labels.cluster.replace("{count}", childCount)) + "</span>",
+          iconSize: [size, size]
+        });
+      }
+    }).addTo(map);
 
     function markerOptions(record) {
       var precision = record.location && record.location.precision;
@@ -479,8 +656,9 @@
       if (!marker) {
         return;
       }
-      map.setView(marker.getLatLng(), Math.max(map.getZoom(), 11), { animate: true });
-      marker.openPopup();
+      markerLayer.zoomToShowLayer(marker, function () {
+        marker.openPopup();
+      });
       mapElement.scrollIntoView({ behavior: "smooth", block: "nearest" });
     }
 
@@ -494,6 +672,7 @@
       count.textContent = filtered.length === 1 ? labels.oneResult : labels.manyResults.replace("{count}", filtered.length);
 
       var bounds = [];
+      var nextMarkers = [];
       var coordinateCounts = {};
       filtered.forEach(function (item) {
         if (hasCoordinates(item.record)) {
@@ -507,10 +686,11 @@
         }
         var coordinates = displayCoordinates(item.record, coordinateCounts);
         var marker = L.marker(coordinates, markerOptions(item.record)).bindPopup(popupHtml(item.record, labels, item.distance));
-        marker.addTo(markerLayer);
+        nextMarkers.push(marker);
         markers[item.record.id] = marker;
         bounds.push(coordinates);
       });
+      markerLayer.addLayers(nextMarkers);
       if (origin) {
         bounds.push([origin.latitude, origin.longitude]);
       }
@@ -586,7 +766,11 @@
   }
 
   function init() {
-    document.body.classList.toggle("circuswiki-finder-page", Boolean(document.querySelector("[data-circusfinder]")));
+    var finderContainer = document.querySelector("[data-circusfinder]");
+    if (expandedMapController && (!finderContainer || !document.body.contains(expandedMapController.mapElement))) {
+      expandedMapController.collapse(false);
+    }
+    document.body.classList.toggle("circuswiki-finder-page", Boolean(finderContainer));
     document.querySelectorAll("[data-circusfinder]").forEach(function (container) {
       if (container.getAttribute("data-cw-ready") === "true") {
         if (restoreFinder(container)) {
@@ -601,7 +785,7 @@
           }
           return response.json();
         }),
-        loadLeaflet()
+        loadMapLibraries()
       ]).then(function (values) {
         initializeFinder(container, values[0], values[1]);
       }).catch(function (error) {

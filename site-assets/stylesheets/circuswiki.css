@@ -1156,6 +1156,40 @@ body.circuswiki-finder-page .md-content__inner > h1:first-of-type {
   height: 1.05rem;
 }
 
+.cw-finder__cluster {
+  display: grid;
+  place-items: center;
+  border: 3px solid rgba(255, 255, 255, 0.92);
+  border-radius: 50%;
+  background: #2f6f5e;
+  box-shadow:
+    0 0 0 0.28rem rgba(47, 111, 94, 0.22),
+    0 0.2rem 0.55rem rgba(30, 38, 33, 0.35);
+  color: #fff;
+  font-size: 0.68rem;
+  font-weight: 800;
+  line-height: 1;
+  text-align: center;
+}
+
+.cw-finder__cluster--medium {
+  background: #28614f;
+  font-size: 0.72rem;
+}
+
+.cw-finder__cluster--large {
+  background: #214f42;
+  font-size: 0.76rem;
+}
+
+.cw-finder__cluster:hover,
+.cw-finder__cluster:focus-visible {
+  background: #1d463a;
+  box-shadow:
+    0 0 0 0.32rem rgba(213, 107, 40, 0.32),
+    0 0.28rem 0.7rem rgba(30, 38, 33, 0.4);
+}
+
 .cw-finder__layout {
   display: grid;
   grid-template-columns: minmax(0, 1.3fr) minmax(16rem, 0.7fr);
@@ -1176,6 +1210,65 @@ body.circuswiki-finder-page .md-content__inner > h1:first-of-type {
   background: var(--cw-paper-soft);
   box-shadow: 0 0.65rem 1.8rem rgba(30, 38, 33, 0.08);
   overflow: hidden;
+}
+
+html.cw-finder-map-expanded,
+body.cw-finder-map-expanded {
+  overflow: hidden;
+}
+
+html.cw-finder-map-expanded {
+  scrollbar-gutter: auto;
+}
+
+.cw-finder__map.cw-finder__map--expanded {
+  position: fixed !important;
+  z-index: 10000;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  height: 100dvh;
+  min-height: 0;
+  border: 0;
+  border-radius: 0;
+}
+
+.cw-finder__expand-control {
+  overflow: hidden;
+  background: #fff;
+}
+
+.cw-finder__expand-button {
+  display: grid;
+  width: 2rem;
+  height: 2rem;
+  padding: 0;
+  place-items: center;
+  border: 0;
+  background: #fff;
+  color: #333;
+  cursor: pointer;
+}
+
+.cw-finder__expand-button:hover,
+.cw-finder__expand-button:focus-visible {
+  background: #f4f4f4;
+  color: #111;
+}
+
+.cw-finder__expand-button:focus-visible {
+  outline: 0.16rem solid var(--cw-focus);
+  outline-offset: -0.18rem;
+}
+
+.cw-finder__expand-button svg {
+  width: 1.15rem;
+  height: 1.15rem;
+  fill: none;
+  stroke: currentColor;
+  stroke-linecap: square;
+  stroke-linejoin: miter;
+  stroke-width: 2;
 }
 
 .cw-finder__results {
