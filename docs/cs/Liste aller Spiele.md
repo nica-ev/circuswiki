@@ -14,14 +14,14 @@ authors:
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/Liste aller Spiele.md
-translation_source_hash: 8946e1179c03ea1938629b77e282e2fd76adf3d1a790b429ea64822ae3ad1a07
+translation_source_hash: c6776afcb84053fee488ced91c7604e59fe85a1923fbeab7753cfc383f0c9fd8
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-14T19:32:54+00:00
-translation_source_body_hash: 8946e1179c03ea1938629b77e282e2fd76adf3d1a790b429ea64822ae3ad1a07
+translation_updated: 2026-10-10T00:46:25+00:00
+translation_source_body_hash: c6776afcb84053fee488ced91c7604e59fe85a1923fbeab7753cfc383f0c9fd8
 translation_source_metadata_hash: 1048047186f06e75dc548d1931eeb14384e77ad004616d6b714565ab697713a4
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-14T19:32:54+00:00
+translation_metadata_updated: 2026-10-10T00:46:25+00:00
 translation_source_localized_metadata_hash: 1048047186f06e75dc548d1931eeb14384e77ad004616d6b714565ab697713a4
 translation_source_structural_metadata_hash: e214f427b1fd7d3c3be1f23ae6f234c1b4e981a85cdf4d5ce8a24ff18fe00a33
 ---
@@ -65,6 +65,7 @@ format: table
 | [Zmatek s míčky](<B%C3%A4llewirrwarr.md>)                                                            | 5          | 15         | lehká - těžká   | Míčky                                                                                                      | 10       |
 | [Modelovací gladiátoři z balónků](<balloon-modelling-gladiators.md>)                                 | 3          | 60         | střední         | Zvířátka z balónků, párátka                                                                                | 5-15     |
 | [Plážový volejbal Flingo](<beach-flingo-volleyball.md>)                                              | 2          | 40         | těžká           | Plážové Flingo dresy nebo hodně-chytací plachty, míč, síť nebo čára kurtu                                  | 5-15     |
+| [Beigoma: Hra s 10minutovou úpravou](<Beigoma%2010-Minute%20Modification%20Game.md>)                 | 2          | 20         | těžká           | Beigoma, provázky, hrací plocha, pilníky, brusný papír, bezpečnostní vybavení, časovač                     | 20-45    |
 | [Beigoma Bodový Zápas](<Beigoma%20Point%20Match.md>)                                                 | 2          | 40         | střední         | Beigoma, provázky, hrací plocha, bodovací list, pera                                                       | 10-15    |
 | [Turnajový zápas Beigoma](<Beigoma%20Tournament%20Match.md>)                                         | 4          | 64         | střední         | Beigoma, provázky, hrací plocha, turnajový pavouk                                                          | 15-60    |
 | [Rychlost](<Beigoma-Spiel-Speed.md>)                                                                 | -          | -          | -               | -                                                                                                          | -        |

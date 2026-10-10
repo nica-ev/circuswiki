@@ -1,0 +1,56 @@
+---
+lang: de
+translation_id: circusfinder/places/network/mx-guadalajara-jose-guillermo-mendez
+created: 2026-10-09 00:00:00
+update: 2026-10-09 00:00:00
+publish: true
+tags:
+  - circusfinder
+  - network-contact
+title: José Guillermo Méndez
+description: José Guillermo Méndez ist als Local Partner in Guadalajara, Mexiko, aufgeführt.
+translation_status: machine-translated
+translation_source_lang: en
+directory_id: "mx-guadalajara-jose-guillermo-mendez"
+entry_kinds:
+  - network_contact
+directory_status: active
+country_code: MX
+city: "Guadalajara"
+latitude: 20.6597
+longitude: -103.3496
+location_precision: city
+organization: "Independent"
+collective_statuses:
+  - local_partner
+contact_people:
+  - "José Guillermo Méndez"
+public_emails:
+  - "espaciodecirco@gmail.com"
+last_verified: 2026-10-09
+verification_status: imported_public_list
+source_note: "Imported from an openly accessible contact list supplied to CircusWiki."
+translation_source: docs/en/circusfinder/places/network/mx-guadalajara-jose-guillermo-mendez.md
+translation_source_body_hash: 18b7811835facbe14225edb768b483ea6ed654ba87d26cdc21ecfcd989b7edcc
+translation_source_hash: 18b7811835facbe14225edb768b483ea6ed654ba87d26cdc21ecfcd989b7edcc
+translation_model: google/gemini-2.5-flash-lite
+translation_updated: 2026-10-10T00:25:30+00:00
+translation_source_localized_metadata_hash: 9529bb2ce556f6d481318c20197379454ccc234badf253701ce3d35615ded7a9
+translation_source_metadata_hash: 9529bb2ce556f6d481318c20197379454ccc234badf253701ce3d35615ded7a9
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-10-10T00:25:30+00:00
+translation_source_structural_metadata_hash: 263f1ff5655c8db421357a5e504c965cf92bf274685170e424b8db7fc47608a3
+---
+# José Guillermo Méndez
+
+José Guillermo Méndez ist als **lokaler Partner** in Guadalajara, Mexiko, aufgeführt.
+
+Der Kartenpunkt zeigt nur das ungefähre Stadt- oder Regionalzentrum an, nicht die genaue Straßenadresse.
+
+## Öffentlicher Kontakt
+
+- Kontakt: José Guillermo Méndez
+- E-Mail: [espaciodecirco@gmail.com](mailto:espaciodecirco@gmail.com)
+
+Importiert aus einer frei zugänglichen Kontaktliste, die CircusWiki zur Verfügung gestellt wurde.

@@ -1,0 +1,58 @@
+---
+lang: nl
+translation_id: circusfinder/places/network/cl-valparaiso-malabicirco
+created: 2026-10-09 00:00:00
+update: 2026-10-09 00:00:00
+publish: true
+tags:
+  - circusfinder
+  - network-contact
+title: Malabicirco
+description: Malabicirco wordt vermeld als Lokale Partner in Valparaíso, Chili.
+translation_status: machine-translated
+translation_source_lang: en
+directory_id: "cl-valparaiso-malabicirco"
+entry_kinds:
+  - network_contact
+directory_status: active
+country_code: CL
+city: "Valparaíso"
+latitude: -33.0472
+longitude: -71.6127
+location_precision: city
+organization: "Malabicirco"
+collective_statuses:
+  - local_partner
+contact_people:
+  - "Javier Morales"
+public_emails:
+  - "alfonsopatricio@gmail.com"
+  - "malabicirco@gmail.com"
+last_verified: 2026-10-09
+verification_status: imported_public_list
+source_note: "Imported from an openly accessible contact list supplied to CircusWiki."
+translation_source: docs/en/circusfinder/places/network/cl-valparaiso-malabicirco.md
+translation_source_body_hash: 2f031719e7ec1399e58142e895c27de0613056ca150e8490a2df27d51bfb93fc
+translation_source_hash: 2f031719e7ec1399e58142e895c27de0613056ca150e8490a2df27d51bfb93fc
+translation_model: google/gemini-2.5-flash-lite
+translation_updated: 2026-10-10T00:15:48+00:00
+translation_source_localized_metadata_hash: 3448d457d1ed1e065583dda5866dd58aea4cf924b860304c4038901d56df4fe2
+translation_source_metadata_hash: 3448d457d1ed1e065583dda5866dd58aea4cf924b860304c4038901d56df4fe2
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-10-10T00:15:48+00:00
+translation_source_structural_metadata_hash: f4c09831d2ce67421d6f9dc69991fd5c0e8fab0b246d4355caffef49ad0a729c
+---
+# Malabicirco
+
+Malabicirco staat vermeld als **Lokale Partner** in Valparaíso, Chili.
+
+De kaartmarkering toont alleen het geschatte stadscentrum of regionale centrum, geen straatadres.
+
+## Publiek contact
+
+- Contactpersoon: Javier Morales
+- E-mail: [alfonsopatricio@gmail.com](mailto:alfonsopatricio@gmail.com)
+- E-mail: [malabicirco@gmail.com](mailto:malabicirco@gmail.com)
+
+Geïmporteerd uit een openbaar toegankelijke contactenlijst die aan CircusWiki is verstrekt.

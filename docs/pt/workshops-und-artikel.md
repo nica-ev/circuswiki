@@ -7,21 +7,21 @@ publish: true
 tags:
   - moc
   - dynamic
-title: Workshops, Tutoriais e Mais
+title: Workshops, Tutoriais e mais
 description:
 authors:
   - Marc Bielert
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/workshops-und-artikel.md
-translation_source_body_hash: f1ca23a5b076ce79bd582b476ff93479aa620bfad258e9a79ba37b9d47e94b46
-translation_source_hash: f1ca23a5b076ce79bd582b476ff93479aa620bfad258e9a79ba37b9d47e94b46
+translation_source_body_hash: 14c0788623d74c2d7d38eaa4293c118e223ba9c7dfb54108a599c254b3f88cd7
+translation_source_hash: 14c0788623d74c2d7d38eaa4293c118e223ba9c7dfb54108a599c254b3f88cd7
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-06-14T15:12:03+00:00
+translation_updated: 2026-10-10T00:47:10+00:00
 translation_source_metadata_hash: fff5ece69b3c626f44cfd39fb18e6702a9e894ae535c96606cba2234a32da161
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-06-14T16:27:47+00:00
+translation_metadata_updated: 2026-10-10T00:47:10+00:00
 translation_source_localized_metadata_hash: fff5ece69b3c626f44cfd39fb18e6702a9e894ae535c96606cba2234a32da161
 translation_source_structural_metadata_hash: 69daed348422ee9364c32143414b5bddd998ff8f23492cae45a9f7b3b0b569b9
 ---

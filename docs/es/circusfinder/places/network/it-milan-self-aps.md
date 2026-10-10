@@ -1,0 +1,56 @@
+---
+lang: es
+translation_id: circusfinder/places/network/it-milan-self-aps
+created: 2026-10-09 00:00:00
+update: 2026-10-09 00:00:00
+publish: true
+tags:
+  - circusfinder
+  - network-contact
+title: APS AUTÓNOMO
+description: APS AUTÓNOMO es socio regional en Milán, Italia.
+translation_status: machine-translated
+translation_source_lang: en
+directory_id: "it-milan-self-aps"
+entry_kinds:
+  - network_contact
+directory_status: active
+country_code: IT
+city: "Milan"
+latitude: 45.4642
+longitude: 9.19
+location_precision: city
+organization: "SELF APS"
+collective_statuses:
+  - regional_partner
+contact_people:
+  - "Sara Papadato"
+public_emails:
+  - "sarapapadato@gmail.com"
+last_verified: 2026-10-09
+verification_status: imported_public_list
+source_note: "Imported from an openly accessible contact list supplied to CircusWiki."
+translation_source: docs/en/circusfinder/places/network/it-milan-self-aps.md
+translation_source_body_hash: e91dd68f6022a2f3f0411fb24a2be9b5e09cf94d76600742666c53ce86e641ee
+translation_source_hash: e91dd68f6022a2f3f0411fb24a2be9b5e09cf94d76600742666c53ce86e641ee
+translation_model: google/gemini-2.5-flash-lite
+translation_updated: 2026-10-10T00:24:29+00:00
+translation_source_localized_metadata_hash: 99976fa920d83d4dabe7ec36466e975cc3d2a14b8849b51cf041131c6103d1f8
+translation_source_metadata_hash: 99976fa920d83d4dabe7ec36466e975cc3d2a14b8849b51cf041131c6103d1f8
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: 2026-10-10T00:24:29+00:00
+translation_source_structural_metadata_hash: a57d1e9126ed3c315a405b2b4cd44698f5869e387472c7792ff90a74a9fc0137
+---
+# SELF APS
+
+SELF APS figura como **Socio Regional** en Milán, Italia.
+
+El marcador del mapa solo muestra la ciudad o el centro regional aproximado, no una dirección postal.
+
+## Contacto público
+
+- Contacto: Sara Papadato
+- Correo electrónico: [sarapapadato@gmail.com](mailto:sarapapadato@gmail.com)
+
+Importado de una lista de contactos de acceso público proporcionada a CircusWiki.
