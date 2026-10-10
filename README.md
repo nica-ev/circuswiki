@@ -212,9 +212,26 @@ interface retain and display this provenance. DiversAbility imports live below
 `docs/en/circusfinder/places/diversability/` so that batch can be reviewed,
 updated, or removed independently.
 
-The prototype ships Leaflet 1.9.4 with the static assets so its interface does
-not depend on a JavaScript CDN at runtime. The upstream MIT license is retained
-at `site-assets/vendor/leaflet/LICENSE`.
+The crowdsourced Circus Gyms / Schools Around the World import follows the same
+source-specific approach under
+`docs/en/circusfinder/places/aerial-training-map/`. Its importer is dry-run by
+default and publishes only named records marked `Open` in the CSV export:
+
+```powershell
+python tools/circusfinder/import_aerial_map.py "path/to/export.csv"
+python tools/circusfinder/import_aerial_map.py "path/to/export.csv" --apply
+```
+
+The active-snapshot policy, reviewed pruning workflow, duplicate/update rules,
+and possible future scheduling are documented in
+`_system/circusfinder-source-imports.md`.
+
+The prototype ships Leaflet 1.9.4 and Leaflet.markercluster 1.5.3 with the
+static assets so its interface does not depend on a JavaScript CDN at runtime.
+Their upstream licenses are retained in the corresponding folders below
+`site-assets/vendor/`. The clustering decision, performance limits, alternatives,
+and future MapLibre/application path are documented in
+`_system/ADR-001-circusfinder-map-rendering.md`.
 
 ## GitHub Pages
 
