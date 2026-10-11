@@ -47,17 +47,20 @@
     var nativeAbort = window.XMLHttpRequest.prototype.abort;
 
     window.XMLHttpRequest.prototype.open = function (method, url) {
+      this.__cwLazySearchAborted = false;
+      this.__cwLazySearchGeneration = (this.__cwLazySearchGeneration || 0) + 1;
       this.__cwLazySearchRequest = isSearchIndex(url);
       return nativeOpen.apply(this, arguments);
     };
 
     window.XMLHttpRequest.prototype.send = function (body) {
       var request = this;
+      var generation = request.__cwLazySearchGeneration;
       if (unlocked || !request.__cwLazySearchRequest) {
         return nativeSend.apply(request, arguments);
       }
       queued.push(function () {
-        if (!request.__cwLazySearchAborted) {
+        if (!request.__cwLazySearchAborted && request.__cwLazySearchGeneration === generation) {
           nativeSend.call(request, body);
         }
       });
@@ -74,6 +77,29 @@
       unlockSearch();
     }
   }, true);
+
+  function isSearchFieldInteraction(event) {
+    var path = typeof event.composedPath === "function" ? event.composedPath() : [event.target];
+    return path.some(function (node) {
+      if (!node || typeof node.matches !== "function") {
+        return false;
+      }
+      if (node.matches('.md-search__input, [data-md-component="search"] input')) {
+        return true;
+      }
+      return node.matches('input[role="combobox"]') &&
+        typeof ShadowRoot !== "undefined" &&
+        node.getRootNode() instanceof ShadowRoot;
+    });
+  }
+
+  ["focus", "input"].forEach(function (eventName) {
+    document.addEventListener(eventName, function (event) {
+      if (isSearchFieldInteraction(event)) {
+        unlockSearch();
+      }
+    }, true);
+  });
 
   document.addEventListener("keydown", function (event) {
     var target = event.target;

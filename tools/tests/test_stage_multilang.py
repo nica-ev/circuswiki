@@ -72,7 +72,10 @@ class StagingWorkflowTests(unittest.TestCase):
             target = build / "de" / "index.md"
             target.parent.mkdir(parents=True)
             target.write_text("# Index\n", encoding="utf-8")
-            with patch.object(stage_multilang, "BUILD", build):
+            with (
+                patch.object(stage_multilang, "BUILD", build),
+                patch.dict(os.environ, {"CIRCUSWIKI_SITE_BASE_PATH": "/circuswiki/"}),
+            ):
                 contexts = stage_multilang.page_translation_contexts(groups, ("de",))
                 stage_multilang.normalize_markdown_files(target.parent, contexts["de"])
             data = target.read_text(encoding="utf-8")
