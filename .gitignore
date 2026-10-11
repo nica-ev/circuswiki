@@ -8,6 +8,7 @@ site/
 __pycache__/
 *.py[cod]
 .pytest_cache/
+.playwright-mcp/
 
 # Local generated caches and trash
 .cache/
@@ -24,6 +25,11 @@ sync.ffs_db
 Thumbs.db
 .idea/
 .vscode/
+
+# Local Obsidian session state
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/plugins/recent-files-obsidian/data.json
 
 # Temporary folders
 _temp/

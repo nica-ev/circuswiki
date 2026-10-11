@@ -9,7 +9,7 @@ repo_name = "nica-ev/circuswiki"
 docs_dir = ".build/pl"
 site_dir = "site/pl"
 extra_css = ["stylesheets/circuswiki.css"]
-extra_javascript = ["javascripts/site-theme.js", "javascripts/table-sorter.js", "javascripts/language-switcher.js", "javascripts/translation-status.js", "javascripts/analytics-consent.js", "javascripts/circusfinder.js"]
+extra_javascript = [{ path = "javascripts/site-theme.js", defer = true }, { path = "javascripts/table-sorter.js", defer = true }, { path = "javascripts/language-switcher.js", defer = true }, { path = "javascripts/translation-status.js", defer = true }, { path = "javascripts/analytics-consent.js", defer = true }, { path = "javascripts/circusfinder.js", defer = true }]
 
 nav = [
   { "Strona główna" = "index.md" },
@@ -23,6 +23,7 @@ nav = [
 ]
 
 [project.extra]
+polyfills = [{ path = "javascripts/lazy-search.js", type = "text/javascript" }]
 alternate = [
   { name = "Deutsch", link = "/circuswiki/", lang = "de" },
   { name = "English", link = "/circuswiki/en/", lang = "en" },
@@ -41,6 +42,7 @@ alternate = [
 [project.theme]
 variant = "modern"
 language = "pl"
+font = false
 features = [
   "content.tooltips",
   "navigation.instant",

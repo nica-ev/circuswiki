@@ -35,7 +35,7 @@ Relevant paths:
 - `docs/img/`: shared media assets
 - `site-assets/`: assets copied into generated language builds
 - `tools/`: local build, staging, translation, navigation, Obsidian bridge, and dev-console scripts
-- `.obsidian/`: Obsidian vault configuration and part of the project
+- `.obsidian/`: shared Obsidian vault configuration and part of the project; volatile per-user session files listed in `.gitignore` are excluded
 - `_templates/`: Obsidian templates
 - `_dataview/`: Dataview helper notes and queries
 - `_canvas/`: Obsidian canvas files
@@ -120,7 +120,7 @@ The current translation workflow:
 
 German is the current default public site language, not a permanent rule for canonical source language. Tooling should translate from each page's original source language as defined by metadata whenever possible.
 
-Multilingual staging generates static fallback pages for known missing translations and writes `javascripts/translation-map.json`. Do not remove this fallback layer when changing build or language-switching behavior.
+Multilingual staging generates static fallback pages for known missing translations and embeds a compact per-page translation context in staged Markdown. Do not remove this fallback layer when changing build or language-switching behavior.
 
 Translation metadata currently includes:
 

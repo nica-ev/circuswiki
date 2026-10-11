@@ -19,7 +19,7 @@ Those issues have mostly been addressed. This file is now a status record, not t
 - Added canonical language/site registry in `tools/config/languages.json`.
 - Added shared registry access and validation in `tools/core/languages.py`.
 - Replaced duplicated language lists in Python staging/build/navigation/translation helpers.
-- Made runtime language switching derive available languages from generated `translation-map.json` where possible.
+- Made runtime language switching derive available languages and fallback URLs from compact, build-generated per-page translation contexts.
 - Added `tools/sync_configs.py` for dry-run/default Zensical config synchronization and explicit `--write` updates.
 - Split dev-console backend routes by domain.
 - Added optional Obsidian CLI adapter and status route.
