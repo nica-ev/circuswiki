@@ -40,6 +40,17 @@ Search and type filters continue to operate on the complete exported dataset.
 They rebuild the cluster layer from the matching records, while the Markdown
 entries remain the source of truth.
 
+The page also separates data and map initialization from result-list rendering:
+
+- a stable map shell is present in the generated HTML;
+- the first 40 result cards appear as soon as the dataset is available;
+- additional cards are rendered in batches on request; and
+- Leaflet and the interactive tile layer initialize progressively without
+  blocking the initial page layout.
+
+All matching records remain searchable and available to the marker cluster;
+the 40-card window limits DOM work only, not the data being searched.
+
 Clustering is a marker-rendering optimization. It does not remove raster tile
 network latency. The existing raster tile layer remains appropriate for the
 prototype, but it must be evaluated separately as usage grows.
@@ -65,6 +76,8 @@ prototype, but it must be evaluated separately as usage grows.
 - (+) The same static JSON export and GitHub Pages deployment remain usable.
 - (+) The vendored dependency works without a JavaScript CDN at runtime.
 - (+) Chunked bulk loading provides headroom for datasets in the low thousands.
+- (+) Initial layout and useful directory results no longer wait for map tiles.
+- (+) The result list has bounded initial DOM cost as the dataset grows.
 - (-) One additional JavaScript and CSS dependency must be maintained and
   tested with future Leaflet upgrades.
 - (-) Opening an individual result may require an automatic zoom through its

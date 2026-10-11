@@ -2,7 +2,7 @@
 lang: de
 translation_id: circusfinder/index
 created: 2026-10-09 00:00:00
-update: 2026-10-10 00:00:00
+update: 2026-10-11 02:44:56
 publish: true
 tags:
   - moc
@@ -17,8 +17,18 @@ translation_source_lang: de
 
 # CircusFinder
 
-<div class="cw-finder" data-circusfinder>
-  <p class="cw-finder__loading">CircusFinder wird geladen …</p>
+<div class="cw-finder" data-circusfinder aria-busy="true">
+  <div class="cw-finder__layout">
+    <div class="cw-finder__map-column">
+      <div class="cw-finder__map cw-finder__map--loading" role="region" aria-label="CircusFinder">
+        <div class="cw-finder__map-placeholder" role="status">
+          <img src="../images/circusfinder-map-placeholder.svg" alt="" width="1200" height="560">
+          <span>CircusFinder wird geladen …</span>
+        </div>
+      </div>
+    </div>
+    <section class="cw-finder__results" aria-hidden="true"></section>
+  </div>
 </div>
 
 > [!info] Genaue Orte und ungefähre Netzwerkpositionen

@@ -296,76 +296,88 @@ def create_fallback_pages(
             target.write_text(f"---\n{frontmatter}\n---\n{body}", encoding="utf-8", newline="\n")
 
 
-def write_translation_map(
-    groups: dict[str, dict[str, object]],
-    target_languages: tuple[str, ...] = LANGUAGES,
-) -> None:
-    manifest = {
-        "default_language": DEFAULT_LANGUAGE,
-        "common_fallback_language": COMMON_FALLBACK_LANGUAGE,
-        "languages": list(LANGUAGES),
-        "groups": {},
-        "paths": {},
-    }
-
-    for group in groups.values():
-        pages = group["pages"]
-        source_language = group["source_lang"]
-        translation_id = group["translation_id"]
-        group_entry = {
-            "translation_id": translation_id,
-            "source_lang": source_language,
-            "title": group["title"],
-            "languages": {},
+def translation_page_entry(group: dict[str, object], language: str) -> dict[str, object]:
+    pages = group["pages"]
+    page = pages.get(language)
+    source_language = group["source_lang"]
+    if page:
+        return {
+            "url": page_url(language, page["relative_path"]),
+            "path": page["path"],
+            "status": page["translation_status"] or (
+                "original" if language == source_language else ""
+            ),
+            "fallback": False,
+            "model": page["translation_model"],
+            "updated": page["translation_updated"],
+            "authors": page["authors"],
+            "source": page["translation_source"],
+            "source_lang": page["translation_source_lang"] or source_language,
         }
 
-        for language in LANGUAGES:
-            page = pages.get(language)
-            if page:
-                relative_path = page["relative_path"]
-                status = page["translation_status"] or (
-                    "original" if language == source_language else ""
-                )
-                fallback = False
-                model = page["translation_model"]
-                updated = page["translation_updated"]
-                path = page["path"]
-                source = page["translation_source"]
-                source_lang = page["translation_source_lang"]
-                authors = page["authors"]
-            else:
-                relative_path = group["relative_path"]
-                status = FALLBACK_STATUS
-                fallback = True
-                model = ""
-                updated = ""
-                path = ""
-                source = ""
-                source_lang = source_language
-                authors = []
+    fallback_language = choose_fallback_language(language, source_language, pages)
+    fallback_page = pages.get(fallback_language) if fallback_language else None
+    return {
+        "url": page_url(language, group["relative_path"]),
+        "path": "",
+        "status": FALLBACK_STATUS,
+        "fallback": True,
+        "model": "",
+        "updated": "",
+        "authors": [],
+        "source": fallback_page["path"] if fallback_page else "",
+        "source_lang": source_language,
+    }
 
-            url = page_url(language, relative_path)
-            group_entry["languages"][language] = {
-                "url": url,
-                "path": path,
-                "relative_path": relative_path,
-                "status": status,
-                "fallback": fallback,
-                "model": model,
-                "updated": updated,
-                "authors": authors,
-                "source": source,
-                "source_lang": source_lang,
+
+def append_page_translation_context(text: str, context: dict[str, object]) -> str:
+    marker = 'data-cw-page-translations="true"'
+    if marker in text:
+        return text
+    data = json.dumps(context, ensure_ascii=False, separators=(",", ":")).replace("<", "\\u003c")
+    block = (
+        "\n<script type=\"application/json\" data-cw-page-translations=\"true\">"
+        + data
+        + "</script>\n"
+    )
+    return text.rstrip() + block
+
+
+def page_translation_contexts(
+    groups: dict[str, dict[str, object]],
+    target_languages: tuple[str, ...] = LANGUAGES,
+) -> dict[str, dict[str, dict[str, object]]]:
+    contexts: dict[str, dict[str, dict[str, object]]] = {
+        language: {} for language in target_languages
+    }
+    for group in groups.values():
+        entries = {
+            language: translation_page_entry(group, language)
+            for language in LANGUAGES
+        }
+        links = {
+            language: {
+                "url": entry["url"],
+                "fallback": entry["fallback"],
             }
-            manifest["paths"][f"{language}:{relative_path}"] = translation_id
+            for language, entry in entries.items()
+        }
 
-        manifest["groups"][translation_id] = group_entry
-
-    data = json.dumps(manifest, ensure_ascii=False, indent=2)
-    for language in target_languages:
-        target = BUILD / language / "javascripts" / "translation-map.json"
-        target.parent.mkdir(parents=True, exist_ok=True)
-        target.write_text(data + "\n", encoding="utf-8")
+        for language in target_languages:
+            page = group["pages"].get(language)
+            relative_path = page["relative_path"] if page else group["relative_path"]
+            context = {
+                "version": 1,
+                "default_language": DEFAULT_LANGUAGE,
+                "languages": list(LANGUAGES),
+                "translation_id": group["translation_id"],
+                "source_lang": group["source_lang"],
+                "current_language": language,
+                "current": entries[language],
+                "links": links,
+            }
+            contexts[language][relative_path] = context
+    return contexts
 
 
 def copy_language(language: str) -> Path:
@@ -491,9 +503,13 @@ def convert_obsidian_callouts_in_markdown(language_root: Path) -> None:
             markdown_file.write_text(updated, encoding="utf-8", newline="")
 
 
-def normalize_markdown_files(language_root: Path) -> int:
+def normalize_markdown_files(
+    language_root: Path,
+    translation_contexts: dict[str, dict[str, object]] | None = None,
+) -> int:
     """Apply all staged-Markdown rewrites in a single filesystem pass."""
     processed = 0
+    contexts = translation_contexts or {}
     for markdown_file in language_root.rglob("*.md"):
         text = markdown_file.read_text(encoding="utf-8")
 
@@ -510,6 +526,10 @@ def normalize_markdown_files(language_root: Path) -> int:
 
         updated = IMAGE_LINK_RE.sub(replace_image_link, updated)
         updated = convert_obsidian_callouts(updated)
+        relative_path = markdown_file.relative_to(language_root).as_posix()
+        context = contexts.get(relative_path)
+        if context:
+            updated = append_page_translation_context(updated, context)
         if updated != text:
             markdown_file.write_text(updated, encoding="utf-8", newline="")
         processed += 1
@@ -550,9 +570,9 @@ def main() -> None:
         )
         copy_language(language)
 
-    print("[staging] Creating fallback pages and translation maps...", flush=True)
+    print("[staging] Creating fallback pages and preparing per-page translation contexts...", flush=True)
     create_fallback_pages(groups, target_languages)
-    write_translation_map(groups, target_languages)
+    translation_contexts = page_translation_contexts(groups, target_languages)
 
     for index, language in enumerate(target_languages, start=1):
         print(
@@ -560,7 +580,10 @@ def main() -> None:
             flush=True,
         )
         language_root = BUILD / language
-        processed = normalize_markdown_files(language_root)
+        processed = normalize_markdown_files(
+            language_root,
+            translation_contexts.get(language, {}),
+        )
         print(f"[staging]   Processed {processed} Markdown files.", flush=True)
 
     print("[staging] Validating and exporting CircusFinder data...", flush=True)

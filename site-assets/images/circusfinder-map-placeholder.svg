@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 560" role="img" aria-labelledby="title desc">
+  <title id="title">CircusFinder map loading</title>
+  <desc id="desc">A quiet abstract map placeholder shown while the interactive map loads.</desc>
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7f1e5"/>
+      <stop offset="1" stop-color="#e3eadf"/>
+    </linearGradient>
+    <pattern id="grid" width="64" height="64" patternUnits="userSpaceOnUse">
+      <path d="M64 0H0v64" fill="none" stroke="#2f6f5e" stroke-opacity=".09"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="560" fill="url(#paper)"/>
+  <rect width="1200" height="560" fill="url(#grid)"/>
+  <g fill="none" stroke="#2f6f5e" stroke-linecap="round" stroke-linejoin="round" opacity=".2">
+    <path d="M-40 420c150-80 244-39 351-113 117-82 188-63 291-5 100 57 190 50 295-33 90-70 192-86 343-27" stroke-width="26"/>
+    <path d="M-30 131c179 72 293 87 414 19 131-74 207-68 342 20 109 70 226 77 504 21" stroke-width="12"/>
+  </g>
+  <g fill="#2f6f5e" opacity=".38">
+    <circle cx="204" cy="350" r="13"/>
+    <circle cx="459" cy="220" r="16"/>
+    <circle cx="690" cy="318" r="12"/>
+    <circle cx="925" cy="180" r="15"/>
+  </g>
+  <g fill="none" stroke="#d56b28" stroke-width="6" opacity=".55">
+    <circle cx="459" cy="220" r="31"/>
+    <circle cx="925" cy="180" r="29"/>
+  </g>
+</svg>

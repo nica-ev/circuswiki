@@ -220,7 +220,8 @@ Current implementation:
 - `tools/stage_multilang.py` discovers translation groups by `translation_id`.
 - Missing language versions are generated as static fallback pages in `.build/<language>/`.
 - Generated fallback pages use `translation_status: missing-translation`.
-- `site-assets/javascripts/language-switcher.js` loads `javascripts/translation-map.json` and rewrites language links to known real or fallback pages.
+- Multilingual staging embeds a compact JSON translation context into each staged page. It contains only that page's language URLs and current translation provenance.
+- `site-assets/javascripts/language-switcher.js` reads this page-local context and rewrites language links to known real or fallback pages without downloading a vault-wide manifest.
 - This keeps GitHub Pages fully static while avoiding raw 404s for known untranslated pages.
 
 Current public behavior:

@@ -1249,6 +1249,7 @@ body.circuswiki-finder-page .md-content__inner > h1:first-of-type {
 }
 
 .cw-finder__map {
+  position: relative;
   z-index: 0;
   height: min(25rem, calc(100vh - 15.5rem));
   min-height: 20rem;
@@ -1257,6 +1258,40 @@ body.circuswiki-finder-page .md-content__inner > h1:first-of-type {
   background: var(--cw-paper-soft);
   box-shadow: 0 0.65rem 1.8rem rgba(30, 38, 33, 0.08);
   overflow: hidden;
+}
+
+.cw-finder__map-placeholder {
+  position: absolute;
+  z-index: 1;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  background: var(--cw-paper-soft);
+  color: var(--cw-success);
+}
+
+.cw-finder__map-placeholder img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.cw-finder__map-placeholder span {
+  position: relative;
+  z-index: 1;
+  padding: 0.45rem 0.7rem;
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--cw-panel-solid) 92%, transparent);
+  box-shadow: 0 0.2rem 0.7rem rgba(30, 38, 33, 0.16);
+  font-size: 0.72rem;
+  font-weight: 700;
+}
+
+.cw-finder__map--loading .cw-finder__toolbar {
+  visibility: visible;
 }
 
 html.cw-finder-map-expanded,
@@ -1349,6 +1384,36 @@ html.cw-finder-map-expanded {
 .cw-finder__cards {
   display: grid;
   gap: 0.65rem;
+}
+
+.cw-finder__more {
+  display: block;
+  width: 100%;
+  margin-top: 0.75rem;
+  padding: 0.55rem 0.75rem;
+  border: 1px solid var(--cw-line);
+  border-radius: 0.65rem;
+  background: var(--cw-paper);
+  color: var(--cw-success);
+  font: inherit;
+  font-size: 0.7rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.cw-finder__more:hover,
+.cw-finder__more:focus-visible {
+  border-color: var(--cw-success);
+  background: var(--cw-table-head);
+}
+
+.cw-finder__more:focus-visible {
+  outline: 0.16rem solid var(--cw-focus);
+  outline-offset: 0.12rem;
+}
+
+.cw-finder__more[hidden] {
+  display: none;
 }
 
 .cw-finder-card {

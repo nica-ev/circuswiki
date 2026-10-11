@@ -12,6 +12,7 @@
   var leafletPromise;
   var markerClusterPromise;
   var expandedMapController;
+  var CARD_PAGE_SIZE = 40;
 
   var TRANSLATIONS = {
     de: {
@@ -24,7 +25,10 @@
       results: "Ergebnisse",
       oneResult: "1 Ergebnis",
       manyResults: "{count} Ergebnisse",
+      showingResults: "{visible} von {count} Ergebnissen angezeigt",
+      showMore: "Mehr anzeigen",
       noResults: "Keine passenden Einträge gefunden.",
+      mapLoading: "Interaktive Karte wird geladen …",
       mapLabel: "Karte mit CircusFinder-Einträgen",
       expandMap: "Karte im ganzen Browserfenster anzeigen",
       collapseMap: "Große Kartenansicht schließen",
@@ -68,7 +72,10 @@
       results: "Results",
       oneResult: "1 result",
       manyResults: "{count} results",
+      showingResults: "Showing {visible} of {count} results",
+      showMore: "Show more",
       noResults: "No matching entries found.",
+      mapLoading: "Loading interactive map …",
       mapLabel: "Map of CircusFinder entries",
       expandMap: "Expand map to fill the browser window",
       collapseMap: "Close expanded map",
@@ -130,6 +137,10 @@
 
   function markerClusterAssetUrl(path) {
     return new URL("vendor/leaflet.markercluster/" + path, assetRoot()).toString();
+  }
+
+  function imageAssetUrl(path) {
+    return new URL("images/" + path, assetRoot()).toString();
   }
 
   function ensureLeafletCss() {
@@ -525,7 +536,11 @@
     container.innerHTML = [
       '<div class="cw-finder__layout">',
       '<div class="cw-finder__map-column">',
-      '<div class="cw-finder__map" data-cw-map role="region" aria-label="' + escapeHtml(labels.mapLabel) + '">',
+      '<div class="cw-finder__map cw-finder__map--loading" data-cw-map role="region" aria-label="' + escapeHtml(labels.mapLabel) + '" aria-busy="true">',
+      '<div class="cw-finder__map-placeholder" data-cw-map-placeholder role="status">',
+      '<img src="' + escapeHtml(imageAssetUrl("circusfinder-map-placeholder.svg")) + '" alt="" width="1200" height="560">',
+      '<span>' + escapeHtml(labels.mapLoading) + '</span>',
+      '</div>',
       '<div class="cw-finder__toolbar" data-cw-toolbar role="search" aria-label="' + escapeHtml(labels.searchLabel) + '">',
       '<label class="cw-finder__search">',
       '<span class="cw-sr-only">' + escapeHtml(labels.searchLabel) + "</span>",
@@ -544,14 +559,37 @@
       '<section class="cw-finder__results" aria-label="' + escapeHtml(labels.listLabel) + '">',
       '<div class="cw-finder__results-heading"><h2>' + escapeHtml(labels.results) + '</h2><span data-cw-count></span></div>',
       '<div class="cw-finder__cards" data-cw-cards></div>',
+      '<button type="button" class="cw-finder__more" data-cw-more hidden>' + escapeHtml(labels.showMore) + '</button>',
       "</section>",
       "</div>"
     ].join("");
+    container.setAttribute("aria-busy", "true");
+  }
+
+  function renderPreview(container, dataset) {
+    var labels = labelsFor(dataset.language);
+    var records = (dataset.records || []).slice().sort(function (left, right) {
+      return left.title.localeCompare(right.title, dataset.language, { sensitivity: "base" });
+    });
+    var cards = container.querySelector("[data-cw-cards]");
+    var count = container.querySelector("[data-cw-count]");
+    if (!cards || !count) {
+      return;
+    }
+    var visible = records.slice(0, CARD_PAGE_SIZE);
+    cards.innerHTML = visible.length ? visible.map(function (record) {
+      return cardHtml(record, labels, null);
+    }).join("") : '<p class="cw-finder__empty">' + escapeHtml(labels.noResults) + "</p>";
+    count.textContent = labels.showingResults
+      .replace("{visible}", visible.length)
+      .replace("{count}", records.length);
   }
 
   function initializeFinder(container, dataset, L) {
     var labels = labelsFor(dataset.language);
-    renderShell(container, labels);
+    if (!container.querySelector("[data-cw-map]")) {
+      renderShell(container, labels);
+    }
 
     var records = dataset.records || [];
     var search = container.querySelector("[data-cw-search]");
@@ -560,13 +598,16 @@
     var status = container.querySelector("[data-cw-status]");
     var count = container.querySelector("[data-cw-count]");
     var cards = container.querySelector("[data-cw-cards]");
+    var more = container.querySelector("[data-cw-more]");
     var mapElement = container.querySelector("[data-cw-map]");
     var toolbar = container.querySelector("[data-cw-toolbar]");
     mapElement.id = mapElement.id || "circusfinder-map";
     var origin = null;
     var userLayer = null;
     var markers = {};
+    var visibleLimit = CARD_PAGE_SIZE;
 
+    kind.innerHTML = '<option value="">' + escapeHtml(labels.allKinds) + "</option>";
     Array.from(new Set(records.reduce(function (all, record) {
       return all.concat(record.entry_kinds || []);
     }, []))).sort().forEach(function (entryKind) {
@@ -580,10 +621,20 @@
     L.DomEvent.disableClickPropagation(toolbar);
     L.DomEvent.disableScrollPropagation(toolbar);
     L.DomEvent.on(toolbar, "keydown", L.DomEvent.stopPropagation);
-    L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    var tileLayer = L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
       maxZoom: 19,
       attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>'
-    }).addTo(map);
+    });
+    tileLayer.once("load", function () {
+      var placeholder = mapElement.querySelector("[data-cw-map-placeholder]");
+      if (placeholder) {
+        placeholder.remove();
+      }
+      mapElement.classList.remove("cw-finder__map--loading");
+      mapElement.setAttribute("aria-busy", "false");
+      container.setAttribute("aria-busy", "false");
+    });
+    tileLayer.addTo(map);
     addExpandControl(L, map, mapElement, labels);
     var markerLayer = L.markerClusterGroup({
       chunkedLoading: true,
@@ -669,14 +720,22 @@
       mapElement.scrollIntoView({ behavior: "smooth", block: "nearest" });
     }
 
-    function render(fitMap) {
+    function render(fitMap, resetVisible) {
       var filtered = filteredRecords();
+      if (resetVisible) {
+        visibleLimit = CARD_PAGE_SIZE;
+      }
       markerLayer.clearLayers();
       markers = {};
-      cards.innerHTML = filtered.length ? filtered.map(function (item) {
+      var visible = filtered.slice(0, visibleLimit);
+      cards.innerHTML = visible.length ? visible.map(function (item) {
         return cardHtml(item.record, labels, item.distance);
       }).join("") : '<p class="cw-finder__empty">' + escapeHtml(labels.noResults) + "</p>";
-      count.textContent = filtered.length === 1 ? labels.oneResult : labels.manyResults.replace("{count}", filtered.length);
+      count.textContent = filtered.length
+        ? labels.showingResults.replace("{visible}", visible.length).replace("{count}", filtered.length)
+        : labels.manyResults.replace("{count}", 0);
+      more.hidden = visible.length >= filtered.length;
+      more.textContent = labels.showMore + " (" + Math.min(CARD_PAGE_SIZE, filtered.length - visible.length) + ")";
 
       var bounds = [];
       var nextMarkers = [];
@@ -722,8 +781,12 @@
       });
     }
 
-    search.addEventListener("input", function () { render(false); });
-    kind.addEventListener("change", function () { render(false); });
+    search.addEventListener("input", function () { render(false, true); });
+    kind.addEventListener("change", function () { render(false, true); });
+    more.addEventListener("click", function () {
+      visibleLimit += CARD_PAGE_SIZE;
+      render(false, false);
+    });
     nearby.addEventListener("click", function () {
       if (!navigator.geolocation) {
         status.textContent = labels.locationError;
@@ -749,15 +812,15 @@
         status.textContent = "";
         nearby.disabled = false;
         nearby.classList.add("cw-finder__nearby--active");
-        render(false);
+        render(false, true);
       }, function () {
         status.textContent = labels.locationError;
         nearby.disabled = false;
       }, { enableHighAccuracy: false, timeout: 10000, maximumAge: 300000 });
     });
 
-    render(true);
-    window.setTimeout(function () { map.invalidateSize(); }, 0);
+    render(true, true);
+    window.requestAnimationFrame(function () { map.invalidateSize(); });
     container._circusFinderMap = map;
   }
 
@@ -785,15 +848,23 @@
         }
       }
       container.setAttribute("data-cw-ready", "true");
-      Promise.all([
-        fetch(datasetUrl(), { headers: { Accept: "application/json" } }).then(function (response) {
+      var labels = labelsFor((document.documentElement.lang || "en").split("-")[0]);
+      renderShell(container, labels);
+      var datasetPromise = fetch(datasetUrl(), { headers: { Accept: "application/json" } }).then(function (response) {
           if (!response.ok) {
             throw new Error("Dataset request failed (" + response.status + "): " + response.url);
           }
           return response.json();
-        }),
-        loadMapLibraries()
-      ]).then(function (values) {
+        }).then(function (dataset) {
+          renderPreview(container, dataset);
+          return dataset;
+        });
+      var mapLibrariesPromise = new Promise(function (resolve) {
+        window.requestAnimationFrame(function () {
+          window.setTimeout(function () { resolve(loadMapLibraries()); }, 0);
+        });
+      });
+      Promise.all([datasetPromise, mapLibrariesPromise]).then(function (values) {
         initializeFinder(container, values[0], values[1]);
       }).catch(function (error) {
         showError(container, error);

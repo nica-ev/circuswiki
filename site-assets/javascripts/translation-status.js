@@ -9,8 +9,7 @@ function translationStatusLabel(status) {
 
 function translationStatusDetails(group, language, entry) {
   var sourceLang = entry.source_lang || group.source_lang || "";
-  var sourceEntry = group.languages && sourceLang ? group.languages[sourceLang] : null;
-  var sourcePath = entry.source || (sourceEntry && sourceEntry.path) || "";
+  var sourcePath = entry.source || "";
   var authors = entry.authors && entry.authors.length ? entry.authors.join(", ") : "";
   var lines = [
     "Status: " + translationStatusLabel(entry.status),
@@ -48,29 +47,24 @@ function translationStatusDetails(group, language, entry) {
   return lines.join("\n");
 }
 
-function findCurrentTranslationEntry(map, path) {
-  if (!map || !map.groups) {
+function currentPageTranslationEntry() {
+  var element = document.querySelector('script[data-cw-page-translations="true"]');
+  if (!element) {
     return null;
   }
-
-  var normalizedCurrent = normalizedPath(path);
-  var groupKeys = Object.keys(map.groups);
-
-  for (var i = 0; i < groupKeys.length; i += 1) {
-    var group = map.groups[groupKeys[i]];
-    var languages = group.languages || {};
-    var languageKeys = Object.keys(languages);
-
-    for (var j = 0; j < languageKeys.length; j += 1) {
-      var language = languageKeys[j];
-      var entry = languages[language];
-      if (entry && normalizedPath(entry.url) === normalizedCurrent) {
-        return { group: group, language: language, entry: entry };
-      }
+  try {
+    var context = JSON.parse(element.textContent || "{}");
+    if (!context.current) {
+      return null;
     }
+    return {
+      group: { source_lang: context.source_lang || "" },
+      language: context.current_language || "",
+      entry: context.current,
+    };
+  } catch (error) {
+    return null;
   }
-
-  return null;
 }
 
 function closeTranslationStatusPopups(except) {
@@ -171,63 +165,61 @@ function renderTranslationStatus() {
     return;
   }
 
-  loadTranslationMap(currentLanguageRootPath()).then(function(map) {
-    var current = findCurrentTranslationEntry(map, window.location.pathname);
-    if (!current) {
-      return;
-    }
+  var current = currentPageTranslationEntry();
+  if (!current) {
+    return;
+  }
 
-    injectTranslationStatusStyles();
+  injectTranslationStatusStyles();
 
-    var existing = content.querySelector(":scope > .translation-status");
-    if (existing) {
-      existing.remove();
-    }
+  var existing = content.querySelector(":scope > .translation-status");
+  if (existing) {
+    existing.remove();
+  }
 
-    var banner = document.createElement("aside");
-    var status = current.entry.status || "unknown";
-    banner.className = "translation-status translation-status--" + status;
-    banner.setAttribute("aria-label", "Translation status");
+  var banner = document.createElement("aside");
+  var status = current.entry.status || "unknown";
+  banner.className = "translation-status translation-status--" + status;
+  banner.setAttribute("aria-label", "Translation status");
 
-    var details = translationStatusDetails(current.group, current.language, current.entry);
-    var popupId = "translation-status-popup";
+  var details = translationStatusDetails(current.group, current.language, current.entry);
+  var popupId = "translation-status-popup";
 
-    var badge = document.createElement("button");
-    badge.type = "button";
-    badge.className = "translation-status__badge";
-    badge.textContent = translationStatusLabel(status);
-    badge.title = details;
-    badge.setAttribute("aria-label", "Show translation metadata");
-    badge.setAttribute("aria-expanded", "false");
-    badge.setAttribute("aria-controls", popupId);
+  var badge = document.createElement("button");
+  badge.type = "button";
+  badge.className = "translation-status__badge";
+  badge.textContent = translationStatusLabel(status);
+  badge.title = details;
+  badge.setAttribute("aria-label", "Show translation metadata");
+  badge.setAttribute("aria-expanded", "false");
+  badge.setAttribute("aria-controls", popupId);
 
-    var popup = document.createElement("div");
-    popup.id = popupId;
-    popup.className = "translation-status__popup";
-    popup.setAttribute("role", "dialog");
-    popup.setAttribute("aria-label", "Translation metadata");
-    popup.hidden = true;
-    popup.textContent = details;
+  var popup = document.createElement("div");
+  popup.id = popupId;
+  popup.className = "translation-status__popup";
+  popup.setAttribute("role", "dialog");
+  popup.setAttribute("aria-label", "Translation metadata");
+  popup.hidden = true;
+  popup.textContent = details;
 
-    badge.addEventListener("click", function(event) {
-      event.stopPropagation();
-      var isOpen = badge.getAttribute("aria-expanded") === "true";
-      closeTranslationStatusPopups(isOpen ? null : badge);
-      badge.setAttribute("aria-expanded", isOpen ? "false" : "true");
-      popup.hidden = isOpen;
-    });
-
-    badge.addEventListener("keydown", function(event) {
-      if (event.key === "Escape") {
-        closeTranslationStatusPopups();
-        badge.focus();
-      }
-    });
-
-    banner.appendChild(badge);
-    banner.appendChild(popup);
-    content.insertBefore(banner, content.firstChild);
+  badge.addEventListener("click", function(event) {
+    event.stopPropagation();
+    var isOpen = badge.getAttribute("aria-expanded") === "true";
+    closeTranslationStatusPopups(isOpen ? null : badge);
+    badge.setAttribute("aria-expanded", isOpen ? "false" : "true");
+    popup.hidden = isOpen;
   });
+
+  badge.addEventListener("keydown", function(event) {
+    if (event.key === "Escape") {
+      closeTranslationStatusPopups();
+      badge.focus();
+    }
+  });
+
+  banner.appendChild(badge);
+  banner.appendChild(popup);
+  content.insertBefore(banner, content.firstChild);
 }
 
 document.addEventListener("click", function() {

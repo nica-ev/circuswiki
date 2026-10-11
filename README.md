@@ -94,7 +94,9 @@ language code. Czech uses `cs` and Slovak uses `sk`; Czechoslovakia was the form
 
 The build creates an ignored `.build/` staging directory so Zensical can see each language as its own root while source content stays organized in `docs/<lang>/`. Shared generated-site assets from `site-assets/` are copied into each staged language root.
 
-The language selector is configured with root links, then adjusted in the browser to preserve the current path across languages.
+The language selector is configured with root links, then adjusted from a compact
+translation context embedded into each built page. This preserves the current
+path and known fallback pages without downloading a vault-wide translation map.
 
 ## Local Setup
 

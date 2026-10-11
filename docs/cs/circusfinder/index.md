@@ -27,8 +27,18 @@ translation_source_structural_metadata_hash: 20e821b79875446bc7befb339dc88299311
 ---
 # CircusFinder
 
-<div class="cw-finder" data-circusfinder>
-  <p class="cw-finder__loading">CircusFinder se načítá…</p>
+<div class="cw-finder" data-circusfinder aria-busy="true">
+  <div class="cw-finder__layout">
+    <div class="cw-finder__map-column">
+      <div class="cw-finder__map cw-finder__map--loading" role="region" aria-label="CircusFinder">
+        <div class="cw-finder__map-placeholder" role="status">
+          <img src="../images/circusfinder-map-placeholder.svg" alt="" width="1200" height="560">
+          <span>CircusFinder se načítá…</span>
+        </div>
+      </div>
+    </div>
+    <section class="cw-finder__results" aria-hidden="true"></section>
+  </div>
 </div>
 
 > [!info] Přesná místa a přibližné pozice v síti

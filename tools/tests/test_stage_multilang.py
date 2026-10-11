@@ -1,5 +1,6 @@
 ﻿from __future__ import annotations
 
+import json
 import os
 import sys
 import tempfile
@@ -23,7 +24,7 @@ class StagingWorkflowTests(unittest.TestCase):
                 patch.object(stage_multilang, "discover_translation_groups", return_value={}) as discover,
                 patch.object(stage_multilang, "copy_language"),
                 patch.object(stage_multilang, "create_fallback_pages") as create_fallbacks,
-                patch.object(stage_multilang, "write_translation_map"),
+                patch.object(stage_multilang, "page_translation_contexts", return_value={}),
                 patch.object(stage_multilang, "normalize_markdown_files", return_value=0),
                 patch.object(stage_multilang, "export_datasets"),
             ):
@@ -45,7 +46,7 @@ class StagingWorkflowTests(unittest.TestCase):
         self.assertEqual(stage_multilang.choose_fallback_language("pl", "de", pages), "en")
         self.assertEqual(stage_multilang.choose_fallback_language("en", "de", pages), "de")
 
-    def test_translation_map_contains_registry_languages(self) -> None:
+    def test_page_translation_context_contains_registry_languages(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:
             build = Path(tmp)
             groups = {
@@ -68,13 +69,26 @@ class StagingWorkflowTests(unittest.TestCase):
                     },
                 }
             }
-            with patch.object(stage_multilang, "BUILD", build):
-                stage_multilang.write_translation_map(groups)
-            data = (build / "de" / "javascripts" / "translation-map.json").read_text(encoding="utf-8")
+            target = build / "de" / "index.md"
+            target.parent.mkdir(parents=True)
+            target.write_text("# Index\n", encoding="utf-8")
+            with (
+                patch.object(stage_multilang, "BUILD", build),
+                patch.dict(os.environ, {"CIRCUSWIKI_SITE_BASE_PATH": "/circuswiki/"}),
+            ):
+                contexts = stage_multilang.page_translation_contexts(groups, ("de",))
+                stage_multilang.normalize_markdown_files(target.parent, contexts["de"])
+            data = target.read_text(encoding="utf-8")
             self.assertIn('"languages"', data)
             self.assertIn('"sk"', data)
+            self.assertIn('data-cw-page-translations="true"', data)
+            payload = data.split('data-cw-page-translations="true">', 1)[1].split("</script>", 1)[0]
+            context = json.loads(payload)
+            self.assertEqual(context["current"]["status"], "original")
+            self.assertEqual(context["links"]["de"]["url"], "/circuswiki/")
+            self.assertTrue(context["links"]["en"]["fallback"])
 
-    def test_translation_map_can_be_written_for_one_staged_language(self) -> None:
+    def test_page_translation_context_is_written_only_for_staged_language(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:
             build = Path(tmp)
             groups = {
@@ -97,10 +111,14 @@ class StagingWorkflowTests(unittest.TestCase):
                     },
                 }
             }
+            target = build / "de" / "index.md"
+            target.parent.mkdir(parents=True)
+            target.write_text("# Index\n", encoding="utf-8")
             with patch.object(stage_multilang, "BUILD", build):
-                stage_multilang.write_translation_map(groups, ("de",))
+                contexts = stage_multilang.page_translation_contexts(groups, ("de",))
+                stage_multilang.normalize_markdown_files(target.parent, contexts["de"])
 
-            self.assertTrue((build / "de" / "javascripts" / "translation-map.json").exists())
+            self.assertIn("cw-page-translations", target.read_text(encoding="utf-8"))
             self.assertFalse((build / "en").exists())
 
     def test_copy_language_inherits_default_blog_authors(self) -> None:
