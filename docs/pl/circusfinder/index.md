@@ -2,7 +2,7 @@
 lang: pl
 translation_id: circusfinder/index
 created: 2026-10-09 00:00:00
-update: 2026-10-10 00:00:00
+update: 2026-10-11 02:44:56
 publish: true
 tags:
   - moc
@@ -14,16 +14,16 @@ authors:
 translation_status: machine-translated
 translation_source_lang: de
 translation_source: docs/de/circusfinder/index.md
-translation_source_body_hash: f4fbf5645cb1e6a8cbd48a59ccd871eb1a077f9e8ede8d95987812535a2e15db
-translation_source_hash: f4fbf5645cb1e6a8cbd48a59ccd871eb1a077f9e8ede8d95987812535a2e15db
+translation_source_body_hash: 8b966c09580440aa5f2aa3c5cce7df402e5f379da6d8a1544a80e6804812124c
+translation_source_hash: 8b966c09580440aa5f2aa3c5cce7df402e5f379da6d8a1544a80e6804812124c
 translation_model: google/gemini-2.5-flash-lite
-translation_updated: 2026-10-10T00:09:28+00:00
+translation_updated: "2026-10-11T20:02:12+00:00"
 translation_source_localized_metadata_hash: 658f97fdd64c5d89452b98e35083d80e2e92529566d5157dab6cec469e95c453
 translation_source_metadata_hash: 658f97fdd64c5d89452b98e35083d80e2e92529566d5157dab6cec469e95c453
 translation_metadata_model: google/gemini-2.5-flash-lite
 translation_metadata_status: machine-translated
-translation_metadata_updated: 2026-10-10T00:09:28+00:00
-translation_source_structural_metadata_hash: 20e821b79875446bc7befb339dc882993110dc1e540ed70cb31b6ea3b9663186
+translation_metadata_updated: "2026-10-11T20:02:12+00:00"
+translation_source_structural_metadata_hash: 3c8e9a99c2102ebe9c7bd993f9672df51a21bd43f42f25fb7e56ae5ca962728e
 ---
 # CircusFinder
 
@@ -42,7 +42,7 @@ translation_source_structural_metadata_hash: 20e821b79875446bc7befb339dc88299311
 </div>
 
 > [!info] Dokładne lokalizacje i przybliżone pozycje sieciowe
-> Niebieskie znaczniki opierają się na opublikowanych adresach. Pomarańczowe znaczniki importowanych kontaktów sieciowych wskazują jedynie centra miast lub regionów. Prosimy o sprawdzenie aktualnych informacji, takich jak godziny kursów i treningów, na powiązanej stronie internetowej przed wizytą.
+> Niebieskie znaczniki opierają się na opublikowanych adresach. Pomarańczowe znaczniki importowanych kontaktów sieciowych wskazują jedynie na centra miast lub regionów. Prosimy o sprawdzenie aktualnych informacji, takich jak godziny kursów i treningów, na powiązanej stronie internetowej przed wizytą.
 
 <noscript>
 CircusFinder wymaga JavaScript do działania mapy i filtrów. Poszczególne wpisy pozostają dostępne jako zwykłe strony Wiki.
@@ -52,10 +52,10 @@ CircusFinder wymaga JavaScript do działania mapy i filtrów. Poszczególne wpis
 
 Dane pochodzą z plików Markdown z metadanymi YAML. Podczas budowania Zensical są one sprawdzane i eksportowane jako JSON. Ta strona ładuje wyłącznie ten eksport i nie zna oryginalnych plików Markdown.
 
-- Wyszukiwanie pełnotekstowe według nazw, opisów, lokalizacji i ofert
+- Wyszukiwanie pełnotekstowe według nazwy, opisu, lokalizacji i oferty
 - Filtrowanie według typu wpisu
-- Znaczniki na mapie z informacjami w wyskakujących okienkach
-- Niebieskie znaczniki dla opublikowanych, dokładnych adresów
-- Pomarańczowe znaczniki dla przybliżonych pozycji w miastach lub regionach
-- Opcjonalne wyszukiwanie w promieniu za pomocą geolokalizacji przeglądarki
-- Wpisy bez punktu geograficznego, np. sieci międzynarodowe
+- Znaczniki na mapie z informacjami w postaci dymków
+- niebieskie znaczniki dla opublikowanych, dokładnych adresów
+- pomarańczowe znaczniki dla przybliżonych pozycji w miastach lub regionach
+- opcjonalne wyszukiwanie w promieniu za pomocą geolokalizacji przeglądarki
+- wpisy bez punktu geograficznego, np. sieci międzynarodowe

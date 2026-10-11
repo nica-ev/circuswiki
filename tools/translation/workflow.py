@@ -95,8 +95,13 @@ from .metadata_policy import (
 )
 from .metadata_translation import call_metadata_translation_model, metadata_prompt
 from .service import (
+    SourceChangedError,
+    SourceSnapshot,
+    atomic_write_text,
     build_target_frontmatter,
     metadata_batch_item,
+    require_source_snapshot,
+    source_snapshot,
     target_starting_frontmatter,
     translate_batch_item,
     translate_metadata_page,
@@ -120,7 +125,6 @@ def load_local_env() -> None:
 
 def default_model() -> str:
     return env_value("OPENROUTER_MODEL", default=DEFAULT_MODEL)
-
 
 
 

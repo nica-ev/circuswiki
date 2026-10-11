@@ -1,0 +1,72 @@
+---
+lang: es
+translation_id: circusfinder/places/jugglingmap/manituana-juggling
+created: '2026-10-11'
+update: '2026-10-11'
+publish: true
+tags:
+- circusfinder
+- juggling
+- training-space
+- jugglingmap
+title: Malabarismo Manituana
+description: Malabarismo Manituana aparece en JugglingMap, mantenido por la comunidad, como un club o centro de entrenamiento de malabarismo.
+translation_status: machine-translated
+translation_source_lang: en
+directory_id: jugglingmap-manituana-juggling
+entry_kinds:
+- training_space
+directory_status: active
+location_precision: approximate
+organization: Manituana Juggling
+last_verified: '2026-10-11'
+verification_status: imported_public_map
+source:
+- name: JugglingMap
+  url: https://jugglingmap.org/pin/01KYNBN2PGVY9EPWJFSG0XFZTW
+  dataset_url: https://jugglingmap.org/api/v1/pins
+  record_id: 01KYNBN2PGVY9EPWJFSG0XFZTW:openTraining
+  record_name: Manituana Juggling
+  retrieved: '2026-10-11'
+  batch_id: jugglingmap-2026-10-11
+  reuse_basis: Direct permission from the responsible source persons
+latitude: 45.0797774
+longitude: 7.6986531
+address: Manituana - Laboratorio Culturale Autogestito, 113, Largo Maurizio Vitale, Torino, Piemonte, Italia
+opening_hours:
+- Tue 21:30–23:30
+- Thu 21:30–23:30
+schedule_note: free
+source_content_language: und
+jugglingmap_pin_id: 01KYNBN2PGVY9EPWJFSG0XFZTW
+jugglingmap_categories:
+- openTraining
+indoor_outdoor:
+- indoor
+translation_source: docs/en/circusfinder/places/jugglingmap/manituana-juggling.md
+translation_source_body_hash: aceedbfb0e84a235d18b46f0bf71bef92ef6e2091c3c8ff5c9bcf2903b7440bc
+translation_source_hash: aceedbfb0e84a235d18b46f0bf71bef92ef6e2091c3c8ff5c9bcf2903b7440bc
+translation_model: google/gemini-2.5-flash-lite
+translation_updated: "2026-10-11T22:44:15+00:00"
+translation_source_localized_metadata_hash: 2ad1c7c82a190976bffb00415c201d5e0aad5fcc029a7349c428cca660a2bc20
+translation_source_metadata_hash: 2ad1c7c82a190976bffb00415c201d5e0aad5fcc029a7349c428cca660a2bc20
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: "2026-10-11T22:44:15+00:00"
+translation_source_structural_metadata_hash: a146be8d5688e3c5330fdb4f87e22346b79c7421dc5b4d73247da3ba778e7a78
+---
+# Malabares Manituana
+
+Malabares Manituana aparece en el JugglingMap, mantenido por la comunidad, como un club o centro de entrenamiento de malabares.
+
+Ubicación según la fuente: Manituana - Laboratorio Culturale Autogestito, 113, Largo Maurizio Vitale, Turín, Piamonte, Italia.
+
+## Entrenamiento de Malabares o Club de Malabares
+
+Horario proporcionado por la fuente: Martes 21:30–23:30, Jueves 21:30–23:30.
+
+Acceso: gratuito.
+
+## Fuente
+
+Importado de [JugglingMap](https://jugglingmap.org/pin/01KYNBN2PGVY9EPWJFSG0XFZTW) el 2026-10-11. La posición se considera aproximada porque el mapa comunitario no proporciona un campo estructurado de precisión de ubicación. Se deben verificar los detalles actuales en JugglingMap antes de visitar.

@@ -20,6 +20,13 @@ It complements `DEV_CONSOLE_REFACTOR_PLAN.md`, which remains the active task tra
 - `tools/dev_console/static/core/` contains shell helpers, event scopes, HTML escaping, DOM helpers, and layout helpers.
 - `tools/dev_console/static/app.js` is the bootstrap and app-shell entry point. It should not contain domain behavior.
 
+Long-running full-page translation batches are owned by
+`tools/translation/jobs.py`, not by a route or frontend feature. The dev-console
+server owns the manager lifecycle and exposes thin job-control routes. The Batch
+Translate frontend may poll and control a job, but must not perform a per-file
+translation loop. SQLite state under `.cache/dev_console/` is disposable local
+execution state; Markdown translation provenance remains authoritative.
+
 ## Compatibility Facades
 
 Some historic import paths remain as compatibility facades:

@@ -27,6 +27,22 @@ source:
   record_name: Ell Circo D'ell Fuego
   retrieved: '2026-10-10'
   batch_id: aerial-training-map-2026-10-10
+- name: JugglingMap
+  url: https://jugglingmap.org/pin/01KZ27NT2RAHA9QHBYPWEBMKH8
+  dataset_url: https://jugglingmap.org/api/v1/pins
+  record_id: 01KZ27NT2RAHA9QHBYPWEBMKH8:circusSchool
+  record_name: Ell Circ D"ell fuego
+  retrieved: '2026-10-11'
+  batch_id: jugglingmap-2026-10-11
+  reuse_basis: Direct permission from the responsible source persons
+- name: Circuscentrum Landschap
+  url: https://circuscentrum.be/nl/node/92
+  dataset_url: https://circuscentrum.be/nl/landschap
+  record_id: '92'
+  record_name: Ell Circo d’ell Fuego
+  retrieved: '2026-10-11'
+  batch_id: circuscentrum-2026-10-11
+  reuse_basis: Direct permission from the responsible source organisation
 latitude: 51.23021
 longitude: 4.42575
 website: https://ecdf.be/

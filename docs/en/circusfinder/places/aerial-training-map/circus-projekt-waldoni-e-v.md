@@ -27,6 +27,14 @@ source:
   record_name: Circus Projekt Waldoni e.V.
   retrieved: '2026-10-10'
   batch_id: aerial-training-map-2026-10-10
+- name: JugglingMap
+  url: https://jugglingmap.org/pin/01KZNSRHR54AYFKV40YH6CSSHC
+  dataset_url: https://jugglingmap.org/api/v1/pins
+  record_id: 01KZNSRHR54AYFKV40YH6CSSHC:openTraining
+  record_name: Circus Projekt Waldoni e.V.
+  retrieved: '2026-10-11'
+  batch_id: jugglingmap-2026-10-11
+  reuse_basis: Direct permission from the responsible source persons
 latitude: 49.8029948598524
 longitude: 8.63863902302626
 website: http://www.waldoni.de/

@@ -48,6 +48,14 @@ source_urls:
 source:
   - name: "NICA e.V."
     url: "https://nica.network/"
+  - name: JugglingMap
+    url: https://jugglingmap.org/pin/01M4ND7GHB351P012N0AG5YWFP
+    dataset_url: https://jugglingmap.org/api/v1/pins
+    record_id: 01M4ND7GHB351P012N0AG5YWFP:openTraining
+    record_name: Offspace
+    retrieved: '2026-10-11'
+    batch_id: jugglingmap-2026-10-11
+    reuse_basis: Direct permission from the responsible source persons
 ---
 
 # NICA e.V. / Tohuwabohu Halle e.V.

@@ -154,9 +154,14 @@
               <select id="batch-reason" title="Candidate reason filter"></select>
               <input id="batch-path-filter" type="search" placeholder="Path/title filter" title="Filter by path, title, or translation ID">
               <input id="batch-max-chars" type="number" min="1" placeholder="Max chars" title="Maximum source characters per file">
-              <input id="batch-max-files" type="number" min="1" max="100" value="5" title="Maximum files to process">
+              <input id="batch-max-files" type="number" min="1" max="10000" value="5" title="Maximum files to process">
+              <input id="batch-concurrency" type="number" min="1" max="8" value="4" title="Concurrent server-side workers">
               <button id="batch-plan" type="button">Plan</button>
-              <button id="batch-run" type="button" class="primary" disabled>Run Planned</button>
+              <button id="batch-run" type="button" class="primary" disabled>Start Job</button>
+              <button id="batch-pause" type="button" disabled>Pause</button>
+              <button id="batch-resume" type="button" disabled>Resume</button>
+              <button id="batch-cancel" type="button" disabled>Cancel</button>
+              <button id="batch-retry" type="button" disabled>Retry Failed</button>
             </div>
           </div>
 
@@ -165,6 +170,7 @@
             <span id="batch-status">No batch plan yet.</span>
           </div>
 
+          <div id="batch-job-summary" class="health-summary"></div>
           <div id="batch-summary" class="health-summary"></div>
           <div class="batch-list-wrap">
             <table class="batch-list" id="batch-list"></table>
@@ -491,7 +497,6 @@
     <script type="module" src="app.js"></script>
   </body>
 </html>
-
 
 
 

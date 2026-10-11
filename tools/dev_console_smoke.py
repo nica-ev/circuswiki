@@ -24,6 +24,7 @@ DEFAULT_PATHS = [
     "/app.js",
     "/api/config",
     "/api/vault-health",
+    "/api/translation-jobs/current",
 ]
 
 
@@ -43,7 +44,13 @@ def wait_until_ready(base_url: str, timeout_seconds: float) -> bool:
     return False
 
 
-def run_smoke(host: str, port: int, paths: list[str], startup_timeout: float) -> int:
+def run_smoke(
+    host: str,
+    port: int,
+    paths: list[str],
+    startup_timeout: float,
+    request_timeout: float,
+) -> int:
     base_url = f"http://{host}:{port}"
     process = subprocess.Popen(
         [sys.executable, str(SERVER), "--host", host, "--port", str(port)],
@@ -65,7 +72,7 @@ def run_smoke(host: str, port: int, paths: list[str], startup_timeout: float) ->
         for path in paths:
             url = f"{base_url}{path}"
             try:
-                status = request_status(url, timeout=10.0)
+                status = request_status(url, timeout=request_timeout)
             except (OSError, TimeoutError, URLError) as error:
                 print(f"FAIL {path}: {error}", file=sys.stderr)
                 failed = True
@@ -88,9 +95,21 @@ def main() -> int:
     parser.add_argument("--host", default="127.0.0.1")
     parser.add_argument("--port", type=int, default=8791)
     parser.add_argument("--startup-timeout", type=float, default=10.0)
+    parser.add_argument(
+        "--request-timeout",
+        type=float,
+        default=120.0,
+        help="Per-request timeout; vault scans can take longer in a large working tree.",
+    )
     parser.add_argument("--path", action="append", dest="paths", help="Path to check. Can be provided more than once.")
     args = parser.parse_args()
-    return run_smoke(args.host, args.port, args.paths or DEFAULT_PATHS, args.startup_timeout)
+    return run_smoke(
+        args.host,
+        args.port,
+        args.paths or DEFAULT_PATHS,
+        args.startup_timeout,
+        args.request_timeout,
+    )
 
 
 if __name__ == "__main__":

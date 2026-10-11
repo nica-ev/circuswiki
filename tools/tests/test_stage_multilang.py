@@ -8,6 +8,8 @@ import unittest
 from pathlib import Path
 from unittest.mock import patch
 
+import yaml
+
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / "tools"))
 
@@ -37,6 +39,13 @@ class StagingWorkflowTests(unittest.TestCase):
         with patch.dict(os.environ, {"CIRCUSWIKI_SITE_BASE_PATH": "/example/"}):
             self.assertEqual(stage_multilang.page_url("de", "index.md"), "/example/")
             self.assertEqual(stage_multilang.page_url("en", "spiele/test.md"), "/example/en/spiele/test/")
+
+    def test_frontmatter_value_escapes_multiline_titles_as_valid_yaml(self) -> None:
+        value = 'First line\nSecond "quoted" line'
+        rendered = stage_multilang.frontmatter_value(value)
+
+        self.assertNotIn("\n", rendered)
+        self.assertEqual(yaml.safe_load(f"title: {rendered}\n")["title"], value)
 
     def test_choose_fallback_prefers_common_language_then_source(self) -> None:
         pages = {

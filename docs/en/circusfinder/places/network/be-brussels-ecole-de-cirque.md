@@ -33,6 +33,14 @@ source_note: "Imported from an openly accessible contact list supplied to Circus
 source:
   - name: "QuatProps Collective"
     url: "https://quatprops.com/"
+  - name: Circuscentrum Landschap
+    url: https://circuscentrum.be/nl/node/1219
+    dataset_url: https://circuscentrum.be/nl/landschap
+    record_id: '1219'
+    record_name: École de Cirque de Bruxelles
+    retrieved: '2026-10-11'
+    batch_id: circuscentrum-2026-10-11
+    reuse_basis: Direct permission from the responsible source organisation
 ---
 
 # Ecole de Cirque de Bruxelles

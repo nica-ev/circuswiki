@@ -60,6 +60,9 @@ def batch_translation_plan(
 
         source_page = primary_page(source_pages)
         source_chars = len(translatable_body(source_page.frontmatter, source_page.body))
+        current_body_hash = translatable_body_hash(source_page.frontmatter, source_page.body)
+        current_localized_metadata_hash = source_localized_metadata_hash(source_page.frontmatter)
+        current_structural_metadata_hash = source_structural_metadata_hash(source_page.frontmatter)
         if max_source_chars is not None and source_chars > max_source_chars:
             skipped.append({"translation_id": translation_id, "source_lang": group_source_lang, "reason": "max_source_chars_filter"})
             continue
@@ -98,6 +101,9 @@ def batch_translation_plan(
                     "source_path": source_page.rel_path,
                     "target_path": rel(language_path(source_page.path, group_source_lang, candidate_target_lang)),
                     "source_chars": source_chars,
+                    "source_body_hash": current_body_hash,
+                    "source_localized_metadata_hash": current_localized_metadata_hash,
+                    "source_structural_metadata_hash": current_structural_metadata_hash,
                     "reason": candidate_reason,
                 }
             )

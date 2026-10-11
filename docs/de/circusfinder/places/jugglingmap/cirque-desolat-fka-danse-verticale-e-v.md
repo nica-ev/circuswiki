@@ -1,0 +1,82 @@
+---
+lang: de
+translation_id: circusfinder/places/jugglingmap/cirque-desolat-fka-danse-verticale-e-v
+created: '2026-10-11'
+update: '2026-10-11'
+publish: true
+tags:
+- circusfinder
+- juggling
+- training-space
+- jugglingmap
+title: Cirque Desolat ehem. Danse Verticale e.V
+description: Cirque Desolat ehem. Danse Verticale e.V ist auf der gemeinschaftlich gepflegten JugglingMap als Jonglier-Trainingsort oder Jonglier-Verein gelistet.
+translation_status: machine-translated
+translation_source_lang: en
+directory_id: jugglingmap-cirque-desolat-fka-danse-verticale-e-v
+entry_kinds:
+- training_space
+directory_status: active
+location_precision: approximate
+organization: Cirque Desolat fka Danse Verticale e.V
+last_verified: '2026-10-11'
+verification_status: imported_public_map
+source:
+- name: JugglingMap
+  url: https://jugglingmap.org/pin/01KZ6Q6GHV9CG45426E9G49MSV
+  dataset_url: https://jugglingmap.org/api/v1/pins
+  record_id: 01KZ6Q6GHV9CG45426E9G49MSV:openTraining
+  record_name: Cirque Desolat fka Danse Verticale e.V
+  retrieved: '2026-10-11'
+  batch_id: jugglingmap-2026-10-11
+  reuse_basis: Direct permission from the responsible source persons
+latitude: 49.0214745
+longitude: 12.0622148
+address: Pater-Rupert-Mayer-Zentrum, 5, Puricellistraße, Regensburg, Bayern, Deutschland
+public_phone: 017636381836
+schedule_note: 'constrained: it''s on a donation basis.'
+source_content_language: und
+jugglingmap_pin_id: 01KZ6Q6GHV9CG45426E9G49MSV
+jugglingmap_categories:
+- openTraining
+indoor_outdoor:
+- indoor
+translation_source: docs/en/circusfinder/places/jugglingmap/cirque-desolat-fka-danse-verticale-e-v.md
+translation_source_body_hash: 4f7fffa943c5617391517c0e13bad5eb7448787b653f3011e1772652d9dcf0c5
+translation_source_hash: 4f7fffa943c5617391517c0e13bad5eb7448787b653f3011e1772652d9dcf0c5
+translation_model: google/gemini-2.5-flash-lite
+translation_updated: "2026-10-11T21:31:07+00:00"
+translation_source_localized_metadata_hash: e5716bdfacbaa84d3a3d0181789233af81e682278b636f051b514b0541a2115e
+translation_source_metadata_hash: e5716bdfacbaa84d3a3d0181789233af81e682278b636f051b514b0541a2115e
+translation_metadata_model: google/gemini-2.5-flash-lite
+translation_metadata_status: machine-translated
+translation_metadata_updated: "2026-10-11T21:31:07+00:00"
+translation_source_structural_metadata_hash: 19671aa3866508373e7fda3e9f38dad0153a8a1bf8cb3133ce020cfadc949f23
+---
+# Cirque Desolat ehemals Danse Verticale e.V.
+
+Cirque Desolat ehemals Danse Verticale e.V. ist auf der von der Community gepflegten JugglingMap als Jonglier-Training oder Jonglier-Club aufgeführt.
+
+Standort laut Quelle: Pater-Rupert-Mayer-Zentrum, 5, Puricellistraße, Regensburg, Bayern, Deutschland
+
+## Jonglier-Training oder Jonglier-Club
+
+Es handelt sich um ein offenes Zirkustraining, bei dem man Akrobatik, Luftakrobatik an einer kleinen Kletterwand und Flowarts ausüben kann.
+Es ist wie ein Spielplatz für Erwachsene.
+Die Trainingszeiten sind dienstags von 18 bis 20 Uhr und donnerstags von 19 bis 21 Uhr.
+Wir sind mit einer WhatsApp-Gruppe verbunden, in der einige Trainingsdetails gepostet werden.
+Wenn du zum ersten Mal kommen möchtest, nutze die Kontaktnummer, um in die WhatsApp-Gruppe zu gelangen und dich zu orientieren, da es beim ersten Mal nicht leicht zu finden ist.
+
+Zugang: eingeschränkt: Es findet auf Spendenbasis statt.
+
+Kontakt laut Quelle:
+
+017636381836
+
+Links oder Social-Media-Konten laut Quelle:
+
+kommt bald.
+
+## Quelle
+
+Importiert von [JugglingMap](https://jugglingmap.org/pin/01KZ6Q6GHV9CG45426E9G49MSV) am 2026-10-11. Der Standort wird als ungefähr behandelt, da die Community-Karte kein Feld für die Standortgenauigkeit bereitstellt. Aktuelle Details sollten vor einem Besuch auf JugglingMap überprüft werden.

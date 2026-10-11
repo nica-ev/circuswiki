@@ -44,6 +44,17 @@ Tests:
 python -m unittest discover tools/tests
 ```
 
+CircusFinder source imports (dry-run unless `--apply` is present):
+
+```powershell
+python tools/circusfinder/import_jugglingmap.py
+python tools/circusfinder/import_circuscentrum.py
+```
+
+Shared source metadata and rescan thresholds live in
+`tools/config/circusfinder_sources.json`. Import policy and reviewed pruning are
+documented in `_system/circusfinder-source-imports.md`.
+
 Combined checks:
 
 ```powershell
@@ -91,7 +102,12 @@ Current endpoint contracts:
 - `POST /api/translate-metadata`: translates only target frontmatter `title` and `description` for an existing target file. JSON body requires `path`, `source_lang`, and `target_lang`; optional fields are `model` and `dry_run`. `dry_run` still calls the metadata translation API when metadata is stale or missing; it only skips writing the target file.
 - `POST /api/repair-metadata`: deterministic metadata repair for one file. JSON body requires `path`.
 - `POST /api/batch-plan`: plans batch candidates without API calls. JSON body uses `target_lang`, `max_files`, optional `source_lang` (`all` allowed), optional `reason`, optional `max_source_chars`, and optional `path_filter`.
-- `POST /api/batch-translate-file`: translates one planned batch item. JSON body uses `source_path`, `source_lang`, `target_lang`, and optional `model`/`prompt`.
+- `POST /api/translation-jobs`: starts one persistent server-side job from a reviewed `plan`; optional fields are `model`, `prompt`, and `concurrency` (1-8, default 4). A second active job returns `409`.
+- `GET /api/translation-jobs/current`: returns the active job or, when none is active, the most recently created job.
+- `GET /api/translation-jobs/<id>`: returns aggregate state, progress, ETA, shared rate-limit cooldown, and recent failures.
+- `GET /api/translation-jobs/<id>/items?status=<status>&limit=<n>`: returns bounded item details.
+- `POST /api/translation-jobs/<id>/pause`, `/resume`, `/cancel`, and `/retry-failed`: control a background job. Action requests use an empty JSON object.
+- `POST /api/batch-translate-file`: legacy one-item endpoint retained for compatibility; the Batch Translate frontend no longer orchestrates work through it.
 - `POST /api/metadata-batch-plan`: plans metadata-only candidates without API calls. JSON body uses `target_lang`, `max_files`, optional `source_lang` (`all` allowed), optional `reason`, and optional `path_filter`.
 - `POST /api/metadata-batch-translate-file`: translates metadata for one planned metadata batch item. JSON body uses `source_path`, `source_lang`, `target_lang`, and optional `model`.
 - `GET /api/original-graph?exclude_sitemap=true|false`: returns canonical original nodes and explicit content-link edges normalized through translation groups for the Original Graph tab. `sitemap.md` is excluded by default.
@@ -112,6 +128,13 @@ a dedicated schema framework. Add a schema layer only when request/response
 objects become large enough that duplicated validation is causing bugs.
 
 The server should remain thin. Translation, navigation, build, and Obsidian behavior should stay in domain modules.
+
+Full-page batch jobs are implemented in `tools/translation/jobs.py`. Operational
+state lives in `.cache/dev_console/translation_jobs.sqlite3` and is intentionally
+ignored by Git. The server process owns the worker pool; stopping the server
+pauses effective execution, and starting it again requeues interrupted items.
+Only one full-page batch may be active. Metadata-only batches still use their
+existing foreground workflow.
 
 The dev console serves `index.html` with mtime-based query strings for `styles.css`
 and `app.js`, so normal refreshes should pick up local UI changes.

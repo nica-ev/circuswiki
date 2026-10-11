@@ -34,6 +34,14 @@ source_note: "Imported from an openly accessible contact list supplied to Circus
 source:
   - name: "QuatProps Collective"
     url: "https://quatprops.com/"
+  - name: Circuscentrum Landschap
+    url: https://circuscentrum.be/nl/node/96
+    dataset_url: https://circuscentrum.be/nl/landschap
+    record_id: '96'
+    record_name: Woesh
+    retrieved: '2026-10-11'
+    batch_id: circuscentrum-2026-10-11
+    reuse_basis: Direct permission from the responsible source organisation
 ---
 
 # Circusatelier Woesh
