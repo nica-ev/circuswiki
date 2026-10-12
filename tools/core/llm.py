@@ -3,10 +3,14 @@ from __future__ import annotations
 import http.client
 import json
 import logging
+import random
 import ssl
+import threading
 import time
 import urllib.error
 import urllib.request
+from collections.abc import Iterator
+from contextlib import contextmanager
 from typing import Any
 from urllib.parse import urlparse
 
@@ -15,6 +19,112 @@ from core.env import env_value
 DEFAULT_BASE_URL = "https://openrouter.ai/api/v1"
 RETRYABLE_HTTP_STATUS_CODES = {429, 502, 503, 504}
 MAX_RETRY_DELAY_SECONDS = 30.0
+
+
+class SharedRequestGate:
+    """Process-wide cooldown used to prevent parallel retry storms."""
+
+    def __init__(self) -> None:
+        self._lock = threading.Lock()
+        self._blocked_until = 0.0
+        self._reason = ""
+
+    def defer(self, seconds: float, reason: str) -> None:
+        if seconds <= 0:
+            return
+        deadline = time.monotonic() + seconds
+        with self._lock:
+            if deadline >= self._blocked_until:
+                self._blocked_until = deadline
+                self._reason = reason
+
+    def wait(self) -> None:
+        while True:
+            with self._lock:
+                remaining = self._blocked_until - time.monotonic()
+                if remaining <= 0:
+                    self._blocked_until = 0.0
+                    self._reason = ""
+                    return
+            time.sleep(remaining)
+
+    def snapshot(self) -> dict[str, object]:
+        with self._lock:
+            remaining = max(0.0, self._blocked_until - time.monotonic())
+            reason = self._reason if remaining > 0 else ""
+        return {
+            "active": remaining > 0,
+            "remaining_seconds": round(remaining, 3),
+            "reason": reason,
+            "until": time.time() + remaining if remaining > 0 else None,
+        }
+
+    def reset(self) -> None:
+        with self._lock:
+            self._blocked_until = 0.0
+            self._reason = ""
+
+
+_REQUEST_GATE = SharedRequestGate()
+_CALL_CAPTURE = threading.local()
+
+
+def request_gate_status() -> dict[str, object]:
+    return _REQUEST_GATE.snapshot()
+
+
+def reset_request_gate() -> None:
+    """Reset shared cooldown state. Intended for tests and controlled shutdown."""
+
+    _REQUEST_GATE.reset()
+
+
+@contextmanager
+def capture_llm_calls() -> Iterator[list[dict[str, object]]]:
+    """Capture non-content usage metadata for successful calls in this thread."""
+
+    previous = getattr(_CALL_CAPTURE, "calls", None)
+    calls: list[dict[str, object]] = []
+    _CALL_CAPTURE.calls = calls
+    try:
+        yield calls
+    finally:
+        if previous is None:
+            delattr(_CALL_CAPTURE, "calls")
+        else:
+            _CALL_CAPTURE.calls = previous
+
+
+def _record_llm_call(requested_model: str, title: str, data: dict[str, Any]) -> None:
+    calls = getattr(_CALL_CAPTURE, "calls", None)
+    if calls is None:
+        return
+    usage = data.get("usage") if isinstance(data.get("usage"), dict) else {}
+
+    def integer(value: object) -> int:
+        try:
+            return int(value or 0)
+        except (TypeError, ValueError):
+            return 0
+
+    def number(value: object) -> float:
+        try:
+            return float(value or 0.0)
+        except (TypeError, ValueError):
+            return 0.0
+
+    calls.append(
+        {
+            "title": title,
+            "requested_model": requested_model,
+            "actual_model": str(data.get("model") or ""),
+            "provider": str(data.get("provider") or ""),
+            "prompt_tokens": integer(usage.get("prompt_tokens")),
+            "completion_tokens": integer(usage.get("completion_tokens")),
+            "total_tokens": integer(usage.get("total_tokens")),
+            "cost": number(usage.get("cost")),
+        }
+    )
 
 
 def _retry_after_seconds(headers: Any) -> float | None:
@@ -36,6 +146,11 @@ def _retry_delay_seconds(attempt: int, headers: Any = None) -> float:
     if retry_after is not None:
         return retry_after
     return min(float(2 ** (attempt - 1)), MAX_RETRY_DELAY_SECONDS)
+
+
+def _shared_cooldown_seconds(delay: float) -> float:
+    jitter_ceiling = min(1.0, max(0.05, delay * 0.1))
+    return min(delay + random.uniform(0.0, jitter_ceiling), MAX_RETRY_DELAY_SECONDS)
 
 
 def _wait_before_retry(
@@ -108,6 +223,7 @@ def chat_completion(
     }
 
     for attempt in range(1, max_attempts + 1):
+        _REQUEST_GATE.wait()
         request = urllib.request.Request(
             url,
             data=request_data,
@@ -116,9 +232,17 @@ def chat_completion(
         )
         try:
             with urllib.request.urlopen(request, timeout=timeout) as response:
-                return json.loads(response.read().decode("utf-8"))
+                data = json.loads(response.read().decode("utf-8"))
+                _record_llm_call(model, title, data)
+                return data
         except urllib.error.HTTPError as exc:
             details = exc.read().decode("utf-8", errors="replace")
+            if exc.code == 429:
+                delay = _retry_delay_seconds(attempt, exc.headers)
+                _REQUEST_GATE.defer(
+                    _shared_cooldown_seconds(delay),
+                    f"HTTP 429 from {title}",
+                )
             if exc.code in RETRYABLE_HTTP_STATUS_CODES and attempt < max_attempts:
                 _wait_before_retry(
                     title=title,

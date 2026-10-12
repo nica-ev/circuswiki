@@ -305,8 +305,20 @@ Planning must not call the translation API. It should only:
 - exclude generated aggregate/index utility pages such as `sitemap.md`
 - show source language, target language, source path, target path, and reason
 
-Running a batch should process only the planned files and update progress after
-each file. This keeps cost exposure explicit and bounded.
+Starting a batch creates a persistent server-side job containing only the planned
+files. A bounded worker pool processes those items while the frontend observes
+and controls the job. This keeps cost exposure explicit and bounded without
+requiring the browser to remain open.
+
+The job stores planned body, localized-metadata, and structural-metadata hashes.
+Workers reject stale sources before translation and revalidate immediately before
+an atomic target replacement. On restart, interrupted items return to the queue;
+targets that already contain the planned provenance hashes are reconciled without
+another model call.
+
+All Markdown files use the same batch translation lifecycle, including imported
+CircusFinder notes. Import origin and folder location are not translation-policy
+exceptions.
 
 The first implementation uses one prompt template with `{source_lang}` and
 `{target_lang}` placeholders. These placeholders are injected per translation

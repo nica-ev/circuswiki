@@ -1,0 +1,62 @@
+---
+lang: nl
+translation_id: circusfinder/places/circuscentrum/vitrine-perplx
+created: '2026-10-11'
+update: '2026-10-11'
+publish: true
+tags:
+- circusfinder
+- belgian-circus-landscape
+- circus-festival
+- circuscentrum
+title: Vitrine Perplx
+description: Vitrine Perplx staat in het Landschap van Circuscentrum vermeld als circusfestival.
+translation_status: original
+translation_source_lang: nl
+directory_id: circuscentrum-vitrine-perplx
+entry_kinds:
+- organization
+directory_status: active
+location_precision: approximate
+organization: Vitrine Perplx
+last_verified: '2026-10-11'
+verification_status: imported_public_directory
+source:
+- name: Circuscentrum Landschap
+  url: https://circuscentrum.be/nl/node/165
+  dataset_url: https://circuscentrum.be/nl/landschap
+  record_id: '165'
+  record_name: Vitrine Perplx
+  retrieved: '2026-10-11'
+  batch_id: circuscentrum-2026-10-11
+  reuse_basis: Direct permission from the responsible source organisation
+latitude: 50.80469
+longitude: 3.239281
+city: Kortrijk-Marke
+address: Hellestraat 6
+postal_code: '8510'
+website: https://www.perplx.be/vitrines/
+public_emails:
+- info@perplx.be
+public_phone: 0473 24 61 13
+source_urls:
+- https://www.perplx.be/vitrines/
+offers:
+- Circusfestival
+circuscentrum_node_id: '165'
+circuscentrum_category: Festival
+---
+
+# Vitrine Perplx
+
+Vitrine Perplx staat in het Landschap van Circuscentrum vermeld als circusfestival.
+
+## Gegevens uit de bron
+
+Hellestraat 6, 8510 Kortrijk-Marke
+0473 24 61 13
+info@perplx.be
+
+## Bron
+
+Geïmporteerd uit [Circuscentrum Landschap](https://circuscentrum.be/nl/node/165) op 2026-10-11. Controleer actuele contact- en bezoekinformatie bij Circuscentrum of de organisatie zelf.

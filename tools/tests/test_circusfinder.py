@@ -177,7 +177,9 @@ class CircusFinderExportTests(unittest.TestCase):
                         {
                             "name": "Example directory",
                             "url": "https://example.org/directory",
+                            "record_id": "record-42",
                             "record_name": "Example studio",
+                            "reuse_basis": "Direct permission",
                         }
                     ],
                 ),
@@ -196,7 +198,9 @@ class CircusFinderExportTests(unittest.TestCase):
             self.assertEqual(record["opening_hours"], ["Sonntag 17:30–20:30 Uhr"])
             self.assertEqual(record["schedule_url"], "https://example.org/schedule")
             self.assertEqual(record["source"][0]["name"], "Example directory")
+            self.assertEqual(record["source"][0]["record_id"], "record-42")
             self.assertEqual(record["source"][0]["record_name"], "Example studio")
+            self.assertEqual(record["source"][0]["reuse_basis"], "Direct permission")
             self.assertEqual(record["source_urls"], ["https://example.org/contact"])
 
 

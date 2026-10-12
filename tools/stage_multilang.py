@@ -116,8 +116,10 @@ def language_label(language: str) -> str:
 
 
 def frontmatter_value(value: str) -> str:
-    escaped = value.replace("\\", "\\\\").replace('"', '\\"')
-    return f'"{escaped}"'
+    # JSON string syntax is valid YAML and safely escapes newlines, quotes,
+    # backslashes, and other control characters. Hand-built quoting previously
+    # emitted invalid fallback frontmatter for multiline upstream titles.
+    return json.dumps(value, ensure_ascii=False)
 
 
 def admonition_title(value: str) -> str:

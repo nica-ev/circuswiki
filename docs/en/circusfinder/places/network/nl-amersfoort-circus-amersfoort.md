@@ -33,6 +33,14 @@ source_note: "Imported from an openly accessible contact list supplied to Circus
 source:
   - name: "QuatProps Collective"
     url: "https://quatprops.com/"
+  - name: JugglingMap
+    url: https://jugglingmap.org/pin/01KYYEJ7D6NCK0E14FN8WQXB6M
+    dataset_url: https://jugglingmap.org/api/v1/pins
+    record_id: 01KYYEJ7D6NCK0E14FN8WQXB6M:openTraining
+    record_name: Circus Amersfoort
+    retrieved: '2026-10-11'
+    batch_id: jugglingmap-2026-10-11
+    reuse_basis: Direct permission from the responsible source persons
 ---
 
 # Circus Amersfoort

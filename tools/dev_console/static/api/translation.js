@@ -9,7 +9,16 @@ export const translatePage = (payload) => api("/api/translate", { method: "POST"
 export const translateMetadata = (payload) => api("/api/translate-metadata", { method: "POST", body: JSON.stringify(payload) });
 export const repairMetadata = (payload) => api("/api/repair-metadata", { method: "POST", body: JSON.stringify(payload) });
 export const createBatchPlanApi = (payload) => api("/api/batch-plan", { method: "POST", body: JSON.stringify(payload) });
-export const translateBatchFile = (payload) => api("/api/batch-translate-file", { method: "POST", body: JSON.stringify(payload) });
+export const createTranslationJob = (payload) => api("/api/translation-jobs", { method: "POST", body: JSON.stringify(payload) });
+export const getCurrentTranslationJob = () => api("/api/translation-jobs/current");
+export const getTranslationJob = (jobId) => api(`/api/translation-jobs/${encodeURIComponent(jobId)}`);
+export const getTranslationJobItems = (jobId, status = "", limit = 100) => api(
+  `/api/translation-jobs/${encodeURIComponent(jobId)}/items?status=${encodeURIComponent(status)}&limit=${encodeURIComponent(limit)}`
+);
+export const runTranslationJobAction = (jobId, action) => api(
+  `/api/translation-jobs/${encodeURIComponent(jobId)}/${encodeURIComponent(action)}`,
+  { method: "POST", body: "{}" }
+);
 export const createMetadataBatchPlanApi = (payload) => api("/api/metadata-batch-plan", { method: "POST", body: JSON.stringify(payload) });
 export const translateMetadataBatchFile = (payload) => api("/api/metadata-batch-translate-file", { method: "POST", body: JSON.stringify(payload) });
 export const getVaultHealth = () => api("/api/vault-health");

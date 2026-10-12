@@ -1,6 +1,6 @@
 ---
 created: 2025-05-27 10:14:56
-update: 2025-05-28 18:37:39
+update: 2026-10-11 02:38:55
 publish: false
 tags: 
 title: 
@@ -31,7 +31,6 @@ https://dotcursorrules.com/mcps/interactive-feedback
 
 https://www.caravancircusnetwork.eu/resources/
 https://games4cirk.com/
-
 
 # Ideas
 

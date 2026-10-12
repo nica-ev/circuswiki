@@ -5,7 +5,7 @@ publish: true
 tags:
   - spiele
 created: 2025-01-24 03:50:50
-update: 2025-03-17 01:56:55
+update: 2026-10-11 02:45:20
 title: Der heikle Wassertransport
 description: Eine anspruchsvolle Kooperationsaufgabe, bei der eine Gruppe Wasser mit Seilen und einem Topf möglichst verlustfrei transportiert.
 authors:
@@ -21,6 +21,7 @@ group-max: 15
 translation_status: original
 translation_source_lang: de
 ---
+
 > [!info] Kurzbeschreibung
 > Eine anspruchsvolle Kooperationsaufgabe, bei der eine Gruppe Wasser mit Seilen und einem Topf möglichst verlustfrei transportiert.
 

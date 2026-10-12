@@ -1,5 +1,8 @@
 from __future__ import annotations
 
+import os
+import tempfile
+from dataclasses import dataclass
 from datetime import UTC, datetime
 from pathlib import Path
 
@@ -36,12 +39,76 @@ from .metadata_policy import (
 from .metadata_translation import call_metadata_translation_model
 
 
+class SourceChangedError(RuntimeError):
+    """Raised when a source changes after translation work was planned or started."""
+
+
+@dataclass(frozen=True)
+class SourceSnapshot:
+    body_hash: str
+    localized_metadata_hash: str
+    structural_metadata_hash: str
+
+
+def source_snapshot(source: Path):
+    document = split_markdown(source.read_text(encoding="utf-8"))
+    return document, SourceSnapshot(
+        body_hash=translatable_body_hash(document.frontmatter, document.body),
+        localized_metadata_hash=source_localized_metadata_hash(document.frontmatter),
+        structural_metadata_hash=source_structural_metadata_hash(document.frontmatter),
+    )
+
+
+def require_source_snapshot(
+    actual: SourceSnapshot,
+    *,
+    expected_body_hash: str | None = None,
+    expected_localized_metadata_hash: str | None = None,
+    expected_structural_metadata_hash: str | None = None,
+) -> None:
+    mismatches: list[str] = []
+    if expected_body_hash and actual.body_hash != expected_body_hash:
+        mismatches.append("body")
+    if expected_localized_metadata_hash and actual.localized_metadata_hash != expected_localized_metadata_hash:
+        mismatches.append("localized metadata")
+    if expected_structural_metadata_hash and actual.structural_metadata_hash != expected_structural_metadata_hash:
+        mismatches.append("structural metadata")
+    if mismatches:
+        raise SourceChangedError(f"Source changed since planning: {', '.join(mismatches)}")
+
+
+def atomic_write_text(path: Path, text: str) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    temporary_path: Path | None = None
+    try:
+        with tempfile.NamedTemporaryFile(
+            mode="w",
+            encoding="utf-8",
+            newline="\n",
+            dir=path.parent,
+            prefix=f".{path.name}.",
+            suffix=".tmp",
+            delete=False,
+        ) as handle:
+            handle.write(text)
+            handle.flush()
+            os.fsync(handle.fileno())
+            temporary_path = Path(handle.name)
+        temporary_path.replace(path)
+    finally:
+        if temporary_path is not None and temporary_path.exists():
+            temporary_path.unlink()
+
+
 def translate_batch_item(
     source_path: str,
     source_lang: str,
     target_lang: str,
     model: str | None = None,
     prompt: str | None = None,
+    expected_source_body_hash: str | None = None,
+    expected_source_localized_metadata_hash: str | None = None,
+    expected_source_structural_metadata_hash: str | None = None,
 ) -> dict[str, object]:
     return translate_page(
         source_path=source_path,
@@ -50,6 +117,9 @@ def translate_batch_item(
         model=model,
         prompt=prompt,
         dry_run=False,
+        expected_source_body_hash=expected_source_body_hash,
+        expected_source_localized_metadata_hash=expected_source_localized_metadata_hash,
+        expected_source_structural_metadata_hash=expected_source_structural_metadata_hash,
     )
 
 
@@ -141,14 +211,23 @@ def translate_page(
     model: str | None = None,
     prompt: str | None = None,
     dry_run: bool = False,
+    expected_source_body_hash: str | None = None,
+    expected_source_localized_metadata_hash: str | None = None,
+    expected_source_structural_metadata_hash: str | None = None,
 ) -> dict[str, object]:
     model = model or default_model()
     source = (ROOT / source_path).resolve()
     target = language_path(source, source_lang, target_lang)
-    source_doc = split_markdown(source.read_text(encoding="utf-8"))
-    current_body_hash = translatable_body_hash(source_doc.frontmatter, source_doc.body)
-    current_localized_metadata_hash = source_localized_metadata_hash(source_doc.frontmatter)
-    current_structural_metadata_hash = source_structural_metadata_hash(source_doc.frontmatter)
+    source_doc, initial_snapshot = source_snapshot(source)
+    require_source_snapshot(
+        initial_snapshot,
+        expected_body_hash=expected_source_body_hash,
+        expected_localized_metadata_hash=expected_source_localized_metadata_hash,
+        expected_structural_metadata_hash=expected_source_structural_metadata_hash,
+    )
+    current_body_hash = initial_snapshot.body_hash
+    current_localized_metadata_hash = initial_snapshot.localized_metadata_hash
+    current_structural_metadata_hash = initial_snapshot.structural_metadata_hash
 
     translated_body, link_result, dynamic_results = translate_body(
         source_body=source_doc.body,
@@ -180,8 +259,14 @@ def translate_page(
 
     output = join_markdown(target_frontmatter, translated_body)
     if not dry_run:
-        target.parent.mkdir(parents=True, exist_ok=True)
-        target.write_text(output, encoding="utf-8", newline="\n")
+        _latest_doc, latest_snapshot = source_snapshot(source)
+        require_source_snapshot(
+            latest_snapshot,
+            expected_body_hash=initial_snapshot.body_hash,
+            expected_localized_metadata_hash=initial_snapshot.localized_metadata_hash,
+            expected_structural_metadata_hash=initial_snapshot.structural_metadata_hash,
+        )
+        atomic_write_text(target, output)
 
     return {
         "source": rel(source),
@@ -245,7 +330,7 @@ def translate_metadata_page(
     )
     output = join_markdown(target_frontmatter, target_doc.body)
     if not dry_run:
-        target.write_text(output, encoding="utf-8", newline="\n")
+        atomic_write_text(target, output)
 
     return {
         "source": rel(source),

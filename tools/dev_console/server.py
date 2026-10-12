@@ -26,6 +26,7 @@ from dev_console.routes import (  # noqa: E402
     translation,
 )
 from dev_console.routes.registry import RouteRegistry, register_all  # noqa: E402
+from translation.jobs import TranslationJobManager  # noqa: E402
 
 ROUTES = RouteRegistry()
 register_all(
@@ -119,16 +120,26 @@ def main() -> None:
     parser = argparse.ArgumentParser(description="CircusWiki local dev console")
     parser.add_argument("--host", default="127.0.0.1")
     parser.add_argument("--port", type=int, default=8787)
+    parser.add_argument(
+        "--translation-jobs-db",
+        type=Path,
+        default=ROOT / ".cache" / "dev_console" / "translation_jobs.sqlite3",
+    )
     args = parser.parse_args()
 
     server = ThreadingHTTPServer((args.host, args.port), DevConsoleHandler)
-    print(f"Dev console: http://{args.host}:{args.port}")
+    job_manager = TranslationJobManager(args.translation_jobs_db)
+    server.translation_job_manager = job_manager
+    server.daemon_threads = True
     try:
+        job_manager.start()
+        print(f"Dev console: http://{args.host}:{args.port}")
         server.serve_forever()
     except KeyboardInterrupt:
         pass
     finally:
         server.server_close()
+        job_manager.shutdown(wait=True)
 
 
 if __name__ == "__main__":

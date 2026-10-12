@@ -29,6 +29,14 @@ source:
   record_name: Spazio Circo Bergamo
   retrieved: '2026-10-10'
   batch_id: diversability-circus-map-2026-10-10
+- name: JugglingMap
+  url: https://jugglingmap.org/pin/01KYWTH6GVCF2PEA6R8SD34CA1
+  dataset_url: https://jugglingmap.org/api/v1/pins
+  record_id: 01KYWTH6GVCF2PEA6R8SD34CA1:circusSchool
+  record_name: Spazio Circo Bergamo
+  retrieved: '2026-10-11'
+  batch_id: jugglingmap-2026-10-11
+  reuse_basis: Direct permission from the responsible source persons
 website: https://www.spaziocircobergamo.it/
 public_emails:
 - info@spaziocircobergamo.it

@@ -1,4 +1,10 @@
-import { createBatchPlanApi, translateBatchFile } from "../api/translation.js";
+import {
+  createBatchPlanApi,
+  createTranslationJob,
+  getCurrentTranslationJob,
+  getTranslationJob,
+  runTranslationJobAction,
+} from "../api/translation.js";
 import { $ } from "../core/dom.js";
 import { createEventScope } from "../core/events.js";
 import { escapeHtml, jsonText } from "../core/html.js";
@@ -12,9 +18,15 @@ let context = {
   refreshAfterWrite: async () => {},
 };
 let batchPlan = null;
+let currentJob = null;
+let busy = false;
+let pollTimer = null;
+let mounted = false;
+const refreshedTerminalJobs = new Set();
 let eventScope = createEventScope();
 
 export function mountTranslateBatchFeature(nextContext) {
+  mounted = true;
   context = { ...context, ...nextContext };
   eventScope.clear();
   eventScope = createEventScope();
@@ -22,12 +34,24 @@ export function mountTranslateBatchFeature(nextContext) {
     createBatchPlan().catch((error) => batchLog(error.message));
   });
   eventScope.listen($("batch-run"), "click", () => {
-    runBatchTranslation().catch((error) => batchLog(error.message));
+    startTranslationJob().catch((error) => batchLog(error.message));
   });
+  eventScope.listen($("batch-pause"), "click", () => controlTranslationJob("pause").catch((error) => batchLog(error.message)));
+  eventScope.listen($("batch-resume"), "click", () => controlTranslationJob("resume").catch((error) => batchLog(error.message)));
+  eventScope.listen($("batch-cancel"), "click", () => {
+    if (window.confirm("Cancel all queued translations? Currently running files will finish.")) {
+      controlTranslationJob("cancel").catch((error) => batchLog(error.message));
+    }
+  });
+  eventScope.listen($("batch-retry"), "click", () => controlTranslationJob("retry-failed").catch((error) => batchLog(error.message)));
   renderBatchPlan();
+  renderCurrentJob();
+  reconnectCurrentJob().catch((error) => batchLog(error.message));
 }
 
 export function unmountTranslateBatchFeature() {
+  mounted = false;
+  stopPolling();
   eventScope.clear();
 }
 
@@ -93,7 +117,6 @@ async function createBatchPlan() {
   }
 
   setBusy(true);
-  setRunEnabled(false);
   setBatchStatus("Planning...");
   try {
     batchPlan = await createBatchPlanApi({
@@ -105,7 +128,7 @@ async function createBatchPlan() {
       max_files: maxFiles,
     });
     renderBatchPlan();
-    setRunEnabled(batchPlan.candidates.length > 0);
+    updateButtons();
     setBatchStatus(`Plan ready: ${batchPlan.planned_count}/${batchPlan.total_candidates} candidates selected.`);
   } catch (error) {
     batchPlan = null;
@@ -113,76 +136,119 @@ async function createBatchPlan() {
     setBatchStatus("Planning failed.");
   } finally {
     setBusy(false);
-    setRunEnabled(Boolean(batchPlan?.candidates.length));
   }
 }
 
-async function runBatchTranslation() {
+async function startTranslationJob() {
   const plan = batchPlan;
   if (!plan || !plan.candidates.length) {
     batchLog("Create a non-empty plan first.");
     return;
   }
-
-  const progress = $("batch-progress");
-  if (progress) {
-    progress.max = plan.candidates.length;
-    progress.value = 0;
+  if (isActiveJob(currentJob)) {
+    batchLog(`Translation job ${currentJob.id} is already active.`);
+    return;
   }
-  setBusy(true);
-  const results = [];
-  const startedAt = performance.now();
+  const concurrency = Number($("batch-concurrency").value);
+  if (!Number.isInteger(concurrency) || concurrency < 1 || concurrency > 8) {
+    batchLog("Concurrency must be between 1 and 8.");
+    return;
+  }
 
+  setBusy(true);
   try {
-    for (let index = 0; index < plan.candidates.length; index += 1) {
-      const item = plan.candidates[index];
-      setBatchStatus(batchProgressLabel(
-        "Translating",
-        index + 1,
-        plan.candidates.length,
-        item.translation_id,
-        startedAt,
-        results.length
-      ));
-      const result = await translateBatchFile({
-        source_path: item.source_path,
-        source_lang: item.source_lang,
-        target_lang: item.target_lang,
-        model: context.getModelName(),
-        prompt: context.getPrompt(),
-      });
-      results.push(result);
-      if (progress) {
-        progress.value = index + 1;
-      }
-      setBatchStatus(batchProgressLabel(
-        "Translated",
-        results.length,
-        plan.candidates.length,
-        item.translation_id,
-        startedAt,
-        results.length
-      ));
-      batchLog(results);
-    }
-    setBatchStatus(`Batch complete: ${results.length} translated (time left: 00:00 min).`);
-    await context.refreshAfterWrite();
-  } catch (error) {
-    setBatchStatus(`Batch stopped after ${results.length}/${plan.candidates.length} (${batchTimeLeftLabel(
-      startedAt,
-      results.length,
-      plan.candidates.length
-    )}).`);
-    batchLog({
-      error: error.message,
-      completed: results.length,
-      total: plan.candidates.length,
-      results,
+    currentJob = await createTranslationJob({
+      plan,
+      model: context.getModelName(),
+      prompt: context.getPrompt(),
+      concurrency,
     });
+    renderCurrentJob();
+    schedulePoll();
+  } catch (error) {
+    batchLog(error.message);
+    setBatchStatus("Could not start background translation job.");
   } finally {
     setBusy(false);
-    setRunEnabled(Boolean(batchPlan?.candidates.length));
   }
+}
+
+async function reconnectCurrentJob() {
+  const response = await getCurrentTranslationJob();
+  if (!mounted) {
+    return;
+  }
+  currentJob = response.job || null;
+  renderCurrentJob();
+  if (isActiveJob(currentJob)) {
+    schedulePoll();
+  }
+}
+
+async function pollCurrentJob() {
+  stopPolling();
+  if (!mounted || !currentJob?.id) {
+    return;
+  }
+  try {
+    currentJob = await getTranslationJob(currentJob.id);
+    renderCurrentJob();
+    if (isActiveJob(currentJob)) {
+      schedulePoll();
+    } else {
+      await refreshAfterTerminalJob(currentJob);
+    }
+  } catch (error) {
+    batchLog(error.message);
+    schedulePoll(3000);
+  }
+}
+
+async function controlTranslationJob(action) {
+  if (!currentJob?.id) {
+    batchLog("No translation job is selected.");
+    return;
+  }
+  setBusy(true);
+  try {
+    currentJob = await runTranslationJobAction(currentJob.id, action);
+    renderCurrentJob();
+    if (isActiveJob(currentJob)) {
+      schedulePoll();
+    } else {
+      stopPolling();
+      await refreshAfterTerminalJob(currentJob);
+    }
+  } finally {
+    setBusy(false);
+  }
+}
+
+function schedulePoll(delay = 1000) {
+  if (!mounted) {
+    return;
+  }
+  stopPolling();
+  pollTimer = window.setTimeout(() => pollCurrentJob(), delay);
+}
+
+function stopPolling() {
+  if (pollTimer !== null) {
+    window.clearTimeout(pollTimer);
+    pollTimer = null;
+  }
+}
+
+async function refreshAfterTerminalJob(job) {
+  if (!job?.id || refreshedTerminalJobs.has(job.id)) {
+    return;
+  }
+  refreshedTerminalJobs.add(job.id);
+  await context.refreshAfterWrite();
+}
+
+function isActiveJob(job) {
+  return Boolean(job && ["queued", "running"].includes(job.status));
 }
 
 function renderBatchPlan() {
@@ -235,27 +301,91 @@ function renderBatchPlan() {
   batchLog(plan);
 }
 
-function formatBatchTimeLeft(milliseconds) {
-  const totalSeconds = Math.max(0, Math.round(milliseconds / 1000));
-  const minutes = Math.floor(totalSeconds / 60);
-  const seconds = totalSeconds % 60;
-  return `${String(minutes).padStart(2, "0")}:${String(seconds).padStart(2, "0")} min`;
-}
-
-function batchTimeLeftLabel(startedAt, completedCount, totalCount) {
-  if (startedAt == null || completedCount < 1) {
-    return "time left: --:-- min";
+function renderCurrentJob() {
+  const summary = $("batch-job-summary");
+  const progress = $("batch-progress");
+  if (!summary || !progress) {
+    return;
   }
-  const elapsed = performance.now() - startedAt;
-  const averagePerFile = elapsed / completedCount;
-  const remainingCount = Math.max(0, totalCount - completedCount);
-  return `time left: ${formatBatchTimeLeft(remainingCount * averagePerFile)}`;
+  if (!currentJob) {
+    summary.innerHTML = "";
+    progress.max = 0;
+    progress.value = 0;
+    setBatchStatus("No background translation job.");
+    updateButtons();
+    return;
+  }
+
+  const counts = currentJob.counts || {};
+  const rateLimit = currentJob.rate_limit || {};
+  const usage = currentJob.usage || {};
+  const status = currentJob.paused ? "paused" : currentJob.cancel_requested ? "cancelling" : currentJob.status;
+  progress.max = currentJob.total_items || 0;
+  progress.value = currentJob.terminal_items || 0;
+  summary.innerHTML = `
+    <span class="pill">Job: <strong>${escapeHtml(currentJob.id)}</strong></span>
+    <span class="pill">Status: <strong>${escapeHtml(status)}</strong></span>
+    <span class="pill">Workers: <strong>${currentJob.concurrency}</strong></span>
+    <span class="pill">Running: <strong>${counts.running || 0}</strong></span>
+    <span class="pill">Queued: <strong>${counts.queued || 0}</strong></span>
+    <span class="pill">Completed: <strong>${counts.completed || 0}</strong></span>
+    <span class="pill">Failed: <strong>${counts.failed || 0}</strong></span>
+    <span class="pill">Stale: <strong>${counts.stale || 0}</strong></span>
+    <span class="pill">Rate: <strong>${formatRate(currentJob.throughput_per_minute)}</strong></span>
+    <span class="pill">ETA: <strong>${formatDuration(currentJob.eta_seconds)}</strong></span>
+    <span class="pill">API calls: <strong>${usage.api_calls || 0}</strong></span>
+    <span class="pill">Tokens: <strong>${usage.total_tokens || 0}</strong></span>
+    <span class="pill">Cost: <strong>${formatCost(usage.cost)}</strong></span>
+    ${rateLimit.active ? `<span class="pill">Cooldown: <strong>${formatDuration(rateLimit.remaining_seconds)}</strong></span>` : ""}
+  `;
+  setBatchStatus(jobStatusLabel(currentJob));
+  batchLog({
+    id: currentJob.id,
+    status,
+    counts,
+    recent_failures: currentJob.recent_failures || [],
+    rate_limit: rateLimit,
+  });
+  updateButtons();
 }
 
-function batchProgressLabel(action, currentCount, totalCount, translationId, startedAt, completedCount) {
-  const timeLeft = batchTimeLeftLabel(startedAt, completedCount, totalCount);
-  const fileLabel = translationId ? `: ${translationId}` : "";
-  return `${action} ${currentCount}/${totalCount} (${timeLeft})${fileLabel}`;
+function jobStatusLabel(job) {
+  const completed = job.terminal_items || 0;
+  const total = job.total_items || 0;
+  if (job.cancel_requested && isActiveJob(job)) {
+    return `Cancellation requested: ${completed}/${total} finished; running files may complete.`;
+  }
+  if (job.paused) {
+    return `Paused: ${completed}/${total} finished (${formatDuration(job.eta_seconds)} remaining estimate).`;
+  }
+  if (isActiveJob(job)) {
+    return `Background translation: ${completed}/${total} finished (${formatDuration(job.eta_seconds)} remaining estimate).`;
+  }
+  return `Job ${job.status}: ${completed}/${total} finished.`;
+}
+
+function formatDuration(seconds) {
+  if (seconds == null || !Number.isFinite(Number(seconds))) {
+    return "--";
+  }
+  const totalSeconds = Math.max(0, Math.round(Number(seconds)));
+  const hours = Math.floor(totalSeconds / 3600);
+  const minutes = Math.floor((totalSeconds % 3600) / 60);
+  const remainingSeconds = totalSeconds % 60;
+  if (hours) {
+    return `${hours}h ${String(minutes).padStart(2, "0")}m`;
+  }
+  return `${minutes}m ${String(remainingSeconds).padStart(2, "0")}s`;
+}
+
+function formatRate(value) {
+  const numeric = Number(value || 0);
+  return numeric > 0 ? `${numeric.toFixed(2)}/min` : "--";
+}
+
+function formatCost(value) {
+  const numeric = Number(value || 0);
+  return numeric > 0 ? `$${numeric.toFixed(4)}` : "--";
 }
 
 function formatTargetCounts(counts, languageNames) {
@@ -326,12 +456,35 @@ function languageLabel(code, name) {
 }
 
 function setBusy(isBusy) {
+  busy = isBusy;
+  updateButtons();
+}
+
+function updateButtons() {
   const planButton = $("batch-plan");
+  const runButton = $("batch-run");
+  const pauseButton = $("batch-pause");
+  const resumeButton = $("batch-resume");
+  const cancelButton = $("batch-cancel");
+  const retryButton = $("batch-retry");
+  const active = isActiveJob(currentJob);
   if (planButton) {
-    planButton.disabled = isBusy;
+    planButton.disabled = busy || active;
   }
-  if (isBusy) {
-    setRunEnabled(false);
+  if (runButton) {
+    runButton.disabled = busy || active || !batchPlan?.candidates.length;
+  }
+  if (pauseButton) {
+    pauseButton.disabled = busy || !active || currentJob.paused || currentJob.cancel_requested;
+  }
+  if (resumeButton) {
+    resumeButton.disabled = busy || !active || !currentJob.paused || currentJob.cancel_requested;
+  }
+  if (cancelButton) {
+    cancelButton.disabled = busy || !active || currentJob.cancel_requested;
+  }
+  if (retryButton) {
+    retryButton.disabled = busy || active || !(currentJob?.counts?.failed > 0);
   }
 }
 
@@ -341,11 +494,3 @@ function setBatchStatus(text) {
     status.textContent = text;
   }
 }
-
-function setRunEnabled(isEnabled) {
-  const button = $("batch-run");
-  if (button) {
-    button.disabled = !isEnabled;
-  }
-}
-

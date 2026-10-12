@@ -1,0 +1,60 @@
+---
+lang: en
+translation_id: circusfinder/places/jugglingmap/tainan-fire-dance-juggling-practice-venue
+created: '2026-10-11'
+update: '2026-10-11'
+publish: true
+tags:
+- circusfinder
+- juggling
+- training-space
+- jugglingmap
+title: 臺南火舞&雜耍練習場所（Tainan Fire Dance & Juggling Practice Venue）
+description: 臺南火舞&雜耍練習場所（Tainan Fire Dance & Juggling Practice Venue） is listed on the community-maintained JugglingMap as a juggling training or juggling club.
+translation_status: original
+translation_source_lang: en
+directory_id: jugglingmap-tainan-fire-dance-juggling-practice-venue
+entry_kinds:
+- training_space
+directory_status: active
+location_precision: approximate
+organization: 臺南火舞&雜耍練習場所（Tainan Fire Dance & Juggling Practice Venue）
+last_verified: '2026-10-11'
+verification_status: imported_public_map
+source:
+- name: JugglingMap
+  url: https://jugglingmap.org/pin/01M13NASM1F07F91THA6G93X4X
+  dataset_url: https://jugglingmap.org/api/v1/pins
+  record_id: 01M13NASM1F07F91THA6G93X4X:openTraining
+  record_name: 臺南火舞&雜耍練習場所（Tainan Fire Dance & Juggling Practice Venue）
+  retrieved: '2026-10-11'
+  batch_id: jugglingmap-2026-10-11
+  reuse_basis: Direct permission from the responsible source persons
+latitude: 22.998168963223097
+longitude: 120.21705028539075
+address: 飛撲雕像, 1, 大學路, 台南市, 臺灣
+schedule_note: free
+source_content_language: und
+jugglingmap_pin_id: 01M13NASM1F07F91THA6G93X4X
+jugglingmap_categories:
+- openTraining
+indoor_outdoor:
+- outdoor
+---
+
+# 臺南火舞&雜耍練習場所（Tainan Fire Dance & Juggling Practice Venue）
+
+臺南火舞&雜耍練習場所（Tainan Fire Dance & Juggling Practice Venue） is listed on the community-maintained JugglingMap as a juggling training or juggling club.
+
+Location as provided by the source: 飛撲雕像, 1, 大學路, 台南市, 臺灣
+
+## Juggling Training Or Juggling Club
+
+平時是成功大學火舞社社團練習時間用的場地，也歡迎日常雜耍練習加入
+This space is usually used by the National Cheng Kung University Fire Dance Club for practice, and is also open to casual juggling practice.
+
+Access: free
+
+## Source
+
+Imported from [JugglingMap](https://jugglingmap.org/pin/01M13NASM1F07F91THA6G93X4X) on 2026-10-11. The position is treated as approximate because the community map does not provide a structured location-precision field. Current details should be checked on JugglingMap before visiting.

@@ -209,7 +209,7 @@ use orange markers and must not be treated as street addresses.
 Every published directory record has a `source` list in its YAML frontmatter.
 Each source contains at least a human-readable `name` and an HTTP(S) `url`;
 imported datasets may additionally record their dataset URL, original record
-name, retrieval date, and import batch ID. The generated JSON and CircusFinder
+ID and name, retrieval date, import batch ID, and reuse basis. The generated JSON and CircusFinder
 interface retain and display this provenance. DiversAbility imports live below
 `docs/en/circusfinder/places/diversability/` so that batch can be reviewed,
 updated, or removed independently.
@@ -223,6 +223,22 @@ default and publishes only named records marked `Open` in the CSV export:
 python tools/circusfinder/import_aerial_map.py "path/to/export.csv"
 python tools/circusfinder/import_aerial_map.py "path/to/export.csv" --apply
 ```
+
+JugglingMap and Circuscentrum have repeatable network importers. Both are
+dry-run by default; applying or pruning always requires an explicit flag:
+
+```powershell
+python tools/circusfinder/import_jugglingmap.py
+python tools/circusfinder/import_jugglingmap.py --apply
+python tools/circusfinder/import_circuscentrum.py
+python tools/circusfinder/import_circuscentrum.py --apply
+```
+
+JugglingMap source-owned entries are written below
+`docs/en/circusfinder/places/jugglingmap/`. Circuscentrum's Dutch source text
+is stored as original content below `docs/nl/circusfinder/places/circuscentrum/`.
+Their stable upstream IDs support safe rescans and in-place updates. The shared
+source registry is `tools/config/circusfinder_sources.json`.
 
 The active-snapshot policy, reviewed pruning workflow, duplicate/update rules,
 and possible future scheduling are documented in
@@ -342,8 +358,18 @@ call the translation API; it only selects candidate files, applies `max_files`,
 counts source characters, and shows the candidate list. Generated aggregate
 pages such as `sitemap.md` are excluded from batch translation plans because
 they duplicate links to real pages and can be disproportionately expensive.
-Running the plan then processes only those planned files and shows progress file
-by file.
+Starting the reviewed plan creates a persistent server-side job. The local
+dev-console process runs up to four translations concurrently by default, while
+the browser only controls and observes the job. Closing or reloading the browser
+does not stop it. The Batch Translate tab reconnects to the current job and can
+pause, resume, cancel queued work, or retry failed items.
+
+Job state is stored locally in the ignored
+`.cache/dev_console/translation_jobs.sqlite3` database. Markdown remains the
+source of truth: workers validate the planned source hashes before translating
+and again before atomically replacing a target. Interrupted jobs resume when the
+dev console restarts, and already-written targets are recognized from their
+translation provenance without another model call.
 
 The Original Graph tab visualizes explicit Markdown links and Obsidian wikilinks
 between canonical original pages. Links may resolve through translated files,

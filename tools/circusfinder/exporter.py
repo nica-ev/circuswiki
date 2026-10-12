@@ -83,7 +83,17 @@ def _sources(value: Any) -> list[dict[str, str]]:
             continue
         source = {
             key: _string(item.get(key))
-            for key in ("name", "url", "dataset_url", "record_name", "retrieved", "batch_id")
+            for key in (
+                "name",
+                "url",
+                "dataset_url",
+                "record_id",
+                "record_name",
+                "retrieved",
+                "batch_id",
+                "reuse_basis",
+                "license",
+            )
             if _string(item.get(key))
         }
         if source:

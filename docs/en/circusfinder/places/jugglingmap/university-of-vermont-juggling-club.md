@@ -1,0 +1,73 @@
+---
+lang: en
+translation_id: circusfinder/places/jugglingmap/university-of-vermont-juggling-club
+created: '2026-10-11'
+update: '2026-10-11'
+publish: true
+tags:
+- circusfinder
+- juggling
+- training-space
+- jugglingmap
+title: University of Vermont Juggling Club
+description: University of Vermont Juggling Club is listed on the community-maintained JugglingMap as a juggling training or juggling club.
+translation_status: original
+translation_source_lang: en
+directory_id: jugglingmap-university-of-vermont-juggling-club
+entry_kinds:
+- training_space
+directory_status: active
+location_precision: approximate
+organization: University of Vermont Juggling Club
+last_verified: '2026-10-11'
+verification_status: imported_public_map
+source:
+- name: JugglingMap
+  url: https://jugglingmap.org/pin/01M1A7GCXCV2NW9B7Z49ZZ2NAX
+  dataset_url: https://jugglingmap.org/api/v1/pins
+  record_id: 01M1A7GCXCV2NW9B7Z49ZZ2NAX:openTraining
+  record_name: University of Vermont Juggling Club
+  retrieved: '2026-10-11'
+  batch_id: jugglingmap-2026-10-11
+  reuse_basis: Direct permission from the responsible source persons
+latitude: 44.4737365
+longitude: -73.1941468
+address: University of Vermont, Henry Street, Burlington, Vermont, United States
+public_emails:
+- ezrahertzberg42@gmail.com
+opening_hours:
+- Fri 03:30–05:30
+schedule_note: free
+source_content_language: und
+jugglingmap_pin_id: 01M1A7GCXCV2NW9B7Z49ZZ2NAX
+jugglingmap_categories:
+- openTraining
+indoor_outdoor:
+- outdoor
+---
+
+# University of Vermont Juggling Club
+
+University of Vermont Juggling Club is listed on the community-maintained JugglingMap as a juggling training or juggling club.
+
+Location as provided by the source: University of Vermont, Henry Street, Burlington, Vermont, United States
+
+## Juggling Training Or Juggling Club
+
+University of Vermont juggling club.
+
+Schedule supplied by the source: Fri 03:30–05:30
+
+Access: free
+
+Contact as provided by the source:
+
+ezrahertzberg42@gmail.com
+
+Links or social accounts as provided by the source:
+
+@uvmjuggling instagram
+
+## Source
+
+Imported from [JugglingMap](https://jugglingmap.org/pin/01M1A7GCXCV2NW9B7Z49ZZ2NAX) on 2026-10-11. The position is treated as approximate because the community map does not provide a structured location-precision field. Current details should be checked on JugglingMap before visiting.
